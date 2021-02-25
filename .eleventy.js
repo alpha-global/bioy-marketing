@@ -4,7 +4,10 @@ module.exports = function(eleventyConfig) {
   // eleventyConfig.addPassthroughCopy('src/admin/config.yml');
 
   // eleventyConfig.addWatchTarget('./src/admin/config.yml');
-  // eleventyConfig.addWatchTarget('./src/assets/css/tailwind.css');
+  // eleventyConfig.addWatchTarget('./src/assets/css/app.css');
+
+  eleventyConfig.addLayoutAlias("default", "layouts/base.njk");
+  eleventyConfig.addLayoutAlias("commentary", "layouts/commentary.njk");
 
   return {
     dir: {
