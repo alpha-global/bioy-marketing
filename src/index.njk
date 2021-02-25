@@ -1,0 +1,9 @@
+<h1>Bible in One Year</h1>
+
+{% for d in bioy %}
+  <p>
+    <a href="/commentary/{{ d.variant }}/{{ d.locale }}/{{ d.devotionId }}">
+      {{ d.variant }} - {{ d.locale }} - {{ d.devotionId }} - {{ d.title }}
+    </a>
+  </p>
+{% endfor %}

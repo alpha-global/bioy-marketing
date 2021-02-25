@@ -1,0 +1,24 @@
+---
+pagination:
+  data: bioy
+  size: 1
+  alias: devotion
+permalink: "commentary/{{ devotion.variant }}/{{ devotion.locale }}/{{ devotion.devotionId }}/index.html"
+---
+
+<title>Day {{ devotion.devotionId }}</title>
+
+<h1>{{ devotion.title }}</h1>
+
+{{ devotion.introduction|safe }}
+
+<section>
+  <h2>{{ devotion.wisdom.reference }}</h2>
+
+  <div>
+  {{ devotion.wisdom.text|safe }}
+  </div>
+
+  {{ devotion.wisdom.comment|safe }}
+
+</section>

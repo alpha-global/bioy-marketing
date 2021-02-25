@@ -1,0 +1,16 @@
+{
+  "name": "bioy-marketing-site",
+  "version": "0.0.1",
+  "description": "Marketing site for Bible in One Year",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "wipe": "rm -rf ./.cache && rm -rf ./build"
+  },
+  "author": "Alpha International / OneSheep",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-cache-assets": "^2.1.0"
+  }
+}
