@@ -4,7 +4,10 @@ pagination:
   data: bioy
   size: 1
   alias: devotion
-permalink: "commentary/{{ devotion.variant }}/{{ devotion.locale }}/{{ devotion.devotionId }}/index.html"
+permalink: "{{ devotion.url }}/index.html"
+eleventyComputed:
+  title: "{{ devotion.title }}"
+  locale: "{{ devotion.locale }}"
 ---
 
 <h1 class="text-xl">{{ devotion.title }}</h1>

@@ -1,0 +1,20 @@
+---
+layout: default
+pagination:
+  data: site.locales
+  size: 1
+  alias: locale
+permalink: "{{ locale }}/index.html"
+---
+
+<h1 class="text-2xl">
+  {{ site[locale].title }}
+</h1>
+
+{% for d in bioy %}
+  <p>
+    <a href="{{ d.url }}">
+      {{ d.variant }} - {{ d.locale }} - {{ d.devotionId }} - {{ d.title }}
+    </a>
+  </p>
+{% endfor %}

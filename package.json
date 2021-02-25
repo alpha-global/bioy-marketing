@@ -4,9 +4,9 @@
   "description": "Marketing site for Bible in One Year",
   "main": "index.js",
   "scripts": {
-    "dev": "eleventy --serve & mix watch",
+    "dev": "ELEVENTY_ENV=development eleventy --serve & mix watch",
     "wipe": "rm -rf ./.cache && rm -rf ./build",
-    "production": "eleventy && mix --production"
+    "production": "ELEVENTY_ENV=production eleventy && mix --production"
   },
   "author": "Alpha International / OneSheep",
   "license": "ISC",

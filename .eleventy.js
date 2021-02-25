@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
   // eleventyConfig.addWatchTarget('./src/assets/css/app.css');
 
   eleventyConfig.addLayoutAlias("default", "layouts/base.njk");
+  eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
   eleventyConfig.addLayoutAlias("commentary", "layouts/commentary.njk");
 
   return {
@@ -16,6 +17,8 @@ module.exports = function(eleventyConfig) {
       input: 'src',
       output: 'build'
     },
-    markdownTemplateEngine: "njk"
+    markdownTemplateEngine: "njk",
+    templateFormats: ["html", "njk", "md"],
+    passthroughFileCopy: true,
   };
 };

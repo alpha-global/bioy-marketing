@@ -11,8 +11,9 @@ async function fetchDay(day, locale='en_GB', variant='classic') {
 
   // To build the pages and cool URIs later we'll need lto keep hold of
   // the locale and variant…
-  json[variant].locale = locale;
+  json[variant].locale = locale.toLowerCase();
   json[variant].variant = variant;
+  json[variant].url = `/${locale.toLowerCase()}/${variant}/${day}`;
 
   return json[variant]
 }
