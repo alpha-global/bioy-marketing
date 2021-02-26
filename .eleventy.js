@@ -1,7 +1,7 @@
 module.exports = function(eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
 
-  // eleventyConfig.addPassthroughCopy('src/admin/config.yml');
+  eleventyConfig.addPassthroughCopy('src/assets/icon');
 
   // eleventyConfig.addWatchTarget('./src/admin/config.yml');
   // eleventyConfig.addWatchTarget('./src/assets/css/app.css');

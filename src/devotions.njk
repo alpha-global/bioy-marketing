@@ -10,17 +10,53 @@ eleventyComputed:
   locale: "{{ devotion.locale }}"
 ---
 
-<h1 class="text-xl">{{ devotion.title }}</h1>
+<article class="prose lg:prose-xl mx-auto">
+  <h1 class="text-xl">{{ devotion.title }}</h1>
 
-{{ devotion.introduction|safe }}
+  {{ devotion.introduction|safe }}
 
-<section>
-  <h2>{{ devotion.wisdom.reference }}</h2>
+  <section>
+    <h2>Wisdom: {{ devotion.wisdom.reference }}</h2>
 
-  <div>
-  {{ devotion.wisdom.text|safe }}
-  </div>
+    <div>
+    {{ devotion.wisdom.text|safe }}
+    </div>
 
-  {{ devotion.wisdom.comment|safe }}
+    {{ devotion.wisdom.comment|safe }}
 
-</section>
+  </section>
+
+  <section>
+    <h2>New Testament: {{ devotion.newTestament.reference }}</h2>
+
+    <div>
+    {{ devotion.newTestament.text|safe }}
+    </div>
+
+    {{ devotion.newTestament.comment|safe }}
+
+  </section>
+
+  <section>
+    <h2>Old Testament: {{ devotion.oldTestament.reference }}</h2>
+
+    <div>
+    {{ devotion.oldTestament.text|safe }}
+    </div>
+
+    {{ devotion.oldTestament.comment|safe }}
+
+  </section>
+
+  <section>
+    <h2>Pippa adds</h2>
+    {{ devotion.pippa|safe }}
+  </section>
+
+  <section>
+    <h2>References</h2>
+    <div class="prose-sm">
+    {{ devotion.references|safe }}
+    </div>
+  </section>
+</article>
