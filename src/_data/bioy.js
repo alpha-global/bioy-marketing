@@ -22,7 +22,8 @@ module.exports = async function() {
   try {
 
     const variants = {
-      'classic': ['en_Gb', 'es', 'ar', 'hi', 'zh_Hans'],
+      'classic': ['en_Gb', 'es'],
+      // 'classic': ['en_Gb', 'es', 'ar', 'hi', 'zh_Hans'],
       'youth': ['en_Gb'],
       'express': ['en_Gb']
     }
@@ -30,7 +31,7 @@ module.exports = async function() {
 
     for (const [variant, locales] of Object.entries(variants)) {
       locales.forEach(async function (locale) {
-        for (let day = 1; day <= 3; day++) {
+        for (let day = 55; day <= 70; day++) {
           data.push(await fetchDay(day, locale, variant));
         }
       });
