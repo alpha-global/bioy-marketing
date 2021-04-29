@@ -4,10 +4,10 @@ const Cache = require("@11ty/eleventy-cache-assets");
 
 /**
  * Fetch devotion range
- * @param {Number} from 
- * @param {Number} to 
- * @param {String} locale 
- * @param {String} variant 
+ * @param {Number} from
+ * @param {Number} to
+ * @param {String} locale
+ * @param {String} variant
  * @returns {Promise<Array>}
  */
 async function fetchDevotionRange(from = 1, to = 365, locale = 'en_GB', variant = 'classic') {
@@ -27,8 +27,8 @@ async function fetchDevotionRange(from = 1, to = 365, locale = 'en_GB', variant 
 
 /**
  * Fetch and cache devotion range given the devotion range url
- * @param {String} url 
- * @param {Array} devotions 
+ * @param {String} url
+ * @param {Array} devotions
  * @returns {Promise<Array>}
  */
 async function _fetchDevotionRangeFromUrl(url, devotions) {
@@ -47,7 +47,21 @@ async function _fetchDevotionRangeFromUrl(url, devotions) {
   return devotions
 }
 
-module.exports = async function () {
+module.exports = async function (fullImport = false) {
+
+  startDayNumber = 1;
+  endDayNumber = 365;
+
+  if (fullImport == false) {
+    var now = new Date();
+    var start = new Date(now.getFullYear(), 0, 0);
+    var diff = now - start;
+    var oneDay = 1000 * 60 * 60 * 24;
+    var day = Math.floor(diff / oneDay);
+    startDayNumber = day - 2;
+    endDayNumber = day + 2;
+  }
+
   try {
 
     const variants = {
@@ -59,7 +73,7 @@ module.exports = async function () {
 
     for (const [variant, locales] of Object.entries(variants)) {
       for (const locale of locales) {
-        data.push(...await fetchDevotionRange(1, 365, locale, variant))
+        data.push(...await fetchDevotionRange(startDayNumber, endDayNumber, locale, variant))
       }
     }
 
