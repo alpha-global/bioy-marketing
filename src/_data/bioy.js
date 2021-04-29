@@ -1,40 +1,66 @@
+
 const Cache = require("@11ty/eleventy-cache-assets");
 
-async function fetchDay(day, locale='en_GB', variant='classic') {
 
-  let url = `https://api.bioydata.com/api/v1/devotion/${day}?locale=${locale}&variant=${variant}`;
+/**
+ * Fetch devotion range
+ * @param {Number} from 
+ * @param {Number} to 
+ * @param {String} locale 
+ * @param {String} variant 
+ * @returns {Promise<Array>}
+ */
+async function fetchDevotionRange(from = 1, to = 365, locale = 'en_GB', variant = 'classic') {
+  const url = `https://api.bioydata.com/api/v1/devotion/from/${from}/to/${to}?locale=${locale}&variant=${variant}`;
+  let devotions = await _fetchDevotionRangeFromUrl(url, []);
+  devotions.forEach((_, index) => {
+    // To build the pages and cool URIs later we'll need lto keep hold of
+    // the locale and variant…
+    devotions[index]['locale'] = locale.toLowerCase();
+    devotions[index]['variant'] = variant;
+    devotions[index]['url'] = `/${locale.toLowerCase()}/${variant}/${devotions[index]['devotionId']}`;
+  })
 
+  return devotions
+}
+
+
+/**
+ * Fetch and cache devotion range given the devotion range url
+ * @param {String} url 
+ * @param {Array} devotions 
+ * @returns {Promise<Array>}
+ */
+async function _fetchDevotionRangeFromUrl(url, devotions) {
   let json = await Cache(url, {
     duration: "1d",
     type: "json"
   });
 
-  // To build the pages and cool URIs later we'll need lto keep hold of
-  // the locale and variant…
-  json[variant].locale = locale.toLowerCase();
-  json[variant].variant = variant;
-  json[variant].url = `/${locale.toLowerCase()}/${variant}/${day}`;
 
-  return json[variant]
+  devotions.push(...json['data'])
+
+  if (json['links']['next'] != null) {
+    await _fetchDevotionRangeFromUrl(json['links']['next'], devotions)
+  }
+
+  return devotions
 }
 
-module.exports = async function() {
+module.exports = async function () {
   try {
 
     const variants = {
-      'classic': ['en_Gb', 'es'],
-      // 'classic': ['en_Gb', 'es', 'ar', 'hi', 'zh_Hans'],
+      'classic': ['en_Gb', 'es', 'ar', 'hi', 'zh_Hans'],
       'youth': ['en_Gb'],
       'express': ['en_Gb']
     }
     const data = [];
 
     for (const [variant, locales] of Object.entries(variants)) {
-      locales.forEach(async function (locale) {
-        for (let day = 55; day <= 70; day++) {
-          data.push(await fetchDay(day, locale, variant));
-        }
-      });
+      for (const locale of locales) {
+        data.push(...await fetchDevotionRange(1, 365, locale, variant))
+      }
     }
 
     return data;
