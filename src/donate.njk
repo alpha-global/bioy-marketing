@@ -1,0 +1,29 @@
+---
+layout: default
+pagination:
+  data: site.locales
+  size: 1
+  alias: locale
+permalink: "{{ locale }}/donate/index.html"
+---
+
+{% set _tr = translations[locale].donate %}
+
+<main class="container mx-auto p-2 sm:p-4 prose prose-lg">
+  <h1>{{ _tr.title }}</h1>
+  <p>{{ _tr.intro }}</p>
+</main>
+
+<section class="container mx-auto p-2 sm:p-4 text-center">
+  <div id="bbox-root" class="mx-auto prose prose-lg"></div>
+  <script type="text/javascript">
+        window.bboxInit = function () {
+            bbox.showForm('68492fa3-3097-44c2-9af5-baf286500b85');
+        };
+        (function () {
+            var e = document.createElement('script'); e.async = true;
+            e.src = 'https://bbox.blackbaudhosting.com/webforms/bbox-min.js';
+            document.getElementsByTagName('head')[0].appendChild(e);
+        } ());
+  </script>
+</section>

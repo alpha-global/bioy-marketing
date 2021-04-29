@@ -1,6 +1,8 @@
+{% set _tr = translations[locale].footer %}
+
 <footer class="border-t border-red-500 mt-4 p-4 bg-gray-100">
   <ul class="">
-    {% for link in translations.footer[locale].links%}
+    {% for link in _tr.links %}
       <li class="inline pr-4">
         <a href="{{ link.link }}">{{ link.title }}</a>
       </li>
