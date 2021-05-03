@@ -1,13 +1,15 @@
 ---
 layout: default
-locale: en_gb
+locale: en
 ---
 
 Pick language:
-<div>
-  {% for locale in site.locales %}
-    <a href="/{{ locale }}">{{ site[locale].language }}</a>
+<div class="flex">
+  {% for lang in site.languages %}
+  <div class="mr-4">
+    <a href="/{{ lang.locale }}">{{ lang.language }}</a>
+  </div>
   {% endfor %}
 </div>
 
-{% set locale = 'en_gb' %}
+{% set locale = 'en' %}

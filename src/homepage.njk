@@ -7,16 +7,15 @@ pagination:
 permalink: "{{ locale }}/index.html"
 ---
 
-{#
-{% for d in bioy %}
-  <p>
-    <a href="{{ d.url }}">
-      {{ d.variant }} - {{ d.locale }} - {{ d.devotionId }} - {{ d.title }}
-    </a>
-  </p>
-{% endfor %}
-#}
-
-<div class="p-4 border border-red-500 mt-4 flex items-center justify-center js-today" data-locale="{{ locale }}" data-variant="classic">
-  <a href="/{{ locale }}/classic/{{ site.today }}" class="bg-red-500 text-white p-2 hover:bg-red-700">{{ translations.readNow[locale].readNow }}</a>
+<div
+  class="p-4 border border-red-500 mt-4 flex items-center justify-center js-today"
+  data-locale="{{ locale }}"
+  data-variant="classic"
+>
+  <a
+    href="/{{ locale }}/classic/{{ site.today }}"
+    class="bg-red-500 text-white p-2 hover:bg-red-700"
+  >
+    {{ tr.home.read }}
+  </a>
 </div>

@@ -43,7 +43,7 @@ htb.org.uk uses its own cookies for a number of purposes, including to:
 - Estimate and report our total audience size and traffic.
 - Conduct research to improve htb.org.uk content and services.
 
-[Read our cookie policy](/en_gb/cookies).
+[Read our cookie policy](/es/cookies).
 
 ## Information Use, Sharing and Disclosure
 
