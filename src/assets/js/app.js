@@ -3,10 +3,9 @@ const { locales } = require("../../_data/site");
 // Redirect base URL
 var currentPath = window.location.pathname;
 if (!currentPath || currentPath === '/') {
-  const lang = navigator.language.split('-', '_')[0];
-  const l = ['en', 'es'];
+  const lang = navigator.language.split('-')[0];
 
-  if (l.includes(lang)) {
+  if (locales.includes(lang)) {
     window.location = `/${lang}/`
   }
 }
