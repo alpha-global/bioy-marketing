@@ -1,4 +1,4 @@
-const todaysDayNumber = ()=> {
+const todaysDayNumber = () => {
   const now = new Date();
   const start = new Date(now.getFullYear(), 0, 0);
   const diff = now - start;
@@ -6,30 +6,34 @@ const todaysDayNumber = ()=> {
   return Math.floor(diff / oneDay);
 };
 
+// https://en.wikipedia.org/wiki/IETF_language_tag
+const languages = [
+  {
+    locale: "en",
+    language: "English"
+  },
+  {
+    locale: "es",
+    language: "Español"
+  },
+  {
+    locale: "ar",
+    language: "عربى"
+  },
+  {
+    locale: "hi",
+    language: "हिंदी"
+  },
+  {
+    locale: "zh",
+    language: "中國人"
+  }
+];
+
 module.exports = {
   buildTime: new Date(),
   env: process.env.ELEVENTY_ENV,
-  locales: ['en_gb', 'es', 'ar', 'hi', 'zh_Hans'],
-  en_gb: {
-    language: "English",
-    title: "Bible in One Year",
-  },
-  es: {
-    language: "Spanish",
-    title: "Biblia en un año"
-  },
-  ar: {
-    language: "Arabic",
-    title: 'תנ"ך בשנה אחת'
-  },
-  hi: {
-    language: "Hindi",
-    title: "बाइबल एक वर्ष"
-  },
-  zh_Hans: {
-    language: "Chinese (Traditional)",
-    title: "一年聖經"
-  },
-  today: todaysDayNumber()
-};
-
+  locales: languages.map(i => i.locale),
+  languages: languages,
+  today: todaysDayNumber(),
+}

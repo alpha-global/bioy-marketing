@@ -1,18 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="{{ locale }}">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
 
-    <link rel="stylesheet" href="/assets/css/app.css" media="screen" type="text/css">
-    <title>{% if title %}{{ title }} | {% endif %}{{ site[locale].title }}</title>
+    <link
+      rel="stylesheet"
+      href="/assets/css/app.css"
+      media="screen"
+      type="text/css"
+    />
+    <title>{% if title %}{{ title }} | {% endif %}{{ tr.title }}</title>
 
     <link rel="shortcut icon" href="/assets/icon/favicon.ico" />
   </head>
 
   <body>
-
     {% include 'partials/header.njk' %}
 
     <main class="p-4">

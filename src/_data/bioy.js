@@ -16,9 +16,10 @@ async function fetchDevotionRange(from = 1, to = 365, locale = 'en_GB', variant 
   devotions.forEach((_, index) => {
     // To build the pages and cool URIs later we'll need lto keep hold of
     // the locale and variant…
-    devotions[index]['locale'] = locale.toLowerCase();
+    const lang = locale.split('_')[0];
+    devotions[index]['locale'] = lang;
     devotions[index]['variant'] = variant;
-    devotions[index]['url'] = `/${locale.toLowerCase()}/${variant}/${devotions[index]['devotionId']}`;
+    devotions[index]['url'] = `/${lang}/${variant}/${devotions[index]['devotionId']}`;
   })
 
   return devotions
