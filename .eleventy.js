@@ -13,9 +13,19 @@ module.exports = function(eleventyConfig) {
 
   const MarkdownIt = require("markdown-it");
   const mdRender = new MarkdownIt();
-  eleventyConfig.addFilter("markdown", function(rawString) {
-    return mdRender.render(rawString);
+
+  // this thing breaks EVERYTHING:
+  eleventyConfig.addFilter("markdown", function (rawString) {
+    const rendered = mdRender.render(rawString);
+    // return eleventyConfig.getFilter("safe")(rendered);  // not sure why this is not working for us
+    return rendered;
   });
+
+   eleventyConfig.addFilter("debugger", (...args) => {
+    console.log(...args)
+    debugger;
+  })
+
 
   return {
     dir: {

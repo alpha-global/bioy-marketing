@@ -2,54 +2,95 @@ backend:
   name: git-gateway
   branch: master
 
-# i18n:
-#   structure: single_file
-#   locales: [en, es, ar, hi, zh]
-#   default_locale: en
+i18n:
+  structure: multiple_folders
+  locales: [en, es, ar, hi, zh]
+  default_locale: en
 
 media_folder: "src/assets/img"
 public_folder: "/assets/img"
 local_backend: true
 
-collections: [
+collections:
+  [
     {
-      name: "pages",
-      label: "Pages",
+      label: "Home",
+      name: "home",
+      folder: "src/_data/blocks",
+      create: false,
+      editor: { preview: false },
+      format: "json",
+      extension: "json",
+      slug: "home",
       i18n: true,
-      identifier_field: name,
-      # format: json,
-      files:
+      fields:
         [
           {
-            name: "home",
-            label: "Home",
-            file: "src/home.11tydata.json",
+            name: "intro",
+            label: "Introduction",
+            widget: "markdown",
             i18n: true,
-            fields:
-              [
-                {
-                  name: "intro",
-                  label: "Introduction",
-                  widget: "markdown",
-                  i18n: true,
-                },
-                { name: "about", label: "About", widget: "text", i18n: true },
-              ],
           },
           {
-            name: "donate",
-            label: "Donate",
-            file: "src/donate.11tydata.json",
+            label: "Title",
+            name: "title",
+            widget: "string",
+            required: true,
             i18n: true,
-            fields: [
-                { name: "title", label: "Title", widget: "text", i18n: true },
-                {
-                  name: "intro",
-                  label: "Introduction",
-                  widget: "markdown",
-                  # i18n: true,
-                },
-              ],
+          },
+        ],
+    },
+    {
+      label: "Donate",
+      name: "donate",
+      folder: "src/_data/blocks",
+      create: false,
+      editor: { preview: false },
+      format: "json",
+      extension: "json",
+      slug: "donate",
+      i18n: true,
+      fields:
+        [
+          {
+            name: "intro",
+            label: "Introduction",
+            widget: "markdown",
+            i18n: true,
+          },
+          {
+            label: "Title",
+            name: "title",
+            widget: "string",
+            required: true,
+            i18n: true,
+          },
+        ],
+    },
+    {
+      label: "Privacy",
+      name: "privacy",
+      folder: "src/_data/blocks",
+      create: false,
+      editor: { preview: false },
+      format: "json",
+      extension: "json",
+      slug: "privacy",
+      i18n: true,
+      fields:
+        [
+          {
+            name: "statement",
+            label: "Statement",
+            widget: "markdown",
+            i18n: true,
+          },
+          {
+            label: "Title",
+            name: "title",
+            widget: "string",
+            required: true,
+            i18n: true,
           },
         ],
     },
