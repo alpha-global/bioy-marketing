@@ -7,7 +7,7 @@ pagination:
 permalink: "{{ locale }}/index.html"
 ---
 
-<p>{{ intro }}</p>
+{{ intro | markdown}}
 <div
   class="p-4 border border-red-500 mt-4 flex items-center justify-center js-today"
   data-locale="{{ locale }}"

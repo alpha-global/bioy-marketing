@@ -11,6 +11,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
   eleventyConfig.addLayoutAlias("commentary", "layouts/commentary.njk");
 
+  const MarkdownIt = require("markdown-it");
+  const mdRender = new MarkdownIt();
+  eleventyConfig.addFilter("markdown", function(rawString) {
+    return mdRender.render(rawString);
+  });
+
   return {
     dir: {
       includes: "_includes",
