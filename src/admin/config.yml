@@ -1,0 +1,56 @@
+backend:
+  name: git-gateway
+  branch: master
+
+# i18n:
+#   structure: single_file
+#   locales: [en, es, ar, hi, zh]
+#   default_locale: en
+
+media_folder: "src/assets/img"
+public_folder: "/assets/img"
+local_backend: true
+
+collections: [
+    {
+      name: "pages",
+      label: "Pages",
+      i18n: true,
+      identifier_field: name,
+      # format: json,
+      files:
+        [
+          {
+            name: "home",
+            label: "Home",
+            file: "src/home.11tydata.json",
+            i18n: true,
+            fields:
+              [
+                {
+                  name: "intro",
+                  label: "Introduction",
+                  widget: "markdown",
+                  i18n: true,
+                },
+                { name: "about", label: "About", widget: "text", i18n: true },
+              ],
+          },
+          {
+            name: "donate",
+            label: "Donate",
+            file: "src/donate.11tydata.json",
+            i18n: true,
+            fields: [
+                { name: "title", label: "Title", widget: "text", i18n: true },
+                {
+                  name: "intro",
+                  label: "Introduction",
+                  widget: "markdown",
+                  # i18n: true,
+                },
+              ],
+          },
+        ],
+    },
+  ]
