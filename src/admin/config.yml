@@ -14,6 +14,37 @@ local_backend: true
 collections:
   [
     {
+      label: "Pages",
+      name: "pages",
+      folder: "/src/pages",
+      i18n: true,
+      format: "frontmatter",
+      extension: "md",
+      identifier_field: "title",
+      create: true,
+      editor: { "preview": false },
+      fields: [
+        {
+          label: "Page Title",
+          name: "title",
+          widget: "string",
+          i18n: true,
+        },
+        {
+          label: "Locale",
+          name: "locale",
+          widget: "string",
+          i18n: true,
+        },
+        {
+          label: "Page Body",
+          name: "body",
+          widget: "markdown",
+          i18n: true,
+        }
+      ]
+    },
+    {
       label: "Home",
       name: "home",
       folder: "src/_data/blocks",
