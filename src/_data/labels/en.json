@@ -1,30 +1,25 @@
 {
     "title": "Bible in One Year",
-    "home": {
-        "read": "Read today's devotion"
-    },
-    "footer": {
-        "links": [
-            {
-                "title": "Alpha",
-                "link": "https://www.alpha.org/"
-            },
-            {
-                "title": "HTB Church",
-                "link": "https://www.htb.org/"
-            },
-            {
-                "title": "Donate",
-                "link": "/en/donate"
-            },
-            {
-                "title": "Privacy Policy",
-                "link": "/en/privacy"
-            },
-            {
-                "title": "Cookies",
-                "link": "/en/cookies"
-            }
-        ]
-    }
+    "links": [
+        {
+            "title": "Alpha",
+            "link": "https://www.alpha.org/"
+        },
+        {
+            "title": "HTB Church",
+            "link": "https://www.htb.org/"
+        },
+        {
+            "title": "Donate",
+            "link": "/en/donate"
+        },
+        {
+            "title": "Privacy Policy",
+            "link": "/en/privacy"
+        },
+        {
+            "title": "Cookies",
+            "link": "/en/cookies"
+        }
+    ]
 }
