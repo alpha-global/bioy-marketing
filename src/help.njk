@@ -1,0 +1,35 @@
+---
+layout: default
+pagination:
+  data: site.locales
+  size: 1
+  alias: locale
+permalink: "{{ locale }}/help/index.html"
+---
+<div x-data="store()" x-init="init()">
+  <input type="text" class="searchField__input mb-2" placeholder="SEARCH" x-model="query"/>
+  <ul x-show="!query">
+    {% for helpItem in block.help.helpItems %}
+      <div class="border-2 mb-4 p-8 rounded-sm">
+        <div class="font-semibold inline-block text-gray-600 uppercase">{{helpItem.category}}</div>
+        <h1 class="font-semibold text-red-500">{{helpItem.title}}</h1>
+        <p>{{helpItem.shortAnswer}}</p>
+        {% if helpItem.detailedAnswer %}
+          <a class="underline">See more</a>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </ul>
+
+  <div x-show="!!query">
+    <ul>
+      <template x-for="item in filteredItems()" :key="item">
+        <div class="border-2 mb-4 p-8 rounded-sm">
+          <div class="font-semibold inline-block text-gray-600 uppercase" x-text="item.category"> </div>
+          <h1 class="font-semibold text-red-500" x-text="item.title"/> </h1>
+          <p x-text="item.shortAnswer"/> </p>
+        </div>
+      </template>
+      <ul>
+  </div>
+</div>

@@ -94,4 +94,59 @@ collections:
           },
         ],
     },
+    {
+      label: "Help",
+      name: "Help",
+      folder: "src/_data/blocks",
+      create: true,
+      editor: { preview: false },
+      format: "json",
+      extension: "json",
+      slug: "help",
+      i18n: true,
+      fields: [
+        {
+            label: "Help Items",
+            name: "helpItems",
+            widget: "list",
+            required: true,
+            i18n: true,
+            fields: [
+              {
+              label: 'Title',
+              name: 'title',
+              widget: 'string',
+              required: true, 
+              i18n: true,
+            },
+              {
+              label: 'Category',
+              name: 'category',
+              widget: 'select',
+              options: ['Audio', 'Content', 'App'],
+              required: true, 
+              i18n: true,
+            },
+            {
+              label: 'Short Answer',
+              name: 'shortAnswer',
+              widget: 'text',
+              required: true, 
+              i18n: true,
+            },
+
+            {
+              label: 'Detailed Answer',
+              name: 'detailedAnswer',
+              widget: 'markdown',
+              i18n: true,
+              buttons: ['bold', 'italic', 'link', 'bulleted-list', 'numbered-list'],
+              modes: ['rich_text'],
+              editor_components: []
+            }
+
+            ]
+          },
+        ]
+    },
   ]
