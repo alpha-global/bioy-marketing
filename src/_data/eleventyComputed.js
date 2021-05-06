@@ -1,3 +1,5 @@
+
 module.exports = {
-  tr: data => data.translations[data.locale]
+  label: data => data.labels[data.locale],
+  block: data => data.blocks[data.locale]
 };

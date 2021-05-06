@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "ELEVENTY_ENV=development eleventy --serve & mix watch",
     "setup": "node firstTimeSetup.js",
+    "cms": "npx netlify-cms-proxy-server",
     "wipe": "rm -rf ./.cache && rm -rf ./build",
     "production": "ELEVENTY_ENV=production eleventy && mix --production"
   },
