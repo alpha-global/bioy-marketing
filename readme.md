@@ -48,6 +48,6 @@ Short micro-copy text used for labels can be maintained in the _data/labels/ fol
 Page data is referenced in the templates as follows:
 
 ```
-{{ page.intro }}
+{{ lang.intro }}
 ```
 

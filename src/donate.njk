@@ -8,15 +8,15 @@ permalink: "{{ locale }}/donate/index.html"
 ---
 
 <main class="container mx-auto p-2 sm:p-4 prose prose-lg">
-  <h1>{{ page.heading }}</h1>
-  <p>{{ page.intro }}</p>
+  <h1>{{ lang.heading }}</h1>
+  <p>{{ lang.intro }}</p>
 </main>
 
 <section class="container mx-auto p-2 sm:p-4 text-center">
   <div id="bbox-root" class="mx-auto prose prose-lg"></div>
   <script type="text/javascript">
     window.bboxInit = function () {
-      bbox.showForm("{{page.blackbaud_id}}");
+      bbox.showForm("{{lang.blackbaud_id}}");
     };
     (function () {
       var e = document.createElement("script");
