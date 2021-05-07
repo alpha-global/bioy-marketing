@@ -20,6 +20,10 @@
         {
             "title": "Cookies",
             "link": "/hi/cookies"
+        },
+        {
+            "title": "Help",
+            "link": "/hi/help"
         }
     ],
     "home": {

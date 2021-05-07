@@ -28,6 +28,10 @@
             {
                 "title": "Cookies",
                 "link": "/es/cookies"
+            },
+            {
+                "title": "Help",
+                "link": "/es/help"
             }
         ]
     }

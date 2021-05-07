@@ -24,7 +24,18 @@
             {
                 "title": "Cookies",
                 "link": "/en/cookies"
+            },
+            {
+                "title": "Help",
+                "link": "/en/help"
             }
         ]
+    },
+    "help": {
+        "filter": "Filter: ",
+        "seeMore": "See More",
+        "sorryDidntFindAnyting": "Sorry, we don’t have any results for ",
+        "submitSupportRequest": "Submit a support request",
+        "whatAreYouLooking": "What are you looking for?"
     }
 }
