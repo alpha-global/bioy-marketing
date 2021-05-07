@@ -1,5 +1,5 @@
 
 module.exports = {
   label: data => data.labels[data.locale],
-  block: data => data.blocks[data.locale]
+  page: data => data[data.locale]
 };

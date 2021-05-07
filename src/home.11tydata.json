@@ -1,0 +1,25 @@
+{
+  "en": {
+    "intro": "## Welcome\n\n... again my friend",
+    "about": "about as bad as it gets",
+    "read": "Read today's devotion"
+  },
+  "es": {
+    "intro": "Bom dia!",
+    "about": "es about",
+    "read": "Lea la devoción de hoy"
+  },
+  "ar": {
+    "intro": "Bom dia!",
+    "about": ""
+  },
+  "hi": {
+    "intro": "Hindi welcome",
+    "about": "",
+    "read": "आज पढ़िए भक्ति"
+  },
+  "zh": {
+    "intro": "Bom dia!",
+    "about": ""
+  }
+}
