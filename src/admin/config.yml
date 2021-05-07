@@ -61,6 +61,13 @@ collections:
                   widget: "markdown",
                   i18n: true,
                 },
+                {
+                  name: "blackbaud_id",
+                  label: "Blackbaud ID",
+                  hint: "You can get this by logging into the Blackbaud account",
+                  widget: "text",
+                  i18n: true,
+                },
               ],
           },
         ],

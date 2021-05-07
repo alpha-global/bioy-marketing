@@ -43,11 +43,11 @@ Short micro-copy text used for labels can be maintained in the _data/labels/ fol
 <button>{{ label.site_title }}</button>
 ```
 
-### Blocks
+### Page data
 
-Blocks are referenced in the templates as follows:
+Page data is referenced in the templates as follows:
 
 ```
-{{ block.intro }}
+{{ page.intro }}
 ```
 
