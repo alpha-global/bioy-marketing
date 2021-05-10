@@ -1,4 +1,4 @@
-const data = require("../../_data/blocks/en/help.json");
+const data = require("../../help.11tydata.json");
 const { locales } = require("../../_data/site");
 
 // Redirect base URL
@@ -33,7 +33,7 @@ window.store = function() {
     show: false,
     helpItems: [],
     init() {
-      this.helpItems = data.helpItems;
+      this.helpItems = data["en"].helpItems;
 
       document.querySelector('.filter').classList.remove('hidden')
     },
