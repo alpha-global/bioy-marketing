@@ -1,3 +1,5 @@
+import 'alpinejs';
+
 const data = require("../../_data/blocks/en/help.json");
 const { locales } = require("../../_data/site");
 
