@@ -13,6 +13,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
   eleventyConfig.addLayoutAlias("commentary", "layouts/commentary.njk");
 
+  eleventyConfig.addPassthroughCopy({
+    './node_modules/alpinejs/dist/alpine.js': './js/alpine.js',
+  })
+
 
   eleventyConfig.addFilter("markdown", (rawString) => {
     const mdRender = new markdownIt({ html: true });

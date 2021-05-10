@@ -25,5 +25,17 @@
             "title": "Help",
             "link": "/ar/help"
         }
-    ]
+    ],
+    "help": {
+        "filter": "ar Filter: ",
+        "seeMore": "ar See More",
+        "sorryDidntFindAnything": "ar Sorry, we don’t have any results for ",
+        "submitSupportRequest": "ar Submit a support request",
+        "whatAreYouLooking": "ar What are you looking for?",
+        "categories": {
+            "Audio": "ar Audio",
+            "Content": "ar Content",
+            "App": "ar App"
+        }
+    }
 }

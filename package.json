@@ -19,5 +19,8 @@
     "dayjs": "^1.10.4",
     "laravel-mix": "^6.0.18",
     "tailwindcss": "^2.1.2"
+  },
+  "devDependencies": {
+    "alpinejs": "^2.8.2"
   }
 }

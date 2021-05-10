@@ -34,8 +34,13 @@
     "help": {
         "filter": "Filter: ",
         "seeMore": "See More",
-        "sorryDidntFindAnyting": "Sorry, we don’t have any results for ",
+        "sorryDidntFindAnything": "Sorry, we don’t have any results for ",
         "submitSupportRequest": "Submit a support request",
-        "whatAreYouLooking": "What are you looking for?"
+        "whatAreYouLooking": "What are you looking for?",
+        "categories": {
+            "Audio": "Audio",
+            "Content": "Content",
+            "App": "App"
+        }
     }
 }

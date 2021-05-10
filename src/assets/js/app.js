@@ -34,10 +34,11 @@ window.store = function() {
     helpItems: [],
     init() {
       this.helpItems = data.helpItems;
+
+      document.querySelector('.filter').classList.remove('hidden')
     },
 
     filteredItems() {
-      console.log('filter method is called')
       if (!this.query) return [];
       return this.helpItems.filter((helpItem) => {
         if (helpItem.title.toLowerCase().includes(this.query.toLowerCase())) {

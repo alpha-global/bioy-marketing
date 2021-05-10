@@ -7,7 +7,7 @@ pagination:
 permalink: "{{ locale }}/help/index.html"
 ---
 <div x-data="store()" x-init="init()">
-  <div>
+  <div class="filter hidden">
     <span>{{ label.help.filter }}</span>
     <input type="text" class="searchField__input mb-2" type="search" placeholder="{{ label.help.whatAreYouLooking }}" x-model="query"/>
     <span>search_icon</span>
@@ -15,7 +15,7 @@ permalink: "{{ locale }}/help/index.html"
   <ul x-show="!query">
     {% for helpItem in blocks.help.helpItems %}
       <div class="border-2 mb-4 p-8 rounded-sm">
-        <div class="font-semibold inline-block text-gray-600 uppercase">{{helpItem.category}}</div>
+        <div class="font-semibold inline-block text-gray-600 uppercase">{{label.help.categories[helpItem.category]}}</div>
         <h1 class="font-semibold text-red-500">{{helpItem.title}}</h1>
         <p>{{helpItem.shortAnswer}}</p>
         {% if helpItem.detailedAnswer %}
@@ -29,16 +29,16 @@ permalink: "{{ locale }}/help/index.html"
     <ul>
       <template x-for="item in filteredItems()" :key="item">
         <div class="border-2 mb-4 p-8 rounded-sm">
-          <div class="font-semibold inline-block text-gray-600 uppercase" x-text="item.category"> </div>
-          <h1 class="font-semibold text-red-500" x-text="item.title"/> </h1>
-          <p x-text="item.shortAnswer"/> </p>
+          <div class="font-semibold inline-block text-gray-600 uppercase" x-text="item.category"></div>
+          <h1 class="font-semibold text-red-500" x-text="item.title"></h1>
+          <p x-text="item.shortAnswer"/></p>
           <a x-show="!!item.detailedAnswer" class="underline">{{ label.help.seeMore }}</a>
         </div>
       </template>
       <div x-show="filteredItems().length == 0" class="border-2 mb-4 p-8 rounded-sm flex flex-col items-center">
-        <h1 class="font-bold text-center text-red-500" x-text="`{{label.help.sorryDidntFindAnyting}} '${query}'`"></h1>
+        <h1 class="font-bold text-center text-red-500" x-text="`{{label.help.sorryDidntFindAnything}} '${query}'`"></h1>
         <button class="border border-red-500 mt-4 px-2 py-4 rounded-sm w-56">{{ label.help.submitSupportRequest }}</button>
       </div>
-      <ul>
+    </ul>
   </div>
 </div>
