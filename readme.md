@@ -35,12 +35,12 @@ Merging to staging will deploy automagically to staging.
 ## Translations
 
 There are two tipes of translated content:
-### Labels
+### Site
 
-Short micro-copy text used for labels can be maintained in the _data/labels/ folder and these are translated outside of the cms. In a template this can be referenced as follows:
+Text or image urls that can be used on more than one page are configured in the Settings section of the CMS and referenced in the templates as follows:
 
 ```
-<button>{{ label.site_title }}</button>
+<button>{{ site.title }}</button>
 ```
 
 ### Page data

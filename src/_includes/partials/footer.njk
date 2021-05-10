@@ -1,9 +1,23 @@
 <footer class="border-t border-red-500 mt-4 p-4 bg-gray-100">
   <ul class="">
-    {% for link in label.links %}
     <li class="inline pr-4">
-      <a href="{{ link.link }}">{{ link.title }}</a>
+      <a href="https://www.alpha.org/">Alpha</a>
     </li>
-    {% endfor %}
+
+    <li class="inline pr-4">
+      <a href="https://www.htb.org/">HTB Church</a>
+    </li>
+
+    <li class="inline pr-4">
+      <a href="/{{ locale }}/donate">Donate</a>
+    </li>
+
+    <li class="inline pr-4">
+      <a href="/{{ locale }}/help">Help</a>
+    </li>
+
+    <li class="inline pr-4">
+      <a href="/{{ locale }}/privacy">Privacy</a>
+    </li>
   </ul>
 </footer>
