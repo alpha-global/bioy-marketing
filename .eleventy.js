@@ -1,7 +1,13 @@
 const markdownIt = require("markdown-it");
+const shortcodes = require("./utils/shortcodes.js");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
+
+    // Shortcodes
+    Object.keys(shortcodes).forEach((shortcodeName) => {
+      eleventyConfig.addShortcode(shortcodeName, shortcodes[shortcodeName]);
+    });
 
   eleventyConfig.addPassthroughCopy('src/assets/icon');
   eleventyConfig.addPassthroughCopy('src/assets/fonts');
