@@ -184,6 +184,23 @@ collections:
                 },
               ],
           },
+          {
+            name: "settings",
+            label: "Settings",
+            file: "src/_data/siteLocal.json",
+            i18n: true,
+            fields:
+              [
+                {
+                  name: "title",
+                  label: "Title",
+                  hint: "The site title",
+                  default: "Bible in One Year",
+                  widget: "text",
+                  i18n: true,
+                },
+              ],
+          },
         ],
     },
     {
