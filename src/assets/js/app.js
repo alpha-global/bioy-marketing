@@ -1,3 +1,4 @@
+import 'alpinejs';
 const data = require("../../help.11tydata.json");
 const { locales } = require("../../_data/site");
 
