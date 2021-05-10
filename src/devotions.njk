@@ -10,7 +10,7 @@ eleventyComputed:
   locale: "{{ devotion.locale }}"
 ---
 
-<article class="prose lg:prose-xl mx-auto">
+<article class="prose lg:prose-xl mx-auto font-commentary">
   <h1 class="text-xl">{{ devotion.title }}</h1>
 
   {{ devotion.introduction|safe }}
@@ -18,7 +18,7 @@ eleventyComputed:
   <section>
     <h2>Wisdom: {{ devotion.wisdom.reference }}</h2>
 
-    <div>
+    <div class="font-scripture">
     {{ devotion.wisdom.text|safe }}
     </div>
 
@@ -29,7 +29,7 @@ eleventyComputed:
   <section>
     <h2>New Testament: {{ devotion.newTestament.reference }}</h2>
 
-    <div>
+    <div class="font-scripture">
     {{ devotion.newTestament.text|safe }}
     </div>
 
@@ -40,7 +40,7 @@ eleventyComputed:
   <section>
     <h2>Old Testament: {{ devotion.oldTestament.reference }}</h2>
 
-    <div>
+    <div class="font-scripture">
     {{ devotion.oldTestament.text|safe }}
     </div>
 
