@@ -1,7 +1,7 @@
 ---
 layout: default
 pagination:
-  data: site.locales
+  data: globals.locales
   size: 1
   alias: locale
 permalink: "{{ locale }}/index.html"
@@ -9,11 +9,12 @@ permalink: "{{ locale }}/index.html"
 
 <header class="py-8">
   <h1 class="text-4xl font-bold">Start everyday in the Bible</h1>
-  <h2 class="text-xl font-normal">How different could your life be if you started each morning in God’s word?</h2>
+  <h2 class="text-xl font-normal">
+    How different could your life be if you started each morning in God’s word?
+  </h2>
 </header>
 
-{% svgSprite name="app-store-ios" %}
-{% svgSprite name="app-store-android" %}
+{% include 'partials/cta.njk' %}
 
 {{ lang.intro | markdown | safe }}
 <div
@@ -22,9 +23,8 @@ permalink: "{{ locale }}/index.html"
   data-variant="classic"
 >
   <a
-    href="/{{ locale }}/classic/{{ site.today }}"
-    class="bg-red-500 text-white p-2 hover:bg-red-700"
-  >
+    href="/{{ locale }}/classic/{{ globals.today }}"
+    class="bg-red text-white p-2 hover:bg-red-dark">
     {{ lang.read }}
   </a>
 </div>

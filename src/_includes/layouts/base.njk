@@ -19,13 +19,13 @@
   <body>
     {% include 'partials/header.njk' %}
 
-    <main class="p-4">
+    <main class="">
       {{ layoutContent | safe }}
     </main>
 
     {% include 'partials/footer.njk' %}
 
     <script src="/assets/js/app.js"></script>
-    <!-- last build: {{ site.env }} | {{ site.buildTime }} -->
+    <!-- last build: {{ globals.env }} | {{ globals.buildTime }} -->
   </body>
 </html>

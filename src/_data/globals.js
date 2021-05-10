@@ -35,5 +35,9 @@ module.exports = {
   env: process.env.ELEVENTY_ENV,
   locales: languages.map(i => i.locale),
   languages: languages,
-  today: todaysDayNumber()
+  today: todaysDayNumber(),
+  stores: {
+    ios: "https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8",
+    android: "https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB"
+  }
 }

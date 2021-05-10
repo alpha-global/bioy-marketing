@@ -199,6 +199,37 @@ collections:
                   widget: "text",
                   i18n: true,
                 },
+
+                {
+                  name: "cta",
+                  label: "Call to Action",
+                  widget: "object",
+                  i18n: true,
+                  fields:
+                    [
+                      {
+                        name: "title",
+                        label: "Title",
+                        default: "Download Bible in One Year Today",
+                        widget: "text",
+                        i18n: true,
+                      },
+                      {
+                        name: "sub_title",
+                        label: "Sub Title",
+                        default: "BiOY is also and email, a website and soon to be a podcast.",
+                        widget: "text",
+                        i18n: true,
+                      },
+                      {
+                        name: "more",
+                        label: "More label",
+                        default: "Find out more.",
+                        widget: "text",
+                        i18n: true,
+                      },
+                    ],
+                },
               ],
           },
         ],

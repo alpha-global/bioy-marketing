@@ -1,6 +1,6 @@
 import 'alpinejs';
 const data = require("../../help.11tydata.json");
-const { locales } = require("../../_data/site");
+const { locales } = require("../../_data/globals");
 
 // Redirect base URL
 var currentPath = window.location.pathname;

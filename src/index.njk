@@ -5,7 +5,7 @@ locale: en
 
 Pick language:
 <div class="flex">
-  {% for lang in site.languages %}
+  {% for lang in globals.languages %}
   <div class="mr-4">
     <a href="/{{ lang.locale }}">{{ lang.language }}</a>
   </div>
