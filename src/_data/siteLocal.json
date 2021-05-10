@@ -1,6 +1,11 @@
 {
   "en": {
-    "title": "Bible in One Year"
+    "title": "Bible in One Year",
+    "cta": {
+      "title": "Download Bible in One Year Today",
+      "sub_title": "BiOY is also and email, a website and soon to be a podcast.",
+      "more": "Find out more"
+    }
   },
   "es": {
     "title": "Biblia en un año"
