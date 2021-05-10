@@ -35,5 +35,5 @@ module.exports = {
   env: process.env.ELEVENTY_ENV,
   locales: languages.map(i => i.locale),
   languages: languages,
-  today: todaysDayNumber(),
+  today: todaysDayNumber()
 }

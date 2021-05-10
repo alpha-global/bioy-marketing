@@ -7,7 +7,7 @@ pagination:
 permalink: "{{ locale }}/index.html"
 ---
 
-{{ block.home.intro }}
+{{ lang.intro | markdown | safe }}
 <div
   class="p-4 border border-red-500 mt-4 flex items-center justify-center js-today"
   data-locale="{{ locale }}"
@@ -17,6 +17,6 @@ permalink: "{{ locale }}/index.html"
     href="/{{ locale }}/classic/{{ site.today }}"
     class="bg-red-500 text-white p-2 hover:bg-red-700"
   >
-    {{ label.home.read }}
+    {{ lang.read }}
   </a>
 </div>
