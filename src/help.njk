@@ -13,7 +13,7 @@ permalink: "{{ locale }}/help/index.html"
     <span>search_icon</span>
   </div>
   <ul x-show="!query">
-    {% for helpItem in block.help.helpItems %}
+    {% for helpItem in blocks.help.helpItems %}
       <div class="border-2 mb-4 p-8 rounded-sm">
         <div class="font-semibold inline-block text-gray-600 uppercase">{{helpItem.category}}</div>
         <h1 class="font-semibold text-red-500">{{helpItem.title}}</h1>
