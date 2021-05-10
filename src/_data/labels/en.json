@@ -3,34 +3,32 @@
     "home": {
         "read": "Read today's devotion"
     },
-    "footer": {
-        "links": [
-            {
-                "title": "Alpha",
-                "link": "https://www.alpha.org/"
-            },
-            {
-                "title": "HTB Church",
-                "link": "https://www.htb.org/"
-            },
-            {
-                "title": "Donate",
-                "link": "/en/donate"
-            },
-            {
-                "title": "Privacy Policy",
-                "link": "/en/privacy"
-            },
-            {
-                "title": "Cookies",
-                "link": "/en/cookies"
-            },
-            {
-                "title": "Help",
-                "link": "/en/help"
-            }
-        ]
-    },
+    "links": [
+        {
+            "title": "Alpha",
+            "link": "https://www.alpha.org/"
+        },
+        {
+            "title": "HTB Church",
+            "link": "https://www.htb.org/"
+        },
+        {
+            "title": "Donate",
+            "link": "/en/donate"
+        },
+        {
+            "title": "Privacy Policy",
+            "link": "/en/privacy"
+        },
+        {
+            "title": "Cookies",
+            "link": "/en/cookies"
+        },
+        {
+            "title": "Help",
+            "link": "/en/help"
+        }
+    ],
     "help": {
         "filter": "Filter: ",
         "seeMore": "See More",
