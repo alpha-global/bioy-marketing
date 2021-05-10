@@ -1,0 +1,47 @@
+{
+  "en": {
+    "helpItems": [
+      {
+        "title": "How can I change my edition?",
+        "category": "App",
+        "shortAnswer": "There are three editions of Bible in One Year; Classic, Youth, and Express. You can change your edition in the app settings",
+        "detailedAnswer": "Detailed answer \n\nThere are three editions of Bible in One Year; Classic, Youth, and Express. You can change your edition in the app settings\n\nThere are three editions of Bible in One Year; Classic, Youth, and Express. You can change your edition in the app settings"
+      },
+      {
+        "title": "How long are audio files stored on my phone?",
+        "category": "App",
+        "shortAnswer": "Files that have been automatically downloaded are automatically deleted after you have listened to them. If you have manually downloaded audio tracks, these need to be deleted manually.",
+        "detailedAnswer": "Detailed answer\n\nFiles that have been automatically downloaded are automatically deleted after you have listened to them. If you have manually downloaded audio tracks, these need to be deleted manually.\n\nFiles that have been automatically downloaded are automatically deleted after you have listened to them. If you have manually downloaded audio tracks, these need to be deleted manually."
+      }
+    ],
+    "filter": "Filter",
+    "seeMore": "See More",
+    "notFoundMessage": "Sorry, we don’t have any results for",
+    "submitButton": "Submit a support request",
+    "filterHint": "What are you looking for?",
+    "categories": {
+      "audio": "Adio",
+      "content": "Content",
+      "app": "App"
+    }
+  },
+  "es": {
+    "helpItems": [
+      {
+        "title": "Test",
+        "category": "App",
+        "shortAnswer": "short",
+        "detailedAnswer": "long"
+      }
+    ]
+  },
+  "ar": {
+    "helpItems": []
+  },
+  "hi": {
+    "helpItems": []
+  },
+  "zh": {
+    "helpItems": []
+  }
+}

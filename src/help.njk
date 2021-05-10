@@ -1,0 +1,44 @@
+---
+layout: default
+pagination:
+  data: site.locales
+  size: 1
+  alias: locale
+permalink: "{{ locale }}/help/index.html"
+---
+<div x-data="store()" x-init="init()">
+  <div class="filter hidden">
+    <span>{{ lang.filter }}</span>
+    <input type="text" class="searchField__input mb-2" type="search" placeholder="{{ lang.filterHint }}" x-model="query"/>
+    <span>search_icon</span>
+  </div>
+  <ul x-show="!query">
+    {% for helpItem in lang.helpItems %}
+      <div class="border-2 mb-4 p-8 rounded-sm">
+        <div class="font-semibold inline-block text-gray-600 uppercase">{{lang.categories[helpItem.category]}}</div>
+        <h1 class="font-semibold text-red-500">{{helpItem.title}}</h1>
+        <p>{{helpItem.shortAnswer}}</p>
+        {% if helpItem.detailedAnswer %}
+          <a class="underline">{{ lang.seeMore }}</a>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </ul>
+
+  <div x-show="!!query">
+    <ul>
+      <template x-for="item in filteredItems()" :key="item">
+        <div class="border-2 mb-4 p-8 rounded-sm">
+          <div class="font-semibold inline-block text-gray-600 uppercase" x-text="item.category"></div>
+          <h1 class="font-semibold text-red-500" x-text="item.title"></h1>
+          <p x-text="item.shortAnswer"/></p>
+          <a x-show="!!item.detailedAnswer" class="underline">{{ lang.seeMore }}</a>
+        </div>
+      </template>
+      <div x-show="filteredItems().length == 0" class="border-2 mb-4 p-8 rounded-sm flex flex-col items-center">
+        <h1 class="font-bold text-center text-red-500" x-text="`{{lang.notFoundMessage}} '${query}'`"></h1>
+        <button class="border border-red-500 mt-4 px-2 py-4 rounded-sm w-56">{{ lang.submitButton }}</button>
+      </div>
+    </ul>
+  </div>
+</div>

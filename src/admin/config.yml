@@ -72,19 +72,115 @@ collections:
           },
 
           {
-            name: "settings",
-            label: "Settings",
-            file: "src/_data/siteLocal.json",
+            label: "Help",
+            name: "Help",
+            file: "src/help.11tydata.json",
+            slug: "help",
             i18n: true,
             fields:
               [
                 {
-                  name: "title",
-                  label: "Title",
-                  hint: "The site title",
-                  default: "Bible in One Year",
+                  name: "filter",
+                  label: "Filter label",
                   widget: "text",
                   i18n: true,
+                },
+                {
+                  name: "seeMore",
+                  label: "See More",
+                  widget: "text",
+                  i18n: true,
+                },
+                {
+                  name: "notFoundMessage",
+                  label: "Not Found Message",
+                  widget: "text",
+                  i18n: true,
+                },
+                {
+                  name: "submitButton",
+                  label: "Submit request label",
+                  widget: "text",
+                  i18n: true,
+                },
+                {
+                  name: "filterHint",
+                  label: "Filter hint",
+                  widget: "text",
+                  i18n: true,
+                },
+                {
+                  name: "categories",
+                  label: "Categories",
+                  widget: "object",
+                  collapsed: true,
+                  i18n: true,
+                  fields:
+                    [
+                      {
+                        name: "audio",
+                        label: "Audio",
+                        widget: "text",
+                        i18n: true,
+                      },
+                      {
+                        name: "content",
+                        label: "Content",
+                        widget: "text",
+                        i18n: true,
+                      },
+                      { name: "app", label: "App", widget: "text", i18n: true },
+                    ],
+                },
+
+                {
+                  label: "Help Items",
+                  name: "helpItems",
+                  widget: "list",
+                  required: true,
+                  i18n: true,
+                  fields:
+                    [
+                      {
+                        label: "Title",
+                        name: "title",
+                        widget: "string",
+                        required: true,
+                        i18n: true,
+                      },
+                      {
+                        label: "Category",
+                        name: "category",
+                        widget: "select",
+                        options: ["Audio", "Content", "App"],
+                        required: true,
+                        i18n: true,
+                      },
+                      {
+                        label: "Short Answer",
+                        name: "shortAnswer",
+                        widget: "text",
+                        required: true,
+                        i18n: true,
+                      },
+
+                      {
+                        label: "Detailed Answer",
+                        name: "detailedAnswer",
+                        widget: "markdown",
+                        i18n: true,
+                        buttons:
+                          [
+                            "bold",
+                            "italic",
+                            "link",
+                            "bulleted-list",
+                            "numbered-list",
+                          ],
+                        modes: ["rich_text"],
+                        editor_components: [],
+                      },
+                    ],
                 },
               ],
           },

@@ -20,7 +20,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
   eleventyConfig.addLayoutAlias("commentary", "layouts/commentary.njk");
 
-
   eleventyConfig.addFilter("markdown", (rawString) => {
     const mdRender = new markdownIt({ html: true });
     const rendered = mdRender.render(rawString);

@@ -1,3 +1,5 @@
+import 'alpinejs';
+const data = require("../../help.11tydata.json");
 const { locales } = require("../../_data/site");
 
 // Redirect base URL
@@ -24,4 +26,37 @@ if (todayBlock) {
   const url = `/${todayBlock.dataset.locale}/${todayBlock.dataset.variant}/${day}`;
 
   readLink.href = url;
+}
+
+window.store = function() {
+  return {
+    query: null,
+    show: false,
+    helpItems: [],
+    init() {
+      this.helpItems = data["en"].helpItems;
+
+      document.querySelector('.filter').classList.remove('hidden')
+    },
+
+    filteredItems() {
+      if (!this.query) return [];
+      return this.helpItems.filter((helpItem) => {
+        if (helpItem.title.toLowerCase().includes(this.query.toLowerCase())) {
+          return true;
+        }
+
+        if (helpItem.shortAnswer.toLowerCase().includes(this.query.toLowerCase())) {
+          return true;
+        }
+
+        if (helpItem.category.toLowerCase().includes(this.query.toLowerCase())) {
+          return true;
+        }
+
+        return false;
+
+      })
+    }
+  }
 }

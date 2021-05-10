@@ -1,5 +1,4 @@
 {
-    "title": "Bible in One Year",
     "links": [
         {
             "title": "Alpha",
@@ -20,6 +19,10 @@
         {
             "title": "Cookies",
             "link": "/en/cookies"
+        },
+        {
+            "title": "Help",
+            "link": "/en/help"
         }
     ]
 }

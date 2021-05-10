@@ -20,6 +20,10 @@
         {
             "title": "Cookies",
             "link": "/zh/cookies"
+        },
+        {
+            "title": "Help",
+            "link": "/zh/help"
         }
     ]
 }

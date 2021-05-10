@@ -21,5 +21,8 @@
     "laravel-mix": "^6.0.18",
     "svg-spritemap-webpack-plugin": "^3.9.1",
     "tailwindcss": "^2.1.2"
+  },
+  "devDependencies": {
+    "alpinejs": "^2.8.2"
   }
 }
