@@ -5,6 +5,13 @@
       "title": "Download Bible in One Year Today",
       "sub_title": "BiOY is also and email, a website and soon to be a podcast.",
       "more": "Find out more"
+    },
+    "today": {
+      "image": "/assets/img/today_en.jpg",
+      "title": "Today's Reading",
+      "intro": "Today is day",
+      "reading": "we're reading:",
+      "cta": "Read now"
     }
   },
   "es": {
