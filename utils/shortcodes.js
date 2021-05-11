@@ -9,14 +9,18 @@ module.exports = {
             </svg>`;
   },
 
+
   blockImage: (src, alt, sizes = "100vw", classes = "w-full") => {
+    // not sure why this method gets called without proper a src
+    if (src === './srcundefined') return;
+
     const options = {
       widths: [320, 640, 800, 1200],
       formats: ['webp', 'jpeg'],
-      urlPath: ".src/assets/img/",
-      outputDir: "./public/assets/img"
+      urlPath: "/assets/img/",
+      outputDir: "./build/assets/img"
     };
-
+    
     const imageAttributes = {
       class: classes,
       alt: alt,
@@ -25,11 +29,10 @@ module.exports = {
       decoding: "async"
     };
 
-
     return imageGen(src, options, imageAttributes);
   }
-
-
+  
+  
 }
 
 function imageGen(src, options, attributes) {
