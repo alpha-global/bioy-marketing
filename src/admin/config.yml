@@ -34,12 +34,6 @@ collections:
                   widget: "markdown",
                   i18n: true,
                 },
-                {
-                  name: "read",
-                  label: "Read button",
-                  widget: "text",
-                  i18n: true,
-                },
               ],
           },
           {
@@ -225,6 +219,42 @@ collections:
                         name: "more",
                         label: "More label",
                         default: "Find out more.",
+                        widget: "text",
+                        i18n: true,
+                      },
+                    ],
+                },
+
+                {
+                  name: "today",
+                  label: "Today's reading",
+                  widget: "object",
+                  i18n: true,
+                  fields:
+                    [
+                      { label: "Image", name: "image", widget: "image" },
+                      {
+                        label: "Title",
+                        name: "title",
+                        widget: "text",
+                        i18n: true,
+                      },
+                      {
+                        label: "Day intro",
+                        name: "intro",
+                        widget: "text",
+                        i18n: true,
+                      },
+                      {
+                        label: "Passge intro",
+                        name: "reading",
+                        widget: "text",
+                        default: "we're reading:",
+                        i18n: true,
+                      },
+                      {
+                        label: "Button",
+                        name: "cta",
                         widget: "text",
                         i18n: true,
                       },
