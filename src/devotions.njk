@@ -83,6 +83,20 @@ eleventyComputed:
     {{ devotion.verseOfTheDay|safe }}
   </section>
 
+  {% if devotion.thoughtForTheDay %}
+    <section class="bg-stone p-4 mt-4">
+    <h2>Thought for the Day</h2>
+    {{ devotion.thoughtForTheDay |safe }}
+  </section>
+  {% endif %}
+
+  {% if devotion.actionForTheDay %}
+    <section class="bg-stone p-4 mt-4">
+    <h2>Action for the Day</h2>
+    {{ devotion.actionForTheDay |safe }}
+  </section>
+  {% endif %}
+
 
   <section class="p-4">
     <h2>References</h2>
