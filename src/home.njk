@@ -14,8 +14,34 @@ permalink: "{{ locale }}/index.html"
   </h2>
 </header>
 
-  {% include 'partials/today.njk' %} 
-  
-  {% include 'partials/cta.njk' %}
+{% include 'partials/today.njk' %} {% include 'partials/cta.njk' %}
 
-</div>
+<section>
+  <div class="flex">
+    <div class="flex-none w-24 h-full bg-grey-light">
+      <div>{% svgSprite name="medium_app", class="h-12 w-12 text-red" %}</div>
+    </div>
+    <div class="flex-1">
+      {% for medium in lang.distribution %}
+      <div class="w-screen" style="height: 316px">
+        <div class="absolute bg-red w-full h-full" style="height: 316px"></div>
+
+        <div class="absolute">
+          {% if medium.image %} {% blockImage "./src" + medium.image , "reader",
+          "(min-width: 1vw)", "object-cover h-full w-full opacity-10" %} {%
+          endif %}
+        </div>
+
+        <div class="absolute text-white px-4 py-6 md:px-16">
+          <h4 class="text-xl font-bold mb-3">{{ medium.channel }}</h4>
+          {{ medium.description | markdown | safe }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+<section class="mb-64">
+  <h2>Next</h2>
+</section>

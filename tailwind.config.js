@@ -18,6 +18,7 @@ module.exports = {
       black: colors.black,
       white: colors.white,
       grey: {
+        light: '#EFEFEF',
         DEFAULT: '#6A6A6A',
       },
       stone: {

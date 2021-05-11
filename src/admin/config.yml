@@ -34,6 +34,36 @@ collections:
                   widget: "markdown",
                   i18n: true,
                 },
+                {
+                  label: "Distribution",
+                  name: "distribution",
+                  widget: "list",
+                  required: true,
+                  allow_add: true,
+                  i18n: true,
+                  fields:
+                    [
+                      {
+                        name: "channel",
+                        label: "Channel",
+                        widget: "text",
+                        i18n: true,
+                      },
+                      {
+                        name: "icon",
+                        label: "Icon",
+                        widget: "text",
+                        i18n: "duplicate",
+                      },
+                      {
+                        name: "description",
+                        label: "Description",
+                        widget: "markdown",
+                        i18n: true,
+                      },
+                      { label: "Image", name: "image", widget: "image" },
+                    ],
+                },
               ],
           },
           {

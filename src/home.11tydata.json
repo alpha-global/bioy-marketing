@@ -1,6 +1,32 @@
 {
   "en": {
-    "intro": "Form a daily habit of reading Scripture."
+    "intro": "Form a daily habit of reading Scripture.",
+    "distribution": [
+      {
+        "channel": "App",
+        "icon": "medium_app",
+        "description": "Enjoy reading or listening to the Bible in one year on your iPhone or Android device.",
+        "image": "/assets/img/medium_app.jpg"
+      },
+      {
+        "channel": "Email",
+        "icon": "medium_email",
+        "description": "Receive a daily email with a fresh devotion straight in your inbox.",
+        "image": "/assets/img/medium_app.jpg"
+      },
+      {
+        "channel": "Podcast",
+        "icon": "medium_podcast",
+        "description": "Listen along to the Bible in One Year with the passages read by David Suchet, and Nicky & Pippa reading each day’s commentary.\nListen now on:\n\n- [Apple Podcast](https://apple.com)\n- [Spotify](https://spotify.com)\n- [Pocket Casts](https://pocketcasts.com)\n\nOr wherever you listen\n",
+        "image": "/assets/img/today_en.jpg"
+      },
+      {
+        "channel": "Website",
+        "icon": "medium_website",
+        "description": "Far from your mobile device? You can read the daily devotion right here on this website.",
+        "image": "/assets/img/medium_app.jpg"
+      }
+    ]
   },
   "es": {
     "intro": "Bom dia!"
