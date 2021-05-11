@@ -45,6 +45,28 @@
   }
 }
 
+@layer components {
+  .standoutQuote {
+    @apply relative pl-3 italic;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+
+  .standoutQuote:before,
+  .standoutQuote:after {
+    @apply text-red text-2xl not-italic;
+  }
+
+  .standoutQuote:before {
+    content: open-quote;
+    line-height: 0;
+  }
+
+  .standoutQuote:after {
+    content: close-quote;
+    line-height: 0;
+  }
+}
+
 @layer utilities {
   .visually-hidden {
     clip: rect(0 0 0 0);
@@ -54,5 +76,11 @@
     position: absolute;
     white-space: nowrap;
     width: 1px;
+  }
+
+  @screen sm {
+    .u-NandPclipper {
+      clip-path: url(#NandPclipper);
+    }
   }
 }

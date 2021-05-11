@@ -10,10 +10,12 @@ module.exports = function (eleventyConfig) {
     });
 
   eleventyConfig.addPassthroughCopy('src/assets/icon');
+  eleventyConfig.addPassthroughCopy('src/assets/img');
   eleventyConfig.addPassthroughCopy('src/assets/fonts');
   eleventyConfig.addPassthroughCopy('src/admin/config.yml');
 
   eleventyConfig.addWatchTarget('./src/admin/config.yml');
+  eleventyConfig.addWatchTarget('./src/assets/img');
   // eleventyConfig.addWatchTarget('./src/assets/css/app.css');
 
   eleventyConfig.addLayoutAlias("default", "layouts/base.njk");
