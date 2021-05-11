@@ -11,52 +11,83 @@ eleventyComputed:
 ---
 
 <article class="prose lg:prose-xl mx-auto font-commentary">
-  <h1 class="text-xl">{{ devotion.title }}</h1>
-
-  {{ devotion.introduction|safe }}
-
-  <section>
-    <h2>Wisdom: {{ devotion.wisdom.reference }}</h2>
-
-    <div class="font-scripture">
-    {{ devotion.wisdom.text|safe }}
+  <div class="px-4">
+    <div class="mt-24">
+      <span class="text-xl text-red">Day {{ devotion.devotionId }}</span>
+    </div>
+    <div class="mt-2">
+      <h1 class="text-xl">{{ devotion.title }}</h1>
     </div>
 
-    {{ devotion.wisdom.comment|safe }}
+    <div class="mt-32">
+      <h2>Today's Reading</h2>
+      <div class="flex flex-col">
+        <span class="text-red h-6">Wisdom</span>
+        <span>{{devotion.wisdom.reference}}</span>
+      </div>
+      <div class="flex flex-col mt-2">
+        <span class="text-red h-6">New Testament</span>
+        <span>{{devotion.newTestament.reference}}</span>
+      </div>
+      <div class="flex flex-col mt-2">
+        <span class="text-red h-6">Old Testament</span>
+        <span>{{devotion.oldTestament.reference}}</span>
+      </div>
+    </div>
+  </div>
 
-  </section>
-
-  <section>
-    <h2>New Testament: {{ devotion.newTestament.reference }}</h2>
-
-    <div class="font-scripture">
-    {{ devotion.newTestament.text|safe }}
+  <div class="px-4">
+    <div class="mt-16">
+      <h2>Introduction</h2>
     </div>
 
-    {{ devotion.newTestament.comment|safe }}
+    {{ devotion.introduction|safe }}
 
-  </section>
+  </div>
 
-  <section>
-    <h2>Old Testament: {{ devotion.oldTestament.reference }}</h2>
+  {% devotionSection 
+    title="Wisdom",
+    reference=devotion.wisdom.reference,
+    text=devotion.wisdom.text,
+    comment=devotion.wisdom.comment,
+    prayer=devotion.wisdom.prayer
+  %}
 
-    <div class="font-scripture">
-    {{ devotion.oldTestament.text|safe }}
-    </div>
+  {% devotionSection 
+    title="New Testament",
+    reference=devotion.newTestament.reference,
+    text=devotion.newTestament.text,
+    comment=devotion.newTestament.comment,
+    prayer=devotion.newTestament.prayer
+  %}
 
-    {{ devotion.oldTestament.comment|safe }}
+  {% devotionSection 
+    title="Old Testament",
+    reference=devotion.oldTestament.reference,
+    text=devotion.oldTestament.text,
+    comment=devotion.oldTestament.comment,
+    prayer=devotion.oldTestament.prayer
+  %}
 
-  </section>
 
-  <section>
+
+  <section class="bg-stone p-4">
     <h2>Pippa adds</h2>
     {{ devotion.pippa|safe }}
   </section>
 
-  <section>
+
+  <section class="bg-stone p-4 mt-4">
+    <h2>Verse of the Day</h2>
+    <h3>{{devotion.verseOfTheDayReference}}</h3>
+    {{ devotion.verseOfTheDay|safe }}
+  </section>
+
+
+  <section class="p-4">
     <h2>References</h2>
     <div class="prose-sm">
-    {{ devotion.references|safe }}
+      {{ devotion.references|safe }}
     </div>
   </section>
 </article>
