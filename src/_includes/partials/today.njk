@@ -9,14 +9,17 @@
       lg:px-12
     "
   >
-    <div class="flex flex-col items-start">
+    <div class="flex flex-col items-start js-today">
       <h2 class="text-3xl font-bold mb-6 lg:text-4xl">
         {{ site.today.title }}
       </h2>
 
       <p class="mb-16">{{ site.today.intro }} {{ globals.today }}.</p>
 
-      <a href="#" class="bg-white text-red px-4 py-3 rounded-md">
+      <a
+        href="/{{ locale }}/classic/{{ globals.today }}"
+        class="bg-white text-red px-4 py-3 rounded-md"
+      >
         {{ site.today.cta }}
       </a>
     </div>
