@@ -11,8 +11,6 @@ module.exports = {
 
 
   blockImage: (src, alt, sizes = "100vw", classes = "w-full") => {
-    // not sure why this method gets called without proper a src
-    if (src === './srcundefined') return;
 
     const options = {
       widths: [320, 640, 800, 1200],
