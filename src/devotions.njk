@@ -13,24 +13,24 @@ eleventyComputed:
 <article class="prose lg:prose-xl mx-auto font-commentary">
   <div class="px-4">
     <div class="mt-24">
-      <span class="text-xl text-red">Day {{ devotion.devotionId }}</span>
+      <span class="text-xl text-red">{{ lang.day }} {{devotion.devotionId}}</span>
     </div>
     <div class="mt-2">
       <h1 class="text-xl">{{ devotion.title }}</h1>
     </div>
 
     <div class="mt-32">
-      <h2>Today's Reading</h2>
+      <h2>{{ todaysReading }}</h2>
       <div class="flex flex-col">
-        <span class="text-red h-6">Wisdom</span>
+        <span class="text-red h-6">{{lang.wisdom}}</span>
         <span>{{devotion.wisdom.reference}}</span>
       </div>
       <div class="flex flex-col mt-2">
-        <span class="text-red h-6">New Testament</span>
+        <span class="text-red h-6">{{lang.newTestament}}</span>
         <span>{{devotion.newTestament.reference}}</span>
       </div>
       <div class="flex flex-col mt-2">
-        <span class="text-red h-6">Old Testament</span>
+        <span class="text-red h-6">{{lang.oldTestament}}</span>
         <span>{{devotion.oldTestament.reference}}</span>
       </div>
     </div>
@@ -38,7 +38,7 @@ eleventyComputed:
 
   <div class="px-4">
     <div class="mt-16">
-      <h2>Introduction</h2>
+      <h2>{{lang.introduction}}</h2>
     </div>
 
     {{ devotion.introduction|safe }}
@@ -46,7 +46,9 @@ eleventyComputed:
   </div>
 
   {% devotionSection 
-    title="Wisdom",
+    title=lang.wisdom,
+    commentary=lang.commentary,
+    prayerTitle=lang.prayer,
     reference=devotion.wisdom.reference,
     text=devotion.wisdom.text,
     comment=devotion.wisdom.comment,
@@ -54,7 +56,9 @@ eleventyComputed:
   %}
 
   {% devotionSection 
-    title="New Testament",
+    title=lang.newTestament,
+    commentary=lang.commentary,
+    prayerTitle=lang.prayer,
     reference=devotion.newTestament.reference,
     text=devotion.newTestament.text,
     comment=devotion.newTestament.comment,
@@ -62,7 +66,9 @@ eleventyComputed:
   %}
 
   {% devotionSection 
-    title="Old Testament",
+    title=lang.oldTestament,
+    commentary=lang.commentary,
+    prayerTitle=lang.prayer,
     reference=devotion.oldTestament.reference,
     text=devotion.oldTestament.text,
     comment=devotion.oldTestament.comment,
@@ -72,13 +78,13 @@ eleventyComputed:
 
 
   <section class="bg-stone p-4">
-    <h2>Pippa adds</h2>
+    <h2>{{lang.pippaAdds}}</h2>
     {{ devotion.pippa|safe }}
   </section>
 
 
   <section class="bg-stone p-4 mt-4">
-    <h2>Verse of the Day</h2>
+    <h2>{{lang.verseOfTheDay}}</h2>
     <h3>{{devotion.verseOfTheDayReference}}</h3>
     {{ devotion.verseOfTheDay|safe }}
   </section>

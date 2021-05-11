@@ -1,0 +1,62 @@
+{
+  "en": {
+    "day": "Day",
+    "todaysReading": "Today's Reading",
+    "wisdom": "Wisdom",
+    "newTestament": "New Testament",
+    "oldTestament": "Old Testament",
+    "introduction": "Introduction",
+    "commentary": "Commentary",
+    "prayer": "Prayer",
+    "pippaAdds": "Pippa adds",
+    "verseOfTheDay": "Verse of the Day"
+  },
+  "es": {
+    "day": "Day",
+    "todaysReading": "Today's Reading",
+    "wisdom": "Wisdom",
+    "newTestament": "New Testament",
+    "oldTestament": "Old Testament",
+    "introduction": "Introduction",
+    "commentary": "Commentary",
+    "prayer": "Prayer",
+    "pippaAdds": "Pippa adds",
+    "verseOfTheDay": "Verse of the Day"
+  },
+  "ar": {
+    "day": "ar Day",
+    "todaysReading": "ar Today's Reading",
+    "wisdom": "ar Wisdom",
+    "newTestament": "ar New Testament",
+    "oldTestament": "ar Old Testament",
+    "introduction": "ar Introduction",
+    "commentary": "ar Commentary",
+    "prayer": "ar Prayer",
+    "pippaAdds": "ar Pippa adds",
+    "verseOfTheDay": "ar Verse of the Day"
+  },
+  "hi": {
+    "day": "Day",
+    "todaysReading": "Today's Reading",
+    "wisdom": "Wisdom",
+    "newTestament": "New Testament",
+    "oldTestament": "Old Testament",
+    "introduction": "Introduction",
+    "commentary": "Commentary",
+    "prayer": "Prayer",
+    "pippaAdds": "Pippa adds",
+    "verseOfTheDay": "Verse of the Day"
+  },
+  "zh": {
+    "day": "Day",
+    "todaysReading": "Today's Reading",
+    "wisdom": "Wisdom",
+    "newTestament": "New Testament",
+    "oldTestament": "Old Testament",
+    "introduction": "Introduction",
+    "commentary": "Commentary",
+    "prayer": "Prayer",
+    "pippaAdds": "Pippa adds",
+    "verseOfTheDay": "Verse of the Day"
+  }
+}

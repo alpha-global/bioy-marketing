@@ -17,11 +17,11 @@ module.exports = {
         <div class="font-scripture">
           ${devotionSection.text}
         </div>
-        <h2>Commentary</h2>
+        <h2>${devotionSection.commentary}</h2>
         ${devotionSection.comment}
 
 
-        <h2>Prayer</h2>
+        <h2>${devotionSection.prayerTitle}</h2>
         <div class="border-l-4 pl-4 border-red font-scripture">
           ${devotionSection.prayer}
         </div>
