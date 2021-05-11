@@ -10,21 +10,10 @@ permalink: "{{ locale }}/index.html"
 <header class="py-8">
   <h1 class="text-4xl font-bold">Start everyday in the Bible</h1>
   <h2 class="text-xl font-normal">
-    How different could your life be if you started each morning in God’s word?
+    {{ lang.intro | markdown | safe }}
   </h2>
 </header>
 
-{% include 'partials/cta.njk' %}
+{% include 'partials/today.njk' %} {% include 'partials/cta.njk' %}
 
-{{ lang.intro | markdown | safe }}
-<div
-  class="p-4 border border-red-500 mt-4 flex items-center justify-center js-today"
-  data-locale="{{ locale }}"
-  data-variant="classic"
->
-  <a
-    href="/{{ locale }}/classic/{{ globals.today }}"
-    class="bg-red text-white p-2 hover:bg-red-dark">
-    {{ lang.read }}
-  </a>
 </div>

@@ -1,0 +1,28 @@
+<div class="grid grid-cols-2" style="height: 30em">
+  <div
+    class="
+      flex flex-col
+      justify-center
+      bg-red
+      text-white text-2xl
+      px-6
+      lg:px-12
+    "
+  >
+    <div class="flex flex-col items-start">
+      <h2 class="text-3xl font-bold mb-6 lg:text-4xl">
+        {{ site.today.title }}
+      </h2>
+
+      <p class="mb-16">{{ site.today.intro }} {{ globals.today }}.</p>
+
+      <a href="#" class="bg-white text-red px-4 py-3 rounded-md">
+        {{ site.today.cta }}
+      </a>
+    </div>
+  </div>
+
+  <div>
+    {{ site.today.image }}
+  </div>
+</div>
