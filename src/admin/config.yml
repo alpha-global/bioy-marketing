@@ -39,7 +39,7 @@ collections:
                   name: "distribution",
                   widget: "list",
                   required: true,
-                  allow_add: true,
+                  allow_add: false,
                   i18n: true,
                   fields:
                     [
@@ -62,6 +62,67 @@ collections:
                         i18n: true,
                       },
                       { label: "Image", name: "image", widget: "image" },
+                    ],
+                },
+                {
+                  name: "about",
+                  label: "About Nicky and Pippa",
+                  widget: "object",
+                  i18n: true,
+                  fields:
+                    [
+                      {
+                        name: "header",
+                        label: "Header",
+                        widget: "string",
+                        i18n: true,
+                      },
+                      {
+                        name: "intro",
+                        label: "Introduction",
+                        widget: "text",
+                        i18n: true,
+                      },
+                      {
+                        name: "quote",
+                        label: "Quote",
+                        widget: "text",
+                        i18n: true,
+                      },
+                      {
+                        name: "outro",
+                        label: "Outro",
+                        widget: "text",
+                        i18n: true,
+                      },
+                      {
+                        name: "img",
+                        label: Image,
+                        widget: image,
+                        i18n: duplicate,
+                        required: true,
+                      },
+                      {
+                        name: "cta",
+                        label: "Call to Action",
+                        widget: "object",
+                        i18n: true,
+                        fields:
+                          [
+                            {
+                              name: "label",
+                              label: "Label",
+                              widget: "string",
+                              i18n: true,
+                            },
+                            {
+                              name: "url",
+                              label: "Link",
+                              widget: "string",
+                              i18n: true,
+                            },
+                          ],
+                      },
                     ],
                 },
               ],

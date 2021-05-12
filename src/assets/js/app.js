@@ -1,5 +1,6 @@
 import 'alpinejs';
 const data = require("../../help.11tydata.json");
+// const homeData = require("../../home.11tydata.json");
 const { locales } = require("../../_data/globals");
 
 // Redirect base URL
@@ -58,5 +59,22 @@ window.store = function() {
 
       })
     }
+  }
+}
+
+window.homepage = function () {
+  return {
+    mediaFocus: 2,
+    mediaClass(node) {
+      return {
+        'text-white': (node === this.mediaFocus),
+        'bg-transparent': (node === this.mediaFocus),
+        'text-red': (node !== this.mediaFocus),
+        'bg-grey-light': (node !== this.mediaFocus)
+      };
+    },
+    init() {
+      this.$refs.mediaNav.classList.remove('hidden');
+    },
   }
 }
