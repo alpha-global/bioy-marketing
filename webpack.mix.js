@@ -8,7 +8,7 @@ mix
       require('tailwindcss'),
   ]);
 
-mix.svgSprite('src/assets/svg/*.svg', {
+mix.svgSprite('src/assets/icons/*.svg', {
   output: {
     filename: './build/assets/svg/sprite.svg'
   }

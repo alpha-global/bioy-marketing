@@ -7,16 +7,39 @@ pagination:
 permalink: "{{ locale }}/index.html"
 ---
 
-<header class="py-8">
-  <h1 class="text-4xl font-bold">Start everyday in the Bible</h1>
-  <h2 class="text-xl font-normal">
-    {{ lang.intro | markdown | safe }}
-  </h2>
+<header class="text-center md:flex md:text-right">
+
+  <div class="mb-8 w-full md:w-3/5">
+
+    {% blockImage lang.header.img.src, lang.header.img.desc , "(min-width: 30em) ", "u-bannerImage mb-4 md:mb-8" %}
+
+    <svg height="0" width="0">
+        <defs>
+          <clipPath id="headerMobile" clipPathUnits="objectBoundingBox">
+            <path d="M0,0.735 V0 H1 V0.93 C0.892,0.975,0.771,1,0.644,1 C0.387,1,0.156,0.897,0,0.735" />
+          </clipPath>
+          <clipPath id="headerDesktop" clipPathUnits="objectBoundingBox">
+            <path d="M0.33,1 C0.7,1,1,0.756,1,0.455 C1,0.265,0.88,0.097,0.698,0 L0,0 V0.929 C0.097,0.974,0.21,1,0.33,1" />
+          </clipPath>
+        </defs>
+    </svg>
+  </div>
+
+  <div class="w-10/12 mx-auto mb-4 md:w-2/5 md:flex md:flex-col md:justify-center md:p-4">
+    <h1 class="text-4xl font-bold mb-4 lg:text-6xl">{{ lang.header.title | protectRunts | safe }}</h1>
+    <h2 class="text-xl font-normal mb-4 lg:text-2xl">
+      {{ lang.header.strapline | protectRunts | safe }}
+    </h2>
+
+    <a href="#" class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors md:self-end">
+      {{ lang.header.cta }}
+    </a>
+  </div>
 </header>
 
 
 
-  {% include 'partials/cta.njk' %}
+{% include 'partials/cta.njk' %}
 
 <section class="p-4 flex flex-col text-center sm:text-left sm:px-0 sm:grid sm:grid-cols-2 sm:gap-4 lg:py-8">
   <h2 class="font-bold lg:col-span-1 mb-4 sm:self-end sm:col-span-2 sm:mb-0 sm:px-4 text-2xl lg:text-3xl lg:max-w-md lg:justify-self-end">
@@ -47,12 +70,12 @@ permalink: "{{ locale }}/index.html"
 
   <aside class="mb-4 order-first sm:order-none lg:row-span-2">
     <div class="mx-auto w-2/3 sm:mx-auto sm:w-full">
-      {% blockImage "./src" + lang.about.img , "Nicky and Pippa Gumbel", "(min-width: 30em) ", "rounded-full sm:rounded-none u-NandPclipper" %}
+      {% blockImage lang.about.img, "Nicky and Pippa Gumbel", "(min-width: 30em) ", "rounded-full sm:rounded-none u-NandPclipper" %}
 
       <svg height="0" width="0">
         <defs>
           <clipPath id="NandPclipper" clipPathUnits="objectBoundingBox">
-            <path d="M0.6489625025,0 C0.7858429025,0 0.909849895,0.05523222 1,0.1446695525 L1,0.8553304475 C0.909849895,0.94476778 0.7858429025,1 0.6489625025,1 C0.3733931225,1 0.15,0.776142375 0.15,0.5 C0.15,0.223857625 0.3733931225,0 0.6489625025,0 Z"></path>
+            <path d="M1,0.29 V0.707 C0.917,0.88,0.735,1,0.524,1 C0.234,1,0,0.776,0,0.499 C0,0.24,0.205,0.026,0.469,0 H0.579 C0.766,0.019,0.925,0.132,1,0.29"></path>
           </clipPath>
         </defs>
       </svg>

@@ -11,6 +11,15 @@
       "quote": "Join us as we read the Bible each day. It’s a practice that we have been doing for over 30 years and we hope it will benefit your life as much as it has ours.",
       "intro": "Bible in One Year is a practice that Nicky & Pippa Gumbel have been doing for over thirty years. Join them each day as they take you into every chapter and every verse in the Bible and let the Holy Spirit speak into your life.",
       "header": "Let Nicky and Pippa Be Your Guide"
+    },
+    "header": {
+      "title": "Start your day with the Bible in One Year",
+      "strapline": "How different could your life be if you started each morning reading the Bible?",
+      "cta": "Start Today",
+      "img": {
+        "src": "/assets/img/bioy-header.jpg",
+        "desc": "A man looks down at his phone, while listening to Bible in One Year"
+      }
     }
   },
   "es": {

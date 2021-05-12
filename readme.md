@@ -51,3 +51,8 @@ Page data is referenced in the templates as follows:
 {{ lang.intro }}
 ```
 
+## SVG clipping
+
+Images often appear in circles, or cut circles. To implement this we use SVG clipping in the CSS. If this is a new technique to you, enjoy [Sara Soueidan's Clipping in CSS and SVG article](https://www.sarasoueidan.com/blog/css-svg-clipping/).
+
+To get this working responsively you need to use the [clipPathUnits attribute](https://www.sarasoueidan.com/blog/css-svg-clipping/#clippathunits) and convert the points from absolute units, to percentage units. Use this tool: [https://yoksel.github.io/relative-clip-path/].
