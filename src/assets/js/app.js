@@ -74,7 +74,10 @@ window.homepage = function () {
       };
     },
     init() {
-      this.$refs.mediaNav.classList.remove('hidden');
+      if (this.$refs.mediaNav) {
+        this.$refs.mediaNav.classList.remove('hidden');
+        this.$refs.mediaContainer.classList.remove('flex-col');
+      }
     },
   }
 }
