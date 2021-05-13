@@ -26,6 +26,7 @@ module.exports = function (eleventyConfig) {
   // eleventyConfig.addWatchTarget('./src/assets/css/app.css');
 
   eleventyConfig.addLayoutAlias("default", "layouts/base.njk");
+  eleventyConfig.addLayoutAlias("landing", "layouts/landing.njk");
   eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
   eleventyConfig.addLayoutAlias("commentary", "layouts/commentary.njk");
 

@@ -9,7 +9,6 @@ module.exports = {
             </svg>`;
   },
 
-
   blockImage: (src, alt, sizes = "100vw", classes = "w-full") => {
     if (!src) { return; }
 

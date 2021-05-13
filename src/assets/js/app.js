@@ -88,7 +88,7 @@ window.store = function() {
   }
 }
 
-window.homepage = function () {
+window.mediumBlock = function () {
   return {
     mediaFocus: 0,
     mediaClass(node) {

@@ -1,4 +1,4 @@
-<header class="bg-gradient-to-b bg-opacity-80 border-red border-t-4 fixed from-black-scrim h-16 text-white top-0 w-full z-10 md:bg-none">
+<header class="bg-gradient-to-b bg-opacity-80 border-red border-t-4 absolute from-black-scrim h-16 text-white top-0 w-full z-10 md:bg-none">
   <h1 class="text-2xl font-medium m-0 -top-1 absolute">
     <a href="/{{ locale }}" class="flex items-center" title="{{ site.title }}">
       {% svgSprite name="bioy-filled", class="fill-current text-red h-16 w-16" %}
@@ -22,7 +22,7 @@
 <nav class="
   fixed bottom-0 w-full bg-white z-10 grid grid-cols-4 justify-items-stretch shadow-lg h-16
   sm:h-20
-  md:bg-transparent md:h-auto md:bottom-auto md:top-0 md:right-0 md:flex md:w-auto md:text-black md:mt-4 md:shadow-none
+  md:absolute md:bg-transparent md:h-auto md:bottom-auto md:top-0 md:right-0 md:flex md:w-auto md:text-black md:mt-4 md:shadow-none
 ">
   <a href="/en#start" class="flex flex-col items-center justify-center md:py-1.5 md:mr-4 md:underline">
     {% svgSprite name="bioy-filled", class="fill-current h-6 w-6 mb-1 sm:h-8 sm:w-8 md:hidden" %}

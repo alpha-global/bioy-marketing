@@ -1,0 +1,35 @@
+---
+layout: layouts/base.njk
+---
+
+<header class="text-center md:flex md:text-right">
+
+  <div class="mb-8 w-full md:w-3/5">
+
+    {% blockImage lang.header.img.src, lang.header.img.desc , "(min-width: 30em) ", "u-bannerImage mb-4 md:mb-8" %}
+
+    <svg height="0" width="0">
+        <defs>
+          <clipPath id="headerMobile" clipPathUnits="objectBoundingBox">
+            <path d="M0,0.735 V0 H1 V0.93 C0.892,0.975,0.771,1,0.644,1 C0.387,1,0.156,0.897,0,0.735" />
+          </clipPath>
+          <clipPath id="headerDesktop" clipPathUnits="objectBoundingBox">
+            <path d="M0.33,1 C0.7,1,1,0.756,1,0.455 C1,0.265,0.88,0.097,0.698,0 L0,0 V0.929 C0.097,0.974,0.21,1,0.33,1" />
+          </clipPath>
+        </defs>
+    </svg>
+  </div>
+
+  <div class="w-10/12 mx-auto mb-4 md:w-2/5 md:flex md:flex-col md:justify-center md:p-4">
+    <h1 class="text-4xl font-bold mb-4 lg:text-6xl">{{ lang.header.title | protectRunts | safe }}</h1>
+    <h2 class="text-xl font-normal mb-4 lg:text-2xl">
+      {{ lang.header.strapline | protectRunts | safe }}
+    </h2>
+
+    <a href="#" class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors md:self-end">
+      {{ lang.header.cta }}
+    </a>
+  </div>
+</header>
+
+{{ layoutContent | safe }}
