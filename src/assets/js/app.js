@@ -1,7 +1,60 @@
 import 'alpinejs';
+import Swipe from 'swipejs';
 const data = require("../../help.11tydata.json");
 // const homeData = require("../../home.11tydata.json");
 const { locales } = require("../../_data/globals");
+
+
+const app = new function() {
+    var one, two, three;
+    
+  this.init = function () {
+      
+      this.setDateId();
+    };
+    
+    var setDateId = function() {
+         const todayBlock = document.querySelector('.js-today');
+  if (todayBlock) {
+    const readLink = todayBlock.querySelector('a');
+
+    // Todo: Extract, Tidy and cater for leap year
+    var now = new Date();
+    var start = new Date(now.getFullYear(), 0, 0);
+    var diff = now - start;
+    var oneDay = 1000 * 60 * 60 * 24;
+    var day = Math.floor(diff / oneDay);
+
+    const url = `/${todayBlock.dataset.locale}/${todayBlock.dataset.variant}/${day}`;
+
+    readLink.href = url;
+  }
+    };
+    
+    this.publicFunction = function() {
+
+    };
+
+}
+
+function start() {
+
+  const testimonySwiper = new Swipe(document.getElementById('slider'), {
+    startSlide: 0,
+    speed: 500,
+    auto: 6000,
+    draggable: false,
+    continuous: true,
+    disableScroll: false,
+    stopPropagation: true,
+  });
+
+
+
+}
+
+if (document.readyState!='loading') start();
+else document.addEventListener('DOMContentLoaded', start);
 
 // Redirect base URL
 (window.onpopstate = function () {
@@ -21,21 +74,6 @@ const { locales } = require("../../_data/globals");
 })();
 
 
-const todayBlock = document.querySelector('.js-today');
-if (todayBlock) {
-  const readLink = todayBlock.querySelector('a');
-
-  // Todo: Extract, Tidy and cater for leap year
-  var now = new Date();
-  var start = new Date(now.getFullYear(), 0, 0);
-  var diff = now - start;
-  var oneDay = 1000 * 60 * 60 * 24;
-  var day = Math.floor(diff / oneDay);
-
-  const url = `/${todayBlock.dataset.locale}/${todayBlock.dataset.variant}/${day}`;
-
-  readLink.href = url;
-}
 
 
 const mailerLiteLink = document.querySelector('.js-mailerLite');
