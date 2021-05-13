@@ -5,16 +5,18 @@ const { locales } = require("../../_data/globals");
 
 // Redirect base URL
 (window.onpopstate = function () {
-  var isLoginRequest = window.location.search.substr(1).split('&')[0].startsWith("p=");
+  // http://bioy-marketing.netlify.app/#invite_token=A1111l38jNObCN586k61UQ
+  // https://bioy-marketing.netlify.app/#recovery_token=RS2222lxAkkntZg81ARUYQ
+  var isLoginRequest = window.location.hash.includes("token");
   if (isLoginRequest) return;
-
+  
   var currentPath = window.location.pathname;
-  if (!currentPath || currentPath === '/') {
-    const lang = navigator.language.split('-')[0];
+  if (currentPath && currentPath !== '/') return;
 
-    if (locales.includes(lang)) {
-      window.location = `/${lang}/`
-    }
+  const lang = navigator.language.split('-')[0];
+
+  if (locales.includes(lang)) {
+    window.location = `/${lang}/`
   }
 })();
 
