@@ -4,14 +4,20 @@ const data = require("../../help.11tydata.json");
 const { locales } = require("../../_data/globals");
 
 // Redirect base URL
-var currentPath = window.location.pathname;
-if (!currentPath || currentPath === '/') {
-  const lang = navigator.language.split('-')[0];
+(window.onpopstate = function () {
+  var isLoginRequest = window.location.search.substr(1).split('&')[0].startsWith("p=");
+  if (isLoginRequest) return;
 
-  if (locales.includes(lang)) {
-    window.location = `/${lang}/`
+  var currentPath = window.location.pathname;
+  if (!currentPath || currentPath === '/') {
+    const lang = navigator.language.split('-')[0];
+
+    if (locales.includes(lang)) {
+      window.location = `/${lang}/`
+    }
   }
-}
+})();
+
 
 const todayBlock = document.querySelector('.js-today');
 if (todayBlock) {
