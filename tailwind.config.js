@@ -30,6 +30,7 @@ module.exports = {
       },
       white: '#ffffff',
       grey: {
+        light: '#EFEFEF',
         DEFAULT: '#6A6A6A',
       },
       stone: {
