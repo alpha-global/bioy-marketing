@@ -94,6 +94,16 @@
     @apply list-inside;
   }
 
+  .u-bannerImage {
+    clip-path: url(#headerMobile);
+  }
+
+  @screen md {
+    .u-bannerImage {
+      clip-path: url(#headerDesktop);
+    }
+  }
+
   @screen sm {
     .u-NandPclipper {
       clip-path: url(#NandPclipper);

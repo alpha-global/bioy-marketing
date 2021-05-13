@@ -26,8 +26,6 @@
   </div>
 
   <div>
-    {% if site.today.image %}
-      {% blockImage "./src" + site.today.image , "reader", "(min-width: 30em) ", "object-cover h-full w-full" %}
-    {% endif %}
+      {% blockImage site.today.image, "reader", "(min-width: 30em) ", "object-cover h-full w-full" %}
   </div>
 </div>

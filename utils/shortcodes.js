@@ -11,6 +11,9 @@ module.exports = {
 
 
   blockImage: (src, alt, sizes = "100vw", classes = "w-full") => {
+    if (!src) { return; }
+
+    src = `./src${src}`;
 
     const options = {
       widths: [320, 640, 800, 1200],
@@ -18,7 +21,7 @@ module.exports = {
       urlPath: "/assets/img/",
       outputDir: "./build/assets/img"
     };
-    
+
     const imageAttributes = {
       class: classes,
       alt: alt,
@@ -29,8 +32,6 @@ module.exports = {
 
     return imageGen(src, options, imageAttributes);
   }
-  
-  
 }
 
 function imageGen(src, options, attributes) {
