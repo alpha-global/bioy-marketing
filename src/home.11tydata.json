@@ -5,14 +5,17 @@
       {
         "channel": "App",
         "icon": "medium_app",
-        "description": "Enjoy reading or listening to the Bible in one year on your iPhone or Android device.",
+        "description": "Enjoy reading or listening to the Bible in one year on your iPhone or Android device.\n\n- [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n- [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
         "image": "/assets/img/medium_app.jpg"
       },
       {
         "channel": "Email",
         "icon": "medium_email",
         "description": "Receive a daily email with a fresh devotion straight in your inbox.",
-        "image": "/assets/img/medium_app.jpg"
+        "image": "/assets/img/medium_app.jpg",
+        "cta": {
+          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/p5d3p8\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"4010371,p5d3p8\">Sign up now</a>"
+        }
       },
       {
         "channel": "Podcast",
@@ -43,7 +46,36 @@
     "intro": "Bom dia!",
     "about": {
       "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg"
-    }
+    },
+    "distribution": [
+      {
+        "channel": "App",
+        "icon": "medium_app",
+        "description": "Enjoy reading or listening to the Bible in one year on your iPhone or Android device.\n\n- [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n- [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
+        "image": "/assets/img/medium_app.jpg"
+      },
+      {
+        "channel": "Email",
+        "icon": "medium_email",
+        "description": "Receive a daily email with a fresh devotion straight in your inbox.",
+        "image": "/assets/img/medium_app.jpg",
+        "cta": {
+          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/p9r9p0\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite\" data-ml=\"4091911,p9r9p0\">Sign up now</a>"
+        }
+      },
+      {
+        "channel": "Podcast",
+        "icon": "medium_podcast",
+        "description": "Listen along to the Bible in One Year with the passages read by David Suchet, and Nicky & Pippa reading each day’s commentary.\nListen now on:\n\n- [Apple Podcast](https://apple.com)\n- [Spotify](https://spotify.com)\n- [Pocket Casts](https://pocketcasts.com)\n\nOr wherever you listen\n",
+        "image": "/assets/img/today_en.jpg"
+      },
+      {
+        "channel": "Website",
+        "icon": "medium_website",
+        "description": "Far from your mobile device? You can read the daily devotion right here on this website.",
+        "image": "/assets/img/medium_app.jpg"
+      }
+    ]
   },
   "ar": {
     "intro": "Bom dia!",

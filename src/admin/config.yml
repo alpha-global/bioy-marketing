@@ -46,13 +46,13 @@ collections:
                       {
                         name: "channel",
                         label: "Channel",
-                        widget: "text",
+                        widget: "string",
                         i18n: true,
                       },
                       {
                         name: "icon",
                         label: "Icon",
-                        widget: "text",
+                        widget: "string",
                         i18n: "duplicate",
                       },
                       {
@@ -60,6 +60,13 @@ collections:
                         label: "Description",
                         widget: "markdown",
                         i18n: true,
+                      },
+                      {
+                        name: "cta",
+                        label: "Call to action",
+                        widget: "code",
+                        required: false,
+                        i18n: true
                       },
                       { label: "Image", name: "image", widget: "image" },
                     ],

@@ -7,7 +7,7 @@ pagination:
 permalink: "{{ locale }}/index.html"
 ---
 
-<div x-data="homepage()"" x-init="init()">
+<div x-data="homepage()" x-init="init()">
   <header class="py-8">
     <h1 class="text-4xl font-bold">Start everyday in the Bible</h1>
     <h2 class="text-xl font-normal">
@@ -20,11 +20,11 @@ permalink: "{{ locale }}/index.html"
 
       <div class="flex flex-col items-stretch" style="min-height: 24rem" x-ref="mediaContainer">
         {% for medium in lang.distribution %}
-        <div class="relative bg-cover bg-center w-full" x-show="mediaFocus === {{loop.index0}}">
+        <div class="relative bg-cover bg-center w-full bioy-medium" x-show="mediaFocus === {{loop.index0}}">
 
-            {% if medium.image %}
-              {% blockImage "./src" + medium.image , "reader", "(min-width: 1vw)", "object-cover h-full w-full absolute filter saturate-0" %}
-            {% endif %}
+          {% if medium.image %}
+            {% blockImage "./src" + medium.image , "reader", "(min-width: 1vw)", "object-cover h-full w-full absolute filter saturate-0" %}
+          {% endif %}
 
           <div class="flex flex-col justify-center relative h-full bg-red bg-opacity-80 text-white pl-28 pr-4 py-6 md:pl-36">
             <div class="max-w-xs">
@@ -32,6 +32,10 @@ permalink: "{{ locale }}/index.html"
                 {{ medium.channel }}
               </h4>
               {{ medium.description | markdown | safe }}
+
+              {% if medium.cta %}
+                {{ medium.cta.code | safe }}
+              {% endif %}
             </div>
           </div>
 
@@ -41,19 +45,19 @@ permalink: "{{ locale }}/index.html"
 
       <div class="hidden top-0 h-full flex flex-col absolute w-24 fill-current text-red" x-ref="mediaNav">
         <button class="flex-1 flex flex-col items-center justify-center bg-opacity-90" :class="mediaClass(0)" @click="mediaFocus = 0" style="min-height: 6rem">
-          {% svgSprite name="medium_app", class="h-10 w-10" %}
+          {% svgSprite name="medium_app", class="h-10 w-10 mb-1" %}
           <div>{{lang.distribution[0].channel}}</div>
         </button>
         <button class="flex-1 flex flex-col items-center justify-center bg-opacity-90" :class="mediaClass(1)" @click="mediaFocus = 1" style="min-height: 6rem">
-          {% svgSprite name="medium_email", class="h-10 w-10" %}
+          {% svgSprite name="medium_email", class="h-10 w-10 mb-1" %}
           <div>{{lang.distribution[1].channel}}</div>
         </button>
         <button class="flex-1 flex flex-col items-center justify-center bg-opacity-90" :class="mediaClass(2)" @click="mediaFocus = 2" style="min-height: 6rem">
-          {% svgSprite name="medium_podcast", class="h-10 w-10" %}
+          {% svgSprite name="medium_podcast", class="h-10 w-10 mb-1" %}
           <div>{{lang.distribution[2].channel}}</div>
         </button>
         <button class="flex-1 flex flex-col items-center justify-center bg-opacity-90" :class="mediaClass(3)" @click="mediaFocus = 3" style="min-height: 6rem">
-          {% svgSprite name="medium_website", class="h-10 w-10" %}
+          {% svgSprite name="medium_website", class="h-10 w-10 mb-1" %}
           <div>{{lang.distribution[3].channel}}</div>
         </button>
       </div>

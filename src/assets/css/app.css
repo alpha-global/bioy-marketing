@@ -78,6 +78,22 @@
     width: 1px;
   }
 
+  .bioy-medium p {
+    @apply my-2;
+  }
+
+  .bioy-medium a {
+    @apply underline;
+  }
+
+  .bioy-medium ul {
+    @apply list-disc;
+  }
+
+  .bioy-medium li {
+    @apply list-inside;
+  }
+
   @screen sm {
     .u-NandPclipper {
       clip-path: url(#NandPclipper);
