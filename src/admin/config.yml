@@ -405,6 +405,32 @@ collections:
         ],
     },
     {
+      label: 'General Areas',
+      name: "generalAreas",
+      i18n: true,
+      files: [
+        {
+          file: "src/_data/footer.json",
+          label: "Site Footer",
+          name: "footer",
+          i18n: true,
+          fields: [
+            { name: headline, label: Headline, widget: string, i18n: true },
+            { name: cta, label: Call to Action, widget: string, i18n: true },
+            { name: social, label: "Social Media", widget: object, i18n: true, collapsed: true, fields: [
+              { name: facebook, label: Facebook, widget: string, i18n: true, required: false, hint: "URL part after facebook.com" },
+              { name: twitter, label: Twitter, widget: string, i18n: true, required: false, hint: "URL part after twitter.com. No '@'" },
+              { name: instagram, label: Instagram, widget: string, i18n: true, required: false, hint: "URL part after instagram.com" },
+            ]},
+            { name: nav, label: "Navigation", widget: list, i18n: true, fields: [
+              { name: label, label: Label, widget: string, i18n: true },
+              { name: href, label: Link, widget: string, i18n: true, hint: "If an external site, remember to include 'https://…" },
+            ]},
+          ],
+        },
+      ]
+    },
+    {
       label: "Pages",
       name: "pages",
       folder: "/src/pages",
