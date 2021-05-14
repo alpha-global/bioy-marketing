@@ -64,8 +64,6 @@ if (document.readyState!='loading') app.init();
 else document.addEventListener('DOMContentLoaded', app.init);
 
 
-
-
 const mailerLiteLink = document.querySelector('.js-mailerLite');
 if (mailerLiteLink) {
   (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){

@@ -1,8 +1,10 @@
-{% set today = bioy %}
-
 <section class="grid grid-cols-2">
   <div class="flex flex-col justify-center bg-red text-white p-4 lg:px-12">
-    <div class="flex flex-col items-start js-today">
+    <div
+      class="flex flex-col items-start js-today"
+      data-locale="{{ locale }}"
+      data-variant="{{ variant }}"
+    >
       <h2 class="text-2xl font-bold mb-6 lg:text-3xl">
         {{ site.today.title }}
       </h2>
@@ -11,7 +13,7 @@
 
       <a
         href="/{{ locale }}/classic/{{ globals.today }}"
-        class="bg-white text-red px-4 py-3 rounded-md"
+        class="whiteButton px-4"
       >
         {{ site.today.cta }}
       </a>
