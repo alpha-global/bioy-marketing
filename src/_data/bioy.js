@@ -11,7 +11,7 @@ const Cache = require("@11ty/eleventy-cache-assets");
  * @returns {Promise<Array>}
  */
 async function fetchDevotionRange(from = 1, to = 365, locale = 'en_GB', variant = 'classic') {
-  const url = `https://api.bioydata.com/api/v1/devotion/from/${from}/to/${to}?locale=${locale}&variant=${variant}`;
+  const url = `https://api.bioydata.com/api/v2/devotion/from/${from}/to/${to}?locale=${locale}&variant=${variant}&format=html`;
   let devotions = await _fetchDevotionRangeFromUrl(url, []);
   devotions.forEach((_, index) => {
     // To build the pages and cool URIs later we'll need lto keep hold of
