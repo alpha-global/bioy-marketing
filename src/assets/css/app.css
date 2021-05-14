@@ -99,7 +99,7 @@
   }
 
   .bioy-medium li {
-    @apply list-inside;
+    @apply list-outside ml-4;
   }
 
   .u-bannerImage {
