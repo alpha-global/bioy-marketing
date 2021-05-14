@@ -10,44 +10,41 @@
     lg:py-8
   "
 >
-  <h2
-    class="
-      font-bold
-      lg:col-span-1
-      mb-4
-      sm:self-end
-      sm:col-span-2
-      sm:mb-0
-      sm:px-4
-      text-2xl
-      lg:text-3xl
-      lg:max-w-md
-      lg:justify-self-end
-    "
-  >
-    {{ lang.about.header }}
-  </h2>
+  <div class="px-4 flex flex-col justify-end sm:self-end sm:col-span-2 lg:px-12 lg:col-span-1">
+    <h2
+      class="
+        font-bold
+        text-2xl
+        lg:text-3xl
+        lg:max-w-md self-end w-full
+      "
+    >
+      {{ lang.about.header }}
+    </h2>
+  </div>
 
-  <main class="mx-auto sm:px-4 sm:mx-0 lg:order-1 max-w-md lg:justify-self-end">
-    <p class="mb-4">
-      {{ lang.about.intro }}
-    </p>
+  <main class="flex flex-col justify-start lg:order-1 lg:px-12 p-4">
+    <div class="lg:max-w-md self-end w-full">
+      <p class="mb-4">
+        {{ lang.about.intro }}
+      </p>
 
-    <blockquote class="standoutQuote my-4">
-      {{ lang.about.quote }}
-    </blockquote>
+      <blockquote class="standoutQuote my-4">
+        {{ lang.about.quote }}
+      </blockquote>
 
-    <p class="my-4">
-      {{ lang.about.outro }}
-    </p>
+      <p class="my-4">
+        {{ lang.about.outro }}
+      </p>
 
-    {% if lang.about.cta %}
-    <p>
-      <a class="whiteButton px-4" href="{{ lang.about.cta.url }}">
-        {{ lang.about.cta.label }}
-      </a>
-    </p>
-    {% endif %}
+      {% if lang.about.cta %}
+      <p>
+        <a class="whiteButton px-4" href="{{ lang.about.cta.url }}">
+          {{ lang.about.cta.label }}
+        </a>
+      </p>
+      {% endif %}
+    </div>
   </main>
 
   <aside class="mb-4 order-first sm:order-none lg:row-span-2">

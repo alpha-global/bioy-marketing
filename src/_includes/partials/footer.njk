@@ -1,5 +1,5 @@
 <footer class="">
-  <p class="p-4 mt-12 font-medium text-lg text-center md:text-xl md:text-left lg:container">
+  <p class="p-4 mt-12 font-medium text-lg text-center md:text-xl md:text-left lg:container lg:mx-auto lg:pl-0">
     {{ site.title }}
   </p>
 
@@ -9,7 +9,7 @@
       <div>
         {{ footer[locale].headline }}
 
-        <div class="mt-4">
+        <div class="mt-4 mb-4">
           {{ footer[locale].cta }}
 
           <div class="max-w-sm grid gap-4 grid-cols-2 md:flex mx-auto md:mx-0">
@@ -24,7 +24,7 @@
           </div>
         </div>
 
-        <div class="flex items-center justify-center my-8">
+        <div class="flex items-center justify-center md:justify-start">
           {% if footer[locale].social.instagram %}
           <a href="https://instagram.com/{{ footer.social.instagram }}" target="_blank" class="flex items-center justify-center rounded-full bg-red text-white fill-current mx-1 h-10 w-10 hover:bg-red-dark md:ml-0 md:mr-4">
             {% svgSprite name="instagram", class="h-6 w-6 fill-current" %}

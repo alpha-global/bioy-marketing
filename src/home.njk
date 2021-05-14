@@ -5,12 +5,13 @@ pagination:
   size: 1
   alias: locale
 permalink: "{{ locale }}/index.html"
+variant: classic
 ---
 
 {% include './blocks/cta.njk' %}
 
-<section x-data="mediumBlock()" x-init="init()">
-  <div class="relative">
+<section class="lg:container mx-auto" x-data="mediumBlock()" x-init="init()">
+  <div class="relative lg:rounded ">
     <div
       class="flex flex-col items-stretch"
       style="min-height: 24rem"
@@ -23,7 +24,7 @@ permalink: "{{ locale }}/index.html"
       >
         {% if medium.image %} {% blockImage medium.image , "reader",
         "(min-width: 1vw)", "object-cover h-full w-full absolute filter
-        saturate-0" %} {% endif %}
+        saturate-0 lg:rounded-lg" %} {% endif %}
 
         <div
           class="
@@ -36,7 +37,7 @@ permalink: "{{ locale }}/index.html"
             pl-28
             pr-4
             py-6
-            md:pl-36
+            md:pl-36 lg:rounded-lg
           "
         >
           <div class="max-w-xs">
@@ -68,7 +69,7 @@ permalink: "{{ locale }}/index.html"
       x-ref="mediaNav"
     >
       <button
-        class="flex-1 flex flex-col items-center justify-center bg-opacity-90"
+        class="flex-1 flex flex-col items-center justify-center bg-opacity-90 lg:rounded-tl-lg"
         :class="mediaClass(0)"
         @click="mediaFocus = 0"
         style="min-height: 6rem"
@@ -95,7 +96,7 @@ permalink: "{{ locale }}/index.html"
         <div>{{ lang.distribution[2].channel }}</div>
       </button>
       <button
-        class="flex-1 flex flex-col items-center justify-center bg-opacity-90"
+        class="flex-1 flex flex-col items-center justify-center bg-opacity-90 lg:rounded-bl-lg"
         :class="mediaClass(3)"
         @click="mediaFocus = 3"
         style="min-height: 6rem"
@@ -107,24 +108,7 @@ permalink: "{{ locale }}/index.html"
   </div>
 </section>
 
-<section class="mt-16">
-  <div class="mx-auto py-6 w-full md:max-w-sm py-4 px-2">
-    <p class="text-center text-xl lg:text-3xl mb-4">
-      {{ lang.editions.intro }}
-    </p>
-    <div class="grid grid-cols-3 gap-2">
-      <a class="whiteButton w-full text-center" href="/{{ locale }}/classic">{{
-        lang.editions.classic
-      }}</a>
-      <a class="whiteButton w-full text-center" href="/{{ locale }}/youth">{{
-        lang.editions.youth
-      }}</a>
-      <a class="whiteButton w-full text-center" href="/{{ locale }}/express">{{
-        lang.editions.express
-      }}</a>
-    </div>
-  </div>
-</section>
-
-{% include './blocks/gumbels.njk' %} {% include './blocks/testimonials.njk' %}
-{% set variant = "classic" %} {% include './blocks/today.njk' %}
+{% include './blocks/editions.njk' %}
+{% include './blocks/gumbels.njk' %}
+{% include './blocks/testimonials.njk' %}
+{% include './blocks/today.njk' %}
