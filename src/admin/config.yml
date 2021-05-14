@@ -29,16 +29,185 @@ collections:
             fields:
               [
                 {
-                  name: "intro",
-                  label: "Introduction",
-                  widget: "markdown",
+                  name: "header",
+                  label: "Header",
+                  widget: "object",
                   i18n: true,
+                  fields:
+                    [
+                      {
+                        name: "title",
+                        label: "Title",
+                        widget: "string",
+                        i18n: true,
+                      },
+                      {
+                        name: "strapline",
+                        label: "Strapline",
+                        widget: "string",
+                        i18n: true,
+                      },
+                      {
+                        name: "cta",
+                        label: "Call to Action",
+                        widget: "string",
+                        i18n: true,
+                      },
+                      {
+                        name: "img",
+                        label: "Lead Image",
+                        widget: "object",
+                        i18n: true,
+                        fields:
+                          [
+                            {
+                              name: "src",
+                              label: Image,
+                              widget: image,
+                              i18n: true,
+                              required: true,
+                            },
+                            {
+                              name: "desc",
+                              label: Description,
+                              widget: string,
+                              i18n: true,
+                              required: true,
+                            },
+                          ],
+                      },
+                    ],
                 },
                 {
-                  name: "read",
-                  label: "Read button",
-                  widget: "text",
+                  label: "Distribution",
+                  name: "distribution",
+                  widget: "list",
+                  required: true,
+                  allow_add: false,
                   i18n: true,
+                  fields:
+                    [
+                      {
+                        name: "channel",
+                        label: "Channel",
+                        widget: "string",
+                        i18n: true,
+                      },
+                      {
+                        name: "icon",
+                        label: "Icon",
+                        widget: "string",
+                        i18n: "duplicate",
+                      },
+                      {
+                        name: "description",
+                        label: "Description",
+                        widget: "markdown",
+                        i18n: true,
+                      },
+                      {
+                        name: "cta",
+                        label: "Call to action",
+                        widget: "code",
+                        required: false,
+                        i18n: true,
+                      },
+                      { label: "Image", name: "image", widget: "image" },
+                    ],
+                },
+                {
+                  name: "editions",
+                  label: "Editions",
+                  widget: "object",
+                  i18n: true,
+                  fields:
+                    [
+                      {
+                        name: "intro",
+                        label: "Introduction",
+                        widget: "text",
+                        i18n: true,
+                      },
+                      {
+                        name: "classic",
+                        label: "Classic",
+                        widget: "string",
+                        i18n: true,
+                      },
+                      {
+                        name: "youth",
+                        label: "Youth",
+                        widget: "string",
+                        i18n: true,
+                      },
+                      {
+                        name: "express",
+                        label: "Express",
+                        widget: "string",
+                        i18n: true,
+                      },
+                    ],
+                },
+                {
+                  name: "about",
+                  label: "About Nicky and Pippa",
+                  widget: "object",
+                  i18n: true,
+                  fields:
+                    [
+                      {
+                        name: "header",
+                        label: "Header",
+                        widget: "string",
+                        i18n: true,
+                      },
+                      {
+                        name: "intro",
+                        label: "Introduction",
+                        widget: "text",
+                        i18n: true,
+                      },
+                      {
+                        name: "quote",
+                        label: "Quote",
+                        widget: "text",
+                        i18n: true,
+                      },
+                      {
+                        name: "outro",
+                        label: "Outro",
+                        widget: "text",
+                        i18n: true,
+                      },
+                      {
+                        name: "img",
+                        label: Image,
+                        widget: image,
+                        i18n: duplicate,
+                        required: true,
+                      },
+                      {
+                        name: "cta",
+                        label: "Call to Action",
+                        widget: "object",
+                        i18n: true,
+                        fields:
+                          [
+                            {
+                              name: "label",
+                              label: "Label",
+                              widget: "string",
+                              i18n: true,
+                            },
+                            {
+                              name: "url",
+                              label: "Link",
+                              widget: "string",
+                              i18n: true,
+                            },
+                          ],
+                      },
+                    ],
                 },
               ],
           },
@@ -230,9 +399,205 @@ collections:
                       },
                     ],
                 },
+
+                {
+                  name: "today",
+                  label: "Today's reading",
+                  widget: "object",
+                  i18n: true,
+                  fields:
+                    [
+                      { label: "Image", name: "image", widget: "image" },
+                      {
+                        label: "Title",
+                        name: "title",
+                        widget: "text",
+                        i18n: true,
+                      },
+                      {
+                        label: "Day intro",
+                        name: "intro",
+                        widget: "text",
+                        i18n: true,
+                      },
+                      {
+                        label: "Passage intro",
+                        name: "reading",
+                        widget: "text",
+                        default: "we're reading:",
+                        i18n: true,
+                      },
+                      {
+                        label: "Button",
+                        name: "cta",
+                        widget: "text",
+                        i18n: true,
+                      },
+                    ],
+                },
+
+                {
+                  name: "testimonials",
+                  label: "Testimonials",
+                  widget: "list",
+                  i18n: true,
+                  fields:
+                    [
+                      {
+                        label: "Quote",
+                        name: "quote",
+                        widget: "text",
+                        required: true,
+                        i18n: true,
+                      },
+                      {
+                        label: "Source",
+                        name: "source",
+                        widget: "string",
+                        required: true,
+                        i18n: true,
+                      },
+                    ],
+                },
               ],
           },
         ],
+    },
+    {
+      label: "General Areas",
+      name: "generalAreas",
+      i18n: true,
+      files:
+        [
+          {
+            file: "src/_data/footer.json",
+            label: "Site Footer",
+            name: "footer",
+            i18n: true,
+            fields:
+              [
+                { name: headline, label: Headline, widget: string, i18n: true },
+                {
+                  name: cta,
+                  label: Call to Action,
+                  widget: string,
+                  i18n: true,
+                },
+                {
+                  name: social,
+                  label: "Social Media",
+                  widget: object,
+                  i18n: true,
+                  collapsed: true,
+                  fields:
+                    [
+                      {
+                        name: facebook,
+                        label: Facebook,
+                        widget: string,
+                        i18n: true,
+                        required: false,
+                        hint: "URL part after facebook.com",
+                      },
+                      {
+                        name: twitter,
+                        label: Twitter,
+                        widget: string,
+                        i18n: true,
+                        required: false,
+                        hint: "URL part after twitter.com. No '@'",
+                      },
+                      {
+                        name: instagram,
+                        label: Instagram,
+                        widget: string,
+                        i18n: true,
+                        required: false,
+                        hint: "URL part after instagram.com",
+                      },
+                    ],
+                },
+                {
+                  name: nav,
+                  label: "Navigation",
+                  widget: list,
+                  i18n: true,
+                  fields:
+                    [
+                      { name: label, label: Label, widget: string, i18n: true },
+                      {
+                        name: href,
+                        label: Link,
+                        widget: string,
+                        i18n: true,
+                        hint: "If an external site, remember to include 'https://…",
+                      },
+                    ],
+                },
+              ],
+          },
+        ],
+    },
+    {
+      label: "Editions",
+      name: "editions",
+      folder: "/src/editions",
+      i18n: { structure: "single_file" },
+      identifier_field: name,
+      format: json,
+      create: false,
+      file: "src/editions.11tydata.json",
+      fields: [
+        { label: "Edition Title", name: "title", widget: "string", i18n: true },
+        {
+          name: "header",
+          label: "Page Header",
+          widget: "object",
+          i18n: true,
+          fields: [
+            {
+              name: "title",
+              label: "Title",
+              widget: "string",
+              i18n: true,
+            },
+            {
+              name: "strapline",
+              label: "Strapline",
+              widget: "string",
+              i18n: true,
+            },
+            {
+              name: "cta",
+              label: "Call to Action",
+              widget: "string",
+              i18n: true,
+            },
+            {
+              name: "img",
+              label: "Lead Image",
+              widget: "object",
+              i18n: true,
+              fields: [
+                {
+                  name: "src",
+                  label: Image,
+                  widget: image,
+                  i18n: true,
+                  required: true
+                },
+                {
+                  name: "desc",
+                  label: Description,
+                  widget: string,
+                  i18n: true,
+                  required: true
+                },
+              ]
+            }
+          ]
+        },
+      ]
     },
     {
       label: "Pages",

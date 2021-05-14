@@ -32,6 +32,7 @@ const languages = [
 
 module.exports = {
   buildTime: new Date(),
+  currentYear: new Date().getFullYear(),
   env: process.env.ELEVENTY_ENV,
   locales: languages.map(i => i.locale),
   languages: languages,

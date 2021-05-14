@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: landing
 pagination:
   data: globals.locales
   size: 1
@@ -7,24 +7,124 @@ pagination:
 permalink: "{{ locale }}/index.html"
 ---
 
-<header class="py-8">
-  <h1 class="text-4xl font-bold">Start everyday in the Bible</h1>
-  <h2 class="text-xl font-normal">
-    How different could your life be if you started each morning in God’s word?
-  </h2>
-</header>
+{% include './blocks/cta.njk' %}
 
-{% include 'partials/cta.njk' %}
+<section x-data="mediumBlock()" x-init="init()">
+  <div class="relative">
+    <div
+      class="flex flex-col items-stretch"
+      style="min-height: 24rem"
+      x-ref="mediaContainer"
+    >
+      {% for medium in lang.distribution %}
+      <div
+        class="relative bg-cover bg-center w-full bioy-medium"
+        x-show="mediaFocus === {{ loop.index0 }}"
+      >
+        {% if medium.image %} {% blockImage medium.image , "reader",
+        "(min-width: 1vw)", "object-cover h-full w-full absolute filter
+        saturate-0" %} {% endif %}
 
-{{ lang.intro | markdown | safe }}
-<div
-  class="p-4 border border-red-500 mt-4 flex items-center justify-center js-today"
-  data-locale="{{ locale }}"
-  data-variant="classic"
->
-  <a
-    href="/{{ locale }}/classic/{{ globals.today }}"
-    class="bg-red text-white p-2 hover:bg-red-dark">
-    {{ lang.read }}
-  </a>
-</div>
+        <div
+          class="
+            flex flex-col
+            justify-center
+            relative
+            h-full
+            bg-red bg-opacity-80
+            text-white
+            pl-28
+            pr-4
+            py-6
+            md:pl-36
+          "
+        >
+          <div class="max-w-xs">
+            <h4 class="text-xl font-bold mb-3">
+              {{ medium.channel }}
+            </h4>
+            {{ medium.description | markdown | safe }}
+
+            {% if medium.cta %}
+            {{ medium.cta.code | safe }}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div
+      class="
+        hidden
+        top-0
+        h-full
+        flex flex-col
+        absolute
+        w-24
+        fill-current
+        text-red
+      "
+      x-ref="mediaNav"
+    >
+      <button
+        class="flex-1 flex flex-col items-center justify-center bg-opacity-90"
+        :class="mediaClass(0)"
+        @click="mediaFocus = 0"
+        style="min-height: 6rem"
+      >
+        {% svgSprite name="medium_app", class="h-10 w-10 mb-1" %}
+        <div>{{ lang.distribution[0].channel }}</div>
+      </button>
+      <button
+        class="flex-1 flex flex-col items-center justify-center bg-opacity-90"
+        :class="mediaClass(1)"
+        @click="mediaFocus = 1"
+        style="min-height: 6rem"
+      >
+        {% svgSprite name="medium_email", class="h-10 w-10 mb-1" %}
+        <div>{{ lang.distribution[1].channel }}</div>
+      </button>
+      <button
+        class="flex-1 flex flex-col items-center justify-center bg-opacity-90"
+        :class="mediaClass(2)"
+        @click="mediaFocus = 2"
+        style="min-height: 6rem"
+      >
+        {% svgSprite name="medium_podcast", class="h-10 w-10 mb-1" %}
+        <div>{{ lang.distribution[2].channel }}</div>
+      </button>
+      <button
+        class="flex-1 flex flex-col items-center justify-center bg-opacity-90"
+        :class="mediaClass(3)"
+        @click="mediaFocus = 3"
+        style="min-height: 6rem"
+      >
+        {% svgSprite name="medium_website", class="h-10 w-10 mb-1" %}
+        <div>{{ lang.distribution[3].channel }}</div>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="mt-16">
+  <div class="mx-auto py-6 w-full md:max-w-sm py-4 px-2">
+    <p class="text-center text-xl lg:text-3xl mb-4">
+      {{ lang.editions.intro }}
+    </p>
+    <div class="grid grid-cols-3 gap-2">
+      <a class="whiteButton w-full text-center" href="/{{ locale }}/classic">{{
+        lang.editions.classic
+      }}</a>
+      <a class="whiteButton w-full text-center" href="/{{ locale }}/youth">{{
+        lang.editions.youth
+      }}</a>
+      <a class="whiteButton w-full text-center" href="/{{ locale }}/express">{{
+        lang.editions.express
+      }}</a>
+    </div>
+  </div>
+</section>
+
+{% include './blocks/gumbels.njk' %} {% include './blocks/testimonials.njk' %}
+{% include './blocks/today.njk' %}

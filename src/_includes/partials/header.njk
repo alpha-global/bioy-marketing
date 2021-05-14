@@ -1,7 +1,50 @@
-<header class="border-b border-red-500 p-4 bg-gray-100">
-  <h1 class="text-2xl font-medium">
-    <a href="/{{ locale }}">
-      {{ site.title }}
+<header class="bg-gradient-to-b bg-opacity-80 border-red border-t-4 absolute from-black-scrim h-16 text-white top-0 w-full z-10 md:bg-none">
+  <h1 class="text-2xl font-medium m-0 -top-1 absolute">
+    <a href="/{{ locale }}" class="flex items-center" title="{{ site.title }}">
+      {% svgSprite name="bioy-filled", class="fill-current text-red h-16 w-16" %}
+      <span class="xs:hidden" aria-hidden="true">BiOY</span>
+      <span class="hidden xs:inline">{{ site.title }}</span>
     </a>
   </h1>
+
+  <div class="absolute top-0 right-0 pt-2 pr-2 flex flex-row-reverse justify-center items-center md:hidden">
+    <a href="#" class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors">
+      Download
+    </a>
+    <a class="mr-4 hover:text-red transition-colors sm:pr-4" href="/">
+      {% svgSprite name="translate", class="fill-current h-6 w-6" %}
+      <span class="visually-hidden">Change language</span>
+    </a>
+  </div>
 </header>
+
+
+<nav class="
+  fixed bottom-0 w-full bg-white z-10 grid grid-cols-4 justify-items-stretch shadow-lg h-16
+  sm:h-20
+  md:absolute md:bg-transparent md:h-auto md:bottom-auto md:top-0 md:right-0 md:flex md:w-auto md:text-black md:mt-4 md:shadow-none
+">
+  <a href="/en#start" class="flex flex-col items-center justify-center md:py-1.5 md:mr-4 md:underline">
+    {% svgSprite name="bioy-filled", class="fill-current h-6 w-6 mb-1 sm:h-8 sm:w-8 md:hidden" %}
+    Start
+  </a>
+  <a href="/en/about" class="flex flex-col items-center justify-center {{ 'text-red' if activePage == 'about' }} md:py-1.5 md:mr-4 md:underline">
+    {% svgSprite name="about", class="fill-current h-6 w-6 mb-1 sm:h-8 sm:w-8 md:hidden" %}
+    About
+  </a>
+  <a href="/en/help" class="flex flex-col items-center justify-center {{ 'text-red' if activePage == 'help' }} md:py-1.5 md:mr-4 md:underline">
+    {% svgSprite name="help", class="fill-current h-6 w-6 mb-1 sm:h-8 sm:w-8 md:hidden" %}
+    Help
+  </a>
+  <a href="/en/donate" class="flex flex-col items-center justify-center {{ 'text-red' if activePage == 'donate' }} md:py-1.5 md:mr-4 md:underline">
+    {% svgSprite name="donate", class="fill-current h-6 w-6 mb-1 sm:h-8 sm:w-8 md:hidden" %}
+    Donate
+  </a>
+  <a class="hidden bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors no-underline mr-4 md:flex" href="#">
+    Download
+  </a>
+  <a class="hidden flex-col items-center justify-center  md:flex md:mr-4" href="/">
+    {% svgSprite name="translate", class="fill-current h-6 w-6" %}
+    <span class="visually-hidden">Change language</span>
+  </a>
+</nav>

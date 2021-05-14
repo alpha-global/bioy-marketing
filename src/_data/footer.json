@@ -1,0 +1,49 @@
+{
+  "en": {
+    "headline": "Start every day in the Bible.",
+    "cta": "Download the app today",
+    "nav": [
+      {
+        "href": "https://www.alpha.org/",
+        "label": "Alpha"
+      },
+      {
+        "href": "https://www.htb.org/",
+        "label": "HTB Church"
+      },
+      {
+        "href": "/en/donate",
+        "label": "Donate"
+      },
+      {
+        "href": "/en/help",
+        "label": "Help"
+      },
+      {
+        "href": "/en/privacy",
+        "label": "Privacy"
+      }
+    ],
+    "social": {
+      "facebook": "bibleinoneyear",
+      "twitter": "bibleinoneyear",
+      "instagram": "bibleinoneyear"
+    }
+  },
+  "es": {
+    "headline": "Start Every Day in God's Word",
+    "cta": "Download Today"
+  },
+  "ar": {
+    "headline": "Start Every Day in God's Word",
+    "cta": "Download Today"
+  },
+  "hi": {
+    "headline": "Start Every Day in God's Word",
+    "cta": "Download Today"
+  },
+  "zh": {
+    "headline": "Start Every Day in God's Word",
+    "cta": "Download Today"
+  }
+}

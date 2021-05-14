@@ -45,6 +45,36 @@
   }
 }
 
+@layer components {
+  .whiteButton {
+    @apply inline-block text-red bg-white border border-red rounded p-2 pb-1.5 transition-colors;
+  }
+
+  .whiteButton:hover {
+    @apply bg-red-dark text-white border-red-dark;
+  }
+
+  .standoutQuote {
+    @apply relative pl-3 italic;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+
+  .standoutQuote:before,
+  .standoutQuote:after {
+    @apply text-red text-2xl not-italic;
+  }
+
+  .standoutQuote:before {
+    content: open-quote;
+    line-height: 0;
+  }
+
+  .standoutQuote:after {
+    content: close-quote;
+    line-height: 0;
+  }
+}
+
 @layer utilities {
   .visually-hidden {
     clip: rect(0 0 0 0);
@@ -54,5 +84,37 @@
     position: absolute;
     white-space: nowrap;
     width: 1px;
+  }
+
+  .bioy-medium p {
+    @apply my-2;
+  }
+
+  .bioy-medium a {
+    @apply underline;
+  }
+
+  .bioy-medium ul {
+    @apply list-disc;
+  }
+
+  .bioy-medium li {
+    @apply list-inside;
+  }
+
+  .u-bannerImage {
+    clip-path: url(#headerMobile);
+  }
+
+  @screen md {
+    .u-bannerImage {
+      clip-path: url(#headerDesktop);
+    }
+  }
+
+  @screen sm {
+    .u-NandPclipper {
+      clip-path: url(#NandPclipper);
+    }
   }
 }

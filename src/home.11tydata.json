@@ -1,25 +1,113 @@
 {
   "en": {
-    "intro": "## Welcome\n\n... again my friend!",
-    "about": "about as bad as it gets",
-    "read": "Read today's devotion"
+    "intro": "Form a daily habit of reading Scripture",
+    "distribution": [
+      {
+        "channel": "App",
+        "icon": "medium_app",
+        "description": "Enjoy reading or listening to the Bible in one year on your iPhone or Android device.\n\n- [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n- [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
+        "image": "/assets/img/medium_app.jpg"
+      },
+      {
+        "channel": "Email",
+        "icon": "medium_email",
+        "description": "Receive a daily email with a fresh devotion straight in your inbox.",
+        "image": "/assets/img/medium_app.jpg",
+        "cta": {
+          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/p5d3p8\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"4010371,p5d3p8\">Sign up now</a>"
+        }
+      },
+      {
+        "channel": "Podcast",
+        "icon": "medium_podcast",
+        "description": "Listen along to the Bible in One Year with the passages read by David Suchet, and Nicky & Pippa reading each day’s commentary.\nListen now on:\n\n- [Apple Podcast](https://apple.com)\n- [Spotify](https://spotify.com)\n- [Pocket Casts](https://pocketcasts.com)\n\nOr wherever you listen\n",
+        "image": "/assets/img/today_en.jpg"
+      },
+      {
+        "channel": "Website",
+        "icon": "medium_website",
+        "description": "Far from your mobile device? You can read the daily devotion right here on this website.",
+        "image": "/assets/img/medium_app.jpg"
+      }
+    ],
+    "about": {
+      "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
+      "cta": {
+        "label": "Find out more",
+        "url": "/en/about"
+      },
+      "outro": "Nicky & Pippa lead Holy Trinity Brompton (HTB), a church in central London. They first introduced the Bible in One Year commentary in 2011 as a daily email for their congregation members. Since then it has grown beyond that daily email to be a website, app, podcast, and more with a worldwide following.",
+      "quote": "Join us as we read the Bible each day. It’s a practice that we have been doing for over 30 years and we hope it will benefit your life as much as it has ours.",
+      "intro": "Bible in One Year is a practice that Nicky & Pippa Gumbel have been doing for over thirty years. Join them each day as they take you into every chapter and every verse in the Bible and let the Holy Spirit speak into your life.",
+      "header": "Let Nicky and Pippa Be Your Guide"
+    },
+    "header": {
+      "title": "Start your day with the Bible in One Year",
+      "strapline": "How different could your life be if you started each morning reading the Bible?",
+      "cta": "Start Today",
+      "img": {
+        "src": "/assets/img/bioy-header.jpg",
+        "desc": "A man looks down at his phone, while listening to Bible in One Year"
+      }
+    },
+    "editions": {
+      "intro": "Bible in One Year comes in three editions, and is being translated into many languages ...",
+      "classic": "Classic",
+      "youth": "Youth",
+      "express": "Express"
+    }
   },
   "es": {
     "intro": "Bom dia!",
-    "about": "es about",
-    "read": "Lea la devoción de hoy"
+    "about": {
+      "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg"
+    },
+    "distribution": [
+      {
+        "channel": "App",
+        "icon": "medium_app",
+        "description": "Enjoy reading or listening to the Bible in one year on your iPhone or Android device.\n\n- [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n- [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
+        "image": "/assets/img/medium_app.jpg"
+      },
+      {
+        "channel": "Email",
+        "icon": "medium_email",
+        "description": "Receive a daily email with a fresh devotion straight in your inbox.",
+        "image": "/assets/img/medium_app.jpg",
+        "cta": {
+          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/p9r9p0\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite\" data-ml=\"4091911,p9r9p0\">Sign up now</a>"
+        }
+      },
+      {
+        "channel": "Podcast",
+        "icon": "medium_podcast",
+        "description": "Listen along to the Bible in One Year with the passages read by David Suchet, and Nicky & Pippa reading each day’s commentary.\nListen now on:\n\n- [Apple Podcast](https://apple.com)\n- [Spotify](https://spotify.com)\n- [Pocket Casts](https://pocketcasts.com)\n\nOr wherever you listen\n",
+        "image": "/assets/img/today_en.jpg"
+      },
+      {
+        "channel": "Website",
+        "icon": "medium_website",
+        "description": "Far from your mobile device? You can read the daily devotion right here on this website.",
+        "image": "/assets/img/medium_app.jpg"
+      }
+    ]
   },
   "ar": {
     "intro": "Bom dia!",
-    "about": ""
+    "about": {
+      "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg"
+    }
   },
   "hi": {
     "intro": "Hindi welcome",
-    "about": "",
-    "read": "आज पढ़िए भक्ति"
+    "about": {
+      "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg"
+    }
   },
   "zh": {
     "intro": "Bom dia!",
-    "about": ""
+    "about": {
+      "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg"
+    }
   }
 }
