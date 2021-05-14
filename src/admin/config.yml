@@ -78,7 +78,6 @@ collections:
                       },
                     ],
                 },
-
                 {
                   name: "editions",
                   label: "Editions",
@@ -174,6 +173,93 @@ collections:
                     ],
                 },
               ],
+          },
+          {
+            name: "about",
+            label: "About",
+            file: "src/about.11tydata.json",
+            i18n: true,
+            fields:
+              [
+                {
+                  name: "header",
+                  label: "Header",
+                  widget: "object",
+                  i18n: true,
+                  collapsed: true,
+                  fields:
+                    [
+                      {
+                        name: "title",
+                        label: "Title",
+                        widget: "string",
+                        i18n: true,
+                      },
+                      {
+                        name: "strapline",
+                        label: "Strapline",
+                        widget: "string",
+                        i18n: true,
+                      },
+                      {
+                        name: "cta",
+                        label: "Call to Action",
+                        widget: "string",
+                        i18n: true,
+                      },
+                      {
+                        name: "img",
+                        label: "Lead Image",
+                        widget: "object",
+                        i18n: true,
+                        fields:
+                          [
+                            {
+                              name: "src",
+                              label: Image,
+                              widget: image,
+                              i18n: true,
+                              required: true,
+                            },
+                            {
+                              name: "desc",
+                              label: Description,
+                              widget: string,
+                              i18n: true,
+                              required: true,
+                            },
+                          ],
+                      },
+                    ],
+                },
+                {
+                  name: "body",
+                  label: "Page body",
+                  widget: "markdown",
+                  i18n: true,
+                },
+                {
+                  name: "cta",
+                  label: "Show Call to Action Block",
+                  widget: "boolean",
+                  default: true,
+                  i18n: "duplicate"
+                },
+                {
+                  name: "testimonials",
+                  label: "Show Testimonials Block",
+                  widget: "boolean",
+                  default: true,
+                  i18n: "duplicate"
+                },
+                {
+                  name: "editions",
+                  label: "Show Edition Block",
+                  widget: "boolean",
+                  default: true,
+                  i18n: "duplicate"
+                }
+              ]
           },
           {
             name: "donate",

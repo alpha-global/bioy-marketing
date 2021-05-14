@@ -26,9 +26,11 @@ layout: layouts/base.njk
       {{ lang.header.strapline | protectRunts | safe }}
     </h2>
 
-    <a href="#" class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors md:self-end">
+    {% if lang.header.cta %}
+    <a href="/{{ locale }}#start " class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors md:self-end">
       {{ lang.header.cta }}
     </a>
+    {% endif %}
   </div>
 </header>
 

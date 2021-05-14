@@ -1,0 +1,26 @@
+---
+layout: landing
+pagination:
+  data: globals.locales
+  size: 1
+  alias: locale
+permalink: "{{ locale }}/about/index.html"
+---
+
+<section class="mx-auto prose prose-xl mb-4">
+  {% if lang.body %}
+    {{ lang.body|markdown|safe }}
+  {% endif %}
+</section>
+
+{% if lang.cta %}
+{% include './_blocks/cta.njk' %}
+{% endif %}
+
+{% if lang.testimonials %}
+{% include './_blocks/testimonials.njk' %}
+{% endif %}
+
+{% if lang.editions %}
+{% include './_blocks/editions.njk' %}
+{% endif %}
