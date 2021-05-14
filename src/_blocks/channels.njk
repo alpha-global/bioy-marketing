@@ -1,0 +1,110 @@
+<section class="lg:container mx-auto" x-data="mediumBlock()" x-init="init()">
+  <div class="relative lg:rounded">
+    <div
+      class="flex flex-col items-stretch"
+      style="min-height: 24rem"
+      x-ref="mediaContainer"
+    >
+      {% for medium in channels[locale].distribution %}
+      <div
+        class="relative bg-cover bg-center w-full bioy-medium"
+        x-show="mediaFocus === {{ loop.index0 }}"
+      >
+        {% if medium.image %} {% blockImage medium.image , "reader",
+        "(min-width: 1vw)", "object-cover h-full w-full absolute filter
+        saturate-0 lg:rounded-lg" %} {% endif %}
+
+        <div
+          class="
+            flex flex-col
+            justify-center
+            relative
+            h-full
+            bg-red bg-opacity-80
+            text-white
+            pl-28
+            pr-4
+            py-6
+            md:pl-36
+            lg:rounded-lg
+          "
+        >
+          <div class="max-w-xs">
+            <h4 class="text-xl font-bold mb-3">
+              {{ medium.channel }}
+            </h4>
+            {{ medium.description | markdown | safe }}
+
+            {% if medium.cta %}
+            {{ medium.cta.code | safe }}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div
+      class="
+        hidden
+        top-0
+        h-full
+        flex flex-col
+        absolute
+        w-24
+        fill-current
+        text-red
+      "
+      x-ref="mediaNav"
+    >
+      <button
+        class="
+          flex-1 flex flex-col
+          items-center
+          justify-center
+          bg-opacity-90
+          lg:rounded-tl-lg
+        "
+        :class="mediaClass(0)"
+        @click="mediaFocus = 0"
+        style="min-height: 6rem"
+      >
+        {% svgSprite name="medium_app", class="h-10 w-10 mb-1" %}
+        <div>{{ channels[locale].distribution[0].channel }}</div>
+      </button>
+      <button
+        class="flex-1 flex flex-col items-center justify-center bg-opacity-90"
+        :class="mediaClass(1)"
+        @click="mediaFocus = 1"
+        style="min-height: 6rem"
+      >
+        {% svgSprite name="medium_email", class="h-10 w-10 mb-1" %}
+        <div>{{ channels[locale].distribution[1].channel }}</div>
+      </button>
+      <button
+        class="flex-1 flex flex-col items-center justify-center bg-opacity-90"
+        :class="mediaClass(2)"
+        @click="mediaFocus = 2"
+        style="min-height: 6rem"
+      >
+        {% svgSprite name="medium_podcast", class="h-10 w-10 mb-1" %}
+        <div>{{ channels[locale].distribution[2].channel }}</div>
+      </button>
+      <button
+        class="
+          flex-1 flex flex-col
+          items-center
+          justify-center
+          bg-opacity-90
+          lg:rounded-bl-lg
+        "
+        :class="mediaClass(3)"
+        @click="mediaFocus = 3"
+        style="min-height: 6rem"
+      >
+        {% svgSprite name="medium_website", class="h-10 w-10 mb-1" %}
+        <div>{{ channels[locale].distribution[3].channel }}</div>
+      </button>
+    </div>
+  </div>
+</section>

@@ -78,43 +78,7 @@ collections:
                       },
                     ],
                 },
-                {
-                  label: "Distribution",
-                  name: "distribution",
-                  widget: "list",
-                  required: true,
-                  allow_add: false,
-                  i18n: true,
-                  fields:
-                    [
-                      {
-                        name: "channel",
-                        label: "Channel",
-                        widget: "string",
-                        i18n: true,
-                      },
-                      {
-                        name: "icon",
-                        label: "Icon",
-                        widget: "string",
-                        i18n: "duplicate",
-                      },
-                      {
-                        name: "description",
-                        label: "Description",
-                        widget: "markdown",
-                        i18n: true,
-                      },
-                      {
-                        name: "cta",
-                        label: "Call to action",
-                        widget: "code",
-                        required: false,
-                        i18n: true,
-                      },
-                      { label: "Image", name: "image", widget: "image" },
-                    ],
-                },
+
                 {
                   name: "editions",
                   label: "Editions",
@@ -445,6 +409,52 @@ collections:
       i18n: true,
       files:
         [
+          {
+            name: "media",
+            label: "Media Channels",
+            file: "src/_data/channels.json",
+            i18n: true,
+            fields:
+              [
+                {
+                  label: "Distribution",
+                  name: "distribution",
+                  widget: "list",
+                  required: true,
+                  allow_add: true,
+                  i18n: true,
+                  fields:
+                    [
+                      {
+                        name: "channel",
+                        label: "Channel",
+                        widget: "string",
+                        i18n: true,
+                      },
+                      {
+                        name: "icon",
+                        label: "Icon",
+                        widget: "string",
+                        i18n: "duplicate",
+                      },
+                      {
+                        name: "description",
+                        label: "Description",
+                        widget: "markdown",
+                        i18n: true,
+                      },
+                      {
+                        name: "cta",
+                        label: "Call to action",
+                        widget: "code",
+                        required: false,
+                        i18n: true,
+                      },
+                      { label: "Image", name: "image", widget: "image" },
+                    ],
+                },
+              ],
+          },
           {
             name: "testimonials",
             label: "Testimonials",
