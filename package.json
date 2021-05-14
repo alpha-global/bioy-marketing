@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ELEVENTY_ENV=development eleventy --serve & mix watch",
+    "11tyOnly": "ELEVENTY_ENV=development eleventy --serve",
     "setup": "node firstTimeSetup.js",
     "cms": "npx netlify-cms-proxy-server",
     "wipe": "rm -rf ./.cache && rm -rf ./build",
