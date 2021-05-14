@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ locale }}">
+<html lang="{{ locale }}" {% if locale == 'ar'%}dir="rtl"{% endif %}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,20 +28,20 @@
 
     {% include 'partials/footer.njk' %}
 
+    {% if page.url != '/' %}
     <!-- scrim -->
     <div
       class="overflow-auto"
-      style="background-color: rgba(0, 0, 0, 0.5)"
       x-show="isLangPickerOpen"
-      :class="{ 'absolute inset-0 z-10 flex items-start justify-center': isLangPickerOpen }"
+      :class="{ 'bg-black bg-opacity-70 fixed inset-0 z-10 flex items-start justify-center': isLangPickerOpen }"
     >
       <!-- dialog -->
       <div
-        class="shadow-2xl w-full m-8 md:max-w-sm bg-white border-t-4 border-red py-8 px-4 text-2xl"
+        class="shadow-2xl w-full m-8 md:max-w-sm bg-white border-t-4 border-red py-8 px-4 rounded"
         x-show="isLangPickerOpen"
         @click.away="isLangPickerOpen = false"
       >
-        <h2 class="text-3xl text-red font-bold mb-2">
+        <h2 class="text-xl md:text-2xl text-red font-bold mb-2">
           {{ site.switcher.title }}
         </h2>
         <p class="text-grey mb-4">
@@ -58,6 +58,7 @@
         </ul>
       </div>
     </div>
+    {% endif %}
 
     <script src="/assets/js/app.js"></script>
     <!-- last build: {{ globals.env }} | {{ globals.buildTime }} -->

@@ -30,24 +30,60 @@
   },
   "es": {
     "intro": "Bom dia!",
+    "header": {
+      "title": "Start your day with the Bible in One Year",
+      "strapline": "How different could your life be if you started each morning reading the Bible?",
+      "cta": "Start Today",
+      "img": {
+        "src": "/assets/img/bioy-header.jpg",
+        "desc": "A man looks down at his phone, while listening to Bible in One Year"
+      }
+    },
     "about": {
       "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg"
     }
   },
   "ar": {
     "intro": "Bom dia!",
+    "header": {
+      "title": "Start your day with the Bible in One Year",
+      "strapline": "How different could your life be if you started each morning reading the Bible?",
+      "cta": "Start Today",
+      "img": {
+        "src": "/assets/img/bioy-header.jpg",
+        "desc": "A man looks down at his phone, while listening to Bible in One Year"
+      }
+    },
     "about": {
       "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg"
     }
   },
   "hi": {
     "intro": "Hindi welcome",
+    "header": {
+      "title": "Start your day with the Bible in One Year",
+      "strapline": "How different could your life be if you started each morning reading the Bible?",
+      "cta": "Start Today",
+      "img": {
+        "src": "/assets/img/bioy-header.jpg",
+        "desc": "A man looks down at his phone, while listening to Bible in One Year"
+      }
+    },
     "about": {
       "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg"
     }
   },
   "zh": {
     "intro": "Bom dia!",
+    "header": {
+      "title": "Start your day with the Bible in One Year",
+      "strapline": "How different could your life be if you started each morning reading the Bible?",
+      "cta": "Start Today",
+      "img": {
+        "src": "/assets/img/bioy-header.jpg",
+        "desc": "A man looks down at his phone, while listening to Bible in One Year"
+      }
+    },
     "about": {
       "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg"
     }
