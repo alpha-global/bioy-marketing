@@ -5,13 +5,16 @@ const data = require("../../help.11tydata.json");
 const { locales } = require("../../_data/globals");
 
 
-const app = new function() {
+const app = new function () {
+  
+  // public functions
+  return {
+      
+    init() {
+      setDateId();
+      window.onpopstate = redirectBaseUrl();
     
-  this.init = function () {
-    setDateId();
-    window.onpopstate = redirectBaseUrl();
-    
-    const testimonySwiper = new Swipe(document.getElementById('slider'), {
+      const testimonySwiper = new Swipe(document.getElementById('slider'), {
         startSlide: 0,
         speed: 500,
         auto: 6000,
@@ -19,8 +22,8 @@ const app = new function() {
         continuous: true,
         disableScroll: false,
         stopPropagation: true,
-    });
-
+      });
+    }
   };
     
     function setDateId() {
