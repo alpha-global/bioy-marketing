@@ -1,0 +1,35 @@
+{
+  "en": {
+    "collection": [
+      {
+        "quote": "...this app is a triumph of clear Bible readings and wise and insightful commentaries.",
+        "source": "iOS App Store Review"
+      },
+      {
+        "quote": "Simply brilliant!",
+        "source": "Play Store"
+      },
+      {
+        "quote": "Good app. Five Stars!",
+        "source": "Johnathan Edwards"
+      }
+    ]
+  },
+  "es": {
+    "collection": [
+      {
+        "quote": "One in Spanish",
+        "source": "Senor Onion"
+      }
+    ]
+  },
+  "ar": {
+    "collection": []
+  },
+  "hi": {
+    "collection": []
+  },
+  "zh": {
+    "collection": []
+  }
+}

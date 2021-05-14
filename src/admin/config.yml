@@ -435,10 +435,26 @@ collections:
                       },
                     ],
                 },
-
+              ],
+          },
+        ],
+    },
+    {
+      label: "General Areas",
+      name: "generalAreas",
+      i18n: true,
+      files:
+        [
+          {
+            name: "testimonials",
+            label: "Testimonials",
+            file: "src/_data/testimonials.json",
+            i18n: true,
+            fields:
+              [
                 {
-                  name: "testimonials",
-                  label: "Testimonials",
+                  name: "collection",
+                  label: "Collection",
                   widget: "list",
                   i18n: true,
                   fields:
@@ -461,14 +477,6 @@ collections:
                 },
               ],
           },
-        ],
-    },
-    {
-      label: "General Areas",
-      name: "generalAreas",
-      i18n: true,
-      files:
-        [
           {
             file: "src/_data/footer.json",
             label: "Site Footer",
@@ -547,57 +555,60 @@ collections:
       format: json,
       create: false,
       file: "src/editions.11tydata.json",
-      fields: [
-        { label: "Edition Title", name: "title", widget: "string", i18n: true },
-        {
-          name: "header",
-          label: "Page Header",
-          widget: "object",
-          i18n: true,
-          fields: [
-            {
-              name: "title",
-              label: "Title",
-              widget: "string",
-              i18n: true,
-            },
-            {
-              name: "strapline",
-              label: "Strapline",
-              widget: "string",
-              i18n: true,
-            },
-            {
-              name: "cta",
-              label: "Call to Action",
-              widget: "string",
-              i18n: true,
-            },
-            {
-              name: "img",
-              label: "Lead Image",
-              widget: "object",
-              i18n: true,
-              fields: [
+      fields:
+        [
+          {
+            label: "Edition Title",
+            name: "title",
+            widget: "string",
+            i18n: true,
+          },
+          {
+            name: "header",
+            label: "Page Header",
+            widget: "object",
+            i18n: true,
+            fields:
+              [
+                { name: "title", label: "Title", widget: "string", i18n: true },
                 {
-                  name: "src",
-                  label: Image,
-                  widget: image,
+                  name: "strapline",
+                  label: "Strapline",
+                  widget: "string",
                   i18n: true,
-                  required: true
                 },
                 {
-                  name: "desc",
-                  label: Description,
-                  widget: string,
+                  name: "cta",
+                  label: "Call to Action",
+                  widget: "string",
                   i18n: true,
-                  required: true
                 },
-              ]
-            }
-          ]
-        },
-      ]
+                {
+                  name: "img",
+                  label: "Lead Image",
+                  widget: "object",
+                  i18n: true,
+                  fields:
+                    [
+                      {
+                        name: "src",
+                        label: Image,
+                        widget: image,
+                        i18n: true,
+                        required: true,
+                      },
+                      {
+                        name: "desc",
+                        label: Description,
+                        widget: string,
+                        i18n: true,
+                        required: true,
+                      },
+                    ],
+                },
+              ],
+          },
+        ],
     },
     {
       label: "Pages",
