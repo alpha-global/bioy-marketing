@@ -11,7 +11,6 @@ const app = new function () {
   return {
       
     init() {
-      setDateId();
       window.onpopstate = redirectBaseUrl();
     
       const testimonySwiper = new Swipe(document.getElementById('slider'), {
@@ -26,24 +25,6 @@ const app = new function () {
     }
   };
     
-    function setDateId() {
-      const todayBlock = document.querySelector('.js-today');
-      if (!todayBlock) return;
-      
-      const readLink = todayBlock.querySelector('a');
-
-      // Todo: Extract, Tidy and cater for leap year
-      const now = new Date();
-      const start = new Date(now.getFullYear(), 0, 0);
-      const diff = now - start;
-      const oneDay = 1000 * 60 * 60 * 24;
-      const day = Math.floor(diff / oneDay);
-
-      const url = `/${todayBlock.dataset.locale}/${todayBlock.dataset.variant}/${day}`;
-
-      readLink.href = url;
-  };
-  
   function redirectBaseUrl() {
     const isLoginRequest = window.location.hash.includes("token");
     if (isLoginRequest) return;
@@ -60,8 +41,11 @@ const app = new function () {
 }
 
 
-if (document.readyState!='loading') app.init();
-else document.addEventListener('DOMContentLoaded', app.init);
+if (document.readyState != 'loading') {
+  app.init();
+} else {
+  document.addEventListener('DOMContentLoaded', app.init);
+}
 
 
 const mailerLiteLink = document.querySelector('.js-mailerLite');
