@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 pagination:
   data: globals.locales
   size: 1
@@ -10,11 +10,14 @@ activePage: donate
 
 <main class="container mx-auto p-2 sm:p-4 prose prose-lg">
   <h1>{{ lang.heading }}</h1>
-  <p>{{ lang.intro }}</p>
+
+  {{ lang.intro|markdown|safe }}
 </main>
 
 <section class="container mx-auto p-2 sm:p-4 text-center">
-  <div id="bbox-root" class="mx-auto prose prose-lg"></div>
+
+  <div id="bbox-root" class="mx-auto prose prose-lg donate"></div>
+
   <script type="text/javascript">
     window.bboxInit = function () {
       bbox.showForm("{{lang.blackbaud_id}}");
@@ -27,3 +30,31 @@ activePage: donate
     })();
   </script>
 </section>
+
+<style>
+  .BBFormRadioList {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #bboxdonation_billing_ddTitle,
+  .BBFormRadioLabelGivingLevel {
+    width: 100%;
+  }
+  .BBFormRadioLabelGivingLevelSelected {
+    border-color: #e42312 !important;
+    background-color: #e42312 !important;
+  }
+
+  .BBFormFieldUKGiftAidTermsLabel {
+    line-height: 120%!important;
+    font-size: 0.825rem !important;
+    color: #6A6A6A !important;
+  }
+
+  .BBDFormSectionComments .BBFormTextArea,
+  .BBDFormSectionComments .BBFormFieldLabel {
+    margin-left: 0 !important;
+  }
+</style>
