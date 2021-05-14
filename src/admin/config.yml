@@ -213,33 +213,46 @@ collections:
             fields:
               [
                 {
+                  name: "title",
+                  label: "Title",
+                  widget: "string",
+                  i18n: true,
+                },
+                {
+                  name: "intro",
+                  label: "Introduction",
+                  widget: "markdown",
+                  i18n: true,
+                  required: false,
+                },
+                {
                   name: "filter",
                   label: "Filter label",
-                  widget: "text",
+                  widget: "string",
                   i18n: true,
                 },
                 {
                   name: "seeMore",
                   label: "See More",
-                  widget: "text",
+                  widget: "string",
                   i18n: true,
                 },
                 {
                   name: "notFoundMessage",
                   label: "Not Found Message",
-                  widget: "text",
+                  widget: "string",
                   i18n: true,
                 },
                 {
                   name: "submitButton",
                   label: "Submit request label",
-                  widget: "text",
+                  widget: "string",
                   i18n: true,
                 },
                 {
                   name: "filterHint",
                   label: "Filter hint",
-                  widget: "text",
+                  widget: "string",
                   i18n: true,
                 },
                 {
@@ -251,18 +264,18 @@ collections:
                   fields:
                     [
                       {
-                        name: "audio",
+                        name: "Audio",
                         label: "Audio",
-                        widget: "text",
+                        widget: "string",
                         i18n: true,
                       },
                       {
-                        name: "content",
+                        name: "Content",
                         label: "Content",
-                        widget: "text",
+                        widget: "string",
                         i18n: true,
                       },
-                      { name: "app", label: "App", widget: "text", i18n: true },
+                      { name: "App", label: "App", widget: "string", i18n: true },
                     ],
                 },
 
