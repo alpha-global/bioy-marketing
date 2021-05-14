@@ -1,0 +1,20 @@
+{
+  "en": {
+    "title": "Classic",
+    "header": {
+      "img": {
+        "src": "/assets/img/express_lead.jpg",
+        "desc": "A woman sits on a train listening to the express edition of Bible in One Year"
+      },
+      "title": "Every day in the Bible",
+      "strapline": "God's word. Read every day.",
+      "cta": "Start Now"
+    }
+  },
+  "es": {
+    "title": "Classic"
+  },
+  "ar": {},
+  "hi": {},
+  "zh": {}
+}
