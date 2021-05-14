@@ -49,6 +49,12 @@
         "src": "/assets/img/bioy-header.jpg",
         "desc": "A man looks down at his phone, while listening to Bible in One Year"
       }
+    },
+    "editions": {
+      "intro": "Bible in One Year comes in three editions, and is being translated into many languages ...",
+      "classic": "Classic",
+      "youth": "Youth",
+      "express": "Express"
     }
   },
   "es": {

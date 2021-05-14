@@ -116,6 +116,39 @@ collections:
                     ],
                 },
                 {
+                  name: "editions",
+                  label: "Editions",
+                  widget: "object",
+                  i18n: true,
+                  fields:
+                    [
+                      {
+                        name: "intro",
+                        label: "Introduction",
+                        widget: "text",
+                        i18n: true,
+                      },
+                      {
+                        name: "classic",
+                        label: "Classic",
+                        widget: "string",
+                        i18n: true,
+                      },
+                      {
+                        name: "youth",
+                        label: "Youth",
+                        widget: "string",
+                        i18n: true,
+                      },
+                      {
+                        name: "express",
+                        label: "Express",
+                        widget: "string",
+                        i18n: true,
+                      },
+                    ],
+                },
+                {
                   name: "about",
                   label: "About Nicky and Pippa",
                   widget: "object",

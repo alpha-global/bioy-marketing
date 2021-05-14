@@ -107,5 +107,24 @@ permalink: "{{ locale }}/index.html"
   </div>
 </section>
 
+<section class="mt-16">
+  <div class="mx-auto py-6 w-full md:max-w-sm py-4 px-2">
+    <p class="text-center text-xl lg:text-3xl mb-4">
+      {{ lang.editions.intro }}
+    </p>
+    <div class="grid grid-cols-3 gap-2">
+      <a class="whiteButton w-full text-center" href="/{{ locale }}/classic">{{
+        lang.editions.classic
+      }}</a>
+      <a class="whiteButton w-full text-center" href="/{{ locale }}/youth">{{
+        lang.editions.youth
+      }}</a>
+      <a class="whiteButton w-full text-center" href="/{{ locale }}/express">{{
+        lang.editions.express
+      }}</a>
+    </div>
+  </div>
+</section>
+
 {% include './blocks/gumbels.njk' %} {% include './blocks/testimonials.njk' %}
 {% include './blocks/today.njk' %}

@@ -1,4 +1,5 @@
-<section class="
+<section
+  class="
     p-4
     flex flex-col
     text-center
@@ -7,7 +8,8 @@
     sm:grid sm:grid-cols-2
     sm:gap-4
     lg:py-8
-  ">
+  "
+>
   <h2
     class="
       font-bold
@@ -41,21 +43,7 @@
 
     {% if lang.about.cta %}
     <p>
-      <a
-        class="
-          inline-block
-          border border-red
-          rounded
-          p-2
-          pb-1.5
-          text-red
-          hover:bg-red-dark
-          hover:border-red-dark
-          hover:text-white
-          transition-colors
-        "
-        href="{{ lang.about.cta.url }}"
-      >
+      <a class="whiteButton px-4" href="{{ lang.about.cta.url }}">
         {{ lang.about.cta.label }}
       </a>
     </p>
@@ -64,12 +52,15 @@
 
   <aside class="mb-4 order-first sm:order-none lg:row-span-2">
     <div class="mx-auto w-2/3 sm:mx-auto sm:w-full">
-      {% blockImage lang.about.img, "Nicky and Pippa Gumbel", "(min-width: 30em) ", "rounded-full sm:rounded-none u-NandPclipper" %}
+      {% blockImage lang.about.img, "Nicky and Pippa Gumbel", "(min-width: 30em)
+      ", "rounded-full sm:rounded-none u-NandPclipper" %}
 
       <svg height="0" width="0">
         <defs>
           <clipPath id="NandPclipper" clipPathUnits="objectBoundingBox">
-            <path d="M1,0.29 V0.707 C0.917,0.88,0.735,1,0.524,1 C0.234,1,0,0.776,0,0.499 C0,0.24,0.205,0.026,0.469,0 H0.579 C0.766,0.019,0.925,0.132,1,0.29"></path>
+            <path
+              d="M1,0.29 V0.707 C0.917,0.88,0.735,1,0.524,1 C0.234,1,0,0.776,0,0.499 C0,0.24,0.205,0.026,0.469,0 H0.579 C0.766,0.019,0.925,0.132,1,0.29"
+            ></path>
           </clipPath>
         </defs>
       </svg>
