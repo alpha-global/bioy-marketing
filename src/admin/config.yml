@@ -365,6 +365,28 @@ collections:
                 },
 
                 {
+                  name: "switcher",
+                  label: "Language Switcher",
+                  widget: "object",
+                  i18n: true,
+                  fields:
+                    [
+                      {
+                        label: "Title",
+                        name: "title",
+                        widget: "string",
+                        i18n: true,
+                      },
+                      {
+                        label: "Sub Title",
+                        name: "subTitle",
+                        widget: "text",
+                        i18n: true,
+                      },
+                    ],
+                },
+
+                {
                   name: "today",
                   label: "Today's reading",
                   widget: "object",

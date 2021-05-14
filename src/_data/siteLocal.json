@@ -12,10 +12,17 @@
       "intro": "Today is day",
       "reading": "we're reading:",
       "cta": "Read now"
+    },
+    "switcher": {
+      "title": "Change Language",
+      "subTitle": "Bible in One Year is available in the following languages:"
     }
   },
   "es": {
-    "title": "Biblia en un año"
+    "title": "Biblia en un año",
+    "switcher": {
+      "title": "Change Language"
+    }
   },
   "ar": {
     "title": "Bible in One Year..."

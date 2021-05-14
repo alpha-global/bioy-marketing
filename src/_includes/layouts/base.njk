@@ -16,7 +16,10 @@
     <link rel="shortcut icon" href="/assets/icon/favicon.ico" />
   </head>
 
-  <body>
+  <body
+    x-data="{ 'isLangPickerOpen': false }"
+    @keydown.escape="isLangPickerOpen = false"
+  >
     {% include 'partials/header.njk' %}
 
     <main class="">
@@ -24,6 +27,37 @@
     </main>
 
     {% include 'partials/footer.njk' %}
+
+    <!-- scrim -->
+    <div
+      class="overflow-auto"
+      style="background-color: rgba(0, 0, 0, 0.5)"
+      x-show="isLangPickerOpen"
+      :class="{ 'absolute inset-0 z-10 flex items-start justify-center': isLangPickerOpen }"
+    >
+      <!-- dialog -->
+      <div
+        class="shadow-2xl w-full m-8 md:max-w-sm bg-white border-t-4 border-red py-8 px-4 text-2xl"
+        x-show="isLangPickerOpen"
+        @click.away="isLangPickerOpen = false"
+      >
+        <h2 class="text-3xl text-red font-bold mb-2">
+          {{ site.switcher.title }}
+        </h2>
+        <p class="text-grey mb-4">
+          {{ site.switcher.subTitle }}
+        </p>
+        <ul>
+          {% for lang in globals.languages %}
+          <li class="mb-4">
+            <a class="text-red underline" href="/{{ lang.locale }}">{{
+              lang.language
+            }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
 
     <script src="/assets/js/app.js"></script>
     <!-- last build: {{ globals.env }} | {{ globals.buildTime }} -->
