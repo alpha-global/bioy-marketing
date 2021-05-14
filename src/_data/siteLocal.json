@@ -12,7 +12,21 @@
       "intro": "Today is day",
       "reading": "we're reading:",
       "cta": "Read now"
-    }
+    },
+    "testimonials": [
+      {
+        "quote": "...this app is a triumph of clear Bible readings and wise and insightful commentaries.",
+        "source": "iOS App Store Review"
+      },
+      {
+        "quote": "Testimonial 2",
+        "source": "Play Store"
+      },
+      {
+        "quote": "Good app. Five Stars!",
+        "source": "Johnathan Edwards"
+      }
+    ]
   },
   "es": {
     "title": "Biblia en un año"

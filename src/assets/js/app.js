@@ -1,41 +1,66 @@
 import 'alpinejs';
+import Swipe from 'swipejs';
 const data = require("../../help.11tydata.json");
 // const homeData = require("../../home.11tydata.json");
 const { locales } = require("../../_data/globals");
 
-// Redirect base URL
-(window.onpopstate = function () {
-  // http://bioy-marketing.netlify.app/#invite_token=A1111l38jNObCN586k61UQ
-  // https://bioy-marketing.netlify.app/#recovery_token=RS2222lxAkkntZg81ARUYQ
-  var isLoginRequest = window.location.hash.includes("token");
-  if (isLoginRequest) return;
+
+const app = new function() {
+    
+  this.init = function () {
+    setDateId();
+    window.onpopstate = redirectBaseUrl();
+    
+    const testimonySwiper = new Swipe(document.getElementById('slider'), {
+        startSlide: 0,
+        speed: 500,
+        auto: 6000,
+        draggable: false,
+        continuous: true,
+        disableScroll: false,
+        stopPropagation: true,
+    });
+
+  };
+    
+    function setDateId() {
+      const todayBlock = document.querySelector('.js-today');
+      if (!todayBlock) return;
+      
+      const readLink = todayBlock.querySelector('a');
+
+      // Todo: Extract, Tidy and cater for leap year
+      const now = new Date();
+      const start = new Date(now.getFullYear(), 0, 0);
+      const diff = now - start;
+      const oneDay = 1000 * 60 * 60 * 24;
+      const day = Math.floor(diff / oneDay);
+
+      const url = `/${todayBlock.dataset.locale}/${todayBlock.dataset.variant}/${day}`;
+
+      readLink.href = url;
+  };
   
-  var currentPath = window.location.pathname;
-  if (currentPath && currentPath !== '/') return;
+  function redirectBaseUrl() {
+    const isLoginRequest = window.location.hash.includes("token");
+    if (isLoginRequest) return;
+      
+    const currentPath = window.location.pathname;
+    if (currentPath && currentPath !== '/') return;
 
-  const lang = navigator.language.split('-')[0];
-
-  if (locales.includes(lang)) {
-    window.location = `/${lang}/`
+    const lang = navigator.language.split('-')[0];
+    if (locales.includes(lang)) {
+      window.location = `/${lang}/`
+    }
   }
-})();
 
-
-const todayBlock = document.querySelector('.js-today');
-if (todayBlock) {
-  const readLink = todayBlock.querySelector('a');
-
-  // Todo: Extract, Tidy and cater for leap year
-  var now = new Date();
-  var start = new Date(now.getFullYear(), 0, 0);
-  var diff = now - start;
-  var oneDay = 1000 * 60 * 60 * 24;
-  var day = Math.floor(diff / oneDay);
-
-  const url = `/${todayBlock.dataset.locale}/${todayBlock.dataset.variant}/${day}`;
-
-  readLink.href = url;
 }
+
+
+if (document.readyState!='loading') app.init();
+else document.addEventListener('DOMContentLoaded', app.init);
+
+
 
 
 const mailerLiteLink = document.querySelector('.js-mailerLite');
