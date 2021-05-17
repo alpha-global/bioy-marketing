@@ -41,6 +41,12 @@
     },
     "about": {
       "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg"
+    },
+    "editions": {
+      "classic": "Clásica",
+      "express": "Exprés",
+      "youth": "Jóvenes",
+      "intro": "Seleccione su edición"
     }
   },
   "ar": {
