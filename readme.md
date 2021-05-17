@@ -29,12 +29,19 @@ npm install
 npm run production
 ```
 
-Merging to staging will deploy automagically to staging.
+Merging to `staging` will deploy automagically to staging, and to `main` will deploy to production.
 
+## CMS
+
+Netlify CMS can be run locally with `npm run cms`.
+
+Authentication happens through Netlify Identity, this means that the CMS only works in production when [deployed to Netlify](https://bioy-marketing.netlify.app/).
 
 ## Translations
 
-There are two tipes of translated content:
+The site is localised with different paths for each language (`/en`, `/ar`, etc). On the production server an nginx rule exists to sniff the users' browser language and then redirects accordingly. If there are no obvious languages, then the user is invited to pick (see `src/index.njk`).
+
+There are two types of translated content:
 ### Site
 
 Text or image urls that can be used on more than one page are configured in the Settings section of the CMS and referenced in the templates as follows:
