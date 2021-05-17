@@ -11,7 +11,6 @@ const app = new function () {
   return {
 
     init() {
-      window.onpopstate = redirectBaseUrl();
       setMailPopup();
 
       const testimonySwiper = new Swipe(document.getElementById('slider'), {
@@ -25,19 +24,6 @@ const app = new function () {
       });
     }
   };
-
-  function redirectBaseUrl() {
-    // const currentPath = window.location.pathname;
-    // if (currentPath && currentPath !== '/') return;
-
-    // const isLoginRequest = window.location.hash.includes("invite_token");
-    // if (isLoginRequest) return;
-
-    // const lang = navigator.language.split('-')[0];
-    // if (locales.includes(lang)) {
-    //   window.location = `/${lang}/`
-    // }
-  }
 
   function setMailPopup() {
 
