@@ -7,12 +7,12 @@ module.exports = {
               <use xlink:href="/assets/svg/sprite.svg#${svgSprite.name}"></use>
             </svg>`;
   },
-  
+
   devotionSection: (devotionSection) => {
     return `
-    <section>
-    <div class="p-4 bg-red">
-      <div class="font-extrabold text-4xl text-white">${
+    <section class="prose lg:prose-xl mb-8">
+    <div class="p-4 bg-red rounded">
+      <div class="font-bold text-4xl text-white">${
         devotionSection.title
       }</div>
     </div>

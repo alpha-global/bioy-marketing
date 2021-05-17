@@ -1,5 +1,5 @@
 ---
-layout: commentary
+layout: page
 pagination:
   data: bioy
   size: 1
@@ -10,8 +10,8 @@ eleventyComputed:
   locale: "{{ devotion.locale }}"
 ---
 
-<article class="prose lg:prose-xl mx-auto font-commentary">
-  <div class="px-4">
+<article class="max-w-prose mx-auto font-commentary">
+  <div class="px-4 prose lg:prose-xl ">
     <div class="mt-24">
       <span class="text-xl text-red">{{ lang.day }} {{devotion.devotionId}}</span>
     </div>
@@ -36,16 +36,15 @@ eleventyComputed:
     </div>
   </div>
 
-  <div class="px-4">
+  <div class="px-4 prose lg:prose-xl mb-8">
     <div class="mt-16">
       <h2>{{lang.introduction}}</h2>
     </div>
 
     {{ devotion.introduction|safe }}
-
   </div>
 
-  {% devotionSection 
+  {% devotionSection
     title=lang.wisdom,
     commentary=lang.commentary,
     prayerTitle=lang.prayer,
@@ -55,7 +54,7 @@ eleventyComputed:
     prayer=devotion.wisdom.prayer
   %}
 
-  {% devotionSection 
+  {% devotionSection
     title=lang.newTestament,
     commentary=lang.commentary,
     prayerTitle=lang.prayer,
@@ -65,7 +64,7 @@ eleventyComputed:
     prayer=devotion.newTestament.prayer
   %}
 
-  {% devotionSection 
+  {% devotionSection
     title=lang.oldTestament,
     commentary=lang.commentary,
     prayerTitle=lang.prayer,
@@ -77,34 +76,35 @@ eleventyComputed:
 
 
 
-  <section class="bg-stone p-4">
+  <section class="prose lg:prose-xl mx-4 bg-stone p-4 mb-4">
     <h2>{{lang.pippaAdds}}</h2>
     {{ devotion.pippa|safe }}
   </section>
 
+  <div class="mx-4 mb-4 grid gap-4 md:grid-cols-3">
+    <section class="prose lg:prose-xl bg-stone p-4">
+      <h2 class="mt-0">{{lang.verseOfTheDay}}</h2>
+      <h3>{{devotion.verseOfTheDayReference}}</h3>
+      {{ devotion.verseOfTheDay|safe }}
+    </section>
 
-  <section class="bg-stone p-4 mt-4">
-    <h2>{{lang.verseOfTheDay}}</h2>
-    <h3>{{devotion.verseOfTheDayReference}}</h3>
-    {{ devotion.verseOfTheDay|safe }}
-  </section>
+    {% if devotion.thoughtForTheDay %}
+      <section class="prose lg:prose-xl bg-stone p-4">
+        <h2 class="mt-0">Thought for the Day</h2>
+        {{ devotion.thoughtForTheDay |safe }}
+      </section>
+    {% endif %}
 
-  {% if devotion.thoughtForTheDay %}
-    <section class="bg-stone p-4 mt-4">
-    <h2>Thought for the Day</h2>
-    {{ devotion.thoughtForTheDay |safe }}
-  </section>
-  {% endif %}
-
-  {% if devotion.actionForTheDay %}
-    <section class="bg-stone p-4 mt-4">
-    <h2>Action for the Day</h2>
-    {{ devotion.actionForTheDay |safe }}
-  </section>
-  {% endif %}
+    {% if devotion.actionForTheDay %}
+      <section class="prose lg:prose-xl bg-stone p-4">
+        <h2 class="mt-0">Action for the Day</h2>
+        {{ devotion.actionForTheDay |safe }}
+      </section>
+    {% endif %}
+  </div>
 
 
-  <section class="p-4">
+  <section class="p-4 prose lg:prose-xl">
     <h2>References</h2>
     <div class="prose-sm">
       {{ devotion.references|safe }}
