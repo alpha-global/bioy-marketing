@@ -1,5 +1,10 @@
 module.exports = {
-  purge: ["src/**/*.njk", "src/**/*.html"],
+  purge: {
+    content: ["src/**/*.njk", "src/**/*.html"],
+    options: {
+      safelist: ['bg-grey-light', 'bg-transparent'],
+    }
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
