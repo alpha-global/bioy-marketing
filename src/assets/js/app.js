@@ -57,7 +57,7 @@ if (document.readyState != 'loading') {
 
 
 
-window.store = function() {
+window.help = function() {
   return {
     query: null,
     show: false,
@@ -65,7 +65,8 @@ window.store = function() {
     init() {
       this.helpItems = data["en"].helpItems;
 
-      document.querySelector('.filter').classList.remove('hidden')
+      const filterContainer = document.querySelector('.js-filter');
+      filterContainer.classList.remove('hidden');
     },
 
     filteredItems() {

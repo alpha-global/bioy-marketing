@@ -18,15 +18,15 @@ activePage: help
   {% endif %}
 </main>
 
-<div class="mx-auto p-2 sm:p-4 lg:container" x-data="store()" x-init="init()">
+<div class="mx-auto p-2 sm:p-4 lg:container" x-data="help()" x-init="init()">
 
-  <div class="filter hidden flex relative mb-4">
+  <div class="js-filter hidden flex relative mb-4">
     <span class="py-2 pr-2 font-bold absolute left-0 pointer">{{ lang.filter }}:</span>
     <input type="text" class="searchField__input w-full p-2 pl-16 border-b-2 border-grey focus:outline-none focus:border-red" placeholder="{{ lang.filterHint }}" x-model="query" />
     {% svgSprite name="search", class="pointer-events-none absolute right-2 top-2 h-6 w-6" %}
   </div>
 
-  <ul class="grid gap-4 md:grid-cols-2" x-show="!query">
+  <div class="grid gap-4 md:grid-cols-2" x-show="!query">
     {% for helpItem in lang.helpItems %}
       <div class="border border-grey p-8">
         <div class="font-bold inline-block text-gray-600 uppercase">{{ lang.categories[helpItem.category] }}</div>
@@ -37,22 +37,20 @@ activePage: help
         {% endif %}-->
       </div>
     {% endfor %}
-  </ul>
+  </div>
 
   <div class="grid gap-4 md:grid-cols-2" x-show="!!query">
-    <ul>
-      <template x-for="item in filteredItems()" :key="item">
-        <div class="border border-grey p-8">
-          <div class="font-bold inline-block text-gray-600 uppercase" x-text="item.category"></div>
-          <h1 class="font-bold text-red" x-text="item.title"></h1>
-          <p class="my-2" x-text="item.shortAnswer"/></p>
-          <!--<a x-show="!!item.detailedAnswer" class="underline">{{ lang.seeMore }}</a>-->
-        </div>
-      </template>
-      <div x-show="filteredItems().length == 0" class="border border-grey mb-4 p-8 flex flex-col items-center">
-        <h1 class="font-bold text-center" x-text="`{{lang.notFoundMessage}} '${query}'`"></h1>
-        <button class="border border-red text-red mt-4 px-2 py-4 rounded">{{ lang.submitButton }}</button>
+    <template x-for="item in filteredItems()" :key="item">
+      <div class="border border-grey p-8">
+        <div class="font-bold inline-block text-gray-600 uppercase" x-text="item.category"></div>
+        <h1 class="font-bold text-red" x-text="item.title"></h1>
+        <p class="my-2" x-text="item.shortAnswer"/></p>
+        <!--<a x-show="!!item.detailedAnswer" class="underline">{{ lang.seeMore }}</a>-->
       </div>
-    </ul>
+    </template>
+    <div x-show="filteredItems().length == 0" class="border border-grey mb-4 p-8 flex flex-col items-center">
+      <h1 class="font-bold text-center" x-text="`{{lang.notFoundMessage}} '${query}'`"></h1>
+      <button class="border border-red text-red mt-4 px-2 py-4 rounded">{{ lang.submitButton }}</button>
+    </div>
   </div>
 </div>
