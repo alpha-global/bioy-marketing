@@ -1,5 +1,6 @@
 import 'alpinejs';
 import Swipe from 'swipejs';
+import setPlatformDependentDownloadLink from "./_downloadButton.js";
 const data = require("../../help.11tydata.json");
 // const homeData = require("../../home.11tydata.json");
 const { locales } = require("../../_data/globals");
@@ -12,6 +13,7 @@ const app = new function () {
 
     init() {
       setMailPopup();
+      setPlatformDependentDownloadLink();
 
       const testimonySwiper = new Swipe(document.getElementById('slider'), {
         startSlide: 0,

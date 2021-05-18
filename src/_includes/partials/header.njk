@@ -8,7 +8,12 @@
   </h1>
 
   <div class="absolute top-0 right-0 pt-2 pr-2 flex flex-row-reverse justify-center items-center md:hidden">
-    <a href="#" class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors">
+    <a
+      href="/{{locale}}/#start"
+      class="js-nav-download-btn inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors"
+      data-android-url="{{ globals.stores.android }}"
+      data-ios-url="{{ globals.stores.ios }}"
+    >
       Download
     </a>
     {#<a class="mr-4 hover:text-red transition-colors sm:pr-4" href="/" @click.prevent="isLangPickerOpen = true">
@@ -40,7 +45,12 @@
     {% svgSprite name="donate", class="fill-current h-6 w-6 mb-1 sm:h-8 sm:w-8 md:hidden" %}
     Donate
   </a>
-  <a class="hidden bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors no-underline mr-4 md:flex" href="#">
+  <a
+    class="js-nav-download-btn hidden bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors no-underline mr-4 md:flex"
+    href="/{{ locale }}/#start"
+    data-androidUrl="{{ globals.stores.android }}"
+    data-iOSUrl="{{ globals.stores.ios }}"
+  >
     Download
   </a>
   {#<a class="hidden flex-col items-center justify-center  md:flex md:mr-4" href="/" @click.prevent="isLangPickerOpen = true">
