@@ -1,4 +1,4 @@
 {
-  "layout": "page",
+  "layout": "dynamicPage",
   "permalink": "/{{ locale }}/pages/{{ title | slug }}/index.html"
 }

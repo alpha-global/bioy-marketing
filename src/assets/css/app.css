@@ -86,26 +86,18 @@
     width: 1px;
   }
 
-  .dynamic-page h2 {
-    @apply text-2xl font-bold mt-8;
-  }
-
-  .dynamic-page p,
   .bioy-medium p {
     @apply my-2;
   }
 
-  .dynamic-page a,
   .bioy-medium a {
     @apply underline;
   }
 
-  .dynamic-page ul,
   .bioy-medium ul {
     @apply list-disc;
   }
 
-  .dynamic-page li,
   .bioy-medium li {
     @apply list-outside ml-4;
   }

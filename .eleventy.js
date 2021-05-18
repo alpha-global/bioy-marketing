@@ -29,6 +29,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("landing", "layouts/landing.njk");
   eleventyConfig.addLayoutAlias("editionLanding", "layouts/editionLanding.njk");
   eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
+  eleventyConfig.addLayoutAlias("dynamicPage", "layouts/dynamicPage.njk");
 
   eleventyConfig.addFilter("markdown", (rawString) => {
     const mdRender = new markdownIt({ html: true });
