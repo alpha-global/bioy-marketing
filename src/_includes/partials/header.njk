@@ -11,10 +11,10 @@
     <a href="#" class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors">
       Download
     </a>
-    <a class="mr-4 hover:text-red transition-colors sm:pr-4" href="/" @click.prevent="isLangPickerOpen = true">
+    {#<a class="mr-4 hover:text-red transition-colors sm:pr-4" href="/" @click.prevent="isLangPickerOpen = true">
       {% svgSprite name="translate", class="fill-current h-6 w-6" %}
       <span class="visually-hidden">Change language</span>
-    </a>
+    </a>#}
   </div>
 </header>
 
@@ -43,8 +43,8 @@
   <a class="hidden bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors no-underline mr-4 md:flex" href="#">
     Download
   </a>
-  <a class="hidden flex-col items-center justify-center  md:flex md:mr-4" href="/" @click.prevent="isLangPickerOpen = true">
+  {#<a class="hidden flex-col items-center justify-center  md:flex md:mr-4" href="/" @click.prevent="isLangPickerOpen = true">
     {% svgSprite name="translate", class="fill-current h-6 w-6" %}
     <span class="visually-hidden">Change language</span>
-  </a>
+  </a>#}
 </nav>
