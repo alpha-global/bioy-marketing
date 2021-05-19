@@ -1,6 +1,8 @@
 const markdownIt = require("markdown-it");
+
 const filters = require("./utils/filters.js");
 const shortcodes = require("./utils/shortcodes.js");
+const collections = require("./utils/collections.js");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
@@ -13,6 +15,11 @@ module.exports = function (eleventyConfig) {
   // Shortcodes
   Object.keys(shortcodes).forEach((shortcodeName) => {
     eleventyConfig.addShortcode(shortcodeName, shortcodes[shortcodeName]);
+  });
+
+  // Collections
+  Object.keys(collections).forEach((collectionName) => {
+    eleventyConfig.addCollection(collectionName, collections[collectionName]);
   });
 
   eleventyConfig.addPassthroughCopy('src/assets/icon');
@@ -42,7 +49,6 @@ module.exports = function (eleventyConfig) {
     console.log(...args)
     debugger;
   })
-
 
   return {
     dir: {

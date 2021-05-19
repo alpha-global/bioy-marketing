@@ -1,10 +1,7 @@
 import 'alpinejs';
 import Swipe from 'swipejs';
 import setPlatformDependentDownloadLink from "./_downloadButton.js";
-const data = require("../../help.11tydata.json");
-// const homeData = require("../../home.11tydata.json");
 const { locales } = require("../../_data/globals");
-
 
 const app = new function () {
 
@@ -63,30 +60,31 @@ window.help = function() {
     show: false,
     helpItems: [],
     init() {
-      this.helpItems = data["en"].helpItems;
+      this.helpItems = document.querySelectorAll('.js-helpItem');
 
       const filterContainer = document.querySelector('.js-filter');
       filterContainer.classList.remove('hidden');
     },
 
     filteredItems() {
-      if (!this.query) return [];
-      return this.helpItems.filter((helpItem) => {
-        if (helpItem.title.toLowerCase().includes(this.query.toLowerCase())) {
-          return true;
+      if (!this.query) {
+        this.helpItems.forEach(item => {
+          item.classList.remove('hidden');
+        });
+        return null;
+      }
+
+      let results = 0;
+
+      this.helpItems.forEach(item => {
+        if (item.innerText.includes(this.query)) {
+          item.classList.remove('hidden');
+          results++;
+        } else {
+          item.classList.add('hidden');
         }
-
-        if (helpItem.shortAnswer.toLowerCase().includes(this.query.toLowerCase())) {
-          return true;
-        }
-
-        if (helpItem.category.toLowerCase().includes(this.query.toLowerCase())) {
-          return true;
-        }
-
-        return false;
-
-      })
+      });
+      return results;
     }
   }
 }

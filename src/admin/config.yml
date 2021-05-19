@@ -209,7 +209,7 @@ collections:
           {
             label: "Help",
             name: "Help",
-            file: "src/help.11tydata.json",
+            file: "src/help/help.11tydata.json",
             slug: "help",
             i18n: true,
             fields:
@@ -325,7 +325,7 @@ collections:
                             "bulleted-list",
                             "numbered-list",
                           ],
-                        modes: ["rich_text"],
+                        modes: ["raw", "rich_text"],
                         editor_components: [],
                       },
                     ],
