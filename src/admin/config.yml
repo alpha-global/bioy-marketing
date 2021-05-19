@@ -92,6 +92,12 @@ collections:
             fields:
               [
                 {
+                  name: "title",
+                  label: "Title",
+                  widget: "string",
+                  i18n: true,
+                },
+                {
                   name: "header",
                   label: "Header",
                   widget: "object",
@@ -179,9 +185,9 @@ collections:
             fields:
               [
                 {
-                  name: "heading",
-                  label: "Heading",
-                  widget: "text",
+                  name: "title",
+                  label: "title",
+                  widget: "string",
                   i18n: true,
                 },
                 {
@@ -194,7 +200,7 @@ collections:
                   name: "blackbaud_id",
                   label: "Blackbaud ID",
                   hint: "You can get this by logging into the Blackbaud account",
-                  widget: "text",
+                  widget: "string",
                   i18n: true,
                 },
               ],
@@ -778,6 +784,30 @@ collections:
                         label: "Sub Title",
                         name: "subTitle",
                         widget: "text",
+                        i18n: true,
+                      },
+                    ],
+                },
+                {
+                  name: "social",
+                  label: "Social Media",
+                  widget: "object",
+                  collapsed: true,
+                  i18n: true,
+                  fields:
+                    [
+                      {
+                        label: "Description",
+                        name: "desc",
+                        widget: "string",
+                        hint: "Appears below the link when shared via social media",
+                        i18n: true,
+                      },
+                      {
+                        label: "Image",
+                        name: "img",
+                        widget: "image",
+                        hint: "Images should be 1200px x 675px (16:9)",
                         i18n: true,
                       },
                     ],

@@ -1,21 +1,13 @@
 {
   "en": {
     "title": "Bible in One Year",
-    "cta": {
-      "title": "Download Bible in One Year Today",
-      "sub_title": "BiOY is also and email, a website and soon to be a podcast",
-      "more": "Find out more"
-    },
-    "today": {
-      "image": "/assets/img/today_en.jpg",
-      "title": "Today's Reading",
-      "intro": "Today is day",
-      "reading": "we're reading:",
-      "cta": "Read now"
-    },
     "switcher": {
       "title": "Change Language",
       "subTitle": "Bible in One Year is available in the following languages:"
+    },
+    "social": {
+      "desc": "Start your day with the Bible in One Year, a free Bible reading app from HTB and the Alpha Course with commentary by Nicky & Pippa Gumbel.",
+      "img": "/assets/img/bioy-og-en.jpg"
     }
   },
   "es": {

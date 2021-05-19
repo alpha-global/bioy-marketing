@@ -9,6 +9,7 @@ activePage: devotion
 eleventyComputed:
   title: "{{ devotion.title }}"
   locale: "{{ devotion.locale }}"
+  description: "{{ devotion.introduction | striptags | truncate }}"
 ---
 
 <article class="max-w-prose mx-auto font-commentary break-words">

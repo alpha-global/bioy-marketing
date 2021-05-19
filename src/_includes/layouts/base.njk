@@ -16,9 +16,9 @@
       media="screen"
       type="text/css"
     />
-    <title>{% if title %}{{ title }} | {% endif %}{{ site.title }}</title>
 
     <link rel="shortcut icon" href="/assets/icon/favicon.ico" />
+    {% include 'partials/meta.njk' %}
   </head>
 
   <body
