@@ -11,11 +11,14 @@ media_folder: "src/assets/img"
 public_folder: "/assets/img"
 local_backend: true
 
+display_url: https://bibleinoneyear.org
+logo_url: "/assets/img/bioy-logo.svg"
+
 collections:
   [
     {
       name: "site",
-      label: "Site",
+      label: "Core Pages",
       i18n: { structure: "single_file" },
       identifier_field: name,
       format: json,
@@ -78,100 +81,7 @@ collections:
                       },
                     ],
                 },
-                {
-                  name: "editions",
-                  label: "Editions",
-                  widget: "object",
-                  i18n: true,
-                  fields:
-                    [
-                      {
-                        name: "intro",
-                        label: "Introduction",
-                        widget: "text",
-                        i18n: true,
-                      },
-                      {
-                        name: "classic",
-                        label: "Classic",
-                        widget: "string",
-                        i18n: true,
-                      },
-                      {
-                        name: "youth",
-                        label: "Youth",
-                        widget: "string",
-                        i18n: true,
-                      },
-                      {
-                        name: "express",
-                        label: "Express",
-                        widget: "string",
-                        i18n: true,
-                      },
-                    ],
-                },
-                {
-                  name: "about",
-                  label: "About Nicky and Pippa",
-                  widget: "object",
-                  i18n: true,
-                  fields:
-                    [
-                      {
-                        name: "header",
-                        label: "Header",
-                        widget: "string",
-                        i18n: true,
-                      },
-                      {
-                        name: "intro",
-                        label: "Introduction",
-                        widget: "text",
-                        i18n: true,
-                      },
-                      {
-                        name: "quote",
-                        label: "Quote",
-                        widget: "text",
-                        i18n: true,
-                      },
-                      {
-                        name: "outro",
-                        label: "Outro",
-                        widget: "text",
-                        i18n: true,
-                      },
-                      {
-                        name: "img",
-                        label: Image,
-                        widget: image,
-                        i18n: duplicate,
-                        required: true,
-                      },
-                      {
-                        name: "cta",
-                        label: "Call to Action",
-                        widget: "object",
-                        i18n: true,
-                        fields:
-                          [
-                            {
-                              name: "label",
-                              label: "Label",
-                              widget: "string",
-                              i18n: true,
-                            },
-                            {
-                              name: "url",
-                              label: "Link",
-                              widget: "string",
-                              i18n: true,
-                            },
-                          ],
-                      },
-                    ],
-                },
+
               ],
           },
           {
@@ -415,108 +325,66 @@ collections:
                     ],
                 },
               ],
+          }
+        ]
+    },
+    {
+      label: "Edition Pages",
+      name: "editions",
+      folder: "/src/editions",
+      i18n: { structure: "single_file" },
+      identifier_field: name,
+      format: json,
+      create: false,
+      file: "src/editions.11tydata.json",
+      fields:
+        [
+          {
+            label: "Edition Title",
+            name: "title",
+            widget: "string",
+            i18n: true,
           },
           {
-            name: "settings",
-            label: "Settings",
-            file: "src/_data/siteLocal.json",
+            name: "header",
+            label: "Page Header",
+            widget: "object",
             i18n: true,
             fields:
               [
+                { name: "title", label: "Title", widget: "string", i18n: true },
                 {
-                  name: "title",
-                  label: "Title",
-                  hint: "The site title",
-                  default: "Bible in One Year",
-                  widget: "text",
+                  name: "strapline",
+                  label: "Strapline",
+                  widget: "string",
                   i18n: true,
                 },
-
                 {
                   name: "cta",
                   label: "Call to Action",
-                  widget: "object",
+                  widget: "string",
                   i18n: true,
-                  fields:
-                    [
-                      {
-                        name: "title",
-                        label: "Title",
-                        default: "Download Bible in One Year Today",
-                        widget: "text",
-                        i18n: true,
-                      },
-                      {
-                        name: "sub_title",
-                        label: "Sub Title",
-                        default: "BiOY is also and email, a website and soon to be a podcast.",
-                        widget: "text",
-                        i18n: true,
-                      },
-                      {
-                        name: "more",
-                        label: "More label",
-                        default: "Find out more.",
-                        widget: "text",
-                        i18n: true,
-                      },
-                    ],
                 },
-
                 {
-                  name: "switcher",
-                  label: "Language Switcher",
+                  name: "img",
+                  label: "Lead Image",
                   widget: "object",
                   i18n: true,
                   fields:
                     [
                       {
-                        label: "Title",
-                        name: "title",
-                        widget: "string",
+                        name: "src",
+                        label: Image,
+                        widget: image,
                         i18n: true,
+                        required: true,
                       },
                       {
-                        label: "Sub Title",
-                        name: "subTitle",
-                        widget: "text",
+                        name: "desc",
+                        label: Description,
+                        widget: string,
                         i18n: true,
-                      },
-                    ],
-                },
-
-                {
-                  name: "today",
-                  label: "Today's reading",
-                  widget: "object",
-                  i18n: true,
-                  fields:
-                    [
-                      { label: "Image", name: "image", widget: "image" },
-                      {
-                        label: "Title",
-                        name: "title",
-                        widget: "text",
-                        i18n: true,
-                      },
-                      {
-                        label: "Day intro",
-                        name: "intro",
-                        widget: "text",
-                        i18n: true,
-                      },
-                      {
-                        label: "Passage intro",
-                        name: "reading",
-                        widget: "text",
-                        default: "we're reading:",
-                        i18n: true,
-                      },
-                      {
-                        label: "Button",
-                        name: "cta",
-                        widget: "text",
-                        i18n: true,
+                        required: true,
                       },
                     ],
                 },
@@ -525,7 +393,24 @@ collections:
         ],
     },
     {
-      label: "General Areas",
+      label: "Minor Pages",
+      name: "pages",
+      folder: "/src/pages",
+      i18n: { structure: "multiple_folders" },
+      format: "frontmatter",
+      extension: "md",
+      identifier_field: "title",
+      create: true,
+      editor: { "preview": false },
+      fields:
+        [
+          { label: "Page Title", name: "title", widget: "string", i18n: true },
+          { label: "Locale", name: "locale", widget: "string", i18n: true },
+          { label: "Page Body", name: "body", widget: "markdown", i18n: true },
+        ],
+    },
+    {
+      label: "Repeated Content Blocks",
       name: "generalAreas",
       i18n: true,
       files:
@@ -573,6 +458,184 @@ collections:
                       },
                       { label: "Image", name: "image", widget: "image" },
                     ],
+                },
+              ],
+          },
+          {
+            name: "editions",
+            label: "Editions Block",
+            file: "src/_data/editions.json",
+            i18n: true,
+            fields:
+              [
+                {
+                  name: "intro",
+                  label: "Introduction",
+                  widget: "string",
+                  i18n: true,
+                },
+                {
+                  name: "classic",
+                  label: "Classic",
+                  widget: "string",
+                  i18n: true,
+                },
+                {
+                  name: "youth",
+                  label: "Youth",
+                  widget: "string",
+                  i18n: true,
+                },
+                {
+                  name: "express",
+                  label: "Express",
+                  widget: "string",
+                  i18n: true,
+                },
+              ],
+          },
+          {
+            name: "about",
+            label: "About Nicky and Pippa",
+            file: "src/_data/gumbels.json",
+            i18n: true,
+            fields:
+              [
+                {
+                  name: "header",
+                  label: "Header",
+                  widget: "string",
+                  i18n: true,
+                },
+                {
+                  name: "intro",
+                  label: "Introduction",
+                  widget: "text",
+                  i18n: true,
+                },
+                {
+                  name: "quote",
+                  label: "Quote",
+                  widget: "text",
+                  i18n: true,
+                },
+                {
+                  name: "outro",
+                  label: "Outro",
+                  widget: "text",
+                  i18n: true,
+                },
+                {
+                  name: "img",
+                  label: Image,
+                  widget: image,
+                  i18n: duplicate,
+                  required: true,
+                },
+                {
+                  name: "cta",
+                  label: "Call to Action",
+                  widget: "object",
+                  i18n: true,
+                  fields:
+                    [
+                      {
+                        name: "label",
+                        label: "Label",
+                        widget: "string",
+                        i18n: true,
+                      },
+                      {
+                        name: "url",
+                        label: "Link",
+                        widget: "string",
+                        i18n: true,
+                      },
+                    ],
+                },
+              ],
+          },
+          {
+            name: "cta",
+            label: "Call to Action Block",
+            file: "src/_data/cta.json",
+            i18n: true,
+            fields:
+              [
+                {
+                  name: "title",
+                  label: "Title",
+                  default: "Download Bible in One Year Today",
+                  widget: "string",
+                  i18n: true,
+                },
+                {
+                  name: "android",
+                  label: "Android Download Text",
+                  default: "Get it on Google Play",
+                  widget: "string",
+                  i18n: true,
+                },
+                {
+                  name: "ios",
+                  label: "iOS Download Text",
+                  default: "Download on the App Store",
+                  widget: "string",
+                  i18n: true,
+                },
+                {
+                  name: "sub_title",
+                  label: "Sub Title",
+                  default: "BiOY is also and email, a website and soon to be a podcast.",
+                  widget: "string",
+                  i18n: true,
+                },
+                {
+                  name: "more",
+                  label: "More label",
+                  default: "Find out more.",
+                  widget: "string",
+                  i18n: true,
+                },
+              ],
+          },
+          {
+            name: "today",
+            label: "Today's Reading Block",
+            file: "src/_data/today.json",
+            i18n: true,
+            fields:
+              [
+                {
+                  label: "Image",
+                  name: "image",
+                  widget: "image",
+                  i18n: duplicate
+                },
+                {
+                  label: "Title",
+                  name: "title",
+                  widget: "string",
+                  i18n: true,
+                },
+                {
+                  label: "Day intro",
+                  name: "intro",
+                  widget: "string",
+                  i18n: true,
+                },
+                {
+                  label: "Passage intro",
+                  name: "reading",
+                  widget: "string",
+                  default: "we're reading:",
+                  i18n: true,
+                },
+                {
+                  label: "Button text",
+                  name: "cta",
+                  widget: "string",
+                  i18n: true,
                 },
               ],
           },
@@ -678,84 +741,49 @@ collections:
         ],
     },
     {
-      label: "Editions",
-      name: "editions",
-      folder: "/src/editions",
-      i18n: { structure: "single_file" },
-      identifier_field: name,
-      format: json,
-      create: false,
-      file: "src/editions.11tydata.json",
-      fields:
+      label: "Settings",
+      name: "settings",
+      i18n: true,
+      files:
         [
           {
-            label: "Edition Title",
-            name: "title",
-            widget: "string",
-            i18n: true,
-          },
-          {
-            name: "header",
-            label: "Page Header",
-            widget: "object",
+            name: "generalTranslations",
+            label: "General Translations",
+            file: "src/_data/siteLocal.json",
             i18n: true,
             fields:
               [
-                { name: "title", label: "Title", widget: "string", i18n: true },
                 {
-                  name: "strapline",
-                  label: "Strapline",
-                  widget: "string",
+                  name: "title",
+                  label: "Title",
+                  hint: "The site title",
+                  default: "Bible in One Year",
+                  widget: "text",
                   i18n: true,
                 },
                 {
-                  name: "cta",
-                  label: "Call to Action",
-                  widget: "string",
-                  i18n: true,
-                },
-                {
-                  name: "img",
-                  label: "Lead Image",
+                  name: "switcher",
+                  label: "Language Switcher",
                   widget: "object",
                   i18n: true,
                   fields:
                     [
                       {
-                        name: "src",
-                        label: Image,
-                        widget: image,
+                        label: "Title",
+                        name: "title",
+                        widget: "string",
                         i18n: true,
-                        required: true,
                       },
                       {
-                        name: "desc",
-                        label: Description,
-                        widget: string,
+                        label: "Sub Title",
+                        name: "subTitle",
+                        widget: "text",
                         i18n: true,
-                        required: true,
                       },
                     ],
                 },
               ],
-          },
+          }
         ],
-    },
-    {
-      label: "Pages",
-      name: "pages",
-      folder: "/src/pages",
-      i18n: { structure: "multiple_folders" },
-      format: "frontmatter",
-      extension: "md",
-      identifier_field: "title",
-      create: true,
-      editor: { "preview": false },
-      fields:
-        [
-          { label: "Page Title", name: "title", widget: "string", i18n: true },
-          { label: "Locale", name: "locale", widget: "string", i18n: true },
-          { label: "Page Body", name: "body", widget: "markdown", i18n: true },
-        ],
-    },
+    }
   ]

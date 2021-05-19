@@ -33,7 +33,9 @@ Merging to `staging` will deploy automagically to staging, and to `main` will de
 
 ## CMS
 
-Netlify CMS can be run locally with `npm run cms`.
+Netlify CMS can be run locally with `npm run cms`, and is accessed from [localhost:8080/admin](http://localhost:8080/admin)`.
+
+⚠️ When running locally the CMS _must_ be accessed via localhost rather that via an local IP address.
 
 Authentication happens through Netlify Identity, this means that the CMS only works in production when [deployed to Netlify](https://bioy-marketing.netlify.app/).
 

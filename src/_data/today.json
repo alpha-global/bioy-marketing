@@ -1,0 +1,37 @@
+{
+  "en": {
+    "title": "Today's Reading",
+    "intro": "Today is day",
+    "reading": "We're reading from",
+    "cta": "Read Now",
+    "image": "/assets/img/today_en.jpg"
+  },
+  "es": {
+    "title": "Today's Reading",
+    "intro": "Today is day",
+    "reading": "We're reading from",
+    "cta": "Read Now",
+    "image": "/assets/img/today_en.jpg"
+  },
+  "ar": {
+    "title": "Today's Reading",
+    "intro": "Today is day",
+    "reading": "We're reading from",
+    "cta": "Read Now",
+    "image": "/assets/img/today_en.jpg"
+  },
+  "hi": {
+    "title": "Today's Reading",
+    "intro": "Today is day",
+    "reading": "We're reading from",
+    "cta": "Read Now",
+    "image": "/assets/img/today_en.jpg"
+  },
+  "zh": {
+    "title": "Today's Reading",
+    "intro": "Today is day",
+    "reading": "We're reading from",
+    "cta": "Read Now",
+    "image": "/assets/img/today_en.jpg"
+  }
+}

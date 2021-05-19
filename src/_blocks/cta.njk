@@ -1,23 +1,23 @@
 <div class="text-center bg-stone px-4 py-8 lg:mb-8">
 
   <h2 class="text-red font-bold text-2xl lg:text-3xl">
-    {{ site.cta.title }}
+    {{ cta[locale].title }}
   </h2>
 
   <div class="max-w-sm grid gap-4 grid-cols-2 mx-auto my-2">
     <a href="{{ globals.stores.ios }}" class="block" target="_blank">
       {% svgSprite name="app-store-ios", class="h-16 w-full sm:w-48" %}
-      <span class="visually-hidden">Download on the App Store</span>
+      <span class="visually-hidden">{{ cta[locale].ios }}</span>
     </a>
     <a href="{{ globals.stores.android }}" class="block" target="_blank">
       {% svgSprite name="app-store-android", class="h-16 w-full sm:w-48" %}
-      <span class="visually-hidden">Get it on Google Play</span>
+      <span class="visually-hidden">{{ cta[locale].android }}</span>
     </a>
   </div>
 
   <p class="text-grey">
-    {{ site.cta.sub_title }}
-    <a href="/{{ locale }}#start" class="underline block">{{ site.cta.more }}</a>
+    {{ cta[locale].sub_title }}
+    <a href="/{{ locale }}#start" class="underline block">{{ cta[locale].more }}</a>
   </p>
 
 </div>

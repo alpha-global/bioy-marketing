@@ -1,0 +1,32 @@
+{
+  "en": {
+    "intro": "Bible in One Year comes in three different editions…",
+    "classic": "Classic",
+    "youth": "Youth",
+    "express": "Express"
+  },
+  "es": {
+    "intro": "Bible in One Year comes in three different editions…",
+    "classic": "Classic",
+    "youth": "Youth",
+    "express": "Express"
+  },
+  "ar": {
+    "intro": "Bible in One Year comes in three different editions…",
+    "classic": "Classic",
+    "youth": "Youth",
+    "express": "Express"
+  },
+  "hi": {
+    "intro": "Bible in One Year comes in three different editions…",
+    "classic": "Classic",
+    "youth": "Youth",
+    "express": "Express"
+  },
+  "zh": {
+    "express": "Express",
+    "youth": "Youth",
+    "classic": "Classic",
+    "intro": "Bible in One Year comes in three different editions…"
+  }
+}
