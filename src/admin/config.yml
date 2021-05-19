@@ -355,6 +355,7 @@ collections:
             name: "header",
             label: "Page Header",
             widget: "object",
+            collapsed: true,
             i18n: true,
             fields:
               [
@@ -396,6 +397,12 @@ collections:
                 },
               ],
           },
+          {
+            name: "body",
+            label: "Page body",
+            widget: "markdown",
+            default: true,
+          }
         ],
     },
     {

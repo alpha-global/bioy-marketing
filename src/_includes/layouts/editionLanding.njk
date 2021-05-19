@@ -4,8 +4,13 @@ layout: layouts/landing.njk
 
 {% include '../../_blocks/cta.njk' %}
 <!-- --------- -->
-{{ layoutContent | safe }}
-<!-- --------- -->
-{% include '../../_blocks/gumbels.njk' %}
+<div class="mx-auto container prose lg:prose-xl mb-4 md:mb-8">
+  {{ lang.body|markdown|safe }}
+</div>
 <!-- --------- -->
 {% include '../../_blocks/today.njk'%}
+<!-- --------- -->
+{% include '../../_blocks/channels.njk'%}
+<!-- --------- -->
+{% include '../../_blocks/gumbels.njk' %}
+
