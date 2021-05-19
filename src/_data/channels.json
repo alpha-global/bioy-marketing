@@ -26,7 +26,10 @@
         "channel": "Website",
         "icon": "medium_website",
         "description": "Far from your mobile device? You can read the daily devotion right here on this website.",
-        "image": "/assets/img/medium_app.jpg"
+        "image": "/assets/img/medium_app.jpg",
+        "cta": {
+          "code": "<a href=\"#today\" class=\"whiteButton\">Read now</a>"
+        }
       }
     ]
   },
