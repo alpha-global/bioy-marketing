@@ -11,11 +11,11 @@ On build 11ty will pull and cache the API response from the BiOY API into the `.
 ```
 git pull
 npm install
-npm run setup
+npm run dev:cleanSlate
 npm run dev
 ```
 
-By default `npm run dev` will just pull in the 5 days around today's date. `npm run setup` brings _all_ the content and caches it for 11ty to use. You should only need to do this once.
+By default `npm run dev` will just pull in the 5 days around today's date. `npm run dev:cleanSlate` brings _all_ the content and caches it for 11ty to use. You should only need to do this once.
 
 You may need to wipe the cached API responses, and the generated static site. `npm run wipe` will take care of that for you.
 
@@ -30,6 +30,12 @@ npm run production
 ```
 
 Merging to `staging` will deploy automagically to staging, and to `main` will deploy to production.
+
+### Production
+
+To ensure that content is up-to date on the server a nightly cron should be set to run `npm run production` which will ensure that the latest content devotions are pulled in.
+
+When changing design, to ensure that that devotion pages are updated `npm run production:cleanSlate` should be run.
 
 ## CMS
 

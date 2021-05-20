@@ -50,10 +50,10 @@ async function _fetchDevotionRangeFromUrl(url, devotions) {
 
 module.exports = async function (fullImport = false) {
 
-  startDayNumber = 1;
-  endDayNumber = 365;
+  let startDayNumber = 1;
+  let endDayNumber = 365;
 
-  if (fullImport == false) {
+  if (!process.env.CLEAN_SLATE) {
     var now = new Date();
     var start = new Date(now.getFullYear(), 0, 0);
     var diff = now - start;

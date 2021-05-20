@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "ELEVENTY_ENV=development eleventy --serve & mix watch",
-    "11tyOnly": "ELEVENTY_ENV=development eleventy --serve",
-    "setup": "node firstTimeSetup.js",
+    "dev:cleanSlate": "npm run wipe && ELEVENTY_ENV=development CLEAN_SLATE=true eleventy",
     "cms": "npx netlify-cms-proxy-server",
     "wipe": "rm -rf ./.cache && rm -rf ./build",
-    "production": "ELEVENTY_ENV=production eleventy && mix --production"
+    "production": "ELEVENTY_ENV=production eleventy && mix --production",
+    "production:cleanSlate": "ELEVENTY_ENV=production CLEAN_SLATE=true eleventy&& mix --production"
   },
   "author": "Alpha International / OneSheep",
   "license": "ISC",
