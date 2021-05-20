@@ -11,7 +11,7 @@
         x-show="mediaFocus === {{ loop.index0 }}"
       >
         {% if medium.image %} {% blockImage medium.image , "reader",
-        "(min-width: 1vw)", "object-cover h-full w-full absolute filter
+        "(min-width: 1526px) calc(1536px - 2rem), (min-width: 1280px) calc(1280px - 2rem), (min-width: 1024px) calc(1024px - 2rem), calc(100vw - 2rem)", "object-cover h-full w-full absolute filter
         saturate-0 lg:rounded-lg" %} {% endif %}
 
         <div
