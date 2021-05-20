@@ -1,16 +1,17 @@
 import 'alpinejs';
 import Swipe from 'swipejs';
-import setPlatformDependentDownloadLink from "./_downloadButton.js";
+import baseViewModel from "./baseViewModel.js";
+import helpViewModel from "./helpViewModel.js";
+import mediumViewModel from "./mediumViewModel.js";
 const { locales } = require("../../_data/globals");
 
-const app = new function () {
+window.app = new function () {
 
   // public functions
   return {
 
     init() {
       setMailPopup();
-      setPlatformDependentDownloadLink();
 
       const testimonySwiper = new Swipe(document.getElementById('slider'), {
         startSlide: 0,
@@ -21,7 +22,12 @@ const app = new function () {
         disableScroll: false,
         stopPropagation: true,
       });
-    }
+    },
+
+    baseViewModel,
+    helpViewModel,
+    mediumViewModel,
+
   };
 
   function setMailPopup() {
@@ -47,64 +53,7 @@ const app = new function () {
 
 
 if (document.readyState != 'loading') {
-  app.init();
+  window.app.init();
 } else {
-  document.addEventListener('DOMContentLoaded', app.init);
-}
-
-
-
-window.help = function() {
-  return {
-    query: null,
-    show: false,
-    helpItems: [],
-    init() {
-      this.helpItems = document.querySelectorAll('.js-helpItem');
-
-      const filterContainer = document.querySelector('.js-filter');
-      filterContainer.classList.remove('hidden');
-    },
-
-    filteredItems() {
-      if (!this.query) {
-        this.helpItems.forEach(item => {
-          item.classList.remove('hidden');
-        });
-        return null;
-      }
-
-      let results = 0;
-
-      this.helpItems.forEach(item => {
-        if (item.innerText.includes(this.query)) {
-          item.classList.remove('hidden');
-          results++;
-        } else {
-          item.classList.add('hidden');
-        }
-      });
-      return results;
-    }
-  }
-}
-
-window.mediumBlock = function () {
-  return {
-    mediaFocus: 0,
-    mediaClass(node) {
-      return {
-        'text-white': (node === this.mediaFocus),
-        'bg-transparent': (node === this.mediaFocus),
-        'text-red': (node !== this.mediaFocus),
-        'bg-grey-light': (node !== this.mediaFocus)
-      };
-    },
-    init() {
-      if (this.$refs.mediaNav) {
-        this.$refs.mediaNav.classList.remove('hidden');
-        this.$refs.mediaContainer.classList.remove('flex-col');
-      }
-    },
-  }
+  document.addEventListener('DOMContentLoaded', window.app.init);
 }

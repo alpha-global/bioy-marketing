@@ -5,23 +5,28 @@
     "nav": [
       {
         "href": "https://www.alpha.org/",
-        "label": "Alpha"
+        "label": "Alpha",
+        "external": true
       },
       {
         "href": "https://www.htb.org/",
-        "label": "HTB Church"
+        "label": "HTB Church",
+        "external": true
       },
       {
         "href": "/en/donate",
-        "label": "Donate"
+        "label": "Donate",
+        "external": false
       },
       {
         "href": "/en/help",
-        "label": "Help"
+        "label": "Help",
+        "external": false
       },
       {
-        "href": "/en/pages/privacy-policy",
-        "label": "Privacy"
+        "href": "https://www.alpha.org/privacy-policy/",
+        "label": "Privacy",
+        "external": true
       }
     ],
     "social": {

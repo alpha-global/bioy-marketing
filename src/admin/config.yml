@@ -740,6 +740,7 @@ collections:
                   fields:
                     [
                       { name: label, label: Label, widget: string, i18n: true },
+                      { name: external, label: External Link?, widget: boolean, i18n: true, required: false },
                       {
                         name: href,
                         label: Link,

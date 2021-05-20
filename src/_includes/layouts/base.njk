@@ -26,7 +26,8 @@
   </head>
 
   <body
-    x-data="{ 'isLangPickerOpen': false }"
+    x-data="app.baseViewModel"
+    x-init="init()"
     @keydown.escape="isLangPickerOpen = false"
   >
 
@@ -73,6 +74,11 @@
       </div>
     </div>
     {% endif %}
+
+    <div x-show="isCookieBoxOpen" class="fixed bottom-20 z-10 bg-white bg-opacity-90 drop-shadow-lg filter right-4 left-4 p-4 flex flex-col md:bottom-4 max-w-md md:right-auto">
+      <p class="text-sm">This website stores data such as cookies to enable necessary site functionality, including analytics, targeting, and personalisation. <a class="text-red underline hover:text-red-darker md:block" href="/{{ locale }}/privacy-policy">Find out more</a></p>
+      <button class="mt-2 btn bg-red text-white hover:bg-red-dark" @click="acceptCookies()">Close</button>
+    </div>
 
     <script src="/assets/js/app.js"></script>
     <!-- last build: {{ globals.env }} | {{ globals.buildTime }} -->

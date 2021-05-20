@@ -10,9 +10,8 @@
   <div class="absolute top-0 right-0 pt-2 pr-2 flex flex-row-reverse justify-center items-center md:hidden">
     <a
       href="/{{locale}}/#start"
-      class="js-nav-download-btn inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors"
-      data-android-url="{{ globals.stores.android }}"
-      data-ios-url="{{ globals.stores.ios }}"
+      :href="deviceUrl('{{locale}}', '{{ globals.stores.android }}', '{{ globals.stores.ios }}')"
+      class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors"
     >
       Download
     </a>
@@ -46,10 +45,9 @@
     Donate
   </a>
   <a
-    class="js-nav-download-btn hidden bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors no-underline mr-4 md:flex"
+    class="hidden bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors no-underline mr-4 md:flex"
     href="/{{ locale }}/#start"
-    data-androidUrl="{{ globals.stores.android }}"
-    data-iOSUrl="{{ globals.stores.ios }}"
+    :href="deviceUrl('{{locale}}', '{{ globals.stores.android }}', '{{ globals.stores.ios }}')"
   >
     Download
   </a>

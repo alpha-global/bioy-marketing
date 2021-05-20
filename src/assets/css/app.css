@@ -46,6 +46,10 @@
 }
 
 @layer components {
+  .btn {
+    @apply rounded p-2 pb-1.5 transition-colors;
+  }
+
   .whiteButton {
     @apply inline-block text-red bg-white border border-red rounded p-2 pb-1.5 transition-colors;
   }

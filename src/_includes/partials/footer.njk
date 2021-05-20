@@ -52,7 +52,7 @@
       <ul class="md:grid md:gap-4 md:grid-cols-2 md:w-2/3 md:justify-self-end md:mt-8">
         {% for link in footer[locale].nav %}
           <li class="inline pr-4">
-            <a href="{{ link.href }}" class="underline text-red hover:text-red-darker hover:no-underline">
+            <a href="{{ link.href }}" class="underline text-red hover:text-red-darker hover:no-underline"{% if link.external %} target="_blank" rel="noopener"{% endif %}>
               {{ link.label }}</a>
           </li>
         {% endfor %}
