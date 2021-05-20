@@ -48,9 +48,9 @@ activePage: help
   <div x-show="!!query">
     <div x-show="filteredItems() == 0" class="border border-grey mb-4 p-8 flex flex-col items-center">
       <h1 class="font-bold text-center" x-text="`{{lang.notFoundMessage}} '${query}'`"></h1>
-      <button class="border border-red text-red mt-4 px-2 py-4 rounded">
+      <a href="/{{ locale }}/help/ticket" class="border border-red text-red mt-4 px-2 py-4 rounded">
         {{ lang.submitButton }}
-      </button>
+      </a>
     </div>
   </div>
 </div>
