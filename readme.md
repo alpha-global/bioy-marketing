@@ -49,6 +49,12 @@ Authentication happens through Netlify Identity, this means that the CMS only wo
 
 The site is localised with different paths for each language (`/en`, `/ar`, etc). On the production server an nginx rule exists to sniff the users' browser language and then redirects accordingly. If there are no obvious languages, then the user is invited to pick (see `src/index.njk`).
 
+## Adding new translations
+
+1. `src/admin/config.yml` - add the new locale code under `i18n/locales`.
+2. `src/_data/globals` - add the new locale under `languages`.
+3. When ready for deployment, add the new translation to the nginx record.
+
 There are two types of translated content:
 ### Site
 
