@@ -2,7 +2,7 @@
   <div class="relative lg:rounded">
     <div
       class="flex flex-col items-stretch"
-      style="min-height: 24rem"
+      style="min-height: 30rem"
       x-ref="mediaContainer"
     >
       {% for medium in channels[locale].distribution %}
@@ -81,7 +81,7 @@
         {% svgSprite name="medium_email", class="fill-current h-10 w-10 mb-1" %}
         <div>{{ channels[locale].distribution[1].channel }}</div>
       </button>
-      {#<button
+      <button
         class="flex-1 flex flex-col items-center justify-center bg-opacity-90"
         :class="mediaClass(2)"
         @click="mediaFocus = 2"
@@ -89,14 +89,13 @@
       >
         {% svgSprite name="medium_podcast", class="fill-current h-10 w-10 mb-1" %}
         <div>{{ channels[locale].distribution[2].channel }}</div>
-      </button>#}
+      </button>
       <button
         class="
           flex-1 flex flex-col
           items-center
           justify-center
           bg-opacity-90
-          lg:rounded-bl-lg
         "
         :class="mediaClass(3)"
         @click="mediaFocus = 3"
@@ -104,6 +103,16 @@
       >
         {% svgSprite name="medium_website", class="fill-current h-10 w-10 mb-1" %}
         <div>{{ channels[locale].distribution[3].channel }}</div>
+      </button>
+
+      <button
+        class="flex-1 flex flex-col items-center justify-center bg-opacity-90 lg:rounded-bl-lg"
+        :class="mediaClass(4)"
+        @click="mediaFocus = 4"
+        style="min-height: 6rem"
+      >
+        {% svgSprite name="medium_book", class="fill-current h-10 w-10 mb-1" %}
+        <div>{{ channels[locale].distribution[4].channel }}</div>
       </button>
     </div>
   </div>
