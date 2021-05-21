@@ -14,6 +14,11 @@
         "external": true
       },
       {
+        "href": "https://themarriagecourse.org/",
+        "label": "The Marriage Course",
+        "external": true
+      },
+      {
         "href": "/en/donate",
         "label": "Donate",
         "external": false
@@ -24,9 +29,14 @@
         "external": false
       },
       {
-        "href": "https://www.alpha.org/privacy-policy/",
+        "href": "/en/privacy-policy/",
         "label": "Privacy",
-        "external": true
+        "external": false
+      },
+      {
+        "href": "/en/cookie/",
+        "label": "Cookies",
+        "external": false
       }
     ],
     "social": {

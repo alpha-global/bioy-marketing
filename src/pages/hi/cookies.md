@@ -1,6 +1,6 @@
 ---
 title: Cookies
-locale: es
+locale: hi
 ---
 We use cookies on our website. By using our website you agree to this Policy and you consent to our use of cookies in accordance with the terms of this Policy.
 
