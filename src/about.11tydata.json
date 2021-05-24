@@ -9,7 +9,7 @@
       },
       "cta": "Download the app today"
     },
-    "body": "**With over 3 million users worldwide, the Bible in One Year is a daily Bible reading plan taking you through the entirety of the Bible in 365 days.**  \n\nEach reading includes passages from the New Testament, the Old Testament and Psalms or Proverbs. Combined with a daily commentary from Nicky and Pippa Gumbel, pastors of [Holy Trinity Brompton (HTB) Church](https://htb.org)  in London and pioneers of [Alpha](https://alpha.org), this plan guides us to engage more closely with God’s Word and encourages us not only to apply the teachings of Scripture to our everyday life, but also to move deeper in our relationship with Jesus.\n\nThe Bible in One Year is a wonderful tool for those who have just finished Alpha and are looking for an easy and accessible way to read and understand the Bible. Updated every morning, you can follow along by reading or listening to the audio commentary. There is the Classic 25-minute version or a shorter 10-minute Express option. A Youth version is also available.",
+    "body": "**The Bible in One Year is a daily Bible reading plan which takes you through the whole Bible in 365 days.**  \n\nEach day includes passages from the New Testament, the Old Testament and the Psalms or Proverbs, along with a daily commentary from Nicky and Pippa Gumbel, leaders of [Holy Trinity Brompton (HTB) Church](https://htb.org) in London and pioneers of [Alpha](https://alpha.org). The Bible in One Year encourages readers to engage more closely with the Bible, to apply its teachings to everyday life and to grow in relationship with Jesus.\n\nThe Bible in One Year is a wonderful tool for those who have just finished Alpha and are looking for an easy and accessible way to read and understand the Bible. Each day, readers can follow along by reading the text or listening to the audio commentary and can choose the version that best suits their lifestyle; the Classic version (25 minutes) or a shorter Express version (10 minutes). A Youth version is also available.Join 3 million users worldwide each day in reading the Bible in One Year.",
     "cta": true,
     "editions": false,
     "testimonials": true,
@@ -18,11 +18,18 @@
   "es": {
     "header": {
       "title": "365 Days in the Bible",
-      "strapline": "Join the 3 million people who start their day in the Bible"
+      "strapline": "Join the 3 million people who start their day in the Bible",
+      "cta": "Download the app today",
+      "img": {
+        "src": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
+        "desc": "Nicky and Pippa narrating the Bible in One Year"
+      }
     },
     "cta": true,
     "editions": false,
-    "testimonials": true
+    "testimonials": true,
+    "body": "**The Bible in One Year is a daily Bible reading plan which takes you through the whole Bible in 365 days.**  \n\nEach day includes passages from the New Testament, the Old Testament and the Psalms or Proverbs, along with a daily commentary from Nicky and Pippa Gumbel, leaders of [Holy Trinity Brompton (HTB) Church](https://htb.org) in London and pioneers of [Alpha](https://alpha.org). The Bible in One Year encourages readers to engage more closely with the Bible, to apply its teachings to everyday life and to grow in relationship with Jesus.\n\nThe Bible in One Year is a wonderful tool for those who have just finished Alpha and are looking for an easy and accessible way to read and understand the Bible. Each day, readers can follow along by reading the text or listening to the audio commentary and can choose the version that best suits their lifestyle; the Classic version (25 minutes) or a shorter Express version (10 minutes). A Youth version is also available.Join 3 million users worldwide each day in reading the Bible in One Year.",
+    "title": "About"
   },
   "ar": {
     "header": {
