@@ -14,7 +14,18 @@
   "es": {
     "title": "Classic"
   },
-  "ar": {},
+  "ar": {
+    "title": "Classic",
+    "header": {
+      "img": {
+        "src": "/assets/img/classic_lead.jpg",
+        "desc": "Man looking down at his phone"
+      },
+      "title": "Every day in the Bible",
+      "strapline": "God's word. Read every day.",
+      "cta": "Start Today"
+    }
+  },
   "hi": {},
   "zh": {}
 }
