@@ -110,15 +110,27 @@
     clip-path: url(#headerMobile);
   }
 
+  .u-bannerImage:dir(rtl) {
+    clip-path: url(#headerMobile-rtl);
+  }
+
   @screen md {
     .u-bannerImage {
       clip-path: url(#headerDesktop);
+    }
+
+    .u-bannerImage:dir(rtl) {
+      clip-path: url(#headerDesktop-rtl);
     }
   }
 
   @screen sm {
     .u-NandPclipper {
       clip-path: url(#NandPclipper);
+    }
+
+    .u-NandPclipper:dir(rtl) {
+      clip-path: url(#NandPclipper-rtl);
     }
   }
 }
