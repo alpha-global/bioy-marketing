@@ -140,3 +140,33 @@
     }
   }
 }
+
+/*
+[dir="rtl"] {
+  .tw-prose {
+    ol > li,
+    ul > li {
+      @apply tw-pl-0 tw-pr-7;
+
+      &:before {
+        @apply tw-left-auto tw-right-0;
+      }
+    }
+  }
+} */
+
+body:dir(rtl) .prose ul > li,
+body:dir(rtl) .prose ol > li {
+  @apply pl-0 pr-7;
+}
+
+body:dir(rtl) .prose ul > li:before,
+body:dir(rtl) .prose ol > li:before {
+  @apply left-auto right-0;
+}
+
+body:dir(rtl) .prose blockquote {
+  @apply pl-0 pr-2 border-l-0;
+  border-right-width: 0.25rem;
+  border-right-color: #e5e7eb;
+}

@@ -62,6 +62,10 @@ module.exports = {
       fontSize: {
         '6xl': ['3.75rem', '4rem'],
       },
+      scale: {
+        '25': '.25',
+        '-1': '-1',
+      },
       screens: {
         'xs': '512px',
       },
@@ -69,10 +73,13 @@ module.exports = {
   },
   variants: {
     extend: {
+      borderRadius: ['direction'],
       display: ['direction'],
       inset: ['direction'],
       flexDirection: ['direction'],
+      scale: ['direction'],
       textAlign: ['direction'],
+      transform: ['direction'],
       padding: ['direction'],
     },
   },
