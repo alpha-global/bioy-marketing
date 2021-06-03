@@ -50,8 +50,50 @@
     "cta": "Download Today"
   },
   "ar": {
-    "headline": "Start Every Day in God's Word",
-    "cta": "Download Today"
+    "headline": "Start every day in the Bible.",
+    "cta": "Download the app today",
+    "nav": [
+      {
+        "href": "https://www.alpha.org/",
+        "label": "Alpha",
+        "external": true
+      },
+      {
+        "href": "https://www.htb.org/",
+        "label": "HTB Church",
+        "external": true
+      },
+      {
+        "href": "https://themarriagecourse.org/",
+        "label": "The Marriage Course",
+        "external": true
+      },
+      {
+        "href": "/en/donate",
+        "label": "Donate",
+        "external": false
+      },
+      {
+        "href": "/en/help",
+        "label": "Help",
+        "external": false
+      },
+      {
+        "href": "/en/privacy-policy/",
+        "label": "Privacy",
+        "external": false
+      },
+      {
+        "href": "/en/cookie/",
+        "label": "Cookies",
+        "external": false
+      }
+    ],
+    "social": {
+      "facebook": "bibleinoneyear",
+      "twitter": "bibleinoneyear",
+      "instagram": "bibleinoneyear"
+    }
   },
   "hi": {
     "headline": "Start Every Day in God's Word",

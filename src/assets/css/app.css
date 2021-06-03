@@ -133,4 +133,10 @@
       clip-path: url(#NandPclipper-rtl);
     }
   }
+
+  @responsive {
+    .text-auto {
+      text-align: initial;
+    }
+  }
 }
