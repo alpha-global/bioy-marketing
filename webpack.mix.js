@@ -17,3 +17,5 @@ mix.svgSprite('src/assets/icons/*.svg', {
     filename: './build/assets/svg/sprite.svg'
   }
 });
+
+mix.disableNotifications();

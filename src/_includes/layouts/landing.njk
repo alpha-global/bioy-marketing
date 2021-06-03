@@ -3,7 +3,7 @@ layout: layouts/base.njk
 imageBanner: true
 ---
 
-<header class="text-center md:flex md:text-right">
+<header class="text-center md:flex md:text-right md:rtl:text-left">
 
   <div class="mb-8 w-full md:w-3/5">
 
@@ -17,6 +17,12 @@ imageBanner: true
           <clipPath id="headerDesktop" clipPathUnits="objectBoundingBox">
             <path d="M0.33,1 C0.7,1,1,0.756,1,0.455 C1,0.265,0.88,0.097,0.698,0 L0,0 V0.929 C0.097,0.974,0.21,1,0.33,1" />
           </clipPath>
+          <clipPath id="headerMobile-rtl" clipPathUnits="objectBoundingBox">
+            <path d="M1,0.735 V0 H0 V0.93 C0.108,0.975,0.229,1,0.356,1 C0.613,1,0.844,0.897,1,0.735" />
+          </clipPath>
+          <clipPath id="headerDesktop-rtl" clipPathUnits="objectBoundingBox">
+            <path d="M0.67,1 C0.3,1,0,0.756,0,0.455 C0,0.265,0.12,0.097,0.302,0 L1,0 V0.929 C0.903,0.974,0.79,1,0.67,1" />
+          </clipPath>
         </defs>
     </svg>
   </div>
@@ -28,9 +34,11 @@ imageBanner: true
     </h2>
 
     {% if lang.header.cta %}
-    <a href="/{{ locale }}#start " class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors md:self-end">
-      {{ lang.header.cta }}
-    </a>
+    <div>
+      <a href="/{{ locale }}#start " class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors">
+        {{ lang.header.cta }}
+      </a>
+    </div>
     {% endif %}
   </div>
 </header>
