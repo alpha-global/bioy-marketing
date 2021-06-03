@@ -27,6 +27,7 @@
     "tailwindcss": "^2.1.2"
   },
   "devDependencies": {
+    "dayjs": "^1.10.5",
     "tailwindcss-dir": "^4.0.0"
   }
 }
