@@ -33,6 +33,7 @@ const languages = [
 module.exports = {
   siteUrl: "https://bibleinoneyear.com",
   buildTime: new Date(),
+  cacheBuster: Math.round(+new Date()/1000),
   currentYear: new Date().getFullYear(),
   env: process.env.ELEVENTY_ENV,
   locales: languages.map(i => i.locale),

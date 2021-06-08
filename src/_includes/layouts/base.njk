@@ -14,7 +14,7 @@
 
     <link
       rel="stylesheet"
-      href="/assets/css/app.css"
+      href="/assets/css/app.css?{{ globals.cacheBuster }}"
       media="screen"
       type="text/css"
     />
@@ -82,7 +82,7 @@
       <button class="mt-2 btn bg-red text-white hover:bg-red-dark" @click="acceptCookies()">Close</button>
     </div>
 
-    <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/app.js?{{ globals.cacheBuster }}"></script>
     <!-- last build: {{ globals.env }} | {{ globals.buildTime }} -->
   </body>
 </html>
