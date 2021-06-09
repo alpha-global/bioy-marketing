@@ -632,16 +632,21 @@ collections:
                   i18n: true,
                 },
                 {
-                  label: "Day intro",
-                  name: "intro",
+                  label: "Today",
+                  name: "today",
                   widget: "string",
                   i18n: true,
                 },
                 {
-                  label: "Passage intro",
-                  name: "reading",
+                  label: "Day",
+                  name: "day",
                   widget: "string",
-                  default: "we're reading:",
+                  i18n: true,
+                },
+                {
+                  label: "App teaster",
+                  name: "cta_teaser",
+                  widget: "string",
                   i18n: true,
                 },
                 {

@@ -25,7 +25,6 @@ async function fetchDevotionRange(from = 1, to = 365, locale = 'en_GB', variant 
   return devotions
 }
 
-
 /**
  * Fetch and cache devotion range given the devotion range url
  * @param {String} url
@@ -37,7 +36,6 @@ async function _fetchDevotionRangeFromUrl(url, devotions) {
     duration: "1d",
     type: "json"
   });
-
 
   devotions.push(...json['data'])
 
@@ -59,7 +57,7 @@ module.exports = async function (fullImport = false) {
     var diff = now - start;
     var oneDay = 1000 * 60 * 60 * 24;
     var day = Math.floor(diff / oneDay);
-    startDayNumber = day - 2;
+    startDayNumber = day - 5;
     endDayNumber = day + 2;
   }
 

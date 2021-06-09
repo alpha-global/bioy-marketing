@@ -1,4 +1,5 @@
 const dayjs = require('dayjs');
+const { today }= require('../src/_data/globals');
 
 module.exports = {
   protectRunts: (str) => {
@@ -10,4 +11,10 @@ module.exports = {
   htmlDateString: (dateObj) => {
     return dayjs(dateObj).format('YYYY-MM-DD');
   },
+
+  devotionList: (devotions, locale, variant) => {
+    return devotions.filter((devo) => {
+      return devo.locale == locale && devo.variant == variant && devo.devotionId <= today
+    });
+  }
 }

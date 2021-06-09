@@ -10,15 +10,20 @@
         {{ today[locale].title }}
       </h2>
 
-      <p class="mb-16">{{ today[locale].intro }} {{ globals.today }}.</p>
+      {% for d in bioy|devotionList(locale, variant)|reverse %}
+        {% if loop.first %}
+          <p class="mb-4">
+            <span class="inline-block uppercase text-sm bg-white text-red p-2 pb-1 rounded-sm mb-1">{{ today[locale].today }}</span>
+            <a href="{{ d.url }}" class="underline block">{{ today[locale].day }} {{ d.devotionId }}: {{ d.title }}</a>
+            <span class="text-xs">{{ d.wisdom.reference }} &middot; {{ d.newTestament.reference }} &middot; {{ d.oldTestament.reference }}</span>
+          </p>
+        {% else %}
+          <p><a href="{{ d.url}}" class="underline">{{ today[locale].day }} {{ d.devotionId }}: {{ d.title }}</a></p>
+        {% endif %}
+      {% endfor %}
 
-      <a
-        :href="link"
-        href="/{{ locale }}/{{ variant|default('classic')}}/{{ globals.today }}"
-        class="whiteButton px-4"
-      >
-        {{ today[locale].cta }}
-      </a>
+      <p class="mt-4">{{ today[locale].cta_teaser }} <a class="underline" href="#start">{{ today[locale].cta }}</a></p>
+
     </div>
   </div>
 
