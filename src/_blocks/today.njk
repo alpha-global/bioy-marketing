@@ -1,10 +1,8 @@
 <section
   id="today"
   class="grid grid-cols-2"
-  x-data="todayBlock()"
-  x-init="setLink('{{ locale }}', '{{ variant|default('classic')}}')"
 >
-  <div class="flex flex-col justify-center bg-red text-white p-4 lg:px-12">
+  <div class="flex flex-col justify-center bg-red text-white p-4 md:py-8 lg:px-12">
     <div class="flex flex-col items-start lg:max-w-md self-end w-full">
       <h2 class="text-2xl font-bold mb-6 lg:text-3xl">
         {{ today[locale].title }}
@@ -12,7 +10,7 @@
 
       {% for d in bioy|devotionList(locale, variant)|reverse %}
         {% if loop.first %}
-          <p class="mb-4">
+          <p class="mb-6">
             <span class="inline-block uppercase text-sm bg-white text-red p-2 pb-1 rounded-sm mb-1">{{ today[locale].today }}</span>
             <a href="{{ d.url }}" class="underline block">{{ today[locale].day }} {{ d.devotionId }}: {{ d.title }}</a>
             <span class="text-xs">{{ d.wisdom.reference }} &middot; {{ d.newTestament.reference }} &middot; {{ d.oldTestament.reference }}</span>
@@ -33,20 +31,3 @@
   </div>
 </section>
 
-<script>
-  var todayBlock = function () {
-    return {
-      link: null,
-
-      setLink(locale, variant) {
-        var now = new Date();
-        var start = new Date(now.getFullYear(), 0, 0);
-        var diff = now - start;
-        var oneDay = 1000 * 60 * 60 * 24;
-        var day = Math.floor(diff / oneDay);
-
-        this.link = `/${locale}/${variant}/${day}`;
-      },
-    };
-  };
-</script>
