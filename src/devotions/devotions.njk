@@ -10,10 +10,11 @@ eleventyComputed:
   title: "{{ devotion.title }}"
   locale: "{{ devotion.locale }}"
   description: "{{ devotion.introduction | striptags | truncate }}"
+  variant: "{{ devotion.variant }}"
 ---
 
 <article class="max-w-prose mx-auto font-commentary break-words">
-  <div class="px-4 prose lg:prose-xl ">
+  <div class="mx-10 prose lg:prose-xl ">
     <div class="mt-24">
       <span class="text-xl text-red">{{ lang.day }} {{devotion.devotionId}}</span>
     </div>
@@ -38,7 +39,7 @@ eleventyComputed:
     </div>
   </div>
 
-  <div class="px-4 prose lg:prose-xl mb-8">
+  <div class="mx-10 prose lg:prose-xl mb-8">
     <div class="mt-16">
       <h2>{{lang.introduction}}</h2>
     </div>
@@ -78,12 +79,12 @@ eleventyComputed:
 
 
 
-  <section class="prose lg:prose-xl mx-4 bg-stone p-4 mb-4">
+  <section class="prose lg:prose-xl mx-10 bg-stone p-4 mb-4">
     <h2>{{lang.pippaAdds}}</h2>
     {{ devotion.pippa|safe }}
   </section>
 
-  <div class="mx-4 mb-4 grid gap-4 md:grid-cols-3">
+  <div class="mx-10 mb-4 grid gap-4 md:grid-cols-3">
     <section class="prose lg:prose-xl bg-stone p-4">
       <h2 class="mt-0">{{lang.verseOfTheDay}}</h2>
       <h3>{{devotion.verseOfTheDayReference}}</h3>
@@ -107,10 +108,28 @@ eleventyComputed:
 
   {% include '../_blocks/channels.njk' %}
 
-  <section class="p-4 prose lg:prose-xl">
+  <section class="mx-10 py-4 prose lg:prose-xl">
     <h2>References</h2>
     <div class="prose-sm">
       {{ devotion.references|safe }}
     </div>
   </section>
 </article>
+
+<div class="">
+  {% if devotion.devotionId > 1 and globals.today >= devotion.devotionId %}
+    <div class="top-0 left-0 p-4 flex items-center h-screen fixed">
+      <a href="/{{ locale }}/{{ variant }}/{{ devotion.devotionId - 1 }}" title="Previous" class="bg-white shadow-lg rounded-full hover:text-red transition-colors">
+        {% svgSprite name="back", class="relative -left-0.5 fill-current h-8 w-8 md:h-12 md:w-12" %}
+      </a>
+    </div>
+  {% endif %}
+
+  {% if devotion.devotionId < 365 and globals.today > devotion.devotionId %}
+    <div class="top-0 right-0 p-4 flex items-center h-screen fixed">
+      <a href="/{{ locale }}/{{ variant }}/{{ devotion.devotionId + 1 }}" title="Next" class="bg-white shadow-lg rounded-full hover:text-red transition-colors">
+        {% svgSprite name="forward", class="relative left-0.5 fill-current h-8 w-8 md:h-12 md:w-12" %}
+      </a>
+    </div>
+  {% endif %}
+</div>

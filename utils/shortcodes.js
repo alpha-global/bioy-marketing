@@ -10,13 +10,13 @@ module.exports = {
 
   devotionSection: (devotionSection) => {
     return `
-    <section class="prose lg:prose-xl mb-8">
+    <section class="prose lg:prose-xl mb-8 mx-10">
     <div class="p-4 bg-red rounded">
       <div class="font-bold text-4xl text-white">${
         devotionSection.title
       }</div>
     </div>
-    <div class="p-4">
+    <div class="py-4">
       <h2>${devotionSection.reference}</h1>
         <div class="font-scripture">
           ${devotionSection.text}
