@@ -82,11 +82,7 @@
   "zh": {
     "intro": "Bom dia!",
     "header": {
-<<<<<<< HEAD
       "title": "以圣经日日行开启新的一天",
-=======
-      "title": "以圣经日日行开始新的一天",
->>>>>>> 3506d78 (Move Zh to the correct place)
       "strapline": "如果以阅读圣经来开启每一天，你的生命将会多么不同！",
       "cta": "今天就开始吧",
       "img": {
