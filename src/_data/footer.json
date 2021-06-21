@@ -34,15 +34,15 @@
         "external": false
       },
       {
-        "href": "/en/cookie/",
+        "href": "/en/cookies/",
         "label": "Cookies",
         "external": false
       }
     ],
     "social": {
-      "facebook": "bibleinoneyear",
-      "twitter": "bibleinoneyear",
-      "instagram": "bibleinoneyear"
+      "facebook": "https://www.facebook.com/BiOYApp",
+      "twitter": "/bibleinoneyr?lang=en",
+      "instagram": "/nickygumbel/?hl=en-gb"
     }
   },
   "es": {
