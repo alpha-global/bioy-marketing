@@ -15,10 +15,10 @@
     >
       Download
     </a>
-    {#<a class="mr-4 hover:text-red transition-colors sm:pr-4" href="/" @click.prevent="isLangPickerOpen = true">
+    {# <a class="mr-4 hover:text-red transition-colors sm:pr-4" href="/" @click.prevent="isLangPickerOpen = true">
       {% svgSprite name="translate", class="fill-current h-6 w-6" %}
       <span class="visually-hidden">Change language</span>
-    </a>#}
+    </a> #}
   </div>
 </header>
 
@@ -27,7 +27,7 @@
   fixed bottom-0 w-full bg-white z-10 shadow-lg h-16 flex items-center
   sm:h-20
   md:absolute md:bg-transparent md:h-auto md:bottom-auto md:top-0 md:right-0 md:text-black md:mt-4 md:shadow-none text-left flex-row-reverse
-  md:rtl:pl-4
+  md:rtl:pl-4 md:w-1/2
 ">
   <div class="w-full grid grid-cols-4 justify-items-stretch md:flex md:flex-row md:w-auto">
     <a href="/en#start" class="flex flex-col items-center justify-center md:py-1.5 md:mr-4 md:underline" title="Start Bible in One Year Today">
@@ -53,9 +53,9 @@
     >
       Download
     </a>
-    {#<a class="hidden flex-col items-center justify-center  md:flex md:mr-4" href="/" @click.prevent="isLangPickerOpen = true">
+    {# <a class="hidden flex-col items-center justify-center  md:flex md:mr-4" href="/" @click.prevent="isLangPickerOpen = true">
       {% svgSprite name="translate", class="fill-current h-6 w-6" %}
       <span class="visually-hidden">Change language</span>
-    </a>#}
+    </a> #}
   </div>
 </nav>

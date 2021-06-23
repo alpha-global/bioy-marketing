@@ -66,11 +66,13 @@
         </p>
         <ul>
           {% for lang in globals.languages %}
+          {% if lang.locale in globals.liveLanguages %}
           <li class="mb-4">
             <a class="text-red underline" href="/{{ lang.locale }}">{{
               lang.language
             }}</a>
           </li>
+          {% endif %}
           {% endfor %}
         </ul>
       </div>
