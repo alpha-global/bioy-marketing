@@ -9,6 +9,7 @@ eleventyComputed:
   title: "{{ item.title }}"
   locale: "{{ item.locale }}"
   description: "{{ item.shortAnswer | truncate }}"
+  disableMetaTranslations: true
 ---
 
 <section class="px-4 lg:container mx-auto">

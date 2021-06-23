@@ -36,6 +36,7 @@ module.exports = {
   cacheBuster: Math.round(+new Date()/1000),
   currentYear: new Date().getFullYear(),
   env: process.env.ELEVENTY_ENV,
+  liveLanguages: ['en', 'es'],
   locales: languages.map(i => i.locale),
   languages: languages,
   today: todaysDayNumber(),
