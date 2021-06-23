@@ -40,14 +40,19 @@
       }
     ],
     "social": {
-      "facebook": "https://www.facebook.com/BiOYApp",
-      "twitter": "/bibleinoneyr?lang=en",
-      "instagram": "/nickygumbel/?hl=en-gb"
+      "facebook": "BiOYApp",
+      "twitter": "bibleinoneyr?lang=en",
+      "instagram": "nickygumbel"
     }
   },
   "es": {
     "headline": "Start Every Day in God's Word",
-    "cta": "Download Today"
+    "cta": "Download Today",
+    "social": {
+      "facebook": "BiOYApp",
+      "twitter": "bibleinoneyr?lang=es",
+      "instagram": "nickygumbel?hl=es"
+    }
   },
   "ar": {
     "headline": "Start every day in the Bible.",
@@ -90,17 +95,27 @@
       }
     ],
     "social": {
-      "facebook": "bibleinoneyear",
-      "twitter": "bibleinoneyear",
-      "instagram": "bibleinoneyear"
+      "facebook": "BiOYApp",
+      "twitter": "bibleinoneyr?lang=ar",
+      "instagram": "nickygumbel"
     }
   },
   "hi": {
     "headline": "Start Every Day in God's Word",
-    "cta": "Download Today"
+    "cta": "Download Today",
+    "social": {
+      "facebook": "BiOYApp",
+      "twitter": "bibleinoneyr?lang=hi",
+      "instagram": "nickygumbel"
+    }
   },
   "zh": {
     "headline": "Start Every Day in God's Word",
-    "cta": "Download Today"
+    "cta": "Download Today",
+    "social": {
+      "facebook": "BiOYApp",
+      "twitter": "bibleinoneyr?lang=zh",
+      "instagram": "nickygumbel"
+    }
   }
 }

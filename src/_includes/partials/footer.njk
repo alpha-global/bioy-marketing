@@ -26,21 +26,21 @@
 
         <div class="inline-flex gap-2 items-center justify-center md:justify-start">
           {% if footer[locale].social.instagram %}
-          <a href="https://instagram.com/{{ footer.social.instagram }}" rel="noopener" target="_blank" class="flex items-center justify-center rounded-full bg-red text-white fill-current h-10 w-10 hover:bg-red-dark">
+          <a href="https://instagram.com/{{ footer[locale].social.instagram }}" rel="noopener" target="_blank" class="flex items-center justify-center rounded-full bg-red text-white fill-current h-10 w-10 hover:bg-red-dark">
             {% svgSprite name="instagram", class="h-6 w-6 fill-current" %}
             <span class="visually-hidden">Instagram</span>
           </a>
           {% endif %}
 
           {% if footer[locale].social.facebook %}
-          <a href="https://facebook.com{{ footer.social.instagram }}" rel="noopener" target="_blank" class="flex items-center justify-center rounded-full bg-red text-white fill-current h-10 w-10 hover:bg-red-dark">
+          <a href="https://facebook.com/{{ footer[locale].social.facebook }}" rel="noopener" target="_blank" class="flex items-center justify-center rounded-full bg-red text-white fill-current h-10 w-10 hover:bg-red-dark">
             {% svgSprite name="facebook", class="h-6 w-6 fill-current" %}
             <span class="visually-hidden">Facebook</span>
           </a>
           {% endif %}
 
           {% if footer[locale].social.twitter %}
-          <a href="https://twitter.com{{ footer.social.instagram }}" rel="noopener" target="_blank" class="flex items-center justify-center rounded-full bg-red text-white fill-current h-10 w-10 hover:bg-red-dark">
+          <a href="https://twitter.com/{{ footer[locale].social.twitter }}" rel="noopener" target="_blank" class="flex items-center justify-center rounded-full bg-red text-white fill-current h-10 w-10 hover:bg-red-dark">
             {% svgSprite name="twitter", class="h-6 w-6 fill-current" %}
             <span class="visually-hidden">Twitter</span>
           </a>
