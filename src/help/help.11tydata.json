@@ -52,7 +52,7 @@
         "title": "How do I manually delete audio files that are saved to my device?",
         "category": "App",
         "shortAnswer": "Swipe right on the relevant day from the list view and tap the bin icon.",
-        "detailedAnswer": "Swipe right on the relevant day from the list view and tap the bin icon. To see a list of all your downloaded audio, go to Settings by clicking the cog in the bottom left corner. Select Manage Audio, and tick which days you would like to delete or select all. Click the bin icon to delete."
+        "detailedAnswer": "Swipe right on the relevant day from the list view and tap the bin icon. To see a list of all your downloaded audio, go to Settings by clicking the cog in the bottom left corner. Select Manage Audio, and tick which days you would like to delete or select all. Click the button at the bottom of your screen to delete the selected days' audios."
       },
       {
         "title": "How do I stop my device auto-downloading audio files?",
@@ -87,7 +87,7 @@
       {
         "title": "Do I have to download an audio file to listen to it?",
         "category": "Audio",
-        "shortAnswer": "No, you can stream the audio over wifi or using data if you prefer.",
+        "shortAnswer": "No, you can stream the audio over Wi-Fi or using data if you prefer.",
         "detailedAnswer": "No, you can stream the audio over wifi or using data if you prefer."
       },
       {
@@ -106,7 +106,7 @@
         "title": "What languages is BiOY available in?",
         "category": "Content",
         "shortAnswer": "Currently, the classic edition of BiOY is available is Arabic, English, Chinese, Hindi and Spanish. Audio is currently only available in English, with Chinese and Hindi to follow.",
-        "detailedAnswer": "Currently, the classic edition of BiOY is available is English, Chinese, Hindi and Spanish. Audio is currently only available in English, with Chinese and Hindi to follow.\n\n*Update* The Arabic edition is now available!  - Please update your app to use this functionality.\n\nWe will continue to work with other existing translations to make them available through the app – look out for Bahasa Indonesia, Dutch, German, French, Thai and Finnish launching through 2021 and 2022."
+        "detailedAnswer": "Currently, the classic edition of BiOY is available is Arabic, English, Chinese, Hindi and Spanish. Audio is currently only available in English, with Chinese and Hindi to follow.\n\nWe will continue to work with other existing translations to make them available through the app – look out for Bahasa Indonesia, Dutch, German, French, Thai and Finnish launching through 2021 and 2022."
       },
       {
         "title": "How do I access the new app Menu?",
