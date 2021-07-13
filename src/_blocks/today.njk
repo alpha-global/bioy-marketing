@@ -9,14 +9,16 @@
       </h2>
 
       {% for d in bioy|devotionList(locale, variant)|reverse %}
-        {% if loop.first %}
-          <p class="mb-6">
-            <span class="inline-block uppercase text-sm bg-white text-red p-2 pb-1 rounded-sm mb-1">{{ today[locale].today }}</span>
-            <a href="{{ d.url }}" class="underline block">{{ today[locale].day }} {{ d.devotionId }}: {{ d.title }}</a>
-            <span class="text-xs">{{ d.wisdom.reference }} &middot; {{ d.newTestament.reference }} &middot; {{ d.oldTestament.reference }}</span>
-          </p>
-        {% else %}
-          <p><a href="{{ d.url}}" class="underline">{{ today[locale].day }} {{ d.devotionId }}: {{ d.title }}</a></p>
+        {% if loop.index <= 6 %}
+          {% if loop.first %}
+            <p class="mb-6">
+              <span class="inline-block uppercase text-sm bg-white text-red p-2 pb-1 rounded-sm mb-1">{{ today[locale].today }}</span>
+              <a href="{{ d.url }}" class="underline block">{{ today[locale].day }} {{ d.devotionId }}: {{ d.title }}</a>
+              <span class="text-xs">{{ d.wisdom.reference }} &middot; {{ d.newTestament.reference }} &middot; {{ d.oldTestament.reference }}</span>
+            </p>
+          {% else %}
+            <p><a href="{{ d.url}}" class="underline">{{ today[locale].day }} {{ d.devotionId }}: {{ d.title }}</a></p>
+          {% endif %}
         {% endif %}
       {% endfor %}
 
