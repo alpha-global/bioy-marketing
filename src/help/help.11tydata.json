@@ -39,8 +39,8 @@
       {
         "title": "How long are audio files stored on my phone?",
         "category": "App",
-        "shortAnswer": "Files that have been automatically downloaded are automatically deleted after you have listened to them. If you have manually downloaded audio tracks, these need to be deleted manually.",
-        "detailedAnswer": "Files that have been automatically downloaded are automatically deleted after you have listened to them. If you have manually downloaded audio tracks, these need to be deleted manually."
+        "shortAnswer": "You can adjust how many days of audio are stored on your device. Tap on Menu > Settings > Audio Downloads. Move the red circle along the line to adjust the number of days of audio that remain saved on your device. ",
+        "detailedAnswer": "You can adjust how many days of audio are stored on your device. Tap on Menu > Settings > Audio Downloads. Move the red circle along the line to adjust the number of days of audio that remain saved on your device. You can also select what options best suit you regarding mobile data and auto download."
       },
       {
         "title": "What additional functionality can I expect over the coming weeks?",
