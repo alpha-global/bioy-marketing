@@ -191,6 +191,12 @@
         "category": "Audio",
         "shortAnswer": "Yes!  After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds: 1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc\n",
         "detailedAnswer": "Yes! Please ensure you have updated to the latest version of the app from the iOS App Store or Google Play on Android. After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds:\n\n1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc"
+      },
+      {
+        "title": "How can I mark a devotion as unread/read?",
+        "category": "App",
+        "shortAnswer": "Included in v.8.3.3 is the ability to mark a devotion day as unread/read. To mark as unread, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon. To mark as read, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon.",
+        "detailedAnswer": "Included in v.8.3.3 is the ability to mark a devotion day as unread/read. To mark as unread, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon. To mark as read, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon."
       }
     ],
     "filterHint": "What are you looking for?"
