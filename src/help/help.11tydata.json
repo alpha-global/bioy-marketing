@@ -209,6 +209,12 @@
         "category": "App",
         "shortAnswer": "With the latest version of the app, you can tap any of the sections presented under ‘Today’s Reading’ to quickly jump to that section. We have also built a navigation menu that sits above the ‘Play’ icon. Tap this ‘book’ icon and then any section you wish to jump to.",
         "detailedAnswer": "With the latest version of the app, you can tap any of the sections presented under ‘Today’s Reading’ to quickly jump to that section. We have also built a navigation menu that sits above the ‘Play’ icon. Tap this ‘book’ icon and then any section you wish to jump to."
+      },
+      {
+        "title": "Can I share a devotion with a friend?",
+        "category": "Content",
+        "shortAnswer": "Yes! We would absolutely love you do this and encourage someone who might need to hear from God through the devotions and commentaries. To find the link, tap the ‘book’ icon on the day you wish to share and then the ‘share’ icon in the bottom left hand corner of the popup that appears. You will then be able to select how you wish to share it, whether directly into a text message or email, or by copying the link and pasting it where you wish.",
+        "detailedAnswer": "Yes! We would absolutely love you do this and encourage someone who might need to hear from God through the devotions and commentaries. To find the link, tap the ‘book’ icon on the day you wish to share and then the ‘share’ icon in the bottom left hand corner of the popup that appears. You will then be able to select how you wish to share it, whether directly into a text message or email, or by copying the link and pasting it where you wish."
       }
     ],
     "filterHint": "What are you looking for?"
