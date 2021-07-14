@@ -203,6 +203,12 @@
         "category": "App",
         "shortAnswer": "With the latest version of the app, your reading progress is automatically tracked as your read through each day’s devotion. You will see a red bar appear on the day list view under the title of the day for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’Tick’ icon that appears next to the download/bin icon.",
         "detailedAnswer": "With the latest version of the app, your reading progress is automatically tracked as your read through each day’s devotion. You will see a red bar appear on the day list view under the title of the day for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’Tick’ icon that appears next to the download/bin icon."
+      },
+      {
+        "title": "Can I jump between sections of the devotion without having to scroll?",
+        "category": "App",
+        "shortAnswer": "With the latest version of the app, you can tap any of the sections presented under ‘Today’s Reading’ to quickly jump to that section. We have also built a navigation menu that sits above the ‘Play’ icon. Tap this ‘book’ icon and then any section you wish to jump to.",
+        "detailedAnswer": "With the latest version of the app, you can tap any of the sections presented under ‘Today’s Reading’ to quickly jump to that section. We have also built a navigation menu that sits above the ‘Play’ icon. Tap this ‘book’ icon and then any section you wish to jump to."
       }
     ],
     "filterHint": "What are you looking for?"
