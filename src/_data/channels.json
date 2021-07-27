@@ -112,6 +112,11 @@
   },
   "hi": {},
   "zh": {
-    "distribution": []
+    "distribution": [
+      {
+        "channel": "App",
+        "icon": "medium_app"
+      }
+    ]
   }
 }
