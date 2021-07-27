@@ -116,6 +116,10 @@
       {
         "channel": "App",
         "icon": "medium_app"
+      },
+      {
+        "channel": "Website",
+        "icon": "medium_website"
       }
     ]
   }
