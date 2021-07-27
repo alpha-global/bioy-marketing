@@ -41,7 +41,9 @@
             <h4 class="text-xl font-bold mb-3">
               {{ medium.channel }}
             </h4>
-            {{ medium.description | markdown | safe }}
+             {% if medium.description %}
+                {{ medium.description | markdown | safe }}
+              {% endif %}
 
             {% if medium.cta %}
             {{ medium.cta.code | safe }}
