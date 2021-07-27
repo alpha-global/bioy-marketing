@@ -119,7 +119,9 @@
       },
       {
         "channel": "Website",
-        "icon": "medium_website"
+        "icon": "medium_website",
+        "image": "/assets/img/medium_laptop.jpg",
+        "description": ""
       }
     ]
   }
