@@ -112,17 +112,6 @@
   },
   "hi": {},
   "zh": {
-    "distribution": [
-      {
-        "channel": "App",
-        "icon": "medium_app",
-        "image": "/assets/img/medium_website.jpg"
-      },
-      {
-        "channel": "Website",
-        "icon": "medium_website",
-        "image": "/assets/img/medium_laptop.jpg"
-      }
-    ]
+    "distribution": []
   }
 }
