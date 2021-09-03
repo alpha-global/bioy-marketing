@@ -9,12 +9,20 @@
         "src": "/assets/img/bioy-1.jpg",
         "desc": "Teenage boy looking at phone"
       }
-    }
+    },
+    "body": " Teenage boy looking at phone"
   },
   "es": {
     "title": "Youth"
   },
   "ar": {},
   "hi": {},
-  "zh": {}
+  "zh": {
+    "title": "青年版",
+    "header": {
+      "title": "一天一点进步",
+      "strapline": "养成阅读圣经的习惯",
+      "cta": "今天就开始"
+    }
+  }
 }
