@@ -255,13 +255,18 @@
     "helpItems": []
   },
   "zh": {
-    "helpItems": [],
-    "title": "帮助",
-    "intro": "**对《圣经日日行》有疑问吗？**\n\n不知道该如何使用本软件？请点击这里……",
-    "filter": "过滤器",
     "seeMore": "查看更多",
-    "notFoundMessage": "对不起，暂时无法提供答案",
     "submitButton": "提交附加证据",
+    "intro": "**对《圣经日日行》有疑问吗？**\n\n不知道该如何使用本软件？请点击这里……",
+    "notFoundMessage": "对不起，暂时无法提供答案",
+    "title": "帮助",
+    "filter": "过滤器",
+    "categories": {
+      "Audio": "声音",
+      "Content": "内容",
+      "App": "APP"
+    },
+    "helpItems": [],
     "filterHint": "你在寻找什么？"
   }
 }
