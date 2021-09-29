@@ -23,6 +23,10 @@
     "title": "Bible in One Year."
   },
   "zh": {
-    "title": "Bible in One Year"
+    "title": "圣经日日行",
+    "switcher": {
+      "title": "更换语言",
+      "subTitle": "圣经日日行有以下语言"
+    }
   }
 }

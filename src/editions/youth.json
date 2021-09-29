@@ -9,12 +9,20 @@
         "src": "/assets/img/bioy-1.jpg",
         "desc": "Teenage boy looking at phone"
       }
-    }
+    },
+    "body": "The daily Bible reading devotion for young people.  \n\nTake less than 15 minutes a day to cover the whole Bible in 365 days with selected Bible readings and a full commentary from Nicky and Pippa Gumbel.\n\nToby Stokes introduces this edition of the Bible in One Year which encourages us not only to apply the Bible to our everyday life, but to also grow in our relationship with Jesus."
   },
   "es": {
     "title": "Youth"
   },
   "ar": {},
   "hi": {},
-  "zh": {}
+  "zh": {
+    "title": "青年版",
+    "header": {
+      "title": "一天一点进步",
+      "strapline": "养成阅读圣经的习惯",
+      "cta": "今天就开始"
+    }
+  }
 }

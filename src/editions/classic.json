@@ -9,7 +9,8 @@
       "title": "Every day in the Bible",
       "strapline": "God's word. Read every day.",
       "cta": "Start Today"
-    }
+    },
+    "body": "  English"
   },
   "es": {
     "title": "Classic"
@@ -27,5 +28,12 @@
     }
   },
   "hi": {},
-  "zh": {}
+  "zh": {
+    "title": "经典版",
+    "header": {
+      "title": "将圣经融入生活中",
+      "strapline": "上帝的话。每天都要读",
+      "cta": "今天就开始 "
+    }
+  }
 }

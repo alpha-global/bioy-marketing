@@ -32,11 +32,11 @@
     "image": "/assets/img/today_en.jpg"
   },
   "zh": {
-    "title": "Today's Reading",
-    "today": "Today",
-    "day": "Day",
-    "cta_teaser": "In the Bible in One Year app you can access a full history, audio devotions, progress tracking, and more.",
-    "cta": "Download today",
+    "title": "今日读经",
+    "today": "今天",
+    "day": "日",
+    "cta_teaser": "在圣经日日行APP中，你能找到所有历史、有声朗读、阅读跟进等等。",
+    "cta": "今天就下载",
     "image": "/assets/img/today_en.jpg"
   }
 }

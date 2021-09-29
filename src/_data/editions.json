@@ -24,9 +24,9 @@
     "express": "Express"
   },
   "zh": {
-    "express": "Express",
-    "youth": "Youth",
-    "classic": "Classic",
-    "intro": "Bible in One Year comes in three different editions…"
+    "express": "快捷版",
+    "youth": "青年版",
+    "classic": "经典版",
+    "intro": "圣经日日行有三个版本"
   }
 }
