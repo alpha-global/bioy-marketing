@@ -5,6 +5,14 @@
       <span class="xs:hidden filter drop-shadow-lg {% if imageBanner %}drop-shadow-lg{% else %}text-black{% endif %}" aria-hidden="true">BiOY</span>
       <span class="hidden xs:inline filter {% if imageBanner %}drop-shadow-lg{% else %}text-black{% endif %}">{{ site.title }}</span>
     </a>
+    <div class="absolute left-16 top-11 inline-flex mt-1 space-x-1">
+        {% if devotion %}
+          <button class="border border-red bg-transparent px-2 py-0.5 text-xs text-black capitalize">{{devotion.variant}}</button>
+        {% endif %}   
+        {% if locale %}
+            <button class="border border-red bg-transparent px-2 py-0.5 text-xs text-black uppercase">{{locale}}</button>
+        {% endif %}  
+    </div>
   </h1>
 
   <div class="absolute top-0 right-0 pt-2 pr-2 flex flex-row-reverse justify-center items-center rtl:pr-0 rtl:pl-2 rtl:left-0 rtl:right-auto  md:hidden">
