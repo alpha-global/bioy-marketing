@@ -2,6 +2,7 @@ export default {
   openEdition: false,
   openLanguages: false,
   isDevotion: false,
+  outOfView: false,
   init(variant) {
     this.switchBanner();
     this.isDevotion = variant ? true : false;
@@ -33,10 +34,13 @@ export default {
       entries.forEach((entry) => {
         if (this.isDevotion) {
           if (entry.intersectionRatio > 0) {
+            this.outOfView = false;
             switchBannerElement.classList.replace("fixed", "absolute");
             switchBannerElement.classList.remove(...bannerClasses);
             switchBannerElement.classList.add("left-16", "mt-1", "top-11");
           } else {
+            console.log("Out of view");
+            this.outOfView = true;
             switchBannerElement.classList.replace("absolute", "fixed");
             switchBannerElement.classList.add(...bannerClasses);
             switchBannerElement.classList.remove("left-16", "mt-1", "top-11");

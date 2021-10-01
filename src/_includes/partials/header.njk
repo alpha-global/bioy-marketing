@@ -6,11 +6,10 @@
       <span class="hidden xs:inline filter {% if imageBanner %}drop-shadow-lg{% else %}text-black{% endif %}">{{ site.title }}</span>
     </a>
     <div id="switchBanner" class="absolute left-16 top-11 inline-flex mt-1 space-x-1" >
-    <p class="text-red bg-white h-6">{{ isDevotion }}</p>
         {% if devotion %}
-            <div class="space-y-1">
+            <div class="space-y-1 w-full">
               <button id="editionButton" class="border border-red bg-transparent px-2 py-0.5 text-xs text-black uppercase" @click="openEdition = !openEdition">{{devotion.variant}}</button>
-                <ul class="absolute bg-red divide-y-2 w-full" x-show="openEdition">
+                <ul class="absolute bg-red divide-y-2" :class="outOfView ? 'w-1/2' : 'w-full'" x-show="openEdition">
                  {% if devotion.variant !== 'classic' %}
      <li class="text-white text-xs py-3 pl-2 pr-4"><button><a href="/{{ locale }}/classic/{{ devotion.devotionId}}">{{
       editions[locale].classic
@@ -31,9 +30,9 @@
             </div> 
         {% endif %}   
         {% if locale %}
-            <div class="space-y-1">
+            <div class="space-y-1 w-full">
               <button id="languagesButton" class="border border-red bg-transparent px-2 py-0.5 text-xs text-black uppercase" @click="openLanguages = !openLanguages">{{locale}}</button>
-                <ul class="absolute bg-red divide-y-2 w-full" x-show="openLanguages">
+                <ul class="absolute bg-red divide-y-2" :class="outOfView ? 'w-1/2' : 'w-full'" x-show="openLanguages">
                     {% for lang in globals.languages %}
                       <li class="text-white text-xs py-3 pl-2 pr-4"><button> <a :href="parsePageUrl('{{page.url}}', '{{lang.locale}}')">{{ lang.language }}</a></button></li>
                     {% endfor %}
