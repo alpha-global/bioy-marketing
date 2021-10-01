@@ -1,16 +1,43 @@
-<header class="border-red border-t-4 absolute {% if imageBanner %}bg-gradient-to-b bg-opacity-80 from-black-scrim{% endif %} h-16 text-white top-0 w-full z-10 md:bg-none">
+<header id="header" class="border-red border-t-4 absolute {% if imageBanner %}bg-gradient-to-b bg-opacity-80 from-black-scrim{% endif %} h-16 text-white top-0 w-full z-10 md:bg-none">
   <h1 class="text-2xl font-medium m-0 -top-1 absolute">
     <a href="/{{ locale }}" class="flex items-center" title="{{ site.title }}">
       {% svgSprite name="bioy-filled", class="fill-current text-red h-16 w-16" %}
       <span class="xs:hidden filter drop-shadow-lg {% if imageBanner %}drop-shadow-lg{% else %}text-black{% endif %}" aria-hidden="true">BiOY</span>
       <span class="hidden xs:inline filter {% if imageBanner %}drop-shadow-lg{% else %}text-black{% endif %}">{{ site.title }}</span>
     </a>
-    <div class="absolute left-16 top-11 inline-flex mt-1 space-x-1">
+    <div id="switchBanner" class="absolute left-16 top-11 inline-flex mt-1 space-x-1">
         {% if devotion %}
-          <button class="border border-red bg-transparent px-2 py-0.5 text-xs text-black capitalize">{{devotion.variant}}</button>
+            <div class="space-y-1" x-data="app.helpers">
+              <button class="border border-red bg-transparent px-2 py-0.5 text-xs text-black uppercase" @click="openEdition = !openEdition">{{devotion.variant}}</button>
+                <ul class="bg-red px-2 py-1 divide-y-2" x-show="openEdition">
+                 {% if devotion.variant !== 'classic' %}
+     <li class="text-white text-xs py-1"><button><a href="/{{ locale }}/classic/{{ devotion.devotionId}}">{{
+      editions[locale].classic
+    }}</a></button></li>
+   {% endif %}
+     
+        {% if devotion.variant !== 'youth' %}
+     <li class="text-white text-xs py-1"><button><a href="/{{ locale }}/youth/{{ devotion.devotionId}}">{{
+      editions[locale].youth
+    }}</a></button></li>
+   {% endif %}
+      {% if devotion.variant !== 'express' %}
+     <li class="text-white text-xs py-1"><button><a href="/{{ locale }}/express/{{ devotion.devotionId}}">{{
+      editions[locale].express
+    }}</a></button></li>
+   {% endif %}
+                </ul> 
+            </div> 
         {% endif %}   
         {% if locale %}
-            <button class="border border-red bg-transparent px-2 py-0.5 text-xs text-black uppercase">{{locale}}</button>
+            <div class="space-y-1" x-data="app.helpers">
+              <button class="border border-red bg-transparent px-2 py-0.5 text-xs text-black uppercase" @click="openLanguages = !openLanguages">{{locale}}</button>
+                <ul class="bg-red px-2 py-1 divide-y-2" x-show="openLanguages">
+                    {% for lang in globals.languages %}
+                      <li class="text-white text-xs py-1"><button> <a :href="parsePageUrl('{{page.url}}', '{{lang.locale}}')">{{ lang.language }}</a></button></li>
+                    {% endfor %}
+                </ul> 
+            </div> 
         {% endif %}  
     </div>
   </h1>
