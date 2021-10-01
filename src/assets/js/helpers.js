@@ -27,7 +27,8 @@ export default {
       "divide-y-1",
       "border-b-2",
       "border-red",
-      "py-2",
+      "divide-x-2",
+      "divide-grey-light",
     ];
 
     const observer = new IntersectionObserver((entries) => {
@@ -37,13 +38,13 @@ export default {
             this.outOfView = false;
             switchBannerElement.classList.replace("fixed", "absolute");
             switchBannerElement.classList.remove(...bannerClasses);
-            switchBannerElement.classList.add("left-16", "mt-1", "top-11");
+            switchBannerElement.classList.add("left-16", "top-10");
           } else {
             console.log("Out of view");
             this.outOfView = true;
             switchBannerElement.classList.replace("absolute", "fixed");
             switchBannerElement.classList.add(...bannerClasses);
-            switchBannerElement.classList.remove("left-16", "mt-1", "top-11");
+            switchBannerElement.classList.remove("left-16", "top-10");
           }
         }
       });
