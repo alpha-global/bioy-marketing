@@ -5,38 +5,47 @@
       <span class="xs:hidden filter drop-shadow-lg {% if imageBanner %}drop-shadow-lg{% else %}text-black{% endif %}" aria-hidden="true">BiOY</span>
       <span class="hidden xs:inline filter {% if imageBanner %}drop-shadow-lg{% else %}text-black{% endif %}">{{ site.title }}</span>
     </a>
-    <div id="switchBanner" class="absolute left-16 top-11 inline-flex mt-1 space-x-1" >
+    <div id="switchBanner" class="absolute left-16 top-11 inline-flex mt-1 space-x-1">
         {% if devotion %}
             <div class="space-y-1 w-full">
-              <button id="editionButton" class="border border-red bg-transparent px-2 py-0.5 text-xs text-black uppercase" @click="openEdition = !openEdition">{{devotion.variant}}</button>
-                <ul class="absolute bg-red divide-y-2" :class="outOfView ? 'w-1/2' : 'w-full'" x-show="openEdition">
+              <button id="editionButton" class="bg-transparent px-2 py-0.5  text-black uppercase" :class="outOfView ? 'text-base w-full flex items-center justify-center ' :'border border-red text-xs'" @click="openEdition = !openEdition">
+              <svg x-show="outOfView" class="h-6 w-auto mr-2" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.5 2C3.10218 2 2.72064 2.15804 2.43934 2.43934C2.15804 2.72064 2 3.10218 2 3.5V15.3377C2.46443 15.1174 2.97616 15 3.5 15H16V2H3.5ZM18 1C18 0.447715 17.5523 0 17 0H3.5C2.57174 0 1.6815 0.368749 1.02513 1.02513C0.368749 1.6815 0 2.57174 0 3.5V18.5C0 19.4283 0.368749 20.3185 1.02513 20.9749C1.6815 21.6313 2.57174 22 3.5 22H17C17.5523 22 18 21.5523 18 21V1ZM16 17H3.5C3.10218 17 2.72064 17.158 2.43934 17.4393C2.15804 17.7206 2 18.1022 2 18.5C2 18.8978 2.15804 19.2794 2.43934 19.5607C2.72064 19.842 3.10218 20 3.5 20H16V17Z" fill="currentColor"/>
+</svg>        
+              {{devotion.variant}}</button>
+                <div class="absolute bg-red divide-y-2" :class="outOfView ? 'w-1/2' : 'w-full'" x-show="openEdition">
                  {% if devotion.variant !== 'classic' %}
-     <li class="text-white text-xs py-3 pl-2 pr-4"><button><a href="/{{ locale }}/classic/{{ devotion.devotionId}}">{{
+     <a href="/{{ locale }}/classic/{{ devotion.devotionId}}" class="block text-white text-xs py-3 pl-2 pr-4"><button>{{
       editions[locale].classic
-    }}</a></button></li>
+    }}</button></a>
    {% endif %}
      
         {% if devotion.variant !== 'youth' %}
-     <li class="text-white text-xs py-3 pl-2 pr-4"><button><a href="/{{ locale }}/youth/{{ devotion.devotionId}}">{{
+     <a href="/{{ locale }}/youth/{{ devotion.devotionId}}" class="block text-white text-xs py-3 pl-2 pr-4"><button>{{
       editions[locale].youth
-    }}</a></button></li>
+    }}</button></a>
    {% endif %}
       {% if devotion.variant !== 'express' %}
-     <li class="text-white text-xs py-3 pl-2 pr-4"><button><a href="/{{ locale }}/express/{{ devotion.devotionId}}">{{
+     <a href="/{{ locale }}/express/{{ devotion.devotionId}}" class="block text-white text-xs py-3 pl-2 pr-4"><button>{{
       editions[locale].express
-    }}</a></button></li>
+    }}</button></a>
    {% endif %}
-                </ul> 
+                </div> 
             </div> 
         {% endif %}   
         {% if locale %}
             <div class="space-y-1 w-full">
-              <button id="languagesButton" class="border border-red bg-transparent px-2 py-0.5 text-xs text-black uppercase" @click="openLanguages = !openLanguages">{{locale}}</button>
-                <ul class="absolute bg-red divide-y-2" :class="outOfView ? 'w-1/2' : 'w-full'" x-show="openLanguages">
+              <button id="languagesButton" class="bg-transparent px-2 py-0.5  text-black uppercase" :class="outOfView ? 'text-base w-full flex items-center justify-center ' :'border border-red text-xs'"  @click="openLanguages = !openLanguages"><svg x-show="outOfView" class="h-6 w-auto mr-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.4963 11.8024L12.8535 14.21C13.3073 14.6735 13.3924 15.3843 13.061 15.9419C13.025 16.0024 12.9817 16.0583 12.9321 16.1082C12.598 16.4445 12.0545 16.4463 11.7182 16.1122L9 13.4118L4.17375 18.2065C3.73177 18.6456 3.01823 18.6456 2.57625 18.2065L2.5657 18.1958C2.13634 17.7576 2.14351 17.0543 2.58172 16.625L7.50375 11.8024C6.68711 10.9002 5.7339 9.49485 4.6441 7.58633C4.6321 7.56537 4.62094 7.54394 4.61063 7.5221C4.39026 7.05557 4.58982 6.49873 5.05635 6.27836C5.56632 6.03748 6.17584 6.22397 6.46373 6.70895C7.5478 8.53536 8.39323 9.78237 9 10.45C10.62 8.66176 11.8125 6.61647 12.5662 4.45941H1.11206C0.497886 4.45941 0 3.96153 0 3.34735C0 2.73318 0.497886 2.23529 1.11206 2.23529H7.875V1.125C7.875 0.50368 8.37868 0 9 0C9.62132 0 10.125 0.50368 10.125 1.125V2.23529H16.8824C17.4996 2.23529 18 2.73568 18 3.35294C18 3.9702 17.4996 4.47059 16.8824 4.47059H14.7037C13.8825 7.10824 12.4875 9.60059 10.53 11.7688L10.4963 11.8024Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.5118 12.016C16.7514 11.4033 17.3421 11 18 11C18.6539 11 19.237 11.4118 19.4555 12.0282L23.2458 22.7156C23.2539 22.7383 23.2609 22.7613 23.2669 22.7846C23.3793 23.2206 23.1169 23.6652 22.6809 23.7776C22.1898 23.9042 21.6821 23.6412 21.5022 23.167L20.5855 20.75H15.4036L14.5736 22.9579C14.3479 23.5583 13.7194 23.9057 13.0909 23.7776C13.0384 23.7669 12.9868 23.7517 12.9369 23.7322C12.4549 23.5437 12.217 23.0003 12.4054 22.5183L16.5118 12.016ZM19.8769 18.8709L18 13.64L16.1128 18.8709H19.8769Z" fill="currentColor"/>
+</svg>
+{{locale}}</button>
+                <div class="absolute bg-red divide-y-2" :class="outOfView ? 'w-1/2' : 'w-full'" x-show="openLanguages">
                     {% for lang in globals.languages %}
-                      <li class="text-white text-xs py-3 pl-2 pr-4"><button> <a :href="parsePageUrl('{{page.url}}', '{{lang.locale}}')">{{ lang.language }}</a></button></li>
+                      <a class="block text-white text-xs py-3 pl-2 pr-4" :href="parsePageUrl('{{page.url}}', '{{lang.locale}}')"><button>
+{{ lang.language }}</button></a>
                     {% endfor %}
-                </ul> 
+                </div> 
             </div> 
         {% endif %}  
     </div>
