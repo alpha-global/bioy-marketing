@@ -40,7 +40,6 @@ export default {
             switchBannerElement.classList.remove(...bannerClasses);
             switchBannerElement.classList.add("left-16", "top-10");
           } else {
-            console.log("Out of view");
             this.outOfView = true;
             switchBannerElement.classList.replace("absolute", "fixed");
             switchBannerElement.classList.add(...bannerClasses);
