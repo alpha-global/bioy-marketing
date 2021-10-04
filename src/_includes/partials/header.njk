@@ -1,40 +1,75 @@
-<header class="border-red border-t-4 absolute {% if imageBanner %}bg-gradient-to-b bg-opacity-80 from-black-scrim{% endif %} h-16 text-white top-0 w-full z-10 md:bg-none">
+<header x-data="app.helpers" x-init="init('{{ devotion.variant }}')" id="header" class="border-red border-t-4 absolute {% if imageBanner %}bg-gradient-to-b bg-opacity-80 from-black-scrim{% endif %} h-16 text-white top-0 w-full z-10 md:bg-none">
   <h1 class="text-2xl font-medium m-0 -top-1 absolute">
     <a href="/{{ locale }}" class="flex items-center" title="{{ site.title }}">
       {% svgSprite name="bioy-filled", class="fill-current text-red h-16 w-16" %}
       <span class="xs:hidden filter drop-shadow-lg {% if imageBanner %}drop-shadow-lg{% else %}text-black{% endif %}" aria-hidden="true">BiOY</span>
       <span class="hidden xs:inline filter {% if imageBanner %}drop-shadow-lg{% else %}text-black{% endif %}">{{ site.title }}</span>
     </a>
+    <div id="switchBanner" class="absolute left-16 top-10 inline-flex space-x-1">
+      {% if devotion %}
+        <div class="space-y-1 w-full">
+          <button id="editionButton" class="bg-transparent px-2  text-black uppercase" :class="outOfView ? 'text-base w-full space-x-1.5 py-3 flex items-center justify-center' :'border border-red text-xs px-1'" @click="openEdition = !openEdition">
+            <span x-show="outOfView">{% svgSprite name="medium_book", class="fill-current h-6 w-6 mr-2" %}</span>
+            {{ devotion.variant }}
+          </button>
+          <div class="absolute bg-red divide-y-2" :class="outOfView ? 'w-1/2' : ''" x-show="openEdition">
+            {% if devotion.variant !== 'classic' %}
+              <a href="/{{ locale }}/classic/{{ devotion.devotionId }}" class="block text-white text-xs py-3 pl-2 pr-4">
+                <button>{{ editions[locale].classic }}</button>
+              </a>
+            {% endif %}
+            {% if locale === 'en' %}
+              {% if devotion.variant !== 'youth' %}
+                <a href="/{{ locale }}/youth/{{ devotion.devotionId }}" class="block text-white text-xs py-3 pl-2 pr-4">
+                  <button>{{ editions[locale].youth }}</button>
+                </a>
+              {% endif %}
+              {% if devotion.variant !== 'express' %}
+                <a href="/{{ locale }}/express/{{ devotion.devotionId }}" class="block text-white text-xs py-3 pl-2 pr-4">
+                  <button>{{ editions[locale].express }}</button>
+                </a>
+              {% endif %}
+            {% else %}
+              <span class="block text-white text-xs py-3 pl-2 pr-4">No other editions available in your chosen language</span>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+      {% if locale %}
+        <div class="space-y-1 w-full">
+          <button id="languagesButton" class="bg-transparent px-2  text-black uppercase" :class="outOfView ? 'text-base w-full space-x-1.5 py-3 flex items-center justify-center' :'border border-red text-xs px-1'" @click="openLanguages = !openLanguages">
+            <span x-show="outOfView">{% svgSprite name="translate", class="fill-current h-6 w-6 mr-2" %}</span>
+            {{ locale }}
+          </button>
+          <div class="absolute bg-red divide-y-2" :class="outOfView ? 'w-1/2' : ''" x-show="openLanguages">
+            {% for lang in globals.languages %}
+              <a class="block text-white text-xs py-3 pl-2 pr-4" :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">
+                <button>{{ lang.language }}</button>
+              </a>
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
   </h1>
-
-  <div class="absolute top-0 right-0 pt-2 pr-2 flex flex-row-reverse justify-center items-center rtl:pr-0 rtl:pl-2 rtl:left-0 rtl:right-auto  md:hidden">
-    <a
-      href="/{{locale}}/#start"
-      :href="deviceUrl('{{locale}}', '{{ globals.stores.android }}', '{{ globals.stores.ios }}')"
-      class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors"
-    >
+  <div x-data="app.baseViewModel" x-init="init()" class="absolute top-0 right-0 pt-2 pr-2 flex flex-row-reverse justify-center items-center rtl:pr-0 rtl:pl-2 rtl:left-0
+                                                                                                                                                rtl:right-auto md:hidden">
+    <a href="/{{ locale }}/#start" :href="deviceUrl('{{ locale }}', '{{ globals.stores.android }}', '{{ globals.stores.ios }}')" class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red
+                                                                                                                                                                                                transition-colors">
       Download
     </a>
-    {# <a class="mr-4 hover:text-red transition-colors sm:pr-4" href="/" @click.prevent="isLangPickerOpen = true">
-      {% svgSprite name="translate", class="fill-current h-6 w-6" %}
-      <span class="visually-hidden">Change language</span>
-    </a> #}
   </div>
 </header>
-
-
-<nav class="
-  fixed bottom-0 w-full bg-white z-10 shadow-lg h-16 flex items-center
-  sm:h-20
-  md:absolute md:bg-transparent md:h-auto md:bottom-auto md:top-0 md:right-0 md:text-black md:mt-4 md:shadow-none text-left flex-row-reverse
-  md:rtl:pl-4 md:w-1/2
-">
+<nav class=" fixed bottom-0 w-full bg-white z-10 shadow-lg h-16 flex items-center sm:h-20 md:absolute md:bg-transparent
+                                                                                                md:h-auto md:bottom-auto md:top-0 md:right-0 md:text-black md:mt-4 md:shadow-none text-left flex-row-reverse md:rtl:pl-4
+                                                                                                md:w-1/2 ">
   <div class="w-full grid grid-cols-4 justify-items-stretch md:flex md:flex-row md:w-auto">
     <a href="/en#start" class="flex flex-col items-center justify-center md:py-1.5 md:mr-4 md:underline" title="Start Bible in One Year Today">
       {% svgSprite name="bioy-filled", class="fill-current h-6 w-6 mb-1 sm:h-8 sm:w-8 md:hidden" %}
       Start
     </a>
-    <a href="/en/about" class="flex flex-col items-center justify-center {{ 'text-red' if activePage == 'about' }} md:py-1.5 md:mr-4 md:underline">
+    <a href="/en/about" class="flex flex-col items-center justify-center {{ 'text-red' if activePage == 'about' }} md:py-1.5 md:mr-4
+                                                                                                                                                                                                md:underline">
       {% svgSprite name="about", class="fill-current h-6 w-6 mb-1 sm:h-8 sm:w-8 md:hidden" %}
       About
     </a>
@@ -42,20 +77,14 @@
       {% svgSprite name="help", class="fill-current h-6 w-6 mb-1 sm:h-8 sm:w-8 md:hidden" %}
       FAQs
     </a>
-    <a href="/en/donate" class="flex flex-col items-center justify-center {{ 'text-red' if activePage == 'donate' }} md:py-1.5 md:mr-4 md:underline">
+    <a href="/en/donate" class="flex flex-col items-center justify-center {{ 'text-red' if activePage == 'donate' }} md:py-1.5 md:mr-4
+                                                                                                                                                                                                md:underline">
       {% svgSprite name="donate", class="fill-current h-6 w-6 mb-1 sm:h-8 sm:w-8 md:hidden" %}
       Donate
     </a>
-    <a
-      class="hidden bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors no-underline mr-4 md:flex"
-      href="/{{ locale }}/#start"
-      :href="deviceUrl('{{locale}}', '{{ globals.stores.android }}', '{{ globals.stores.ios }}')"
-    >
+    <a class="hidden bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors
+                                                                                                                                                  no-underline mr-4 md:flex" href="/{{ locale }}/#start" :href="deviceUrl('{{ locale }}', '{{ globals.stores.android }}', '{{ globals.stores.ios }}')">
       Download
     </a>
-    {# <a class="hidden flex-col items-center justify-center  md:flex md:mr-4" href="/" @click.prevent="isLangPickerOpen = true">
-      {% svgSprite name="translate", class="fill-current h-6 w-6" %}
-      <span class="visually-hidden">Change language</span>
-    </a> #}
   </div>
 </nav>
