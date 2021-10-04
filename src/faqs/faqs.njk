@@ -45,28 +45,27 @@ activePage: help
     {% svgSprite name="search", class="pointer-events-none absolute right-2
     top-2 h-6 w-6" %}
   </div>
-
   <div class="grid gap-4 md:grid-cols-2 mb-4">
-  {% for helpItem in collections.helpItems %}
-    {% if helpItem.locale == locale %}
-      <div class="border border-grey p-8 js-helpItem">
-
+    {% for category, helpItem in collections.helpItems | groupby('category') %}
+      <div class="border border-grey p-8 space-x-2 space-y-2 js-helpItem">
         <div class="font-bold inline-block text-gray-600 uppercase">
-          {{ lang.categories[helpItem.category] }}
+          {{ lang.categories[category] }}
         </div>
-
-        <h1 class="font-bold text-red">{{helpItem.title}}</h1>
-        <p class="my-2">{{ helpItem.shortAnswer }}</p>
-
-        {% if helpItem.detailedAnswer %}
-          <a href="/{{ locale }}/faqs/{{ helpItem.slug }}" class="underline">
-            {{ lang.seeMore }}
-          </a>
-        {% endif %}
-
-    </div>
-    {% endif %}
-  {% endfor %}
+        {% for item in helpItem  %}          
+          {% if item.locale == locale %}
+            <details class="my-2 js-helpItem">
+              <summary class="font-bold text-red ">{{item.title}}</summary>
+                <p class="my-1">{{item.shortAnswer}}</p>
+                {% if item.detailedAnswer %}
+                  <a href="/{{ locale }}/faqs/{{ item.slug }}" class="mb-2 underline">
+                    {{ lang.seeMore }}
+                  </a>
+                {% endif %}
+            </details>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endfor %}
   </div>
 
   <div x-show="!!query">
