@@ -25,7 +25,7 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       black: {
-        DEFAULT: '#000000',
+        DEFAULT: '#333333',
         scrim: '#00000075',
       },
       white: '#ffffff',
@@ -45,6 +45,7 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
+            color: theme('colors.black.DEFAULT'),
             h3: {
               color: theme('colors.red.DEFAULT'),
               marginTop: '1em',
