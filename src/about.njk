@@ -6,7 +6,7 @@ pagination:
   alias: locale
 permalink: "{{ locale }}/about/index.html"
 ---
-<section class="mx-auto prose prose-xl mb-4 px-4">
+<section class="max-w-3xl mx-auto alt-prose text-small  mb-4 px-4">
   {% if lang.body %}
     {{ lang.body|markdown|safe }}
   {% endif %}

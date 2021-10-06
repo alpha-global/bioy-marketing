@@ -84,6 +84,18 @@
   .subtitle {
     @apply text-black font-normal text-subtitle md:text-subtitle-medium lg:text-subtitle-large;
   }
+  .prose {
+    @apply text-black;
+  }
+  /* use this when prose becomes a pain */
+  .alt-prose p {
+    @apply mt-4;
+  }
+  .alt-prose a {
+    @apply font-medium underline; 
+   }
+
+  
 }
 
 @layer utilities {
