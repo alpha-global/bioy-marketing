@@ -62,6 +62,9 @@ module.exports = {
     extend: {
       fontSize: {
         '6xl': ['3.75rem', '4rem'],
+        'title-sm': ['32px', '46px'],
+        'title-md': ['48px', '67px'],
+        'title-lg': ['56px', '78px'],
       },
       scale: {
         '25': '.25',
