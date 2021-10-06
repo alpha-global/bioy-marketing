@@ -45,9 +45,6 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            p: {
-              color: theme('colors.black.DEFAULT'),
-            },
             h3: {
               color: theme('colors.red.DEFAULT'),
               marginTop: '1em',
