@@ -89,7 +89,7 @@
   }
   /* use this when prose becomes a pain */
   .alt-prose p {
-    @apply mt-4;
+    @apply text-black mt-4;
   }
   .alt-prose a {
     @apply font-medium underline; 
