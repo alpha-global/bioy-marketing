@@ -45,6 +45,7 @@ activePage: help
     {% svgSprite name="search", class="pointer-events-none absolute right-2
     top-2 h-6 w-6" %}
   </div>
+
   <div class="grid gap-4 md:grid-cols-2 mb-4">
     {% for category, helpItem in collections.helpItems | groupby('category') %}
       <div class="border border-grey p-8 space-x-2 space-y-2 js-helpItem">
