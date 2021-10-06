@@ -1,32 +1,27 @@
 {% if testimonials[locale].collection | length %}
-
-<div class="mb-4 py-6 w-full">
-  <div
-    id="slider"
-    class="
-      relative
-      overflow-hidden
-      border-t-4 border-b-4 border-red
-      invisible
-      mx-auto
-      py-6
-      w-4/5
-      md:max-w-sm
-    "
-  >
-    <div class="relative overflow-hidden flex items-center">
-      {% for item in testimonials[locale].collection %}
-      <div class="relative float-left w-full overflow-hidden text-center">
-        <p class="font-bold text-xl mb-3">
-          {{ item.quote }}
-        </p>
-        <div class="text-lg">
-          {{ item.source }}
-        </div>
+  <div class="mb-4 py-6 w-full">
+    <div id="slider" class="
+              relative
+              overflow-hidden
+              border-t-4 border-b-4 border-red
+              invisible
+              mx-auto
+              py-6
+              w-4/5
+              md:max-w-sm
+            ">
+      <div class="relative overflow-hidden flex items-center">
+        {% for item in testimonials[locale].collection %}
+          <div class="relative float-left w-full overflow-hidden text-center text-black">
+            <p class="font-bold text-xl mb-3">
+              {{ item.quote }}
+            </p>
+            <div class="text-lg">
+              {{ item.source }}
+            </div>
+          </div>
+        {% endfor %}
       </div>
-      {% endfor %}
     </div>
   </div>
-</div>
-
 {% endif %}
