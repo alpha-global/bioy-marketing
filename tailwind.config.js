@@ -25,7 +25,7 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       black: {
-        DEFAULT: '#000000',
+        DEFAULT: '#333333',
         scrim: '#00000075',
       },
       white: '#ffffff',
@@ -61,6 +61,13 @@ module.exports = {
     extend: {
       fontSize: {
         '6xl': ['3.75rem', '4rem'],
+        'title': ['32px', '46px'],
+        'title-medium': ['48px', '67px'],
+        'title-large': ['56px', '78px'],
+        'subtitle': ['20px', '30px'],
+        'subtitle-medium': ['24px', '36px'],
+        'subtitle-large': ['32px', '48px'],
+        'small': ['16px', '24px']
       },
       scale: {
         '25': '.25',

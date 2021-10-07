@@ -77,6 +77,25 @@
     content: close-quote;
     line-height: 0;
   }
+  
+  .title {
+    @apply text-black font-bold text-title md:text-title-medium lg:text-title-large;
+  }
+  .subtitle {
+    @apply text-black font-normal text-subtitle md:text-subtitle-medium lg:text-subtitle-large;
+  }
+  .prose {
+    @apply text-black;
+  }
+  /* use this when prose becomes a pain */
+  .alt-prose p {
+    @apply text-black mt-4;
+  }
+  .alt-prose a {
+    @apply font-medium underline; 
+   }
+
+  
 }
 
 @layer utilities {

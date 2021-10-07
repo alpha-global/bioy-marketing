@@ -1,67 +1,54 @@
-<section
-  class="
-    p-4
-    flex flex-col
-    text-center
-    sm:text-left
-    sm:px-0
-    sm:grid sm:grid-cols-2
-    sm:gap-4
-    lg:py-8
-  "
->
+<section class="
+            p-4
+            flex flex-col
+            text-center
+            sm:text-left
+            sm:px-0
+            sm:grid sm:grid-cols-2
+            sm:gap-4
+            lg:py-8
+            text-black
+          ">
   <div class="px-4 flex flex-col justify-end sm:self-end sm:col-span-2 lg:px-12 lg:col-span-1">
-    <h2
-      class="
-        font-bold
-        text-2xl
-        lg:text-3xl
-        lg:max-w-md self-end w-full
-      "
-    >
+    <h2 class="
+                        font-bold
+                        text-2xl
+                        lg:text-3xl
+                        lg:max-w-md self-end w-full
+                      ">
       {{ gumbels[locale].header }}
     </h2>
   </div>
-
   <main class="flex flex-col justify-start lg:order-1 lg:px-12 p-4">
     <div class="lg:max-w-md self-end w-full">
-      <p class="mb-4">
+      <p class="small mb-4">
         {{ gumbels[locale].intro }}
       </p>
-
       <blockquote class="standoutQuote my-4">
         {{ gumbels[locale].quote }}
       </blockquote>
-
       <p class="my-4">
         {{ gumbels[locale].outro }}
       </p>
-
       {% if gumbels[locale].cta %}
-      <p>
-        <a class="whiteButton px-4" href="{{ gumbels[locale].cta.url }}">
-          {{ gumbels[locale].cta.label }}
-        </a>
-      </p>
+        <p>
+          <a class="whiteButton px-4" href="{{ gumbels[locale].cta.url }}">
+            {{ gumbels[locale].cta.label }}
+          </a>
+        </p>
       {% endif %}
     </div>
   </main>
-
   <aside class="mb-4 order-first sm:order-none lg:row-span-2">
     <div class="mx-auto w-2/3 sm:mx-auto sm:w-full">
       {% blockImage gumbels[locale].img, "Nicky and Pippa Gumbel", "(min-width: 640px) 50vw, 66vw", "rounded-full sm:rounded-none u-NandPclipper" %}
-
       <svg height="0" width="0">
         <defs>
           <clipPath id="NandPclipper" clipPathUnits="objectBoundingBox">
-            <path
-              d="M1,0.29 V0.707 C0.917,0.88,0.735,1,0.524,1 C0.234,1,0,0.776,0,0.499 C0,0.24,0.205,0.026,0.469,0 H0.579 C0.766,0.019,0.925,0.132,1,0.29"
-            ></path>
+            <path d="M1,0.29 V0.707 C0.917,0.88,0.735,1,0.524,1 C0.234,1,0,0.776,0,0.499 C0,0.24,0.205,0.026,0.469,0 H0.579 C0.766,0.019,0.925,0.132,1,0.29"></path>
           </clipPath>
           <clipPath id="NandPclipper-rtl" clipPathUnits="objectBoundingBox">
-            <path
-              d="M0,0.71 V0.293 C0.083,0.12,0.265,0,0.476,0 C0.766,0,1,0.224,1,0.501 C1,0.76,0.795,0.974,0.531,1 L0.421,1 C0.234,0.981,0.075,0.868,0,0.71"
-            ></path>
+            <path d="M0,0.71 V0.293 C0.083,0.12,0.265,0,0.476,0 C0.766,0,1,0.224,1,0.501 C1,0.76,0.795,0.974,0.531,1 L0.421,1 C0.234,0.981,0.075,0.868,0,0.71"></path>
           </clipPath>
         </defs>
       </svg>
