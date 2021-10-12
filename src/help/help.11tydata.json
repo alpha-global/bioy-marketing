@@ -227,6 +227,12 @@
         "category": "App",
         "shortAnswer": "The latest version of the app has improvements to help users distinguish between sections and reflect on what they have been reading. To continue reading, swipe up to read the next section.",
         "detailedAnswer": "The latest version of the app has improvements to help users distinguish between sections and reflect on what they have been reading. To continue reading, swipe up to read the next section."
+      },
+      {
+        "title": "How can I manage audio?",
+        "category": "Audio",
+        "shortAnswer": "The app is designed to automatically delete downloaded audio that you have finished listening to. \n\nIf you do not finish listening to a devotion, and no longer need the audio for that day, please delete the audio to free up space within the app for new audio. The app will stop auto downloading new audio when you reach the audio download limit. \n\n\n\n",
+        "detailedAnswer": "The app is designed to automatically delete downloaded audio that you have finished listening to. \n\nIf you do not finish listening to a devotion, and no longer need the audio for that day, please delete the audio to free up space within the app for new audio. The app will stop auto downloading new audio when you reach the audio download limit.\n\nYou can adjust the audio download limit by navigating to: Menu > Settings > Audio downloads. Move the red circle along the line."
       }
     ],
     "filterHint": "What are you looking for?"
