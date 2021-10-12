@@ -8,7 +8,7 @@
     <div id="switchBanner" class="absolute left-16 top-10 inline-flex space-x-1">
       {% if devotion %}
         <div class="space-y-1 w-full">
-          <button id="editionButton" class="bg-transparent px-2  text-black uppercase" :class="outOfView ? 'text-base w-full space-x-1.5 py-3 flex items-center justify-center' :'border border-red text-xs px-1'" @click="openEdition = !openEdition">
+          <button id="editionButton" class="bg-transparent px-2  text-black uppercase" :class="outOfView ? 'text-base w-full space-x-1.5 py-3 flex items-center justify-center' :'border border-red text-xs'" @click="openEdition = !openEdition">
             <span x-show="outOfView">{% svgSprite name="medium_book", class="fill-current h-6 w-6 mr-2" %}</span>
             {{ devotion.variant }}
           </button>
@@ -34,42 +34,42 @@
             {% endif %}
           </div>
         </div>
-      {% endif %}
-      {% if locale %}
-        <div class="space-y-1 w-full">
-          <button id="languagesButton" class="bg-transparent px-2  text-black uppercase" :class="outOfView ? 'text-base w-full space-x-1.5 py-3 flex items-center justify-center' :'border border-red text-xs px-1'" @click="openLanguages = !openLanguages">
-            <span x-show="outOfView">{% svgSprite name="translate", class="fill-current h-6 w-6 mr-2" %}</span>
-            {{ locale }}
-          </button>
-          <div class="absolute bg-red divide-y-2" :class="outOfView ? 'w-1/2' : ''" x-show="openLanguages">
-            {% for lang in globals.languages %}
-              <a class="block text-white text-xs py-3 pl-2 pr-4" :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">
-                <button>{{ lang.language }}</button>
-              </a>
-            {% endfor %}
+        {% if locale %}
+          <div class="space-y-1 w-full">
+            <button id="languagesButton" class="bg-transparent px-2  text-black uppercase" :class="outOfView ? 'text-base w-full space-x-1.5 py-3 flex items-center justify-center' :'border border-red text-xs'" @click="openLanguages = !openLanguages">
+              <span x-show="outOfView">{% svgSprite name="translate", class="fill-current h-6 w-6 mr-2" %}</span>
+              {{ locale }}
+            </button>
+            <div class="absolute bg-red divide-y-2" :class="outOfView ? 'w-1/2' : ''" x-show="openLanguages">
+              {% for lang in globals.languages %}
+                <a class="block text-white text-xs py-3 pl-2 pr-4" :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">
+                  <button>{{ lang.language }}</button>
+                </a>
+              {% endfor %}
+            </div>
           </div>
-        </div>
+        {% endif %}
       {% endif %}
     </div>
   </h1>
   <div x-data="app.baseViewModel" x-init="init()" class="absolute top-0 right-0 pt-2 pr-2 flex flex-row-reverse justify-center items-center rtl:pr-0 rtl:pl-2 rtl:left-0
-                                                                                                                                                rtl:right-auto md:hidden">
+                                                                                                                                                                  rtl:right-auto md:hidden">
     <a href="/{{ locale }}/#start" :href="deviceUrl('{{ locale }}', '{{ globals.stores.android }}', '{{ globals.stores.ios }}')" class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red
-                                                                                                                                                                                                transition-colors">
+                                                                                                                                                                                                                        transition-colors">
       Download
     </a>
   </div>
 </header>
 <nav class=" fixed bottom-0 w-full bg-white z-10 shadow-lg h-16 flex items-center sm:h-20 md:absolute md:bg-transparent
-                                                                                                md:h-auto md:bottom-auto md:top-0 md:right-0 md:text-black md:mt-4 md:shadow-none text-left flex-row-reverse md:rtl:pl-4
-                                                                                                md:w-1/2 ">
+                                                                                                            md:h-auto md:bottom-auto md:top-0 md:right-0 md:text-black md:mt-4 md:shadow-none text-left flex-row-reverse md:rtl:pl-4
+                                                                                                            md:w-1/2 ">
   <div class="w-full grid grid-cols-4 justify-items-stretch md:flex md:flex-row md:w-auto">
     <a href="/en#start" class="flex flex-col items-center justify-center md:py-1.5 md:mr-4 md:underline" title="Start Bible in One Year Today">
       {% svgSprite name="bioy-filled", class="fill-current h-6 w-6 mb-1 sm:h-8 sm:w-8 md:hidden" %}
       Start
     </a>
     <a href="/en/about" class="flex flex-col items-center justify-center {{ 'text-red' if activePage == 'about' }} md:py-1.5 md:mr-4
-                                                                                                                                                                                                md:underline">
+                                                                                                                                                                                                                        md:underline">
       {% svgSprite name="about", class="fill-current h-6 w-6 mb-1 sm:h-8 sm:w-8 md:hidden" %}
       About
     </a>
@@ -78,12 +78,12 @@
       FAQs
     </a>
     <a href="/en/donate" class="flex flex-col items-center justify-center {{ 'text-red' if activePage == 'donate' }} md:py-1.5 md:mr-4
-                                                                                                                                                                                                md:underline">
+                                                                                                                                                                                                                        md:underline">
       {% svgSprite name="donate", class="fill-current h-6 w-6 mb-1 sm:h-8 sm:w-8 md:hidden" %}
       Donate
     </a>
     <a class="hidden bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors
-                                                                                                                                                  no-underline mr-4 md:flex" href="/{{ locale }}/#start" :href="deviceUrl('{{ locale }}', '{{ globals.stores.android }}', '{{ globals.stores.ios }}')">
+                                                                                                                                                                    no-underline mr-4 md:flex" href="/{{ locale }}/#start" :href="deviceUrl('{{ locale }}', '{{ globals.stores.android }}', '{{ globals.stores.ios }}')">
       Download
     </a>
   </div>
