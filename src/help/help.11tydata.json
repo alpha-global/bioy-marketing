@@ -69,8 +69,8 @@
       {
         "title": "I’m not able to play the audio, what should I do?",
         "category": "Audio",
-        "shortAnswer": "Ensure you are using the latest version of the app, then try switching editions and then return again to your preferred edition.",
-        "detailedAnswer": "**Please update your app to the latest version of Bible in One Year. If you have done so and are still unable to play today’s audio, please try switching editions and then return again to your preferred edition.**\n\nClick on Settings and then Edition and select a different edition.\n\nFor example: Classic > Youth > Classic, or Express > Classic > Express.\n\nIf this also fails, please email us at [bioy@alpha.org](mailto:bioy@alpha.org \"mailto\\:bioy@alpha.org\")."
+        "shortAnswer": "Check if you have connectivity, or if the devotion is downloaded.\nPull down on the ListView to refresh the app.\nTry to play the audio again.\n\nPlease refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to download audio.",
+        "detailedAnswer": "Check if you have connectivity, or if the devotion is downloaded.\nPull down on the ListView to refresh the app.\nTry to play the audio again.\n\nPlease refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to download audio."
       },
       {
         "title": "What additional functionality can I expect over the coming weeks?",
