@@ -69,8 +69,8 @@
       {
         "title": "I’m not able to play the audio, what should I do?",
         "category": "Audio",
-        "shortAnswer": "Ensure you are using the latest version of the app, then try switching editions and then return again to your preferred edition.",
-        "detailedAnswer": "**Please update your app to the latest version of Bible in One Year. If you have done so and are still unable to play today’s audio, please try switching editions and then return again to your preferred edition.**\n\nClick on Settings and then Edition and select a different edition.\n\nFor example: Classic > Youth > Classic, or Express > Classic > Express.\n\nIf this also fails, please email us at [bioy@alpha.org](mailto:bioy@alpha.org \"mailto\\:bioy@alpha.org\")."
+        "shortAnswer": "Check if you have connectivity, or if the devotion is downloaded.\nPull down on the ListView to refresh the app.\nTry to play the audio again.\n\nPlease refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to download audio.",
+        "detailedAnswer": "Check if you have connectivity, or if the devotion is downloaded.\nPull down on the ListView to refresh the app.\nTry to play the audio again.\n\nPlease refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to download audio."
       },
       {
         "title": "What additional functionality can I expect over the coming weeks?",
@@ -159,8 +159,8 @@
       {
         "title": "Does this really contain the whole bible?",
         "category": "Content",
-        "shortAnswer": "Yes, the entire bible is covered in the BiOY, each day a you'll read part of the Old Testmant, a Psalm or Proverb, and part of the New Testament.",
-        "detailedAnswer": "Yes, the entire bible is covered in the BiOY, each day a you'll read part of the Old Testmant, a Psalm or Proverb, and part of the New Testament."
+        "shortAnswer": "Yes, the entire bible is covered in the BiOY, each day a you'll read part of the Old Testament, a Psalm or Proverb, and part of the New Testament.",
+        "detailedAnswer": "Yes, the entire bible is covered in the BiOY, each day a you'll read part of the Old Testament, a Psalm or Proverb, and part of the New Testament."
       },
       {
         "title": "I missed a day, can I change the day I am on?",
@@ -227,6 +227,12 @@
         "category": "App",
         "shortAnswer": "The latest version of the app has improvements to help users distinguish between sections and reflect on what they have been reading. To continue reading, swipe up to read the next section.",
         "detailedAnswer": "The latest version of the app has improvements to help users distinguish between sections and reflect on what they have been reading. To continue reading, swipe up to read the next section."
+      },
+      {
+        "title": "How can I manage audio?",
+        "category": "Audio",
+        "shortAnswer": "The app allows users to download audio in two different ways, manual and automatic.\n\nManual - audio can be downloaded by swiping left on a day and tapping the download icon. This provides a high level of control as to what is on your device at any time and it is recommended that you manually delete the audio from your device once you have finished listening to it.\n\nAutomatic - controlled by a section within Settings, the app is able to automatically download a number of audio days for you, up to a limit that you set. It will delete the audio from your device if you listen to it all the way through. The app will stop automatically downloading new audio when it reaches the limit. This happens when you have lots of automatically downloaded audio that you have only partially listened to. To resolve this, clear out your audio downloads: navigate to Menu > Settings > Manage Audio and select the audio you wish to delete.\n\n\n\n",
+        "detailedAnswer": "The app allows users to download audio in two different ways, manual and automatic.\n\nManual - audio can be downloaded by swiping left on a day and tapping the download icon. This provides a high level of control as to what is on your device at any time and it is recommended that you manually delete the audio from your device once you have finished listening to it.\n\nAutomatic - controlled by a section within Settings, the app is able to automatically download a number of audio days for you, up to a limit that you set. It will delete the audio from your device if you listen to it all the way through. The app will stop automatically downloading new audio when it reaches the limit. This happens when you have lots of automatically downloaded audio that you have only partially listened to. To resolve this, clear out your audio downloads: navigate to Menu > Settings > Manage Audio and select the audio you wish to delete. \n\nYou can adjust the automatic audio download limit by navigating to: Menu > Settings > Audio Downloads and then use the slider to set the number of audio days (between 1 and 14) you wish to store on your device."
       }
     ],
     "filterHint": "What are you looking for?"
