@@ -15,7 +15,7 @@
       {
         "title": "Can I speed up/slow down the speed of the audio devotion?",
         "category": "Audio",
-        "shortAnswer": "Yes!  After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds: 1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc\n",
+        "shortAnswer": "Yes! After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds: 1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc\n",
         "detailedAnswer": "Yes! Please ensure you have updated to the latest version of the app from the iOS App Store or Google Play on Android. After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds:\n\n1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc"
       },
       {
@@ -37,7 +37,7 @@
         "detailedAnswer": "There are up to four symbols you might see on the list view that help you understand your progress through the Bible in One Year plan and what your device is doing.\n\nA red ‘tick’ within a circle: The devotion has been marked as completed. This tick appears when you have scrolled through all the text or listened to the entire audio recording.\n\nBook icon: This is accompanied by grey bars that will turn red as you read the text which will give you an indication of your reading progress through the devotion.\n\nSpeaker icon: The day’s audio has been downloaded. This is often accompanied by how many minutes of audio you have remaining to listen to on that day, or the red completion ‘tick’.\n\nBroadcast icon: The day’s audio will be streamed live using your Wi-Fi or cellular data. If you are likely to want to continue listening in areas of low signal or no internet, please consider using the automatic download settings in the Settings menu, or download the single day’s audio by swiping right on the list view. \n\nIf you have swiped right you will also be able to use the download/bin icons and the rewind/tick icons."
       },
       {
-        "title": "How long are audio files stored on my phone?",
+        "title": "Can I adjust the number of days of audio stored on my device?",
         "category": "App",
         "shortAnswer": "You can adjust how many days of audio are stored on your device. Tap on Menu > Settings > Audio Downloads. Move the red circle along the line to adjust the number of days of audio that remain saved on your device. ",
         "detailedAnswer": "You can adjust how many days of audio are stored on your device. Tap on Menu > Settings > Audio Downloads. Move the red circle along the line to adjust the number of days of audio that remain saved on your device. You can also select what options best suit you regarding mobile data and auto download."
@@ -45,14 +45,14 @@
       {
         "title": "How do I manually delete audio files that are saved to my device?",
         "category": "App",
-        "shortAnswer": "Swipe right on the relevant day from the list view and tap the bin icon.",
-        "detailedAnswer": "Swipe right on the relevant day from the list view and tap the bin icon. To see a list of all your downloaded audio, go to Settings by clicking the cog in the bottom left corner. Select Manage Audio, and tick which days you would like to delete or select all. Click the button at the bottom of your screen to delete the selected days' audios."
+        "shortAnswer": "Swipe right on the relevant day from the list view and tap the bin icon.\n\nTo delete more than one day of audio at once and view a list of all your downloaded audio, tap on Menu > Settings > Manage Audio. Tick the box to select which days you would like to delete or select all. Then tap on Delete Selected Audio.",
+        "detailedAnswer": "Swipe right on the relevant day from the list view and tap the bin icon. \n\nTo delete more than one day of audio at once and view a list of all your downloaded audio, tap on Menu > Settings > Manage Audio. Tick the box to select which days you would like to delete or select all. Then tap on Delete Selected Audio."
       },
       {
         "title": "What is the structure of a day’s content?",
         "category": "Content",
-        "shortAnswer": "Each day consists of the theme of the day, a wisdom passage (Psalm or Proverb), passages from the new and the old testament. After each reading Nicky provides a commentary and prayer reflection.",
-        "detailedAnswer": "Each day consists of an Introduction, presenting the theme of the day.  This is followed by a wisdom passage (Psalm or Proverb) and a commentary on that passage by Nicky.  There are the passages and the New and Old Testament each with a commentary.  The day completes with a thought from Pippa.  In the Express these sections are shorter and only reference small passages or verses.  The Express and Youth both contain a verse of the day and thought of the day.  Youth in addition features an Action of the Day."
+        "shortAnswer": "Each day consists of three scriptures from different parts of the Bible and commentary and prayer reflections by Nicky Gumbel. The day starts with an Introduction, presenting the theme of the day. This is followed by a wisdom passage (Psalm or Proverb) and a commentary on that passage, a portion of the New Testament and then commentary on that, and a portion of the Old Testament and commentary on that. The devotion ends with a thought from Pippa Gumbel.",
+        "detailedAnswer": "Each day consists of three scriptures from different parts of the Bible and commentary and prayer reflections by Nicky Gumbel. The day starts with an Introduction, presenting the theme of the day. This is followed by a wisdom passage (Psalm or Proverb) and a commentary on that passage, a portion of the New Testament and then commentary on that, and a portion of the Old Testament and commentary on that. The devotion ends with a thought from Pippa Gumbel.\n\nIn the Express the scriptures are shorter and only reference small passages or a few verses. The Express and Youth edition both contain a verse of the day and thought of the day. The Youth edition also features an Action of the day."
       },
       {
         "title": "What Bible translations are used across BiOY?",
