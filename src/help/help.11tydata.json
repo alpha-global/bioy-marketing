@@ -73,10 +73,10 @@
         "detailedAnswer": "Check if you have connectivity, or if the devotion is downloaded.\nPull down on the ListView to refresh the app.\nTry to play the audio again.\n\nPlease refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to download audio."
       },
       {
-        "title": "What additional functionality can I expect over the coming weeks?",
+        "title": "What additional functionality can I expect over the coming months?",
         "category": "App",
-        "detailedAnswer": "1. ✅  An option to switch to dark mode to preserve energy, or for users who prefer reading screens in dark mode - Now live! - Update your app to use.\n2. ✅  Audio update – including the option to download the audio, adjust the speed of the audio and track your audio process - Now live! - Update your app to use.\n3. ✅ Tracking Progress to see how much reading/ overall readings you have progressed through - Now live! - Update your app to use.\n4. ✅  Ability to share a day’s reading.\n\nThereafter we will be working on several ideas and improvements for the app which you are welcome to feed in to by emailing: [bioy@alpha.org](mailto:bioy@alpha.org)",
-        "shortAnswer": "Dark mode, auto downloads of audio commentary, progress tracking, content sharing."
+        "detailedAnswer": "1. The option to enlarge text size\n2. Translation of the app into Bahasa Indonesia, German, French and Thai\n3. Improvements to the end of year experience\n4. Improved process for donating to BiOY\n\nThereafter we will be working on several ideas and improvements for the app which you are welcome to feed in to by emailing: [bioy@alpha.org](mailto:bioy@alpha.org)",
+        "shortAnswer": "Our team are working on the option to enlarge app text size, improvements to the end of year experience and the process of donating to BiOY. The app will also be translated into four more languages."
       },
       {
         "title": "How do I stop my device auto-downloading audio files?",
@@ -91,10 +91,10 @@
         "shortAnswer": "There are two ways of listening to audio offline."
       },
       {
-        "title": "How can I find out how many days audio are stored on my phone?",
+        "title": "How many days of audio are stored on my device?",
         "category": "Audio",
-        "shortAnswer": "In the settings you can see how many audio files are downloaded under 'manage audio'",
-        "detailedAnswer": "Navigate to ’Settings’ by swiping from left to right and clicking the hamburger (3 lines) icon at the bottom left of your screen. When you have selected ‘Settings’ will see a summary of the number of downloaded audios under ‘Manage Audio’. Tapping that will allow you to delete those you select from your device (but they can be re-downloaded again if you need)."
+        "shortAnswer": "Tap on Menu > Settings > Manage Audio to find out how many days are currently stored on your device.",
+        "detailedAnswer": "Tap on Menu > Settings > Manage Audio to find out how many days are currently stored on your device."
       },
       {
         "title": "What happens to my audio files if I change edition?",
