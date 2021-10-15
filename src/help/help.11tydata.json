@@ -111,38 +111,38 @@
       {
         "title": "Do I have to download an audio file to listen to it?",
         "category": "Audio",
-        "shortAnswer": "No, you can stream the audio over Wi-Fi or using data if you prefer.",
-        "detailedAnswer": "No, you can stream the audio over wifi or using data if you prefer."
+        "shortAnswer": "No, you can stream the audio over Wi-Fi or using mobile data if you prefer.",
+        "detailedAnswer": "No, you can stream the audio over wifi or using mobile data if you prefer."
       },
       {
         "title": "How can I skip through different sections of the audio?",
         "category": "Audio",
         "shortAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio.",
-        "detailedAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio in this order: Intro, Proverbs/Psalm bible, Proverbs/Psalm Commentary, New Testament Bible, New Testament Commentary, Old Testament Bible, Old Testament Commentary, Pippa Adds. Additionally there is an option to skip 15 seconds forward or backwards through the audio. If you have no option to skip 15 seconds, please download the latest version of your app for this feature.\n\nThere is currently no option to skip through sections on the Youth edition."
+        "detailedAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio in this order: \n\nIntro, Proverbs/Psalm bible, Proverbs/Psalm Commentary, New Testament Bible, New Testament Commentary, Old Testament Bible, Old Testament Commentary, Pippa Adds. Additionally there is an option to skip 15 seconds forward or backwards through the audio. If you have no option to skip 15 seconds, please download the latest version of your app for this feature.\n\nThere is currently no option to skip through sections on the Youth edition."
       },
       {
         "title": "Can I receive BiOY via email?",
         "category": "Content",
-        "shortAnswer": "Yes! You can sign up to receive the BiOY Classic commentary from the homepage",
+        "shortAnswer": "Yes. You can sign up to receive the BiOY Classic commentary from the BiOY homepage",
         "detailedAnswer": "Yes. If you would like to receive the BiOY Classic commentary by email, or if you have stopped receiving the daily BiOY emails and would like to re-subscribe, you can [sign up or re-subscribe here](https://landing.mailerlite.com/webforms/landing/p5d3p8)."
       },
       {
         "title": "What languages is BiOY available in?",
         "category": "Content",
         "shortAnswer": "Currently, the classic edition of BiOY is available is Arabic, English, Chinese, Hindi and Spanish. Audio is currently only available in English, with Chinese and Hindi to follow.",
-        "detailedAnswer": "Currently, the classic edition of BiOY is available is Arabic, English, Chinese, Hindi and Spanish. Audio is currently only available in English, with Chinese and Hindi to follow.\n\nWe will continue to work with other existing translations to make them available through the app – look out for Bahasa Indonesia, Dutch, German, French, Thai and Finnish launching through 2021 and 2022."
+        "detailedAnswer": "Currently, the classic edition of BiOY is available is Arabic, English, Chinese, Hindi and Spanish. Audio is currently only available in English, with Chinese and Hindi to follow.\n\nWe will continue to work with other existing translations to make them available through the app – look out for Bahasa Indonesia, German, French and Thai launching through 2021 and 2022."
       },
       {
         "title": "How do I access the new app Menu?",
         "category": "App",
-        "shortAnswer": "Swipe right from the left of your screen. This gives you access to selecting which day you would like to read or listen to.",
-        "detailedAnswer": "Swipe right from the left of your screen. This gives you access to selecting which day you would like to read or listen to. Clicking the hamburger icon in the bottom left hand corner will bring up settings. Here you can change which edition you are accessing, which language the content is in, and the app language."
+        "shortAnswer": "When opening the app you will see the listview with the dates and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY.",
+        "detailedAnswer": "When opening the app you will see the listview with the dates and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY."
       },
       {
         "title": "Can I change the start date?",
         "category": "App",
-        "shortAnswer": "If you would like to change the date you selected to start the BiOY reading plan you will need to either reset you app data or re-install the app",
-        "detailedAnswer": "If you would like to change the date you selected to start the BiOY reading plan you will need to uninstall the app and install it again from the App Store or Google Play. When you launch the app again for the first time, select the edition you wish to use (Classic, Express, Youth) and it will ask you which day you wish to start from."
+        "shortAnswer": "If you would like to change the date you selected to start the BiOY reading plan you will need to either reset your app data or re-install the app.",
+        "detailedAnswer": "If you would like to change the date you selected to start the BiOY reading plan you will need to uninstall the app and install it again from the App Store or Google Play. When you launch the app again for the first time, select the edition you wish to use (Classic, Express or Youth). Tap on 'pick up part way through' and select the day you wish to start from."
       },
       {
         "title": "Why have you updated the app?",
