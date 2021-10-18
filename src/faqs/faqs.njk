@@ -22,7 +22,7 @@ activePage: faqs
 
 <div
   class="mx-auto py-2 sm:py-4 lg:container"
-  x-data="app.helpViewModel"
+  x-data="app.faqsViewModel"
   x-init="init()"
 >
   <div class="js-filter hidden flex relative mb-4">
@@ -50,13 +50,13 @@ activePage: faqs
 
   <div class="grid gap-4 md:grid-cols-2 mb-4">
     {% for category, faqsItem in collections.faqsItems | groupby('category') %}
-      <div class="border border-grey p-8 space-x-2 space-y-2 js-helpItem">
+      <div class="border border-grey p-8 space-x-2 space-y-2 js-faqsItem">
         <div class="font-bold inline-block text-gray-600 uppercase">
           {{ lang.categories[category] }}
         </div>
         {% for item in faqsItem  %}          
           {% if item.locale == locale %}
-            <details class="my-2 js-helpItem">
+            <details class="my-2 js-faqsItem">
               <summary class="font-bold text-red ">{{item.title}}</summary>
                 <p class="my-1">{{item.shortAnswer}}</p>
                 {% if item.detailedAnswer %}
