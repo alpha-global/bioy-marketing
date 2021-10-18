@@ -11,7 +11,7 @@
       "Content": "Content",
       "App": "App"
     },
-    "faqsItems": [
+    "helpItems": [
       {
         "title": "Can I speed up/slow down the speed of the audio devotion?",
         "category": "Audio",
@@ -21,8 +21,8 @@
       {
         "title": "Can I share a devotion with a friend?",
         "category": "Content",
-        "shortAnswer": "Yes! We would absolutely love you do this and encourage someone who might need to hear from God through the devotions and commentaries. To find the link, tap the ‘book’ icon on the day you wish to share and then the ‘share’ icon in the bottom left hand corner of the popup that appears. You will then be able to select how you wish to share it, whether directly into a text message or email, or by copying the link and pasting it where you wish.",
-        "detailedAnswer": "Yes! We would absolutely love you do this and encourage someone who might need to hear from God through the devotions and commentaries. To find the link, tap the ‘book’ icon on the day you wish to share and then the ‘share’ icon in the bottom left hand corner of the popup that appears. You will then be able to select how you wish to share it, whether directly into a text message or email, or by copying the link and pasting it where you wish."
+        "shortAnswer": "Yes! We would absolutely love you do this and encourage someone who might need to hear from God through the devotions and commentaries. To find the link, tap the ‘book’ icon on the day you wish to share and then the ‘share’ icon in the bottom left-hand corner of the popup that appears. You will then be able to select how you wish to share it, whether directly into a text message or email, or by copying the link and pasting it where you wish.",
+        "detailedAnswer": "Yes! We would absolutely love you do this and encourage someone who might need to hear from God through the devotions and commentaries. To find the link, tap the ‘book’ icon on the day you wish to share and then the ‘share’ icon in the bottom left-hand corner of the popup that appears. You will then be able to select how you wish to share it, whether directly into a text message or email, or by copying the link and pasting it where you wish."
       },
       {
         "title": "Can I change the day I am on?",
@@ -213,14 +213,14 @@
       {
         "title": "Can I track my reading progress per section of the devotion?",
         "category": "App",
-        "shortAnswer": "Your reading progress is automatically tracked as you read through each day’s devotion. You will see a red bar appear (under the devotion title in the list view) for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’Tick’ icon that appears next to the download/bin icon.",
-        "detailedAnswer": "Your reading progress is automatically tracked as you read through each day’s devotion. You will see a red bar appear (under the devotion title in the list view) for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’Tick’ icon that appears next to the download/bin icon."
+        "shortAnswer": "Your reading progress is automatically tracked as you read through each day’s devotion. You will see a red bar appear (under the devotion title in the list view) for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’tick’ icon that appears next to the download/bin icon.",
+        "detailedAnswer": "Your reading progress is automatically tracked as you read through each day’s devotion. You will see a red bar appear (under the devotion title in the list view) for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’tick’ icon that appears next to the download/bin icon."
       },
       {
-        "title": "Can I jump between sections of the devotion without having to scroll?",
+        "title": "Can I jump between sections of the devotion text without having to scroll?",
         "category": "App",
-        "shortAnswer": "With the latest version of the app, you can tap any of the sections presented under ‘Today’s Reading’ to quickly jump to that section. We have also built a navigation menu that sits above the ‘Play’ icon. Tap this ‘book’ icon and then any section you wish to jump to.",
-        "detailedAnswer": "With the latest version of the app, you can tap any of the sections presented under ‘Today’s Reading’ to quickly jump to that section. We have also built a navigation menu that sits above the ‘Play’ icon. Tap this ‘book’ icon and then any section you wish to jump to."
+        "shortAnswer": "Yes. Tap any of the sections presented under ‘Today’s Reading’ at the start of the devotion to quickly jump to that section. We have also built a navigation menu that is located above the play button. Tap on the book icon above the play button to open a pop-up menu with the option to navigate to any section of the devotion.",
+        "detailedAnswer": "Yes. Tap any of the sections presented under ‘Today’s Reading’ at the start of the devotion to quickly jump to that section. We have also built a navigation menu that is located above the play button. Tap on the book icon above the play button to open a pop-up menu with the option to navigate to any section of the devotion."
       },
       {
         "title": "Help, my app is ‘locking’ and ‘bouncing’ in certain screens and pieces of content.",
@@ -238,7 +238,7 @@
     "filterHint": "What are you looking for?"
   },
   "es": {
-    "faqsItems": [
+    "helpItems": [
       {
         "title": "Test",
         "category": "App",
@@ -246,7 +246,7 @@
         "detailedAnswer": "long"
       }
     ],
-    "title": "FAQs",
+    "title": "Help",
     "intro": "**Got a question about Bible in One Year?** A problem with app? Start here…",
     "filter": "Filter",
     "seeMore": "See More",
@@ -255,10 +255,10 @@
     "filterHint": "What are you looking for?"
   },
   "ar": {
-    "faqsItems": []
+    "helpItems": []
   },
   "hi": {
-    "faqsItems": []
+    "helpItems": []
   },
   "zh": {
     "seeMore": "查看更多",
@@ -272,7 +272,7 @@
       "Content": "内容",
       "App": "APP"
     },
-    "faqsItems": [],
+    "helpItems": [],
     "filterHint": "你在寻找什么？"
   }
 }
