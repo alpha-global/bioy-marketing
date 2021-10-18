@@ -1,7 +1,7 @@
 import "alpinejs";
 import Swipe from "swipejs";
 import baseViewModel from "./baseViewModel.js";
-import helpViewModel from "./helpViewModel.js";
+import faqsViewModel from "./faqsViewModel.js";
 import mediumViewModel from "./mediumViewModel.js";
 const { locales } = require("../../_data/globals");
 
@@ -25,7 +25,7 @@ window.app = new (function () {
     },
 
     baseViewModel,
-    helpViewModel,
+    faqsViewModel,
     mediumViewModel,
     helpers,
   };

@@ -207,10 +207,10 @@ collections:
           },
 
           {
-            label: "Help",
-            name: "Help",
-            file: "src/help/help.11tydata.json",
-            slug: "help",
+            label: "FAQs",
+            name: "FAQs",
+            file: "src/faqs/faqs.11tydata.json",
+            slug: "faqs",
             i18n: true,
             fields:
               [
@@ -282,8 +282,8 @@ collections:
                 },
 
                 {
-                  label: "Help Items",
-                  name: "helpItems",
+                  label: "FAQs Items",
+                  name: "faqsItems",
                   widget: "list",
                   required: true,
                   i18n: true,
