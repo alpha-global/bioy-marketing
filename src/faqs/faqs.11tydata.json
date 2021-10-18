@@ -11,11 +11,11 @@
       "Content": "Content",
       "App": "App"
     },
-    "helpItems": [
+    "faqsItem": [
       {
         "title": "Can I speed up/slow down the speed of the audio devotion?",
         "category": "Audio",
-        "shortAnswer": "Yes!  After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds: 1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc\n",
+        "shortAnswer": "Yes! After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds: 1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc\n",
         "detailedAnswer": "Yes! Please ensure you have updated to the latest version of the app from the iOS App Store or Google Play on Android. After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds:\n\n1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc"
       },
       {
@@ -37,7 +37,7 @@
         "detailedAnswer": "There are up to four symbols you might see on the list view that help you understand your progress through the Bible in One Year plan and what your device is doing.\n\nA red ‘tick’ within a circle: The devotion has been marked as completed. This tick appears when you have scrolled through all the text or listened to the entire audio recording.\n\nBook icon: This is accompanied by grey bars that will turn red as you read the text which will give you an indication of your reading progress through the devotion.\n\nSpeaker icon: The day’s audio has been downloaded. This is often accompanied by how many minutes of audio you have remaining to listen to on that day, or the red completion ‘tick’.\n\nBroadcast icon: The day’s audio will be streamed live using your Wi-Fi or cellular data. If you are likely to want to continue listening in areas of low signal or no internet, please consider using the automatic download settings in the Settings menu, or download the single day’s audio by swiping right on the list view. \n\nIf you have swiped right you will also be able to use the download/bin icons and the rewind/tick icons."
       },
       {
-        "title": "How long are audio files stored on my phone?",
+        "title": "Can I adjust the number of days of audio stored on my device?",
         "category": "App",
         "shortAnswer": "You can adjust how many days of audio are stored on your device. Tap on Menu > Settings > Audio Downloads. Move the red circle along the line to adjust the number of days of audio that remain saved on your device. ",
         "detailedAnswer": "You can adjust how many days of audio are stored on your device. Tap on Menu > Settings > Audio Downloads. Move the red circle along the line to adjust the number of days of audio that remain saved on your device. You can also select what options best suit you regarding mobile data and auto download."
@@ -45,14 +45,14 @@
       {
         "title": "How do I manually delete audio files that are saved to my device?",
         "category": "App",
-        "shortAnswer": "Swipe right on the relevant day from the list view and tap the bin icon.",
-        "detailedAnswer": "Swipe right on the relevant day from the list view and tap the bin icon. To see a list of all your downloaded audio, go to Settings by clicking the cog in the bottom left corner. Select Manage Audio, and tick which days you would like to delete or select all. Click the button at the bottom of your screen to delete the selected days' audios."
+        "shortAnswer": "Swipe right on the relevant day from the list view and tap the bin icon.\n\nTo delete more than one day of audio at once and view a list of all your downloaded audio, tap on Menu > Settings > Manage Audio. Tick the box to select which days you would like to delete or select all. Then tap on Delete Selected Audio.",
+        "detailedAnswer": "Swipe right on the relevant day from the list view and tap the bin icon. \n\nTo delete more than one day of audio at once and view a list of all your downloaded audio, tap on Menu > Settings > Manage Audio. Tick the box to select which days you would like to delete or select all. Then tap on Delete Selected Audio."
       },
       {
         "title": "What is the structure of a day’s content?",
         "category": "Content",
-        "shortAnswer": "Each day consists of the theme of the day, a wisdom passage (Psalm or Proverb), passages from the new and the old testament. After each reading Nicky provides a commentary and prayer reflection.",
-        "detailedAnswer": "Each day consists of an Introduction, presenting the theme of the day.  This is followed by a wisdom passage (Psalm or Proverb) and a commentary on that passage by Nicky.  There are the passages and the New and Old Testament each with a commentary.  The day completes with a thought from Pippa.  In the Express these sections are shorter and only reference small passages or verses.  The Express and Youth both contain a verse of the day and thought of the day.  Youth in addition features an Action of the Day."
+        "shortAnswer": "Each day consists of three scriptures from different parts of the Bible and commentary and prayer reflections by Nicky Gumbel. The day starts with an Introduction, presenting the theme of the day. This is followed by a wisdom passage (Psalm or Proverb) and a commentary on that passage, a portion of the New Testament and then commentary on that, and a portion of the Old Testament and commentary on that. The devotion ends with a thought from Pippa Gumbel.",
+        "detailedAnswer": "Each day consists of three scriptures from different parts of the Bible and commentary and prayer reflections by Nicky Gumbel. The day starts with an Introduction, presenting the theme of the day. This is followed by a wisdom passage (Psalm or Proverb) and a commentary on that passage, a portion of the New Testament and then commentary on that, and a portion of the Old Testament and commentary on that. The devotion ends with a thought from Pippa Gumbel.\n\nIn the Express the scriptures are shorter and only reference small passages or a few verses. The Express and Youth edition both contain a verse of the day and thought of the day. The Youth edition also features an Action of the day."
       },
       {
         "title": "What Bible translations are used across BiOY?",
@@ -69,14 +69,14 @@
       {
         "title": "I’m not able to play the audio, what should I do?",
         "category": "Audio",
-        "shortAnswer": "Ensure you are using the latest version of the app, then try switching editions and then return again to your preferred edition.",
-        "detailedAnswer": "**Please update your app to the latest version of Bible in One Year. If you have done so and are still unable to play today’s audio, please try switching editions and then return again to your preferred edition.**\n\nClick on Settings and then Edition and select a different edition.\n\nFor example: Classic > Youth > Classic, or Express > Classic > Express.\n\nIf this also fails, please email us at [bioy@alpha.org](mailto:bioy@alpha.org \"mailto\\:bioy@alpha.org\")."
+        "shortAnswer": "Check if you have connectivity, or if the devotion is downloaded.\nPull down on the ListView to refresh the app.\nTry to play the audio again.\n\nPlease refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to download audio.",
+        "detailedAnswer": "Check if you have connectivity, or if the devotion is downloaded.\nPull down on the ListView to refresh the app.\nTry to play the audio again.\n\nPlease refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to download audio."
       },
       {
-        "title": "What additional functionality can I expect over the coming weeks?",
+        "title": "What additional functionality can I expect over the coming months?",
         "category": "App",
-        "detailedAnswer": "1. ✅  An option to switch to dark mode to preserve energy, or for users who prefer reading screens in dark mode - Now live! - Update your app to use.\n2. ✅  Audio update – including the option to download the audio, adjust the speed of the audio and track your audio process - Now live! - Update your app to use.\n3. ✅ Tracking Progress to see how much reading/ overall readings you have progressed through - Now live! - Update your app to use.\n4. ✅  Ability to share a day’s reading.\n\nThereafter we will be working on several ideas and improvements for the app which you are welcome to feed in to by emailing: [bioy@alpha.org](mailto:bioy@alpha.org)",
-        "shortAnswer": "Dark mode, auto downloads of audio commentary, progress tracking, content sharing."
+        "detailedAnswer": "1. The option to enlarge text size\n2. Translation of the app into Bahasa Indonesia, German, French and Thai\n3. Improvements to the end of year experience\n4. Improved process for donating to BiOY\n\nThereafter we will be working on several ideas and improvements for the app which you are welcome to feed in to by emailing: [bioy@alpha.org](mailto:bioy@alpha.org)",
+        "shortAnswer": "Our team are working on the option to enlarge app text size, improvements to the end of year experience and the process of donating to BiOY. The app will also be translated into four more languages."
       },
       {
         "title": "How do I stop my device auto-downloading audio files?",
@@ -91,10 +91,10 @@
         "shortAnswer": "There are two ways of listening to audio offline."
       },
       {
-        "title": "How can I find out how many days audio are stored on my phone?",
+        "title": "How many days of audio are stored on my device?",
         "category": "Audio",
-        "shortAnswer": "In the settings you can see how many audio files are downloaded under 'manage audio'",
-        "detailedAnswer": "Navigate to ’Settings’ by swiping from left to right and clicking the hamburger (3 lines) icon at the bottom left of your screen. When you have selected ‘Settings’ will see a summary of the number of downloaded audios under ‘Manage Audio’. Tapping that will allow you to delete those you select from your device (but they can be re-downloaded again if you need)."
+        "shortAnswer": "Tap on Menu > Settings > Manage Audio to find out how many days are currently stored on your device.",
+        "detailedAnswer": "Tap on Menu > Settings > Manage Audio to find out how many days are currently stored on your device."
       },
       {
         "title": "What happens to my audio files if I change edition?",
@@ -111,38 +111,38 @@
       {
         "title": "Do I have to download an audio file to listen to it?",
         "category": "Audio",
-        "shortAnswer": "No, you can stream the audio over Wi-Fi or using data if you prefer.",
-        "detailedAnswer": "No, you can stream the audio over wifi or using data if you prefer."
+        "shortAnswer": "No, you can stream the audio over Wi-Fi or using mobile data if you prefer.",
+        "detailedAnswer": "No, you can stream the audio over wifi or using mobile data if you prefer."
       },
       {
         "title": "How can I skip through different sections of the audio?",
         "category": "Audio",
         "shortAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio.",
-        "detailedAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio in this order: Intro, Proverbs/Psalm bible, Proverbs/Psalm Commentary, New Testament Bible, New Testament Commentary, Old Testament Bible, Old Testament Commentary, Pippa Adds. Additionally there is an option to skip 15 seconds forward or backwards through the audio. If you have no option to skip 15 seconds, please download the latest version of your app for this feature.\n\nThere is currently no option to skip through sections on the Youth edition."
+        "detailedAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio in this order: \n\nIntro, Proverbs/Psalm bible, Proverbs/Psalm Commentary, New Testament Bible, New Testament Commentary, Old Testament Bible, Old Testament Commentary, Pippa Adds. Additionally there is an option to skip 15 seconds forward or backwards through the audio. If you have no option to skip 15 seconds, please download the latest version of your app for this feature.\n\nThere is currently no option to skip through sections on the Youth edition."
       },
       {
         "title": "Can I receive BiOY via email?",
         "category": "Content",
-        "shortAnswer": "Yes! You can sign up to receive the BiOY Classic commentary from the homepage",
+        "shortAnswer": "Yes. You can sign up to receive the BiOY Classic commentary from the BiOY homepage",
         "detailedAnswer": "Yes. If you would like to receive the BiOY Classic commentary by email, or if you have stopped receiving the daily BiOY emails and would like to re-subscribe, you can [sign up or re-subscribe here](https://landing.mailerlite.com/webforms/landing/p5d3p8)."
       },
       {
         "title": "What languages is BiOY available in?",
         "category": "Content",
         "shortAnswer": "Currently, the classic edition of BiOY is available is Arabic, English, Chinese, Hindi and Spanish. Audio is currently only available in English, with Chinese and Hindi to follow.",
-        "detailedAnswer": "Currently, the classic edition of BiOY is available is Arabic, English, Chinese, Hindi and Spanish. Audio is currently only available in English, with Chinese and Hindi to follow.\n\nWe will continue to work with other existing translations to make them available through the app – look out for Bahasa Indonesia, Dutch, German, French, Thai and Finnish launching through 2021 and 2022."
+        "detailedAnswer": "Currently, the classic edition of BiOY is available is Arabic, English, Chinese, Hindi and Spanish. Audio is currently only available in English, with Chinese and Hindi to follow.\n\nWe will continue to work with other existing translations to make them available through the app – look out for Bahasa Indonesia, German, French and Thai launching through 2021 and 2022."
       },
       {
         "title": "How do I access the new app Menu?",
         "category": "App",
-        "shortAnswer": "Swipe right from the left of your screen. This gives you access to selecting which day you would like to read or listen to.",
-        "detailedAnswer": "Swipe right from the left of your screen. This gives you access to selecting which day you would like to read or listen to. Clicking the hamburger icon in the bottom left hand corner will bring up settings. Here you can change which edition you are accessing, which language the content is in, and the app language."
+        "shortAnswer": "When opening the app you will see the listview with the dates and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY.",
+        "detailedAnswer": "When opening the app you will see the listview with the dates and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY."
       },
       {
         "title": "Can I change the start date?",
         "category": "App",
-        "shortAnswer": "If you would like to change the date you selected to start the BiOY reading plan you will need to either reset you app data or re-install the app",
-        "detailedAnswer": "If you would like to change the date you selected to start the BiOY reading plan you will need to uninstall the app and install it again from the App Store or Google Play. When you launch the app again for the first time, select the edition you wish to use (Classic, Express, Youth) and it will ask you which day you wish to start from."
+        "shortAnswer": "If you would like to change the date you selected to start the BiOY reading plan you will need to either reset your app data or re-install the app.",
+        "detailedAnswer": "If you would like to change the date you selected to start the BiOY reading plan you will need to uninstall the app and install it again from the App Store or Google Play. When you launch the app again for the first time, select the edition you wish to use (Classic, Express or Youth). Tap on 'pick up part way through' and select the day you wish to start from."
       },
       {
         "title": "Why have you updated the app?",
@@ -159,8 +159,8 @@
       {
         "title": "Does this really contain the whole bible?",
         "category": "Content",
-        "shortAnswer": "Yes, the entire bible is covered in the BiOY, each day a you'll read part of the Old Testmant, a Psalm or Proverb, and part of the New Testament.",
-        "detailedAnswer": "Yes, the entire bible is covered in the BiOY, each day a you'll read part of the Old Testmant, a Psalm or Proverb, and part of the New Testament."
+        "shortAnswer": "The entire bible is covered in the Classic edition of BiOY. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.",
+        "detailedAnswer": "The entire bible is covered in the Classic edition of BiOY. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.\n\nThe Youth and Express editions provide an abridged version of the Classic BiOY with selected scriptures from the book of Psalms or Proverbs, the New Testament and Old Testament. Not every verse in the bible is covered in these editions, however they do give a full experience of the bible."
       },
       {
         "title": "I missed a day, can I change the day I am on?",
@@ -177,14 +177,14 @@
       {
         "title": "What editions are available?",
         "category": "Content",
-        "shortAnswer": "In addition to the BiOY Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 10-12 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team).",
-        "detailedAnswer": "In addition to the BiOY Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 10-12 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team)."
+        "shortAnswer": "In addition to the BiOY Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 11 - 13 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team and takes 12 - 14 minutes).",
+        "detailedAnswer": "In addition to the BiOY Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 11 - 13 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team and takes 12 - 14 minutes)."
       },
       {
         "title": "Whose voices am I hearing in the audio tracks?",
         "category": "Audio",
-        "shortAnswer": "Bible readings have been provided by David Suchet. Other voices that you might hear include Nicky and Pippa Gumbel and Toby Stokes, a part of the Youth Alpha team.",
-        "detailedAnswer": "Bible readings have been provided by David Suchet. Other voices that you might hear include Nicky and Pippa Gumbel and Toby Stokes, a part of the Youth Alpha team."
+        "shortAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team.",
+        "detailedAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team."
       },
       {
         "title": "Can I synchronise the BiOY app between my phone and tablet?",
@@ -207,14 +207,14 @@
       {
         "title": "How can I mark a devotion as unread/read?",
         "category": "App",
-        "shortAnswer": "Included in v.8.3.3 is the ability to mark a devotion day as unread/read. To mark as unread, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon. To mark as read, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon.",
-        "detailedAnswer": "Included in v.8.3.3 is the ability to mark a devotion day as unread/read. To mark as unread, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon. To mark as read, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon."
+        "shortAnswer": "To mark as unread, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon. To mark as read, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon.",
+        "detailedAnswer": "To mark as unread, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon. To mark as read, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon."
       },
       {
         "title": "Can I track my reading progress per section of the devotion?",
         "category": "App",
-        "shortAnswer": "With the latest version of the app, your reading progress is automatically tracked as your read through each day’s devotion. You will see a red bar appear on the day list view under the title of the day for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’Tick’ icon that appears next to the download/bin icon.",
-        "detailedAnswer": "With the latest version of the app, your reading progress is automatically tracked as your read through each day’s devotion. You will see a red bar appear on the day list view under the title of the day for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’Tick’ icon that appears next to the download/bin icon."
+        "shortAnswer": "Your reading progress is automatically tracked as you read through each day’s devotion. You will see a red bar appear (under the devotion title in the list view) for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’Tick’ icon that appears next to the download/bin icon.",
+        "detailedAnswer": "Your reading progress is automatically tracked as you read through each day’s devotion. You will see a red bar appear (under the devotion title in the list view) for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’Tick’ icon that appears next to the download/bin icon."
       },
       {
         "title": "Can I jump between sections of the devotion without having to scroll?",
@@ -227,12 +227,18 @@
         "category": "App",
         "shortAnswer": "The latest version of the app has improvements to help users distinguish between sections and reflect on what they have been reading. To continue reading, swipe up to read the next section.",
         "detailedAnswer": "The latest version of the app has improvements to help users distinguish between sections and reflect on what they have been reading. To continue reading, swipe up to read the next section."
+      },
+      {
+        "title": "How can I manage audio?",
+        "category": "Audio",
+        "shortAnswer": "The app allows users to download audio in two different ways, manual and automatic.\n\nManual - audio can be downloaded by swiping left on a day and tapping the download icon. This provides a high level of control as to what is on your device at any time and it is recommended that you manually delete the audio from your device once you have finished listening to it.\n\nAutomatic - controlled by a section within Settings, the app is able to automatically download a number of audio days for you, up to a limit that you set. It will delete the audio from your device if you listen to it all the way through. The app will stop automatically downloading new audio when it reaches the limit. This happens when you have lots of automatically downloaded audio that you have only partially listened to. To resolve this, clear out your audio downloads: navigate to Menu > Settings > Manage Audio and select the audio you wish to delete.\n\n\n\n",
+        "detailedAnswer": "The app allows users to download audio in two different ways, manual and automatic.\n\nManual - audio can be downloaded by swiping left on a day and tapping the download icon. This provides a high level of control as to what is on your device at any time and it is recommended that you manually delete the audio from your device once you have finished listening to it.\n\nAutomatic - controlled by a section within Settings, the app is able to automatically download a number of audio days for you, up to a limit that you set. It will delete the audio from your device if you listen to it all the way through. The app will stop automatically downloading new audio when it reaches the limit. This happens when you have lots of automatically downloaded audio that you have only partially listened to. To resolve this, clear out your audio downloads: navigate to Menu > Settings > Manage Audio and select the audio you wish to delete. \n\nYou can adjust the automatic audio download limit by navigating to: Menu > Settings > Audio Downloads and then use the slider to set the number of audio days (between 1 and 14) you wish to store on your device."
       }
     ],
     "filterHint": "What are you looking for?"
   },
   "es": {
-    "helpItems": [
+    "faqsItem": [
       {
         "title": "Test",
         "category": "App",
@@ -249,10 +255,10 @@
     "filterHint": "What are you looking for?"
   },
   "ar": {
-    "helpItems": []
+    "faqsItem": []
   },
   "hi": {
-    "helpItems": []
+    "faqsItem": []
   },
   "zh": {
     "seeMore": "查看更多",
@@ -266,7 +272,7 @@
       "Content": "内容",
       "App": "APP"
     },
-    "helpItems": [],
+    "faqsItem": [],
     "filterHint": "你在寻找什么？"
   }
 }
