@@ -11,7 +11,7 @@
       "Content": "Content",
       "App": "App"
     },
-    "helpItems": [
+    "faqsItems": [
       {
         "title": "Can I speed up/slow down the speed of the audio devotion?",
         "category": "Audio",
@@ -238,7 +238,7 @@
     "filterHint": "What are you looking for?"
   },
   "es": {
-    "helpItems": [
+    "faqsItems": [
       {
         "title": "Test",
         "category": "App",
@@ -255,10 +255,10 @@
     "filterHint": "What are you looking for?"
   },
   "ar": {
-    "helpItems": []
+    "faqsItems": []
   },
   "hi": {
-    "helpItems": []
+    "faqsItems": []
   },
   "zh": {
     "seeMore": "查看更多",
@@ -272,7 +272,7 @@
       "Content": "内容",
       "App": "APP"
     },
-    "helpItems": [],
+    "faqsItems": [],
     "filterHint": "你在寻找什么？"
   }
 }
