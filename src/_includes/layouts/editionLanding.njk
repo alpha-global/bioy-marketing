@@ -4,12 +4,6 @@ layout: layouts/landing.njk
 
 {% include '../../_blocks/cta.njk' %}
 <!-- --------- -->
-{% if lang.body %}
-<div class="mx-auto container prose lg:prose-xl mb-4 md:mb-8">
-  {{ lang.body|markdown|safe }}
-</div>
-{% endif %}
-<!-- --------- -->
 {% include '../../_blocks/today.njk' %}
 <!-- --------- -->
 {% include '../../_blocks/channels.njk' %}
