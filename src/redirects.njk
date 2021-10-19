@@ -2,8 +2,10 @@
 permalink: /_redirects
 eleventyExcludeFromCollections: true
 ---
-{%- for page in collections.all -%}
+{%- for page in collections.all %}
   {%- if page.url and page.data.redirectFrom %}
-{{ page.data.redirectFrom }}  {{ page.url }}
+    {%- for lang in globals.languages  %}
+/{{ lang.locale }}/{{ page.data.redirectFrom }}/ /{{ lang.locale }}/{{ page.data.redirectTo }}/
+    {%- endfor -%}
   {%- endif -%}
 {%- endfor -%}
