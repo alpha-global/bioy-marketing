@@ -1,0 +1,11 @@
+---
+permalink: /_redirects
+eleventyExcludeFromCollections: true
+---
+{%- for page in collections.all %}
+  {%- if page.url and page.data.redirectFrom %}
+    {%- for lang in globals.languages  %}
+/{{ lang.locale }}/{{ page.data.redirectFrom }}/    /{{ lang.locale }}/{{ page.data.redirectTo }}/
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}

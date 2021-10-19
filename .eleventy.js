@@ -26,7 +26,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/assets/img');
   eleventyConfig.addPassthroughCopy('src/assets/fonts');
   eleventyConfig.addPassthroughCopy('src/admin/config.yml');
-  eleventyConfig.addPassthroughCopy('src/_redirects');
 
   eleventyConfig.addWatchTarget('./src/admin/config.yml');
   eleventyConfig.addWatchTarget('./src/assets/img');
