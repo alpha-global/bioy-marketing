@@ -2,7 +2,7 @@
   "en": {
     "seeMore": "See More",
     "submitButton": "Submit a support request",
-    "intro": "**Got a question about Bible in One Year?**\n\nA problem with app? Start here…",
+    "intro": "**Got a question about Bible in One Year?**\n\nA problem with app? Start typing your question here…",
     "notFoundMessage": "Sorry, we don’t have any results for",
     "title": "FAQs",
     "filter": "Filter",
@@ -11,7 +11,7 @@
       "Content": "Content",
       "App": "App"
     },
-    "faqsItems": [
+    "helpItems": [
       {
         "title": "Can I speed up/slow down the speed of the audio devotion?",
         "category": "Audio",
@@ -238,7 +238,7 @@
     "filterHint": "What are you looking for?"
   },
   "es": {
-    "faqsItems": [
+    "helpItems": [
       {
         "title": "Test",
         "category": "App",
@@ -255,10 +255,10 @@
     "filterHint": "What are you looking for?"
   },
   "ar": {
-    "faqsItems": []
+    "helpItems": []
   },
   "hi": {
-    "faqsItems": []
+    "helpItems": []
   },
   "zh": {
     "seeMore": "查看更多",
@@ -272,7 +272,7 @@
       "Content": "内容",
       "App": "APP"
     },
-    "faqsItems": [],
+    "helpItems": [],
     "filterHint": "你在寻找什么？"
   }
 }
