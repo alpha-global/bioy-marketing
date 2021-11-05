@@ -48,6 +48,23 @@
             {% if medium.cta %}
             {{ medium.cta.code | safe }}
             {% endif %}
+
+            <div class="mt-4">
+              <div id="podcast" class="relative overflow-hidden invisible flex flex-col">
+              <div class="relative overflow-hidden flex items-center">
+                <div class="relative float-left w-full overflow-hidden">
+                  <button class="podcast-link text-white hover:text-red flex"><a>{% svgSprite name="spotify-podcasts", class="h-8 w-8" %}</a><span>Spotify</span></button>
+                </div>              
+                <div class="relative float-left w-full overflow-hidden">
+                  <button class="podcast-link text-white hover:text-red flex"><a>{% svgSprite name="spotify-podcasts", class="h-8 w-8" %}</a><span>Apple</span></button>
+                </div>              
+                <div class="relative float-left w-full overflow-hidden">
+                  <button class="podcast-link text-white hover:text-red flex"><a>{% svgSprite name="spotify-podcasts", class="h-8 w-8" %}</a><span>Google</span></button>
+                </div>              
+              </div>
+              <div id="podcast-pagination"></div>
+            </div>
+            </div>
           </div>
         </div>
       </div>

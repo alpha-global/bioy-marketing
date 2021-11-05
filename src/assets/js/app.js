@@ -1,5 +1,6 @@
 import "alpinejs";
 import Swipe from "swipejs";
+
 import baseViewModel from "./baseViewModel.js";
 import faqsViewModel from "./faqsViewModel.js";
 import mediumViewModel from "./mediumViewModel.js";
@@ -17,6 +18,16 @@ window.app = new (function () {
         startSlide: 0,
         speed: 500,
         auto: 6000,
+        draggable: false,
+        continuous: true,
+        disableScroll: false,
+        stopPropagation: true,
+      });
+
+      const podcastSwiper = new Swipe(document.getElementById("podcast"), {
+        startSlide: 0,
+        speed: 500,
+        auto: 1000,
         draggable: false,
         continuous: true,
         disableScroll: false,
