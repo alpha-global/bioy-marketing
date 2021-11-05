@@ -1,16 +1,5 @@
 {
   "en": {
-    "seeMore": "See More",
-    "submitButton": "Submit a support request",
-    "intro": "**Got a question about Bible in One Year?**\n\nA problem with app? Start typing your question here…",
-    "notFoundMessage": "Sorry, we don’t have any results for",
-    "title": "FAQs",
-    "filter": "Filter",
-    "categories": {
-      "Audio": "Audio",
-      "Content": "Content",
-      "App": "App"
-    },
     "faqsItems": [
       {
         "title": "Can I speed up/slow down the speed of the audio devotion?",
@@ -33,7 +22,7 @@
       {
         "title": "What do the symbols mean in my list view?",
         "category": "App",
-        "shortAnswer": "There are up to four symbols you might see on the list view.\n\nA red ‘tick’ within a circle: The devotion has been marked as completed. \nBook icon: The grey bars next to it turn red to give you an indication of your reading progress through the devotion.\nSpeaker icon: The day’s audio has been downloaded. \nBroadcast icon: The day’s audio will be streamed live using your Wi-Fi or cellular data.",
+        "shortAnswer": "There are up to four symbols you might see on the list view.\n\nA red ‘tick’ within a circle: The devotion has been marked as completed.  \nBook icon: The grey bars next to it turn red to give you an indication of your reading progress through the devotion.  \nSpeaker icon: The day’s audio has been downloaded.  \nBroadcast icon: The day’s audio will be streamed live using your Wi-Fi or cellular data.",
         "detailedAnswer": "There are up to four symbols you might see on the list view that help you understand your progress through the Bible in One Year plan and what your device is doing.\n\nA red ‘tick’ within a circle: The devotion has been marked as completed. This tick appears when you have scrolled through all the text or listened to the entire audio recording.\n\nBook icon: This is accompanied by grey bars that will turn red as you read the text which will give you an indication of your reading progress through the devotion.\n\nSpeaker icon: The day’s audio has been downloaded. This is often accompanied by how many minutes of audio you have remaining to listen to on that day, or the red completion ‘tick’.\n\nBroadcast icon: The day’s audio will be streamed live using your Wi-Fi or cellular data. If you are likely to want to continue listening in areas of low signal or no internet, please consider using the automatic download settings in the Settings menu, or download the single day’s audio by swiping right on the list view. \n\nIf you have swiped right you will also be able to use the download/bin icons and the rewind/tick icons."
       },
       {
@@ -235,6 +224,17 @@
         "detailedAnswer": "The app allows users to download audio in two different ways, manual and automatic.\n\nManual - audio can be downloaded by swiping left on a day and tapping the download icon. This provides a high level of control as to what is on your device at any time and it is recommended that you manually delete the audio from your device once you have finished listening to it.\n\nAutomatic - controlled by a section within Settings, the app is able to automatically download a number of audio days for you, up to a limit that you set. It will delete the audio from your device if you listen to it all the way through. The app will stop automatically downloading new audio when it reaches the limit. This happens when you have lots of automatically downloaded audio that you have only partially listened to. To resolve this, clear out your audio downloads: navigate to Menu > Settings > Manage Audio and select the audio you wish to delete. \n\nYou can adjust the automatic audio download limit by navigating to: Menu > Settings > Audio Downloads and then use the slider to set the number of audio days (between 1 and 14) you wish to store on your device."
       }
     ],
+    "seeMore": "See More",
+    "submitButton": "Submit a support request",
+    "intro": "**Got a question about Bible in One Year?**\n\nA problem with app? Start typing your question here…",
+    "notFoundMessage": "Sorry, we don’t have any results for",
+    "title": "FAQs",
+    "filter": "Filter",
+    "categories": {
+      "Audio": "Audio",
+      "Content": "Content",
+      "App": "App"
+    },
     "filterHint": "What are you looking for?"
   },
   "es": {
@@ -261,6 +261,7 @@
     "faqsItems": []
   },
   "zh": {
+    "faqsItems": [],
     "seeMore": "查看更多",
     "submitButton": "提交附加证据",
     "intro": "**对《圣经日日行》有疑问吗？**\n\n不知道该如何使用本软件？请点击这里……",
@@ -272,7 +273,6 @@
       "Content": "内容",
       "App": "APP"
     },
-    "faqsItems": [],
     "filterHint": "你在寻找什么？"
   }
 }
