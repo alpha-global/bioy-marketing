@@ -50,6 +50,10 @@
             {% endif %}
 
             <div class="mt-4">
+              <div class="flex">
+                <button class="flex items-center justify-center" id="previous">{% svgSprite name="back", class="h-8 w-8" %}</button>
+                <button class="flex items-center justify-center" id="next">{% svgSprite name="forward", class="h-8 w-8" %}</button>
+              </div>
               <div id="podcast" class="relative overflow-hidden invisible flex flex-col">
               <div class="relative overflow-hidden flex items-center">
                 <div class="relative float-left w-full overflow-hidden">

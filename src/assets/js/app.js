@@ -26,13 +26,20 @@ window.app = new (function () {
 
       const podcastSwiper = new Swipe(document.getElementById("podcast"), {
         startSlide: 0,
-        speed: 500,
-        auto: 1000,
-        draggable: false,
+        auto: 3000,
+        draggable: true,
+        autoRestart: false,
         continuous: true,
-        disableScroll: false,
+        disableScroll: true,
         stopPropagation: true,
+        callback: function (index, element) {},
+        transitionEnd: function (index, element) {},
       });
+
+      const previousPodcast = document.getElementById("previous");
+      const nextPodcast = document.getElementById("next");
+      previousPodcast.onclick = podcastSwiper.prev
+      nextPodcast.onclick = podcastSwiper.next
     },
 
     baseViewModel,
