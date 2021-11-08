@@ -11,17 +11,19 @@
       x-ref="mediaContainer"
     >
       {% for medium in channels[locale].distribution %}
-      <div
+        <div
         class="relative bg-cover bg-center w-full bioy-medium"
         x-show="mediaFocus === {{ loop.index0 }}"
       >
-        {% if medium.image %} {% blockImage medium.image , "reader",
+          {% if medium.image %}
+            {% blockImage medium.image , "reader",
         "(min-width: 1526px) calc(1536px - 2rem), (min-width: 1280px)
         calc(1280px - 2rem), (min-width: 1024px) calc(1024px - 2rem), calc(100vw
         - 2rem)", "object-cover h-full w-full absolute filter saturate-0
-        lg:rounded-lg rtl:transform rtl:-scale-x-1" %} {% endif %}
+        lg:rounded-lg rtl:transform rtl:-scale-x-1" %}
+          {% endif %}
 
-        <div
+          <div
           class="
             flex flex-col
             justify-center
@@ -37,52 +39,102 @@
             lg:rounded-lg
           "
         >
-          <div class="max-w-xs">
-            <h4 class="text-xl font-bold mb-3">
-              {{ medium.channel }}
-            </h4>
-             {% if medium.description %}
+            <div class="max-w-xs">
+              <h4 class="text-xl font-bold mb-3">
+                {{ medium.channel }}
+              </h4>
+              {% if medium.description %}
                 {{ medium.description | markdown | safe }}
               {% endif %}
 
-            {% if medium.cta %}
-            {{ medium.cta.code | safe }}
-            {% endif %}
+              {% if medium.cta %}
+                {{ medium.cta.code | safe }}
+              {% endif %}
 
-            <div class="mt-4">
-              <div id="podcast" class="relative overflow-hidden invisible flex flex-col">
-              <div class="relative overflow-hidden flex items-center">
-                <div class="relative float-left w-full overflow-hidden">                  
-                    <div class="space-y-3 w-max">
-                      <div class="flex items-center justify-between w-full px-1">
-                        <button class="flex items-center justify-center" id="previous">{% svgSprite name="back", class="h-8 w-8" %}</button>
-                        <p>Classic</p>
-                        <button class="flex items-center justify-center" id="next">{% svgSprite name="forward", class="h-8 w-8" %}</button>
+              <div class="mt-4">
+
+                <div id="podcast" class="relative overflow-hidden invisible flex flex-col">
+                  <div class="relative overflow-hidden flex items-center">
+
+                    <div class="relative float-left w-full overflow-hidden">
+                      <div class="space-y-3 w-max">
+                        <div class="flex items-center justify-between w-full px-1">
+                          <button class="flex items-center justify-center" id="previous">{% svgSprite name = "back",
+                            class = "h-8 w-8" %}</button>
+                          <p>Classic</p>
+                          <button class="flex items-center justify-center" id="next">{% svgSprite name = "forward",
+                            class = "h-8 w-8" %}</button>
+                        </div>
+                        <button class="podcast-link">
+                          <a>{% svgSprite name="spotify-podcasts", class="h-8 w-8" %}</a>
+                          <span>Spotify</span></button>
+                        <button class="podcast-link">
+                          <a>{% svgSprite name="apple-podcasts", class="h-8 w-8" %}</a>
+                          <span>Apple Podcasts</span></button>
+                        <button class="podcast-link">
+                          <a>{% svgSprite name="google-podcasts", class="h-8 w-8" %}</a>
+                          <span>Google Podcasts</span></button>
                       </div>
-                      <button class="podcast-link"><a>{% svgSprite name="spotify-podcasts", class="h-8 w-8" %}</a><span>Spotify</span></button>
-                      <button class="podcast-link"><a>{% svgSprite name="apple-podcasts", class="h-8 w-8" %}</a><span>Apple Podcasts</span></button>
-                      <button class="podcast-link"><a>{% svgSprite name="google-podcasts", class="h-8 w-8" %}</a><span>Google Podcasts</span></button>
                     </div>
-                </div>              
-                <div class="relative float-left w-full overflow-hidden space-y-2">
-                  <p>Express</p>
-                  <button class="podcast-link text-white hover:text-red flex"><a>{% svgSprite name="spotify-podcasts", class="h-8 w-8" %}</a><span>Spotify</span></button>
-                  <button class="podcast-link text-white hover:text-red flex"><a>{% svgSprite name="apple-podcasts", class="h-8 w-8" %}</a><span>Apple Podcasts</span></button>
-                  <button class="podcast-link text-white hover:text-red flex"><a>{% svgSprite name="google-podcasts", class="h-8 w-8" %}</a><span>Google Podcasts</span></button>
-                </div>              
-                <div class="relative float-left w-full overflow-hidden space-y-2">
-                  <p>Youth</p>
-                  <button class="podcast-link text-white hover:text-red flex"><a>{% svgSprite name="spotify-podcasts", class="h-8 w-8" %}</a><span>Spotify</span></button>
-                  <button class="podcast-link text-white hover:text-red flex"><a>{% svgSprite name="apple-podcasts", class="h-8 w-8" %}</a><span>Apple Podcasts</span></button>
-                  <button class="podcast-link text-white hover:text-red flex"><a>{% svgSprite name="google-podcasts", class="h-8 w-8" %}</a><span>Google Podcasts</span></button>
-                </div>              
+
+                    <div class="relative float-left w-full overflow-hidden">
+                      <div class="space-y-3 w-max">
+                        <div class="flex items-center justify-between w-full px-1">
+                          <button class="flex items-center justify-center" id="previous">{% svgSprite name = "back",
+                            class = "h-8 w-8" %}</button>
+                          <p>Youth</p>
+                          <button class="flex items-center justify-center" id="next">{% svgSprite name = "forward",
+                            class = "h-8 w-8" %}</button>
+                        </div>
+                        <button class="podcast-link">
+                          <a>{% svgSprite name="spotify-podcasts", class="h-8 w-8" %}</a>
+                          <span>Spotify</span></button>
+                        <button class="podcast-link">
+                          <a>{% svgSprite name="apple-podcasts", class="h-8 w-8" %}</a>
+                          <span>Apple Podcasts</span></button>
+                        <button class="podcast-link">
+                          <a>{% svgSprite name="google-podcasts", class="h-8 w-8" %}</a>
+                          <span>Google Podcasts</span></button>
+                      </div>
+                    </div>
+
+                    <div class="relative float-left w-full overflow-hidden">
+                      <div class="space-y-3 w-max">
+                        <div class="flex items-center justify-between w-full px-1">
+                          <button class="flex items-center justify-center" id="previous">{% svgSprite name = "back",
+                            class = "h-8 w-8" %}</button>
+                          <p>Express</p>
+                          <button class="flex items-center justify-center" id="next">{% svgSprite name = "forward",
+                            class = "h-8 w-8" %}</button>
+                        </div>
+                        <button class="podcast-link">
+                          <a>{% svgSprite name="spotify-podcasts", class="h-8 w-8" %}</a>
+                          <span>Spotify</span></button>
+                        <button class="podcast-link">
+                          <a>{% svgSprite name="apple-podcasts", class="h-8 w-8" %}</a>
+                          <span>Apple Podcasts</span></button>
+                        <button class="podcast-link">
+                          <a>{% svgSprite name="google-podcasts", class="h-8 w-8" %}</a>
+                          <span>Google Podcasts</span></button>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="flex items-center justify-center relative overflow-hidden border bg-white sm:bg-gray-200 md:bg-blue-500 lg:bg-pink-500">
+                  <div class="relative float-left w-full overflow-hidden">
+                    <button class="rounded-full h-4  w-4 flex items-center justify-center bg-white"></button>
+                    <button class="rounded-full h-4  w-4 flex items-center justify-center bg-white"></button>
+                    <button class="rounded-full h-4  w-4 flex items-center justify-center bg-white"></button>
+                  </div>
+                </div>
+
               </div>
-              <div id="podcast-pagination"></div>
-            </div>
+              
             </div>
           </div>
         </div>
-      </div>
       {% endfor %}
     </div>
 

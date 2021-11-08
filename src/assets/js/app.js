@@ -25,21 +25,25 @@ window.app = new (function () {
       });
 
       const podcastSwiper = new Swipe(document.getElementById("podcast"), {
-        startSlide: 0,
-        auto: 3000,
-        draggable: true,
-        autoRestart: false,
-        continuous: true,
-        disableScroll: true,
-        stopPropagation: true,
+        // startSlide: 0,
+        // auto: 3000,
+        // draggable: true,
+        // autoRestart: false,
+        // continuous: true,
+        // disableScroll: true,
+        // stopPropagation: true,
         callback: function (index, element) {},
         transitionEnd: function (index, element) {},
       });
 
       const previousPodcast = document.getElementById("previous");
       const nextPodcast = document.getElementById("next");
-      previousPodcast.onclick = podcastSwiper.prev
-      nextPodcast.onclick = podcastSwiper.next
+
+      previousPodcast.addEventListener('click', () => {
+        console.log('previous')
+      })
+      // previousPodcast.onclick = podcastSwiper.prev;
+      // nextPodcast.onclick = podcastSwiper.next;
     },
 
     baseViewModel,
