@@ -5,7 +5,7 @@
       "img": {
         "src": "/assets/img/classic_lead.jpg",
         "desc": "Man looking down at his phone"
-      },     
+      },
       "title": "The Entire Bible, One Day at a Time. ",
       "strapline": "Simple. Relevant. Lifechanging.  ",
       "cta": "Let's Go"
@@ -13,7 +13,12 @@
     "body": "**Overwhelmed at the thought of reading the Bible? New to the idea? Or looking to get more out of it?**  \n\nSpend time each day hearing from Nicky and Pippa Gumbel as they take you through the whole Bible in 365 days. \n\nEvery day, a different theme is explored through a selection of scriptures taken from the book of Psalms or Proverbs, as well as the New Testament and the Old Testament. Nicky and Pippa provide commentary on these excerpts to provide insight and practical application."
   },
   "es": {
-    "title": "Classic"
+    "title": "经典版",
+    "header": {
+      "title": "将圣经融入生活中",
+      "strapline": "上帝的话。每天都要读",
+      "cta": "今天就开始 "
+    }
   },
   "ar": {
     "title": "Classic",
@@ -29,11 +34,15 @@
   },
   "hi": {},
   "zh": {
-    "title": "经典版",
+    "title": "Classic",
     "header": {
-      "title": "将圣经融入生活中",
-      "strapline": "上帝的话。每天都要读",
-      "cta": "今天就开始 "
+      "img": {
+        "src": "/assets/img/classic_lead.jpg",
+        "desc": "Man looking down at his phone"
+      },
+      "title": "The Entire Bible, One Day at a Time. ",
+      "strapline": "Simple. Relevant. Lifechanging.  ",
+      "cta": "Let's Go"
     }
   }
 }
