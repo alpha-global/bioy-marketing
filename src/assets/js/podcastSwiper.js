@@ -12,10 +12,11 @@ export default {
       transitionEnd: function (index, element) {},
     });
 
-    this.itemPosition = podcastSwiper.getPos();
-
+    
     const previousPodcast = document.getElementById("previous");
     const nextPodcast = document.getElementById("next");
+    
+    const firstPodcastPagination = document.getElementById("firstPodcastPagination")
 
     nextPodcast.addEventListener("click", function () {      
       podcastSwiper.next();
@@ -23,6 +24,17 @@ export default {
 
     previousPodcast.addEventListener("click", function () {    
       podcastSwiper.prev();
+    });
+
+    firstPodcastPagination.addEventListener("click", function () {
+      podcastSwiper.slide(0, 100)
+    })
+
+    firstPodcastPagination.addEventListener("click", function () {
+      podcastSwiper.slide(1, 100);
+    });
+    firstPodcastPagination.addEventListener("click", function () {
+      podcastSwiper.slide(2, 100);
     });
   },
 

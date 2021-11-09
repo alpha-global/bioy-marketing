@@ -52,8 +52,6 @@
               {% endif %}
 
               <div class="mt-4 relative" x-data="app.podcastSwiper" x-init="init()">
-                <p>
-                  <span x-text="itemPosition">sss</span></p>
 
                 <div class="flex items-center justify-between w-full absolute">
                   <button class="flex items-center justify-center z-10" id="previous">{% svgSprite name = "back",
@@ -112,8 +110,8 @@
                   </div>
                 </div>
 
-                <div class="flex items-center justify-center space-x-1">
-                  <button id="firstPodcastPaginnation" class="rounded-full h-4  w-4 flex items-center justify-center border-2 hover:bg-white"></button>
+                <div class="flex items-center justify-center space-x-1 mt-4">
+                  <button id="firstPodcastPagination" class="rounded-full h-4  w-4 flex items-center justify-center border-2 hover:bg-white"></button>
                   <button class="rounded-full h-4  w-4 flex items-center justify-center border-2"></button>
                   <button class="rounded-full h-4  w-4 flex items-center justify-center border-2"></button>
                 </div>
