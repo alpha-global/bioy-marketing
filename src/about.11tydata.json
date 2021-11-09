@@ -33,12 +33,18 @@
   },
   "ar": {
     "header": {
-      "strapline": "Join the 3 million people who start their day in the Bible",
-      "title": "365 Days in the Bible"
+      "strapline": "سوف تقضي 365 يوم بصورة ممتعة!",
+      "title": "اقرأ الكتاب المقدس في 365 يوم ",
+      "cta": "قم بتنزيل التطبيق. الآن.",
+      "img": {
+        "src": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
+        "desc": "Nicky and Pippa narrating the Bible in One Year"
+      }
     },
     "cta": true,
     "editions": false,
-    "testimonials": true
+    "testimonials": true,
+    "title": "About"
   },
   "hi": {
     "header": {
