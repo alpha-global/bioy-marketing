@@ -54,9 +54,9 @@
     "header": {
       "title": "هل تريد التعرف على الكتاب المقدس؟",
       "strapline": "سنأخذك من خلاله خطوة بخطوة.",
-      "cta": "لنبدأ",
+      "cta": "هيا لنبدأ",
       "img": {
-        "src": "/assets/img/bioy-header.jpg",
+        "src": "/assets/img/today_en.jpg",
         "desc": "A man looks down at his phone, while listening to Bible in One Year"
       }
     },
