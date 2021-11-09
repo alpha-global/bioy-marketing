@@ -7,6 +7,7 @@ import mediumViewModel from "./mediumViewModel.js";
 const { locales } = require("../../_data/globals");
 
 import helpers from "./helpers.js";
+import podcastSwiper from "./podcastSwiper.js";
 
 window.app = new (function () {
   // public functions
@@ -22,34 +23,14 @@ window.app = new (function () {
         continuous: true,
         disableScroll: false,
         stopPropagation: true,
-      });
-
-      const podcastSwiper = new Swipe(document.getElementById("podcast"), {
-        // startSlide: 0,
-        // auto: 3000,
-        // draggable: true,
-        // autoRestart: false,
-        // continuous: true,
-        // disableScroll: true,
-        // stopPropagation: true,
-        callback: function (index, element) {},
-        transitionEnd: function (index, element) {},
-      });
-
-      const previousPodcast = document.getElementById("previous");
-      const nextPodcast = document.getElementById("next");
-
-      previousPodcast.addEventListener('click', () => {
-        console.log('previous')
-      })
-      // previousPodcast.onclick = podcastSwiper.prev;
-      // nextPodcast.onclick = podcastSwiper.next;
+      });  
     },
 
     baseViewModel,
     faqsViewModel,
     mediumViewModel,
     helpers,
+    podcastSwiper,
   };
 
   function setMailPopup() {
