@@ -52,9 +52,9 @@
   "ar": {
     "intro": "Bom dia!",
     "header": {
-      "title": "Start your day with the Bible in One Year",
-      "strapline": "How different could your life be if you started each morning reading the Bible?",
-      "cta": "Let's Go",
+      "title": "هل تريد التعرف على الكتاب المقدس؟",
+      "strapline": "سنأخذك من خلاله خطوة بخطوة.",
+      "cta": "لنبدأ",
       "img": {
         "src": "/assets/img/bioy-header.jpg",
         "desc": "A man looks down at his phone, while listening to Bible in One Year"
