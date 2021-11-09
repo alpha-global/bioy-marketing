@@ -53,10 +53,10 @@
     "intro": "Bom dia!",
     "header": {
       "title": "هل تريد التعرف على الكتاب المقدس؟",
-      "strapline": "سنأخذك من خلاله خطوة بخطوة.",
-      "cta": "هيا لنبدأ",
+      "strapline": "سنأخذك في رحلة من خلاله خطوة بخطوة.",
+      "cta": "هيا بنا لنبدأ",
       "img": {
-        "src": "/assets/img/today_en.jpg",
+        "src": "/assets/img/bioy-header.jpg",
         "desc": "A man looks down at his phone, while listening to Bible in One Year"
       }
     },
