@@ -17,7 +17,15 @@
     }
   },
   "ar": {
-    "title": "Bible in One Year"
+    "title": "الكتاب المقدس في سنة واحدة ",
+    "switcher": {
+      "title": "اختر اللغة",
+      "subTitle": "الكتاب المقدس في سنة واحدة متاح باللغات التالية:"
+    },
+    "social": {
+      "desc": "Start your day with the Bible in One Year, a free Bible reading app from HTB and the Alpha Course with commentary by Nicky & Pippa Gumbel.",
+      "img": "/assets/img/bioy-og-en.jpg"
+    }
   },
   "hi": {
     "title": "Bible in One Year."
