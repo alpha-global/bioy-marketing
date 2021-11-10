@@ -8,8 +8,6 @@ const { locales } = require("../../_data/globals");
 
 import helpers from "./helpers.js";
 
-import podcastSwiper from "./podcastSwiper.js"
-
 window.app = new (function () {
   // public functions
   return {
@@ -25,59 +23,13 @@ window.app = new (function () {
         disableScroll: false,
         stopPropagation: true,
       });
-
-      const podcastSwiper = new Swipe(document.getElementById("podcast"), {
-        startSlide: 0,
-        speed: 500,
-        auto: 6000,
-        draggable: false,
-        continuous: true,
-        disableScroll: false,
-        callback: function (index, element) {},
-        transitionEnd: function (index, element) {},
-      });
-      
-      podcastSwiper.enable();
-
-      const previousPodcast = document.getElementById("previous");
-      const nextPodcast = document.getElementById("next");
-
-      const firstPodcastPagination = document.getElementById(
-        "firstPodcastPagination"
-      );
-      const secondPodcastPagination = document.getElementById(
-        "secondPodcastPagination"
-      );
-      const thirdPodcastPagination = document.getElementById(
-        "thirdPodcastPagination"
-      );
-
-      nextPodcast.addEventListener("click", function () {
-        podcastSwiper.next();
-      });
-
-      previousPodcast.addEventListener("click", function () {
-        podcastSwiper.prev();
-      });
-
-      firstPodcastPagination.addEventListener("click", function () {
-        podcastSwiper.slide(0, 100);
-      });
-
-      secondPodcastPagination.addEventListener("click", function () {
-        podcastSwiper.slide(1, 100);
-      });
-
-      thirdPodcastPagination.addEventListener("click", function () {
-        podcastSwiper.slide(2, 100);
-      });
+     
     },
 
     baseViewModel,
     faqsViewModel,
     mediumViewModel,
     helpers,
-    podcastSwiper,
   };
 
   function setMailPopup() {
