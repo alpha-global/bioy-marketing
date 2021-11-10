@@ -55,46 +55,45 @@
 
               </div>
             {% else %}
-              <div class="max-w-xs">
-                {% for podcast in podcastUrls.collection %}
-                  {{ podcast.edition }}
-                {% endfor %}
+              <div class="max-w-xs md:max-w-md">
                 <h4 class="text-xl font-bold mb-3">Podcast</h4>
                 <p>Subscribe and listen to Bible in One Year delivered to your favourite podcast app everyday.</p>
-                <div class="mt-4 relative">
-                  <div class="flex items-center justify-between w-full absolute">
-                    <button class="flex items-center justify-center z-10" id="previous">{% svgSprite name = "back",
-                      class = "h-8 w-8" %}</button>
-                    <button class="flex items-center justify-center z-10" id="next">{% svgSprite name = "forward",
-                      class = "h-8 w-8" %}</button>
-                  </div>
-                  <div id="podcast" class="relative overflow-hidden invisible flex flex-col">
-                    <div class="relative overflow-hidden flex items-center">
-                     
-                      {% for podcast in podcastUrls.collection %}
-                        <div class="relative float-left w-full overflow-hidden">
-                          <div class="space-y-3">
-                            <p class="text-center">{{podcast.edition}}</p>
-                            <button class="podcast-link">
-                              <a>{% svgSprite name="spotify-podcasts", class="h-8 w-8" %}</a>
-                              <span>Spotify</span></button>
-                            <button class="podcast-link">
-                              <a>{% svgSprite name="apple-podcasts", class="h-8 w-8" %}</a>
-                              <span>Apple Podcasts</span></button>
-                            <button class="podcast-link">
-                              <a>{% svgSprite name="google-podcasts", class="h-8 w-8" %}</a>
-                              <span>Google Podcasts</span></button>
-                          </div>
-                        </div>
-                      {% endfor %}
-
+                <div class="md:flex md:items-center md:justify-center">
+                  <div class="mt-4 relative md:max-w-xs">
+                    <div class="flex items-center justify-between w-full absolute">
+                      <button class="flex items-center justify-center z-10" id="previous">{% svgSprite name = "back",
+                        class = "h-8 w-8" %}</button>
+                      <button class="flex items-center justify-center z-10" id="next">{% svgSprite name = "forward",
+                        class = "h-8 w-8" %}</button>
                     </div>
-                  </div>
+                    <div id="podcast" class="relative overflow-hidden invisible flex flex-col">
+                      <div class="relative overflow-hidden flex items-center">
 
-                  <div class="flex items-center justify-center space-x-1 mt-4">
-                    <button id="firstPodcastPagination" class="rounded-full h-4  w-4 flex items-center justify-center border-2 hover:bg-white"></button>
-                    <button id="secondPodcastPagination" class="rounded-full h-4  w-4 flex items-center justify-center border-2 hover:bg-white"></button>
-                    <button id="thirdPodcastPagination" class="rounded-full h-4  w-4 flex items-center justify-center border-2 hover:bg-white"></button>
+                        {% for podcast in podcastUrls.collection %}
+                          <div class="relative float-left w-full overflow-hidden">
+                            <div class="space-y-3">
+                              <p class="text-center">{{podcast.edition}}</p>
+                              <button class="podcast-link">
+                                <a>{% svgSprite name="spotify-podcasts", class="h-8 w-8" %}</a>
+                                <span>Spotify</span></button>
+                              <button class="podcast-link">
+                                <a>{% svgSprite name="apple-podcasts", class="h-8 w-8" %}</a>
+                                <span>Apple Podcasts</span></button>
+                              <button class="podcast-link">
+                                <a>{% svgSprite name="google-podcasts", class="h-8 w-8" %}</a>
+                                <span>Google Podcasts</span></button>
+                            </div>
+                          </div>
+                        {% endfor %}
+
+                      </div>
+                    </div>
+
+                    <div class="flex items-center justify-center space-x-1 mt-4">
+                      <button id="firstPodcastPagination" class="rounded-full h-4  w-4 flex items-center justify-center border-2 hover:bg-white"></button>
+                      <button id="secondPodcastPagination" class="rounded-full h-4  w-4 flex items-center justify-center border-2 hover:bg-white"></button>
+                      <button id="thirdPodcastPagination" class="rounded-full h-4  w-4 flex items-center justify-center border-2 hover:bg-white"></button>
+                    </div>
                   </div>
                 </div>
               </div>
