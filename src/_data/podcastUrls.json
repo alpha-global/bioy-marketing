@@ -1,13 +1,22 @@
 {
-    "collection":[
-        {
-            "edition": "Classic"
-        },
-         {
-            "edition": "Youth"
-        },
-         {
-            "edition": "Express"
-        }
-    ]
+  "collection": [
+    {
+      "edition": "Classic",
+      "spotify": "https://open.spotify.com/show/2pgoH7R1Qg4JTS52cSwUc9?si=pg9OYYb-SNyPkVRb00BeNA&dl_branch=1",
+      "apple": "https://podcasts.apple.com/gb/podcast/bible-in-one-year-youth/id1493330473",
+      "google": "https://podcasts.google.com/feed/aHR0cHM6Ly9hcGkuYmlveWRhdGEuY29tL3Jzcy9wb2RjYXN0"
+    },
+    {
+      "edition": "Youth",
+      "spotify": "https://open.spotify.com/show/3OylO6IHxA41cPeOsJODuU?si=fyAdcm4fSXqB2iMemnRCUg&dl_branch=1",
+      "apple": "https://podcasts.apple.com/gb/podcast/bible-in-one-year-express/id1584089153",
+      "google": "https://podcasts.google.com/feed/aHR0cHM6Ly9hcGkuYmlveWRhdGEuY29tL3Jzcy9wb2RjYXN0P3ZhcmlhbnQ9ZXhwcmVzcw"
+    },
+    {
+      "edition": "Express",
+      "spotify": "https://open.spotify.com/show/64lLuiXmbTV66AyW0hTQ38?si=EUM1pZaLQ1mxGODClReIAg&dl_branch=1",
+      "apple": "https://podcasts.apple.com/gb/podcast/bible-in-one-year-youth/id1493330473",
+      "google": "https://podcasts.google.com/feed/aHR0cHM6Ly9hcGkuYmlveWRhdGEuY29tL3Jzcy9wb2RjYXN0P3ZhcmlhbnQ9eW91dGg"
+    }
+  ]
 }
