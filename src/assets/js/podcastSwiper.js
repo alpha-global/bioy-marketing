@@ -1,8 +1,8 @@
 import Swipe from "swipejs";
 
 export default {
-    swiperPosition: 0,
-    
+  swiperPosition: 0,
+
   init() {
     const podcastSwiper = new Swipe(document.getElementById("podcast"), {
       callback: function (index, element) {},
@@ -42,6 +42,6 @@ export default {
       podcastSwiper.slide(2, 100);
     });
 
-    const getSwiperPosition = () => podcastSwiper.getPos()
+    const getSwiperPosition = () => podcastSwiper.getPos();
   },
 };

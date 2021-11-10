@@ -8,6 +8,8 @@ const { locales } = require("../../_data/globals");
 
 import helpers from "./helpers.js";
 
+import podcastSwiper from "./podcastSwiper.js"
+
 window.app = new (function () {
   // public functions
   return {
@@ -75,6 +77,7 @@ window.app = new (function () {
     faqsViewModel,
     mediumViewModel,
     helpers,
+    podcastSwiper,
   };
 
   function setMailPopup() {
