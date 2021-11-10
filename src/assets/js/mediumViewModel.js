@@ -23,9 +23,14 @@ export default {
       auto: 6000,
       draggable: false,
       continuous: true,
-      disableScroll: false,
+      disableScroll: true,
       callback: function (index, element) {},
-      transitionEnd: function (index, element) {},
+      transitionEnd: function (index, element) {
+        const paginationButtons = document.querySelectorAll(
+          ".podcast-pagination"
+        );
+        paginationButtons.forEach((button) => console.log(button));
+      },
     });
 
     podcastSwiper.enable();
