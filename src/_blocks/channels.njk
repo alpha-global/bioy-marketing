@@ -74,16 +74,14 @@
                         {% for podcast in podcastUrls.collection %}
                           <div class="relative float-left w-full overflow-hidden">
                             <div class="space-y-3">
-                              <p class="text-center font-bold">{{podcast.edition}}</p>
-                              <button class="podcast-link">
-                                <a href="{{ podcast.spotify }}">{% svgSprite name="spotify-podcasts", class="h-8 w-8" %}</a>
-                                <span>Spotify</span></button>
-                              <button class="podcast-link">
-                                <a href="{{ podcast.apple }}">{% svgSprite name="apple-podcasts", class="h-8 w-8" %}</a>
-                                <span>Apple Podcasts</span></button>
-                              <button class="podcast-link">
-                                <a href="{{ podcast.google }}">{% svgSprite name="google-podcasts", class="h-8 w-8" %}</a>
-                                <span>Google Podcasts</span></button>
+                              <p class="font-bold text-center">{{podcast.edition}}</p>
+                              <a href="{{ podcast.spotify }}" class="podcast-link">{% svgSprite name="spotify-podcasts", class="h-8 w-8" %}
+                                <span class="no-underline">Spotify</span>
+                              </a>
+                              <a href="{{ podcast.apple }}" class="podcast-link">{% svgSprite name="apple-podcasts", class="h-8 w-8" %}
+                                <span>Apple Podcasts</span></a>
+                              <a href="{{ podcast.google }}" class="podcast-link">{% svgSprite name="google-podcasts", class="h-8 w-8" %}
+                                <span>Google Podcasts</span></a>
                             </div>
                           </div>
                         {% endfor %}
