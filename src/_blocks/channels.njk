@@ -60,7 +60,7 @@
               <div class="max-w-xs md:max-w-xl lg:max-w-2xl">
                 <div class="lg:max-w-xl">
                   <h4 class="text-xl font-bold mb-3">{{  channels[locale].distribution[2].channel }}</h4>
-                  <p>{{ channels[locale].distribution[2].description }}
+                  <p>{{ channels[locale].distribution[2].description | markdown | safe }}
                   </p>
                 </div>
                 <div class="md:flex md:items-center md:justify-center lg:hidden mt-4 md:mt-8">
