@@ -24,7 +24,7 @@ export default {
     const podcastSwiper = new Swipe(document.getElementById("podcast"), {
       startSlide: 0,
       speed: 200,
-      auto: 6000,
+      // auto: 6000,
       draggable: false,
       continuous: true,
       disableScroll: true,
