@@ -92,9 +92,9 @@
                     </div>
 
                     <div class="flex items-center justify-center space-x-1 mt-4">
-                      <button id="firstPodcastPagination" class="podcast-pagination"></button>
-                      <button id="secondPodcastPagination" class="podcast-pagination"></button>
-                      <button id="thirdPodcastPagination" class="podcast-pagination"></button>
+                      {% for podcast in podcastUrls.collection %}
+                        <button data-index="{{ loop.index0 }}" class="podcast-pagination"></button>
+                      {% endfor %}
                     </div>
                   </div>
                 </div>

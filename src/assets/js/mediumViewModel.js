@@ -2,6 +2,7 @@ import Swipe from "swipejs";
 
 export default {
   mediaFocus: 0,
+  currentElementIndex: 0,
 
   mediaClass(node) {
     return {
@@ -26,27 +27,13 @@ export default {
       disableScroll: true,
       callback: function (index, element) {},
       transitionEnd: function (index, element) {
-        const paginationButtons = document.querySelectorAll(
-          ".podcast-pagination"
-        );
-        paginationButtons.forEach((button) => console.log(button));
+        this.currentElementIndex = element.getAttribute("data-index");
+        console.log(this.currentElementIndex);
       },
     });
 
-    podcastSwiper.enable();
-
     const previousPodcast = document.getElementById("previous");
     const nextPodcast = document.getElementById("next");
-
-    const firstPodcastPagination = document.getElementById(
-      "firstPodcastPagination"
-    );
-    const secondPodcastPagination = document.getElementById(
-      "secondPodcastPagination"
-    );
-    const thirdPodcastPagination = document.getElementById(
-      "thirdPodcastPagination"
-    );
 
     nextPodcast.addEventListener("click", function () {
       podcastSwiper.next();
@@ -56,16 +43,11 @@ export default {
       podcastSwiper.prev();
     });
 
-    firstPodcastPagination.addEventListener("click", function () {
-      podcastSwiper.slide(0, 100);
-    });
-
-    secondPodcastPagination.addEventListener("click", function () {
-      podcastSwiper.slide(1, 100);
-    });
-
-    thirdPodcastPagination.addEventListener("click", function () {
-      podcastSwiper.slide(2, 100);
+    const paginationButtons = document.querySelectorAll(".podcast-pagination");
+    paginationButtons.forEach((button) => {
+      button.addEventListener("click", () =>
+        podcastSwiper.slide(button.getAttribute("data-index"), 200)
+      );
     });
   },
 };
