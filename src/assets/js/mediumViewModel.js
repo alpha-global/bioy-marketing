@@ -28,7 +28,7 @@ export default {
       draggable: false,
       continuous: true,
       disableScroll: true,
-      transitionEnd: function (index, element) {
+      transitionEnd: (index, element) => {
         const currentElementIndex = element.getAttribute("data-index");
         paginationButtons.forEach((button) =>
           button.getAttribute("data-index") === currentElementIndex
@@ -42,13 +42,9 @@ export default {
       ? paginationButtons[0].classList.add("bg-white")
       : null;
 
-    nextPodcast.addEventListener("click", function () {
-      podcastSwiper.next();
-    });
+    nextPodcast.addEventListener("click", () => podcastSwiper.next());
 
-    previousPodcast.addEventListener("click", function () {
-      podcastSwiper.prev();
-    });
+    previousPodcast.addEventListener("click", () => podcastSwiper.prev());
 
     paginationButtons.forEach((button) => {
       button.addEventListener("click", () =>
