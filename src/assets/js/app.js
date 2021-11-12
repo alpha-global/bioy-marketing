@@ -1,5 +1,6 @@
 import "alpinejs";
 import Swipe from "swipejs";
+
 import baseViewModel from "./baseViewModel.js";
 import faqsViewModel from "./faqsViewModel.js";
 import mediumViewModel from "./mediumViewModel.js";
@@ -22,6 +23,7 @@ window.app = new (function () {
         disableScroll: false,
         stopPropagation: true,
       });
+     
     },
 
     baseViewModel,
