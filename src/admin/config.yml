@@ -81,7 +81,6 @@ collections:
                       },
                     ],
                 },
-
               ],
           },
           {
@@ -91,12 +90,7 @@ collections:
             i18n: true,
             fields:
               [
-                {
-                  name: "title",
-                  label: "Title",
-                  widget: "string",
-                  i18n: true,
-                },
+                { name: "title", label: "Title", widget: "string", i18n: true },
                 {
                   name: "header",
                   label: "Header",
@@ -159,23 +153,23 @@ collections:
                   label: "Show Call to Action Block",
                   widget: "boolean",
                   default: true,
-                  i18n: "duplicate"
+                  i18n: "duplicate",
                 },
                 {
                   name: "testimonials",
                   label: "Show Testimonials Block",
                   widget: "boolean",
                   default: true,
-                  i18n: "duplicate"
+                  i18n: "duplicate",
                 },
                 {
                   name: "editions",
                   label: "Show Edition Block",
                   widget: "boolean",
                   default: true,
-                  i18n: "duplicate"
-                }
-              ]
+                  i18n: "duplicate",
+                },
+              ],
           },
           {
             name: "donate",
@@ -184,12 +178,7 @@ collections:
             i18n: true,
             fields:
               [
-                {
-                  name: "title",
-                  label: "title",
-                  widget: "string",
-                  i18n: true,
-                },
+                { name: "title", label: "title", widget: "string", i18n: true },
                 {
                   name: "intro",
                   label: "Introduction",
@@ -214,12 +203,7 @@ collections:
             i18n: true,
             fields:
               [
-                {
-                  name: "title",
-                  label: "Title",
-                  widget: "string",
-                  i18n: true,
-                },
+                { name: "title", label: "Title", widget: "string", i18n: true },
                 {
                   name: "intro",
                   label: "Introduction",
@@ -277,7 +261,12 @@ collections:
                         widget: "string",
                         i18n: true,
                       },
-                      { name: "App", label: "App", widget: "string", i18n: true },
+                      {
+                        name: "App",
+                        label: "App",
+                        widget: "string",
+                        i18n: true,
+                      },
                     ],
                 },
 
@@ -331,8 +320,8 @@ collections:
                     ],
                 },
               ],
-          }
-        ]
+          },
+        ],
     },
     {
       label: "Edition Pages",
@@ -402,7 +391,9 @@ collections:
             label: "Page body",
             widget: "markdown",
             default: true,
-          }
+            i18n: true,
+            required: true,
+          },
         ],
     },
     {
@@ -493,12 +484,7 @@ collections:
                   widget: "string",
                   i18n: true,
                 },
-                {
-                  name: "youth",
-                  label: "Youth",
-                  widget: "string",
-                  i18n: true,
-                },
+                { name: "youth", label: "Youth", widget: "string", i18n: true },
                 {
                   name: "express",
                   label: "Express",
@@ -526,18 +512,8 @@ collections:
                   widget: "text",
                   i18n: true,
                 },
-                {
-                  name: "quote",
-                  label: "Quote",
-                  widget: "text",
-                  i18n: true,
-                },
-                {
-                  name: "outro",
-                  label: "Outro",
-                  widget: "text",
-                  i18n: true,
-                },
+                { name: "quote", label: "Quote", widget: "text", i18n: true },
+                { name: "outro", label: "Outro", widget: "text", i18n: true },
                 {
                   name: "img",
                   label: Image,
@@ -623,26 +599,11 @@ collections:
                   label: "Image",
                   name: "image",
                   widget: "image",
-                  i18n: duplicate
+                  i18n: duplicate,
                 },
-                {
-                  label: "Title",
-                  name: "title",
-                  widget: "string",
-                  i18n: true,
-                },
-                {
-                  label: "Today",
-                  name: "today",
-                  widget: "string",
-                  i18n: true,
-                },
-                {
-                  label: "Day",
-                  name: "day",
-                  widget: "string",
-                  i18n: true,
-                },
+                { label: "Title", name: "title", widget: "string", i18n: true },
+                { label: "Today", name: "today", widget: "string", i18n: true },
+                { label: "Day", name: "day", widget: "string", i18n: true },
                 {
                   label: "App teaster",
                   name: "cta_teaser",
@@ -745,7 +706,13 @@ collections:
                   fields:
                     [
                       { name: label, label: Label, widget: string, i18n: true },
-                      { name: external, label: External Link?, widget: boolean, i18n: true, required: false },
+                      {
+                        name: external,
+                        label: External Link?,
+                        widget: boolean,
+                        i18n: true,
+                        required: false,
+                      },
                       {
                         name: href,
                         label: Link,
@@ -826,7 +793,7 @@ collections:
                     ],
                 },
               ],
-          }
+          },
         ],
-    }
+    },
   ]
