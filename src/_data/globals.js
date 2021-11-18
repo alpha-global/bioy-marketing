@@ -27,6 +27,18 @@ const languages = [
   {
     locale: "zh",
     language: "中國人"
+  },
+  {
+    locale: "de",
+    language: "German"
+  },
+  {
+    locale: "fr",
+    language: "French"
+  },
+  {
+    locale: "th",
+    language: "ไทย"
   }
 ];
 
