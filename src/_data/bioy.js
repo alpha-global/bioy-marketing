@@ -64,9 +64,9 @@ module.exports = async function (fullImport = false) {
   try {
 
     const variants = {
-      'classic': ['en_Gb', 'es', 'ar', 'hi', 'zh_Hans'],
+      'classic': ['en_Gb', 'es', 'ar', 'hi', 'zh_Hans', 'fr', 'de', 'th'],
       'youth': ['en_Gb'],
-      'express': ['en_Gb']
+      'express': ['en_Gb', 'de']
     }
     const data = [];
 
