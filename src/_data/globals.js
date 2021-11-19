@@ -30,11 +30,11 @@ const languages = [
   },
   {
     locale: "de",
-    language: "German"
+    language: "Deutsch"
   },
   {
     locale: "fr",
-    language: "French"
+    language: "Français"
   },
   {
     locale: "th",
