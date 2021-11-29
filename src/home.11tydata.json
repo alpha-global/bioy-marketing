@@ -28,6 +28,26 @@
       "express": "Express"
     }
   },
+  "ar": {
+    "intro": "Bom dia!",
+    "header": {
+      "title": "هل تريد التعرف على الكتاب المقدس؟",
+      "strapline": "سنأخذك في رحلة من خلاله خطوة بخطوة.",
+      "cta": "هيا بنا لنبدأ",
+      "img": {
+        "src": "/assets/img/bioy-header.jpg",
+        "desc": "A man looks down at his phone, while listening to Bible in One Year"
+      }
+    },
+    "about": {
+      "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg"
+    }
+  },
+  "de": {
+    "header": {
+      "title": "Want to get to know the Bible?"
+    }
+  },
   "es": {
     "intro": "Bom dia!",
     "header": {
@@ -49,19 +69,9 @@
       "intro": "Seleccione su edición"
     }
   },
-  "ar": {
-    "intro": "Bom dia!",
+  "fr": {
     "header": {
-      "title": "هل تريد التعرف على الكتاب المقدس؟",
-      "strapline": "سنأخذك في رحلة من خلاله خطوة بخطوة.",
-      "cta": "هيا بنا لنبدأ",
-      "img": {
-        "src": "/assets/img/bioy-header.jpg",
-        "desc": "A man looks down at his phone, while listening to Bible in One Year"
-      }
-    },
-    "about": {
-      "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg"
+      "title": "Want to get to know the Bible?"
     }
   },
   "hi": {
@@ -77,6 +87,11 @@
     },
     "about": {
       "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg"
+    }
+  },
+  "th": {
+    "header": {
+      "title": "Want to get to know the Bible?"
     }
   },
   "zh": {
