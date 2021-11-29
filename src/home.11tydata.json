@@ -31,11 +31,11 @@
   "ar": {
     "intro": "Bom dia!",
     "header": {
-      "title": "هل تريد التعرف على الكتاب المقدس؟",
-      "strapline": "سنأخذك في رحلة من خلاله خطوة بخطوة.",
-      "cta": "هيا بنا لنبدأ",
+      "title": "ต้องการทำความรู้จักกับพระคัมภีร์หรือไม่?",
+      "strapline": "",
+      "cta": "",
       "img": {
-        "src": "/assets/img/bioy-header.jpg",
+        "src": "/assets/img/bioy-lead.jpg",
         "desc": "A man looks down at his phone, while listening to Bible in One Year"
       }
     },
