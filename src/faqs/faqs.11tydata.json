@@ -267,7 +267,10 @@
     "filterHint": "ما الذي تبحث عنه؟"
   },
   "de": {
-    "title": "FAQs"
+    "title": "FAQs",
+    "faqsItems": [
+      {}
+    ]
   },
   "es": {
     "faqsItems": [
@@ -287,14 +290,22 @@
     "filterHint": "What are you looking for?"
   },
   "fr": {
-    "title": "FAQs"
+    "title": "FAQs",
+    "faqsItems": [
+      {}
+    ]
   },
   "hi": {
-    "faqsItems": [],
+    "faqsItems": [
+      {}
+    ],
     "title": "FAQs"
   },
   "th": {
-    "title": "FAQs"
+    "title": "FAQs",
+    "faqsItems": [
+      {}
+    ]
   },
   "zh": {
     "faqsItems": [],
