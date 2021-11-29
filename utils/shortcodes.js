@@ -1,5 +1,5 @@
 const Image = require("@11ty/eleventy-img");
-const { cacheBuster } = require('../src/_data/globals');
+const { cacheBuster } = require("../src/_data/globals");
 
 module.exports = {
   // Usage: {% svgSprite name="icon" %}
@@ -13,9 +13,7 @@ module.exports = {
     return `
     <section class="prose lg:prose-xl mb-8 mx-10">
     <div class="p-4 bg-red rounded">
-      <div class="font-bold text-4xl text-white">${
-        devotionSection.title
-      }</div>
+      <div class="font-bold text-4xl text-white">${devotionSection.title}</div>
     </div>
     <div class="py-4">
       <h2>${devotionSection.reference}</h1>
@@ -36,28 +34,30 @@ module.exports = {
   },
 
   blockImage: (src, alt, sizes = "100vw", classes = "w-full") => {
-    if (!src) { return; }
+    if (!src) {
+      return;
+    }
 
     src = `./src${src}`;
 
     const options = {
       widths: [320, 640, 800, 1200],
-      formats: ['webp', 'jpeg'],
+      formats: ["webp", "jpeg"],
       urlPath: "/assets/img/",
-      outputDir: "./build/assets/img"
+      outputDir: "./build/assets/img",
     };
 
     const imageAttributes = {
       class: classes,
-      alt: alt,
+      alt: alt || "",
       sizes: sizes,
       loading: "lazy",
-      decoding: "async"
+      decoding: "async",
     };
 
     return imageGen(src, options, imageAttributes);
-  }
-}
+  },
+};
 
 function imageGen(src, options, attributes) {
   Image(src, options);
