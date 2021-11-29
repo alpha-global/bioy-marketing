@@ -71,7 +71,13 @@
   },
   "fr": {
     "header": {
-      "title": "Want to get to know the Bible?"
+      "title": "Envie de découvrir la Bible ?",
+      "strapline": "Nous vous guiderons pas à pas.",
+      "cta": "C'est parti",
+      "img": {
+        "src": "/assets/img/bioy-lead.jpg",
+        "desc": "Une femme lève les yeux après avoir lu la Bible en un an sur son téléphone."
+      }
     }
   },
   "hi": {
