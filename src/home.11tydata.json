@@ -28,6 +28,26 @@
       "express": "Express"
     }
   },
+  "ar": {
+    "intro": "Bom dia!",
+    "header": {
+      "title": "",
+      "strapline": "",
+      "cta": "",
+      "img": {
+        "src": "/assets/img/bioy-header.jpg",
+        "desc": "A man looks down at his phone, while listening to Bible in One Year"
+      }
+    },
+    "about": {
+      "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg"
+    }
+  },
+  "de": {
+    "header": {
+      "title": "Want to get to know the Bible?"
+    }
+  },
   "es": {
     "intro": "Bom dia!",
     "header": {
@@ -49,19 +69,15 @@
       "intro": "Seleccione su edición"
     }
   },
-  "ar": {
-    "intro": "Bom dia!",
+  "fr": {
     "header": {
-      "title": "هل تريد التعرف على الكتاب المقدس؟",
-      "strapline": "سنأخذك في رحلة من خلاله خطوة بخطوة.",
-      "cta": "هيا بنا لنبدأ",
+      "title": "Envie de découvrir la Bible ?",
+      "strapline": "Nous vous guiderons, pas à pas.",
+      "cta": "C'est parti",
       "img": {
-        "src": "/assets/img/bioy-header.jpg",
-        "desc": "A man looks down at his phone, while listening to Bible in One Year"
+        "src": "/assets/img/bioy-lead.jpg",
+        "desc": "Une femme lève les yeux après avoir lu la Bible en 1 an sur son téléphone."
       }
-    },
-    "about": {
-      "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg"
     }
   },
   "hi": {
@@ -77,6 +93,16 @@
     },
     "about": {
       "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg"
+    }
+  },
+  "th": {
+    "header": {
+      "title": "ต้องการทำความรู้จักกับพระคัมภีร์หรือไม่?",
+      "strapline": "เราจะพาคุณไปทีละขั้นตอน",
+      "cta": "เริ่มเลย",
+      "img": {
+        "src": "/assets/img/bioy-lead.jpg"
+      }
     }
   },
   "zh": {
