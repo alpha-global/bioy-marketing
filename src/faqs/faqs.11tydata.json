@@ -237,23 +237,6 @@
     },
     "filterHint": "What are you looking for?"
   },
-  "es": {
-    "faqsItems": [
-      {
-        "title": "Test",
-        "category": "App",
-        "shortAnswer": "short",
-        "detailedAnswer": "long"
-      }
-    ],
-    "title": "Help",
-    "intro": "**Got a question about Bible in One Year?** A problem with app? Start here…",
-    "filter": "Filter",
-    "seeMore": "See More",
-    "notFoundMessage": "Sorry, we don’t have any results for",
-    "submitButton": "Submit a support request",
-    "filterHint": "What are you looking for?"
-  },
   "ar": {
     "faqsItems": [
       {
@@ -283,8 +266,35 @@
     },
     "filterHint": "ما الذي تبحث عنه؟"
   },
+  "de": {
+    "title": "FAQs"
+  },
+  "es": {
+    "faqsItems": [
+      {
+        "title": "Test",
+        "category": "App",
+        "shortAnswer": "short",
+        "detailedAnswer": "long"
+      }
+    ],
+    "title": "Help",
+    "intro": "**Got a question about Bible in One Year?** A problem with app? Start here…",
+    "filter": "Filter",
+    "seeMore": "See More",
+    "notFoundMessage": "Sorry, we don’t have any results for",
+    "submitButton": "Submit a support request",
+    "filterHint": "What are you looking for?"
+  },
+  "fr": {
+    "title": "FAQs"
+  },
   "hi": {
-    "faqsItems": []
+    "faqsItems": [],
+    "title": "FAQs"
+  },
+  "th": {
+    "title": "FAQs"
   },
   "zh": {
     "faqsItems": [],
