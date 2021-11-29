@@ -97,7 +97,12 @@
   },
   "th": {
     "header": {
-      "title": "Want to get to know the Bible?"
+      "title": "ต้องการทำความรู้จักกับพระคัมภีร์หรือไม่?",
+      "strapline": "เราจะพาคุณไปทีละขั้นตอน",
+      "cta": "เริ่มเลย",
+      "img": {
+        "src": "/assets/img/bioy-lead.jpg"
+      }
     }
   },
   "zh": {
