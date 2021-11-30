@@ -10,12 +10,6 @@
       "img": "/assets/img/bioy-og-en.jpg"
     }
   },
-  "es": {
-    "title": "Biblia en un año",
-    "switcher": {
-      "title": "Change Language"
-    }
-  },
   "ar": {
     "title": "الكتاب المقدس في سنة واحدة ",
     "switcher": {
@@ -27,8 +21,23 @@
       "img": "/assets/img/bioy-og-en.jpg"
     }
   },
+  "de": {
+    "title": "Title"
+  },
+  "es": {
+    "title": "Biblia en un año",
+    "switcher": {
+      "title": "Change Language"
+    }
+  },
+  "fr": {
+    "title": "Title"
+  },
   "hi": {
     "title": "Bible in One Year."
+  },
+  "th": {
+    "title": "Title"
   },
   "zh": {
     "title": "圣经日日行",
