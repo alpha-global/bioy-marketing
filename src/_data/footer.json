@@ -45,15 +45,6 @@
       "instagram": "nickygumbel"
     }
   },
-  "es": {
-    "headline": "Start Every Day in God's Word",
-    "cta": "Download Today",
-    "social": {
-      "facebook": "BiOYApp",
-      "twitter": "bibleinoneyr?lang=es",
-      "instagram": "nickygumbel?hl=es"
-    }
-  },
   "ar": {
     "headline": "Start every day in the Bible.",
     "cta": "Download the app today",
@@ -100,6 +91,21 @@
       "instagram": "nickygumbel"
     }
   },
+  "de": {
+    "headline": "Headline"
+  },
+  "es": {
+    "headline": "Start Every Day in God's Word",
+    "cta": "Download Today",
+    "social": {
+      "facebook": "BiOYApp",
+      "twitter": "bibleinoneyr?lang=es",
+      "instagram": "nickygumbel?hl=es"
+    }
+  },
+  "fr": {
+    "headline": "Headline"
+  },
   "hi": {
     "headline": "Start Every Day in God's Word",
     "cta": "Download Today",
@@ -108,6 +114,9 @@
       "twitter": "bibleinoneyr?lang=hi",
       "instagram": "nickygumbel"
     }
+  },
+  "th": {
+    "headline": "Headline"
   },
   "zh": {
     "headline": "以阅读圣经来开启新的一天",
