@@ -5,23 +5,32 @@
     "youth": "Youth",
     "express": "Express"
   },
-  "es": {
-    "intro": "Bible in One Year comes in three different editions…",
-    "classic": "Classic",
-    "youth": "",
-    "express": ""
-  },
   "ar": {
     "intro": "يأتي الكتاب المقدس في عام واحد بثلاث إصدارات مختلفة ...",
     "classic": "Classic",
     "youth": "الشباب",
     "express": "Express"
   },
+  "de": {
+    "intro": "Intro"
+  },
+  "es": {
+    "intro": "Bible in One Year comes in three different editions…",
+    "classic": "Classic",
+    "youth": "",
+    "express": ""
+  },
+  "fr": {
+    "intro": "Intro"
+  },
   "hi": {
     "intro": "Bible in One Year comes in three different editions…",
     "classic": "Classic",
     "youth": "Youth",
     "express": "Express"
+  },
+  "th": {
+    "intro": "Intro"
   },
   "zh": {
     "express": "快捷版",
