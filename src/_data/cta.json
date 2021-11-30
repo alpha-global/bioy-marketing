@@ -6,13 +6,6 @@
     "android": "Get it on Google Play",
     "ios": "Download in the App Store"
   },
-  "es": {
-    "title": "Download Bible in One Year Today",
-    "sub_title": "BiOY is also and email, a website and soon to be a podcast.",
-    "more": "Find out more",
-    "ios": "Download in the App Store",
-    "android": "Get it on Google Play"
-  },
   "ar": {
     "more": "اكتشف المزيد",
     "sub_title": "BiOY هو أيضًا موقع ويب وبريد إلكتروني وقريبًا سيكون بودكاست.",
@@ -20,12 +13,28 @@
     "android": "Get it on Google Play",
     "ios": "Download in the App Store"
   },
+  "de": {
+    "title": "Title"
+  },
+  "es": {
+    "title": "Download Bible in One Year Today",
+    "sub_title": "BiOY is also and email, a website and soon to be a podcast.",
+    "more": "Find out more",
+    "ios": "Download in the App Store",
+    "android": "Get it on Google Play"
+  },
+  "fr": {
+    "title": "Title"
+  },
   "hi": {
     "title": "Download Bible in One Year Today",
     "sub_title": "BiOY is also and email, a website and soon to be a podcast.",
     "more": "Find out more",
     "ios": "Download in the App Store",
     "android": "Get it on Google Play"
+  },
+  "th": {
+    "title": "Title"
   },
   "zh": {
     "title": "今天就下载圣经日日行APP",
