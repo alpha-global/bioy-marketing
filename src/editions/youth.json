@@ -22,7 +22,17 @@
     "title": "Youth"
   },
   "fr": {
-    "title": "Youth"
+    "title": "Jeunesse",
+    "header": {
+      "title": "Un jour à la fois",
+      "strapline": "Trouvez votre rythme de lecture de la Bible",
+      "cta": "C'est parti !",
+      "img": {
+        "src": "/assets/img/bioy-1.jpg",
+        "desc": "Ado regardant le téléphone"
+      }
+    },
+    "body": "**La lecture quotidienne de la Bible pour les jeunes.**\n\nPrenez moins de 15 minutes par jour pour couvrir toute la Bible en 365 jours avec des lectures bibliques sélectionnées et un commentaire complet de Nicky et Pippa Gumbel.\n\nToby Stokes présente cette édition de la Bible en 1 an qui nous encourage non seulement à grandir dans notre relation avec Jésus, mais aussi à appliquer la Bible de manière pratique dans notre vie quotidienne."
   },
   "hi": {
     "title": "Youth"
