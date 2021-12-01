@@ -36,7 +36,17 @@
     }
   },
   "fr": {
-    "title": "Classique"
+    "title": "Classique",
+    "header": {
+      "img": {
+        "src": "/assets/img/classic_lead.jpg",
+        "desc": "Un homme regarde son téléphone"
+      },
+      "title": "Toute la Bible, un jour à la fois.",
+      "strapline": "Simple. Pertinent. Change la vie.",
+      "cta": "C'est parti !"
+    },
+    "body": "**Dépassé·e à l'idée de lire la Bible ? Ou vous cherchez à en tirer le meilleur parti ?**\n\nPassez du temps chaque jour à écouter Nicky et Pippa Gumbel alors qu'ils vous guident à travers toute la Bible en 365 jours.\n\nChaque jour, un thème différent est exploré à travers une sélection d'écritures tirées du livre des Psaumes ou des Proverbes, ainsi que du Nouveau Testament et de l'Ancien Testament. Nicky et Pippa fournissent des commentaires sur ces extraits pour apporter un aperçu et une application pratique."
   },
   "hi": {
     "title": "Classic"
