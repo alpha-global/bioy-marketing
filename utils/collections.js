@@ -6,7 +6,7 @@ exports.faqsItems = collection => {
 
   Object.keys(faqs).forEach(locale => {
     faqs[locale].faqsItems.forEach(item => {
-      if (!item.title) return;
+      if (!item.title || !item.shortAnswer ) return;
       item.locale = locale;
       item.slug = slugify(item.title, {
         lower: true,
