@@ -62,12 +62,6 @@
         "detailedAnswer": "Check if you have connectivity, or if the devotion is downloaded.\nPull down on the ListView to refresh the app.\nTry to play the audio again.\n\nPlease refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to download audio."
       },
       {
-        "title": "What additional functionality can I expect over the coming months?",
-        "category": "App",
-        "detailedAnswer": "1. The option to enlarge text size\n2. Translation of the app into Bahasa Indonesia, German, French and Thai\n3. Improvements to the end of year experience\n4. Improved process for donating to BiOY\n\nThereafter we will be working on several ideas and improvements for the app which you are welcome to feed in to by emailing: [bioy@alpha.org](mailto:bioy@alpha.org)",
-        "shortAnswer": "Our team are working on the option to enlarge app text size, improvements to the end of year experience and the process of donating to BiOY. The app will also be translated into four more languages."
-      },
-      {
         "title": "How do I stop my device auto-downloading audio files?",
         "category": "Audio",
         "shortAnswer": "Auto downloads can be managed in Settings, under the the ‘Audio Downloads’ section.",
@@ -329,28 +323,22 @@
         "detailedAnswer": "Überprüfe, ob du eine Verbindung hast, oder ob der Tag heruntergeladen wurde.\nStreiche auf der Listenansicht nach unten, um die App zu aktualisieren.\nVersuch erneut, die Audiodatei abzuspielen.\n\nBitte lies die FAQ zur Verwaltung von Audiodownloads, um sicherzustellen, dass die App genügend Platz zum Herunterladen von Audiodaten hat."
       },
       {
-        "title": "What additional functionality can I expect over the coming months?",
-        "category": "App",
-        "detailedAnswer": "1. The option to enlarge text size\n2. Translation of the app into Bahasa Indonesia, German, French and Thai\n3. Improvements to the end of year experience\n4. Improved process for donating to BiOY\n\nThereafter we will be working on several ideas and improvements for the app which you are welcome to feed in to by emailing: [bioy@alpha.org](mailto:bioy@alpha.org)",
-        "shortAnswer": "Our team are working on the option to enlarge app text size, improvements to the end of year experience and the process of donating to BiOY. The app will also be translated into four more languages."
+        "title": "Wie kann ich verhindern, dass mein Gerät automatisch Audiodateien herunterlädt?",
+        "category": "Audio",
+        "shortAnswer": "Automatische Downloads können in den Einstellungen unter dem Abschnitt \"Audio-Downloads\" verwaltet werden.",
+        "detailedAnswer": "Automatische Downloads können in den Einstellungen unter dem Abschnitt \"Audio-Downloads\" verwaltet werden.\n\nBitte beachte, dass das Deaktivieren der automatischen Downloads nicht automatisch alle bereits heruntergeladenen Audiodateien löscht. Auf deinem Gerät gespeicherte Audiodateien können unter \"Einstellungen\" in \"Audio verwalten\" gelöscht werden."
       },
       {
-        "title": "How do I stop my device auto-downloading audio files?",
+        "title": "Kann ich die Audiodateien offline anhören?",
         "category": "Audio",
-        "shortAnswer": "Auto downloads can be managed in Settings, under the the ‘Audio Downloads’ section.",
-        "detailedAnswer": "Auto downloads can be managed in Settings, in the ‘Audio Downloads’ section.\n\nPlease note that turning Auto Downloads off won’t automatically delete any audio that has been downloaded already. Audio files stored on your phone can be deleted under ‘Settings’, in ‘Manage Audio’."
+        "detailedAnswer": "Wenn du die neueste Version der App hast, kannst du dies auf zwei Arten tun.\n\n1. Du kannst automatische Downloads einrichten, dadurch werden die Audioinhalte des nächsten Tages automatisch heruntergeladen und aufbewahrt, bis du sie dir angehört hast. Dazu gehst du zu Einstellungen, Audiodownloads und wählst aus, wie viele Tage die App die Audiodaten für dich herunterladen soll.\n2. Alternativ kannst du Audiodateien auch manuell herunterladen, indem du in der Listenansicht nach rechts auf den Tag streichst. Daraufhin wird links eine Schaltfläche zum Herunterladen angezeigt, auf die du einfach tippen kannst, um die Datei herunterzuladen.\n\nWenn du Bedenken wegen des Downloads über deine mobilen Daten hast, stelle bitte sicher, dass \"Mobile Daten verwenden\" auf deinem Gerät auf \"Aus\" gestellt ist.",
+        "shortAnswer": "Es gibt zwei Möglichkeiten, Audiodateien offline anzuhören."
       },
       {
-        "title": "Can I listen to audio offline?",
+        "title": "Wie viele Tage Audio sind auf meinem Gerät gespeichert?",
         "category": "Audio",
-        "detailedAnswer": "As long as you have the latest version of the app, you can do this in one of two ways.\n\n1. You can set up auto downloads, which will allow your phone to download the next day’s audio content automatically and keep it until you have listened to it. Go to Settings, Audio Downloads, and choose how many days audio you would like your app to download for you.\n\n2. Alternatively you can also manually download audio files, by swiping right on the day from the list view. This brings up a download button on the left, simply tap it to download the file.\n\nIf you are concerned about downloading over your mobile data, please ensure ‘Use mobile data’ is set to ‘Off’ on your device.",
-        "shortAnswer": "There are two ways of listening to audio offline."
-      },
-      {
-        "title": "How many days of audio are stored on my device?",
-        "category": "Audio",
-        "shortAnswer": "Tap on Menu > Settings > Manage Audio to find out how many days are currently stored on your device.",
-        "detailedAnswer": "Tap on Menu > Settings > Manage Audio to find out how many days are currently stored on your device."
+        "shortAnswer": "Tippe auf Menü > Einstellungen > Audio verwalten, um herauszufinden, wie viele Tage derzeit auf deinem Gerät gespeichert sind.",
+        "detailedAnswer": "Tippe auf Menü > Einstellungen > Audio verwalten, um herauszufinden, wie viele Tage derzeit auf deinem Gerät gespeichert sind."
       },
       {
         "title": "What happens to my audio files if I change edition?",
