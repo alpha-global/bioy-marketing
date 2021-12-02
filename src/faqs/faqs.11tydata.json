@@ -323,10 +323,10 @@
         "detailedAnswer": "Wenn du zu einer anderen Version von \"Bibel in einem Jahr\" wechseln möchtest, kannst du dies im Menü \"Einstellungen\" tun.\n\nHinweis: Die Version \"Youth\" ist nur in englischer Sprache verfügbar. Daher musst du die Sprache des Inhalts auf Englisch einstellen, bevor du deine Version ändern kannst. Tippe auf \"Edition\" und wähle entweder \"Classic\", \"Express\" oder \"Youth\". Alle Inhalte, die du bereits abgeschlossen hast, werden in diesem neuen Editionsformat erneut heruntergeladen und dein Fortschritt im Laufe des Jahres wird gespeichert."
       },
       {
-        "title": "I’m not able to play the audio, what should I do?",
+        "title": "Der Audioinhalt kann nicht abgespielt werden, was soll ich tun?",
         "category": "Audio",
-        "shortAnswer": "Check if you have connectivity, or if the devotion is downloaded.\nPull down on the ListView to refresh the app.\nTry to play the audio again.\n\nPlease refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to download audio.",
-        "detailedAnswer": "Check if you have connectivity, or if the devotion is downloaded.\nPull down on the ListView to refresh the app.\nTry to play the audio again.\n\nPlease refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to download audio."
+        "shortAnswer": "Überprüfe, ob du eine Verbindung hast, oder ob der Tag heruntergeladen wurde.\nStreiche auf der Listenansicht nach unten, um die App zu aktualisieren.\nVersuch erneut, die Audiodatei abzuspielen.\n\nBitte lies die FAQ zur Verwaltung von Audiodownloads, um sicherzustellen, dass die App genügend Platz zum Herunterladen von Audiodaten hat.",
+        "detailedAnswer": "Überprüfe, ob du eine Verbindung hast, oder ob der Tag heruntergeladen wurde.\nStreiche auf der Listenansicht nach unten, um die App zu aktualisieren.\nVersuch erneut, die Audiodatei abzuspielen.\n\nBitte lies die FAQ zur Verwaltung von Audiodownloads, um sicherzustellen, dass die App genügend Platz zum Herunterladen von Audiodaten hat."
       },
       {
         "title": "What additional functionality can I expect over the coming months?",
