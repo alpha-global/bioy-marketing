@@ -26,7 +26,17 @@
     "body": "**Pressé·e ? L'édition Express est conçue pour vous. Prenez moins de 15 minutes chaque jour pour couvrir les passages clés de la Bible.**\n\nChaque jour, un thème différent est exploré à travers une sélection d'écritures tirées de l'Ancien et du Nouveau Testament, ainsi que du livre des Psaumes ou des Proverbes. Les commentaires de Nicky et Pippa sur ces extraits sont pleins de perspicacité, de sagesse et d'application pratique et vous donneront un aperçu détaillé de l'intégralité de la Bible tout au long de l'année."
   },
   "de": {
-    "title": "Express"
+    "title": "Express",
+    "header": {
+      "img": {
+        "src": "/assets/img/express_lead.jpg",
+        "desc": "Eine Frau sitzt im Zug und hört sich die Expressausgabe von Bibel in einem Jahr an."
+      },
+      "title": "Die Bibel. Einfach erleben.",
+      "strapline": "Unkompliziert. Schnell. Lebensverändernd. ",
+      "cta": "Los geht's"
+    },
+    "body": "**In Eile? Dann ist die Express-Version für dich. Nimm dir jeden Tag weniger als 15 Minuten Zeit, um die wichtigsten Passagen der Bibel zu erleben.**\n\nJeden Tag wird ein anderes Thema anhand ausgewählter Bibelstellen aus dem Alten und Neuen Testament sowie aus dem Buch der Psalmen oder den Sprüchen beleuchtet. Die Kommentare von Nicky und Pippa zu diesen Textauszügen sind voller Impulse und praktischen Anwendungen und geben einen umfassenden Überblick über die gesamte Bibel während des ganzen Jahres."
   },
   "es": {
     "title": "Express"
