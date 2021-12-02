@@ -299,10 +299,10 @@
         "detailedAnswer": "Du kannst einstellen, wie viele Tage Audio auf deinem Gerät gespeichert werden. Tippe auf Menü > Einstellungen > Audio-Downloads. Bewege den roten Kreis entlang der Linie, um die Anzahl der Tage, die die Audiodateien auf Ihrem Gerät gespeichert bleiben, anzupassen. Du kannst auch auswählen, welche Optionen für mobile Daten und den automatischen Download für dich am besten geeignet sind."
       },
       {
-        "title": "How do I manually delete audio files that are saved to my device?",
+        "title": "Wie kann ich Audiodateien, die auf meinem Gerät gespeichert sind, manuell löschen?",
         "category": "App",
         "shortAnswer": "Swipe right on the relevant day from the list view and tap the bin icon.\n\nTo delete more than one day of audio at once and view a list of all your downloaded audio, tap on Menu > Settings > Manage Audio. Tick the box to select which days you would like to delete or select all. Then tap on Delete Selected Audio.",
-        "detailedAnswer": "Swipe right on the relevant day from the list view and tap the bin icon. \n\nTo delete more than one day of audio at once and view a list of all your downloaded audio, tap on Menu > Settings > Manage Audio. Tick the box to select which days you would like to delete or select all. Then tap on Delete Selected Audio."
+        "detailedAnswer": "Wische nach rechts über den entsprechenden Tag in der Listenansicht und tippe auf das Mülleimer-Symbol. \n\nUm mehr als einen Tag auf einmal zu löschen und eine Liste aller heruntergeladenen Audiodateien anzuzeigen, tippe auf Menü > Einstellungen > Audio verwalten. Markiere das Kästchen, um die Tage auszuwählen, die du löschen möchtest, oder wähle alle aus. Tippe dann auf Ausgewählte Audios löschen."
       },
       {
         "title": "What is the structure of a day’s content?",
