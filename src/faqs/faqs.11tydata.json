@@ -492,14 +492,14 @@
       }
     ],
     "seeMore": "Mehr anzeigen",
-    "submitButton": "Submit a support request",
+    "submitButton": "Eine Supportanfrage stellen",
     "intro": "**Hast du eine Frage zu Bibel in einem Jahr?**\n\nEin Problem mit der App? Gib deine Frage hier ein...",
     "notFoundMessage": "Leider haben wir kein Ergebnis gefunden für ",
     "title": "FAQs",
     "filter": "Filter",
     "categories": {
       "Audio": "Audio",
-      "Content": "Content",
+      "Content": "Inhalt",
       "App": "App"
     },
     "filterHint": "Wonach suchst du?"
