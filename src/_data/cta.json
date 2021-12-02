@@ -34,7 +34,11 @@
     "android": "Get it on Google Play"
   },
   "th": {
-    "title": "Title"
+    "title": "ดาวน์โหลดแอพจาก iOS และ Android",
+    "android": "ดาวน์โหลดบน Google Play",
+    "ios": "ดาวน์โหลดบน App Store",
+    "sub_title": "อ่านพระคัมภีร์ทั้งเล่มใน 365 วัน",
+    "more": "ศึกษาเพิ่มเติม"
   },
   "zh": {
     "title": "今天就下载圣经日日行APP",
