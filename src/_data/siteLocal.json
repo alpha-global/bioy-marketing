@@ -37,7 +37,11 @@
     "title": "Bible in One Year."
   },
   "th": {
-    "title": "Title"
+    "title": "พระคัมภีร์ในหนึ่งปี\n(Bible in One Year)",
+    "switcher": {
+      "title": "เปลี่ยนภาษา",
+      "subTitle": "พระคัมภีร์ในหนึ่งปีมีให้บริการในภาษาต่อไปนี้:"
+    }
   },
   "zh": {
     "title": "圣经日日行",
