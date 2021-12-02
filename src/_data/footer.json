@@ -116,7 +116,31 @@
     }
   },
   "th": {
-    "headline": "Headline"
+    "headline": "เริ่มต้นแต่ละวัน ด้วยพระคัมภีร์",
+    "cta": "ดาวน์โหลดแอพได้ตั้งแต่วันนี้",
+    "nav": [
+      {
+        "label": "อัลฟ่า (Alpha)"
+      },
+      {
+        "label": "HTB Church"
+      },
+      {
+        "label": "หลักสูตรคู่สมรส (The Marriage Course)"
+      },
+      {
+        "label": "ถวาย"
+      },
+      {
+        "label": "คำถามที่พบบ่อย (FAQs)"
+      },
+      {
+        "label": "Privacy"
+      },
+      {
+        "label": "Cookies"
+      }
+    ]
   },
   "zh": {
     "headline": "以阅读圣经来开启新的一天",
