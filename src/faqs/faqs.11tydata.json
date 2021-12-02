@@ -368,13 +368,7 @@
         "title": "Kann ich BieJ per E-Mail erhalten?",
         "category": "Content",
         "shortAnswer": "Ja, du kannst dich auf der BieJ-Homepage für die Classic-Version per E-Mail anmelden.",
-        "detailedAnswer": "Ja. Wenn du die Classic-Version per E-Mail erhalten möchtest, oder wenn du die täglichen BieJ-E-Mails nicht mehr erhalten hast und dich neu anmelden möchtest, kannst du dich \\[hier] anmelden oder neu anmelden (https://landing.mailerlite.com/webforms/landing/p5d3p8)."
-      },
-      {
-        "title": "What languages is BiOY available in?",
-        "category": "Content",
-        "shortAnswer": "Currently, the classic edition of BiOY is available is Arabic, English, Chinese, Hindi and Spanish. Audio is currently only available in English, with Chinese and Hindi to follow.",
-        "detailedAnswer": "Currently, the classic edition of BiOY is available is Arabic, English, Chinese, Hindi and Spanish. Audio is currently only available in English, with Chinese and Hindi to follow.\n\nWe will continue to work with other existing translations to make them available through the app – look out for Bahasa Indonesia, German, French and Thai launching through 2021 and 2022."
+        "detailedAnswer": "Ja. Wenn du die Classic-Version per E-Mail erhalten möchtest, oder wenn du die täglichen BieJ-E-Mails nicht mehr erhalten hast und dich neu anmelden möchtest, kannst du dich [\\[hier]]((https://landing.mailerlite.com/webforms/landing/p5d3p8)) anmelden oder neu anmelden."
       },
       {
         "title": "How do I access the new app Menu?",
