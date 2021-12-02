@@ -341,28 +341,28 @@
         "detailedAnswer": "Tippe auf Menü > Einstellungen > Audio verwalten, um herauszufinden, wie viele Tage derzeit auf deinem Gerät gespeichert sind."
       },
       {
-        "title": "What happens to my audio files if I change edition?",
+        "title": "Was passiert mit meinen Audiodateien, wenn ich die Version wechsle?",
         "category": "Audio",
-        "shortAnswer": "Audio files are deleted if you change which edition your device is accessing. You can still download the audio files manually by swiping right on the day from the list view and tapping the download icon.",
-        "detailedAnswer": "Audio files are deleted if you change which edition your device is accessing. You can still download the audio files manually by swiping right on the day from the list view and tapping the download icon."
+        "shortAnswer": "Audiodateien werden gelöscht, wenn du die Version änderst, auf die dein Gerät zugreift. Du kannst die Audiodateien immer noch manuell herunterladen, indem du in der Listenansicht nach rechts über den Tag streichst und auf das Download-Symbol tippst.",
+        "detailedAnswer": "Audiodateien werden gelöscht, wenn du die Version änderst, auf die dein Gerät zugreift. Du kannst die Audiodateien immer noch manuell herunterladen, indem du in der Listenansicht nach rechts über den Tag streichst und auf das Download-Symbol tippst."
       },
       {
-        "title": "If I delete an audio file, can I ever get it back?",
+        "title": "Wenn ich eine Audiodatei lösche, kann ich sie wiederherstellen?",
         "category": "Audio",
-        "shortAnswer": "You can download audio files at any time manually by swiping right on the day from the list view and clicking the download icon that appears.",
-        "detailedAnswer": "You can download audio files at any time manually by swiping right on the day from the list view and clicking the download icon that appears."
+        "shortAnswer": "Du kannst Audiodateien jederzeit manuell herunterladen, indem du in der Listenansicht nach rechts über den Tag streichst und auf das erscheinende Download-Symbol klickst.",
+        "detailedAnswer": "Du kannst Audiodateien jederzeit manuell herunterladen, indem du in der Listenansicht nach rechts über den Tag streichst und auf das erscheinende Download-Symbol klickst."
       },
       {
-        "title": "Do I have to download an audio file to listen to it?",
+        "title": "Muss ich eine Audiodatei herunterladen, um sie anhören zu können?",
         "category": "Audio",
-        "shortAnswer": "No, you can stream the audio over Wi-Fi or using mobile data if you prefer.",
-        "detailedAnswer": "No, you can stream the audio over wifi or using mobile data if you prefer."
+        "shortAnswer": "Nein, du kannst die Audiodatei über WLAN oder mobile Daten streamen, wenn du das möchtest.",
+        "detailedAnswer": "Nein, du kannst die Audiodatei über WLAN oder mobile Daten streamen, wenn du das möchtest."
       },
       {
-        "title": "How can I skip through different sections of the audio?",
+        "title": "Wie kann ich durch die verschiedenen Abschnitte des Audios springen?",
         "category": "Audio",
-        "shortAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio.",
-        "detailedAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio in this order: \n\nIntro, Proverbs/Psalm bible, Proverbs/Psalm Commentary, New Testament Bible, New Testament Commentary, Old Testament Bible, Old Testament Commentary, Pippa Adds. Additionally there is an option to skip 15 seconds forward or backwards through the audio. If you have no option to skip 15 seconds, please download the latest version of your app for this feature.\n\nThere is currently no option to skip through sections on the Youth edition."
+        "shortAnswer": "Bei den Classic- und Express-Versionen von BieJ lässt sich mit der Skip-Funktion des Audioplayers durch jeden Abschnitt des Audios navigieren.",
+        "detailedAnswer": "Bei den Classic- und Express-Versionen von BieJ kannst du mit der Skip-Funktion auf dem Audioplayer jeden Abschnitt in dieser Reihenfolge durchlaufen: \n\nIntro, Sprüche/Psalmen-Bibel, Sprüche/Psalmen-Kommentar, Neues Testament-Bibel, Neues Testament-Kommentar, Altes Testament-Bibel, Altes Testament-Kommentar, Pippa Adds. \n\nZusätzlich gibt es eine Option, um 15 Sekunden vorwärts oder rückwärts zu springen. Wenn du keine Option zum Überspringen von 15 Sekunden hast, lade bitte die neueste Version deiner App herunter."
       },
       {
         "title": "Can I receive BiOY via email?",
