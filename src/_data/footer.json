@@ -101,7 +101,7 @@
     },
     "nav": [
       {
-        "href": "https://www.alpha.org/",
+        "href": "https://www.alphakurs.de/",
         "label": "Alpha",
         "external": true
       },
@@ -111,8 +111,8 @@
         "external": true
       },
       {
-        "href": "https://themarriagecourse.org/",
-        "label": "The Marriage Course",
+        "href": "https://alphakurs.de/ehekurse",
+        "label": "Die Ehe-Kurse",
         "external": true
       },
       {
