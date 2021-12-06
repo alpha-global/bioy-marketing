@@ -31,7 +31,15 @@
     }
   },
   "fr": {
-    "title": "Title"
+    "title": "Bible en 1 an",
+    "switcher": {
+      "title": "Change Language",
+      "subTitle": "Bible in One Year is available in the following languages:"
+    },
+    "social": {
+      "desc": "Start your day with the Bible in One Year, a free Bible reading app from HTB and the Alpha Course with commentary by Nicky & Pippa Gumbel.",
+      "img": "/assets/img/bioy-og-en.jpg"
+    }
   },
   "hi": {
     "title": "Bible in One Year."
