@@ -147,8 +147,8 @@
     }
   },
   "fr": {
-    "headline": "Start every day in the Bible.",
-    "cta": "Télécharge l'application aujourd'hui",
+    "headline": "Commencez chaque journée avec la Bible.",
+    "cta": "Téléchargez l'application aujourd'hui",
     "social": {
       "facebook": "nickygumbel",
       "twitter": "nickygumbel",
@@ -156,7 +156,7 @@
     },
     "nav": [
       {
-        "href": "https://www.alpha.org/",
+        "href": "https://www.parcoursalpha.fr/",
         "label": "Alpha",
         "external": true
       },
@@ -166,27 +166,27 @@
         "external": true
       },
       {
-        "href": "https://themarriagecourse.org/",
-        "label": "The Marriage Course",
+        "href": "https://www.parcoursalpha.fr/duo",
+        "label": "Parcours Duo",
         "external": true
       },
       {
-        "href": "/en/donate",
-        "label": "Donate",
+        "href": "https://www.parcoursalpha.fr/donner",
+        "label": "Donner",
+        "external": true
+      },
+      {
+        "href": "/fr/faqs",
+        "label": "FAQ",
         "external": false
       },
       {
-        "href": "/en/faqs",
-        "label": "FAQs",
-        "external": false
+        "href": "https://www.parcoursalpha.fr/politique-de-confidentialite",
+        "label": "Confidentialité",
+        "external": true
       },
       {
-        "href": "/en/privacy-policy/",
-        "label": "Privacy",
-        "external": false
-      },
-      {
-        "href": "/en/cookies/",
+        "href": "/fr/cookies/",
         "label": "Cookies",
         "external": false
       }
