@@ -379,14 +379,14 @@
       {
         "title": "Kann ich das Startdatum ändern?",
         "category": "App",
-        "shortAnswer": "If you would like to change the date you selected to start the BiOY reading plan you will need to either reset your app data or re-install the app.",
-        "detailedAnswer": "If you would like to change the date you selected to start the BiOY reading plan you will need to uninstall the app and install it again from the App Store or Google Play. When you launch the app again for the first time, select the edition you wish to use (Classic, Express or Youth). Tap on 'pick up part way through' and select the day you wish to start from."
+        "shortAnswer": "Wenn du das Datum, das du für den Start ausgewählt hast, ändern möchtest, musst du entweder deine App-Daten zurücksetzen oder die App neu installieren.",
+        "detailedAnswer": "Wenn du das Datum, das du für den Start ausgewählt hast, ändern möchtest, musst du entweder deine App-Daten zurücksetzen oder die App neu installieren. Wenn du die App zum ersten Mal startest, wähle die gewünschte Ausgabe (Classic, Express oder Youth (englisch) ). Tippe auf \"Weitermachen\" und wähle den Tag, an dem du beginnen möchtest."
       },
       {
-        "title": "Why have you updated the app?",
+        "title": "Warum gibt es eine neues Update der App?",
         "category": "App",
-        "shortAnswer": "We needed to move the app to a new platform to enable us to add more functionality and quality-of-life improvements that were not possible in the legacy BiOY app. Simply put, in order to improve the app, we had to rebuild it from the bottom up.",
-        "detailedAnswer": "We needed to move the app to a new platform to enable us to add more functionality and quality-of-life improvements that were not possible in the legacy BiOY app. Simply put, in order to improve the app, we had to rebuild it from the bottom up."
+        "shortAnswer": "Wir mussten die App auf eine neue Plattform umziehen, damit wir mehr Funktionen und Verbesserungen einbauen konnten. Einfach ausgedrückt: Um die App zu verbessern, mussten wir sie von Grund auf neu aufbauen.",
+        "detailedAnswer": "Wir mussten die App auf eine neue Plattform umziehen, damit wir mehr Funktionen und Verbesserungen einbauen konnten. Einfach ausgedrückt: Um die App zu verbessern, mussten wir sie von Grund auf neu aufbauen."
       },
       {
         "title": "How can I donate via the app?",
