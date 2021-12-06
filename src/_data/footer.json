@@ -104,7 +104,50 @@
     }
   },
   "fr": {
-    "headline": "Headline"
+    "headline": "Start every day in the Bible.",
+    "cta": "Télécharge l'application aujourd'hui",
+    "social": {
+      "facebook": "nickygumbel",
+      "twitter": "nickygumbel",
+      "instagram": "nickygumbel"
+    },
+    "nav": [
+      {
+        "href": "https://www.alpha.org/",
+        "label": "Alpha",
+        "external": true
+      },
+      {
+        "href": "https://www.htb.org/",
+        "label": "HTB Church",
+        "external": true
+      },
+      {
+        "href": "https://themarriagecourse.org/",
+        "label": "The Marriage Course",
+        "external": true
+      },
+      {
+        "href": "/en/donate",
+        "label": "Donate",
+        "external": false
+      },
+      {
+        "href": "/en/faqs",
+        "label": "FAQs",
+        "external": false
+      },
+      {
+        "href": "/en/privacy-policy/",
+        "label": "Privacy",
+        "external": false
+      },
+      {
+        "href": "/en/cookies/",
+        "label": "Cookies",
+        "external": false
+      }
+    ]
   },
   "hi": {
     "headline": "Start Every Day in God's Word",
