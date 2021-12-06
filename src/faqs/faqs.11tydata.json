@@ -389,16 +389,16 @@
         "detailedAnswer": "Wir mussten die App auf eine neue Plattform umziehen, damit wir mehr Funktionen und Verbesserungen einbauen konnten. Einfach ausgedrückt: Um die App zu verbessern, mussten wir sie von Grund auf neu aufbauen."
       },
       {
-        "title": "How can I donate via the app?",
+        "title": "Wie kann ich über die App spenden?",
         "category": "App",
-        "shortAnswer": "Thank you for considering giving toward BiOY, you can donate through the app menu or here on the BiOY site - Click 'donate'.",
-        "detailedAnswer": "Thank you for considering giving toward BiOY, you can donate through the app menu or here on the [BiOY site](/en/donate)."
+        "shortAnswer": "Vielen Dank, dass du in Erwägung ziehst, für BieJ zu spenden. Du kannst über das App-Menü oder hier auf der BieJ-Website spenden - klicke auf 'spenden'.",
+        "detailedAnswer": "Vielen Dank, dass du in Erwägung ziehst, für BieJ zu spenden. Du kannst über das App-Menü oder hier auf der BieJ-Website spenden - klicke auf 'spenden'. [](/en/donate)"
       },
       {
-        "title": "Does this really contain the whole bible?",
+        "title": "Ist wirklich die ganze Bibel enthalten?",
         "category": "Content",
-        "shortAnswer": "The entire bible is covered in the Classic edition of BiOY. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.",
-        "detailedAnswer": "The entire bible is covered in the Classic edition of BiOY. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.\n\nThe Youth and Express editions provide an abridged version of the Classic BiOY with selected scriptures from the book of Psalms or Proverbs, the New Testament and Old Testament. Not every verse in the bible is covered in these editions, however they do give a full experience of the bible."
+        "shortAnswer": "Die gesamte Bibel ist in der Classic-Ausgabe von BieJ enthalten. Jeden Tag liest oder hört man einen Psalm oder aus den Sprüchen, einen Teil des Neuen und des Alten Testaments.",
+        "detailedAnswer": "Die gesamte Bibel ist in der Classic-Ausgabe von BieJ enthalten. Jeden Tag liest oder hört man einen Psalm oder aus den Sprüchen, einen Teil des Neuen und des Alten Testaments.\n\nDie Express-Ausgabe (und die englische Youth-Ausgabe) bietet eine gekürzte Version der klassischen BieJ mit ausgewählten Bibelstellen aus dem Buch der Psalmen oder den Sprüchen, dem Neuen Testament und dem Alten Testament. In diesen Ausgaben werden nicht alle Verse der Bibel behandelt, aber sie vermitteln ein umfassendes Verständnis der Bibel."
       },
       {
         "title": "I missed a day, can I change the day I am on?",
