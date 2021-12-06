@@ -12,7 +12,8 @@
     "express": "Express"
   },
   "de": {
-    "intro": "Intro"
+    "intro": "Intro",
+    "classic": "Classic"
   },
   "es": {
     "intro": "Bible in One Year comes in three different editions…",
