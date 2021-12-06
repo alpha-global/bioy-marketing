@@ -16,7 +16,11 @@
     "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
   },
   "de": {
-    "title": "Title"
+    "title": "Heutiger Text",
+    "today": "Heute",
+    "day": "Tag",
+    "cta_teaser": "In der App \"Bibel in einem Jahr\" hast du Zugriff auf den gesamten Verlauf, Audios, Fortschrittsanzeige und vieles mehr.",
+    "cta": "Jetzt runterladen"
   },
   "es": {
     "title": "Today's Reading",
