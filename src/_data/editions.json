@@ -23,7 +23,10 @@
     "express": ""
   },
   "fr": {
-    "intro": "Intro"
+    "intro": "Bible en 1 an se décline en trois versions...",
+    "classic": "Classic",
+    "youth": "Youth",
+    "express": "Express"
   },
   "hi": {
     "intro": "Bible in One Year comes in three different editions…",
