@@ -419,28 +419,28 @@
         "detailedAnswer": "Neben der BieJ Classic-Ausgabe (die etwa 25 Minuten dauert) gibt es auch die Möglichkeit, die Express-Version (die 11 bis 13 Minuten dauert) oder die Youth-Version (englisch, 12 bis 14 Minuten) zu wählen."
       },
       {
-        "title": "Whose voices am I hearing in the audio tracks?",
+        "title": "Wessen Stimmen höre ich in den Audios?",
         "category": "Audio",
-        "shortAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team.",
-        "detailedAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team."
+        "shortAnswer": "",
+        "detailedAnswer": ""
       },
       {
-        "title": "Can I synchronise the BiOY app between my phone and tablet?",
+        "title": "Kann ich die BieJ-App zwischen meinem Telefon und meinem Tablet synchronisieren?",
         "category": "Audio",
-        "shortAnswer": "Not yet. There is currently no way to sync your progress through BiOY, although this is a feature that is being considered for 2021.",
-        "detailedAnswer": "Not yet. There is currently no way to sync your progress through BiOY, although this is a feature that is being considered for 2021."
+        "shortAnswer": "Noch nicht. Derzeit gibt es keine Möglichkeit, den Fortschritt zu synchronisieren. In Zukunft wird das voraussichtlich möglich sein.",
+        "detailedAnswer": "Noch nicht. Derzeit gibt es keine Möglichkeit, den Fortschritt zu synchronisieren. In Zukunft wird das voraussichtlich möglich sein."
       },
       {
-        "title": "Will the BiOY automatically reset after I complete Day 365?",
+        "title": "Wird BieJ automatisch am Ende des Jahres auf Tag 1 zurückgesetzt?",
         "category": "Content",
-        "shortAnswer": "For those that are a few weeks behind and are worried they’ll lose access to the commentaries, be assured that you need to complete all of the days before the app resets back to Day 1.",
-        "detailedAnswer": "For those that are a few weeks behind and are worried they’ll lose access to the commentaries, be assured that you need to complete all of the days before the app resets back to Day 1."
+        "shortAnswer": "Bevor die App automatisch auf Tag 1 zurückspringt, müssen alle anderen Tage gelesen werden.",
+        "detailedAnswer": "Bevor die App automatisch auf Tag 1 zurückspringt, müssen alle anderen Tage gelesen werden."
       },
       {
-        "title": "Is it the commentary the same every year?",
+        "title": "Ist der Kommentar jedes Jahr derselbe?",
         "category": "Content",
-        "shortAnswer": "The majority of the content will be the same with small updates each year.",
-        "detailedAnswer": "The majority of the content will be the same with small updates each year."
+        "shortAnswer": "Der größte Teil des Inhalts wird gleich bleiben, mit kleinen Aktualisierungen jedes Jahr.",
+        "detailedAnswer": "Der größte Teil des Inhalts wird gleich bleiben, mit kleinen Aktualisierungen jedes Jahr."
       },
       {
         "title": "How can I mark a devotion as unread/read?",
