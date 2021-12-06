@@ -1,6 +1,6 @@
 ---
 title: Privacy policy
-locale: en
+locale: de
 ---
 ### **Introduction**
 
