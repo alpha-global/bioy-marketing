@@ -31,7 +31,11 @@
     "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
   },
   "fr": {
-    "title": "Title"
+    "title": "Lecture du jour",
+    "today": "Aujourd'hui",
+    "day": "Jour",
+    "cta_teaser": "Dans l'application Bible en 1 an, vous pouvez accéder à un historique complet, à des commentaires audio (français bientôt disponible), à un suivi de la progression, et plus encore.",
+    "cta": "Télécharger aujourd'hui"
   },
   "hi": {
     "title": "Today's Reading",
