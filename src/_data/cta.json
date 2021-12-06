@@ -28,7 +28,11 @@
     "android": "Get it on Google Play"
   },
   "fr": {
-    "title": "Title"
+    "title": "Téléchargez l'application iOS et Android",
+    "android": "Obtenez-la sur Google Play",
+    "ios": "Téléchargez dans l'App Store",
+    "sub_title": "Lisez toute la Bible en 365 jours.",
+    "more": "En savoir plus"
   },
   "hi": {
     "title": "Download Bible in One Year Today",
