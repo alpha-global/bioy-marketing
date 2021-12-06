@@ -171,9 +171,9 @@
         "external": true
       },
       {
-        "href": "https://www.parcoursalpha.fr/donner",
+        "href": "/fr/donate",
         "label": "Donner",
-        "external": true
+        "external": false
       },
       {
         "href": "/fr/faqs",
@@ -181,9 +181,9 @@
         "external": false
       },
       {
-        "href": "https://www.parcoursalpha.fr/politique-de-confidentialite",
+        "href": "/fr/privacy-policy/",
         "label": "Confidentialité",
-        "external": true
+        "external": false
       },
       {
         "href": "/fr/cookies/",
