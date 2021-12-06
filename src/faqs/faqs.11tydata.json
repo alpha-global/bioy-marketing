@@ -443,16 +443,16 @@
         "detailedAnswer": "Der größte Teil des Inhalts wird gleich bleiben, mit kleinen Aktualisierungen jedes Jahr."
       },
       {
-        "title": "How can I mark a devotion as unread/read?",
+        "title": "Wie kann ich einen Tag als ungelesen/gelesen markieren?",
         "category": "App",
-        "shortAnswer": "To mark as unread, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon. To mark as read, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon.",
-        "detailedAnswer": "To mark as unread, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon. To mark as read, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon."
+        "shortAnswer": "Um einen Tag als ungelesen zu markieren, wische in der Listenansicht nach rechts und tippen auf das Symbol \"Zurück\", das neben dem Symbol für den Download bzw. die Ablage erscheint. Um den Tag als gelesen zu markieren, wische in der Listenansicht nach rechts und tippe auf das \"Häkchen\"-Symbol, das neben dem Download-/Speichersymbol erscheint.",
+        "detailedAnswer": "Um einen Tag als ungelesen zu markieren, wische in der Listenansicht nach rechts und tippen auf das Symbol \"Zurück\", das neben dem Symbol für den Download bzw. die Ablage erscheint. Um den Tag als gelesen zu markieren, wische in der Listenansicht nach rechts und tippe auf das \"Häkchen\"-Symbol, das neben dem Download-/Speichersymbol erscheint."
       },
       {
-        "title": "Can I track my reading progress per section of the devotion?",
+        "title": "Kann ich meinen Lesefortschritt pro Abschnitt jeden Tag verfolgen?",
         "category": "App",
-        "shortAnswer": "Your reading progress is automatically tracked as you read through each day’s devotion. You will see a red bar appear (under the devotion title in the list view) for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’tick’ icon that appears next to the download/bin icon.",
-        "detailedAnswer": "Your reading progress is automatically tracked as you read through each day’s devotion. You will see a red bar appear (under the devotion title in the list view) for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’tick’ icon that appears next to the download/bin icon."
+        "shortAnswer": "Dein Lesefortschritt wird automatisch angezeigt. Unter dem Titel der Andacht in der Listenansicht erscheint ein roter Balken für jeden Abschnitt, den du lies. Wenn du dem Leseplan folgst, aber in diesem Jahr nur einen Abschnitt liest (z. B. ein ganzes Jahr lang nur das Alte Testament), kannst du einen Tag in der Listenansicht als \"Erledigt\" markieren, indem du in der Listenansicht nach rechts über den Tag streichst und auf das \"Häkchen\"-Symbol tippst, das neben dem Download/Papierkorb-Symbol erscheint.",
+        "detailedAnswer": "Dein Lesefortschritt wird automatisch angezeigt. Unter dem Titel der Andacht in der Listenansicht erscheint ein roter Balken für jeden Abschnitt, den du lies. Wenn du dem Leseplan folgst, aber in diesem Jahr nur einen Abschnitt liest (z. B. ein ganzes Jahr lang nur das Alte Testament), kannst du einen Tag in der Listenansicht als \"Erledigt\" markieren, indem du in der Listenansicht nach rechts über den Tag streichst und auf das \"Häkchen\"-Symbol tippst, das neben dem Download/Papierkorb-Symbol erscheint."
       },
       {
         "title": "Can I jump between sections of the devotion text without having to scroll?",
