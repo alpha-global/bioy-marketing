@@ -46,12 +46,12 @@
     }
   },
   "ar": {
-    "headline": "Start every day in the Bible.",
-    "cta": "Download the app today",
+    "headline": "ابدأ كل يوم في الكتاب المقدس.",
+    "cta": "قم بتنزيل التطبيق اليوم",
     "nav": [
       {
-        "href": "https://www.alpha.org/",
-        "label": "Alpha",
+        "href": "https://mena.alpha.org/",
+        "label": "ألفا",
         "external": true
       },
       {
@@ -61,7 +61,7 @@
       },
       {
         "href": "https://themarriagecourse.org/",
-        "label": "The Marriage Course",
+        "label": "برامج الزواج",
         "external": true
       },
       {
@@ -71,7 +71,7 @@
       },
       {
         "href": "/en/faqs",
-        "label": "FAQs",
+        "label": "اسئلة متكررة",
         "external": false
       },
       {
