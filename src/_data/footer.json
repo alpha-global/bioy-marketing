@@ -65,22 +65,22 @@
         "external": true
       },
       {
-        "href": "/en/donate",
+        "href": "/ar/donate",
         "label": "دّعم",
         "external": false
       },
       {
-        "href": "/en/faqs",
+        "href": "/ar/faqs",
         "label": "اسئلة متكررة",
         "external": false
       },
       {
-        "href": "/en/privacy-policy/",
+        "href": "/ar/privacy-policy/",
         "label": "الخصوصية",
         "external": false
       },
       {
-        "href": "/en/cookie/",
+        "href": "/ar/cookie/",
         "label": "تعريف الارتباط",
         "external": false
       }
