@@ -31,9 +31,9 @@
   "ar": {
     "intro": "Bom dia!",
     "header": {
-      "title": "Title",
-      "strapline": "",
-      "cta": "",
+      "title": "هل تريد التعرف على الكتاب المقدس؟",
+      "strapline": "سنأخذك من خلاله خطوة بخطوة.",
+      "cta": "لنبدأ",
       "img": {
         "src": "/assets/img/bioy-header.jpg",
         "desc": "A man looks up from reading Bible In One Year on his phone."
