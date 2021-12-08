@@ -218,7 +218,8 @@
         "label": "ถวาย"
       },
       {
-        "label": "คำถามที่พบบ่อย (FAQs)"
+        "label": "คำถามที่พบบ่อย (FAQs)",
+        "href": "/th/faqs"
       },
       {
         "label": "Privacy"
