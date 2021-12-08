@@ -39,37 +39,6 @@
       }
     ]
   },
-  "es": {
-    "distribution": [
-      {
-        "channel": "App",
-        "icon": "medium_app",
-        "description": "Enjoy reading or listening to the Bible in one year on your iPhone or Android device.\n\n- [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n- [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
-        "image": "/assets/img/medium_app.jpg"
-      },
-      {
-        "channel": "Email",
-        "icon": "medium_email",
-        "description": "Receive a daily email with a fresh devotion straight in your inbox.",
-        "image": "/assets/img/medium_app.jpg",
-        "cta": {
-          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/p9r9p0\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite\" data-ml=\"4091911,p9r9p0\">Sign up now</a>"
-        }
-      },
-      {
-        "channel": "Podcast",
-        "icon": "medium_podcast",
-        "description": "Subscribe and listen to Bible in One Year delivered to your favourte podcast app everyday.",
-        "image": "/assets/img/today_en.jpg"
-      },
-      {
-        "channel": "Website",
-        "icon": "medium_website",
-        "description": "Far from your mobile device? You can read the daily devotion right here on this website.",
-        "image": "/assets/img/medium_app.jpg"
-      }
-    ]
-  },
   "ar": {
     "distribution": [
       {
@@ -110,8 +79,85 @@
       }
     ]
   },
-  "hi": {},
+  "de": {
+    "distribution": [
+      {
+        "channel": "App",
+        "icon": "medium_app",
+        "description": "\n\nDownload the Bible in One Year app for iOS or Android devices and read along each day.\n\n* [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
+        "image": "/assets/img/medium_website.jpg"
+      }
+    ]
+  },
+  "es": {
+    "distribution": [
+      {
+        "channel": "App",
+        "icon": "medium_app",
+        "description": "Enjoy reading or listening to the Bible in one year on your iPhone or Android device.\n\n- [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n- [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
+        "image": "/assets/img/medium_app.jpg"
+      },
+      {
+        "channel": "Email",
+        "icon": "medium_email",
+        "description": "Receive a daily email with a fresh devotion straight in your inbox.",
+        "image": "/assets/img/medium_app.jpg",
+        "cta": {
+          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/p9r9p0\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite\" data-ml=\"4091911,p9r9p0\">Sign up now</a>"
+        }
+      },
+      {
+        "channel": "Podcast",
+        "icon": "medium_podcast",
+        "description": "Subscribe and listen to Bible in One Year delivered to your favourte podcast app everyday.",
+        "image": "/assets/img/today_en.jpg"
+      },
+      {
+        "channel": "Website",
+        "icon": "medium_website",
+        "description": "Far from your mobile device? You can read the daily devotion right here on this website.",
+        "image": "/assets/img/medium_app.jpg"
+      }
+    ]
+  },
+  "fr": {
+    "distribution": [
+      {
+        "channel": "App",
+        "icon": "medium_app",
+        "description": "\n\nDownload the Bible in One Year app for iOS or Android devices and read along each day.\n\n* [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
+        "image": "/assets/img/medium_website.jpg"
+      }
+    ]
+  },
+  "hi": {
+    "distribution": [
+      {
+        "channel": "App",
+        "icon": "medium_app",
+        "description": "\n\nDownload the Bible in One Year app for iOS or Android devices and read along each day.\n\n* [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
+        "image": "/assets/img/medium_website.jpg"
+      }
+    ]
+  },
+  "th": {
+    "distribution": [
+      {
+        "channel": "App",
+        "icon": "medium_app",
+        "description": "\n\nDownload the Bible in One Year app for iOS or Android devices and read along each day.\n\n* [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
+        "image": "/assets/img/medium_website.jpg"
+      }
+    ]
+  },
   "zh": {
-    "distribution": []
+    "distribution": [
+      {
+        "channel": "App",
+        "icon": "medium_app",
+        "description": "\n\nDownload the Bible in One Year app for iOS or Android devices and read along each day.\n\n* [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
+        "image": "/assets/img/medium_website.jpg"
+      }
+    ]
   }
 }
