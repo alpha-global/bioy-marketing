@@ -141,7 +141,8 @@
       {
         "channel": "Website",
         "icon": "medium_website",
-        "description": "Start reading today’s devotion right here on the BiOY website."
+        "description": "Start reading today’s devotion right here on the BiOY website.",
+        "image": "/assets/img/medium_laptop.jpg"
       }
     ]
   },
