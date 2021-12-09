@@ -680,52 +680,46 @@
         "detailedAnswer": "Pas encore. Il n'y a actuellement aucun moyen de synchroniser vos progrès, bien qu'il s'agisse d'une fonctionnalité envisagée prochainement."
       },
       {
-        "title": "Will the BiOY automatically reset after I complete Day 365?",
+        "title": "La Bible en 1 an se réinitialisera-t-elle automatiquement après avoir terminé le jour 365 ?",
         "category": "Content",
-        "shortAnswer": "For those that are a few weeks behind and are worried they’ll lose access to the commentaries, be assured that you need to complete all of the days before the app resets back to Day 1.",
-        "detailedAnswer": "For those that are a few weeks behind and are worried they’ll lose access to the commentaries, be assured that you need to complete all of the days before the app resets back to Day 1."
+        "shortAnswer": "Pour ceux qui ont quelques semaines de retard et craignent de perdre l'accès aux commentaires, assurez-vous de terminer tous les jours avant que l'application ne revienne au jour 1.",
+        "detailedAnswer": "Pour ceux qui ont quelques semaines de retard et craignent de perdre l'accès aux commentaires, assurez-vous de terminer tous les jours avant que l'application ne revienne au jour 1."
       },
       {
-        "title": "What additional functionality can I expect over the coming months?",
-        "category": "App",
-        "detailedAnswer": "1. The option to enlarge text size\n2. Translation of the app into Bahasa Indonesia, German, French and Thai\n3. Improvements to the end of year experience\n4. Improved process for donating to BiOY\n\nThereafter we will be working on several ideas and improvements for the app which you are welcome to feed in to by emailing: [bioy@alpha.org](mailto:bioy@alpha.org)",
-        "shortAnswer": "Our team are working on the option to enlarge app text size, improvements to the end of year experience and the process of donating to BiOY. The app will also be translated into four more languages."
-      },
-      {
-        "title": "Is it the commentary the same every year?",
+        "title": "Est-ce que le commentaire est le même chaque année ?",
         "category": "Content",
-        "shortAnswer": "The majority of the content will be the same with small updates each year.",
-        "detailedAnswer": "The majority of the content will be the same with small updates each year."
+        "shortAnswer": "La majorité du contenu sera le même avec de petites mises à jour chaque année.",
+        "detailedAnswer": "La majorité du contenu sera le même avec de petites mises à jour chaque année."
       },
       {
-        "title": "How can I mark a devotion as unread/read?",
+        "title": "Comment puis-je marquer un jour comme \"lu\" ou \"non lu\" ? ",
         "category": "App",
-        "shortAnswer": "To mark as unread, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon. To mark as read, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon.",
-        "detailedAnswer": "To mark as unread, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon. To mark as read, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon."
+        "shortAnswer": "Pour marquer comme non lu, balayez vers la droite le jour à partir de la liste et appuyez sur l'icône \"rembobinage\" qui apparaît à côté de l'icône de téléchargement/corbeille.",
+        "detailedAnswer": "Pour marquer comme non lu, balayez vers la droite le jour à partir de la liste et appuyez sur l'icône \"rembobinage\" qui apparaît à côté de l'icône de téléchargement/corbeille."
       },
       {
-        "title": "Can I track my reading progress per section of the devotion?",
+        "title": "Puis-je suivre mes progrès de lecture par section du programme ?",
         "category": "App",
-        "shortAnswer": "Your reading progress is automatically tracked as you read through each day’s devotion. You will see a red bar appear (under the devotion title in the list view) for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’tick’ icon that appears next to the download/bin icon.",
-        "detailedAnswer": "Your reading progress is automatically tracked as you read through each day’s devotion. You will see a red bar appear (under the devotion title in the list view) for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’tick’ icon that appears next to the download/bin icon."
+        "shortAnswer": "Votre progression de lecture est automatiquement suivie au fur et à mesure que vous lisez chaque jour. Vous verrez une barre rouge apparaître (sous le titre de la journée dans la liste) pour chaque section que vous lisez. Si vous suivez le plan mais que vous n'en lisez qu'une section cette année (par exemple, une année entière de l'Ancien Testament uniquement), vous pouvez marquer un jour comme \"Terminé\" dans la liste en glissant vers la droite le jour et en appuyant sur l'icône \"coche\" qui apparaît à côté de l'icône de téléchargement/corbeille.",
+        "detailedAnswer": "Votre progression de lecture est automatiquement suivie au fur et à mesure que vous lisez chaque jour. Vous verrez une barre rouge apparaître (sous le titre de la journée dans la liste) pour chaque section que vous lisez. Si vous suivez le plan mais que vous n'en lisez qu'une section cette année (par exemple, une année entière de l'Ancien Testament uniquement), vous pouvez marquer un jour comme \"Terminé\" dans la liste en glissant vers la droite le jour et en appuyant sur l'icône \"coche\" qui apparaît à côté de l'icône de téléchargement/corbeille."
       },
       {
-        "title": "Can I jump between sections of the devotion text without having to scroll?",
+        "title": "Puis-je sauter entre les sections du texte sans avoir à faire défiler ?",
         "category": "App",
-        "shortAnswer": "Yes. Tap any of the sections presented under ‘Today’s Reading’ at the start of the devotion to quickly jump to that section. We have also built a navigation menu that is located above the play button. Tap on the book icon above the play button to open a pop-up menu with the option to navigate to any section of the devotion.",
-        "detailedAnswer": "Yes. Tap any of the sections presented under ‘Today’s Reading’ at the start of the devotion to quickly jump to that section. We have also built a navigation menu that is located above the play button. Tap on the book icon above the play button to open a pop-up menu with the option to navigate to any section of the devotion."
+        "shortAnswer": "Oui. Appuyez sur l'une des sections présentées sous \"Lecture du jour\" au début pour passer rapidement à cette section. Nous avons également construit un menu de navigation situé au-dessus du bouton de lecture. Appuyez sur l'icône du livre au-dessus du bouton de lecture pour ouvrir un menu contextuel avec la possibilité de naviguer vers n'importe quelle section.",
+        "detailedAnswer": "Oui. Appuyez sur l'une des sections présentées sous \"Lecture du jour\" au début pour passer rapidement à cette section. Nous avons également construit un menu de navigation situé au-dessus du bouton de lecture. Appuyez sur l'icône du livre au-dessus du bouton de lecture pour ouvrir un menu contextuel avec la possibilité de naviguer vers n'importe quelle section."
       },
       {
-        "title": "Help, my app is ‘locking’ and ‘bouncing’ in certain screens and pieces of content.",
+        "title": "Au secours, mon application se \"verrouille\" et \"rebondit\" sur certains écrans et éléments de contenu.",
         "category": "App",
-        "shortAnswer": "The latest version of the app has improvements to help users distinguish between sections and reflect on what they have been reading. To continue reading, swipe up to read the next section.",
-        "detailedAnswer": "The latest version of the app has improvements to help users distinguish between sections and reflect on what they have been reading. To continue reading, swipe up to read the next section."
+        "shortAnswer": "La dernière version de l'application comporte des améliorations pour aider les utilisateurs à distinguer les sections et à réfléchir à ce qu'ils ont lu. Pour continuer la lecture, balayez vers le haut pour lire la section suivante.",
+        "detailedAnswer": "La dernière version de l'application comporte des améliorations pour aider les utilisateurs à distinguer les sections et à réfléchir à ce qu'ils ont lu. Pour continuer la lecture, balayez vers le haut pour lire la section suivante."
       },
       {
-        "title": "How can I manage audio?",
+        "title": "Comment puis-je gérer l'audio ?",
         "category": "Audio",
-        "shortAnswer": "The app allows users to download audio in two different ways, manual and automatic.\n\nManual - audio can be downloaded by swiping left on a day and tapping the download icon. This provides a high level of control as to what is on your device at any time and it is recommended that you manually delete the audio from your device once you have finished listening to it.\n\nAutomatic - controlled by a section within Settings, the app is able to automatically download a number of audio days for you, up to a limit that you set. It will delete the audio from your device if you listen to it all the way through. The app will stop automatically downloading new audio when it reaches the limit. This happens when you have lots of automatically downloaded audio that you have only partially listened to. To resolve this, clear out your audio downloads: navigate to Menu > Settings > Manage Audio and select the audio you wish to delete.\n\n\n\n",
-        "detailedAnswer": "The app allows users to download audio in two different ways, manual and automatic.\n\nManual - audio can be downloaded by swiping left on a day and tapping the download icon. This provides a high level of control as to what is on your device at any time and it is recommended that you manually delete the audio from your device once you have finished listening to it.\n\nAutomatic - controlled by a section within Settings, the app is able to automatically download a number of audio days for you, up to a limit that you set. It will delete the audio from your device if you listen to it all the way through. The app will stop automatically downloading new audio when it reaches the limit. This happens when you have lots of automatically downloaded audio that you have only partially listened to. To resolve this, clear out your audio downloads: navigate to Menu > Settings > Manage Audio and select the audio you wish to delete. \n\nYou can adjust the automatic audio download limit by navigating to: Menu > Settings > Audio Downloads and then use the slider to set the number of audio days (between 1 and 14) you wish to store on your device."
+        "shortAnswer": "L'application permet aux utilisateurs de télécharger de l'audio de deux manières différentes, manuelle et automatique.\n\nManuel - l'audio peut être téléchargé en balayant vers la droite un jour et en appuyant sur l'icône de téléchargement. Cela offre un haut niveau de contrôle sur ce qui se trouve sur votre appareil à tout moment et il est recommandé de supprimer manuellement l'audio de votre appareil une fois que vous avez fini de l'écouter.\n\nAutomatique - contrôlé par une option dans les paramètres, l'application est capable de télécharger automatiquement un certain nombre de jours audio pour vous, jusqu'à une limite que vous définissez. Il supprimera l'audio de votre appareil si vous l'écoutez jusqu'au bout. L'application cessera de télécharger automatiquement le nouvel audio lorsqu'elle atteint la limite. Cela se produit lorsque vous avez beaucoup de contenus audio téléchargés automatiquement que vous n'avez que partiellement écoutés. Pour résoudre ce problème, supprimez vos téléchargements audio : accédez au Menu > Paramètres > Gérer l'audio et sélectionnez l'audio que vous souhaitez supprimer.",
+        "detailedAnswer": "L'application permet aux utilisateurs de télécharger de l'audio de deux manières différentes, manuelle et automatique.\n\nManuel - l'audio peut être téléchargé en balayant vers la droite un jour et en appuyant sur l'icône de téléchargement. Cela offre un haut niveau de contrôle sur ce qui se trouve sur votre appareil à tout moment et il est recommandé de supprimer manuellement l'audio de votre appareil une fois que vous avez fini de l'écouter.\n\nAutomatique - contrôlé par une option dans les paramètres, l'application est capable de télécharger automatiquement un certain nombre de jours audio pour vous, jusqu'à une limite que vous définissez. Il supprimera l'audio de votre appareil si vous l'écoutez jusqu'au bout. L'application cessera de télécharger automatiquement le nouvel audio lorsqu'elle atteint la limite. Cela se produit lorsque vous avez beaucoup de contenus audio téléchargés automatiquement que vous n'avez que partiellement écoutés. Pour résoudre ce problème, supprimez vos téléchargements audio : accédez au Menu > Paramètres > Gérer l'audio et sélectionnez l'audio que vous souhaitez supprimer.\n\nVous pouvez ajuster la limite de téléchargement audio automatique en accédant au Menu > Paramètres > Téléchargements audio, puis utilisez le curseur pour définir le nombre de jours audio (entre 1 et 14) que vous souhaitez stocker sur votre appareil."
       }
     ],
     "seeMore": "Voir plus",
