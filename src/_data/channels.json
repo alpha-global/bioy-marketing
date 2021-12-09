@@ -105,7 +105,7 @@
       {
         "channel": "Website",
         "icon": "medium_website",
-        "description": "Starte gleich hier auf der Webseite mit dem Lesen von Bibel in einem Jahr.",
+        "description": "Starte gleich hier auf der Website mit dem Lesen von Bibel in einem Jahr.",
         "image": "/assets/img/medium_laptop.jpg",
         "cta": {
           "code": "<a href=\"#today\" class=\"whiteButton\">Jetzt lesen</a>"
