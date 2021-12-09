@@ -39,13 +39,16 @@
     "body": "**In Eile? Dann ist die Express-Version für dich. Nimm dir jeden Tag weniger als 15 Minuten Zeit, um die wichtigsten Passagen der Bibel zu erleben.**\n\nJeden Tag wird ein anderes Thema anhand ausgewählter Bibelstellen aus dem Alten und Neuen Testament sowie aus dem Buch der Psalmen oder den Sprüchen beleuchtet. Die Kommentare von Nicky und Pippa zu diesen Textauszügen sind voller Impulse und praktischen Anwendungen und geben einen umfassenden Überblick über die gesamte Bibel während des ganzen Jahres."
   },
   "es": {
-    "title": "Express"
+    "title": "Express",
+    "body": "**In a hurry? The Express edition is designed for you. Take less than 15 minutes each day to cover key passages throughout the Bible.**\n\nEvery day, a different theme is explored through a selection of scriptures taken from the Old and New Testaments, as well as the book of Psalms or Proverbs. Nicky and Pippa’s commentary on these excerpts are full of insight, wisdom, and practical application and will give you an in-depth overview of the entirety of the Bible across the year."
   },
   "fr": {
-    "title": "Express"
+    "title": "Express",
+    "body": "**In a hurry? The Express edition is designed for you. Take less than 15 minutes each day to cover key passages throughout the Bible.**\n\nEvery day, a different theme is explored through a selection of scriptures taken from the Old and New Testaments, as well as the book of Psalms or Proverbs. Nicky and Pippa’s commentary on these excerpts are full of insight, wisdom, and practical application and will give you an in-depth overview of the entirety of the Bible across the year."
   },
   "hi": {
-    "title": "Express"
+    "title": "Express",
+    "body": "**In a hurry? The Express edition is designed for you. Take less than 15 minutes each day to cover key passages throughout the Bible.**\n\nEvery day, a different theme is explored through a selection of scriptures taken from the Old and New Testaments, as well as the book of Psalms or Proverbs. Nicky and Pippa’s commentary on these excerpts are full of insight, wisdom, and practical application and will give you an in-depth overview of the entirety of the Bible across the year."
   },
   "th": {
     "title": "ด่วนพิเศษ",
@@ -57,6 +60,7 @@
       "title": "把圣经融入生活中",
       "strapline": "上帝的话。每天都要读",
       "cta": "现在就开始"
-    }
+    },
+    "body": "**In a hurry? The Express edition is designed for you. Take less than 15 minutes each day to cover key passages throughout the Bible.**\n\nEvery day, a different theme is explored through a selection of scriptures taken from the Old and New Testaments, as well as the book of Psalms or Proverbs. Nicky and Pippa’s commentary on these excerpts are full of insight, wisdom, and practical application and will give you an in-depth overview of the entirety of the Bible across the year."
   }
 }
