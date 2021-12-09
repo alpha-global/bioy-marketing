@@ -125,13 +125,13 @@
       {
         "channel": "Application",
         "icon": "medium_app",
-        "description": "Download the Bible in One Year app for iOS or Android devices and read along each day.\n\n* [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
+        "description": "Téléchargez l'application de la Bible en 1 an pour les appareils iOS ou Android et lisez-la chaque jour.\n\n* [Téléchargez pour iOS depuis l'App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Téléchargez pour Android sur Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
         "image": "/assets/img/medium_website.jpg"
       },
       {
-        "channel": "Email",
+        "channel": "Courriel",
         "icon": "medium_email",
-        "description": "Sign up now to receive Bible in One Year in your inbox each morning. You’ll get one email each day.",
+        "description": "Inscrivez-vous maintenant pour recevoir la Bible en 1 an dans votre boîte de réception chaque matin. Vous recevrez un e-mail par jour.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
           "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/p5d3p8\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"4010371,p5d3p8\">Sign up now</a>"
@@ -140,22 +140,22 @@
       {
         "channel": "Podcast",
         "icon": "medium_podcast",
-        "description": "Subscribe and listen to Bible in One Year delivered to your favourite podcast app everyday.",
+        "description": "Abonnez-vous et écoutez la Bible en 1 an tous les jours sur votre application de podcast préférée (version française non disponible pour l'instant).",
         "image": "/assets/img/medium_app.jpg"
       },
       {
-        "channel": "Website",
+        "channel": "Site Web",
         "icon": "medium_website",
-        "description": "Start reading today’s devotion right here on the BiOY website.",
+        "description": "Commencez à lire la journée d'aujourd'hui, ici même, sur le site Web de la Bible en 1 an.",
         "image": "/assets/img/medium_laptop.jpg",
         "cta": {
           "code": "<a href=\"#today\" class=\"whiteButton\">Read now</a>"
         }
       },
       {
-        "channel": "Book",
+        "channel": "Livre",
         "icon": "medium_book",
-        "description": "The Bible in One Year Commentary is available as a book.\n\n* [Buy from the Alpha Shop](https://shop.alpha.org/bible-in-one-year)\n* [Buy from CLC Bookshops](https://clcbookshops.com/product/bible-in-one-year-the-a-commentary-by-nicky-gumbel-hard-cover-gumbel-nicky-hodder-stoughton-9781473677067)",
+        "description": "Le commentaire de la Bible en 1 an est disponible sous forme de livre. (version française non disponible pour l'instant)\n\n* [Acheter dans la boutique Alpha](https://shop.alpha.org/bible-in-one-year)\n* [Acheter dans la librairie CLC](https://clcbookshops.com/product/bible-in-one-year-the-a-commentary-by-nicky-gumbel-hard-cover-gumbel-nicky-hodder-stoughton-9781473677067)",
         "image": "/assets/img/books.jpg"
       }
     ]
