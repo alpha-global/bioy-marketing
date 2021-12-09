@@ -34,4 +34,4 @@ Zu diesem Zweck verwenden wir Google Analytics, um die Nutzung dieser Website zu
 
 Bei den meisten Browsern können Sie alle Cookies ablehnen, bei einigen Browsern können Sie nur Cookies von Drittanbietern ablehnen.
 
-Diese Vorlage für eine Website-Cookie-Richtlinie basiert auf einem kostenlosen Dokument, das von The Legal Stop Limited über ihre Website [www.thelegalstop.co.uk](http://www.thelegalstop.co.uk/) bereitgestellt wird.
+Diese Vorlage für eine Website-Cookie-Richtlinie basiert auf einem kostenlosen Dokument, das von The Legal Stop Limited über deren Website [www.thelegalstop.co.uk](http://www.thelegalstop.co.uk/) bereitgestellt wird.
