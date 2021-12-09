@@ -1,0 +1,51 @@
+{
+  "en": {
+    "title": "Youth",
+    "header": {
+      "title": "One day at a time",
+      "strapline": "Find your Bible-reading rhythm ",
+      "cta": "Let's Go",
+      "img": {
+        "src": "/assets/img/bioy-1.jpg",
+        "desc": "Teenage boy looking at phone"
+      }
+    },
+    "body": "**The daily Bible reading devotion for young people.**   \n\nTake less than 15 minutes a day to cover the whole Bible in 365 days with selected Bible readings and a full commentary from Nicky and Pippa Gumbel. \n\nToby Stokes introduces this edition of the Bible in One Year which encourages us not only to grow in our relationship with Jesus but also to apply the Bible practically to our everyday life."
+  },
+  "ar": {
+    "title": "Youth"
+  },
+  "de": {
+    "title": ""
+  },
+  "es": {
+    "title": "Youth"
+  },
+  "fr": {
+    "title": "Jeunesse",
+    "header": {
+      "title": "Un jour à la fois",
+      "strapline": "Trouvez votre rythme de lecture de la Bible",
+      "cta": "C'est parti !",
+      "img": {
+        "src": "/assets/img/bioy-1.jpg",
+        "desc": "Ado regardant le téléphone"
+      }
+    },
+    "body": "**La lecture quotidienne de la Bible pour les jeunes.**\n\nPrenez moins de 15 minutes par jour pour couvrir toute la Bible en 365 jours avec des lectures bibliques sélectionnées et un commentaire complet de Nicky et Pippa Gumbel.\n\nToby Stokes présente cette édition de la Bible en 1 an qui nous encourage non seulement à grandir dans notre relation avec Jésus, mais aussi à appliquer la Bible de manière pratique dans notre vie quotidienne."
+  },
+  "hi": {
+    "title": "Youth"
+  },
+  "th": {
+    "title": "Youth"
+  },
+  "zh": {
+    "title": "青年版",
+    "header": {
+      "title": "一天一点进步",
+      "strapline": "养成阅读圣经的习惯",
+      "cta": "今天就开始"
+    }
+  }
+}
