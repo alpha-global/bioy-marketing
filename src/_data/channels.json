@@ -44,7 +44,7 @@
       {
         "channel": "App",
         "icon": "medium_app",
-        "description": "Download the Bible in One Year app for iOS or Android devices and read along each day.\n\n* [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
+        "description": "D ownload the Bible in One Year app for iOS or Android devices and read along each day.\n\n* [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
         "image": "/assets/img/medium_website.jpg"
       },
       {
@@ -84,8 +84,32 @@
       {
         "channel": "App",
         "icon": "medium_app",
-        "description": "\n\nDownload the Bible in One Year app for iOS or Android devices and read along each day.\n\n* [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
+        "description": "Hol dir die \"Bible in one Year\" App für iOS oder Android.\n\n* [Download für iOS aus dem App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download für Android bei Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
         "image": "/assets/img/medium_website.jpg"
+      },
+      {
+        "channel": "Email",
+        "icon": "medium_email",
+        "description": "Registriere dich jetzt, um Bibel in einem Jahr jeden Morgen in deinem Posteingang zu haben. Du bekommst jeden Tag eine E-Mail.",
+        "image": "/assets/img/medium_email.jpg",
+        "cta": {
+          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/p5d3p8\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"4010371,p5d3p8\">Sign up now</a>"
+        }
+      },
+      {
+        "channel": "Podcast",
+        "icon": "medium_podcast",
+        "description": "Einfach abonnieren und \"Bibel in einem Jahr\" täglich in deiner Lieblings-Podcast-App anhören.",
+        "image": "/assets/img/medium_app.jpg"
+      },
+      {
+        "channel": "Website",
+        "icon": "medium_website",
+        "description": "Starte gleich hier auf der Webseite mit dem Lesen von Bibel in einem Jahr.",
+        "image": "/assets/img/medium_laptop.jpg",
+        "cta": {
+          "code": "<a href=\"#today\" class=\"whiteButton\">Jetzt lesen</a>"
+        }
       }
     ]
   },
@@ -123,10 +147,40 @@
   "fr": {
     "distribution": [
       {
-        "channel": "App",
+        "channel": "Application",
         "icon": "medium_app",
-        "description": "\n\nDownload the Bible in One Year app for iOS or Android devices and read along each day.\n\n* [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
+        "description": "Téléchargez l'application de la Bible en 1 an pour les appareils iOS ou Android et lisez-la chaque jour.\n\n* [Téléchargez pour iOS depuis l'App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Téléchargez pour Android sur Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
         "image": "/assets/img/medium_website.jpg"
+      },
+      {
+        "channel": "Courriel",
+        "icon": "medium_email",
+        "description": "Inscrivez-vous maintenant pour recevoir la Bible en 1 an dans votre boîte de réception chaque matin. Vous recevrez un e-mail par jour.",
+        "image": "/assets/img/medium_email.jpg",
+        "cta": {
+          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/p5d3p8\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"4010371,p5d3p8\">Sign up now</a>"
+        }
+      },
+      {
+        "channel": "Podcast",
+        "icon": "medium_podcast",
+        "description": "Abonnez-vous et écoutez la Bible en 1 an tous les jours sur votre application de podcast préférée (version française non disponible pour l'instant).",
+        "image": "/assets/img/medium_app.jpg"
+      },
+      {
+        "channel": "Site Web",
+        "icon": "medium_website",
+        "description": "Commencez à lire la journée d'aujourd'hui, ici même, sur le site Web de la Bible en 1 an.",
+        "image": "/assets/img/medium_laptop.jpg",
+        "cta": {
+          "code": "<a href=\"#today\" class=\"whiteButton\">Read now</a>"
+        }
+      },
+      {
+        "channel": "Livre",
+        "icon": "medium_book",
+        "description": "Le commentaire de la Bible en 1 an est disponible sous forme de livre. (version française non disponible pour l'instant)\n\n* [Acheter dans la boutique Alpha](https://shop.alpha.org/bible-in-one-year)\n* [Acheter dans la librairie CLC](https://clcbookshops.com/product/bible-in-one-year-the-a-commentary-by-nicky-gumbel-hard-cover-gumbel-nicky-hodder-stoughton-9781473677067)",
+        "image": "/assets/img/books.jpg"
       }
     ]
   },
@@ -139,17 +193,11 @@
         "image": "/assets/img/medium_website.jpg"
       },
       {
-        "channel": "Email",
-        "icon": "medium_email",
-        "description": "Sign up now to receive Bible in One Year in your inbox each morning. You’ll get one email each day."
-      },
-      {
         "channel": "Website",
         "icon": "medium_website",
         "description": "Start reading today’s devotion right here on the BiOY website.",
         "image": "/assets/img/medium_laptop.jpg"
-      },
-      {}
+      }
     ]
   },
   "th": {
