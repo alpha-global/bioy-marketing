@@ -144,6 +144,8 @@
                 bg-opacity-90
                 lg:rtl:rounded-tr-lg
                 lg:rtl:rounded-tl-none
+                {{ 'lg:rounded-tl-lg' if loop.first }}
+                {{ 'lg:rounded-bl-lg' if loop.last }}
               "
               :class="mediaClass({{ loop.index0 }})"
               @click="mediaFocus = {{ loop.index0 }}"
