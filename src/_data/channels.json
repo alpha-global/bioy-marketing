@@ -19,7 +19,7 @@
       {
         "channel": "Podcast",
         "icon": "medium_podcast",
-        "description": "Subscribe and listen to Bible in One Year delivered to your favourte podcast app everyday.",
+        "description": "Subscribe and listen to Bible in One Year delivered to your favourite podcast app everyday.",
         "image": "/assets/img/medium_app.jpg"
       },
       {
@@ -155,10 +155,16 @@
         "image": "/assets/img/medium_website.jpg"
       },
       {
-        "channel": "อีเมล"
+        "channel": "อีเมล",
+        "icon": "medium_email",
+        "description": "Sign up now to receive Bible in One Year in your inbox each morning. You’ll get one email each day.",
+        "image": "/assets/img/medium_email.jpg"
       },
       {
-        "channel": "เว็บไซต์"
+        "channel": "เว็บไซต์",
+        "icon": "medium_podcast",
+        "description": "Subscribe and listen to Bible in One Year delivered to your favourite podcast app everyday.",
+        "image": "/assets/img/medium_app.jpg"
       }
     ]
   },
