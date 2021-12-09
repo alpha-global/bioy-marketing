@@ -38,7 +38,7 @@
             rtl:pl-0 rtl:pr-36
             lg:rounded-lg
           "
-        >
+        >        
             {% if medium.channel !== channels[locale]
               .distribution[2]
               .channel %}
@@ -136,75 +136,36 @@
       "
       x-ref="mediaNav"
     >
-    {% if channels[locale].distribution[0].channel | length %}
-      <button
-        class="
-          flex-1 flex flex-col
-          items-center
-          justify-center
-          bg-opacity-90
-          lg:rounded-tl-lg
-          lg:rtl:rounded-tr-lg
-          lg:rtl:rounded-tl-none
-        "
-        :class="mediaClass(0)"
-        @click="mediaFocus = 0"
-        style="min-height: 6rem"
-      >
-        {% svgSprite name="medium_app", class="fill-current h-10 w-10 mb-1" %}
-        <div>{{ channels[locale].distribution[0].channel }}</div>
-      </button>
-    {% endif %}
-      {% if channels[locale].distribution[1].channel | length %}
-      <button
-        class="flex-1 flex flex-col items-center justify-center bg-opacity-90"
-        :class="mediaClass(1)"
-        @click="mediaFocus = 1"
-        style="min-height: 6rem"
-      >
-        {% svgSprite name="medium_email", class="fill-current h-10 w-10 mb-1" %}
-        <div>{{ channels[locale].distribution[1].channel }}</div>
-      </button>
-      {% endif %}
-      {% if channels[locale].distribution[2].channel | length %}
-      <button
-        class="flex-1 flex flex-col items-center justify-center bg-opacity-90"
-        :class="mediaClass(2)"
-        @click="mediaFocus = 2"
-        style="min-height: 6rem"
-      >
-        {% svgSprite name="medium_podcast", class="fill-current h-10 w-10 mb-1" %}
-        <div>{{ channels[locale].distribution[2].channel }}</div>
-      </button>
-      {% endif %}
-      {% if channels[locale].distribution[3].channel | length %}
-      <button
-        class="
-          flex-1 flex flex-col
-          items-center
-          justify-center
-          bg-opacity-90
-        "
-        :class="mediaClass(3)"
-        @click="mediaFocus = 3"
-        style="min-height: 6rem"
-      >
-        {% svgSprite name="medium_website", class="fill-current h-10 w-10 mb-1"
-        %}
-        <div>{{ channels[locale].distribution[3].channel }}</div>
-      </button>
-      {% endif %}
-      {% if channels[locale].distribution[4].channel | length %}
-      <button
-        class="flex-1 flex flex-col items-center justify-center bg-opacity-90 lg:rounded-bl-lg lg:rtl:rounded-br-lg lg:rtl:rounded-bl-none"
-        :class="mediaClass(4)"
-        @click="mediaFocus = 4"
-        style="min-height: 6rem"
-      >
-        {% svgSprite name="medium_book", class="fill-current h-10 w-10 mb-1" %}
-        <div>{{ channels[locale].distribution[4].channel }}</div>
-      </button>
-      {% endif %}
+    {% for medium in channels[locale].distribution %}
+        {% if medium | length %}
+           <button
+              class="
+                flex-1 flex flex-col
+                items-center
+                justify-center
+                bg-opacity-90
+                lg:rtl:rounded-tr-lg
+                lg:rtl:rounded-tl-none
+              "
+              :class="mediaClass({{ loop.index0 }})"
+              @click="mediaFocus = {{ loop.index0 }}"
+              style="min-height: 6rem"
+            >
+              {% if medium.icon === 'medium_app' %}
+                {% svgSprite name="medium_app", class="fill-current h-10 w-10 mb-1" %}
+              {% elif medium.icon === 'medium_email' %}
+                 {% svgSprite name="medium_email", class="fill-current h-10 w-10 mb-1" %}
+              {% elif medium.icon === 'medium_podcast' %}
+                 {% svgSprite name="medium_podcast", class="fill-current h-10 w-10 mb-1" %}
+              {% elif medium.icon === 'medium_website' %}
+                 {% svgSprite name="medium_website", class="fill-current h-10 w-10 mb-1" %}
+              {% else %}
+                {% svgSprite name="medium_book", class="fill-current h-10 w-10 mb-1" %}
+              {% endif %}
+            <div>{{ medium.channel }}</div>
+          </button>
+        {% endif %}
+    {% endfor %}    
     </div>
   </div>
 </section>
