@@ -82,8 +82,24 @@
   "fr": {
     "collection": [
       {
-        "source": "iOS App Store Review",
-        "quote": "I’m a new Christian and this is my first experience of reading the Bible in one year… I look forward to hearing/reading it each day."
+        "quote": "Je suis un nouveau chrétien et c'est ma première expérience de lecture de la Bible en 1 an… J'ai hâte de l'entendre/la lire chaque jour.",
+        "source": "Avis d'un utilisateur sur l'App Store iOS"
+      },
+      {
+        "quote": "Ma façon préférée de commencer la journée.",
+        "source": "Bear Grylls, aventurier"
+      },
+      {
+        "quote": "Mon cœur bondit chaque matin quand je vois la Bible en 1 an de Nicky Gumbel dans ma boîte de réception.",
+        "source": "Darlene Zschech, directrice de louange"
+      },
+      {
+        "quote": "Je cherchais une application comme celle-ci depuis de nombreuses années…",
+        "source": "Avis d'un utilisateur sur l'App Store iOS"
+      },
+      {
+        "quote": "Ressource fantastique. Combine des histoires inspirantes de la vie quotidienne et de l'Histoire avec la sagesse spirituelle tirée de la Bible. C'est édifiant, stimulant et humoristique.",
+        "source": "Avis d'un utilisateur sur Google Play"
       }
     ]
   },
