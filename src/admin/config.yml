@@ -724,6 +724,20 @@ collections:
                 },
               ],
           },
+          {
+            file: "src/_data/navigation.json",
+            label: "Navigation Bar",
+            name: "navigation",
+            i18n: true,
+            fields:
+              [
+                { name: start, label: Start, widget: string, i18n: true },
+                { name: about, label: About, widget: string, i18n: true },
+                { name: faqs, label: FAQs, widget: string, i18n: true },
+                { name: donate, label: Donate, widget: string, i18n: true },
+                { name: download, label: Download, widget: string, i18n: true },
+              ],
+          },
         ],
     },
     {
