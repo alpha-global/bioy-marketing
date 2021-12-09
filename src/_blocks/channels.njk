@@ -38,10 +38,8 @@
             rtl:pl-0 rtl:pr-36
             lg:rounded-lg
           "
-        >        
-            {% if medium.channel !== channels[locale]
-              .distribution[2]
-              .channel %}
+        >  
+            {% if medium.icon !== 'medium_podcast' %}
               <div class="max-w-xs">
 
                 <h4 class="text-xl font-bold mb-3">
@@ -59,8 +57,8 @@
             {% else %}
               <div class="max-w-xs md:max-w-xl lg:max-w-2xl">
                 <div class="lg:max-w-xl">
-                  <h4 class="text-xl font-bold mb-3">{{  channels[locale].distribution[2].channel }}</h4>
-                  {{ channels[locale].distribution[2].description | markdown | safe }}
+                  <h4 class="text-xl font-bold mb-3">{{ medium.channel }}</h4>
+                  {{ medium.description | markdown | safe }}
                 </div>
                 <div class="md:flex md:items-center md:justify-center lg:hidden mt-4 md:mt-8">
                   <div class="relative md:max-w-xs">
