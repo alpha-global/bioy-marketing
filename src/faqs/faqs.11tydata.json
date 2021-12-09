@@ -590,22 +590,22 @@
         "detailedAnswer": "Les fichiers audio sont supprimés si vous modifiez l'édition à laquelle votre appareil accède. Vous pouvez toujours télécharger les fichiers audio manuellement en balayant vers la droite, directement sur le jour souhaité, depuis la vue de la liste et en appuyant sur l'icône de téléchargement."
       },
       {
-        "title": "If I delete an audio file, can I ever get it back?",
+        "title": "Si je supprime un fichier audio, puis-je le récupérer un jour ?",
         "category": "Audio",
-        "shortAnswer": "You can download audio files at any time manually by swiping right on the day from the list view and clicking the download icon that appears.",
-        "detailedAnswer": "You can download audio files at any time manually by swiping right on the day from the list view and clicking the download icon that appears."
-      },
-      {
-        "title": "What additional functionality can I expect over the coming months?",
-        "category": "App",
-        "detailedAnswer": "1. The option to enlarge text size\n2. Translation of the app into Bahasa Indonesia, German, French and Thai\n3. Improvements to the end of year experience\n4. Improved process for donating to BiOY\n\nThereafter we will be working on several ideas and improvements for the app which you are welcome to feed in to by emailing: [bioy@alpha.org](mailto:bioy@alpha.org)",
-        "shortAnswer": "Our team are working on the option to enlarge app text size, improvements to the end of year experience and the process of donating to BiOY. The app will also be translated into four more languages."
+        "shortAnswer": "Vous pouvez télécharger des fichiers audio à tout moment manuellement, en balayant vers la droite le jour souhaité dans la liste, et en cliquant sur l'icône de téléchargement qui apparaît.",
+        "detailedAnswer": "Vous pouvez télécharger des fichiers audio à tout moment manuellement, en balayant vers la droite le jour souhaité dans la liste, et en cliquant sur l'icône de téléchargement qui apparaît."
       },
       {
         "title": "Do I have to download an audio file to listen to it?",
         "category": "Audio",
         "shortAnswer": "No, you can stream the audio over Wi-Fi or using mobile data if you prefer.",
         "detailedAnswer": "No, you can stream the audio over wifi or using mobile data if you prefer."
+      },
+      {
+        "title": "What additional functionality can I expect over the coming months?",
+        "category": "App",
+        "detailedAnswer": "1. The option to enlarge text size\n2. Translation of the app into Bahasa Indonesia, German, French and Thai\n3. Improvements to the end of year experience\n4. Improved process for donating to BiOY\n\nThereafter we will be working on several ideas and improvements for the app which you are welcome to feed in to by emailing: [bioy@alpha.org](mailto:bioy@alpha.org)",
+        "shortAnswer": "Our team are working on the option to enlarge app text size, improvements to the end of year experience and the process of donating to BiOY. The app will also be translated into four more languages."
       },
       {
         "title": "How can I skip through different sections of the audio?",
