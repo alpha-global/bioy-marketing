@@ -554,52 +554,52 @@
         "detailedAnswer": "La Bible en 1 an utilise la version \"Parole de Vie\" © de la Société biblique française – Bibli’O, 2000. Les commentaires citent parfois d'autres traductions, alors mentionnées entre parenthèses dans le corps du texte.\n\nN.B. : le commentaire original, en anglais, utilise la \"New International Version\" (NIVUK), avec quelques références à la traduction \"The Message\" d'Eugene Peterson."
       },
       {
-        "title": "How can I change my Edition?",
+        "title": "Comment puis-je changer d'édition ?",
         "category": "Content",
-        "shortAnswer": "If you would like to switch to a different Edition of the Bible In One Year plan you can find this in the Settings menu.",
-        "detailedAnswer": "If you would like to switch to a different Edition of the Bible In One Year plan you can find this in settings.\n\nNote: Other Editions are only available in English, so you need to set your content language to English, before you can change your edition. Tap Edition and select either Classic, Express or Youth, any content you have already completed will be downloaded again in this new edition format and your progress through the year will be saved."
+        "shortAnswer": "Si vous souhaitez passer à une autre édition de la Bible en 1 an, vous pouvez la trouver dans le menu Paramètres.",
+        "detailedAnswer": "Si vous souhaitez passer à une autre édition de la Bible en 1 an, vous pouvez la trouver dans le menu Paramètres.\n\nRemarque : les autres éditions ne sont disponibles qu'en anglais, vous devez donc définir l'anglais comme langue de contenu avant de pouvoir modifier votre édition. Appuyez sur Édition et sélectionnez Classique, Express ou Jeunesse, tout le contenu que vous avez déjà lu sera à nouveau téléchargé dans ce nouveau format d'édition et votre progression tout au long de l'année sera enregistrée."
       },
       {
-        "title": "I’m not able to play the audio, what should I do?",
+        "title": "Je n'arrive pas à lire l'audio, que dois-je faire ?",
         "category": "Audio",
-        "shortAnswer": "Check if you have connectivity, or if the devotion is downloaded.\nPull down on the ListView to refresh the app.\nTry to play the audio again.\n\nPlease refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to download audio.",
-        "detailedAnswer": "Check if you have connectivity, or if the devotion is downloaded.\nPull down on the ListView to refresh the app.\nTry to play the audio again.\n\nPlease refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to download audio."
+        "shortAnswer": "Vérifiez votre connexion ou si il est deja téléchargé.\nLorsque vous vous trouvez dans la liste, balayez vers le bas pour actualiser l'application.\nEssayez à nouveau de lire l'audio.\n\nVeuillez vous référer à la FAQ concernant la gestion des téléchargements audio pour vous assurer que  votre application dispose de suffisamment d'espace pour télécharger de l'audio.",
+        "detailedAnswer": "Vérifiez votre connexion ou si il est deja téléchargé.\nLorsque vous vous trouvez dans la liste, balayez vers le bas pour actualiser l'application.\nEssayez à nouveau de lire l'audio.\n\nVeuillez vous référer à la FAQ concernant la gestion des téléchargements audio pour vous assurer que  votre application dispose de suffisamment d'espace pour télécharger de l'audio."
       },
       {
-        "title": "What additional functionality can I expect over the coming months?",
-        "category": "App",
-        "detailedAnswer": "1. The option to enlarge text size\n2. Translation of the app into Bahasa Indonesia, German, French and Thai\n3. Improvements to the end of year experience\n4. Improved process for donating to BiOY\n\nThereafter we will be working on several ideas and improvements for the app which you are welcome to feed in to by emailing: [bioy@alpha.org](mailto:bioy@alpha.org)",
-        "shortAnswer": "Our team are working on the option to enlarge app text size, improvements to the end of year experience and the process of donating to BiOY. The app will also be translated into four more languages."
-      },
-      {
-        "title": "How do I stop my device auto-downloading audio files?",
+        "title": "Comment arrêter le téléchargement automatique de fichiers audio sur mon appareil ?",
         "category": "Audio",
-        "shortAnswer": "Auto downloads can be managed in Settings, under the the ‘Audio Downloads’ section.",
-        "detailedAnswer": "Auto downloads can be managed in Settings, in the ‘Audio Downloads’ section.\n\nPlease note that turning Auto Downloads off won’t automatically delete any audio that has been downloaded already. Audio files stored on your phone can be deleted under ‘Settings’, in ‘Manage Audio’."
+        "shortAnswer": "Les téléchargements automatiques peuvent être gérés dans les paramètres, dans la section \"Téléchargements audio\".",
+        "detailedAnswer": "Les téléchargements automatiques peuvent être gérés dans les paramètres, dans la section \"Téléchargements audio\".\n\nVeuillez noter que la désactivation des téléchargements automatiques ne supprimera pas automatiquement les fichiers audio déjà téléchargés. Les fichiers audio stockés sur votre téléphone peuvent être supprimés sous \"Paramètres\", dans \"Gérer l'audio\"."
       },
       {
-        "title": "Can I listen to audio offline?",
+        "title": "Puis-je écouter de l'audio hors-ligne ?",
         "category": "Audio",
-        "detailedAnswer": "As long as you have the latest version of the app, you can do this in one of two ways.\n\n1. You can set up auto downloads, which will allow your phone to download the next day’s audio content automatically and keep it until you have listened to it. Go to Settings, Audio Downloads, and choose how many days audio you would like your app to download for you.\n\n2. Alternatively you can also manually download audio files, by swiping right on the day from the list view. This brings up a download button on the left, simply tap it to download the file.\n\nIf you are concerned about downloading over your mobile data, please ensure ‘Use mobile data’ is set to ‘Off’ on your device.",
-        "shortAnswer": "There are two ways of listening to audio offline."
+        "detailedAnswer": "Tant que vous avez la dernière version de l'application, vous pouvez le faire de deux manières.\n\n1. Vous pouvez configurer des téléchargements automatiques, ce qui permettra à votre téléphone de télécharger automatiquement le contenu audio du lendemain et de le conserver jusqu'à ce que vous l'ayez écouté. Accédez à Paramètres, Téléchargements audio et choisissez le nombre de jours d'audio que vous souhaitez que votre application télécharge pour vous.\n2. Vous pouvez également télécharger manuellement des fichiers audio, en balayant directement le jour vers la droite, depuis la liste. Cela fait apparaître un bouton de téléchargement sur la gauche, appuyez simplement dessus pour télécharger le fichier.\n\nSi vous êtes préoccupé·e par trop de téléchargements sur vos données mobiles, assurez-vous que \"Utiliser les données mobiles\" est désactivé sur votre appareil (pastille de couleur grise).",
+        "shortAnswer": "Il existe deux façons d'écouter de l'audio hors-ligne."
       },
       {
-        "title": "How many days of audio are stored on my device?",
+        "title": "Combien de jours d'audio sont stockés sur mon appareil ?",
         "category": "Audio",
-        "shortAnswer": "Tap on Menu > Settings > Manage Audio to find out how many days are currently stored on your device.",
-        "detailedAnswer": "Tap on Menu > Settings > Manage Audio to find out how many days are currently stored on your device."
+        "shortAnswer": "Appuyez sur Menu > Paramètres > Gérer l'audio, pour savoir combien de jours sont actuellement stockés sur votre appareil.",
+        "detailedAnswer": "Appuyez sur Menu > Paramètres > Gérer l'audio, pour savoir combien de jours sont actuellement stockés sur votre appareil."
       },
       {
-        "title": "What happens to my audio files if I change edition?",
+        "title": "Qu'advient-il de mes fichiers audio si je change d'édition ?",
         "category": "Audio",
-        "shortAnswer": "Audio files are deleted if you change which edition your device is accessing. You can still download the audio files manually by swiping right on the day from the list view and tapping the download icon.",
-        "detailedAnswer": "Audio files are deleted if you change which edition your device is accessing. You can still download the audio files manually by swiping right on the day from the list view and tapping the download icon."
+        "shortAnswer": "Les fichiers audio sont supprimés si vous modifiez l'édition à laquelle votre appareil accède. Vous pouvez toujours télécharger les fichiers audio manuellement en balayant vers la droite, directement sur le jour souhaité, depuis la vue de la liste et en appuyant sur l'icône de téléchargement.",
+        "detailedAnswer": "Les fichiers audio sont supprimés si vous modifiez l'édition à laquelle votre appareil accède. Vous pouvez toujours télécharger les fichiers audio manuellement en balayant vers la droite, directement sur le jour souhaité, depuis la vue de la liste et en appuyant sur l'icône de téléchargement."
       },
       {
         "title": "If I delete an audio file, can I ever get it back?",
         "category": "Audio",
         "shortAnswer": "You can download audio files at any time manually by swiping right on the day from the list view and clicking the download icon that appears.",
         "detailedAnswer": "You can download audio files at any time manually by swiping right on the day from the list view and clicking the download icon that appears."
+      },
+      {
+        "title": "What additional functionality can I expect over the coming months?",
+        "category": "App",
+        "detailedAnswer": "1. The option to enlarge text size\n2. Translation of the app into Bahasa Indonesia, German, French and Thai\n3. Improvements to the end of year experience\n4. Improved process for donating to BiOY\n\nThereafter we will be working on several ideas and improvements for the app which you are welcome to feed in to by emailing: [bioy@alpha.org](mailto:bioy@alpha.org)",
+        "shortAnswer": "Our team are working on the option to enlarge app text size, improvements to the end of year experience and the process of donating to BiOY. The app will also be translated into four more languages."
       },
       {
         "title": "Do I have to download an audio file to listen to it?",
