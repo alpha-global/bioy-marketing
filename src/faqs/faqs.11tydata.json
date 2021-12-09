@@ -506,10 +506,10 @@
   "fr": {
     "faqsItems": [
       {
-        "title": "Can I speed up/slow down the speed of the audio devotion?",
+        "title": "Puis-je accélérer/ralentir la vitesse du contenu audio ?",
         "category": "Audio",
-        "shortAnswer": "Yes! After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds: 1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc\n",
-        "detailedAnswer": "Yes! Please ensure you have updated to the latest version of the app from the iOS App Store or Google Play on Android. After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds:\n\n1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc"
+        "shortAnswer": "Oui ! Après avoir appuyé sur le bouton \"Play\" de la journée souhaitée, vous remarquerez un \"1x\" dans le coin supérieur gauche du lecteur audio étendu. Appuyez dessus pour faire défiler les vitesses de lecture : 1x, 1,2x, 1,5x, 1,8x, 2x, 0,8x, puis revenez à nouveau à 1x, etc...",
+        "detailedAnswer": "Oui ! Veuillez vous assurer que vous avez mis à jour la dernière version de l'application depuis l'App Store iOS ou Google Play sur Android. Après avoir appuyé sur le bouton \"Play\", vous remarquerez un 1x dans le coin supérieur gauche du lecteur audio étendu. Appuyez dessus pour faire défiler les vitesses de lecture :\n\n1x, 1,2x, 1,5x, 1,8x, 2x, 0,8x puis revenez à nouveau à 1x, etc..."
       },
       {
         "title": "Can I share a devotion with a friend?",
@@ -739,7 +739,7 @@
       "Content": "Contenu",
       "App": "Application"
     },
-    "filterHint": "Que cherchez-vous?"
+    "filterHint": "Que recherchez-vous?"
   },
   "hi": {
     "faqsItems": [
