@@ -542,16 +542,16 @@
         "detailedAnswer": "Balayez vers la droite le jour concerné à partir de la liste et appuyez sur l'icône de la corbeille.\n\nPour supprimer plus d'un jour d'audio à la fois et afficher une liste de tous vos fichiers audio téléchargés, appuyez sur Menu > Paramètres > Gérer l'audio. Cochez la case pour sélectionner les jours que vous souhaitez supprimer ou tout sélectionner. Appuyez ensuite sur \"Supprimer la sélection\"."
       },
       {
-        "title": "What is the structure of a day’s content?",
+        "title": "Quelle est la structure du contenu d'une journée ? ",
         "category": "Content",
-        "shortAnswer": "Each day consists of three scriptures from different parts of the Bible and commentary and prayer reflections by Nicky Gumbel. The day starts with an Introduction, presenting the theme of the day. This is followed by a wisdom passage (Psalm or Proverb) and a commentary on that passage, a portion of the New Testament and then commentary on that, and a portion of the Old Testament and commentary on that. The devotion ends with a thought from Pippa Gumbel.",
-        "detailedAnswer": "Each day consists of three scriptures from different parts of the Bible and commentary and prayer reflections by Nicky Gumbel. The day starts with an Introduction, presenting the theme of the day. This is followed by a wisdom passage (Psalm or Proverb) and a commentary on that passage, a portion of the New Testament and then commentary on that, and a portion of the Old Testament and commentary on that. The devotion ends with a thought from Pippa Gumbel.\n\nIn the Express the scriptures are shorter and only reference small passages or a few verses. The Express and Youth edition both contain a verse of the day and thought of the day. The Youth edition also features an Action of the day."
+        "shortAnswer": "Chaque jour se compose de trois textes de différentes parties de la Bible, ainsi que des commentaires, réflexions et prières de Nicky Gumbel. La journée commence par une introduction, présentant le thème de la journée. Ceci est suivi d'un passage de sagesse (Psaume ou Proverbe) et d'un commentaire sur ce passage, d'une partie du Nouveau Testament et ensuite d'un commentaire à ce sujet, puis une partie de l'Ancien Testament et d'un commentaire à ce sujet. La lecture se termine par une pensée de Pippa Gumbel.",
+        "detailedAnswer": "Chaque jour se compose de trois textes de différentes parties de la Bible, ainsi que des commentaires, réflexions et prières de Nicky Gumbel. La journée commence par une introduction, présentant le thème de la journée. Ceci est suivi d'un passage de sagesse (Psaume ou Proverbe) et d'un commentaire sur ce passage, d'une partie du Nouveau Testament et ensuite d'un commentaire à ce sujet, puis une partie de l'Ancien Testament et d'un commentaire à ce sujet. La lecture se termine par une pensée de Pippa Gumbel.\n\nDans la version \"Express\", les textes sont plus courts et ne font référence qu'à de petits passages ou à quelques versets. Les éditions \"Express et Jeunesse\" contiennent toutes deux un verset du jour et une pensée du jour. L'édition \"Jeunesse\" propose également une Action du jour."
       },
       {
-        "title": "What Bible translations are used across BiOY?",
+        "title": "Quelles traductions de la Bible sont utilisées dans la Bible en 1 an ? ",
         "category": "Content",
-        "shortAnswer": "BiOY uses the New International Version (NIVUK), with some references to particular passages of Eugene Peterson’s The Message.",
-        "detailedAnswer": "BiOY uses New International Version (NIVUK), with some references to particular passages of Eugene Peterson’s The Message."
+        "shortAnswer": "La Bible en 1 an utilise la version Parole de Vie © de la Société biblique française – Bibli’O, 2000. Les commentaires citent parfois d'autres traductions, alors mentionnées entre parenthèses dans le corps du texte.",
+        "detailedAnswer": "La Bible en 1 an utilise la version \"Parole de Vie\" © de la Société biblique française – Bibli’O, 2000. Les commentaires citent parfois d'autres traductions, alors mentionnées entre parenthèses dans le corps du texte.\n\nN.B. : le commentaire original, en anglais, utilise la \"New International Version\" (NIVUK), avec quelques références à la traduction \"The Message\" d'Eugene Peterson."
       },
       {
         "title": "How can I change my Edition?",
