@@ -99,13 +99,13 @@
       {
         "channel": "Podcast",
         "icon": "medium_podcast",
-        "description": "Subscribe and listen to Bible in One Year delivered to your favourite podcast app everyday.",
+        "description": "Einfach abonnieren und \"Bibel in einem Jahr\" täglich in deiner Lieblings-Podcast-App anhören.",
         "image": "/assets/img/medium_app.jpg"
       },
       {
         "channel": "Website",
         "icon": "medium_website",
-        "description": "Start reading today’s devotion right here on the BiOY website.",
+        "description": "Starte gleich hier auf der Webseite mit dem Lesen von Bibel in einem Jahr.",
         "image": "/assets/img/medium_laptop.jpg",
         "cta": {
           "code": "<a href=\"#today\" class=\"whiteButton\">Read now</a>"
