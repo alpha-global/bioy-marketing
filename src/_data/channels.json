@@ -108,7 +108,7 @@
         "description": "Starte gleich hier auf der Webseite mit dem Lesen von Bibel in einem Jahr.",
         "image": "/assets/img/medium_laptop.jpg",
         "cta": {
-          "code": "<a href=\"#today\" class=\"whiteButton\">Read now</a>"
+          "code": "<a href=\"#today\" class=\"whiteButton\">Jetzt lesen</a>"
         }
       }
     ]
