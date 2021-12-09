@@ -596,40 +596,40 @@
         "detailedAnswer": "Vous pouvez télécharger des fichiers audio à tout moment manuellement, en balayant vers la droite le jour souhaité dans la liste, et en cliquant sur l'icône de téléchargement qui apparaît."
       },
       {
-        "title": "Do I have to download an audio file to listen to it?",
+        "title": "Dois-je télécharger un fichier audio pour l'écouter ?",
         "category": "Audio",
-        "shortAnswer": "No, you can stream the audio over Wi-Fi or using mobile data if you prefer.",
-        "detailedAnswer": "No, you can stream the audio over wifi or using mobile data if you prefer."
+        "shortAnswer": "Non, vous pouvez diffuser l'audio en streaming, via Wi-Fi ou en utilisant des données mobiles si vous préférez.",
+        "detailedAnswer": "Non, vous pouvez diffuser l'audio en streaming, via Wi-Fi ou en utilisant des données mobiles si vous préférez."
       },
       {
-        "title": "What additional functionality can I expect over the coming months?",
-        "category": "App",
-        "detailedAnswer": "1. The option to enlarge text size\n2. Translation of the app into Bahasa Indonesia, German, French and Thai\n3. Improvements to the end of year experience\n4. Improved process for donating to BiOY\n\nThereafter we will be working on several ideas and improvements for the app which you are welcome to feed in to by emailing: [bioy@alpha.org](mailto:bioy@alpha.org)",
-        "shortAnswer": "Our team are working on the option to enlarge app text size, improvements to the end of year experience and the process of donating to BiOY. The app will also be translated into four more languages."
-      },
-      {
-        "title": "How can I skip through different sections of the audio?",
+        "title": "Comment puis-je passer d'une section à l'autre de l'audio ?",
         "category": "Audio",
-        "shortAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio.",
-        "detailedAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio in this order: \n\nIntro, Proverbs/Psalm bible, Proverbs/Psalm Commentary, New Testament Bible, New Testament Commentary, Old Testament Bible, Old Testament Commentary, Pippa Adds. Additionally there is an option to skip 15 seconds forward or backwards through the audio. If you have no option to skip 15 seconds, please download the latest version of your app for this feature.\n\nThere is currently no option to skip through sections on the Youth edition."
+        "shortAnswer": "Pour les éditions Classique et Express de la Bible en 1 an, la fonction de saut du lecteur audio parcourt chaque section de l'audio.",
+        "detailedAnswer": "Pour les éditions Classique et Express de la Bible en 1 an, la fonction de saut du lecteur audio parcourt chaque section de l'audio dans cet ordre :\n\nIntroduction, texte biblique des Proverbes/Psaumes, commentaire des Proverbes/Psaumes, texte biblique du Nouveau Testament, commentaire du Nouveau Testament, texte biblique de l'Ancien Testament, commentaire de l'Ancien Testament et l'ajout de Pippa. De plus, il existe une option pour sauter 15 secondes en avant ou en arrière dans l'audio. Si vous n'avez pas la possibilité de sauter 15 secondes, veuillez télécharger la dernière version de votre application pour cette fonctionnalité.\n\nIl n'y a actuellement aucune option pour sauter les sections de l'édition Jeunesse."
       },
       {
-        "title": "Can I receive BiOY via email?",
+        "title": "Puis-je recevoir la Bible en 1 an par e-mail ?",
         "category": "Content",
-        "shortAnswer": "Yes. You can sign up to receive the BiOY Classic commentary from the BiOY homepage",
-        "detailedAnswer": "Yes. If you would like to receive the BiOY Classic commentary by email, or if you have stopped receiving the daily BiOY emails and would like to re-subscribe, you can [sign up or re-subscribe here](https://landing.mailerlite.com/webforms/landing/p5d3p8)."
+        "shortAnswer": "Oui. Vous pouvez vous inscrire pour recevoir les commentaires de l'édition Classique, depuis la page d'accueil du site Web de la Bible en 1 an.",
+        "detailedAnswer": "Oui. Si vous souhaitez recevoir les commentaires de l'édition Classique de la Bible en 1 an par e-mail, ou si vous ne recevez plus les e-mails quotidiens et souhaitez vous réabonner, vous pouvez vous [inscrire ou vous réabonner ici](https://landing.mailerlite.com/webforms/landing/p5d3p8)."
       },
       {
-        "title": "What languages is BiOY available in?",
+        "title": "Dans quelles langues la Bible en 1 an est-elle disponible ?",
         "category": "Content",
-        "shortAnswer": "Currently, the classic edition of BiOY is available is Arabic, English, Chinese, Hindi and Spanish. Audio is currently only available in English, with Chinese and Hindi to follow.",
-        "detailedAnswer": "Currently, the classic edition of BiOY is available is Arabic, English, Chinese, Hindi and Spanish. Audio is currently only available in English, with Chinese and Hindi to follow.\n\nWe will continue to work with other existing translations to make them available through the app – look out for Bahasa Indonesia, German, French and Thai launching through 2021 and 2022."
+        "shortAnswer": "Actuellement, l'édition Classique de la Bible en 1 an est disponible en allemand, arabe, anglais, chinois, espagnol, français et hindi. L'audio n'est actuellement disponible qu'en anglais (chinois et hindi prochainement).",
+        "detailedAnswer": "Actuellement, l'édition Classique de la Bible en 1 an est disponible en arabe, anglais, chinois, hindi et espagnol. L'audio n'est actuellement disponible qu'en anglais (chinois et hindi prochainement).\n\nNous continuons à travailler avec d'autres traductions existantes pour les rendre disponibles via l'application – surveillez les lancements en bahasa indonésien, allemand, français et thaï entre 2021 et 2022."
       },
       {
         "title": "How do I access the new app Menu?",
         "category": "App",
         "shortAnswer": "When opening the app you will see the listview with the dates and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY.",
         "detailedAnswer": "When opening the app you will see the listview with the dates and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY."
+      },
+      {
+        "title": "What additional functionality can I expect over the coming months?",
+        "category": "App",
+        "detailedAnswer": "1. The option to enlarge text size\n2. Translation of the app into Bahasa Indonesia, German, French and Thai\n3. Improvements to the end of year experience\n4. Improved process for donating to BiOY\n\nThereafter we will be working on several ideas and improvements for the app which you are welcome to feed in to by emailing: [bioy@alpha.org](mailto:bioy@alpha.org)",
+        "shortAnswer": "Our team are working on the option to enlarge app text size, improvements to the end of year experience and the process of donating to BiOY. The app will also be translated into four more languages."
       },
       {
         "title": "Can I change the start date?",
