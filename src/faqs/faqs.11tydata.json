@@ -620,76 +620,76 @@
         "detailedAnswer": "Actuellement, l'édition Classique de la Bible en 1 an est disponible en arabe, anglais, chinois, hindi et espagnol. L'audio n'est actuellement disponible qu'en anglais (chinois et hindi prochainement).\n\nNous continuons à travailler avec d'autres traductions existantes pour les rendre disponibles via l'application – surveillez les lancements en bahasa indonésien, allemand, français et thaï entre 2021 et 2022."
       },
       {
-        "title": "How do I access the new app Menu?",
+        "title": "Comment accéder au menu de l'application ?",
         "category": "App",
-        "shortAnswer": "When opening the app you will see the listview with the dates and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY.",
-        "detailedAnswer": "When opening the app you will see the listview with the dates and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY."
+        "shortAnswer": "Lors de l'ouverture de l'application, vous verrez la liste avec les dates et les titres des contenus actuels et récents. L'icône de menu (trois lignes superposées) est située en bas de la barre rouge sur le côté gauche de l'écran. Appuyez sur l'icône Menu pour accéder aux paramètres ou en savoir plus sur la Bible en 1 an.",
+        "detailedAnswer": "Lors de l'ouverture de l'application, vous verrez la liste avec les dates et les titres des contenus actuels et récents. L'icône de menu (trois lignes superposées) est située en bas de la barre rouge sur le côté gauche de l'écran. Appuyez sur l'icône Menu pour accéder aux paramètres ou en savoir plus sur la Bible en 1 an."
       },
       {
-        "title": "What additional functionality can I expect over the coming months?",
+        "title": "Puis-je modifier la date de début ?",
         "category": "App",
-        "detailedAnswer": "1. The option to enlarge text size\n2. Translation of the app into Bahasa Indonesia, German, French and Thai\n3. Improvements to the end of year experience\n4. Improved process for donating to BiOY\n\nThereafter we will be working on several ideas and improvements for the app which you are welcome to feed in to by emailing: [bioy@alpha.org](mailto:bioy@alpha.org)",
-        "shortAnswer": "Our team are working on the option to enlarge app text size, improvements to the end of year experience and the process of donating to BiOY. The app will also be translated into four more languages."
+        "shortAnswer": "Si vous souhaitez modifier la date que vous avez sélectionnée pour démarrer le plan de lecture de la Bible en 1 an, vous devrez désinstaller l'application et la réinstaller depuis l'App Store ou Google Play.",
+        "detailedAnswer": "Si vous souhaitez modifier la date que vous avez sélectionnée pour démarrer le plan de lecture de la Bible en 1 an, vous devrez désinstaller l'application et la réinstaller depuis l'App Store ou Google Play. Lorsque vous relancez l'application pour la première fois, sélectionnez l'édition que vous souhaitez utiliser (Classique, Express ou Jeunesse). Appuyez sur \"Reprendre là où vous vous étiez arrêté·e\" et sélectionnez le jour à partir duquel vous souhaitez commencer."
       },
       {
-        "title": "Can I change the start date?",
+        "title": "Pourquoi avez-vous mis à jour l'application ?",
         "category": "App",
-        "shortAnswer": "If you would like to change the date you selected to start the BiOY reading plan you will need to either reset your app data or re-install the app.",
-        "detailedAnswer": "If you would like to change the date you selected to start the BiOY reading plan you will need to uninstall the app and install it again from the App Store or Google Play. When you launch the app again for the first time, select the edition you wish to use (Classic, Express or Youth). Tap on 'pick up part way through' and select the day you wish to start from."
+        "shortAnswer": "Nous devions déplacer l'application vers une nouvelle plate-forme pour nous permettre d'ajouter plus de fonctionnalités et d'améliorations de la qualité de vie qui n'étaient pas possibles dans l'ancienne application de la Bible en 1 an. En termes simples, afin d'améliorer l'application, nous avons dû la reconstruire de bas en haut.",
+        "detailedAnswer": "Nous devions déplacer l'application vers une nouvelle plate-forme pour nous permettre d'ajouter plus de fonctionnalités et d'améliorations de la qualité de vie qui n'étaient pas possibles dans l'ancienne application de la Bible en 1 an. En termes simples, afin d'améliorer l'application, nous avons dû la reconstruire de bas en haut."
       },
       {
-        "title": "Why have you updated the app?",
+        "title": "Comment puis-je faire un don via l'application ?",
         "category": "App",
-        "shortAnswer": "We needed to move the app to a new platform to enable us to add more functionality and quality-of-life improvements that were not possible in the legacy BiOY app. Simply put, in order to improve the app, we had to rebuild it from the bottom up.",
-        "detailedAnswer": "We needed to move the app to a new platform to enable us to add more functionality and quality-of-life improvements that were not possible in the legacy BiOY app. Simply put, in order to improve the app, we had to rebuild it from the bottom up."
+        "shortAnswer": "Merci d'avoir envisagé de faire un don à la Bible en 1 an, vous pouvez faire un don via le menu de l'application ou ici sur le site Web - Cliquez sur \"faire un don\".",
+        "detailedAnswer": "Merci d'avoir envisagé de faire un don à la Bible en 1 an, vous pouvez faire un don via le menu de l'application ou ici sur le [site Web](/fr/donate)."
       },
       {
-        "title": "How can I donate via the app?",
-        "category": "App",
-        "shortAnswer": "Thank you for considering giving toward BiOY, you can donate through the app menu or here on the BiOY site - Click 'donate'.",
-        "detailedAnswer": "Thank you for considering giving toward BiOY, you can donate through the app menu or here on the [BiOY site](/en/donate)."
-      },
-      {
-        "title": "Does this really contain the whole bible?",
+        "title": "Est-ce que cela contient vraiment toute la Bible ?",
         "category": "Content",
-        "shortAnswer": "The entire bible is covered in the Classic edition of BiOY. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.",
-        "detailedAnswer": "The entire bible is covered in the Classic edition of BiOY. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.\n\nThe Youth and Express editions provide an abridged version of the Classic BiOY with selected scriptures from the book of Psalms or Proverbs, the New Testament and Old Testament. Not every verse in the bible is covered in these editions, however they do give a full experience of the bible."
+        "shortAnswer": "La Bible entière est couverte dans l'édition Classique de la Bible en 1 an. Chaque jour, vous lirez ou écouterez un Psaume ou un Proverbe et une partie du Nouveau Testament et de l'Ancien Testament.",
+        "detailedAnswer": "La Bible entière est couverte dans l'édition Classique de la Bible en 1 an. Chaque jour, vous lirez ou écouterez un Psaume ou un Proverbe et une partie du Nouveau Testament et de l'Ancien Testament.\n\nLes éditions Jeunesse et Express donnent une version abrégée de la version Classique, avec des textes sélectionnés du livre des Psaumes ou des Proverbes, du Nouveau Testament et de l'Ancien Testament. Tous les versets de la Bible ne sont pas cités dans ces éditions, mais elles donnent une expérience complète de la Bible."
       },
       {
-        "title": "I missed a day, can I change the day I am on?",
+        "title": "J'ai raté un jour, puis-je changer le jour où je suis ?",
         "category": "Content",
-        "shortAnswer": "If you would like to change which day’s BiOY commentary you are reading, for example if you missed a day and want to catch up, you can swipe right from the left hand side of the screen of your phone/tablet, and select a different day from the list.",
-        "detailedAnswer": "If you would like to change which day’s BiOY commentary you are reading, for example if you missed a day and want to catch up, you can swipe right from the left hand side of the screen of your phone/tablet, and select a different day from the list."
+        "shortAnswer": "Si vous souhaitez changer le jour que vous lisez, par exemple si vous avez manqué une journée et que vous souhaitez rattraper votre retard, vous pouvez faire glisser votre doigt vers la droite depuis le côté gauche de l'écran de votre téléphone/tablette et sélectionner un autre jour de la liste.",
+        "detailedAnswer": "Si vous souhaitez changer le jour que vous lisez, par exemple si vous avez manqué une journée et que vous souhaitez rattraper votre retard, vous pouvez faire glisser votre doigt vers la droite depuis le côté gauche de l'écran de votre téléphone/tablette et sélectionner un autre jour de la liste."
       },
       {
-        "title": "Why can I not read ahead?",
+        "title": "Pourquoi ne puis-je pas lire à l'avance ?",
         "category": "Content",
-        "shortAnswer": "BiOY is updated daily to keep material fresh and relevant. You cannot read the current year’s Bible in One Year commentary ahead simply because it has not been written/uploaded yet.",
-        "detailedAnswer": "BiOY is updated daily to keep material fresh and relevant. You cannot read the current year’s Bible in One Year commentary ahead simply because it has not been written/uploaded yet."
+        "shortAnswer": "La Bible en 1 an est mise à jour quotidiennement pour garder un contenu actuel et pertinent. Vous ne pouvez pas lire le commentaire de la Bible en 1an en avance, simplement parce qu'il n'a pas encore été écrit/téléchargé.",
+        "detailedAnswer": "La Bible en 1 an est mise à jour quotidiennement pour garder un contenu actuel et pertinent. Vous ne pouvez pas lire le commentaire de la Bible en 1an en avance, simplement parce qu'il n'a pas encore été écrit/téléchargé."
       },
       {
-        "title": "What editions are available?",
+        "title": "Quelles éditions sont disponibles ?",
         "category": "Content",
-        "shortAnswer": "In addition to the BiOY Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 11 - 13 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team and takes 12 - 14 minutes).",
-        "detailedAnswer": "In addition to the BiOY Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 11 - 13 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team and takes 12 - 14 minutes)."
+        "shortAnswer": "En plus de l'édition Classique de la Bible en 1 an (qui prend environ 25 minutes), il existe également une option pour faire une édition Express (qui prend 11 à 13 minutes) ou l'édition Jeunesse (qui est co-organisée par Toby Stokes, un membre de l'équipe \"HTB Youth\" et prend 12 - 14 minutes).",
+        "detailedAnswer": "En plus de l'édition Classique de la Bible en 1 an (qui prend environ 25 minutes), il existe également une option pour faire une édition Express (qui prend 11 à 13 minutes) ou l'édition Jeunesse (qui est co-organisée par Toby Stokes, un membre de l'équipe \"HTB Youth\" et prend 12 - 14 minutes)."
       },
       {
-        "title": "Whose voices am I hearing in the audio tracks?",
+        "title": "Quelles voix est-ce que j'entends dans les pistes audio ?",
         "category": "Audio",
-        "shortAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team.",
-        "detailedAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team."
+        "shortAnswer": "Les lectures bibliques en anglais ont été fournies par David Suchet. D'autres voix, que vous entendrez dans la version anglaise, incluent Nicky et Pippa Gumbel. L'édition jeunesse comprend Toby Stokes, membre de l'équipe \"HTB Youth\". La version française du contenu audio n'est pas encore disponible pour l'instant.",
+        "detailedAnswer": "Les lectures bibliques en anglais ont été fournies par David Suchet. D'autres voix, que vous entendrez dans la version anglaise, incluent Nicky et Pippa Gumbel. L'édition jeunesse comprend Toby Stokes, membre de l'équipe \"HTB Youth\". La version française du contenu audio n'est pas encore disponible pour l'instant."
       },
       {
-        "title": "Can I synchronise the BiOY app between my phone and tablet?",
+        "title": "Puis-je synchroniser l'application de la Bible en 1 an entre mon téléphone et ma tablette ?",
         "category": "Audio",
-        "shortAnswer": "Not yet. There is currently no way to sync your progress through BiOY, although this is a feature that is being considered for 2021.",
-        "detailedAnswer": "Not yet. There is currently no way to sync your progress through BiOY, although this is a feature that is being considered for 2021."
+        "shortAnswer": "Pas encore. Il n'y a actuellement aucun moyen de synchroniser vos progrès, bien qu'il s'agisse d'une fonctionnalité envisagée prochainement.",
+        "detailedAnswer": "Pas encore. Il n'y a actuellement aucun moyen de synchroniser vos progrès, bien qu'il s'agisse d'une fonctionnalité envisagée prochainement."
       },
       {
         "title": "Will the BiOY automatically reset after I complete Day 365?",
         "category": "Content",
         "shortAnswer": "For those that are a few weeks behind and are worried they’ll lose access to the commentaries, be assured that you need to complete all of the days before the app resets back to Day 1.",
         "detailedAnswer": "For those that are a few weeks behind and are worried they’ll lose access to the commentaries, be assured that you need to complete all of the days before the app resets back to Day 1."
+      },
+      {
+        "title": "What additional functionality can I expect over the coming months?",
+        "category": "App",
+        "detailedAnswer": "1. The option to enlarge text size\n2. Translation of the app into Bahasa Indonesia, German, French and Thai\n3. Improvements to the end of year experience\n4. Improved process for donating to BiOY\n\nThereafter we will be working on several ideas and improvements for the app which you are welcome to feed in to by emailing: [bioy@alpha.org](mailto:bioy@alpha.org)",
+        "shortAnswer": "Our team are working on the option to enlarge app text size, improvements to the end of year experience and the process of donating to BiOY. The app will also be translated into four more languages."
       },
       {
         "title": "Is it the commentary the same every year?",
