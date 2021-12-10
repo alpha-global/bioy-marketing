@@ -80,8 +80,8 @@
     {% endif %}
 
     <div x-show="isCookieBoxOpen" class="fixed bottom-20 z-10 bg-white bg-opacity-90 drop-shadow-lg filter right-4 left-4 p-4 flex flex-col sm:bottom-24 md:bottom-4 md:max-w-md md:right-auto">
-      <p class="text-sm">This website stores data such as cookies to enable necessary site functionality and analytics. <a class="text-red underline hover:text-red-darker md:block" href="/{{ locale }}/cookies">Find out more</a></p>
-      <button class="mt-2 btn bg-red text-white hover:bg-red-dark" @click="acceptCookies()">Close</button>
+      <p class="text-sm">{{ siteLocal[locale].cookies.text }} <a class="text-red underline hover:text-red-darker md:block" href="/{{ locale }}/cookies">{{ siteLocal[locale].cookies.cta }}</a></p>
+      <button class="mt-2 btn bg-red text-white hover:bg-red-dark" @click="acceptCookies()">{{ siteLocal[locale].cookies.closeButton }}</button>
     </div>
 
     <script src="/assets/js/app.js?{{ globals.cacheBuster }}"></script>
