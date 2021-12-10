@@ -18,16 +18,16 @@
     "@11ty/eleventy-cache-assets": "^2.2.1",
     "@11ty/eleventy-img": "^0.9.0",
     "@ayctor/laravel-mix-svg-sprite": "^1.0.0",
-    "@tailwindcss/typography": "^0.4.0",
     "alpinejs": "^2.8.2",
     "laravel-mix": "^6.0.19",
     "slugify": "^1.5.3",
     "svg-spritemap-webpack-plugin": "^3.9.1",
-    "swipejs": "^2.3.1",
-    "tailwindcss": "^2.1.4"
+    "swipejs": "^2.3.1"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.0",
     "dayjs": "^1.10.5",
+    "tailwindcss": "^3.0.0",
     "tailwindcss-dir": "^4.0.0"
   }
 }
