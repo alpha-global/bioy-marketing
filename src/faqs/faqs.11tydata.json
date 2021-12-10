@@ -224,6 +224,7 @@
     "notFoundMessage": "Sorry, we don’t have any results for",
     "title": "FAQs",
     "filter": "Filter",
+    "backButton": "Back to all Frequently Asked Questions (FAQs)",
     "categories": {
       "Audio": "Audio",
       "Content": "Content",
@@ -253,6 +254,7 @@
     "notFoundMessage": "عذرا، ليس لدينا أي نتائج عن",
     "title": "اسئلة متكررة",
     "filter": "بحث",
+    "backButton": "Back to all Frequently Asked Questions (FAQs)",
     "categories": {
       "Audio": "الصوت ",
       "Content": "المحتوى",
@@ -479,6 +481,7 @@
     "notFoundMessage": "Leider haben wir kein Ergebnis gefunden für ",
     "title": "FAQs",
     "filter": "Filter",
+    "backButton": "Zurück zu allen häufig gestellten Fragen (FAQs)",
     "categories": {
       "Audio": "Audio",
       "Content": "Inhalt",
@@ -495,12 +498,13 @@
         "detailedAnswer": "long"
       }
     ],
-    "title": "Help",
-    "intro": "**Got a question about Bible in One Year?** A problem with app? Start here…",
-    "filter": "Filter",
     "seeMore": "See More",
-    "notFoundMessage": "Sorry, we don’t have any results for",
     "submitButton": "Submit a support request",
+    "intro": "**Got a question about Bible in One Year?** A problem with app? Start here…",
+    "notFoundMessage": "Sorry, we don’t have any results for",
+    "title": "Help",
+    "filter": "Filter",
+    "backButton": "Back to all Frequently Asked Questions (FAQs)",
     "filterHint": "What are you looking for?"
   },
   "fr": {
@@ -734,6 +738,7 @@
     "notFoundMessage": "Désolé, nous n'avons aucun résultat",
     "title": "FAQ",
     "filter": "Filtrer",
+    "backButton": "Back to all Frequently Asked Questions (FAQs)",
     "categories": {
       "Audio": "Audio",
       "Content": "Contenu",
@@ -748,7 +753,6 @@
     "title": "FAQs"
   },
   "th": {
-    "title": "FAQs คำถามที่พบบ่อย",
     "faqsItems": [
       {
         "title": "ฉันสามารถเพิ่ม/ลดความเร็วของเสียงได้หรือไม่?"
@@ -862,11 +866,13 @@
         "title": "ฉันจะจัดการเสียงได้อย่างไร?"
       }
     ],
-    "filter": "ตัวกรอง",
-    "intro": "**มีคำถามเกี่ยวกับ พระคัมภีร์ในหนึ่งปี หรือไม่?**\n\nมีปัญหาการใช้งานบนแอพ? เริ่มพิมพ์คำถามของคุณที่นี่...",
     "seeMore": "ดูเพิ่มเติม",
-    "notFoundMessage": "ขออภัย เราไม่มีผลลัพธ์ใดๆ สำหรับ",
     "submitButton": "ส่งคำขอรับการช่วยเหลือ",
+    "intro": "**มีคำถามเกี่ยวกับ พระคัมภีร์ในหนึ่งปี หรือไม่?**\n\nมีปัญหาการใช้งานบนแอพ? เริ่มพิมพ์คำถามของคุณที่นี่...",
+    "notFoundMessage": "ขออภัย เราไม่มีผลลัพธ์ใดๆ สำหรับ",
+    "title": "FAQs คำถามที่พบบ่อย",
+    "filter": "ตัวกรอง",
+    "backButton": "Back to all Frequently Asked Questions (FAQs)",
     "filterHint": "คุณกำลังมองหาอะไร?"
   },
   "zh": {
@@ -877,6 +883,7 @@
     "notFoundMessage": "对不起，暂时无法提供答案",
     "title": "帮助",
     "filter": "过滤器",
+    "backButton": "Back to all Frequently Asked Questions (FAQs)",
     "categories": {
       "Audio": "声音",
       "Content": "内容",

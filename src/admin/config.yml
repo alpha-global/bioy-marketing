@@ -223,6 +223,12 @@ collections:
                   widget: "string",
                   i18n: true,
                 },
+                 {
+                  name: "backButton",
+                  label: "Back to all Frequently Asked Questions (FAQs)",
+                  widget: "string",
+                  i18n: true,
+                },
                 {
                   name: "notFoundMessage",
                   label: "Not Found Message",
