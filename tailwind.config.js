@@ -73,17 +73,5 @@ module.exports = {
       },
     },
   },
-  variants: {
-    extend: {
-      borderRadius: ["direction"],
-      display: ["direction"],
-      inset: ["direction"],
-      flexDirection: ["direction"],
-      scale: ["direction"],
-      textAlign: ["direction"],
-      transform: ["direction"],
-      padding: ["direction"],
-    },
-  },
   plugins: [require("@tailwindcss/typography"), require("tailwindcss-dir")()],
 };
