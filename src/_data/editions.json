@@ -6,10 +6,10 @@
     "express": "Express"
   },
   "ar": {
-    "intro": "يأتي الكتاب المقدس في عام واحد بثلاث إصدارات مختلفة ...",
-    "classic": "Classic",
+    "intro": "يأتي الكتاب المقدس في سنة واحدة بثلاث إصدارات مختلفة ...",
+    "classic": "كلاسيك",
     "youth": "الشباب",
-    "express": "Express"
+    "express": "اكسبريس"
   },
   "de": {
     "intro": "Bibel in einem Jahr gibt es in drei Versionen:",
