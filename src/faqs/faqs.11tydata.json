@@ -737,7 +737,12 @@
   },
   "hi": {
     "faqsItems": [
-      {}
+      {
+        "title": "Title",
+        "category": "Audio",
+        "shortAnswer": "Answer",
+        "detailedAnswer": "Answer"
+      }
     ],
     "title": "FAQs"
   },
