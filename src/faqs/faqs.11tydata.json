@@ -864,7 +864,13 @@
     "filterHint": "คุณกำลังมองหาอะไร?"
   },
   "zh": {
-    "faqsItems": [],
+    "faqsItems": [
+      {
+        "title": "Here is a title",
+        "category": "Audio",
+        "shortAnswer": "Short answer"
+      }
+    ],
     "seeMore": "查看更多",
     "submitButton": "提交附加证据",
     "intro": "**对《圣经日日行》有疑问吗？**\n\n不知道该如何使用本软件？请点击这里……",
