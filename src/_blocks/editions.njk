@@ -2,15 +2,15 @@
   <p class="mx-auto px-4 w-full max-w-screen-md text-center text-black text-xl lg:text-3xl">
     {{ editions[locale].intro }}
   </p>
-  <div class="grid xs:grid-cols-3 gap-2 mx-auto p-4 w-full md:max-w-sm">
-    <a class="whiteButton w-full text-center" href="/{{ locale }}/classic">{{
-      editions[locale].classic
-    }}</a>
-    <a class="whiteButton w-full text-center" href="/{{ locale }}/youth">{{
-      editions[locale].youth
-    }}</a>
-    <a class="whiteButton w-full text-center" href="/{{ locale }}/express">{{
-      editions[locale].express
-    }}</a>
+  <div class="flex flex-col xs:flex-row items-center justify-center space-y-2 xs:space-x-2 xs:space-y-0 mx-auto p-4 w-full md:max-w-sm">
+    {% if  editions[locale].classic %}
+      <a class="whiteButton w-full xs:w-1/3 text-center" href="/{{ locale }}/classic">{{ editions[locale].classic }}</a>
+    {% endif %}
+    {% if  editions[locale].youth %}
+      <a class="whiteButton w-full xs:w-1/3 text-center" href="/{{ locale }}/youth">{{ editions[locale].youth }}</a>
+    {% endif %}
+    {% if  editions[locale].express %}
+      <a class="whiteButton w-full xs:w-1/3 text-center" href="/{{ locale }}/express">{{ editions[locale].express }}</a>
+    {% endif %}
   </div>
 </section>

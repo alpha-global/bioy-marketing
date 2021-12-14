@@ -35,7 +35,7 @@ imageBanner: true
 
     {% if lang.header.cta %}
     <div>
-      <a href="/{{ locale }}/{{variant}}/{{globals.today}}" class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors">
+      <a id="today" href="/{{ locale }}/{{variant}}/{{globals.today}}" class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors">
         {{ lang.header.cta }}
       </a>
     </div>
