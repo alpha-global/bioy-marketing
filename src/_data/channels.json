@@ -42,15 +42,15 @@
   "ar": {
     "distribution": [
       {
-        "channel": "App",
+        "channel": "التطبيق",
         "icon": "medium_app",
-        "description": "D ownload the Bible in One Year app for iOS or Android devices and read along each day.\n\n* [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
+        "description": "قم بتنزيل تطبيق الكتاب المقدس في سنة واحدة لأجهزة iOS أو Android واقرأ كل يوم.\n\n* [تنزيل لأجهزة iOS من App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [تنزلي لأجهزة Android من Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
         "image": "/assets/img/medium_website.jpg"
       },
       {
         "channel": "Email",
         "icon": "medium_email",
-        "description": "Sign up now to receive Bible in One Year in your inbox each morning. You’ll get one email each day.",
+        "description": "سجل الآن لتحصل على الكتاب المقدس في عام واحد على بريدك الإلكتروني كل صباح. ستتلقى بريدًا إلكترونيًا واحدًا كل يوم.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
           "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/p5d3p8\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"4010371,p5d3p8\">Sign up now</a>"
@@ -59,22 +59,22 @@
       {
         "channel": "Podcast",
         "icon": "medium_podcast",
-        "description": "Subscribe and listen to Bible in One Year delivered to your favourte podcast app everyday.",
+        "description": "اشترك واستمع إلى الكتاب المقدس في سنة الذي يتم توصيله إلى تطبيق البودكاست المفضل لديك يوميًا.",
         "image": "/assets/img/medium_app.jpg"
       },
       {
-        "channel": "Website",
+        "channel": "الموقع",
         "icon": "medium_website",
-        "description": "Start reading today’s devotion right here on the BiOY website.",
+        "description": "ابدأ بقراءة تأمل اليوم من هنا على موقع الكتاب المقدس في سنة واحدة الإلكتروني.",
         "image": "/assets/img/medium_laptop.jpg",
         "cta": {
           "code": "<a href=\"#today\" class=\"whiteButton\">Read now</a>"
         }
       },
       {
-        "channel": "Book",
+        "channel": "كتاب ",
         "icon": "medium_book",
-        "description": "Nicky Gumbel, pioneer of Alpha - a series of sessions exploring the Christian faith - and vicar of Holy Trinity Brompton in Kensington, London, aids readers following the Bible in one year programme to understand the Scriptures better.\n\n* [Buy from the Alpha Shop](https://shop.alpha.org/item/the-bible-in-one-year-commentary/english-hardback)\n* [Buy from CLC Bookshops](https://clcbookshops.com/product/bible-in-one-year-the-a-commentary-by-nicky-gumbel-hard-cover-gumbel-nicky-hodder-stoughton-9781473677067)",
+        "description": "نيكي جومبل ، رائد برنامج ألفا - سلسلة من اللقاءات لاستكشاف الإيمان المسيحي - وراعي كنيسة الثالوث الاقدس برومبتون في كنسينغتون، لندن ، يساعد القراء على اتباع الكتاب المقدس في برنامج مدته سنة واحدة لفهم الكتاب المقدس بشكل أفضل.\n\n* [قم بشراء الكتاب من خلال Alpha Shop](https://shop.alpha.org/item/the-bible-in-one-year-commentary/english-hardback)\n* [CLC Bookshops](https://clcbookshops.com/product/bible-in-one-year-the-a-commentary-by-nicky-gumbel-hard-cover-gumbel-nicky-hodder-stoughton-9781473677067) [قم بالشراء من خلال](https://clcbookshops.com/product/bible-in-one-year-the-a-commentary-by-nicky-gumbel-hard-cover-gumbel-nicky-hodder-stoughton-9781473677067)",
         "image": "/assets/img/books.jpg"
       }
     ]
@@ -84,11 +84,11 @@
       {
         "channel": "App",
         "icon": "medium_app",
-        "description": "Hol dir die \"Bible in one Year\" App für iOS oder Android.\n\n* [Download für iOS aus dem App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download für Android bei Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
+        "description": "Hol dir die \"Bible in one Year\" App für iOS oder Android und starte die Bibel regelmäßig zu lesen oder zu hören.\n\n* [Download für iOS aus dem App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download für Android bei Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
         "image": "/assets/img/medium_website.jpg"
       },
       {
-        "channel": "Email",
+        "channel": "EMail",
         "icon": "medium_email",
         "description": "Registriere dich jetzt, um Bibel in einem Jahr jeden Morgen in deinem Posteingang zu haben. Du bekommst jeden Tag eine E-Mail.",
         "image": "/assets/img/medium_email.jpg",
@@ -105,7 +105,7 @@
       {
         "channel": "Website",
         "icon": "medium_website",
-        "description": "Starte gleich hier auf der Webseite mit dem Lesen von Bibel in einem Jahr.",
+        "description": "Starte gleich hier auf der Website mit dem Lesen von Bibel in einem Jahr.",
         "image": "/assets/img/medium_laptop.jpg",
         "cta": {
           "code": "<a href=\"#today\" class=\"whiteButton\">Jetzt lesen</a>"
