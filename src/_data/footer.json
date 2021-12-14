@@ -126,12 +126,12 @@
         "external": false
       },
       {
-        "href": "/en/privacy-policy/",
-        "label": "Privacy",
+        "href": "/de/privacy-policy/",
+        "label": "Datenschutz",
         "external": false
       },
       {
-        "href": "/en/cookies/",
+        "href": "/de/cookies/",
         "label": "Cookies",
         "external": false
       }
