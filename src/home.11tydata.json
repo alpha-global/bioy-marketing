@@ -115,7 +115,7 @@
     "intro": "Bom dia!",
     "header": {
       "title": "想了解圣经吗？",
-      "strapline": "我们将帮助你学习圣经，每天跨越一小步",
+      "strapline": "我们将帮助你学习圣经，<br>每天跨越一小步",
       "cta": "现在就开始吧",
       "img": {
         "src": "/assets/img/bioy-header.jpg",
