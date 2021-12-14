@@ -13,19 +13,19 @@
   "ar": {
     "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
     "cta": {
-      "label": "Find out more",
-      "url": "/en/about"
+      "label": "اعرف المزيد",
+      "url": "/ar/about"
     },
-    "outro": "Nicky & Pippa lead Holy Trinity Brompton (HTB), a church in central London. They first introduced the Bible in One Year commentary in 2011 as a daily email for their congregation members. Since then it has grown beyond that daily email to be a website, app, podcast, and more with a worldwide following.",
-    "quote": "Join us as we read the Bible each day. It’s a practice that we have been doing for over 30 years and we hope it will benefit your life as much as it has ours.",
-    "intro": "Bible in One Year is a practice that Nicky & Pippa Gumbel have been doing for over thirty years. Join them each day as they take you into every chapter and every verse in the Bible and let the Holy Spirit speak into your life.",
-    "header": "Let Nicky and Pippa Be Your Guide"
+    "outro": "",
+    "quote": "انضم إلينا ونحن نقرأ الكتاب المقدس كل يوم. إنها ممارسة كنا نقوم بها منذ أكثر من 30 عامًا ونأمل أن تفيد حياتك بقدر ما تفيدنا.",
+    "intro": "نيكي جمبل هو رائد برنامج ألفا وراعي كنيسة الثالوث الاقدس برومبتون في لندن، والتي يقودها مع زوجته بيبا. قدموا معًا الكتاب المقدس في تعليق عام واحد في عام 2009 كبريد إلكتروني يومي لجماعة المصلين. منذ ذلك الحين، أصبح تطبيقًا وكتابًا وبودكاست وموقعًا إلكترونيًا ناجحًا مع متابعة عالمية. انضم إليهم اليوم حيث يأخذونك عبر كل فصل وآية من الكتاب المقدس، ويشاركون تأملاتهم وصلواتهم على طول الطريق.",
+    "header": "قابل نيكي وبيبا"
   },
   "de": {
     "header": "Lerne Nicky and Pippa kennen",
-    "intro": "Nicky Gumbel ist der Pionier von Alpha und Leitende Pastor der Holy Trinity Brompton Kirche in London, die er zusammen mit seiner Frau Pippa leitet. Gemeinsam starteten sie 2009 \"Bibel in einem Jahr\" als tägliche E-Mail für ihre Gemeinde. Daraus entwickelte sich eine beliebte App, ein Buch, ein Podcast und eine Website mit einer weltweiten Leserschaft. Freu dich darauf, wenn sie dich durch die Kapitel der Bibel führen und dabei ihre Überlegungen und Gebete mit dir teilen.",
+    "intro": "Nicky Gumbel ist der Pionier des Alpha-Kurses und leitender Pastor der Holy Trinity Brompton Kirche in London, die er zusammen mit seiner Frau Pippa leitet. Gemeinsam starteten sie 2009 \"Bibel in einem Jahr\" als tägliche E-Mail für ihre Gemeinde. Daraus entwickelte sich eine beliebte App, ein Buch, ein Podcast und eine Website mit einer weltweiten Leserschaft. Freu dich darauf, wenn sie dich durch die Kapitel der Bibel führen und dabei ihre Überlegungen und Gebete mit dir teilen.",
     "quote": "Lies mit uns jeden Tag in der Bibel. Wir praktizieren dies schon seit über 30 Jahren und hoffen, dass es deinem Leben ebenso gut tut wie unserem.",
-    "outro": " ",
+    "outro": "Nicky und Pippa",
     "cta": {
       "label": "Mehr erfahren",
       "url": "/de/about"
