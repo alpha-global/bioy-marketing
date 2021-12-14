@@ -50,8 +50,24 @@
   "de": {
     "collection": [
       {
-        "quote": "I’m a new Christian and this is my first experience of reading the Bible in one year… I look forward to hearing/reading it each day.",
+        "quote": "Ich bin seit kurzem Christ Christ und lese zum ersten Mal Bibel in einem Jahr... Ich freue mich jeden Tag darauf, sie zu hören/lesen.",
         "source": "iOS App Store Review"
+      },
+      {
+        "quote": "Meine liebste Art, den Tag zu beginnen.",
+        "source": "Bear Grylls, Abenteurer"
+      },
+      {
+        "quote": "Jeden Morgen macht mein Herz einen Sprung, wenn ich \"Bibel in einem Jahr\" von Nicky Gumbel in meinem Posteingang liegen sehe.",
+        "source": "Darlene Zschech, Lobpreisleiterin"
+      },
+      {
+        "quote": "Ich habe seit vielen Jahren nach einer solchen App gesucht...",
+        "source": "iOS App Store Review"
+      },
+      {
+        "quote": "Fantastisches Angebot. Kombiniert inspirierende Alltagsgeschichten mit geistlichen Weisheiten aus der Bibel. Es ist erfrischend, herausfordernd und humorvoll.",
+        "source": "Google Play Review"
       }
     ]
   },
@@ -82,8 +98,24 @@
   "fr": {
     "collection": [
       {
-        "source": "iOS App Store Review",
-        "quote": "I’m a new Christian and this is my first experience of reading the Bible in one year… I look forward to hearing/reading it each day."
+        "quote": "Je suis un nouveau chrétien et c'est ma première expérience de lecture de la Bible en 1 an… J'ai hâte de l'entendre/la lire chaque jour.",
+        "source": "Avis d'un utilisateur sur l'App Store iOS"
+      },
+      {
+        "quote": "Ma façon préférée de commencer la journée.",
+        "source": "Bear Grylls, aventurier"
+      },
+      {
+        "quote": "Mon cœur bondit chaque matin quand je vois la Bible en 1 an de Nicky Gumbel dans ma boîte de réception.",
+        "source": "Darlene Zschech, directrice de louange"
+      },
+      {
+        "quote": "Je cherchais une application comme celle-ci depuis de nombreuses années…",
+        "source": "Avis d'un utilisateur sur l'App Store iOS"
+      },
+      {
+        "quote": "Ressource fantastique. Combine des histoires inspirantes de la vie quotidienne et de l'Histoire avec la sagesse spirituelle tirée de la Bible. C'est édifiant, stimulant et humoristique.",
+        "source": "Avis d'un utilisateur sur Google Play"
       }
     ]
   },
