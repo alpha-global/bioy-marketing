@@ -724,6 +724,20 @@ collections:
                 },
               ],
           },
+          {
+            file: "src/_data/navigation.json",
+            label: "Navigation Bar",
+            name: "navigation",
+            i18n: true,
+            fields:
+              [
+                { name: start, label: Start, widget: string, i18n: true },
+                { name: about, label: About, widget: string, i18n: true },
+                { name: faqs, label: FAQs, widget: string, i18n: true },
+                { name: donate, label: Donate, widget: string, i18n: true },
+                { name: download, label: Download, widget: string, i18n: true },
+              ],
+          },
         ],
     },
     {
@@ -768,6 +782,7 @@ collections:
                       },
                     ],
                 },
+
                 {
                   name: "social",
                   label: "Social Media",
@@ -788,6 +803,34 @@ collections:
                         name: "img",
                         widget: "image",
                         hint: "Images should be 1200px x 675px (16:9)",
+                        i18n: true,
+                      },
+                    ],
+                },
+                {
+                  name: "cookies",
+                  label: "Cookies Popup",
+                  widget: "object",
+                  i18n: true,
+                  fields:
+                    [
+                      {
+                        label: "Text",
+                        name: "text",
+                        widget: "text",
+                        i18n: true,
+                      },
+                      {
+                        label: "CTA",
+                        name: "cta",
+                        widget: "string",
+                        hint: "Find out more",
+                        i18n: true,
+                      },
+                      {
+                        label: "Close Button",
+                        name: "closeButton",
+                        widget: "string",
                         i18n: true,
                       },
                     ],

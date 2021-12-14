@@ -38,18 +38,19 @@ export default {
       },
     });
 
-    podcastSwiper.getPos() === 0
-      ? paginationButtons[0].classList.add("bg-white")
-      : null;
+    if (paginationButtons.length) {
+      podcastSwiper.getPos() === 0
+        ? paginationButtons[0].classList.add("bg-white")
+        : null;
+      nextPodcast.addEventListener("click", () => podcastSwiper.next());
 
-    nextPodcast.addEventListener("click", () => podcastSwiper.next());
+      previousPodcast.addEventListener("click", () => podcastSwiper.prev());
 
-    previousPodcast.addEventListener("click", () => podcastSwiper.prev());
-
-    paginationButtons.forEach((button) => {
-      button.addEventListener("click", () =>
-        podcastSwiper.slide(button.getAttribute("data-index"), 200)
-      );
-    });
+      paginationButtons.forEach((button) => {
+        button.addEventListener("click", () =>
+          podcastSwiper.slide(button.getAttribute("data-index"), 200)
+        );
+      });
+    }
   },
 };

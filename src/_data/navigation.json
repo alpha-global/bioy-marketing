@@ -1,0 +1,58 @@
+{
+  "en": {
+    "start": "Start",
+    "about": "About",
+    "faqs": "FAQs",
+    "donate": "Donate",
+    "download": "Download"
+  },
+  "ar": {
+    "start": "Start",
+    "about": "About",
+    "faqs": "FAQS",
+    "donate": "Donate",
+    "download": "Download"
+  },
+  "de": {
+    "start": "Start",
+    "about": "About",
+    "faqs": "FAQs",
+    "donate": "Donate",
+    "download": "Download"
+  },
+  "es": {
+    "start": "Comienzo",
+    "about": "Sobre",
+    "faqs": "Ayudar",
+    "donate": "Donar",
+    "download": "Descargar"
+  },
+  "fr": {
+    "start": "Start",
+    "about": "About",
+    "faqs": "FAQs",
+    "donate": "Donate",
+    "download": "Download"
+  },
+  "hi": {
+    "start": "Start",
+    "about": "About",
+    "faqs": "FAQs",
+    "donate": "Donate",
+    "download": "Download"
+  },
+  "th": {
+    "start": "Start",
+    "about": "About",
+    "faqs": "FAQs",
+    "donate": "Donate",
+    "download": "Download"
+  },
+  "zh": {
+    "start": "Start",
+    "about": "About",
+    "faqs": "FAQs",
+    "donate": "Donate",
+    "download": "Download"
+  }
+}
