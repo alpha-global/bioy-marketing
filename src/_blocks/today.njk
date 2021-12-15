@@ -28,8 +28,10 @@
   </div>
 
   <div>
+    {% if today[locale].image %}
     {% blockImage today[locale].image, "reader", "(min-width: 640px) 50vw, 100vw",
     "object-cover h-full w-full" %}
+    {% endif %}
   </div>
 </section>
 
