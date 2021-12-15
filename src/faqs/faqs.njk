@@ -28,7 +28,7 @@ redirectTo: faqs
   x-init="init()"
 >
   <div class="js-filter hidden flex relative mb-4">
-    <span class="py-2 pr-2 font-bold absolute left-0 pointer"
+    <span class="py-2 pr-2 font-bold absolute ltr:left-0 rtl:right-0 pointer"
       >{{ lang.filter }}:</span
     >
     <input
@@ -38,7 +38,8 @@ redirectTo: faqs
         appearance-none
         w-full
         p-2
-        pl-16
+        ltr:pl-16
+        rtl:pr-16
         border-b-2 border-grey
         focus:outline-none
         focus:border-red
@@ -46,8 +47,7 @@ redirectTo: faqs
       placeholder="{{ lang.filterHint }}"
       x-model="query"
     />
-    {% svgSprite name="search", class="pointer-events-none absolute right-2
-    top-2 h-6 w-6" %}
+    {% svgSprite name="search", class="pointer-events-none absolute ltr:right-2 rtl:left-2 top-2 h-6 w-6" %}
   </div>
 
   <div class="grid gap-4 md:grid-cols-2 mb-4">
