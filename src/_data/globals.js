@@ -10,50 +10,55 @@ const todaysDayNumber = () => {
 const languages = [
   {
     locale: "en",
-    language: "English"
+    language: "English",
   },
   {
     locale: "es",
-    language: "Español"
+    language: "Español",
   },
   {
     locale: "ar",
-    language: "عربى"
+    language: "عربى",
   },
   {
     locale: "hi",
-    language: "हिंदी"
+    language: "हिंदी",
   },
   {
     locale: "zh",
-    language: "中國人"
+    language: "中國人",
   },
   {
     locale: "de",
-    language: "Deutsch"
+    language: "Deutsch",
   },
   {
     locale: "fr",
-    language: "Français"
+    language: "Français",
   },
   {
     locale: "th",
-    language: "ไทย"
-  }
+    language: "ไทย",
+  },
+  {
+    locale: "id",
+    language: "Bahasa Indonesia",
+  },
 ];
 
 module.exports = {
   siteUrl: "https://bibleinoneyear.com",
   buildTime: new Date(),
-  cacheBuster: Math.round(+new Date()/1000),
+  cacheBuster: Math.round(+new Date() / 1000),
   currentYear: new Date().getFullYear(),
   env: process.env.ELEVENTY_ENV,
-  liveLanguages: ['en', 'es'],
-  locales: languages.map(i => i.locale),
+  liveLanguages: ["en", "es"],
+  locales: languages.map((i) => i.locale),
   languages: languages,
   today: todaysDayNumber(),
   stores: {
     ios: "https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8",
-    android: "https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB"
-  }
-}
+    android:
+      "https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB",
+  },
+};
