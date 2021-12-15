@@ -20,7 +20,8 @@
     "today": "Heute",
     "day": "Tag",
     "cta_teaser": "In der App \"Bibel in einem Jahr\" hast du Zugriff auf den gesamten Verlauf, Audios, Fortschrittsanzeige und vieles mehr.",
-    "cta": "Jetzt runterladen"
+    "cta": "Jetzt runterladen",
+     "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
   },
   "es": {
     "title": "Today's Reading",
@@ -35,7 +36,8 @@
     "today": "Aujourd'hui",
     "day": "Jour",
     "cta_teaser": "Dans l'application Bible en 1 an, vous pouvez accéder à un historique complet, à des commentaires audio (français bientôt disponible), à un suivi de la progression, et plus encore.",
-    "cta": "Télécharger aujourd'hui"
+    "cta": "Télécharger aujourd'hui",
+     "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
   },
   "hi": {
     "title": "Today's Reading",
@@ -50,7 +52,8 @@
     "today": "วันนี้",
     "day": "วันที่",
     "cta_teaser": "ในแอพพระคัมภีร์ในหนึ่งปี คุณสามารถเข้าถึงประวัติฉบับเต็ม เฝ้าเดี่ยวด้วยการฟัง ติดตามความคืบหน้า และอีกมากมาย",
-    "cta": "ดาวน์โหลดวันนี้"
+    "cta": "ดาวน์โหลดวันนี้",
+     "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
   },
   "zh": {
     "title": "今日读经",
