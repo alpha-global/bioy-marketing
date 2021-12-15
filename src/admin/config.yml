@@ -842,8 +842,8 @@ collections:
                     ],
                 },
                 {
-                  name: "signUpFormTranslations",
-                  label: "Sign-up Form Translations",
+                  name: "signUpForm",
+                  label: "Sign-up Form",
                   widget: "object",
                   i18n: true,
                   fields:
@@ -858,7 +858,6 @@ collections:
                         label: "Help Text",
                         name: "helpText",
                         widget: "text",
-                        hint: "Sign up to receive each day's Bible in One Year reading in your inbox",
                         i18n: true,
                         default: "Sign up to receive each day's Bible in One Year reading in your inbox",
                       },
