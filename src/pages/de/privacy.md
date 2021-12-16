@@ -4,9 +4,9 @@ locale: de
 ---
 ### **Einführung/Introduction**
 
+Dies ist ein Angebot von Alpha International (AI). Auch der Datenschutz wird verantwortet von AI, was Sie im folgenden lesen können. Bei Fragen dazu können Sie sich gerne an *[GDPR@alpha.org](mailto:GDPR@alpha.org). wenden.*
 
-
-Welcome to Alpha International’s (AI) privacy notice.
+Welcome to Alpha International’s privacy notice.
 
 AI respects your privacy and is committed to protecting your personal data. This privacy notice will inform you how we look after your personal data (regardless of where you visit this Privacy Policy from) and tell you about your privacy rights and how the law protects you.
 
