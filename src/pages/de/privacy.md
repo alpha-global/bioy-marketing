@@ -1,8 +1,10 @@
 ---
-title: Privacy policy
+title: Datenschutzerklärung/Privacy policy
 locale: de
 ---
-### **Introduction**
+### **Einführung/Introduction**
+
+
 
 Welcome to Alpha International’s (AI) privacy notice.
 
@@ -173,11 +175,8 @@ Some of our external third parties, National Alpha Offices and Fundraising Partn
 Whenever we transfer your personal data out of the EEA, we ensure a similar degree of protection is afforded to it by ensuring at least one of the following safeguards is implemented:
 
 * We will only transfer your personal data to countries that have been deemed to provide an adequate level of protection for personal data by the European Commission. For further details, see European Commission: Adequacy of the protection of personal data in non-EU countries.
-
 * Where we use certain service providers, we may use specific contracts approved by the European Commission which give personal data the same protection it has in Europe. For further details, see European Commission: Model contracts for the transfer of personal data to third countries.
-
 * Where we use providers based in the US, we check whether the supplier(s) can host the data within the EU. If this is not possible, we ensure Standard Contractual Clauses are in place before transferring any data.
-
 * Please email [GDPR@alpha.org](mailto:GDPR@alpha.org) if you want further information on the specific mechanism used by us when transferring your personal data out of the EEA.
 
 ### 7. Data security
