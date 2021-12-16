@@ -13,6 +13,15 @@
       "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
       "cta": "Find out more",
       "closeButton": "Close"
+    },
+    "signUpForm": {
+      "title": "Bible in One Year",
+      "helpText": "Sign up to receive each day's Bible in One Year reading in your inbox.",
+      "fieldLabel1": "Primary Email Address",
+      "fieldLabel2": "First Name",
+      "privacyText": "If you would like to know how Alpha processes your data, please view Alpha's <Privacy Policy>.",
+      "privacyLink": "https://bibleinoneyear.org/en/privacy-policy/",
+      "ButtonText": "Sign up now"
     }
   },
   "ar": {

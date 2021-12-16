@@ -841,6 +841,63 @@ collections:
                       },
                     ],
                 },
+                {
+                  name: "signUpForm",
+                  label: "Sign-up Form",
+                  widget: "object",
+                  i18n: true,
+                  fields:
+                    [
+                      {
+                        label: "Title",
+                        name: "title",
+                        widget: "string",
+                        i18n: true,
+                      },
+                      {
+                        label: "Help Text",
+                        name: "helpText",
+                        widget: "text",
+                        i18n: true,
+                        default: "Sign up to receive each day's Bible in One Year reading in your inbox",
+                      },
+                      {
+                        label: "Field Label 1",
+                        name: "fieldLabel1",
+                        widget: "string",
+                        i18n: true,
+                        default: "Primary Email Address",
+                      },                     
+                      {
+                        label: "Field Label 2",
+                        name: "fieldLabel2",
+                        widget: "string",
+                        i18n: true,
+                        default: "First Name",
+                      },                      
+                      {
+                        label: "Privacy Text",
+                        name: "privacyText",
+                        widget: "text",
+                        i18n: true,
+                        default: "If you would like to know how Alpha processes your data, please view Alpha's <Privacy Policy>."
+                      },
+                      {
+                        label: "Privacy Link",
+                        name: "privacyLink",
+                        widget: "string",
+                        i18n: true,
+                        default: "https://bibleinoneyear.org/en/privacy-policy/",
+                      },  
+                        {
+                        label: "Button Text",
+                        name: "ButtonText",
+                        widget: "string",
+                        i18n: true,
+                        default: "Sign up now",
+                      }, 
+                    ],
+                },
               ],
           },
         ],
