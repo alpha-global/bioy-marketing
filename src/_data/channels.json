@@ -192,6 +192,15 @@
         "description": "\n\nDownload the Bible in One Year app for iOS or Android devices and read along each day.\n\n* [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
         "image": "/assets/img/medium_website.jpg"
       },
+       {
+        "channel": "Email",
+        "icon": "medium_email",
+        "description": "Sign up now to receive Bible in One Year in your inbox each morning. You’ll get one email each day.",
+        "image": "/assets/img/medium_email.jpg",
+        "cta": {
+          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/y7w6m3\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"5166494,y7w6m3\">Sign up now</a>"
+        }
+      },
       {
         "channel": "Website",
         "icon": "medium_website",
