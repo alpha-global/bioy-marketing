@@ -221,7 +221,10 @@
         "channel": "อีเมล",
         "icon": "medium_email",
         "description": "Sign up now to receive Bible in One Year in your inbox each morning. You’ll get one email each day.",
-        "image": "/assets/img/medium_email.jpg"
+        "image": "/assets/img/medium_email.jpg",
+         "cta": {
+          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/a0u5h1\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"5166713,a0u5h1\">Sign up now</a>"
+        }
       },
       {
         "channel": "เว็บไซต์",
