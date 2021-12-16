@@ -6,7 +6,7 @@ imageBanner: true
 <header class="text-center md:flex md:text-right md:rtl:text-left">
 
   <div class="mb-8 w-full md:w-3/5">
-
+    {% if lang.header.img.src %}
     {% blockImage lang.header.img.src, lang.header.img.desc , "(min-width: 640px) 60vw, 100vw", "u-bannerImage mb-4 md:mb-8" %}
 
     <svg height="0" width="0">
@@ -25,6 +25,7 @@ imageBanner: true
           </clipPath>
         </defs>
     </svg>
+    {% endif %}
   </div>
 
   <div class="w-10/12 mx-auto mb-4 md:w-2/5 md:flex md:flex-col md:justify-center md:p-4">
