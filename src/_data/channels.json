@@ -53,7 +53,7 @@
         "description": "سجل الآن لتحصل على الكتاب المقدس في عام واحد على بريدك الإلكتروني كل صباح. ستتلقى بريدًا إلكترونيًا واحدًا كل يوم.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/p5d3p8\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"4010371,p5d3p8\">Sign up now</a>"
+          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/l2u8i1\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"5166407,l2u8i1\">Sign up now</a>"
         }
       },
       {
@@ -93,7 +93,7 @@
         "description": "Registriere dich jetzt, um Bibel in einem Jahr jeden Morgen in deinem Posteingang zu haben. Du bekommst jeden Tag eine E-Mail.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/p5d3p8\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"4010371,p5d3p8\">Sign up now</a>"
+          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/b4j7s5\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"5166542,b4j7s5\">Sign up now</a>"
         }
       },
       {
@@ -158,7 +158,7 @@
         "description": "Inscrivez-vous maintenant pour recevoir la Bible en 1 an dans votre boîte de réception chaque matin. Vous recevrez un e-mail par jour.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/p5d3p8\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"4010371,p5d3p8\">Sign up now</a>"
+          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/d4q3b1\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"5166560,d4q3b1\">Sign up now</a>"
         }
       },
       {
@@ -192,6 +192,15 @@
         "description": "\n\nDownload the Bible in One Year app for iOS or Android devices and read along each day.\n\n* [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
         "image": "/assets/img/medium_website.jpg"
       },
+       {
+        "channel": "Email",
+        "icon": "medium_email",
+        "description": "Sign up now to receive Bible in One Year in your inbox each morning. You’ll get one email each day.",
+        "image": "/assets/img/medium_email.jpg",
+        "cta": {
+          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/y7w6m3\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"5166494,y7w6m3\">Sign up now</a>"
+        }
+      },
       {
         "channel": "Website",
         "icon": "medium_website",
@@ -212,7 +221,10 @@
         "channel": "อีเมล",
         "icon": "medium_email",
         "description": "Sign up now to receive Bible in One Year in your inbox each morning. You’ll get one email each day.",
-        "image": "/assets/img/medium_email.jpg"
+        "image": "/assets/img/medium_email.jpg",
+         "cta": {
+          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/a0u5h1\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"5166713,a0u5h1\">Sign up now</a>"
+        }
       },
       {
         "channel": "เว็บไซต์",
@@ -229,6 +241,15 @@
         "icon": "medium_app",
         "description": "\n\nDownload the Bible in One Year app for iOS or Android devices and read along each day.\n\n* [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
         "image": "/assets/img/medium_website.jpg"
+      },
+      {
+        "channel": "Email",
+        "icon": "medium_email",
+        "description": "Sign up now to receive Bible in One Year in your inbox each morning. You’ll get one email each day.",
+        "image": "/assets/img/medium_email.jpg",
+        "cta": {
+          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/q8q8x7\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"5166785,q8q8x7\">Sign up now</a>"
+        }
       }
     ]
   }
