@@ -216,6 +216,12 @@
         "category": "App",
         "detailedAnswer": "If you’ve had to re-install or move devices, please follow the steps below to restore your progress. \n\n* When you launch the app again for the first time, proceed through the onboarding, indicating that you are familiar with the Bible \n* Select your Edition \n* Select the last devotion that you completed. \n\nTo confirm which day you were on previously, you can browse through the devotions on our website (navigate forwards or backwards by one day by tapping on the arrows on the side of the screen). If you want to restart on the same day that the website and the email subscription are on (Day 1 = 1 January, Day 2 = 2 January), then click here (https://bibleinoneyear.org/en/#today) to find out what day number it is today.",
         "shortAnswer": "No, you can tell the app which day you would like to start from and so restore your progress."
+      },
+      {
+        "title": "My app shows a different devotion to my friends’ app. How do I get the same devotion as my friend?",
+        "category": "App",
+        "shortAnswer": "When installing the app you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both read the same devotion on the same day feel free to reinstall the app and onboard into the same devotion.",
+        "detailedAnswer": "When installing the app you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both read the same devotion on the same day feel free to reinstall the app and onboard into the same devotion, or feel free to scroll to where they are and mark the intervening devotions as unread. (Note: the red ’today’ marker will continue to move each day. The only way to reset this is be reinstalling the app and reonboarding together.)"
       }
     ],
     "seeMore": "See More",
