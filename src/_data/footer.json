@@ -1,96 +1,4 @@
 {
-  "en": {
-    "headline": "Start every day in the Bible.",
-    "cta": "Download the app today",
-    "nav": [
-      {
-        "href": "https://www.alpha.org/",
-        "label": "Alpha",
-        "external": true
-      },
-      {
-        "href": "https://www.htb.org/",
-        "label": "HTB Church",
-        "external": true
-      },
-      {
-        "href": "https://themarriagecourse.org/",
-        "label": "The Marriage Course",
-        "external": true
-      },
-      {
-        "href": "/en/donate",
-        "label": "Donate",
-        "external": false
-      },
-      {
-        "href": "/en/faqs",
-        "label": "FAQs",
-        "external": false
-      },
-      {
-        "href": "/en/privacy-policy/",
-        "label": "Privacy",
-        "external": false
-      },
-      {
-        "href": "/en/cookies/",
-        "label": "Cookies",
-        "external": false
-      }
-    ],
-    "social": {
-      "facebook": "nickygumbel",
-      "twitter": "nickygumbel",
-      "instagram": "nickygumbel"
-    }
-  },
-  "ar": {
-    "headline": "ابدأ كل يوم في الكتاب المقدس.",
-    "cta": "قم بتنزيل التطبيق اليوم",
-    "nav": [
-      {
-        "href": "https://mena.alpha.org/",
-        "label": "ألفا",
-        "external": true
-      },
-      {
-        "href": "https://www.htb.org/",
-        "label": "كنيسة الثالوث الاقدس",
-        "external": true
-      },
-      {
-        "href": "https://themarriagecourse.org/",
-        "label": "برامج الزواج",
-        "external": true
-      },
-      {
-        "href": "/ar/donate",
-        "label": "دّعم",
-        "external": false
-      },
-      {
-        "href": "/ar/faqs",
-        "label": "اسئلة متكررة",
-        "external": false
-      },
-      {
-        "href": "/ar/privacy-policy/",
-        "label": "الخصوصية",
-        "external": false
-      },
-      {
-        "href": "/ar/cookie/",
-        "label": "تعريف الارتباط",
-        "external": false
-      }
-    ],
-    "social": {
-      "facebook": "BiOYApp",
-      "twitter": "bibleinoneyr?lang=ar",
-      "instagram": "nickygumbel"
-    }
-  },
   "de": {
     "headline": "Starte jeden Tag mit der Bibel",
     "cta": "Hol dir jetzt die App",
@@ -135,15 +43,73 @@
         "label": "Cookies",
         "external": false
       }
-    ]
+    ],
+    "copyright": {
+      "description": "BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7 1JA.",
+      "title": "© Copyright Alpha International 2021"
+    }
   },
-  "es": {
+  "hi": {
     "headline": "Start Every Day in God's Word",
     "cta": "Download Today",
     "social": {
       "facebook": "BiOYApp",
-      "twitter": "bibleinoneyr?lang=es",
-      "instagram": "nickygumbel?hl=es"
+      "twitter": "bibleinoneyr?lang=hi",
+      "instagram": "nickygumbel"
+    },
+    "copyright": {
+      "description": "BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7 1JA.",
+      "title": "© Copyright Alpha International 2021"
+    }
+  },
+  "en": {
+    "headline": "Start every day in the Bible.",
+    "cta": "Download the app today",
+    "nav": [
+      {
+        "href": "https://www.alpha.org/",
+        "label": "Alpha",
+        "external": true
+      },
+      {
+        "href": "https://www.htb.org/",
+        "label": "HTB Church",
+        "external": true
+      },
+      {
+        "href": "https://themarriagecourse.org/",
+        "label": "The Marriage Course",
+        "external": true
+      },
+      {
+        "href": "/en/donate",
+        "label": "Donate",
+        "external": false
+      },
+      {
+        "href": "/en/faqs",
+        "label": "FAQs",
+        "external": false
+      },
+      {
+        "href": "/en/privacy-policy/",
+        "label": "Privacy",
+        "external": false
+      },
+      {
+        "href": "/en/cookies/",
+        "label": "Cookies",
+        "external": false
+      }
+    ],
+    "social": {
+      "facebook": "nickygumbel",
+      "twitter": "nickygumbel",
+      "instagram": "nickygumbel"
+    },
+    "copyright": {
+      "description": "BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7 1JA.",
+      "title": "© Copyright Alpha International 2021"
     }
   },
   "fr": {
@@ -190,15 +156,86 @@
         "label": "Cookies",
         "external": false
       }
-    ]
+    ],
+    "copyright": {
+      "title": "© Copyright Alpha International 2021",
+      "description": "BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7 1JA."
+    }
   },
-  "hi": {
+  "es": {
     "headline": "Start Every Day in God's Word",
     "cta": "Download Today",
     "social": {
       "facebook": "BiOYApp",
-      "twitter": "bibleinoneyr?lang=hi",
+      "twitter": "bibleinoneyr?lang=es",
+      "instagram": "nickygumbel?hl=es"
+    },
+    "copyright": {
+      "description": "BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7 1JA.",
+      "title": "© Copyright Alpha International 2021"
+    }
+  },
+  "zh": {
+    "headline": "以阅读圣经来开启新的一天",
+    "cta": "今天就下载",
+    "social": {
+      "facebook": "BIOYApp",
+      "twitter": "bibleinoneyr?lang=zh",
       "instagram": "nickygumbel"
+    },
+    "copyright": {
+      "title": "© Copyright Alpha International 2021",
+      "description": "BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7 1JA."
+    }
+  },
+  "ar": {
+    "headline": "ابدأ كل يوم في الكتاب المقدس.",
+    "cta": "قم بتنزيل التطبيق اليوم",
+    "nav": [
+      {
+        "href": "https://mena.alpha.org/",
+        "label": "ألفا",
+        "external": true
+      },
+      {
+        "href": "https://www.htb.org/",
+        "label": "كنيسة الثالوث الاقدس",
+        "external": true
+      },
+      {
+        "href": "https://themarriagecourse.org/",
+        "label": "برامج الزواج",
+        "external": true
+      },
+      {
+        "href": "/ar/donate",
+        "label": "دّعم",
+        "external": false
+      },
+      {
+        "href": "/ar/faqs",
+        "label": "اسئلة متكررة",
+        "external": false
+      },
+      {
+        "href": "/ar/privacy-policy/",
+        "label": "الخصوصية",
+        "external": false
+      },
+      {
+        "href": "/ar/cookie/",
+        "label": "تعريف الارتباط",
+        "external": false
+      }
+    ],
+    "social": {
+      "facebook": "BiOYApp",
+      "twitter": "bibleinoneyr?lang=ar",
+      "instagram": "nickygumbel"
+    },
+    "copyright": {
+      "title": "© Copyright Alpha International 2021",
+      "description": "BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7 1JA."
     }
   },
   "th": {
@@ -227,15 +264,16 @@
       {
         "label": "Cookies"
       }
-    ]
+    ],
+    "copyright": {
+      "description": "BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7 1JA.",
+      "title": "© Copyright Alpha International 2021"
+    }
   },
-  "zh": {
-    "headline": "以阅读圣经来开启新的一天",
-    "cta": "今天就下载",
-    "social": {
-      "facebook": "BIOYApp",
-      "twitter": "bibleinoneyr?lang=zh",
-      "instagram": "nickygumbel"
+  "id": {
+    "copyright": {
+      "description": "BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7 1JA.",
+      "title": "© Copyright Alpha International 2021"
     }
   }
 }
