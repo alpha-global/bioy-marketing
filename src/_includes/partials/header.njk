@@ -9,7 +9,7 @@
       {% if devotion %}
         <div class="space-y-1 ltr:w-full" :class="outOfView ? 'rtl:w-full' : ''">
           <button id="editionButton" class="bg-transparent px-2  text-black uppercase" :class="outOfView ? 'text-base w-full space-x-1.5 py-3 flex items-center justify-center' :'border border-red text-xs'" @click="openEdition = !openEdition">
-            <span x-show="outOfView">{% svgSprite name="medium_book", class="fill-current h-6 w-6 mr-2" %}</span>
+            <span x-show="outOfView">{% svgSprite name="medium_book", class="fill-current h-6 w-6 ltr:mr-2 rtl:ml-2" %}</span>
             {{ devotion.variant }}
           </button>
           <div class="absolute bg-red divide-y-2" :class="outOfView ? 'w-1/2' : ''" x-show="openEdition">
@@ -37,7 +37,7 @@
         {% if locale %}
           <div class="space-y-1 w-full">
             <button id="languagesButton" class="bg-transparent px-2  text-black uppercase" :class="outOfView ? 'text-base w-full space-x-1.5 py-3 flex items-center justify-center' :'border border-red text-xs'" @click="openLanguages = !openLanguages">
-              <span x-show="outOfView">{% svgSprite name="translate", class="fill-current h-6 w-6 ltr:mr-2" %}</span>
+              <span x-show="outOfView">{% svgSprite name="translate", class="fill-current h-6 w-6 ltr:mr-2 rtl:ml-2" %}</span>
               {{ locale }}
             </button>
             <div class="absolute bg-red divide-y-2" :class="outOfView ? 'w-1/2' : ''" x-show="openLanguages">
