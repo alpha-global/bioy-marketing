@@ -733,7 +733,7 @@ collections:
                   label: "Copyright",
                   widget: object,
                   i18n: true,
-                  collapsed: true,
+                  collapsed: false,
                   fields:
                     [
                       {
