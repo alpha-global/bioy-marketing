@@ -93,9 +93,9 @@
 
                       </div>
                     </div>
-
+                    
                     <div class="flex items-center justify-center space-x-1 mt-4">
-                      {% for podcast in podcastUrls.collection %}
+                      {% for podcast in pods[locale].podcasts %}
                         <button data-index="{{ loop.index0 }}" class="podcast-pagination"></button>
                       {% endfor %}
                     </div>
