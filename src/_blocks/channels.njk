@@ -102,13 +102,13 @@
                   {% for podcast in podcastUrls.collection %}
                     <div class="space-y-4">
                       <p class="font-bold">{{podcast.edition}}</p>
-                      <a href="{{ podcast.spotify }}" class="podcast-link" style="text-decoration:none">{% svgSprite name="spotify-podcasts", class="h-8 w-8" %}
+                      <a href="{{ podcast.spotify }}" class="podcast-link" style="text-decoration:none">{% svgSprite name="spotify_podcasts", class="h-8 w-8" %}
                         <span>Spotify</span>
                       </a>
-                      <a href="{{ podcast.apple }}" class="podcast-link" style="text-decoration:none">{% svgSprite name="apple-podcasts", class="h-8 w-8" %}
+                      <a href="{{ podcast.apple }}" class="podcast-link" style="text-decoration:none">{% svgSprite name="apple_podcasts", class="h-8 w-8" %}
                         <span>Apple Podcasts</span>
                       </a>
-                      <a href="{{ podcast.google }}" class="podcast-link" style="text-decoration:none">{% svgSprite name="google-podcasts", class="h-8 w-8" %}
+                      <a href="{{ podcast.google }}" class="podcast-link" style="text-decoration:none">{% svgSprite name="google_podcasts", class="h-8 w-8" %}
                         <span>Google Podcasts</span>
                       </a>
                     </div>

@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: publish-new-podcasts-dec-2021
 
 i18n:
   structure: single_file
@@ -788,7 +788,7 @@ collections:
                         name: "edition",
                         label: "Edition",
                         widget: "string",
-                        hint: 'Classic, Express or Youth',
+                        hint: "Classic, Express or Youth",
                         i18n: true,
                       },
                       {
@@ -804,7 +804,7 @@ collections:
                               name: "name",
                               label: "Name",
                               widget: "string",
-                              hint: 'Google, Apple or Spotify',
+                              hint: "Google, Apple or Spotify",
                               i18n: true,
                             },
                             {
