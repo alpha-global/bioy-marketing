@@ -1,4 +1,21 @@
 {
+  "de": {
+    "title": "Express",
+    "header": {
+      "img": {
+        "src": "/assets/img/express_lead.jpg",
+        "desc": "Eine Frau sitzt im Zug und hört sich die Express - Ausgabe von Bibel in einem Jahr an."
+      },
+      "title": "Die Bibel. Einfach erleben.",
+      "strapline": "Unkompliziert. Schnell. Lebensverändernd. ",
+      "cta": "Los geht's"
+    },
+    "body": "**In Eile? Dann ist die Express-Version für dich. Nimm dir jeden Tag weniger als 15 Minuten Zeit, um die wichtigsten Passagen der Bibel zu erleben.**\n\nJeden Tag wird ein anderes Thema anhand ausgewählter Bibelstellen aus dem Alten- und Neuen Testament sowie aus dem Buch der Psalmen oder den Sprüchen beleuchtet. Die Kommentare von Nicky und Pippa zu diesen Bibelstellen sind voller Impulse und praktischen Anwendungen und geben einen umfassenden Überblick über die gesamte Bibel über das Jahr."
+  },
+  "hi": {
+    "title": "",
+    "body": "**In a hurry? The Express edition is designed for you. Take less than 15 minutes each day to cover key passages throughout the Bible.**\n\nEvery day, a different theme is explored through a selection of scriptures taken from the Old and New Testaments, as well as the book of Psalms or Proverbs. Nicky and Pippa’s commentary on these excerpts are full of insight, wisdom, and practical application and will give you an in-depth overview of the entirety of the Bible across the year."
+  },
   "en": {
     "title": "Express",
     "header": {
@@ -9,6 +26,32 @@
       "title": "The Bible. Simplified.",
       "strapline": "Straightforward. Quick. Life-changing. ",
       "cta": "Let's Go"
+    },
+    "body": "**In a hurry? The Express edition is designed for you. Take less than 15 minutes each day to cover key passages throughout the Bible.**\n\nEvery day, a different theme is explored through a selection of scriptures taken from the Old and New Testaments, as well as the book of Psalms or Proverbs. Nicky and Pippa’s commentary on these excerpts are full of insight, wisdom, and practical application and will give you an in-depth overview of the entirety of the Bible across the year."
+  },
+  "fr": {
+    "title": "",
+    "body": "**Pressé·e? L'édition Express est conçue pour vous. Prenez moins de 15 minutes chaque jour pour couvrir les passages clés de la Bible.**\n\nChaque jour, un thème différent est exploré à travers une sélection d'écritures tirées de l'Ancien et du Nouveau Testament, ainsi que du livre des Psaumes ou des Proverbes. Les commentaires de Nicky & Pippa sur ces extraits sont pleins de perspicacité, de sagesse et d'application pratique et vous donneront un aperçu détaillé de l'intégralité de la Bible, tout au long de l'année.",
+    "header": {
+      "title": "La Bible. Simplifiée.",
+      "strapline": "Simple. Rapide. Change la vie.",
+      "cta": "C'est parti !",
+      "img": {
+        "src": "/assets/img/express_lead.jpg",
+        "desc": "Une femme assise dans un train écoute l'édition express de la Bible en 1 an"
+      }
+    }
+  },
+  "es": {
+    "title": "",
+    "body": "**In a hurry? The Express edition is designed for you. Take less than 15 minutes each day to cover key passages throughout the Bible.**\n\nEvery day, a different theme is explored through a selection of scriptures taken from the Old and New Testaments, as well as the book of Psalms or Proverbs. Nicky and Pippa’s commentary on these excerpts are full of insight, wisdom, and practical application and will give you an in-depth overview of the entirety of the Bible across the year."
+  },
+  "zh": {
+    "title": "",
+    "header": {
+      "title": "把圣经融入生活中",
+      "strapline": "上帝的话。每天都要读",
+      "cta": "现在就开始"
     },
     "body": "**In a hurry? The Express edition is designed for you. Take less than 15 minutes each day to cover key passages throughout the Bible.**\n\nEvery day, a different theme is explored through a selection of scriptures taken from the Old and New Testaments, as well as the book of Psalms or Proverbs. Nicky and Pippa’s commentary on these excerpts are full of insight, wisdom, and practical application and will give you an in-depth overview of the entirety of the Bible across the year."
   },
@@ -25,50 +68,20 @@
     },
     "body": "في عجلة من امرك؟ تم تصميم الإصدار اكسبريس من أجلك. يستغرق أقل من 15 دقيقة كل يوم لتغطية المقاطع الرئيسية في جميع أنحاء الكتاب المقدس.\n\nكل يوم ، ستقوم باستكشاف موضوع مختلف من خلال قراءات مختارة من العهدين القديم والجديد ، بالإضافة إلى سفر المزامير والأمثال. تعليق نيكي وبيبا على هذه القراءات مليء بالبصيرة والحكمة والتطبيق العملي وسوف يعطيك نظرة عامة متعمقة لكامل الكتاب المقدس على مدار العام."
   },
-  "de": {
-    "title": "Express",
-    "header": {
-      "img": {
-        "src": "/assets/img/express_lead.jpg",
-        "desc": "Eine Frau sitzt im Zug und hört sich die Express - Ausgabe von Bibel in einem Jahr an."
-      },
-      "title": "Die Bibel. Einfach erleben.",
-      "strapline": "Unkompliziert. Schnell. Lebensverändernd. ",
-      "cta": "Los geht's"
-    },
-    "body": "**In Eile? Dann ist die Express-Version für dich. Nimm dir jeden Tag weniger als 15 Minuten Zeit, um die wichtigsten Passagen der Bibel zu erleben.**\n\nJeden Tag wird ein anderes Thema anhand ausgewählter Bibelstellen aus dem Alten- und Neuen Testament sowie aus dem Buch der Psalmen oder den Sprüchen beleuchtet. Die Kommentare von Nicky und Pippa zu diesen Bibelstellen sind voller Impulse und praktischen Anwendungen und geben einen umfassenden Überblick über die gesamte Bibel über das Jahr."
-  },
-  "es": {
-    "title": "Express",
-    "body": "**In a hurry? The Express edition is designed for you. Take less than 15 minutes each day to cover key passages throughout the Bible.**\n\nEvery day, a different theme is explored through a selection of scriptures taken from the Old and New Testaments, as well as the book of Psalms or Proverbs. Nicky and Pippa’s commentary on these excerpts are full of insight, wisdom, and practical application and will give you an in-depth overview of the entirety of the Bible across the year."
-  },
-  "fr": {
-    "title": "",
-    "body": "**Pressé·e? L'édition Express est conçue pour vous. Prenez moins de 15 minutes chaque jour pour couvrir les passages clés de la Bible.**\n\nChaque jour, un thème différent est exploré à travers une sélection d'écritures tirées de l'Ancien et du Nouveau Testament, ainsi que du livre des Psaumes ou des Proverbes. Les commentaires de Nicky & Pippa sur ces extraits sont pleins de perspicacité, de sagesse et d'application pratique et vous donneront un aperçu détaillé de l'intégralité de la Bible, tout au long de l'année.",
-    "header": {
-      "title": "La Bible. Simplifiée.",
-      "strapline": "Simple. Rapide. Change la vie.",
-      "cta": "C'est parti !",
-      "img": {
-        "src": "/assets/img/express_lead.jpg",
-        "desc": "Une femme assise dans un train écoute l'édition express de la Bible en 1 an"
-      }
-    }
-  },
-  "hi": {
-    "title": "Express",
-    "body": "**In a hurry? The Express edition is designed for you. Take less than 15 minutes each day to cover key passages throughout the Bible.**\n\nEvery day, a different theme is explored through a selection of scriptures taken from the Old and New Testaments, as well as the book of Psalms or Proverbs. Nicky and Pippa’s commentary on these excerpts are full of insight, wisdom, and practical application and will give you an in-depth overview of the entirety of the Bible across the year."
-  },
   "th": {
-    "title": "ด่วนพิเศษ",
+    "title": "",
     "body": "**เร่งรีบ? พระคัมภีร์เวอร์ชั่นด่วนพิเศษออกแบบมาเพื่อคุณ ใช้เวลาน้อยกว่า 15 นาทีในแต่ละวันเพื่อครอบคลุมหัวข้อทั้งหมดของพระคัมภีร์ทั้งเล่ม**\n\nทุกวัน มีการสำรวจหัวข้อที่แตกต่างกันผ่านข้อพระคัมภีร์ที่คัดสรรมาจากพระธรรมสดุดีหรือสุภาษิต ตลอดจนพันธสัญญาใหม่และพันธสัญญาเดิม พร้อมด้วยคำอธิบายประจำวันจากนิคกี้ และพิพพา กัมเบล ที่จะช่วยให้คุณเข้าใจและนำไปใช้ได้จริง และจะให้ภาพรวมเชิงลึกของพระคัมภีร์ทั้งเล่มตลอดทั้งปี"
   },
-  "zh": {
-    "title": "快捷版",
+  "id": {
+    "title": "",
     "header": {
-      "title": "把圣经融入生活中",
-      "strapline": "上帝的话。每天都要读",
-      "cta": "现在就开始"
+      "img": {
+        "src": "/assets/img/express_lead.jpg",
+        "desc": "A woman sits on a train listening to the express edition of Bible in One Year"
+      },
+      "title": "The Bible. Simplified.",
+      "strapline": "Straightforward. Quick. Life-changing. ",
+      "cta": "Let's Go"
     },
     "body": "**In a hurry? The Express edition is designed for you. Take less than 15 minutes each day to cover key passages throughout the Bible.**\n\nEvery day, a different theme is explored through a selection of scriptures taken from the Old and New Testaments, as well as the book of Psalms or Proverbs. Nicky and Pippa’s commentary on these excerpts are full of insight, wisdom, and practical application and will give you an in-depth overview of the entirety of the Bible across the year."
   }
