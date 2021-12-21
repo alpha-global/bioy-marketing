@@ -61,10 +61,10 @@
                   {{ medium.description | markdown | safe }}
                 </div>
                 
-                {% if (pods[locale].podcasts | length) !== 0 %}
+                {% if (podcastUrls[locale].podcasts | length) !== 0 %}
                 <div class="md:flex md:items-center md:justify-center lg:hidden mt-4 md:mt-8">
                   <div class="relative md:max-w-xs">
-                      {% if (pods[locale].podcasts | length) > 1 %}
+                      {% if (podcastUrls[locale].podcasts | length) > 1 %}
                     <div class="flex items-center justify-between w-full absolute top-1">
                       <button class="flex items-center justify-center z-10 px-2" id="previous">{% svgSprite name = "back",
                         class = "h-8 w-8 rtl:rotate-180" %}</button>
@@ -75,7 +75,7 @@
                     <div id="podcast" class="relative overflow-hidden invisible flex flex-col max-w-xs">
                       <div class="relative overflow-hidden flex items-center">
                         
-                        {% for podcast in pods[locale].podcasts %}
+                        {% for podcast in podcastUrls[locale].podcasts %}
                           <div class="relative float-left w-full overflow-hidden">
                             <div class="space-y-4">
                               <p class="text-center font-bold">{{podcast.edition}}</p>
@@ -98,9 +98,9 @@
                       </div>
                     </div>
                     
-                    {% if (pods[locale].podcasts | length) > 1 %}
+                    {% if (podcastUrls[locale].podcasts | length) > 1 %}
                     <div class="flex items-center justify-center space-x-1 rtl:space-x-reverse mt-4">
-                      {% for podcast in pods[locale].podcasts %}
+                      {% for podcast in podcastUrls[locale].podcasts %}
                         <button data-index="{{ loop.index0 }}" class="podcast-pagination"></button>
                       {% endfor %}
                     </div>
@@ -110,7 +110,7 @@
               
 
                 <div class="hidden lg:flex lg:space-x-11 rtl:space-x-reverse lg:mt-8">
-                  {% for podcast in pods[locale].podcasts %}
+                  {% for podcast in podcastUrls[locale].podcasts %}
                     <div class="space-y-4">
                       <p class="font-bold">{{podcast.edition}}</p>
                       {% for feed in podcast.feeds %}
