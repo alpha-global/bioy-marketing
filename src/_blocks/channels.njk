@@ -60,7 +60,7 @@
                   <h4 class="text-xl font-bold mb-3">{{ medium.channel }}</h4>
                   {{ medium.description | markdown | safe }}
                 </div>
-                {{ (pods[locale].podcasts | length )}}
+                
                 {% if (pods[locale].podcasts | length) !== 0 %}
                 <div class="md:flex md:items-center md:justify-center lg:hidden mt-4 md:mt-8">
                   <div class="relative md:max-w-xs">
