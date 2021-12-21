@@ -118,7 +118,16 @@
   },
   "zh": {
     "podcasts": [
-      {}
+      {
+        "edition": "Classic",
+        "feeds": [
+          {
+            "name": "Spotify",
+            "icon": "spotify_podcasts",
+            "url": "https://open.spotify.com/show/45L0739HXsRhAa30lzBfQL"
+          }
+        ]
+      }
     ]
   },
   "ar": {
