@@ -98,11 +98,13 @@
                       </div>
                     </div>
                     
+                    {% if (pods[locale].podcasts | length) > 1 %}
                     <div class="flex items-center justify-center space-x-1 mt-4">
                       {% for podcast in pods[locale].podcasts %}
                         <button data-index="{{ loop.index0 }}" class="podcast-pagination"></button>
                       {% endfor %}
                     </div>
+                    {% endif %}
                   </div>
                 </div>
               
