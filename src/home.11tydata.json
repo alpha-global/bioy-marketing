@@ -81,8 +81,8 @@
       "strapline": "Nous vous guiderons, pas à pas.",
       "cta": "C'est parti !",
       "img": {
-        "src": "/assets/img/bioy-main_4.jpg",
-        "desc": "Une femme lit la Bible en 1 an sur son téléphone."
+        "src": "/assets/img/bioy_main_without_logo_1.jpg",
+        "desc": " Une femme lit la Bible en 1 an sur son téléphone."
       }
     }
   },
@@ -118,7 +118,7 @@
       "strapline": "我们将帮助你学习圣经，<br>每天跨越一小步",
       "cta": "现在就开始吧",
       "img": {
-        "src": "/assets/img/bioy-header.jpg",
+        "src": "/assets/img/_03a6791.jpg",
         "desc": "A man looks down at his phone, while listening to Bible in One Year"
       }
     },

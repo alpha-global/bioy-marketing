@@ -98,9 +98,9 @@
       "subTitle": "พระคัมภีร์ในหนึ่งปีมีให้บริการในภาษาต่อไปนี้:"
     },
     "cookies": {
-      "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
-      "cta": "Find out more",
-      "closeButton": "Close"
+      "text": "เว็บไซต์นี้จัดเก็บข้อมูล เช่น คุกกี้ เพื่อเปิดใช้งานฟังก์ชั่นและการวิเคราะห์ที่จำเป็นเท่านั้น",
+      "cta": "ดูเพิ่มเติม",
+      "closeButton": "ปิด"
     }
   },
   "zh": {

@@ -162,12 +162,6 @@
         }
       },
       {
-        "channel": "Podcast",
-        "icon": "medium_podcast",
-        "description": "Abonnez-vous et écoutez la Bible en 1 an tous les jours sur votre application de podcast préférée (version française non disponible pour l'instant).",
-        "image": "/assets/img/medium_app.jpg"
-      },
-      {
         "channel": "Site Web",
         "icon": "medium_website",
         "description": "Commencez à lire la journée d'aujourd'hui, ici même, sur le site Web de la Bible en 1 an.",
@@ -175,12 +169,6 @@
         "cta": {
           "code": "<a href=\"#today\" class=\"whiteButton\">Read now</a>"
         }
-      },
-      {
-        "channel": "Livre",
-        "icon": "medium_book",
-        "description": "Le commentaire de la Bible en 1 an est disponible sous forme de livre. (version française non disponible pour l'instant)\n\n* [Acheter dans la boutique Alpha](https://shop.alpha.org/bible-in-one-year)\n* [Acheter dans la librairie CLC](https://clcbookshops.com/product/bible-in-one-year-the-a-commentary-by-nicky-gumbel-hard-cover-gumbel-nicky-hodder-stoughton-9781473677067)",
-        "image": "/assets/img/books.jpg"
       }
     ]
   },

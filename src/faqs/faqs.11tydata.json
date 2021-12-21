@@ -53,7 +53,7 @@
         "title": "How can I change my Edition?",
         "category": "Content",
         "shortAnswer": "If you would like to switch to a different Edition of the Bible In One Year plan you can find this in the Settings menu.",
-        "detailedAnswer": "If you would like to switch to a different Edition of the Bible In One Year plan you can find this in settings.\n\nNote: Other Editions are only available in English, so you need to set your content language to English, before you can change your edition. Tap Edition and select either Classic, Express or Youth, any content you have already completed will be downloaded again in this new edition format and your progress through the year will be saved."
+        "detailedAnswer": "If you would like to switch to a different Edition of the Bible In One Year plan you can find this in settings.\n\nNote: Express editions are available in German, English and Arabic. Youth Editions are available in Arabic and English. If your app is set to a language where an edition is not available, you will not be able to select it. To change edition, tap Edition and select either Classic, Express or Youth. Any content you have already completed will be downloaded again in this new edition format and your progress through the year will be saved."
       },
       {
         "title": "I’m not able to play the audio, what should I do?",
@@ -112,8 +112,8 @@
       {
         "title": "What languages is BiOY available in?",
         "category": "Content",
-        "shortAnswer": "Currently, the classic edition of BiOY is available is Arabic, English, Chinese, Hindi and Spanish. Audio is currently only available in English, with Chinese and Hindi to follow.",
-        "detailedAnswer": "Currently, the classic edition of BiOY is available is Arabic, English, Chinese, Hindi and Spanish. Audio is currently only available in English, with Chinese and Hindi to follow.\n\nWe will continue to work with other existing translations to make them available through the app – look out for Bahasa Indonesia, German, French and Thai launching through 2021 and 2022."
+        "shortAnswer": "From January 1st 2022, the Classic edition of BiOY will be available in Arabic, Bahasa Indonesia, English, Simplified Chinese, French, German, Hindi, Spanish, and Thai. ",
+        "detailedAnswer": "The Classic edition of BiOY is now available in Arabic, Bahasa Indonesia, English, Simplified Chinese, French, German, Hindi, Spanish, and Thai. The Express edition of BiOY is available in Arabic, English and German. The Youth edition is available in Arabic and English. Audio is available in English, Hindi, Chinese and German."
       },
       {
         "title": "How do I access the new app Menu?",
@@ -125,7 +125,7 @@
         "title": "Can I change the start date?",
         "category": "App",
         "shortAnswer": "If you would like to change the date you selected to start the BiOY reading plan you will need to either reset your app data or re-install the app.",
-        "detailedAnswer": "If you would like to change the date you selected to start the BiOY reading plan you will need to uninstall the app and install it again from the App Store or Google Play. When you launch the app again for the first time, select the edition you wish to use (Classic, Express or Youth). Tap on 'pick up part way through' and select the day you wish to start from."
+        "detailedAnswer": "If you would like to change the date you selected to start the BiOY reading plan you will need to uninstall the app and install it again from the App Store or Google Play. When you launch the app again for the first time, proceed through the onboarding, indicating that you are familiar with the Bible, before selecting your Edition and select the last devotion that you completed."
       },
       {
         "title": "Why have you updated the app?",
@@ -152,12 +152,6 @@
         "detailedAnswer": "If you would like to change which day’s BiOY commentary you are reading, for example if you missed a day and want to catch up, you can swipe right from the left hand side of the screen of your phone/tablet, and select a different day from the list."
       },
       {
-        "title": "Why can I not read ahead?",
-        "category": "Content",
-        "shortAnswer": "BiOY is updated daily to keep material fresh and relevant. You cannot read the current year’s Bible in One Year commentary ahead simply because it has not been written/uploaded yet.",
-        "detailedAnswer": "BiOY is updated daily to keep material fresh and relevant. You cannot read the current year’s Bible in One Year commentary ahead simply because it has not been written/uploaded yet."
-      },
-      {
         "title": "What editions are available?",
         "category": "Content",
         "shortAnswer": "In addition to the BiOY Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 11 - 13 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team and takes 12 - 14 minutes).",
@@ -172,14 +166,14 @@
       {
         "title": "Can I synchronise the BiOY app between my phone and tablet?",
         "category": "Audio",
-        "shortAnswer": "Not yet. There is currently no way to sync your progress through BiOY, although this is a feature that is being considered for 2021.",
-        "detailedAnswer": "Not yet. There is currently no way to sync your progress through BiOY, although this is a feature that is being considered for 2021."
+        "shortAnswer": "Not yet. There is currently no way to sync your progress through BiOY, although this is a feature that is being considered for 2022.",
+        "detailedAnswer": "Not yet. There is currently no way to sync your progress through BiOY, although this is a feature that is being considered for 2022."
       },
       {
         "title": "Will the BiOY automatically reset after I complete Day 365?",
         "category": "Content",
-        "shortAnswer": "For those that are a few weeks behind and are worried they’ll lose access to the commentaries, be assured that you need to complete all of the days before the app resets back to Day 1.",
-        "detailedAnswer": "For those that are a few weeks behind and are worried they’ll lose access to the commentaries, be assured that you need to complete all of the days before the app resets back to Day 1."
+        "shortAnswer": "For those that are a few weeks behind and are worried they’ll lose access to the commentaries, those on the latest version of the app (v.8.4.0) will have an additional button to tap before their app loops back around to display Day 1 of Bible in One Year.",
+        "detailedAnswer": "For those that are a few weeks behind and are worried they’ll lose access to the commentaries, those on the latest version of the app (v.8.4.0) will have an additional button to tap before their app loops back around to display Day 1 of Bible in One Year."
       },
       {
         "title": "Is it the commentary the same every year?",
@@ -216,6 +210,18 @@
         "category": "Audio",
         "shortAnswer": "The app allows users to download audio in two different ways, manual and automatic.\n\nManual - audio can be downloaded by swiping left on a day and tapping the download icon. This provides a high level of control as to what is on your device at any time and it is recommended that you manually delete the audio from your device once you have finished listening to it.\n\nAutomatic - controlled by a section within Settings, the app is able to automatically download a number of audio days for you, up to a limit that you set. It will delete the audio from your device if you listen to it all the way through. The app will stop automatically downloading new audio when it reaches the limit. This happens when you have lots of automatically downloaded audio that you have only partially listened to. To resolve this, clear out your audio downloads: navigate to Menu > Settings > Manage Audio and select the audio you wish to delete.\n\n\n\n",
         "detailedAnswer": "The app allows users to download audio in two different ways, manual and automatic.\n\nManual - audio can be downloaded by swiping left on a day and tapping the download icon. This provides a high level of control as to what is on your device at any time and it is recommended that you manually delete the audio from your device once you have finished listening to it.\n\nAutomatic - controlled by a section within Settings, the app is able to automatically download a number of audio days for you, up to a limit that you set. It will delete the audio from your device if you listen to it all the way through. The app will stop automatically downloading new audio when it reaches the limit. This happens when you have lots of automatically downloaded audio that you have only partially listened to. To resolve this, clear out your audio downloads: navigate to Menu > Settings > Manage Audio and select the audio you wish to delete. \n\nYou can adjust the automatic audio download limit by navigating to: Menu > Settings > Audio Downloads and then use the slider to set the number of audio days (between 1 and 14) you wish to store on your device."
+      },
+      {
+        "title": "I've got a new phone - do I have to lose my progress?",
+        "category": "App",
+        "detailedAnswer": "If you’ve had to re-install or move devices, please follow the steps below to restore your progress. \n\n* When you launch the app again for the first time, proceed through the onboarding, indicating that you are familiar with the Bible \n* Select your Edition \n* Select the last devotion that you completed. \n\nTo confirm which day you were on previously, you can browse through the devotions on our website (navigate forwards or backwards by one day by tapping on the arrows on the side of the screen). If you want to restart on the same day that the website and the email subscription are on (Day 1 = 1 January, Day 2 = 2 January), then click here (https://bibleinoneyear.org/en/#today) to find out what day number it is today.",
+        "shortAnswer": "No, you can tell the app which day you would like to start from and so restore your progress."
+      },
+      {
+        "title": "My app shows a different devotion to my friends’ app. How do I get the same devotion as my friend?",
+        "category": "App",
+        "shortAnswer": "When installing the app you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both read the same devotion on the same day feel free to reinstall the app and onboard into the same devotion.",
+        "detailedAnswer": "When installing the app you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both read the same devotion on the same day feel free to reinstall the app and onboard into the same devotion, or feel free to scroll to where they are and mark the intervening devotions as unread. (Note: the red ’today’ marker will continue to move each day. The only way to reset this is be reinstalling the app and reonboarding together.)"
       }
     ],
     "seeMore": "See More",
