@@ -71,19 +71,22 @@
                     <div id="podcast" class="relative overflow-hidden invisible flex flex-col max-w-xs">
                       <div class="relative overflow-hidden flex items-center">
 
-                        {% for podcast in podcastUrls.collection %}
+                        {% for podcast in pods[locale].podcasts %}
                           <div class="relative float-left w-full overflow-hidden">
                             <div class="space-y-4">
                               <p class="text-center font-bold">{{podcast.edition}}</p>
-                              <a href="{{ podcast.spotify }}" class="podcast-link" style="text-decoration:none">{% svgSprite name="spotify-podcasts", class="h-8 w-8" %}
-                                <span>Spotify</span>
+                              {% for feed in podcast.feeds %}
+                              <a href="{{ feed.url }}" class="podcast-link" style="text-decoration:none">
+                                  {% if feed.icon === 'spotify_podcasts' %}
+                                    {% svgSprite name="spotify_podcasts", class="h-8 w-8" %}
+                                  {% elif feed.icon === 'apple_podcasts' %}
+                                      {% svgSprite name="apple_podcasts", class="h-8 w-8" %}
+                                  {% elif feed.icon === 'google_podcasts' %}
+                                      {% svgSprite name="google_podcasts", class="h-8 w-8" %}
+                                  {% endif %}
+                                <span>{{ feed.name }}</span>
                               </a>
-                              <a href="{{ podcast.apple }}" class="podcast-link" style="text-decoration:none">{% svgSprite name="apple-podcasts", class="h-8 w-8" %}
-                                <span>Apple Podcasts</span>
-                              </a>
-                              <a href="{{ podcast.google }}" class="podcast-link" style="text-decoration:none">{% svgSprite name="google-podcasts", class="h-8 w-8" %}
-                                <span>Google Podcasts</span>
-                              </a>
+                              {% endfor %}
                             </div>
                           </div>
                         {% endfor %}
