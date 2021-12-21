@@ -23,11 +23,6 @@
             "name": "Spotify",
             "icon": "spotify_podcasts",
             "url": "https://open.spotify.com/show/7Bw6czZtYEhlxTVajoJwQN"
-          },
-          {
-            "name": "Apple Podcasts",
-            "icon": "apple_podcasts",
-            "url": "https://podcasts.apple.com/us/podcast/bible-in-one-year-express/id1601415097"
           }
         ]
       }
