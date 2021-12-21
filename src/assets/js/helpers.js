@@ -28,6 +28,7 @@ export default {
       "border-b-2",
       "border-red",
       "divide-x-2",
+      "rtl:divide-x-reverse",
       "divide-grey-light",
     ];
 
@@ -38,12 +39,20 @@ export default {
             this.outOfView = false;
             switchBannerElement.classList.replace("fixed", "absolute");
             switchBannerElement.classList.remove(...bannerClasses);
-            switchBannerElement.classList.add("left-16", "top-10");
+            switchBannerElement.classList.add(
+              "ltr:left-16",
+              "rtl:right-16",
+              "top-10"
+            );
           } else {
             this.outOfView = true;
             switchBannerElement.classList.replace("absolute", "fixed");
             switchBannerElement.classList.add(...bannerClasses);
-            switchBannerElement.classList.remove("left-16", "top-10");
+            switchBannerElement.classList.remove(
+              "ltr:left-16",
+              "rtl:right-16",
+              "top-10"
+            );
           }
         }
       });

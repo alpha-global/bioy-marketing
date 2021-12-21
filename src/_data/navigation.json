@@ -28,11 +28,11 @@
     "download": "Descargar"
   },
   "fr": {
-    "start": "Start",
-    "about": "About",
-    "faqs": "FAQs",
-    "donate": "Donate",
-    "download": "Download"
+    "start": "Commencer",
+    "about": "À propos",
+    "faqs": "FAQ",
+    "donate": "Donner",
+    "download": "Télécharger"
   },
   "hi": {
     "start": "Start",
@@ -42,11 +42,11 @@
     "download": "Download"
   },
   "th": {
-    "start": "Start",
-    "about": "About",
+    "start": "เริ่ม",
+    "about": "เกี่ยวกับเรา",
     "faqs": "FAQs",
-    "donate": "Donate",
-    "download": "Download"
+    "donate": "ถวาย",
+    "download": "ดาวน์โหลด"
   },
   "zh": {
     "start": "Start",
