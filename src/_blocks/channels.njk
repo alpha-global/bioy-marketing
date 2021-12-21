@@ -99,7 +99,7 @@
                     </div>
                     
                     {% if (pods[locale].podcasts | length) > 1 %}
-                    <div class="flex items-center justify-center space-x-1 mt-4">
+                    <div class="flex items-center justify-center space-x-1 rtl:space-x-reverse mt-4">
                       {% for podcast in pods[locale].podcasts %}
                         <button data-index="{{ loop.index0 }}" class="podcast-pagination"></button>
                       {% endfor %}
@@ -109,7 +109,7 @@
                 </div>
               
 
-                <div class="hidden lg:flex lg:space-x-11 lg:mt-8">
+                <div class="hidden lg:flex lg:space-x-11 rtl:space-x-reverse lg:mt-8">
                   {% for podcast in pods[locale].podcasts %}
                     <div class="space-y-4">
                       <p class="font-bold">{{podcast.edition}}</p>
