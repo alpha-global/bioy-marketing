@@ -60,16 +60,18 @@
                   <h4 class="text-xl font-bold mb-3">{{ medium.channel }}</h4>
                   {{ medium.description | markdown | safe }}
                 </div>
-              
+                {{ (pods[locale].podcasts | length )}}
                 {% if (pods[locale].podcasts | length) !== 0 %}
                 <div class="md:flex md:items-center md:justify-center lg:hidden mt-4 md:mt-8">
                   <div class="relative md:max-w-xs">
+                      {% if (pods[locale].podcasts | length) > 1 %}
                     <div class="flex items-center justify-between w-full absolute top-1">
                       <button class="flex items-center justify-center z-10 px-2" id="previous">{% svgSprite name = "back",
                         class = "h-8 w-8 rtl:rotate-180" %}</button>
                       <button class="flex items-center justify-center z-10 px-2" id="next">{% svgSprite name = "forward",
                         class = "h-8 w-8 rtl:rotate-180" %}</button>
                     </div>
+                    {% endif %}
                     <div id="podcast" class="relative overflow-hidden invisible flex flex-col max-w-xs">
                       <div class="relative overflow-hidden flex items-center">
                         
