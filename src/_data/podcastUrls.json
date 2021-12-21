@@ -1,7 +1,36 @@
 {
   "de": {
     "podcasts": [
-      {}
+      {
+        "edition": "Classic",
+        "feeds": [
+          {
+            "name": "Spotify",
+            "icon": "spotify_podcasts",
+            "url": "https://open.spotify.com/show/1kftJv6JqVabJmMLXanjAj"
+          },
+          {
+            "name": "Apple Podcasts",
+            "icon": "apple_podcasts",
+            "url": "https://podcasts.apple.com/us/podcast/bible-in-one-year-classic/id1601414341"
+          }
+        ]
+      },
+      {
+        "edition": "Express",
+        "feeds": [
+          {
+            "name": "Spotify",
+            "icon": "spotify_podcasts",
+            "url": "https://open.spotify.com/show/7Bw6czZtYEhlxTVajoJwQN"
+          },
+          {
+            "name": "Apple Podcasts",
+            "icon": "apple_podcasts",
+            "url": "https://podcasts.apple.com/us/podcast/bible-in-one-year-express/id1601415097"
+          }
+        ]
+      }
     ]
   },
   "hi": {
