@@ -61,7 +61,7 @@
                   {{ medium.description | markdown | safe }}
                 </div>
               
-                {% if (pods[locale].podcasts.feeds | length) !== 0 %}
+                {% if (pods[locale].podcasts | length) !== 0 %}
                 <div class="md:flex md:items-center md:justify-center lg:hidden mt-4 md:mt-8">
                   <div class="relative md:max-w-xs">
                     <div class="flex items-center justify-between w-full absolute top-1">
