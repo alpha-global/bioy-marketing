@@ -769,7 +769,7 @@ collections:
               ],
           },
           {
-            file: "src/_data/pods.json",
+            file: "src/_data/podcastUrls.json",
             label: "Podcast URLS",
             name: "podcastURLS",
             i18n: true,
