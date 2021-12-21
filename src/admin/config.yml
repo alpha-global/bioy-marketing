@@ -768,6 +768,58 @@ collections:
                 { name: download, label: Download, widget: string, i18n: true },
               ],
           },
+          {
+            file: "src/_data/pods.json",
+            label: "Podcast URLS",
+            name: "podcastURLS",
+            i18n: true,
+            fields:
+              [
+                {
+                  label: "Podcasts",
+                  name: "podcasts",
+                  widget: "list",
+                  required: true,
+                  allow_add: true,
+                  i18n: true,
+                  fields:
+                    [
+                      {
+                        name: "edition",
+                        label: "Edition",
+                        widget: "string",
+                        hint: 'Classic, Express or Youth',
+                        i18n: true,
+                      },
+                      {
+                        name: "feeds",
+                        label: "Feeds",
+                        widget: "list",
+                        i18n: true,
+                        required: true,
+                        allow_add: true,
+                        fields:
+                          [
+                            {
+                              name: "name",
+                              label: "Name",
+                              widget: "string",
+                              hint: 'Google, Apple or Spotify',
+                              i18n: true,
+                            },
+                            {
+                              name: "icon",
+                              label: "Icon",
+                              widget: "string",
+                              i18n: "duplicate",
+                            },
+                            { name: "url", label: "URL", widget: "string" },
+                          ],
+                      },
+                    ],
+                },
+              ],
+          },
         ],
     },
     {
