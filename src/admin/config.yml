@@ -804,7 +804,7 @@ collections:
                               name: "name",
                               label: "Name",
                               widget: "string",
-                              hint: "Google, Apple or Spotify",
+                              hint: "Spotify, Apple Podcasts or Google Podcasts in that order",
                               i18n: true,
                             },
                             {
