@@ -223,7 +223,7 @@ collections:
                   widget: "string",
                   i18n: true,
                 },
-                 {
+                {
                   name: "backButton",
                   label: "Back to all Frequently Asked Questions (FAQs)",
                   widget: "string",
@@ -728,6 +728,30 @@ collections:
                       },
                     ],
                 },
+                {
+                  name: copyright,
+                  label: "Copyright",
+                  widget: object,
+                  i18n: true,
+                  collapsed: false,
+                  fields:
+                    [
+                      {
+                        name: description,
+                        label: Description,
+                        widget: text,
+                        i18n: true,
+                        required: true,
+                      },
+                      {
+                        name: title,
+                        label: Title,
+                        widget: string,
+                        i18n: true,
+                        required: true,
+                      },
+                    ],
+                },
               ],
           },
           {
@@ -867,20 +891,20 @@ collections:
                         widget: "string",
                         i18n: true,
                         default: "Primary Email Address",
-                      },                     
+                      },
                       {
                         label: "Field Label 2",
                         name: "fieldLabel2",
                         widget: "string",
                         i18n: true,
                         default: "First Name",
-                      },                      
+                      },
                       {
                         label: "Privacy Text",
                         name: "privacyText",
                         widget: "text",
                         i18n: true,
-                        default: "If you would like to know how Alpha processes your data, please view Alpha's <Privacy Policy>."
+                        default: "If you would like to know how Alpha processes your data, please view Alpha's <Privacy Policy>.",
                       },
                       {
                         label: "Privacy Link",
@@ -888,14 +912,14 @@ collections:
                         widget: "string",
                         i18n: true,
                         default: "https://bibleinoneyear.org/en/privacy-policy/",
-                      },  
-                        {
+                      },
+                      {
                         label: "Button Text",
                         name: "ButtonText",
                         widget: "string",
                         i18n: true,
                         default: "Sign up now",
-                      }, 
+                      },
                     ],
                 },
               ],
