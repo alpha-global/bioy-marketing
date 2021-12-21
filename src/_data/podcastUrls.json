@@ -30,7 +30,16 @@
   },
   "hi": {
     "podcasts": [
-      {}
+      {
+        "edition": "Classic",
+        "feeds": [
+          {
+            "name": "Spotify",
+            "icon": "spotify_podcasts",
+            "url": "https://open.spotify.com/show/5D9yxdmAiu93rUEohIMOd7"
+          }
+        ]
+      }
     ]
   },
   "en": {
