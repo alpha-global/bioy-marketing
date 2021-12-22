@@ -145,7 +145,7 @@
         "description": "Receive a daily email with a fresh devotion straight in your inbox.",
         "image": "/assets/img/medium_app.jpg",
         "cta": {
-          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/p9r9p0\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite\" data-ml=\"4091911,p9r9p0\">Sign up now</a>"
+          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/p9r9p0\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite\" data-ml=\"4091911,p9r9p0\">Regístrate ahora</a>"
         }
       },
       {
