@@ -1,5 +1,5 @@
 ---
-title: AR Privacy policy
+title: Privacy policy
 locale: ar
 ---
 Information you share with us can be used for Holy Trinity Brompton (Holy Trinity Brompton, Alpha International, it's affiliates and subsidiaries) operational purposes. Alpha International is not in the business of selling information about you. This notice tells you what information we collect, steps we take to protect and secure it, how we use and share the information, and finally, how you can contact us with questions or concerns.
