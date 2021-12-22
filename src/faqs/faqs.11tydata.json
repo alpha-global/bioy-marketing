@@ -1,4 +1,242 @@
 {
+  "de": {
+    "faqsItems": [
+      {
+        "title": "Kann ich die Geschwindigkeit der Audiowiedergabe verändern?",
+        "category": "Audio",
+        "shortAnswer": "Ja! Nachdem du auf die Schaltfläche \"Abspielen\" getippt hast, siehst du in der oberen linken Ecke des erweiterten Audioplayers ein \"1x\". Durch Antippen dieses Symbols kannst du zwischen den verschiedenen Abspielgeschwindigkeiten wechseln: 1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x und dann wieder auf 1x usw.\n",
+        "detailedAnswer": "Ja! Bitte stelle sicher, dass du auf die neueste Version der App aus dem iOS App Store oder Google Play auf Android aktualisiert hast. Nachdem du auf die Schaltfläche \"Abspielen\" getippt hast, siehst du in der oberen linken Ecke des erweiterten Audioplayers ein \"1x\". Durch Antippen dieses Symbols kannst du zwischen den verschiedenen Abspielgeschwindigkeiten wechseln:\n\n1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x und dann wieder auf 1x usw."
+      },
+      {
+        "title": "Kann ich einen Abschnitt an einen Freund weiterleiten?",
+        "category": "Content",
+        "shortAnswer": "Ja! Wir würden uns sehr freuen, wenn du dadurch jemanden ermutigst, durch die Andachten und Kommentare etwas von Gott zu hören. Den Link dafür findest du, indem du auf das \"Buch\"-Symbol an dem Tag, den du teilen möchtest, tippst, und dann auf das \"Teilen\"-Symbol in der linken unteren Ecke des Popups, das erscheint. Du kannst dann auswählen, wie du den Link weitergeben möchtest, entweder direkt in einer Textnachricht oder einer E-Mail, oder indem du den Link kopierst und an der gewünschten Stelle einfügst.",
+        "detailedAnswer": "Ja! Wir würden uns sehr freuen, wenn du dadurch jemanden ermutigst, durch die Andachten und Kommentare etwas von Gott zu hören. Den Link dafür findest du, indem du auf das \"Buch\"-Symbol an dem Tag, den du teilen möchtest, tippst, und dann auf das \"Teilen\"-Symbol in der linken unteren Ecke des Popups, das erscheint. Du kannst dann auswählen, wie du den Link weitergeben möchtest, entweder direkt in einer Textnachricht oder einer E-Mail, oder indem du den Link kopierst und an der gewünschten Stelle einfügst."
+      },
+      {
+        "title": "Kann ich meinen aktuellen Tag ändern?",
+        "category": "Content",
+        "shortAnswer": "Wenn du das Datum, das du für den Beginn des BieJ-Leseplans ausgewählt hast, ändern möchtest, kannst du von der linken Seite des Displays nach rechts wischen und ein anderes Datum aus der Liste auswählen.",
+        "detailedAnswer": "Wenn du das Datum, das du für den Beginn des BieJ-Leseplans ausgewählt hast, ändern möchtest, kannst du von der linken Seite des Displays nach rechts wischen und ein anderes Datum aus der Liste auswählen."
+      },
+      {
+        "title": "Was bedeuten die Symbole in der Listenansicht der einzelnen Tage?",
+        "category": "App",
+        "shortAnswer": "Es gibt bis zu vier Symbole in der Listenansicht.\n\nEin rotes \"Häkchen\" in einem Kreis: Der Tag wurde als abgeschlossen markiert.  \nBuch-Symbol: Der graue Balken daneben färbt sich, je nach Lesefortschritt, rot.  \nSprecher-Symbol: Die Audiodatei des Tages wurde heruntergeladen.  \nSenden-Symbol: Die Audiodaten des Tages werden live über Wi-Fi oder dein Mobilfunknetz gestreamt.",
+        "detailedAnswer": "In der Listenansicht können bis zu vier Symbole angezeigt werden, die dir helfen, deinen Fortschritt zu sehen und zu erkennen, wie deine Einstellungen sind.\n\nEin rotes \"Häkchen\" in einem Kreis: Die Andacht wurde als abgeschlossen markiert. Dieses Häkchen erscheint, wenn du den gesamten Text durchgeblättert oder dir die gesamte Audioaufnahme angehört hast.\n\nBuch-Symbol: Der graue Balken daneben färbt sich, je nach Lesefortschritt, rot. \n\nSprecher-Symbol: Die Audioaufnahme des Tages wurde heruntergeladen. Daneben wird die Anzahl der verbleibenden Audio-Minuten an diesem Tag angezeigt. Ist der Tag abgeschlossen ist ein roter Haken zu sehen.\n\nSender-Symbol: Die Audiodaten des Tages werden live über Ihr Wi-Fi oder per Mobilfunk gestreamt. Wenn du in Gegenden mit schwachem Signal oder ohne Internet weiterhören möchtest, solltest du die automatischen Download-Einstellungen im Menü Einstellungen verwenden oder die Audiodaten eines einzelnen Tages herunterladen, indem du in der Listenansicht auf einem Tag nach rechts wischst. \n\nWenn du nach rechts gewischt hast, kannst du auch die Symbole für das Herunterladen/Löschen sowie die Symbole Ungelesen/Abgeschlossen verwenden."
+      },
+      {
+        "title": "Kann ich die Anzahl der auf meinem Gerät als Audio gespeicherten Tage anpassen?",
+        "category": "App",
+        "shortAnswer": "Du kannst einstellen, wie viele Tage Audio auf deinem Gerät gespeichert werden. Tippe auf Menü > Einstellungen > Audio-Downloads. Bewege den roten Kreis entlang der Linie, um die Anzahl der Tage, die die Audiodateien auf Ihrem Gerät gespeichert bleiben, anzupassen.",
+        "detailedAnswer": "Du kannst einstellen, wie viele Tage Audio auf deinem Gerät gespeichert werden. Tippe auf Menü > Einstellungen > Audio-Downloads. Bewege den roten Kreis entlang der Linie, um die Anzahl der Tage, die die Audiodateien auf Ihrem Gerät gespeichert bleiben, anzupassen. Du kannst auch auswählen, welche Optionen für mobile Daten und den automatischen Download für dich am besten geeignet sind."
+      },
+      {
+        "title": "Wie kann ich Audiodateien, die auf meinem Gerät gespeichert sind, manuell löschen?",
+        "category": "App",
+        "shortAnswer": "Swipe right on the relevant day from the list view and tap the bin icon.\n\nTo delete more than one day of audio at once and view a list of all your downloaded audio, tap on Menu > Settings > Manage Audio. Tick the box to select which days you would like to delete or select all. Then tap on Delete Selected Audio.",
+        "detailedAnswer": "Wische nach rechts über den entsprechenden Tag in der Listenansicht und tippe auf das Mülleimer-Symbol. \n\nUm mehr als einen Tag auf einmal zu löschen und eine Liste aller heruntergeladenen Audiodateien anzuzeigen, tippe auf Menü > Einstellungen > Audio verwalten. Markiere das Kästchen, um die Tage auszuwählen, die du löschen möchtest, oder wähle alle aus. Tippe dann auf Ausgewählte Audios löschen."
+      },
+      {
+        "title": "Wie ist der Inhalt eines Tages aufgebaut?",
+        "category": "Content",
+        "shortAnswer": "Jeder Tag besteht aus drei Bibelstellen aus verschiedenen Teilen der Bibel, die von Nicky Gumbel kommentiert und mit Gebeten ergänzt werden. Der Tag beginnt mit einer Einführung, in der das Thema des Tages vorgestellt wird. Es folgen eine Weisheitsstelle (Psalm oder Sprüche) und ein Kommentar zu dieser Stelle, ein Abschnitt aus dem Neuen Testament und ein Kommentar dazu sowie ein Abschnitt aus dem Alten Testament und ein Kommentar dazu. Jeder Tag endet mit einem Gedanken von Pippa Gumbel.",
+        "detailedAnswer": "Jeder Tag besteht aus drei Bibelstellen aus verschiedenen Teilen der Bibel, die von Nicky Gumbel kommentiert und mit Gebeten ergänzt werden. Der Tag beginnt mit einer Einführung, in der das Thema des Tages vorgestellt wird. Es folgen eine Weisheitsstelle (Psalm oder Sprüche) und ein Kommentar zu dieser Stelle, ein Abschnitt aus dem Neuen Testament und ein Kommentar dazu sowie ein Abschnitt aus dem Alten Testament und ein Kommentar dazu. Jeder Tag endet mit einem Gedanken von Pippa Gumbel.\n\nIn der Express-Version sind die Bibelstellen kürzer und beziehen sich nur auf kleine Passagen oder einige Verse. Sie enthält außerdem einen Vers des Tages und einen Gedanken des Tages."
+      },
+      {
+        "title": "Welche Bibelübersetzung wird bei BieJ verwendet?",
+        "category": "Content",
+        "shortAnswer": "Bibel in einem Jahr verwendet vor allem die \"Hoffnung für Alle\".",
+        "detailedAnswer": "Bibel in einem Jahr verwendet vor allem die \"Hoffnung für Alle\"."
+      },
+      {
+        "title": "Wie kann ich meine Version ändern?",
+        "category": "Content",
+        "shortAnswer": "Wenn du zu einer anderen Version von \"Bibel in einem Jahr\" wechseln möchtest, kannst du dies im Menü \"Einstellungen\" tun.",
+        "detailedAnswer": "Wenn du zu einer anderen Version von \"Bibel in einem Jahr\" wechseln möchtest, kannst du dies im Menü \"Einstellungen\" tun.\n\nHinweis: Die Version \"Youth\" ist nur in englischer Sprache verfügbar. Daher musst du die Sprache des Inhalts auf Englisch einstellen, bevor du deine Version ändern kannst. Tippe auf \"Edition\" und wähle entweder \"Classic\", \"Express\" oder \"Youth\". Alle Inhalte, die du bereits abgeschlossen hast, werden in diesem neuen Editionsformat erneut heruntergeladen und dein Fortschritt im Laufe des Jahres wird gespeichert."
+      },
+      {
+        "title": "Der Audioinhalt kann nicht abgespielt werden, was soll ich tun?",
+        "category": "Audio",
+        "shortAnswer": "Überprüfe, ob du eine Verbindung hast, oder ob der Tag heruntergeladen wurde.\nStreiche auf der Listenansicht nach unten, um die App zu aktualisieren.\nVersuch erneut, die Audiodatei abzuspielen.\n\nBitte lies die FAQ zur Verwaltung von Audiodownloads, um sicherzustellen, dass die App genügend Platz zum Herunterladen von Audiodaten hat.",
+        "detailedAnswer": "Überprüfe, ob du eine Verbindung hast, oder ob der Tag heruntergeladen wurde.\nStreiche auf der Listenansicht nach unten, um die App zu aktualisieren.\nVersuch erneut, die Audiodatei abzuspielen.\n\nBitte lies die FAQ zur Verwaltung von Audiodownloads, um sicherzustellen, dass die App genügend Platz zum Herunterladen von Audiodaten hat."
+      },
+      {
+        "title": "Wie kann ich verhindern, dass mein Gerät automatisch Audiodateien herunterlädt?",
+        "category": "Audio",
+        "shortAnswer": "Automatische Downloads können in den Einstellungen unter dem Abschnitt \"Audio-Downloads\" verwaltet werden.",
+        "detailedAnswer": "Automatische Downloads können in den Einstellungen unter dem Abschnitt \"Audio-Downloads\" verwaltet werden.\n\nBitte beachte, dass das Deaktivieren der automatischen Downloads nicht automatisch alle bereits heruntergeladenen Audiodateien löscht. Auf deinem Gerät gespeicherte Audiodateien können unter \"Einstellungen\" in \"Audio verwalten\" gelöscht werden."
+      },
+      {
+        "title": "Kann ich die Audiodateien offline anhören?",
+        "category": "Audio",
+        "detailedAnswer": "Wenn du die neueste Version der App hast, kannst du dies auf zwei Arten tun.\n\n1. Du kannst automatische Downloads einrichten, dadurch werden die Audioinhalte des nächsten Tages automatisch heruntergeladen und aufbewahrt, bis du sie dir angehört hast. Dazu gehst du zu Einstellungen, Audiodownloads und wählst aus, wie viele Tage die App die Audiodaten für dich herunterladen soll.\n2. Alternativ kannst du Audiodateien auch manuell herunterladen, indem du in der Listenansicht nach rechts auf den Tag streichst. Daraufhin wird links eine Schaltfläche zum Herunterladen angezeigt, auf die du einfach tippen kannst, um die Datei herunterzuladen.\n\nWenn du Bedenken wegen des Downloads über deine mobilen Daten hast, stelle bitte sicher, dass \"Mobile Daten verwenden\" auf deinem Gerät auf \"Aus\" gestellt ist.",
+        "shortAnswer": "Es gibt zwei Möglichkeiten, Audiodateien offline anzuhören."
+      },
+      {
+        "title": "Wie viele Tage Audio sind auf meinem Gerät gespeichert?",
+        "category": "Audio",
+        "shortAnswer": "Tippe auf Menü > Einstellungen > Audio verwalten, um herauszufinden, wie viele Tage derzeit auf deinem Gerät gespeichert sind.",
+        "detailedAnswer": "Tippe auf Menü > Einstellungen > Audio verwalten, um herauszufinden, wie viele Tage derzeit auf deinem Gerät gespeichert sind."
+      },
+      {
+        "title": "Was passiert mit meinen Audiodateien, wenn ich die Version wechsle?",
+        "category": "Audio",
+        "shortAnswer": "Audiodateien werden gelöscht, wenn du die Version änderst, auf die dein Gerät zugreift. Du kannst die Audiodateien immer noch manuell herunterladen, indem du in der Listenansicht nach rechts über den Tag streichst und auf das Download-Symbol tippst.",
+        "detailedAnswer": "Audiodateien werden gelöscht, wenn du die Version änderst, auf die dein Gerät zugreift. Du kannst die Audiodateien immer noch manuell herunterladen, indem du in der Listenansicht nach rechts über den Tag streichst und auf das Download-Symbol tippst."
+      },
+      {
+        "title": "Wenn ich eine Audiodatei lösche, kann ich sie wiederherstellen?",
+        "category": "Audio",
+        "shortAnswer": "Du kannst Audiodateien jederzeit manuell herunterladen, indem du in der Listenansicht nach rechts über den Tag streichst und auf das erscheinende Download-Symbol klickst.",
+        "detailedAnswer": "Du kannst Audiodateien jederzeit manuell herunterladen, indem du in der Listenansicht nach rechts über den Tag streichst und auf das erscheinende Download-Symbol klickst."
+      },
+      {
+        "title": "Muss ich eine Audiodatei herunterladen, um sie anhören zu können?",
+        "category": "Audio",
+        "shortAnswer": "Nein, du kannst die Audiodatei über WLAN oder mobile Daten streamen, wenn du das möchtest.",
+        "detailedAnswer": "Nein, du kannst die Audiodatei über WLAN oder mobile Daten streamen, wenn du das möchtest."
+      },
+      {
+        "title": "Wie kann ich durch die verschiedenen Abschnitte des Audios springen?",
+        "category": "Audio",
+        "shortAnswer": "Bei den Classic- und Express-Versionen von BieJ lässt sich mit der Skip-Funktion des Audioplayers durch jeden Abschnitt des Audios navigieren.",
+        "detailedAnswer": "Bei den Classic- und Express-Versionen von BieJ kannst du mit der Skip-Funktion auf dem Audioplayer jeden Abschnitt in dieser Reihenfolge durchlaufen: \n\nIntro, Sprüche/Psalmen-Bibel, Sprüche/Psalmen-Kommentar, Neues Testament-Bibel, Neues Testament-Kommentar, Altes Testament-Bibel, Altes Testament-Kommentar, Pippa Adds. \n\nZusätzlich gibt es eine Option, um 15 Sekunden vorwärts oder rückwärts zu springen. Wenn du keine Option zum Überspringen von 15 Sekunden hast, lade bitte die neueste Version deiner App herunter."
+      },
+      {
+        "title": "Kann ich BieJ per E-Mail erhalten?",
+        "category": "Content",
+        "shortAnswer": "Ja, du kannst dich auf der BieJ-Homepage für die Classic-Version per E-Mail anmelden.",
+        "detailedAnswer": "Ja. Wenn du die Classic-Version per E-Mail erhalten möchtest, oder wenn du die täglichen BieJ-E-Mails nicht mehr erhalten hast und dich neu anmelden möchtest, kannst du dich [hier](https://landing.mailerlite.com/webforms/landing/b4j7s5) anmelden oder neu anmelden."
+      },
+      {
+        "title": "Wie kann ich auf das neue App-Menü zugreifen?",
+        "category": "App",
+        "shortAnswer": "Wenn du die App öffnest, siehst du die Listenansicht mit den aktuellen und letzten Tagen. Das Menü-Symbol (drei übereinander liegende Linien) befindet sich am unteren Rand der roten Leiste an der Seite des Bildschirms. Durch Tippen auf das Menü-Symbol kannst du auf die Einstellungen zugreifen oder mehr über BiOY herausfinden.",
+        "detailedAnswer": "Wenn du die App öffnest, siehst du die Listenansicht mit den aktuellen und letzten Tagen. Das Menü-Symbol (drei übereinander liegende Linien) befindet sich am unteren Rand der roten Leiste an der Seite des Bildschirms. Durch Tippen auf das Menü-Symbol kannst du auf die Einstellungen zugreifen oder mehr über BiOY herausfinden."
+      },
+      {
+        "title": "Kann ich das Startdatum ändern?",
+        "category": "App",
+        "shortAnswer": "Wenn du das Datum, das du für den Start ausgewählt hast, ändern möchtest, musst du entweder deine App-Daten zurücksetzen oder die App neu installieren.",
+        "detailedAnswer": "Wenn du das Datum, das du für den Start ausgewählt hast, ändern möchtest, musst du entweder deine App-Daten zurücksetzen oder die App neu installieren. Wenn du die App zum ersten Mal startest, wähle die gewünschte Ausgabe (Classic, Express oder Youth (englisch) ). Tippe auf \"Weitermachen\" und wähle den Tag, an dem du beginnen möchtest."
+      },
+      {
+        "title": "Warum gibt es eine neues Update der App?",
+        "category": "App",
+        "shortAnswer": "Wir mussten die App auf eine neue Plattform umziehen, damit wir mehr Funktionen und Verbesserungen einbauen konnten. Einfach ausgedrückt: Um die App zu verbessern, mussten wir sie von Grund auf neu aufbauen.",
+        "detailedAnswer": "Wir mussten die App auf eine neue Plattform umziehen, damit wir mehr Funktionen und Verbesserungen einbauen konnten. Einfach ausgedrückt: Um die App zu verbessern, mussten wir sie von Grund auf neu aufbauen."
+      },
+      {
+        "title": "Wie kann ich über die App spenden?",
+        "category": "App",
+        "shortAnswer": "Vielen Dank, dass du in Erwägung ziehst, für BieJ zu spenden. Du kannst über das App-Menü oder hier auf der BieJ-Website spenden - klicke auf 'spenden'.",
+        "detailedAnswer": "Vielen Dank, dass du in Erwägung ziehst, für BieJ zu spenden. Du kannst über das App-Menü oder hier auf der BieJ-Website spenden - klicke auf 'spenden'. [](/en/donate)"
+      },
+      {
+        "title": "Ist wirklich die ganze Bibel enthalten?",
+        "category": "Content",
+        "shortAnswer": "Die gesamte Bibel ist in der Classic-Ausgabe von BieJ enthalten. Jeden Tag liest oder hört man einen Psalm oder aus den Sprüchen, einen Teil des Neuen und des Alten Testaments.",
+        "detailedAnswer": "Die gesamte Bibel ist in der Classic-Ausgabe von BieJ enthalten. Jeden Tag liest oder hört man einen Psalm oder aus den Sprüchen, einen Teil des Neuen und des Alten Testaments.\n\nDie Express-Ausgabe (und die englische Youth-Ausgabe) bietet eine gekürzte Version der klassischen BieJ mit ausgewählten Bibelstellen aus dem Buch der Psalmen oder den Sprüchen, dem Neuen Testament und dem Alten Testament. In diesen Ausgaben werden nicht alle Verse der Bibel behandelt, aber sie vermitteln ein umfassendes Verständnis der Bibel."
+      },
+      {
+        "title": "Ich habe einen Tag verpasst, kann ich den Tag, den ich gerade lese, ändern?",
+        "category": "Content",
+        "shortAnswer": "Wenn du Tag ändern möchtest, z. B. wenn du einen Tag verpasst hast und ihn nachholen möchtest, kannst du auf der linken Seite des Bildschirms deines Geräts nach rechts wischen und einen anderen Tag in der Liste auswählen.",
+        "detailedAnswer": "Wenn du Tag ändern möchtest, z. B. wenn du einen Tag verpasst hast und ihn nachholen möchtest, kannst du auf der linken Seite des Bildschirms deines Geräts nach rechts wischen und einen anderen Tag in der Liste auswählen."
+      },
+      {
+        "title": "Warum kann ich nicht vorauslesen?",
+        "category": "Content",
+        "shortAnswer": "BieJ wird täglich aktualisiert, um das Material aktuell und relevant zu halten. Du kannst nicht vorauslesen, weil der Inhalt noch nicht hochgeladen wurde.",
+        "detailedAnswer": "BieJ wird täglich aktualisiert, um das Material aktuell und relevant zu halten. Du kannst nicht vorauslesen, weil der Inhalt noch nicht hochgeladen wurde."
+      },
+      {
+        "title": "Welche Versionen gibt es?",
+        "category": "Content",
+        "shortAnswer": "Neben der BieJ Classic-Ausgabe (die etwa 25 Minuten dauert) gibt es auch die Möglichkeit, die Express-Version (die 11 bis 13 Minuten dauert) oder die Youth-Version (englisch, 12 bis 14 Minuten) zu wählen.",
+        "detailedAnswer": "Neben der BieJ Classic-Ausgabe (die etwa 25 Minuten dauert) gibt es auch die Möglichkeit, die Express-Version (die 11 bis 13 Minuten dauert) oder die Youth-Version (englisch, 12 bis 14 Minuten) zu wählen."
+      },
+      {
+        "title": "Wessen Stimmen höre ich in den Audios?",
+        "category": "Audio",
+        "shortAnswer": "",
+        "detailedAnswer": ""
+      },
+      {
+        "title": "Kann ich die BieJ-App zwischen meinem Telefon und meinem Tablet synchronisieren?",
+        "category": "Audio",
+        "shortAnswer": "Noch nicht. Derzeit gibt es keine Möglichkeit, den Fortschritt zu synchronisieren. In Zukunft wird das voraussichtlich möglich sein.",
+        "detailedAnswer": "Noch nicht. Derzeit gibt es keine Möglichkeit, den Fortschritt zu synchronisieren. In Zukunft wird das voraussichtlich möglich sein."
+      },
+      {
+        "title": "Wird BieJ automatisch am Ende des Jahres auf Tag 1 zurückgesetzt?",
+        "category": "Content",
+        "shortAnswer": "Bevor die App automatisch auf Tag 1 zurückspringt, müssen alle anderen Tage gelesen werden.",
+        "detailedAnswer": "Bevor die App automatisch auf Tag 1 zurückspringt, müssen alle anderen Tage gelesen werden."
+      },
+      {
+        "title": "Ist der Kommentar jedes Jahr derselbe?",
+        "category": "Content",
+        "shortAnswer": "Der größte Teil des Inhalts wird gleich bleiben, mit kleinen Aktualisierungen jedes Jahr.",
+        "detailedAnswer": "Der größte Teil des Inhalts wird gleich bleiben, mit kleinen Aktualisierungen jedes Jahr."
+      },
+      {
+        "title": "Wie kann ich einen Tag als ungelesen/gelesen markieren?",
+        "category": "App",
+        "shortAnswer": "Um einen Tag als ungelesen zu markieren, wische in der Listenansicht nach rechts und tippen auf das Symbol \"Zurück\", das neben dem Symbol für den Download bzw. die Ablage erscheint. Um den Tag als gelesen zu markieren, wische in der Listenansicht nach rechts und tippe auf das \"Häkchen\"-Symbol, das neben dem Download-/Speichersymbol erscheint.",
+        "detailedAnswer": "Um einen Tag als ungelesen zu markieren, wische in der Listenansicht nach rechts und tippen auf das Symbol \"Zurück\", das neben dem Symbol für den Download bzw. die Ablage erscheint. Um den Tag als gelesen zu markieren, wische in der Listenansicht nach rechts und tippe auf das \"Häkchen\"-Symbol, das neben dem Download-/Speichersymbol erscheint."
+      },
+      {
+        "title": "Kann ich meinen Lesefortschritt pro Abschnitt jeden Tag verfolgen?",
+        "category": "App",
+        "shortAnswer": "Dein Lesefortschritt wird automatisch angezeigt. Unter dem Titel der Andacht in der Listenansicht erscheint ein roter Balken für jeden Abschnitt, den du lies. Wenn du dem Leseplan folgst, aber in diesem Jahr nur einen Abschnitt liest (z. B. ein ganzes Jahr lang nur das Alte Testament), kannst du einen Tag in der Listenansicht als \"Erledigt\" markieren, indem du in der Listenansicht nach rechts über den Tag streichst und auf das \"Häkchen\"-Symbol tippst, das neben dem Download/Papierkorb-Symbol erscheint.",
+        "detailedAnswer": "Dein Lesefortschritt wird automatisch angezeigt. Unter dem Titel der Andacht in der Listenansicht erscheint ein roter Balken für jeden Abschnitt, den du lies. Wenn du dem Leseplan folgst, aber in diesem Jahr nur einen Abschnitt liest (z. B. ein ganzes Jahr lang nur das Alte Testament), kannst du einen Tag in der Listenansicht als \"Erledigt\" markieren, indem du in der Listenansicht nach rechts über den Tag streichst und auf das \"Häkchen\"-Symbol tippst, das neben dem Download/Papierkorb-Symbol erscheint."
+      },
+      {
+        "title": "Kann ich zwischen den Abschnitten des Textes springen, ohne zu scrollen?",
+        "category": "App",
+        "shortAnswer": "Ja. Durch Antippen der Abschnitte, die am Anfang des Textes vorgestellt werden, kannst du schnell zu diesem Abschnitt springen. Wir haben außerdem ein Navigationsmenü eingerichtet. Durch Tippen auf das Buchsymbol öffnet sich ein Popup-Menü mit der Möglichkeit, zu einem beliebigen Abschnitt der Andacht zu navigieren.",
+        "detailedAnswer": "Ja. Durch Antippen der Abschnitte, die am Anfang des Textes vorgestellt werden, kannst du schnell zu diesem Abschnitt springen. Wir haben außerdem ein Navigationsmenü eingerichtet. Durch Tippen auf das Buchsymbol öffnet sich ein Popup-Menü mit der Möglichkeit, zu einem beliebigen Abschnitt der Andacht zu navigieren."
+      },
+      {
+        "title": "Hilfe, meine App \"blockiert\" und \"springt\" an manchen Stellen im Text.",
+        "category": "App",
+        "shortAnswer": "Die neueste Version der App enthält Verbesserungen, die die Abschnitte deutlicher voneinander  unterscheiden. Das können z.B. bildschirmfüllende Versangaben sein. Um weiterzulesen, wischst du einfach nach oben, um zum nächsten Abschnitt zu gelangen.",
+        "detailedAnswer": "Die neueste Version der App enthält Verbesserungen, die die Abschnitte deutlicher voneinander  unterscheiden. Das können z.B. bildschirmfüllende Versangaben sein. Um weiterzulesen, wischst du einfach nach oben, um zum nächsten Abschnitt zu gelangen."
+      },
+      {
+        "title": "Wie kann ich den Ton steuern?",
+        "category": "Audio",
+        "shortAnswer": "Die App ermöglicht es, Audio auf zwei verschiedene Arten herunterzuladen: manuell und automatisch.\n\nManuell - Audio kann heruntergeladen werden, indem man an einem Tag nach links wischt und auf das Download-Symbol tippt. Dies bietet ein hohes Maß an Kontrolle darüber, was auf deinem Gerät gespeichert ist. Es wird empfohlen, die Audiodateien manuell zu löschen, sobald du sie nicht mehr benötigst.\n\nAutomatisch - einstellbar im Bereich Einstellungen, kann die App automatisch eine bestimmte Anzahl von Tagen herunterladen, bis zu einem festgelegten Limit. Die App löscht die Audiodatei von deinem Gerät, wenn du sie bis zum Ende anhörst. Die App hört auf, automatisch neue Audiodateien herunterzuladen, wenn das Limit erreicht ist. Das passiert, wenn du viele automatisch heruntergeladene Audiodateien hast, die du dir nur teilweise angehört hast. Um dies zu beheben, leere deine Audio-Downloads: Navigiere zu Menü > Einstellungen > Audio verwalten und wähle das Audio, das du löschen möchtest.",
+        "detailedAnswer": "Die App ermöglicht es, Audio auf zwei verschiedene Arten herunterzuladen: manuell und automatisch.\n\nManuell - Audio kann heruntergeladen werden, indem man an einem Tag nach links wischt und auf das Download-Symbol tippt. Dies bietet ein hohes Maß an Kontrolle darüber, was auf deinem Gerät gespeichert ist. Es wird empfohlen, die Audiodateien manuell zu löschen, sobald du sie nicht mehr benötigst.\n\nAutomatisch - einstellbar im Bereich Einstellungen, kann die App automatisch eine bestimmte Anzahl von Tagen herunterladen, bis zu einem festgelegten Limit. Die App löscht die Audiodatei von deinem Gerät, wenn du sie bis zum Ende anhörst. Die App hört auf, automatisch neue Audiodateien herunterzuladen, wenn das Limit erreicht ist. Das passiert, wenn du viele automatisch heruntergeladene Audiodateien hast, die du dir nur teilweise angehört hast. Um dies zu beheben, leere deine Audio-Downloads: Navigiere zu Menü > Einstellungen > Audio verwalten und wähle das Audio, das du löschen möchtest."
+      }
+    ],
+    "seeMore": "Mehr anzeigen",
+    "submitButton": "Eine Supportanfrage stellen",
+    "intro": "**Hast du eine Frage zu Bibel in einem Jahr?**\n\nEin Problem mit der App? Gib deine Frage hier ein...",
+    "notFoundMessage": "Leider haben wir kein Ergebnis gefunden für ",
+    "title": "FAQs",
+    "filter": "Filter",
+    "backButton": "Zurück zu allen häufig gestellten Fragen (FAQs)",
+    "categories": {
+      "Audio": "Audio",
+      "Content": "Inhalt",
+      "App": "App"
+    },
+    "filterHint": "Wonach suchst du?"
+  },
+  "hi": {
+    "faqsItems": [
+      {
+        "title": "Title",
+        "category": "Audio",
+        "shortAnswer": "Answer",
+        "detailedAnswer": "Answer"
+      }
+    ],
+    "title": "FAQs"
+  },
   "en": {
     "faqsItems": [
       {
@@ -238,281 +476,6 @@
     },
     "filterHint": "What are you looking for?"
   },
-  "ar": {
-    "faqsItems": [
-      {
-        "title": "هل يمكنني تسريع / إبطاء سرعة التفاني الصوتي؟",
-        "category": "Audio",
-        "shortAnswer": "نعم! بعد النقر على زر 'تشغيل' التعليقات، ستلاحظ 1x في الزاوية اليسرى العلوية لمشغل الصوت الموسع. انقر فوق هذا للتنقل بين سرعات التشغيل: 1x ، 1.2x ، 1.5x ، 1.8x ، 2x ، 0.8x ثم التقريب مرة أخرى إلى 1x إلخ.",
-        "detailedAnswer": "نعم! يرجى التأكد من أنك قمت بالتحديث إلى أحدث إصدار من التطبيق من iOS App Store أو Google Play على Android. بعد النقر على زر 'تشغيل' التعليقات، ستلاحظ 1x في الزاوية اليسرى العلوية لمشغل الصوت الموسع. انقر فوق هذا للتنقل بين سرعات التشغيل:\\\n\\\n1x ، 1.2x ، 1.5x ، 1.8x ، 2x ، 0.8x ثم التقريب مرة أخرى إلى 1x وما إلى ذلك"
-      },
-      {
-        "title": "لا أستطيع تشغيل الصوت، فماذا أفعل؟",
-        "category": "Audio",
-        "shortAnswer": "تحقق مما إذا كان لديك اتصال بالانترنت، أو انك قد قمت بتنزيل التعليقات على هاتفك. اسحب لأسفل على ListView لتحديث التطبيق. حاول تشغيل الصوت مرة أخرى. يرجى الرجوع إلى الأسئلة الشائعة المتعلقة بإدارة تنزيلات الصوت للتأكد من أن التطبيق الخاص بك به مساحة كافية لتنزيل الصوت.",
-        "detailedAnswer": "تحقق مما إذا كان لديك اتصال بالانترنت، أو انك قد قمت بتنزيل التعليقات على هاتفك. اسحب لأسفل على ListView لتحديث التطبيق. حاول تشغيل الصوت مرة أخرى. \n\nيرجى الرجوع إلى الأسئلة الشائعة المتعلقة بإدارة تنزيلات الصوت للتأكد من أن التطبيق الخاص بك به مساحة كافية لتنزيل الصوت."
-      },
-      {}
-    ],
-    "seeMore": "شاهد المزيد",
-    "submitButton": "أرسل طلب دعم",
-    "intro": "**هل لديك سؤال عن الكتاب المقدس في عام واحد؟**\n\nمشكلة في التطبيق؟ ابدأ بكتابة سؤالك هنا ...",
-    "notFoundMessage": "عذرا، ليس لدينا أي نتائج عن",
-    "title": "اسئلة متكررة",
-    "filter": "بحث",
-    "backButton": "Back to all Frequently Asked Questions (FAQs)",
-    "categories": {
-      "Audio": "الصوت ",
-      "Content": "المحتوى",
-      "App": "التطبيق"
-    },
-    "filterHint": "ما الذي تبحث عنه؟"
-  },
-  "de": {
-    "faqsItems": [
-      {
-        "title": "Kann ich die Geschwindigkeit der Audiowiedergabe verändern?",
-        "category": "Audio",
-        "shortAnswer": "Ja! Nachdem du auf die Schaltfläche \"Abspielen\" getippt hast, siehst du in der oberen linken Ecke des erweiterten Audioplayers ein \"1x\". Durch Antippen dieses Symbols kannst du zwischen den verschiedenen Abspielgeschwindigkeiten wechseln: 1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x und dann wieder auf 1x usw.\n",
-        "detailedAnswer": "Ja! Bitte stelle sicher, dass du auf die neueste Version der App aus dem iOS App Store oder Google Play auf Android aktualisiert hast. Nachdem du auf die Schaltfläche \"Abspielen\" getippt hast, siehst du in der oberen linken Ecke des erweiterten Audioplayers ein \"1x\". Durch Antippen dieses Symbols kannst du zwischen den verschiedenen Abspielgeschwindigkeiten wechseln:\n\n1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x und dann wieder auf 1x usw."
-      },
-      {
-        "title": "Kann ich einen Abschnitt an einen Freund weiterleiten?",
-        "category": "Content",
-        "shortAnswer": "Ja! Wir würden uns sehr freuen, wenn du dadurch jemanden ermutigst, durch die Andachten und Kommentare etwas von Gott zu hören. Den Link dafür findest du, indem du auf das \"Buch\"-Symbol an dem Tag, den du teilen möchtest, tippst, und dann auf das \"Teilen\"-Symbol in der linken unteren Ecke des Popups, das erscheint. Du kannst dann auswählen, wie du den Link weitergeben möchtest, entweder direkt in einer Textnachricht oder einer E-Mail, oder indem du den Link kopierst und an der gewünschten Stelle einfügst.",
-        "detailedAnswer": "Ja! Wir würden uns sehr freuen, wenn du dadurch jemanden ermutigst, durch die Andachten und Kommentare etwas von Gott zu hören. Den Link dafür findest du, indem du auf das \"Buch\"-Symbol an dem Tag, den du teilen möchtest, tippst, und dann auf das \"Teilen\"-Symbol in der linken unteren Ecke des Popups, das erscheint. Du kannst dann auswählen, wie du den Link weitergeben möchtest, entweder direkt in einer Textnachricht oder einer E-Mail, oder indem du den Link kopierst und an der gewünschten Stelle einfügst."
-      },
-      {
-        "title": "Kann ich meinen aktuellen Tag ändern?",
-        "category": "Content",
-        "shortAnswer": "Wenn du das Datum, das du für den Beginn des BieJ-Leseplans ausgewählt hast, ändern möchtest, kannst du von der linken Seite des Displays nach rechts wischen und ein anderes Datum aus der Liste auswählen.",
-        "detailedAnswer": "Wenn du das Datum, das du für den Beginn des BieJ-Leseplans ausgewählt hast, ändern möchtest, kannst du von der linken Seite des Displays nach rechts wischen und ein anderes Datum aus der Liste auswählen."
-      },
-      {
-        "title": "Was bedeuten die Symbole in der Listenansicht der einzelnen Tage?",
-        "category": "App",
-        "shortAnswer": "Es gibt bis zu vier Symbole in der Listenansicht.\n\nEin rotes \"Häkchen\" in einem Kreis: Der Tag wurde als abgeschlossen markiert.  \nBuch-Symbol: Der graue Balken daneben färbt sich, je nach Lesefortschritt, rot.  \nSprecher-Symbol: Die Audiodatei des Tages wurde heruntergeladen.  \nSenden-Symbol: Die Audiodaten des Tages werden live über Wi-Fi oder dein Mobilfunknetz gestreamt.",
-        "detailedAnswer": "In der Listenansicht können bis zu vier Symbole angezeigt werden, die dir helfen, deinen Fortschritt zu sehen und zu erkennen, wie deine Einstellungen sind.\n\nEin rotes \"Häkchen\" in einem Kreis: Die Andacht wurde als abgeschlossen markiert. Dieses Häkchen erscheint, wenn du den gesamten Text durchgeblättert oder dir die gesamte Audioaufnahme angehört hast.\n\nBuch-Symbol: Der graue Balken daneben färbt sich, je nach Lesefortschritt, rot. \n\nSprecher-Symbol: Die Audioaufnahme des Tages wurde heruntergeladen. Daneben wird die Anzahl der verbleibenden Audio-Minuten an diesem Tag angezeigt. Ist der Tag abgeschlossen ist ein roter Haken zu sehen.\n\nSender-Symbol: Die Audiodaten des Tages werden live über Ihr Wi-Fi oder per Mobilfunk gestreamt. Wenn du in Gegenden mit schwachem Signal oder ohne Internet weiterhören möchtest, solltest du die automatischen Download-Einstellungen im Menü Einstellungen verwenden oder die Audiodaten eines einzelnen Tages herunterladen, indem du in der Listenansicht auf einem Tag nach rechts wischst. \n\nWenn du nach rechts gewischt hast, kannst du auch die Symbole für das Herunterladen/Löschen sowie die Symbole Ungelesen/Abgeschlossen verwenden."
-      },
-      {
-        "title": "Kann ich die Anzahl der auf meinem Gerät als Audio gespeicherten Tage anpassen?",
-        "category": "App",
-        "shortAnswer": "Du kannst einstellen, wie viele Tage Audio auf deinem Gerät gespeichert werden. Tippe auf Menü > Einstellungen > Audio-Downloads. Bewege den roten Kreis entlang der Linie, um die Anzahl der Tage, die die Audiodateien auf Ihrem Gerät gespeichert bleiben, anzupassen.",
-        "detailedAnswer": "Du kannst einstellen, wie viele Tage Audio auf deinem Gerät gespeichert werden. Tippe auf Menü > Einstellungen > Audio-Downloads. Bewege den roten Kreis entlang der Linie, um die Anzahl der Tage, die die Audiodateien auf Ihrem Gerät gespeichert bleiben, anzupassen. Du kannst auch auswählen, welche Optionen für mobile Daten und den automatischen Download für dich am besten geeignet sind."
-      },
-      {
-        "title": "Wie kann ich Audiodateien, die auf meinem Gerät gespeichert sind, manuell löschen?",
-        "category": "App",
-        "shortAnswer": "Swipe right on the relevant day from the list view and tap the bin icon.\n\nTo delete more than one day of audio at once and view a list of all your downloaded audio, tap on Menu > Settings > Manage Audio. Tick the box to select which days you would like to delete or select all. Then tap on Delete Selected Audio.",
-        "detailedAnswer": "Wische nach rechts über den entsprechenden Tag in der Listenansicht und tippe auf das Mülleimer-Symbol. \n\nUm mehr als einen Tag auf einmal zu löschen und eine Liste aller heruntergeladenen Audiodateien anzuzeigen, tippe auf Menü > Einstellungen > Audio verwalten. Markiere das Kästchen, um die Tage auszuwählen, die du löschen möchtest, oder wähle alle aus. Tippe dann auf Ausgewählte Audios löschen."
-      },
-      {
-        "title": "Wie ist der Inhalt eines Tages aufgebaut?",
-        "category": "Content",
-        "shortAnswer": "Jeder Tag besteht aus drei Bibelstellen aus verschiedenen Teilen der Bibel, die von Nicky Gumbel kommentiert und mit Gebeten ergänzt werden. Der Tag beginnt mit einer Einführung, in der das Thema des Tages vorgestellt wird. Es folgen eine Weisheitsstelle (Psalm oder Sprüche) und ein Kommentar zu dieser Stelle, ein Abschnitt aus dem Neuen Testament und ein Kommentar dazu sowie ein Abschnitt aus dem Alten Testament und ein Kommentar dazu. Jeder Tag endet mit einem Gedanken von Pippa Gumbel.",
-        "detailedAnswer": "Jeder Tag besteht aus drei Bibelstellen aus verschiedenen Teilen der Bibel, die von Nicky Gumbel kommentiert und mit Gebeten ergänzt werden. Der Tag beginnt mit einer Einführung, in der das Thema des Tages vorgestellt wird. Es folgen eine Weisheitsstelle (Psalm oder Sprüche) und ein Kommentar zu dieser Stelle, ein Abschnitt aus dem Neuen Testament und ein Kommentar dazu sowie ein Abschnitt aus dem Alten Testament und ein Kommentar dazu. Jeder Tag endet mit einem Gedanken von Pippa Gumbel.\n\nIn der Express-Version sind die Bibelstellen kürzer und beziehen sich nur auf kleine Passagen oder einige Verse. Sie enthält außerdem einen Vers des Tages und einen Gedanken des Tages."
-      },
-      {
-        "title": "Welche Bibelübersetzung wird bei BieJ verwendet?",
-        "category": "Content",
-        "shortAnswer": "Bibel in einem Jahr verwendet vor allem die \"Hoffnung für Alle\".",
-        "detailedAnswer": "Bibel in einem Jahr verwendet vor allem die \"Hoffnung für Alle\"."
-      },
-      {
-        "title": "Wie kann ich meine Version ändern?",
-        "category": "Content",
-        "shortAnswer": "Wenn du zu einer anderen Version von \"Bibel in einem Jahr\" wechseln möchtest, kannst du dies im Menü \"Einstellungen\" tun.",
-        "detailedAnswer": "Wenn du zu einer anderen Version von \"Bibel in einem Jahr\" wechseln möchtest, kannst du dies im Menü \"Einstellungen\" tun.\n\nHinweis: Die Version \"Youth\" ist nur in englischer Sprache verfügbar. Daher musst du die Sprache des Inhalts auf Englisch einstellen, bevor du deine Version ändern kannst. Tippe auf \"Edition\" und wähle entweder \"Classic\", \"Express\" oder \"Youth\". Alle Inhalte, die du bereits abgeschlossen hast, werden in diesem neuen Editionsformat erneut heruntergeladen und dein Fortschritt im Laufe des Jahres wird gespeichert."
-      },
-      {
-        "title": "Der Audioinhalt kann nicht abgespielt werden, was soll ich tun?",
-        "category": "Audio",
-        "shortAnswer": "Überprüfe, ob du eine Verbindung hast, oder ob der Tag heruntergeladen wurde.\nStreiche auf der Listenansicht nach unten, um die App zu aktualisieren.\nVersuch erneut, die Audiodatei abzuspielen.\n\nBitte lies die FAQ zur Verwaltung von Audiodownloads, um sicherzustellen, dass die App genügend Platz zum Herunterladen von Audiodaten hat.",
-        "detailedAnswer": "Überprüfe, ob du eine Verbindung hast, oder ob der Tag heruntergeladen wurde.\nStreiche auf der Listenansicht nach unten, um die App zu aktualisieren.\nVersuch erneut, die Audiodatei abzuspielen.\n\nBitte lies die FAQ zur Verwaltung von Audiodownloads, um sicherzustellen, dass die App genügend Platz zum Herunterladen von Audiodaten hat."
-      },
-      {
-        "title": "Wie kann ich verhindern, dass mein Gerät automatisch Audiodateien herunterlädt?",
-        "category": "Audio",
-        "shortAnswer": "Automatische Downloads können in den Einstellungen unter dem Abschnitt \"Audio-Downloads\" verwaltet werden.",
-        "detailedAnswer": "Automatische Downloads können in den Einstellungen unter dem Abschnitt \"Audio-Downloads\" verwaltet werden.\n\nBitte beachte, dass das Deaktivieren der automatischen Downloads nicht automatisch alle bereits heruntergeladenen Audiodateien löscht. Auf deinem Gerät gespeicherte Audiodateien können unter \"Einstellungen\" in \"Audio verwalten\" gelöscht werden."
-      },
-      {
-        "title": "Kann ich die Audiodateien offline anhören?",
-        "category": "Audio",
-        "detailedAnswer": "Wenn du die neueste Version der App hast, kannst du dies auf zwei Arten tun.\n\n1. Du kannst automatische Downloads einrichten, dadurch werden die Audioinhalte des nächsten Tages automatisch heruntergeladen und aufbewahrt, bis du sie dir angehört hast. Dazu gehst du zu Einstellungen, Audiodownloads und wählst aus, wie viele Tage die App die Audiodaten für dich herunterladen soll.\n2. Alternativ kannst du Audiodateien auch manuell herunterladen, indem du in der Listenansicht nach rechts auf den Tag streichst. Daraufhin wird links eine Schaltfläche zum Herunterladen angezeigt, auf die du einfach tippen kannst, um die Datei herunterzuladen.\n\nWenn du Bedenken wegen des Downloads über deine mobilen Daten hast, stelle bitte sicher, dass \"Mobile Daten verwenden\" auf deinem Gerät auf \"Aus\" gestellt ist.",
-        "shortAnswer": "Es gibt zwei Möglichkeiten, Audiodateien offline anzuhören."
-      },
-      {
-        "title": "Wie viele Tage Audio sind auf meinem Gerät gespeichert?",
-        "category": "Audio",
-        "shortAnswer": "Tippe auf Menü > Einstellungen > Audio verwalten, um herauszufinden, wie viele Tage derzeit auf deinem Gerät gespeichert sind.",
-        "detailedAnswer": "Tippe auf Menü > Einstellungen > Audio verwalten, um herauszufinden, wie viele Tage derzeit auf deinem Gerät gespeichert sind."
-      },
-      {
-        "title": "Was passiert mit meinen Audiodateien, wenn ich die Version wechsle?",
-        "category": "Audio",
-        "shortAnswer": "Audiodateien werden gelöscht, wenn du die Version änderst, auf die dein Gerät zugreift. Du kannst die Audiodateien immer noch manuell herunterladen, indem du in der Listenansicht nach rechts über den Tag streichst und auf das Download-Symbol tippst.",
-        "detailedAnswer": "Audiodateien werden gelöscht, wenn du die Version änderst, auf die dein Gerät zugreift. Du kannst die Audiodateien immer noch manuell herunterladen, indem du in der Listenansicht nach rechts über den Tag streichst und auf das Download-Symbol tippst."
-      },
-      {
-        "title": "Wenn ich eine Audiodatei lösche, kann ich sie wiederherstellen?",
-        "category": "Audio",
-        "shortAnswer": "Du kannst Audiodateien jederzeit manuell herunterladen, indem du in der Listenansicht nach rechts über den Tag streichst und auf das erscheinende Download-Symbol klickst.",
-        "detailedAnswer": "Du kannst Audiodateien jederzeit manuell herunterladen, indem du in der Listenansicht nach rechts über den Tag streichst und auf das erscheinende Download-Symbol klickst."
-      },
-      {
-        "title": "Muss ich eine Audiodatei herunterladen, um sie anhören zu können?",
-        "category": "Audio",
-        "shortAnswer": "Nein, du kannst die Audiodatei über WLAN oder mobile Daten streamen, wenn du das möchtest.",
-        "detailedAnswer": "Nein, du kannst die Audiodatei über WLAN oder mobile Daten streamen, wenn du das möchtest."
-      },
-      {
-        "title": "Wie kann ich durch die verschiedenen Abschnitte des Audios springen?",
-        "category": "Audio",
-        "shortAnswer": "Bei den Classic- und Express-Versionen von BieJ lässt sich mit der Skip-Funktion des Audioplayers durch jeden Abschnitt des Audios navigieren.",
-        "detailedAnswer": "Bei den Classic- und Express-Versionen von BieJ kannst du mit der Skip-Funktion auf dem Audioplayer jeden Abschnitt in dieser Reihenfolge durchlaufen: \n\nIntro, Sprüche/Psalmen-Bibel, Sprüche/Psalmen-Kommentar, Neues Testament-Bibel, Neues Testament-Kommentar, Altes Testament-Bibel, Altes Testament-Kommentar, Pippa Adds. \n\nZusätzlich gibt es eine Option, um 15 Sekunden vorwärts oder rückwärts zu springen. Wenn du keine Option zum Überspringen von 15 Sekunden hast, lade bitte die neueste Version deiner App herunter."
-      },
-      {
-        "title": "Kann ich BieJ per E-Mail erhalten?",
-        "category": "Content",
-        "shortAnswer": "Ja, du kannst dich auf der BieJ-Homepage für die Classic-Version per E-Mail anmelden.",
-        "detailedAnswer": "Ja. Wenn du die Classic-Version per E-Mail erhalten möchtest, oder wenn du die täglichen BieJ-E-Mails nicht mehr erhalten hast und dich neu anmelden möchtest, kannst du dich [\\[hier]]((https://landing.mailerlite.com/webforms/landing/p5d3p8)) anmelden oder neu anmelden."
-      },
-      {
-        "title": "Wie kann ich auf das neue App-Menü zugreifen?",
-        "category": "App",
-        "shortAnswer": "Wenn du die App öffnest, siehst du die Listenansicht mit den aktuellen und letzten Tagen. Das Menü-Symbol (drei übereinander liegende Linien) befindet sich am unteren Rand der roten Leiste an der Seite des Bildschirms. Durch Tippen auf das Menü-Symbol kannst du auf die Einstellungen zugreifen oder mehr über BiOY herausfinden.",
-        "detailedAnswer": "Wenn du die App öffnest, siehst du die Listenansicht mit den aktuellen und letzten Tagen. Das Menü-Symbol (drei übereinander liegende Linien) befindet sich am unteren Rand der roten Leiste an der Seite des Bildschirms. Durch Tippen auf das Menü-Symbol kannst du auf die Einstellungen zugreifen oder mehr über BiOY herausfinden."
-      },
-      {
-        "title": "Kann ich das Startdatum ändern?",
-        "category": "App",
-        "shortAnswer": "Wenn du das Datum, das du für den Start ausgewählt hast, ändern möchtest, musst du entweder deine App-Daten zurücksetzen oder die App neu installieren.",
-        "detailedAnswer": "Wenn du das Datum, das du für den Start ausgewählt hast, ändern möchtest, musst du entweder deine App-Daten zurücksetzen oder die App neu installieren. Wenn du die App zum ersten Mal startest, wähle die gewünschte Ausgabe (Classic, Express oder Youth (englisch) ). Tippe auf \"Weitermachen\" und wähle den Tag, an dem du beginnen möchtest."
-      },
-      {
-        "title": "Warum gibt es eine neues Update der App?",
-        "category": "App",
-        "shortAnswer": "Wir mussten die App auf eine neue Plattform umziehen, damit wir mehr Funktionen und Verbesserungen einbauen konnten. Einfach ausgedrückt: Um die App zu verbessern, mussten wir sie von Grund auf neu aufbauen.",
-        "detailedAnswer": "Wir mussten die App auf eine neue Plattform umziehen, damit wir mehr Funktionen und Verbesserungen einbauen konnten. Einfach ausgedrückt: Um die App zu verbessern, mussten wir sie von Grund auf neu aufbauen."
-      },
-      {
-        "title": "Wie kann ich über die App spenden?",
-        "category": "App",
-        "shortAnswer": "Vielen Dank, dass du in Erwägung ziehst, für BieJ zu spenden. Du kannst über das App-Menü oder hier auf der BieJ-Website spenden - klicke auf 'spenden'.",
-        "detailedAnswer": "Vielen Dank, dass du in Erwägung ziehst, für BieJ zu spenden. Du kannst über das App-Menü oder hier auf der BieJ-Website spenden - klicke auf 'spenden'. [](/en/donate)"
-      },
-      {
-        "title": "Ist wirklich die ganze Bibel enthalten?",
-        "category": "Content",
-        "shortAnswer": "Die gesamte Bibel ist in der Classic-Ausgabe von BieJ enthalten. Jeden Tag liest oder hört man einen Psalm oder aus den Sprüchen, einen Teil des Neuen und des Alten Testaments.",
-        "detailedAnswer": "Die gesamte Bibel ist in der Classic-Ausgabe von BieJ enthalten. Jeden Tag liest oder hört man einen Psalm oder aus den Sprüchen, einen Teil des Neuen und des Alten Testaments.\n\nDie Express-Ausgabe (und die englische Youth-Ausgabe) bietet eine gekürzte Version der klassischen BieJ mit ausgewählten Bibelstellen aus dem Buch der Psalmen oder den Sprüchen, dem Neuen Testament und dem Alten Testament. In diesen Ausgaben werden nicht alle Verse der Bibel behandelt, aber sie vermitteln ein umfassendes Verständnis der Bibel."
-      },
-      {
-        "title": "Ich habe einen Tag verpasst, kann ich den Tag, den ich gerade lese, ändern?",
-        "category": "Content",
-        "shortAnswer": "Wenn du Tag ändern möchtest, z. B. wenn du einen Tag verpasst hast und ihn nachholen möchtest, kannst du auf der linken Seite des Bildschirms deines Geräts nach rechts wischen und einen anderen Tag in der Liste auswählen.",
-        "detailedAnswer": "Wenn du Tag ändern möchtest, z. B. wenn du einen Tag verpasst hast und ihn nachholen möchtest, kannst du auf der linken Seite des Bildschirms deines Geräts nach rechts wischen und einen anderen Tag in der Liste auswählen."
-      },
-      {
-        "title": "Warum kann ich nicht vorauslesen?",
-        "category": "Content",
-        "shortAnswer": "BieJ wird täglich aktualisiert, um das Material aktuell und relevant zu halten. Du kannst nicht vorauslesen, weil der Inhalt noch nicht hochgeladen wurde.",
-        "detailedAnswer": "BieJ wird täglich aktualisiert, um das Material aktuell und relevant zu halten. Du kannst nicht vorauslesen, weil der Inhalt noch nicht hochgeladen wurde."
-      },
-      {
-        "title": "Welche Versionen gibt es?",
-        "category": "Content",
-        "shortAnswer": "Neben der BieJ Classic-Ausgabe (die etwa 25 Minuten dauert) gibt es auch die Möglichkeit, die Express-Version (die 11 bis 13 Minuten dauert) oder die Youth-Version (englisch, 12 bis 14 Minuten) zu wählen.",
-        "detailedAnswer": "Neben der BieJ Classic-Ausgabe (die etwa 25 Minuten dauert) gibt es auch die Möglichkeit, die Express-Version (die 11 bis 13 Minuten dauert) oder die Youth-Version (englisch, 12 bis 14 Minuten) zu wählen."
-      },
-      {
-        "title": "Wessen Stimmen höre ich in den Audios?",
-        "category": "Audio",
-        "shortAnswer": "",
-        "detailedAnswer": ""
-      },
-      {
-        "title": "Kann ich die BieJ-App zwischen meinem Telefon und meinem Tablet synchronisieren?",
-        "category": "Audio",
-        "shortAnswer": "Noch nicht. Derzeit gibt es keine Möglichkeit, den Fortschritt zu synchronisieren. In Zukunft wird das voraussichtlich möglich sein.",
-        "detailedAnswer": "Noch nicht. Derzeit gibt es keine Möglichkeit, den Fortschritt zu synchronisieren. In Zukunft wird das voraussichtlich möglich sein."
-      },
-      {
-        "title": "Wird BieJ automatisch am Ende des Jahres auf Tag 1 zurückgesetzt?",
-        "category": "Content",
-        "shortAnswer": "Bevor die App automatisch auf Tag 1 zurückspringt, müssen alle anderen Tage gelesen werden.",
-        "detailedAnswer": "Bevor die App automatisch auf Tag 1 zurückspringt, müssen alle anderen Tage gelesen werden."
-      },
-      {
-        "title": "Ist der Kommentar jedes Jahr derselbe?",
-        "category": "Content",
-        "shortAnswer": "Der größte Teil des Inhalts wird gleich bleiben, mit kleinen Aktualisierungen jedes Jahr.",
-        "detailedAnswer": "Der größte Teil des Inhalts wird gleich bleiben, mit kleinen Aktualisierungen jedes Jahr."
-      },
-      {
-        "title": "Wie kann ich einen Tag als ungelesen/gelesen markieren?",
-        "category": "App",
-        "shortAnswer": "Um einen Tag als ungelesen zu markieren, wische in der Listenansicht nach rechts und tippen auf das Symbol \"Zurück\", das neben dem Symbol für den Download bzw. die Ablage erscheint. Um den Tag als gelesen zu markieren, wische in der Listenansicht nach rechts und tippe auf das \"Häkchen\"-Symbol, das neben dem Download-/Speichersymbol erscheint.",
-        "detailedAnswer": "Um einen Tag als ungelesen zu markieren, wische in der Listenansicht nach rechts und tippen auf das Symbol \"Zurück\", das neben dem Symbol für den Download bzw. die Ablage erscheint. Um den Tag als gelesen zu markieren, wische in der Listenansicht nach rechts und tippe auf das \"Häkchen\"-Symbol, das neben dem Download-/Speichersymbol erscheint."
-      },
-      {
-        "title": "Kann ich meinen Lesefortschritt pro Abschnitt jeden Tag verfolgen?",
-        "category": "App",
-        "shortAnswer": "Dein Lesefortschritt wird automatisch angezeigt. Unter dem Titel der Andacht in der Listenansicht erscheint ein roter Balken für jeden Abschnitt, den du lies. Wenn du dem Leseplan folgst, aber in diesem Jahr nur einen Abschnitt liest (z. B. ein ganzes Jahr lang nur das Alte Testament), kannst du einen Tag in der Listenansicht als \"Erledigt\" markieren, indem du in der Listenansicht nach rechts über den Tag streichst und auf das \"Häkchen\"-Symbol tippst, das neben dem Download/Papierkorb-Symbol erscheint.",
-        "detailedAnswer": "Dein Lesefortschritt wird automatisch angezeigt. Unter dem Titel der Andacht in der Listenansicht erscheint ein roter Balken für jeden Abschnitt, den du lies. Wenn du dem Leseplan folgst, aber in diesem Jahr nur einen Abschnitt liest (z. B. ein ganzes Jahr lang nur das Alte Testament), kannst du einen Tag in der Listenansicht als \"Erledigt\" markieren, indem du in der Listenansicht nach rechts über den Tag streichst und auf das \"Häkchen\"-Symbol tippst, das neben dem Download/Papierkorb-Symbol erscheint."
-      },
-      {
-        "title": "Kann ich zwischen den Abschnitten des Textes springen, ohne zu scrollen?",
-        "category": "App",
-        "shortAnswer": "Ja. Durch Antippen der Abschnitte, die am Anfang des Textes vorgestellt werden, kannst du schnell zu diesem Abschnitt springen. Wir haben außerdem ein Navigationsmenü eingerichtet. Durch Tippen auf das Buchsymbol öffnet sich ein Popup-Menü mit der Möglichkeit, zu einem beliebigen Abschnitt der Andacht zu navigieren.",
-        "detailedAnswer": "Ja. Durch Antippen der Abschnitte, die am Anfang des Textes vorgestellt werden, kannst du schnell zu diesem Abschnitt springen. Wir haben außerdem ein Navigationsmenü eingerichtet. Durch Tippen auf das Buchsymbol öffnet sich ein Popup-Menü mit der Möglichkeit, zu einem beliebigen Abschnitt der Andacht zu navigieren."
-      },
-      {
-        "title": "Hilfe, meine App \"blockiert\" und \"springt\" an manchen Stellen im Text.",
-        "category": "App",
-        "shortAnswer": "Die neueste Version der App enthält Verbesserungen, die die Abschnitte deutlicher voneinander  unterscheiden. Das können z.B. bildschirmfüllende Versangaben sein. Um weiterzulesen, wischst du einfach nach oben, um zum nächsten Abschnitt zu gelangen.",
-        "detailedAnswer": "Die neueste Version der App enthält Verbesserungen, die die Abschnitte deutlicher voneinander  unterscheiden. Das können z.B. bildschirmfüllende Versangaben sein. Um weiterzulesen, wischst du einfach nach oben, um zum nächsten Abschnitt zu gelangen."
-      },
-      {
-        "title": "Wie kann ich den Ton steuern?",
-        "category": "Audio",
-        "shortAnswer": "Die App ermöglicht es, Audio auf zwei verschiedene Arten herunterzuladen: manuell und automatisch.\n\nManuell - Audio kann heruntergeladen werden, indem man an einem Tag nach links wischt und auf das Download-Symbol tippt. Dies bietet ein hohes Maß an Kontrolle darüber, was auf deinem Gerät gespeichert ist. Es wird empfohlen, die Audiodateien manuell zu löschen, sobald du sie nicht mehr benötigst.\n\nAutomatisch - einstellbar im Bereich Einstellungen, kann die App automatisch eine bestimmte Anzahl von Tagen herunterladen, bis zu einem festgelegten Limit. Die App löscht die Audiodatei von deinem Gerät, wenn du sie bis zum Ende anhörst. Die App hört auf, automatisch neue Audiodateien herunterzuladen, wenn das Limit erreicht ist. Das passiert, wenn du viele automatisch heruntergeladene Audiodateien hast, die du dir nur teilweise angehört hast. Um dies zu beheben, leere deine Audio-Downloads: Navigiere zu Menü > Einstellungen > Audio verwalten und wähle das Audio, das du löschen möchtest.",
-        "detailedAnswer": "Die App ermöglicht es, Audio auf zwei verschiedene Arten herunterzuladen: manuell und automatisch.\n\nManuell - Audio kann heruntergeladen werden, indem man an einem Tag nach links wischt und auf das Download-Symbol tippt. Dies bietet ein hohes Maß an Kontrolle darüber, was auf deinem Gerät gespeichert ist. Es wird empfohlen, die Audiodateien manuell zu löschen, sobald du sie nicht mehr benötigst.\n\nAutomatisch - einstellbar im Bereich Einstellungen, kann die App automatisch eine bestimmte Anzahl von Tagen herunterladen, bis zu einem festgelegten Limit. Die App löscht die Audiodatei von deinem Gerät, wenn du sie bis zum Ende anhörst. Die App hört auf, automatisch neue Audiodateien herunterzuladen, wenn das Limit erreicht ist. Das passiert, wenn du viele automatisch heruntergeladene Audiodateien hast, die du dir nur teilweise angehört hast. Um dies zu beheben, leere deine Audio-Downloads: Navigiere zu Menü > Einstellungen > Audio verwalten und wähle das Audio, das du löschen möchtest."
-      }
-    ],
-    "seeMore": "Mehr anzeigen",
-    "submitButton": "Eine Supportanfrage stellen",
-    "intro": "**Hast du eine Frage zu Bibel in einem Jahr?**\n\nEin Problem mit der App? Gib deine Frage hier ein...",
-    "notFoundMessage": "Leider haben wir kein Ergebnis gefunden für ",
-    "title": "FAQs",
-    "filter": "Filter",
-    "backButton": "Zurück zu allen häufig gestellten Fragen (FAQs)",
-    "categories": {
-      "Audio": "Audio",
-      "Content": "Inhalt",
-      "App": "App"
-    },
-    "filterHint": "Wonach suchst du?"
-  },
-  "es": {
-    "faqsItems": [
-      {
-        "title": "Test",
-        "category": "App",
-        "shortAnswer": "short",
-        "detailedAnswer": "long"
-      }
-    ],
-    "seeMore": "See More",
-    "submitButton": "Submit a support request",
-    "intro": "**Got a question about Bible in One Year?** A problem with app? Start here…",
-    "notFoundMessage": "Sorry, we don’t have any results for",
-    "title": "Help",
-    "filter": "Filter",
-    "backButton": "Back to all Frequently Asked Questions (FAQs)",
-    "filterHint": "What are you looking for?"
-  },
   "fr": {
     "faqsItems": [
       {
@@ -621,7 +584,7 @@
         "title": "Puis-je recevoir la Bible en 1 an par e-mail ?",
         "category": "Content",
         "shortAnswer": "Oui. Vous pouvez vous inscrire pour recevoir les commentaires de l'édition Classique, depuis la page d'accueil du site Web de la Bible en 1 an.",
-        "detailedAnswer": "Oui. Si vous souhaitez recevoir les commentaires de l'édition Classique de la Bible en 1 an par e-mail, ou si vous ne recevez plus les e-mails quotidiens et souhaitez vous réabonner, vous pouvez vous [inscrire ou vous réabonner ici](https://landing.mailerlite.com/webforms/landing/p5d3p8)."
+        "detailedAnswer": "Oui. Si vous souhaitez recevoir les commentaires de l'édition Classique de la Bible en 1 an par e-mail, ou si vous ne recevez plus les e-mails quotidiens et souhaitez vous réabonner, vous pouvez vous [inscrire ou vous réabonner ici](https://landing.mailerlite.com/webforms/landing/d4q3b1)."
       },
       {
         "title": "Dans quelles langues la Bible en 1 an est-elle disponible ?",
@@ -746,16 +709,75 @@
     },
     "filterHint": "Que recherchez-vous?"
   },
-  "hi": {
+  "es": {
     "faqsItems": [
       {
-        "title": "Title",
-        "category": "Audio",
-        "shortAnswer": "Answer",
-        "detailedAnswer": "Answer"
+        "title": "Test",
+        "category": "App",
+        "shortAnswer": "short",
+        "detailedAnswer": "long"
       }
     ],
-    "title": "FAQs"
+    "seeMore": "See More",
+    "submitButton": "Submit a support request",
+    "intro": "**Got a question about Bible in One Year?** A problem with app? Start here…",
+    "notFoundMessage": "Sorry, we don’t have any results for",
+    "title": "Help",
+    "filter": "Filter",
+    "backButton": "Back to all Frequently Asked Questions (FAQs)",
+    "filterHint": "What are you looking for?"
+  },
+  "zh": {
+    "faqsItems": [
+      {
+        "title": "Here is a title",
+        "category": "Audio",
+        "shortAnswer": "Short answer",
+        "detailedAnswer": "Long answer"
+      }
+    ],
+    "seeMore": "查看更多",
+    "submitButton": "提交附加证据",
+    "intro": "**对《圣经日日行》有疑问吗？**\n\n不知道该如何使用本软件？请点击这里……",
+    "notFoundMessage": "对不起，暂时无法提供答案",
+    "title": "帮助",
+    "filter": "过滤器",
+    "backButton": "Back to all Frequently Asked Questions (FAQs) - ZH",
+    "categories": {
+      "Audio": "声音",
+      "Content": "内容",
+      "App": "APP"
+    },
+    "filterHint": "你在寻找什么？"
+  },
+  "ar": {
+    "faqsItems": [
+      {
+        "title": "هل يمكنني تسريع / إبطاء سرعة التفاني الصوتي؟",
+        "category": "Audio",
+        "shortAnswer": "نعم! بعد النقر على زر 'تشغيل' التعليقات، ستلاحظ 1x في الزاوية اليسرى العلوية لمشغل الصوت الموسع. انقر فوق هذا للتنقل بين سرعات التشغيل: 1x ، 1.2x ، 1.5x ، 1.8x ، 2x ، 0.8x ثم التقريب مرة أخرى إلى 1x إلخ.",
+        "detailedAnswer": "نعم! يرجى التأكد من أنك قمت بالتحديث إلى أحدث إصدار من التطبيق من iOS App Store أو Google Play على Android. بعد النقر على زر 'تشغيل' التعليقات، ستلاحظ 1x في الزاوية اليسرى العلوية لمشغل الصوت الموسع. انقر فوق هذا للتنقل بين سرعات التشغيل:\\\n\\\n1x ، 1.2x ، 1.5x ، 1.8x ، 2x ، 0.8x ثم التقريب مرة أخرى إلى 1x وما إلى ذلك"
+      },
+      {
+        "title": "لا أستطيع تشغيل الصوت، فماذا أفعل؟",
+        "category": "Audio",
+        "shortAnswer": "تحقق مما إذا كان لديك اتصال بالانترنت، أو انك قد قمت بتنزيل التعليقات على هاتفك. اسحب لأسفل على ListView لتحديث التطبيق. حاول تشغيل الصوت مرة أخرى. يرجى الرجوع إلى الأسئلة الشائعة المتعلقة بإدارة تنزيلات الصوت للتأكد من أن التطبيق الخاص بك به مساحة كافية لتنزيل الصوت.",
+        "detailedAnswer": "تحقق مما إذا كان لديك اتصال بالانترنت، أو انك قد قمت بتنزيل التعليقات على هاتفك. اسحب لأسفل على ListView لتحديث التطبيق. حاول تشغيل الصوت مرة أخرى. \n\nيرجى الرجوع إلى الأسئلة الشائعة المتعلقة بإدارة تنزيلات الصوت للتأكد من أن التطبيق الخاص بك به مساحة كافية لتنزيل الصوت."
+      }
+    ],
+    "seeMore": "شاهد المزيد",
+    "submitButton": "أرسل طلب دعم",
+    "intro": "**هل لديك سؤال عن الكتاب المقدس في عام واحد؟**\n\nمشكلة في التطبيق؟ ابدأ بكتابة سؤالك هنا ...",
+    "notFoundMessage": "عذرا، ليس لدينا أي نتائج عن",
+    "title": "اسئلة متكررة",
+    "filter": "بحث",
+    "backButton": "Back to all Frequently Asked Questions (FAQs)",
+    "categories": {
+      "Audio": "الصوت ",
+      "Content": "المحتوى",
+      "App": "التطبيق"
+    },
+    "filterHint": "ما الذي تبحث عنه؟"
   },
   "th": {
     "faqsItems": [
@@ -880,27 +902,243 @@
     "backButton": "Back to all Frequently Asked Questions (FAQs)",
     "filterHint": "คุณกำลังมองหาอะไร?"
   },
-  "zh": {
+  "id": {
     "faqsItems": [
       {
-        "title": "Here is a title",
+        "title": "Can I speed up/slow down the speed of the audio devotion?",
         "category": "Audio",
-        "shortAnswer": "Short answer",
-        "detailedAnswer": "Long answer"
+        "shortAnswer": "Yes! After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds: 1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc\n",
+        "detailedAnswer": "Yes! Please ensure you have updated to the latest version of the app from the iOS App Store or Google Play on Android. After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds:\n\n1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc"
+      },
+      {
+        "title": "Can I share a devotion with a friend?",
+        "category": "Content",
+        "shortAnswer": "Yes! We would absolutely love you do this and encourage someone who might need to hear from God through the devotions and commentaries. To find the link, tap the ‘book’ icon on the day you wish to share and then the ‘share’ icon in the bottom left-hand corner of the popup that appears. You will then be able to select how you wish to share it, whether directly into a text message or email, or by copying the link and pasting it where you wish.",
+        "detailedAnswer": "Yes! We would absolutely love you do this and encourage someone who might need to hear from God through the devotions and commentaries. To find the link, tap the ‘book’ icon on the day you wish to share and then the ‘share’ icon in the bottom left-hand corner of the popup that appears. You will then be able to select how you wish to share it, whether directly into a text message or email, or by copying the link and pasting it where you wish."
+      },
+      {
+        "title": "Can I change the day I am on?",
+        "category": "Content",
+        "shortAnswer": "If you would like to change the date you selected to start the BiOY reading plan you can swipe right from the left hand side of the screen of your phone/tablet, and select a different date from the list.",
+        "detailedAnswer": "If you would like to change the date you selected to start the BiOY reading plan you can swipe right from the left hand side of the screen of your phone/tablet, and select a different date from the list."
+      },
+      {
+        "title": "What do the symbols mean in my list view?",
+        "category": "App",
+        "shortAnswer": "There are up to four symbols you might see on the list view.\n\nA red ‘tick’ within a circle: The devotion has been marked as completed.  \nBook icon: The grey bars next to it turn red to give you an indication of your reading progress through the devotion.  \nSpeaker icon: The day’s audio has been downloaded.  \nBroadcast icon: The day’s audio will be streamed live using your Wi-Fi or cellular data.",
+        "detailedAnswer": "There are up to four symbols you might see on the list view that help you understand your progress through the Bible in One Year plan and what your device is doing.\n\nA red ‘tick’ within a circle: The devotion has been marked as completed. This tick appears when you have scrolled through all the text or listened to the entire audio recording.\n\nBook icon: This is accompanied by grey bars that will turn red as you read the text which will give you an indication of your reading progress through the devotion.\n\nSpeaker icon: The day’s audio has been downloaded. This is often accompanied by how many minutes of audio you have remaining to listen to on that day, or the red completion ‘tick’.\n\nBroadcast icon: The day’s audio will be streamed live using your Wi-Fi or cellular data. If you are likely to want to continue listening in areas of low signal or no internet, please consider using the automatic download settings in the Settings menu, or download the single day’s audio by swiping right on the list view. \n\nIf you have swiped right you will also be able to use the download/bin icons and the rewind/tick icons."
+      },
+      {
+        "title": "Can I adjust the number of days of audio stored on my device?",
+        "category": "App",
+        "shortAnswer": "You can adjust how many days of audio are stored on your device. Tap on Menu > Settings > Audio Downloads. Move the red circle along the line to adjust the number of days of audio that remain saved on your device. ",
+        "detailedAnswer": "You can adjust how many days of audio are stored on your device. Tap on Menu > Settings > Audio Downloads. Move the red circle along the line to adjust the number of days of audio that remain saved on your device. You can also select what options best suit you regarding mobile data and auto download."
+      },
+      {
+        "title": "How do I manually delete audio files that are saved to my device?",
+        "category": "App",
+        "shortAnswer": "Swipe right on the relevant day from the list view and tap the bin icon.\n\nTo delete more than one day of audio at once and view a list of all your downloaded audio, tap on Menu > Settings > Manage Audio. Tick the box to select which days you would like to delete or select all. Then tap on Delete Selected Audio.",
+        "detailedAnswer": "Swipe right on the relevant day from the list view and tap the bin icon. \n\nTo delete more than one day of audio at once and view a list of all your downloaded audio, tap on Menu > Settings > Manage Audio. Tick the box to select which days you would like to delete or select all. Then tap on Delete Selected Audio."
+      },
+      {
+        "title": "What is the structure of a day’s content?",
+        "category": "Content",
+        "shortAnswer": "Each day consists of three scriptures from different parts of the Bible and commentary and prayer reflections by Nicky Gumbel. The day starts with an Introduction, presenting the theme of the day. This is followed by a wisdom passage (Psalm or Proverb) and a commentary on that passage, a portion of the New Testament and then commentary on that, and a portion of the Old Testament and commentary on that. The devotion ends with a thought from Pippa Gumbel.",
+        "detailedAnswer": "Each day consists of three scriptures from different parts of the Bible and commentary and prayer reflections by Nicky Gumbel. The day starts with an Introduction, presenting the theme of the day. This is followed by a wisdom passage (Psalm or Proverb) and a commentary on that passage, a portion of the New Testament and then commentary on that, and a portion of the Old Testament and commentary on that. The devotion ends with a thought from Pippa Gumbel.\n\nIn the Express the scriptures are shorter and only reference small passages or a few verses. The Express and Youth edition both contain a verse of the day and thought of the day. The Youth edition also features an Action of the day."
+      },
+      {
+        "title": "What Bible translations are used across BiOY?",
+        "category": "Content",
+        "shortAnswer": "BiOY uses the New International Version (NIVUK), with some references to particular passages of Eugene Peterson’s The Message.",
+        "detailedAnswer": "BiOY uses New International Version (NIVUK), with some references to particular passages of Eugene Peterson’s The Message."
+      },
+      {
+        "title": "How can I change my Edition?",
+        "category": "Content",
+        "shortAnswer": "If you would like to switch to a different Edition of the Bible In One Year plan you can find this in the Settings menu.",
+        "detailedAnswer": "If you would like to switch to a different Edition of the Bible In One Year plan you can find this in settings.\n\nNote: Express editions are available in German, English and Arabic. Youth Editions are available in Arabic and English. If your app is set to a language where an edition is not available, you will not be able to select it. To change edition, tap Edition and select either Classic, Express or Youth. Any content you have already completed will be downloaded again in this new edition format and your progress through the year will be saved."
+      },
+      {
+        "title": "I’m not able to play the audio, what should I do?",
+        "category": "Audio",
+        "shortAnswer": "Check if you have connectivity, or if the devotion is downloaded.\nPull down on the ListView to refresh the app.\nTry to play the audio again.\n\nPlease refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to download audio.",
+        "detailedAnswer": "Check if you have connectivity, or if the devotion is downloaded.\nPull down on the ListView to refresh the app.\nTry to play the audio again.\n\nPlease refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to download audio."
+      },
+      {
+        "title": "How do I stop my device auto-downloading audio files?",
+        "category": "Audio",
+        "shortAnswer": "Auto downloads can be managed in Settings, under the the ‘Audio Downloads’ section.",
+        "detailedAnswer": "Auto downloads can be managed in Settings, in the ‘Audio Downloads’ section.\n\nPlease note that turning Auto Downloads off won’t automatically delete any audio that has been downloaded already. Audio files stored on your phone can be deleted under ‘Settings’, in ‘Manage Audio’."
+      },
+      {
+        "title": "Can I listen to audio offline?",
+        "category": "Audio",
+        "detailedAnswer": "As long as you have the latest version of the app, you can do this in one of two ways.\n\n1. You can set up auto downloads, which will allow your phone to download the next day’s audio content automatically and keep it until you have listened to it. Go to Settings, Audio Downloads, and choose how many days audio you would like your app to download for you.\n\n2. Alternatively you can also manually download audio files, by swiping right on the day from the list view. This brings up a download button on the left, simply tap it to download the file.\n\nIf you are concerned about downloading over your mobile data, please ensure ‘Use mobile data’ is set to ‘Off’ on your device.",
+        "shortAnswer": "There are two ways of listening to audio offline."
+      },
+      {
+        "title": "How many days of audio are stored on my device?",
+        "category": "Audio",
+        "shortAnswer": "Tap on Menu > Settings > Manage Audio to find out how many days are currently stored on your device.",
+        "detailedAnswer": "Tap on Menu > Settings > Manage Audio to find out how many days are currently stored on your device."
+      },
+      {
+        "title": "What happens to my audio files if I change edition?",
+        "category": "Audio",
+        "shortAnswer": "Audio files are deleted if you change which edition your device is accessing. You can still download the audio files manually by swiping right on the day from the list view and tapping the download icon.",
+        "detailedAnswer": "Audio files are deleted if you change which edition your device is accessing. You can still download the audio files manually by swiping right on the day from the list view and tapping the download icon."
+      },
+      {
+        "title": "If I delete an audio file, can I ever get it back?",
+        "category": "Audio",
+        "shortAnswer": "You can download audio files at any time manually by swiping right on the day from the list view and clicking the download icon that appears.",
+        "detailedAnswer": "You can download audio files at any time manually by swiping right on the day from the list view and clicking the download icon that appears."
+      },
+      {
+        "title": "Do I have to download an audio file to listen to it?",
+        "category": "Audio",
+        "shortAnswer": "No, you can stream the audio over Wi-Fi or using mobile data if you prefer.",
+        "detailedAnswer": "No, you can stream the audio over wifi or using mobile data if you prefer."
+      },
+      {
+        "title": "How can I skip through different sections of the audio?",
+        "category": "Audio",
+        "shortAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio.",
+        "detailedAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio in this order: \n\nIntro, Proverbs/Psalm bible, Proverbs/Psalm Commentary, New Testament Bible, New Testament Commentary, Old Testament Bible, Old Testament Commentary, Pippa Adds. Additionally there is an option to skip 15 seconds forward or backwards through the audio. If you have no option to skip 15 seconds, please download the latest version of your app for this feature.\n\nThere is currently no option to skip through sections on the Youth edition."
+      },
+      {
+        "title": "Can I receive BiOY via email?",
+        "category": "Content",
+        "shortAnswer": "Yes. You can sign up to receive the BiOY Classic commentary from the BiOY homepage",
+        "detailedAnswer": "Yes. If you would like to receive the BiOY Classic commentary by email, or if you have stopped receiving the daily BiOY emails and would like to re-subscribe, you can [sign up or re-subscribe here](https://landing.mailerlite.com/webforms/landing/p5d3p8)."
+      },
+      {
+        "title": "What languages is BiOY available in?",
+        "category": "Content",
+        "shortAnswer": "From January 1st 2022, the Classic edition of BiOY will be available in Arabic, Bahasa Indonesia, English, Simplified Chinese, French, German, Hindi, Spanish, and Thai. ",
+        "detailedAnswer": "The Classic edition of BiOY is now available in Arabic, Bahasa Indonesia, English, Simplified Chinese, French, German, Hindi, Spanish, and Thai. The Express edition of BiOY is available in Arabic, English and German. The Youth edition is available in Arabic and English. Audio is available in English, Hindi, Chinese and German."
+      },
+      {
+        "title": "How do I access the new app Menu?",
+        "category": "App",
+        "shortAnswer": "When opening the app you will see the listview with the dates and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY.",
+        "detailedAnswer": "When opening the app you will see the listview with the dates and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY."
+      },
+      {
+        "title": "Can I change the start date?",
+        "category": "App",
+        "shortAnswer": "If you would like to change the date you selected to start the BiOY reading plan you will need to either reset your app data or re-install the app.",
+        "detailedAnswer": "If you would like to change the date you selected to start the BiOY reading plan you will need to uninstall the app and install it again from the App Store or Google Play. When you launch the app again for the first time, proceed through the onboarding, indicating that you are familiar with the Bible, before selecting your Edition and select the last devotion that you completed."
+      },
+      {
+        "title": "Why have you updated the app?",
+        "category": "App",
+        "shortAnswer": "We needed to move the app to a new platform to enable us to add more functionality and quality-of-life improvements that were not possible in the legacy BiOY app. Simply put, in order to improve the app, we had to rebuild it from the bottom up.",
+        "detailedAnswer": "We needed to move the app to a new platform to enable us to add more functionality and quality-of-life improvements that were not possible in the legacy BiOY app. Simply put, in order to improve the app, we had to rebuild it from the bottom up."
+      },
+      {
+        "title": "How can I donate via the app?",
+        "category": "App",
+        "shortAnswer": "Thank you for considering giving toward BiOY, you can donate through the app menu or here on the BiOY site - Click 'donate'.",
+        "detailedAnswer": "Thank you for considering giving toward BiOY, you can donate through the app menu or here on the [BiOY site](/en/donate)."
+      },
+      {
+        "title": "Does this really contain the whole bible?",
+        "category": "Content",
+        "shortAnswer": "The entire bible is covered in the Classic edition of BiOY. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.",
+        "detailedAnswer": "The entire bible is covered in the Classic edition of BiOY. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.\n\nThe Youth and Express editions provide an abridged version of the Classic BiOY with selected scriptures from the book of Psalms or Proverbs, the New Testament and Old Testament. Not every verse in the bible is covered in these editions, however they do give a full experience of the bible."
+      },
+      {
+        "title": "I missed a day, can I change the day I am on?",
+        "category": "Content",
+        "shortAnswer": "If you would like to change which day’s BiOY commentary you are reading, for example if you missed a day and want to catch up, you can swipe right from the left hand side of the screen of your phone/tablet, and select a different day from the list.",
+        "detailedAnswer": "If you would like to change which day’s BiOY commentary you are reading, for example if you missed a day and want to catch up, you can swipe right from the left hand side of the screen of your phone/tablet, and select a different day from the list."
+      },
+      {
+        "title": "What editions are available?",
+        "category": "Content",
+        "shortAnswer": "In addition to the BiOY Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 11 - 13 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team and takes 12 - 14 minutes).",
+        "detailedAnswer": "In addition to the BiOY Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 11 - 13 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team and takes 12 - 14 minutes)."
+      },
+      {
+        "title": "Whose voices am I hearing in the audio tracks?",
+        "category": "Audio",
+        "shortAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team.",
+        "detailedAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team."
+      },
+      {
+        "title": "Can I synchronise the BiOY app between my phone and tablet?",
+        "category": "Audio",
+        "shortAnswer": "Not yet. There is currently no way to sync your progress through BiOY, although this is a feature that is being considered for 2022.",
+        "detailedAnswer": "Not yet. There is currently no way to sync your progress through BiOY, although this is a feature that is being considered for 2022."
+      },
+      {
+        "title": "Will the BiOY automatically reset after I complete Day 365?",
+        "category": "Content",
+        "shortAnswer": "For those that are a few weeks behind and are worried they’ll lose access to the commentaries, those on the latest version of the app (v.8.4.0) will have an additional button to tap before their app loops back around to display Day 1 of Bible in One Year.",
+        "detailedAnswer": "For those that are a few weeks behind and are worried they’ll lose access to the commentaries, those on the latest version of the app (v.8.4.0) will have an additional button to tap before their app loops back around to display Day 1 of Bible in One Year."
+      },
+      {
+        "title": "Is it the commentary the same every year?",
+        "category": "Content",
+        "shortAnswer": "The majority of the content will be the same with small updates each year.",
+        "detailedAnswer": "The majority of the content will be the same with small updates each year."
+      },
+      {
+        "title": "How can I mark a devotion as unread/read?",
+        "category": "App",
+        "shortAnswer": "To mark as unread, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon. To mark as read, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon.",
+        "detailedAnswer": "To mark as unread, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon. To mark as read, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon."
+      },
+      {
+        "title": "Can I track my reading progress per section of the devotion?",
+        "category": "App",
+        "shortAnswer": "Your reading progress is automatically tracked as you read through each day’s devotion. You will see a red bar appear (under the devotion title in the list view) for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’tick’ icon that appears next to the download/bin icon.",
+        "detailedAnswer": "Your reading progress is automatically tracked as you read through each day’s devotion. You will see a red bar appear (under the devotion title in the list view) for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’tick’ icon that appears next to the download/bin icon."
+      },
+      {
+        "title": "Can I jump between sections of the devotion text without having to scroll?",
+        "category": "App",
+        "shortAnswer": "Yes. Tap any of the sections presented under ‘Today’s Reading’ at the start of the devotion to quickly jump to that section. We have also built a navigation menu that is located above the play button. Tap on the book icon above the play button to open a pop-up menu with the option to navigate to any section of the devotion.",
+        "detailedAnswer": "Yes. Tap any of the sections presented under ‘Today’s Reading’ at the start of the devotion to quickly jump to that section. We have also built a navigation menu that is located above the play button. Tap on the book icon above the play button to open a pop-up menu with the option to navigate to any section of the devotion."
+      },
+      {
+        "title": "Help, my app is ‘locking’ and ‘bouncing’ in certain screens and pieces of content.",
+        "category": "App",
+        "shortAnswer": "The latest version of the app has improvements to help users distinguish between sections and reflect on what they have been reading. To continue reading, swipe up to read the next section.",
+        "detailedAnswer": "The latest version of the app has improvements to help users distinguish between sections and reflect on what they have been reading. To continue reading, swipe up to read the next section."
+      },
+      {
+        "title": "How can I manage audio?",
+        "category": "Audio",
+        "shortAnswer": "The app allows users to download audio in two different ways, manual and automatic.\n\nManual - audio can be downloaded by swiping left on a day and tapping the download icon. This provides a high level of control as to what is on your device at any time and it is recommended that you manually delete the audio from your device once you have finished listening to it.\n\nAutomatic - controlled by a section within Settings, the app is able to automatically download a number of audio days for you, up to a limit that you set. It will delete the audio from your device if you listen to it all the way through. The app will stop automatically downloading new audio when it reaches the limit. This happens when you have lots of automatically downloaded audio that you have only partially listened to. To resolve this, clear out your audio downloads: navigate to Menu > Settings > Manage Audio and select the audio you wish to delete.\n\n\n\n",
+        "detailedAnswer": "The app allows users to download audio in two different ways, manual and automatic.\n\nManual - audio can be downloaded by swiping left on a day and tapping the download icon. This provides a high level of control as to what is on your device at any time and it is recommended that you manually delete the audio from your device once you have finished listening to it.\n\nAutomatic - controlled by a section within Settings, the app is able to automatically download a number of audio days for you, up to a limit that you set. It will delete the audio from your device if you listen to it all the way through. The app will stop automatically downloading new audio when it reaches the limit. This happens when you have lots of automatically downloaded audio that you have only partially listened to. To resolve this, clear out your audio downloads: navigate to Menu > Settings > Manage Audio and select the audio you wish to delete. \n\nYou can adjust the automatic audio download limit by navigating to: Menu > Settings > Audio Downloads and then use the slider to set the number of audio days (between 1 and 14) you wish to store on your device."
+      },
+      {
+        "title": "I've got a new phone - do I have to lose my progress?",
+        "category": "App",
+        "detailedAnswer": "If you’ve had to re-install or move devices, please follow the steps below to restore your progress. \n\n* When you launch the app again for the first time, proceed through the onboarding, indicating that you are familiar with the Bible \n* Select your Edition \n* Select the last devotion that you completed. \n\nTo confirm which day you were on previously, you can browse through the devotions on our website (navigate forwards or backwards by one day by tapping on the arrows on the side of the screen). If you want to restart on the same day that the website and the email subscription are on (Day 1 = 1 January, Day 2 = 2 January), then click here (https://bibleinoneyear.org/en/#today) to find out what day number it is today.",
+        "shortAnswer": "No, you can tell the app which day you would like to start from and so restore your progress."
+      },
+      {
+        "title": "My app shows a different devotion to my friends’ app. How do I get the same devotion as my friend?",
+        "category": "App",
+        "shortAnswer": "When installing the app you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both read the same devotion on the same day feel free to reinstall the app and onboard into the same devotion.",
+        "detailedAnswer": "When installing the app you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both read the same devotion on the same day feel free to reinstall the app and onboard into the same devotion, or feel free to scroll to where they are and mark the intervening devotions as unread. (Note: the red ’today’ marker will continue to move each day. The only way to reset this is be reinstalling the app and reonboarding together.)"
       }
     ],
-    "seeMore": "查看更多",
-    "submitButton": "提交附加证据",
-    "intro": "**对《圣经日日行》有疑问吗？**\n\n不知道该如何使用本软件？请点击这里……",
-    "notFoundMessage": "对不起，暂时无法提供答案",
-    "title": "帮助",
-    "filter": "过滤器",
-    "backButton": "Back to all Frequently Asked Questions (FAQs) - ZH",
+    "seeMore": "See More",
+    "submitButton": "Submit a support request",
+    "intro": "**Got a question about Bible in One Year?**\n\nA problem with app? Start typing your question here…",
+    "notFoundMessage": "Sorry, we don’t have any results for",
+    "title": "FAQs",
+    "filter": "Filter",
+    "backButton": "Back to all Frequently Asked Questions (FAQs)",
     "categories": {
-      "Audio": "声音",
-      "Content": "内容",
-      "App": "APP"
+      "Audio": "Audio",
+      "Content": "Content",
+      "App": "App"
     },
-    "filterHint": "你在寻找什么？"
+    "filterHint": "What are you looking for?"
   }
 }

@@ -1,38 +1,10 @@
 {
-  "en": {
-    "title": "Download the iOS and Android app",
-    "sub_title": "Read the whole Bible in 365 days.",
-    "more": "Find out more",
-    "android": "Get it on Google Play",
-    "ios": "Download in the App Store"
-  },
-  "ar": {
-    "more": "اكتشف المزيد",
-    "sub_title": "BiOY هو أيضًا موقع ويب وبريد إلكتروني وقريبًا سيكون بودكاست.",
-    "title": "قم بتنزيل تطبيق الكتاب المقدس في سنة واحدة اليوم",
-    "android": "Get it on Google Play",
-    "ios": "Download in the App Store"
-  },
   "de": {
     "title": "Hol dir die App für iOS oder Android",
     "android": "Hol dir die App in Google Play",
     "ios": "Hol dir die App im App Store",
     "sub_title": "Lies die ganze Bibel in 365 Tagen",
     "more": "Mehr Infos"
-  },
-  "es": {
-    "title": "Download Bible in One Year Today",
-    "sub_title": "BiOY is also and email, a website and soon to be a podcast.",
-    "more": "Find out more",
-    "ios": "Download in the App Store",
-    "android": "Get it on Google Play"
-  },
-  "fr": {
-    "title": "Téléchargez l'application iOS et Android",
-    "android": "Obtenez-la sur Google Play",
-    "ios": "Téléchargez dans l'App Store",
-    "sub_title": "Lisez toute la Bible en 365 jours.",
-    "more": "En savoir plus"
   },
   "hi": {
     "title": "Download Bible in One Year Today",
@@ -41,12 +13,26 @@
     "ios": "Download in the App Store",
     "android": "Get it on Google Play"
   },
-  "th": {
-    "title": "ดาวน์โหลดแอพจาก iOS และ Android",
-    "android": "ดาวน์โหลดบน Google Play",
-    "ios": "ดาวน์โหลดบน App Store",
-    "sub_title": "อ่านพระคัมภีร์ทั้งเล่มใน 365 วัน",
-    "more": "ศึกษาเพิ่มเติม"
+  "en": {
+    "title": "Download the iOS and Android app",
+    "sub_title": "Read the whole Bible in 365 days.",
+    "more": "Find out more",
+    "android": "Get it on Google Play",
+    "ios": "Download in the App Store"
+  },
+  "fr": {
+    "title": "Téléchargez l'application iOS et Android",
+    "android": "Obtenez-la sur Google Play",
+    "ios": "Téléchargez dans l'App Store",
+    "sub_title": "Lisez toute la Bible en 365 jours.",
+    "more": "En savoir plus"
+  },
+  "es": {
+    "title": "Descargue la Biblia en un año hoy",
+    "sub_title": "BiOY es también un correo electrónico, un sitio web y pronto será un podcast.",
+    "more": "Find out more",
+    "ios": "Descarga en la App Store",
+    "android": "Consiguelo en google play"
   },
   "zh": {
     "title": "今天就下载圣经日日行APP",
@@ -54,5 +40,26 @@
     "more": "获取更多",
     "android": "可以从Google Play 中获得",
     "ios": "从App 商店中下载"
+  },
+  "ar": {
+    "more": "اكتشف المزيد",
+    "sub_title": "BiOY هو أيضًا موقع ويب وبريد إلكتروني وقريبًا سيكون بودكاست.",
+    "title": "قم بتنزيل تطبيق الكتاب المقدس في سنة واحدة اليوم",
+    "android": "احصل عليه من متجر جوجل للتطبيقات",
+    "ios": "قم بالتنزيل من متجر التطبيقات"
+  },
+  "th": {
+    "title": "ดาวน์โหลดแอพจาก iOS และ Android",
+    "android": "ดาวน์โหลดบน Google Play",
+    "ios": "ดาวน์โหลดบน App Store",
+    "sub_title": "อ่านพระคัมภีร์ทั้งเล่มใน 365 วัน",
+    "more": "ศึกษาเพิ่มเติม"
+  },
+  "id": {
+    "title": "Download the iOS and Android app",
+    "android": "Get it on Google Play",
+    "ios": "Download in the App Store",
+    "sub_title": "Read the whole Bible in 365 days.",
+    "more": "Find out more"
   }
 }

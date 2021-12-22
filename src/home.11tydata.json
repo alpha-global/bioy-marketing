@@ -1,4 +1,30 @@
 {
+  "de": {
+    "header": {
+      "title": "Jeden Tag die Bibel erleben",
+      "strapline": "Bibel in einem Jahr hilft dir dabei, Schritt für Schritt.",
+      "cta": "Los geht's",
+      "img": {
+        "src": "/assets/img/bioy-lead.jpg",
+        "desc": "Eine Frau schaut vom Smartphone auf, auf dem sie Bibel in einem Jahr liest."
+      }
+    }
+  },
+  "hi": {
+    "intro": "Hindi welcome",
+    "header": {
+      "title": "Start your day with the Bible in One Year",
+      "strapline": "How different could your life be if you started each morning reading the Bible?",
+      "cta": "Let's Go",
+      "img": {
+        "src": "/assets/img/bioy-header.jpg",
+        "desc": "A man looks down at his phone, while listening to Bible in One Year"
+      }
+    },
+    "about": {
+      "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg"
+    }
+  },
   "en": {
     "intro": "Form a daily habit of reading Scripture",
     "about": {
@@ -28,38 +54,23 @@
       "express": "Express"
     }
   },
-  "ar": {
-    "intro": "Bom dia!",
+  "fr": {
     "header": {
-      "title": "هل تريد التعرف على الكتاب المقدس؟",
-      "strapline": "سنأخذك من خلاله خطوة بخطوة.",
-      "cta": "لنبدأ",
+      "title": "Envie de découvrir la Bible ?",
+      "strapline": "Nous vous guiderons, pas à pas.",
+      "cta": "C'est parti !",
       "img": {
-        "src": "/assets/img/bioy-1.jpg",
-        "desc": "A man looks up from reading Bible In One Year on his phone."
-      }
-    },
-    "about": {
-      "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg"
-    }
-  },
-  "de": {
-    "header": {
-      "title": "Jeden Tag die Bibel erleben",
-      "strapline": "Bibel in einem Jahr hilft dir dabei, Schritt für Schritt.",
-      "cta": "Los geht's",
-      "img": {
-        "src": "/assets/img/bioy-lead.jpg",
-        "desc": "Eine Frau schaut vom Smartphone auf, auf dem sie Bibel in einem Jahr liest."
+        "src": "/assets/img/bioy_main_without_logo_1.jpg",
+        "desc": " Une femme lit la Bible en 1 an sur son téléphone."
       }
     }
   },
   "es": {
     "intro": "Bom dia!",
     "header": {
-      "title": "Start your journey",
-      "strapline": "How different could your life be if you started each morning reading the Bible?",
-      "cta": "Let's Go",
+      "title": "¿Quiere conocer la Biblia?",
+      "strapline": "Lo guiaremos paso a paso.",
+      "cta": "Vamos",
       "img": {
         "src": "/assets/img/bioy-header.jpg",
         "desc": "A man looks down at his phone, while listening to Bible in One Year"
@@ -75,26 +86,30 @@
       "intro": "Seleccione su edición"
     }
   },
-  "fr": {
+  "zh": {
+    "intro": "Bom dia!",
     "header": {
-      "title": "Envie de découvrir la Bible ?",
-      "strapline": "Nous vous guiderons, pas à pas.",
-      "cta": "C'est parti !",
+      "title": "想了解圣经吗？",
+      "strapline": "我们将帮助你学习圣经，<br>每天跨越一小步",
+      "cta": "现在就开始吧",
       "img": {
-        "src": "/assets/img/bioy_main_without_logo_1.jpg",
-        "desc": " Une femme lit la Bible en 1 an sur son téléphone."
+        "src": "/assets/img/_03a6791.jpg",
+        "desc": "A man looks down at his phone, while listening to Bible in One Year"
       }
+    },
+    "about": {
+      "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg"
     }
   },
-  "hi": {
-    "intro": "Hindi welcome",
+  "ar": {
+    "intro": "Bom dia!",
     "header": {
-      "title": "Start your day with the Bible in One Year",
-      "strapline": "How different could your life be if you started each morning reading the Bible?",
-      "cta": "Let's Go",
+      "title": "هل تريد التعرف على الكتاب المقدس؟",
+      "strapline": "سنأخذك من خلاله خطوة بخطوة.",
+      "cta": "لنبدأ",
       "img": {
-        "src": "/assets/img/bioy-header.jpg",
-        "desc": "A man looks down at his phone, while listening to Bible in One Year"
+        "src": "/assets/img/bioy-1.jpg",
+        "desc": "A man looks up from reading Bible In One Year on his phone."
       }
     },
     "about": {
@@ -109,21 +124,6 @@
       "img": {
         "src": "/assets/img/bioy-lead.jpg"
       }
-    }
-  },
-  "zh": {
-    "intro": "Bom dia!",
-    "header": {
-      "title": "想了解圣经吗？",
-      "strapline": "我们将帮助你学习圣经，<br>每天跨越一小步",
-      "cta": "现在就开始吧",
-      "img": {
-        "src": "/assets/img/_03a6791.jpg",
-        "desc": "A man looks down at his phone, while listening to Bible in One Year"
-      }
-    },
-    "about": {
-      "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg"
     }
   },
   "id": {
