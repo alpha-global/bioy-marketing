@@ -59,8 +59,12 @@
       </ul>
 
       <div class="text-xs text-grey">
-        <p class="my-2">BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7&nbsp;1JA.</p>
-        <p class="my-2">&copy Copyright Alpha International {{ globals.currentYear }}</p>
+      {% if footer[locale].copyright.description %}
+        <p class="my-2">{{ footer[locale].copyright.description }}</p>
+      {% endif %}
+      {% if footer[locale].copyright.title %}
+        <p class="my-2">{{ footer[locale].copyright.title }} {{ globals.currentYear }}</p>
+      {% endif %}
       </div>
   </div>
 </footer>
