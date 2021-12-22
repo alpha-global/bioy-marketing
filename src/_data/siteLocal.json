@@ -1,4 +1,28 @@
 {
+  "de": {
+    "title": "Bibel in einem Jahr",
+    "switcher": {
+      "title": "Sprache ändern",
+      "subTitle": "Bibel in einem Jahr ist in folgenden Sprachen verfügbar:"
+    },
+    "social": {
+      "desc": "Starte deinen Tag mit Bibel in einem Jahr, einer kostenlosen Bibellese-App von HTB und dem Alpha-Kurs mit Kommentar von Nicky & Pippa Gumbel.",
+      "img": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
+    },
+    "cookies": {
+      "text": "Diese Website speichert Daten wie Cookies, um die erforderliche Website-Funktionalität und Analyse zu ermöglichen.",
+      "cta": " Finde mehr heraus.",
+      "closeButton": "Nah dran"
+    }
+  },
+  "hi": {
+    "title": "Bible in One Year",
+    "cookies": {
+      "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
+      "cta": "Find out more",
+      "closeButton": "Close"
+    }
+  },
   "en": {
     "title": "Bible in One Year",
     "switcher": {
@@ -24,49 +48,6 @@
       "ButtonText": "Sign up now"
     }
   },
-  "ar": {
-    "title": "الكتاب المقدس في سنة واحدة ",
-    "switcher": {
-      "title": "اختر اللغة",
-      "subTitle": "الكتاب المقدس في سنة واحدة متاح باللغات التالية:"
-    },
-    "social": {
-      "desc": "ابدأ يومك بالكتاب المقدس في عام واحد ، وهو تطبيق مجاني لقراءة الكتاب المقدس من كنيسة الثالوث الاقدس وبرنامج ألفا مع تعليق من Nicky & Pippa Gumbel.",
-      "img": "/assets/img/bioy-og-en.jpg"
-    },
-    "cookies": {
-      "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
-      "cta": "Find out more",
-      "closeButton": "Close"
-    }
-  },
-  "de": {
-    "title": "Bibel in einem Jahr",
-    "switcher": {
-      "title": "Sprache ändern",
-      "subTitle": "Bibel in einem Jahr ist in folgenden Sprachen verfügbar:"
-    },
-    "social": {
-      "desc": "Starte deinen Tag mit Bibel in einem Jahr, einer kostenlosen Bibellese-App von HTB und dem Alpha-Kurs mit Kommentar von Nicky & Pippa Gumbel.",
-      "img": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
-    },
-    "cookies": {
-      "text": "Diese Website speichert Daten wie Cookies, um die erforderliche Website-Funktionalität und Analyse zu ermöglichen.",
-      "cta": " Finde mehr heraus.",
-      "closeButton": "Nah dran"
-    }
-  },
-  "es": {
-    "title": "Biblia en un año",
-    "switcher": {
-      "title": "Change Language"
-    },
-    "cookies": {
-      "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
-      "cta": "Find out more",
-      "closeButton": "Close"
-    }
-  },
   "fr": {
     "title": "Bible en 1 an",
     "switcher": {
@@ -83,8 +64,39 @@
       "closeButton": "Close"
     }
   },
-  "hi": {
-    "title": "Bible in One Year.",
+  "es": {
+    "title": "Biblia en un año",
+    "switcher": {
+      "title": "Change Language"
+    },
+    "cookies": {
+      "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
+      "cta": "Find out more",
+      "closeButton": "Close"
+    }
+  },
+  "zh": {
+    "title": "圣经日日行",
+    "switcher": {
+      "title": "更换语言",
+      "subTitle": "圣经日日行有以下语言"
+    },
+    "cookies": {
+      "text": "This website stores data such as cookies to enable necessary site functionality and analytics. - ZH",
+      "cta": "Find out more - ZH",
+      "closeButton": "Close - ZH"
+    }
+  },
+  "ar": {
+    "title": "الكتاب المقدس في سنة واحدة ",
+    "switcher": {
+      "title": "اختر اللغة",
+      "subTitle": "الكتاب المقدس في سنة واحدة متاح باللغات التالية:"
+    },
+    "social": {
+      "desc": "ابدأ يومك بالكتاب المقدس في عام واحد ، وهو تطبيق مجاني لقراءة الكتاب المقدس من كنيسة الثالوث الاقدس وبرنامج ألفا مع تعليق من Nicky & Pippa Gumbel.",
+      "img": "/assets/img/bioy-og-en.jpg"
+    },
     "cookies": {
       "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
       "cta": "Find out more",
@@ -103,16 +115,7 @@
       "closeButton": "ปิด"
     }
   },
-  "zh": {
-    "title": "圣经日日行",
-    "switcher": {
-      "title": "更换语言",
-      "subTitle": "圣经日日行有以下语言"
-    },
-    "cookies": {
-      "text": "This website stores data such as cookies to enable necessary site functionality and analytics. - ZH",
-      "cta": "Find out more - ZH",
-      "closeButton": "Close - ZH"
-    }
+  "id": {
+    "title": "Bible in One Year"
   }
 }
