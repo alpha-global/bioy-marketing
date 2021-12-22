@@ -13,7 +13,7 @@
         "description": "Registriere dich jetzt, um Bibel in einem Jahr jeden Morgen in deinem Posteingang zu haben. Du bekommst jeden Tag eine E-Mail.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/b4j7s5\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"5166542,b4j7s5\">Sign up now</a>"
+          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/b4j7s5\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"5166542,b4j7s5\">Jetzt beitreten</a>"
         }
       },
       {
