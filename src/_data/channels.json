@@ -204,12 +204,6 @@
         }
       },
       {
-        "channel": "Podcast",
-        "icon": "medium_podcast",
-        "description": "اشترك واستمع إلى الكتاب المقدس في سنة الذي يتم توصيله إلى تطبيق البودكاست المفضل لديك يوميًا.",
-        "image": "/assets/img/medium_app.jpg"
-      },
-      {
         "channel": "الموقع",
         "icon": "medium_website",
         "description": "ابدأ بقراءة تأمل اليوم من هنا على موقع الكتاب المقدس في سنة واحدة الإلكتروني.",
