@@ -23,6 +23,11 @@
             "name": "Spotify",
             "icon": "spotify_podcasts",
             "url": "https://open.spotify.com/show/7Bw6czZtYEhlxTVajoJwQN"
+          },
+          {
+            "name": "Apple Podcasts",
+            "icon": "apple_podcasts",
+            "url": "https://podcasts.apple.com/us/podcast/bible-in-one-year-express/id1601415097"
           }
         ]
       }
@@ -37,6 +42,11 @@
             "name": "Spotify",
             "icon": "spotify_podcasts",
             "url": "https://open.spotify.com/show/5D9yxdmAiu93rUEohIMOd7"
+          },
+          {
+            "name": "Apple Podcasts",
+            "icon": "apple_podcasts",
+            "url": "https://podcasts.apple.com/us/podcast/bible-in-one-year-classic/id1601423839"
           }
         ]
       }
@@ -125,6 +135,11 @@
             "name": "Spotify",
             "icon": "spotify_podcasts",
             "url": "https://open.spotify.com/show/45L0739HXsRhAa30lzBfQL"
+          },
+          {
+            "name": "Apple Podcasts",
+            "icon": "apple_podcasts",
+            "url": "https://podcasts.apple.com/us/podcast/bible-in-one-year-classic/id1601415418"
           }
         ]
       }
