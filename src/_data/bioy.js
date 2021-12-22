@@ -14,7 +14,12 @@ async function fetchDevotionRange(
   locale = "en_GB",
   variant = "classic"
 ) {
-  if (locale === "de") {
+  if (
+    locale === "de" ||
+    locale === "th" ||
+    locale === "fr" ||
+    locale === "id"
+  ) {
     from = 1;
   }
   const url = `https://api.bioydata.com/api/v2/devotion/from/${from}/to/${to}?locale=${locale}&variant=${variant}&format=html`;
@@ -70,9 +75,9 @@ module.exports = async function (fullImport = false) {
 
   try {
     const variants = {
-      classic: ["en_Gb", "es", "ar", "hi", "zh_Hans", "fr", "de", "th"],
-      youth: ["en_Gb"],
-      express: ["en_Gb", "de"],
+      classic: ["en_Gb", "es", "ar", "hi", "zh_Hans", "fr", "de", "th", "id"],
+      youth: ["en_Gb", "ar"],
+      express: ["en_Gb", "de", "ar"],
     };
     const data = [];
 
