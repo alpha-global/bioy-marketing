@@ -60,60 +60,76 @@
                   <h4 class="text-xl font-bold mb-3">{{ medium.channel }}</h4>
                   {{ medium.description | markdown | safe }}
                 </div>
+                
+                {% if (podcastUrls[locale].podcasts | length) !== 0 %}
                 <div class="md:flex md:items-center md:justify-center lg:hidden mt-4 md:mt-8">
                   <div class="relative md:max-w-xs">
+                      {% if (podcastUrls[locale].podcasts | length) > 1 %}
                     <div class="flex items-center justify-between w-full absolute top-1">
                       <button class="flex items-center justify-center z-10 px-2" id="previous">{% svgSprite name = "back",
-                        class = "h-8 w-8" %}</button>
+                        class = "h-8 w-8 rtl:rotate-180" %}</button>
                       <button class="flex items-center justify-center z-10 px-2" id="next">{% svgSprite name = "forward",
-                        class = "h-8 w-8" %}</button>
+                        class = "h-8 w-8 rtl:rotate-180" %}</button>
                     </div>
+                    {% endif %}
                     <div id="podcast" class="relative overflow-hidden invisible flex flex-col max-w-xs">
                       <div class="relative overflow-hidden flex items-center">
-
-                        {% for podcast in podcastUrls.collection %}
+                        
+                        {% for podcast in podcastUrls[locale].podcasts %}
                           <div class="relative float-left w-full overflow-hidden">
                             <div class="space-y-4">
                               <p class="text-center font-bold">{{podcast.edition}}</p>
-                              <a href="{{ podcast.spotify }}" class="podcast-link" style="text-decoration:none">{% svgSprite name="spotify-podcasts", class="h-8 w-8" %}
-                                <span>Spotify</span>
+                              {% for feed in podcast.feeds %}
+                              <a href="{{ feed.url }}" class="podcast-link" style="text-decoration:none">
+                                  {% if feed.icon === 'spotify_podcasts' %}
+                                    {% svgSprite name="spotify_podcasts", class="h-8 w-8" %}
+                                  {% elif feed.icon === 'apple_podcasts' %}
+                                      {% svgSprite name="apple_podcasts", class="h-8 w-8" %}
+                                  {% elif feed.icon === 'google_podcasts' %}
+                                      {% svgSprite name="google_podcasts", class="h-8 w-8" %}
+                                  {% endif %}
+                                <span>{{ feed.name }}</span>
                               </a>
-                              <a href="{{ podcast.apple }}" class="podcast-link" style="text-decoration:none">{% svgSprite name="apple-podcasts", class="h-8 w-8" %}
-                                <span>Apple Podcasts</span>
-                              </a>
-                              <a href="{{ podcast.google }}" class="podcast-link" style="text-decoration:none">{% svgSprite name="google-podcasts", class="h-8 w-8" %}
-                                <span>Google Podcasts</span>
-                              </a>
+                              {% endfor %}
                             </div>
                           </div>
                         {% endfor %}
 
                       </div>
                     </div>
-
-                    <div class="flex items-center justify-center space-x-1 mt-4">
-                      {% for podcast in podcastUrls.collection %}
+                    
+                    {% if (podcastUrls[locale].podcasts | length) > 1 %}
+                    <div class="flex items-center justify-center space-x-1 rtl:space-x-reverse mt-4">
+                      {% for podcast in podcastUrls[locale].podcasts %}
                         <button data-index="{{ loop.index0 }}" class="podcast-pagination"></button>
                       {% endfor %}
                     </div>
+                    {% endif %}
                   </div>
                 </div>
-                <div class="hidden lg:flex lg:space-x-11 lg:mt-8">
-                  {% for podcast in podcastUrls.collection %}
+              
+
+                <div class="hidden lg:flex  rtl:space-x-reverse lg:mt-8 {% if devotion %} lg:space-x-6 {% else %} lg:space-x-11 {% endif %}">
+                  {% for podcast in podcastUrls[locale].podcasts %}
                     <div class="space-y-4">
                       <p class="font-bold">{{podcast.edition}}</p>
-                      <a href="{{ podcast.spotify }}" class="podcast-link" style="text-decoration:none">{% svgSprite name="spotify-podcasts", class="h-8 w-8" %}
-                        <span>Spotify</span>
-                      </a>
-                      <a href="{{ podcast.apple }}" class="podcast-link" style="text-decoration:none">{% svgSprite name="apple-podcasts", class="h-8 w-8" %}
-                        <span>Apple Podcasts</span>
-                      </a>
-                      <a href="{{ podcast.google }}" class="podcast-link" style="text-decoration:none">{% svgSprite name="google-podcasts", class="h-8 w-8" %}
-                        <span>Google Podcasts</span>
-                      </a>
-                    </div>
+                      {% for feed in podcast.feeds %}
+                          <a href="{{ feed.url }}" class="podcast-link" style="text-decoration:none">
+                          {% if feed.icon === 'spotify_podcasts' %}
+                              {% svgSprite name="spotify_podcasts", class="h-8 w-8" %}
+                          {% elif feed.icon === 'apple_podcasts' %}
+                              {% svgSprite name="apple_podcasts", class="h-8 w-8" %}
+                          {% elif feed.icon === 'google_podcasts' %}
+                              {% svgSprite name="google_podcasts", class="h-8 w-8" %}
+                          {% endif %}
+                            <span>{{ feed.name }}</span>
+                          </a>
+                      {% endfor %}
+                      </div>
                   {% endfor %}
                 </div>
+                {% endif %}
+
               </div>
             {% endif %}
           </div>
