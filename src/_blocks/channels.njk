@@ -109,7 +109,7 @@
                 </div>
               
 
-                <div class="hidden lg:flex lg:space-x-11 rtl:space-x-reverse lg:mt-8">
+                <div class="hidden lg:flex  rtl:space-x-reverse lg:mt-8 {% if devotion %} lg:space-x-6 {% else %} lg:space-x-11 {% endif %}">
                   {% for podcast in podcastUrls[locale].podcasts %}
                     <div class="space-y-4">
                       <p class="font-bold">{{podcast.edition}}</p>
