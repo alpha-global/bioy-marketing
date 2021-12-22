@@ -62,6 +62,15 @@
       "text": "Ce site Web stocke des données telles que des cookies pour activer les fonctionnalités et les analyses nécessaires du site.",
       "cta": " En savoir plus",
       "closeButton": "Close"
+    },
+    "signUpForm": {
+      "title": "Bible en 1 an",
+      "helpText": "Inscrivez-vous pour recevoir chaque jour la lecture de la Bible en 1 an dans votre boîte e-mail.",
+      "fieldLabel1": "Adresse e-mail principale",
+      "fieldLabel2": "Prénom",
+      "privacyText": "Si vous souhaitez savoir comment Alpha traite vos données, veuillez consulter la <Politique de confidentialité> d'Alpha.",
+      "privacyLink": "https://bibleinoneyear.org/fr/privacy-policy/",
+      "ButtonText": "S'inscrire maintenant"
     }
   },
   "es": {
