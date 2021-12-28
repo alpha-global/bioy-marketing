@@ -11,14 +11,14 @@
     },
     "cookies": {
       "text": "Diese Website speichert Daten wie Cookies, um die erforderliche Website-Funktionalität und Analyse zu ermöglichen.",
-      "cta": " Finde mehr heraus.",
-      "closeButton": "Nah dran"
+      "cta": "Mehr dazu",
+      "closeButton": "Einverstanden"
     },
     "signUpForm": {
       "title": "Bibel in Einem Jahr",
       "fieldLabel1": "E-Mail Adresse",
       "fieldLabel2": "Vorname",
-      "privacyText": "Wenn du wissen möchtest, wie Alpha deine Daten verarbeitet, sieh dir die <Datenschutzrichtlinie> von Alpha an.",
+      "privacyText": "Ich willige in die Verarbeitung meiner personenbezogenen Daten ein. Ich habe die <Datenschutzrichtlinie> zur Kenntnis genommen und mir ist bewusst, dass ich jederzeit meine Einwilligung widerrufen kann. ",
       "helpText": "Registriere dich, um jeden Tag die Bibel in Einem Jahr in deinem Posteingang zu erhalten.",
       "privacyLink": "https://bibleinoneyear.org/en/privacy-policy/",
       "ButtonText": "Jetzt anmelden"
