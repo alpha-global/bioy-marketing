@@ -344,7 +344,7 @@
       {
         "title": "Can I receive BiOY via email?",
         "category": "Content",
-        "shortAnswer": "Yes. You can sign up to receive the BiOY Classic commentary from the BiOY homepage",
+        "shortAnswer": "Yes. You can sign up to receive the BiOY Classic commentary from the BiOY homepage.",
         "detailedAnswer": "Yes. If you would like to receive the BiOY Classic commentary by email, or if you have stopped receiving the daily BiOY emails and would like to re-subscribe, you can [sign up or re-subscribe here](https://landing.mailerlite.com/webforms/landing/p5d3p8)."
       },
       {
@@ -836,7 +836,10 @@
         "title": "ฉันจะข้ามผ่านส่วนต่างๆ ของเสียงได้อย่างไร?"
       },
       {
-        "title": "ฉันสามารถรับ BiOY ทางอีเมลได้หรือไม่?"
+        "title": "ฉันสามารถรับ BiOY ทางอีเมลได้หรือไม่?",
+        "detailedAnswer": "ใช่. หากคุณต้องการรับคำอธิบาย BiOY Classic ทางอีเมล หรือหากคุณหยุดรับอีเมล BiOY รายวันและต้องการสมัครรับข้อมูลใหม่ คุณสามารถ [สมัครหรือสมัครรับข้อมูลใหม่ได้ที่นี่](<https://landing.mailerlite .com/webforms/landing/p5d3p8>).",
+        "category": "Content",
+        "shortAnswer": "ใช่. คุณสามารถลงทะเบียนเพื่อรับคำอธิบาย BiOY Classic ได้จากหน้าแรกของ BiOY."
       },
       {
         "title": "BiOY ให้บริการในภาษาใดบ้าง?"
