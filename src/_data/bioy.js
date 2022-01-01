@@ -69,8 +69,13 @@ module.exports = async function (fullImport = false) {
     var diff = now - start;
     var oneDay = 1000 * 60 * 60 * 24;
     var day = Math.floor(diff / oneDay);
-    startDayNumber = day - 5;
-    endDayNumber = day + 2;
+     if (day < 5) {
+       startDayNumber = 1;
+       endDayNumber = 5;
+     } else {
+       startDayNumber = day - 5;
+       endDayNumber = day + 2;
+     }
   }
 
   try {
