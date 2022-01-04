@@ -479,6 +479,12 @@
   "fr": {
     "faqsItems": [
       {
+        "title": "J'ai un problème d'affichage dans les commentaires, que faire ?",
+        "shortAnswer": "La version française de l'application étant une nouveauté, nous faisons face à un problème d'affichage dans certains commentaires. Si vous recontrez ce problème sur votre smartphone, nous vous encourageons à vous rendre dans les paramètres de l'application, puis à changer la langue de contenu (par exemple \"English\"), puis à nouveau changer la langue de contenu sur \"Français\". Merci de votre compréhension et désolé pour ce désagrément !\n\nNous faisons tout notre possible pour régler ce problème au plus vite.",
+        "category": "Content",
+        "detailedAnswer": "La version française de l'application étant une nouveauté, nous faisons face à un problème d'affichage dans certains commentaires, lorsqu'il y a des paragraphes décalés après un titre avec un numéro.\n\nSi vous recontrez ce problème sur votre smartphone, vous pouvez le régler comme suit :\n\n*  lorsque vous êtes dans la liste des jours, appuyez sur le bouton \"menu\" en bas à gauche (trois barres horizontales), puis sur le premier rectangle du menu \"Paramètres\" avec l'icone de roue dentée. Ensuite, appuyez sur \"Langue de contenu\" et sélectionnez par exemple \"English\". Puis enfin, au même endroit, sélectionnez à nouveau \"Français\".\n\nMerci de votre compréhension et désolé pour ce désagrément ! Nous faisons tout notre possible pour régler ce problème au plus vite."
+      },
+      {
         "title": "Puis-je accélérer/ralentir la vitesse du contenu audio ?",
         "category": "Audio",
         "shortAnswer": "Oui ! Après avoir appuyé sur le bouton \"Play\" de la journée souhaitée, vous remarquerez un \"1x\" dans le coin supérieur gauche du lecteur audio étendu. Appuyez dessus pour faire défiler les vitesses de lecture : 1x, 1,2x, 1,5x, 1,8x, 2x, 0,8x, puis revenez à nouveau à 1x, etc...",
