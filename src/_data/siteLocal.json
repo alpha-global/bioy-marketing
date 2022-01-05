@@ -1,4 +1,37 @@
 {
+  "de": {
+    "title": "Bibel in einem Jahr",
+    "switcher": {
+      "title": "Sprache ändern",
+      "subTitle": "Bibel in einem Jahr ist in folgenden Sprachen verfügbar:"
+    },
+    "social": {
+      "desc": "Starte deinen Tag mit Bibel in einem Jahr, einer kostenlosen Bibellese-App von HTB und dem Alpha-Kurs mit Kommentar von Nicky & Pippa Gumbel.",
+      "img": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
+    },
+    "cookies": {
+      "text": "Diese Website speichert Daten wie Cookies, um die erforderliche Website-Funktionalität und Analyse zu ermöglichen.",
+      "cta": "Mehr dazu",
+      "closeButton": "Einverstanden"
+    },
+    "signUpForm": {
+      "title": "Bibel in Einem Jahr",
+      "fieldLabel1": "E-Mail Adresse",
+      "fieldLabel2": "Vorname",
+      "privacyText": "Ich willige in die Verarbeitung meiner personenbezogenen Daten ein. Ich habe die <Datenschutzrichtlinie> zur Kenntnis genommen und mir ist bewusst, dass ich jederzeit meine Einwilligung widerrufen kann. ",
+      "helpText": "Registriere dich, um jeden Tag die Bibel in Einem Jahr in deinem Posteingang zu erhalten.",
+      "privacyLink": "https://bibleinoneyear.org/en/privacy-policy/",
+      "ButtonText": "Jetzt anmelden"
+    }
+  },
+  "hi": {
+    "title": "Bible in One Year",
+    "cookies": {
+      "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
+      "cta": "Find out more",
+      "closeButton": "Close"
+    }
+  },
   "en": {
     "title": "Bible in One Year",
     "switcher": {
@@ -24,6 +57,54 @@
       "ButtonText": "Sign up now"
     }
   },
+  "fr": {
+    "title": "Bible en 1 an",
+    "switcher": {
+      "title": "Changer de langue",
+      "subTitle": "Bible en 1 an est disponible dans les langues suivantes :"
+    },
+    "social": {
+      "desc": "Commencez votre journée avec la Bible en 1 an, une application gratuite de lecture de la Bible proposée par HTB et le parcours Alpha, avec les commentaires de Nicky & Pippa Gumbel.",
+      "img": "/assets/img/bioy-og-en.jpg"
+    },
+    "cookies": {
+      "text": "Ce site Web stocke des données telles que des cookies pour activer les fonctionnalités et les analyses nécessaires du site.",
+      "cta": " En savoir plus",
+      "closeButton": "Close"
+    },
+    "signUpForm": {
+      "title": "Bible en 1 an",
+      "helpText": "Inscrivez-vous pour recevoir chaque jour la lecture de la Bible en 1 an dans votre boîte e-mail.",
+      "fieldLabel1": "Adresse e-mail principale",
+      "fieldLabel2": "Prénom",
+      "privacyText": "Si vous souhaitez savoir comment Alpha traite vos données, veuillez consulter la <Politique de confidentialité> d'Alpha.",
+      "privacyLink": "https://bibleinoneyear.org/fr/privacy-policy/",
+      "ButtonText": "S'inscrire maintenant"
+    }
+  },
+  "es": {
+    "title": "Biblia en un año",
+    "switcher": {
+      "title": "Change Language"
+    },
+    "cookies": {
+      "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
+      "cta": "Find out more",
+      "closeButton": "Close"
+    }
+  },
+  "zh": {
+    "title": "圣经日日行",
+    "switcher": {
+      "title": "更换语言",
+      "subTitle": "圣经日日行有以下语言"
+    },
+    "cookies": {
+      "text": "This website stores data such as cookies to enable necessary site functionality and analytics. - ZH",
+      "cta": "Find out more - ZH",
+      "closeButton": "Close - ZH"
+    }
+  },
   "ar": {
     "title": "الكتاب المقدس في سنة واحدة ",
     "switcher": {
@@ -40,57 +121,6 @@
       "closeButton": "Close"
     }
   },
-  "de": {
-    "title": "Bibel in einem Jahr",
-    "switcher": {
-      "title": "Sprache ändern",
-      "subTitle": "Bibel in einem Jahr ist in folgenden Sprachen verfügbar:"
-    },
-    "social": {
-      "desc": "Starte deinen Tag mit Bibel in einem Jahr, einer kostenlosen Bibellese-App von HTB und dem Alpha-Kurs mit Kommentar von Nicky & Pippa Gumbel.",
-      "img": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
-    },
-    "cookies": {
-      "text": "Diese Website speichert Daten wie Cookies, um die erforderliche Website-Funktionalität und Analyse zu ermöglichen.",
-      "cta": " Finde mehr heraus.",
-      "closeButton": "Nah dran"
-    }
-  },
-  "es": {
-    "title": "Biblia en un año",
-    "switcher": {
-      "title": "Change Language"
-    },
-    "cookies": {
-      "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
-      "cta": "Find out more",
-      "closeButton": "Close"
-    }
-  },
-  "fr": {
-    "title": "Bible en 1 an",
-    "switcher": {
-      "title": "Changer de langue",
-      "subTitle": "Bible en 1 an est disponible dans les langues suivantes :"
-    },
-    "social": {
-      "desc": "Commencez votre journée avec la Bible en 1 an, une application gratuite de lecture de la Bible proposée par HTB et le parcours Alpha, avec les commentaires de Nicky & Pippa Gumbel.",
-      "img": "/assets/img/bioy-og-en.jpg"
-    },
-    "cookies": {
-      "text": "Ce site Web stocke des données telles que des cookies pour activer les fonctionnalités et les analyses nécessaires du site.",
-      "cta": " En savoir plus",
-      "closeButton": "Close"
-    }
-  },
-  "hi": {
-    "title": "Bible in One Year.",
-    "cookies": {
-      "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
-      "cta": "Find out more",
-      "closeButton": "Close"
-    }
-  },
   "th": {
     "title": "พระคัมภีร์ในหนึ่งปี\n(Bible in One Year)",
     "switcher": {
@@ -101,18 +131,18 @@
       "text": "เว็บไซต์นี้จัดเก็บข้อมูล เช่น คุกกี้ เพื่อเปิดใช้งานฟังก์ชั่นและการวิเคราะห์ที่จำเป็นเท่านั้น",
       "cta": "ดูเพิ่มเติม",
       "closeButton": "ปิด"
+    },
+    "signUpForm": {
+      "title": "พระคัมภีร์ในหนึ่งปี",
+      "helpText": "ลงทะเบียนเพื่ออ่านพระคัมภีร์ในหนึ่งปี แต่ละวันในกล่องจดหมายของคุณ",
+      "fieldLabel1": "อีเมล",
+      "fieldLabel2": "ชื่อ",
+      "privacyText": "หากต้องการทราบว่า Alpha ประมวลผลข้อมูลของคุณอย่างไร โปรดดูใน <นโยบายความเป็นส่วนตัว> ของ Alpha",
+      "privacyLink": "https://bibleinoneyear.org/en/privacy-policy/",
+      "ButtonText": "ลงทะเบียนตอนนี้"
     }
   },
-  "zh": {
-    "title": "圣经日日行",
-    "switcher": {
-      "title": "更换语言",
-      "subTitle": "圣经日日行有以下语言"
-    },
-    "cookies": {
-      "text": "This website stores data such as cookies to enable necessary site functionality and analytics. - ZH",
-      "cta": "Find out more - ZH",
-      "closeButton": "Close - ZH"
-    }
+  "id": {
+    "title": "Bible in One Year"
   }
 }

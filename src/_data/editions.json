@@ -1,33 +1,9 @@
 {
-  "en": {
-    "intro": "Bible in One Year comes in three different editions…",
-    "classic": "Classic",
-    "youth": "Youth",
-    "express": "Express"
-  },
-  "ar": {
-    "intro": "يأتي الكتاب المقدس في سنة واحدة بثلاث إصدارات مختلفة ...",
-    "classic": "كلاسيك",
-    "youth": "الشباب",
-    "express": "اكسبريس"
-  },
   "de": {
-    "intro": "Bibel in einem Jahr gibt es in drei Versionen:",
+    "intro": "Bibel in einem Jahr gibt es in zwei Versionen:",
     "classic": "Classic",
     "express": "Express",
     "youth": ""
-  },
-  "es": {
-    "intro": "Bible in One Year (Spanish) comes in one edition...",
-    "classic": "Classic",
-    "youth": "",
-    "express": ""
-  },
-  "fr": {
-    "intro": "Bible en 1 an se décline en trois versions...",
-    "classic": "Classique",
-    "youth": "Jeunesse",
-    "express": "Express"
   },
   "hi": {
     "intro": "Bible in One Year comes in three different editions…",
@@ -35,16 +11,44 @@
     "youth": "Youth",
     "express": "Express"
   },
-  "th": {
-    "intro": "พระคัมภีร์ในหนึ่งปี มีสามเวอร์ชั่นที่แตกต่างกัน...",
-    "classic": "คลาสสิค",
-    "youth": "อนุชน",
-    "express": "ด่วนพิเศษ"
+  "en": {
+    "intro": "Bible in One Year comes in three different editions…",
+    "classic": "Classic",
+    "youth": "Youth",
+    "express": "Express"
+  },
+  "fr": {
+    "intro": "Bible en 1 an est pour l'instant uniquement disponible en version classique pour le français.",
+    "classic": "Classique",
+    "youth": "",
+    "express": ""
+  },
+  "es": {
+    "intro": "Bible in One Year (Spanish) comes in one edition...",
+    "classic": "Classic",
+    "youth": "",
+    "express": ""
   },
   "zh": {
     "express": "快捷版",
     "youth": "青年版",
     "classic": "经典版",
     "intro": "圣经日日行有三个版本"
+  },
+  "ar": {
+    "intro": "يأتي الكتاب المقدس في سنة واحدة بثلاث إصدارات مختلفة ...",
+    "classic": "كلاسيك",
+    "youth": "الشباب",
+    "express": "اكسبريس"
+  },
+  "th": {
+    "intro": "พระคัมภีร์ในหนึ่งปี มีสามเวอร์ชั่นที่แตกต่างกัน...",
+    "classic": "คลาสสิค",
+    "youth": "อนุชน",
+    "express": "ด่วนพิเศษ"
+  },
+  "id": {
+    "intro": "Bible in One Year comes in three different editions…",
+    "classic": "Classic"
   }
 }

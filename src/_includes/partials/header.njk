@@ -18,20 +18,20 @@
                 <button>{{ editions[locale].classic }}</button>
               </a>
             {% endif %}
-            {% if locale === 'en' %}
-              {% if devotion.variant !== 'youth' %}
-                <a href="/{{ locale }}/youth/{{ devotion.devotionId }}" class="block text-white text-xs py-3 pl-2 pr-4">
+            {% if editions[locale].youth and (devotion.variant !== 'youth') %}
+               <a href="/{{ locale }}/youth/{{ devotion.devotionId }}" class="block text-white text-xs py-3 pl-2 pr-4">
                   <button>{{ editions[locale].youth }}</button>
                 </a>
-              {% endif %}
-              {% if devotion.variant !== 'express' %}
+            {% endif %}
+            {% if editions[locale].express and (devotion.variant !== 'express') %}
                 <a href="/{{ locale }}/express/{{ devotion.devotionId }}" class="block text-white text-xs py-3 pl-2 pr-4">
                   <button>{{ editions[locale].express }}</button>
                 </a>
-              {% endif %}
-            {% else %}
+            {% endif %}       
+            {% if not editions[locale].youth and not editions[locale].express %}
               <span class="block text-white text-xs py-3 pl-2 pr-4">No other editions available in your chosen language</span>
             {% endif %}
+           
           </div>
         </div>
         {% if locale %}

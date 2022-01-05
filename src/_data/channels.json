@@ -10,10 +10,10 @@
       {
         "channel": "Email",
         "icon": "medium_email",
-        "description": "Registriere dich jetzt, um Bibel in einem Jahr jeden Morgen in deinem Posteingang zu haben. Du bekommst jeden Tag eine E-Mail.",
+        "description": "Registriere dich jetzt, um \"Bibel in Einem Jahr\" jeden Morgen in deinem Posteingang zu haben. Du bekommst jeden Tag eine E-Mail.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/b4j7s5\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"5166542,b4j7s5\">Jetzt beitreten</a>"
+          "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/b4j7s5\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"5166542,b4j7s5\">Jetzt registrieren</a>"
         }
       },
       {
@@ -108,7 +108,7 @@
       {
         "channel": "Application",
         "icon": "medium_app",
-        "description": "Téléchargez l'application de la Bible en 1 an pour les appareils iOS ou Android et lisez-la chaque jour.\n\n* [Téléchargez pour iOS depuis l'App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Téléchargez pour Android sur Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
+        "description": "Téléchargez l'application de la Bible en 1 an pour les appareils iOS ou Android et lisez-la chaque jour.\n\n* [Téléchargez pour iOS depuis l'App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Téléchargez pour Android sur Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)\n\n*La version française de l'application étant une nouveauté, nous faisons face à un problème d'affichage dans certains commentaires. Si vous recontrez ce problème sur votre smartphone, nous vous encourageons à vous rendre dans les paramètres de l'application, puis à changer la langue de contenu (par exemple \"English\"), puis à nouveau changer la langue de contenu sur \"Français\". Merci de votre compréhension et désolé pour ce désagrément ! Nous faisons tout notre possible pour régler ce problème au plus vite.*",
         "image": "/assets/img/medium_website.jpg"
       },
       {
@@ -126,7 +126,7 @@
         "description": "Commencez à lire la journée d'aujourd'hui, ici même, sur le site Web de la Bible en 1 an.",
         "image": "/assets/img/medium_laptop.jpg",
         "cta": {
-          "code": "<a href=\"#today\" class=\"whiteButton\">Read now</a>"
+          "code": "<a href=\"#today\" class=\"whiteButton\">Lire maintenant</a>"
         }
       }
     ]
@@ -202,12 +202,6 @@
         "cta": {
           "code": "<a href=\"https://landing.mailerlite.com/webforms/landing/l2u8i1\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors js-mailerLite \"data-ml=\"5166407,l2u8i1\">سجل اليوم</a>"
         }
-      },
-      {
-        "channel": "Podcast",
-        "icon": "medium_podcast",
-        "description": "اشترك واستمع إلى الكتاب المقدس في سنة الذي يتم توصيله إلى تطبيق البودكاست المفضل لديك يوميًا.",
-        "image": "/assets/img/medium_app.jpg"
       },
       {
         "channel": "الموقع",

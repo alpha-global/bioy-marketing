@@ -13,36 +13,36 @@ const languages = [
     language: "English",
   },
   {
-    locale: "es",
-    language: "Español",
-  },
-  {
     locale: "ar",
     language: "عربى",
-  },
-  {
-    locale: "hi",
-    language: "हिंदी",
-  },
-  {
-    locale: "zh",
-    language: "中國人",
   },
   {
     locale: "de",
     language: "Deutsch",
   },
   {
+    locale: "es",
+    language: "Español",
+  },
+  {
     locale: "fr",
     language: "Français",
+  },
+  {
+    locale: "hi",
+    language: "हिंदी",
+  },
+  {
+    locale: "id",
+    language: "Bahasa Indonesia",
   },
   {
     locale: "th",
     language: "ไทย",
   },
   {
-    locale: "id",
-    language: "Bahasa Indonesia",
+    locale: "zh",
+    language: "中國人",
   },
 ];
 

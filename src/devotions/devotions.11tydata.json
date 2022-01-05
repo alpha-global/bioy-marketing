@@ -58,5 +58,53 @@
     "prayer": "祷告",
     "pippaAdds": "佩泊的补充",
     "verseOfTheDay": "每日金句"
+  },
+  "fr": {
+    "day": "Jour",
+    "todaysReading": "Lecture du jour",
+    "wisdom": "Sagesse",
+    "newTestament": "Nouveau Testament",
+    "oldTestament": "Ancien Testament",
+    "introduction": "Introduction",
+    "commentary": "Commentaire",
+    "prayer": "Prière",
+    "pippaAdds": "Pippa ajoute",
+    "verseOfTheDay": "Verset du jour"
+  },
+  "de": {
+    "day": "Tag",
+    "todaysReading": "Die heutige Lesung",
+    "wisdom": "Weisheit",
+    "newTestament": "Neues Testament",
+    "oldTestament": "Altes Testament",
+    "introduction": "Einführung",
+    "commentary": "Kommentar",
+    "prayer": "Gebet",
+    "pippaAdds": "Pippa fügt hinzu",
+    "verseOfTheDay": "Vers des Tages"
+  },
+  "id": {
+    "day": "Hari",
+    "todaysReading": "Bacaan hari ini",
+    "wisdom": "Kebijaksanaan",
+    "newTestament": "Perjanjian Baru",
+    "oldTestament": "Perjanjian Lama",
+    "introduction": "pengantar",
+    "commentary": "Komentar",
+    "prayer": "Doa",
+    "pippaAdds": "Pippa menambahkan",
+    "verseOfTheDay": "ayat hari ini"
+  },
+  "th": {
+    "day": "วัน",
+    "todaysReading": "การอ่านวันนี้",
+    "wisdom": "ภูมิปัญญา",
+    "newTestament": "พันธสัญญาใหม่",
+    "oldTestament": "พันธสัญญาเดิม",
+    "introduction": "บทนำ",
+    "commentary": "ความเห็น",
+    "prayer": "สวดมนต์",
+    "pippaAdds": "ปิ๊ปปาเสริม",
+    "verseOfTheDay": "กลอนประจำวัน"
   }
 }
