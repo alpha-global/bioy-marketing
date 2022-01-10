@@ -472,6 +472,12 @@
         "category": "Content",
         "shortAnswer": " This bug is known to us and we are working hard to fix it. In the meantime, please use this interim solution:\n\nLong press on the app icon (whether on the home screen shortcut of your device, or from the menu/list of apps within google play)\n• Tap ‘App Info’\n• Tap ‘Force stop’\n• Try opening the app again\n",
         "detailedAnswer": "This issue where the app brings up a white screen rather than any content seems to be affecting a small number of Android users. Please use this interim fix while we work on a better solution.\n\n• Long press on the app icon (whether on the home screen shortcut of your device, or from the menu/list of apps within google play)\n• Tap ‘App Info’\n• Tap ‘Force stop’\n• Try opening the app again\n\nYou can also read the devotions online on our website https://bibleinoneyear.org or by subscribing to the daily email. If you prefer the audio, you can listen to the devotions as podcasts (Spotify, Apple, Google podcasts).\n\nWe do apologise and ask for your patience whilst we prioritise fixing this."
+      },
+      {
+        "title": "How can I access 2022 content?",
+        "category": "Content",
+        "shortAnswer": "If your app is still showing 2021 content, you can go to Menu > Settings > Reset app. This will take you through the onboarding process again, allowing you to select your start day and giving you access to 2022 content.",
+        "detailedAnswer": "The app logic is built to ask users if they would like to restart the year only once they have completed 255 days of readings, including Dec 31st. If you would like to restart the readings from the beginning before this point, you can do so by going to Menu > Settings > Reset app. \n\nThis will take you through the onboarding process again, allowing you to select your start day and giving you access to 2022 content. Please check your app is up to date (version 8.4.1 or later) if you can’t see the ‘reset’ button."
       }
     ],
     "seeMore": "See More",
