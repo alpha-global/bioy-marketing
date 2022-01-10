@@ -478,6 +478,12 @@
         "category": "Content",
         "shortAnswer": "If your app is still showing 2021 content, you can go to Menu > Settings > Reset app. This will take you through the onboarding process again, allowing you to select your start day and giving you access to 2022 content.",
         "detailedAnswer": "The app logic is built to ask users if they would like to restart the year only once they have completed 255 days of readings, including Dec 31st. If you would like to restart the readings from the beginning before this point, you can do so by going to Menu > Settings > Reset app. \n\nThis will take you through the onboarding process again, allowing you to select your start day and giving you access to 2022 content. Please check your app is up to date (version 8.4.1 or later) if you can’t see the ‘reset’ button."
+      },
+      {
+        "title": "Have the 2022 readings been updated?",
+        "category": "Content",
+        "shortAnswer": "In 2022 we are only making slight tweaks to the content, so if you have done the Bible in One Year before, it may sound familiar to you. We trust however that God will speak to you through his word in fresh ways each year.",
+        "detailedAnswer": "In 2022 we are only making slight tweaks to the content, so if you have done the Bible in One Year before, it may sound familiar to you. We trust however that God will speak to you through his word in fresh ways each year."
       }
     ],
     "seeMore": "See More",
