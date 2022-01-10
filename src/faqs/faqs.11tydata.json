@@ -410,8 +410,8 @@
       {
         "title": "Will the BiOY automatically reset after I complete Day 365?",
         "category": "Content",
-        "shortAnswer": "For those that are a few weeks behind and are worried they’ll lose access to the commentaries, those on the latest version of the app (v.8.4.0) will have an additional button to tap before their app loops back around to display Day 1 of Bible in One Year.",
-        "detailedAnswer": "For those that are a few weeks behind and are worried they’ll lose access to the commentaries, those on the latest version of the app (v.8.4.0) will have an additional button to tap before their app loops back around to display Day 1 of Bible in One Year."
+        "shortAnswer": "Provided you are on version 8.4.0 of the app or later, it will ask if you would like to restart the year once you have read more than 255 days of devotions, including December 31st. If you would like to restart from Day 1 before this point, you will need to go to menu > settings > reset app, which will allow you to go through the onboarding process again and select 'Day 1' as your start point.",
+        "detailedAnswer": "Provided you are on version 8.4.0 of the app or later, it will ask if you would like to restart the year once you have read more than 255 days of devotions, including December 31st. If you would like to restart from Day 1 before this point, you will need to go to menu > settings > reset app, which will allow you to go through the onboarding process again and select 'Day 1' as your start point."
       },
       {
         "title": "Is it the commentary the same every year?",
@@ -460,6 +460,12 @@
         "category": "App",
         "shortAnswer": "When installing the app you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both read the same devotion on the same day feel free to reinstall the app and onboard into the same devotion.",
         "detailedAnswer": "When installing the app you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both read the same devotion on the same day feel free to reinstall the app and onboard into the same devotion, or feel free to scroll to where they are and mark the intervening devotions as unread. (Note: the red ’today’ marker will continue to move each day. The only way to reset this is be reinstalling the app and reonboarding together.)"
+      },
+      {
+        "title": "Can I still access 2021 readings?",
+        "category": "Content",
+        "shortAnswer": "If your app has 2022 content but you would still like to complete readings from 2021, you are able to do this either on the app (by scrolling forward) or online:\n\nhttps://bibleinoneyear.org/en/classic/365/\n\nSimply change the last digits to the day number you would like to read (between 1 and 365)",
+        "detailedAnswer": "Please  first check you have the latest version of the app installed. You can do this by going to menu > settings and checking the version which is listed at the bottom of the screen – it should say Bible in One Year 8.4.1 or later.  If that’s not the case, please go to your app store and update the app.\n\nIf your app is up to date, the new layout for the readings on the app means you are able to scroll forward through the whole year, back to where you had left off before. Depending on where you got up to in 2021, it may be worth going through the onboarding process again so that you can tell the app where you got up to. That would mean you don’t have to scroll through lots of readings each day to get back to where you were.  You can do this by going to menu > settings and selecting ‘reset app’, and you will be able to tell the app which day you would like to start from as part of the re-onbaording process that will subsequently pop up.\n\nYou can also access any day’s readings online here:\n\n<https://bibleinoneyear.org/en/classic/365/>\n\nSimply change the last digits to the day number you would like to read (between 1 and 365)"
       }
     ],
     "seeMore": "See More",
