@@ -28,7 +28,7 @@
         "description": "Starte gleich hier auf der Website mit dem Lesen von Bibel in einem Jahr.",
         "image": "/assets/img/medium_laptop.jpg",
         "cta": {
-          "code": "<a href=\"#today\" class=\"whiteButton\">Jetzt lesen</a>"
+          "code": "<a href=\"#todays-devotion\" class=\"whiteButton\">Jetzt lesen</a>"
         }
       }
     ]
@@ -126,7 +126,7 @@
         "description": "Commencez à lire la journée d'aujourd'hui, ici même, sur le site Web de la Bible en 1 an.",
         "image": "/assets/img/medium_laptop.jpg",
         "cta": {
-          "code": "<a href=\"#today\" class=\"whiteButton\">Lire maintenant</a>"
+          "code": "<a href=\"#todays-devotion\" class=\"whiteButton\">Lire maintenant</a>"
         }
       }
     ]
@@ -209,7 +209,7 @@
         "description": "ابدأ بقراءة تأمل اليوم من هنا على موقع الكتاب المقدس في سنة واحدة الإلكتروني.",
         "image": "/assets/img/medium_laptop.jpg",
         "cta": {
-          "code": "<a href=\"#today\" class=\"whiteButton\">Read now</a>"
+          "code": "<a href=\"#todays-devotion\" class=\"whiteButton\">Read now</a>"
         }
       },
       {
@@ -246,6 +246,8 @@
     ]
   },
   "id": {
-    "distribution": [{}]
+    "distribution": [
+      {}
+    ]
   }
 }
