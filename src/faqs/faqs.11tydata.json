@@ -410,8 +410,8 @@
       {
         "title": "Will the BiOY automatically reset after I complete Day 365?",
         "category": "Content",
-        "shortAnswer": "For those that are a few weeks behind and are worried they’ll lose access to the commentaries, those on the latest version of the app (v.8.4.0) will have an additional button to tap before their app loops back around to display Day 1 of Bible in One Year.",
-        "detailedAnswer": "For those that are a few weeks behind and are worried they’ll lose access to the commentaries, those on the latest version of the app (v.8.4.0) will have an additional button to tap before their app loops back around to display Day 1 of Bible in One Year."
+        "shortAnswer": "Provided you are on version 8.4.0 of the app or later, it will ask if you would like to restart the year once you have read more than 255 days of devotions, including December 31st. If you would like to restart from Day 1 before this point, you will need to go to menu > settings > reset app, which will allow you to go through the onboarding process again and select 'Day 1' as your start point.",
+        "detailedAnswer": "Provided you are on version 8.4.0 of the app or later, it will ask if you would like to restart the year once you have read more than 255 days of devotions, including December 31st. If you would like to restart from Day 1 before this point, you will need to go to menu > settings > reset app, which will allow you to go through the onboarding process again and select 'Day 1' as your start point."
       },
       {
         "title": "Is it the commentary the same every year?",
@@ -460,6 +460,30 @@
         "category": "App",
         "shortAnswer": "When installing the app you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both read the same devotion on the same day feel free to reinstall the app and onboard into the same devotion.",
         "detailedAnswer": "When installing the app you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both read the same devotion on the same day feel free to reinstall the app and onboard into the same devotion, or feel free to scroll to where they are and mark the intervening devotions as unread. (Note: the red ’today’ marker will continue to move each day. The only way to reset this is be reinstalling the app and reonboarding together.)"
+      },
+      {
+        "title": "Can I still access 2021 readings?",
+        "category": "Content",
+        "shortAnswer": "If your app has 2022 content but you would still like to complete readings from 2021, you are able to do this either on the app (by scrolling forward) or online:\n\nhttps://bibleinoneyear.org/en/classic/365/\n\nSimply change the last digits to the day number you would like to read (between 1 and 365)",
+        "detailedAnswer": "Please  first check you have the latest version of the app installed. You can do this by going to menu > settings and checking the version which is listed at the bottom of the screen – it should say Bible in One Year 8.4.1 or later.  If that’s not the case, please go to your app store and update the app.\n\nIf your app is up to date, the new layout for the readings on the app means you are able to scroll forward through the whole year, back to where you had left off before. Depending on where you got up to in 2021, it may be worth going through the onboarding process again so that you can tell the app where you got up to. That would mean you don’t have to scroll through lots of readings each day to get back to where you were.  You can do this by going to menu > settings and selecting ‘reset app’, and you will be able to tell the app which day you would like to start from as part of the re-onbaording process that will subsequently pop up.\n\nYou can also access any day’s readings online here:\n\n<https://bibleinoneyear.org/en/classic/365/>\n\nSimply change the last digits to the day number you would like to read (between 1 and 365)"
+      },
+      {
+        "title": "I can't access app content, my app shows a white screen instead",
+        "category": "Content",
+        "shortAnswer": " This bug is known to us and we are working hard to fix it. In the meantime, please use this interim solution:\n\nLong press on the app icon (whether on the home screen shortcut of your device, or from the menu/list of apps within google play)\n• Tap ‘App Info’\n• Tap ‘Force stop’\n• Try opening the app again\n",
+        "detailedAnswer": "This issue where the app brings up a white screen rather than any content seems to be affecting a small number of Android users. Please use this interim fix while we work on a better solution.\n\n• Long press on the app icon (whether on the home screen shortcut of your device, or from the menu/list of apps within google play)\n• Tap ‘App Info’\n• Tap ‘Force stop’\n• Try opening the app again\n\nYou can also read the devotions online on our website https://bibleinoneyear.org or by subscribing to the daily email. If you prefer the audio, you can listen to the devotions as podcasts (Spotify, Apple, Google podcasts).\n\nWe do apologise and ask for your patience whilst we prioritise fixing this."
+      },
+      {
+        "title": "How can I access 2022 content?",
+        "category": "Content",
+        "shortAnswer": "If your app is still showing 2021 content, you can go to Menu > Settings > Reset app. This will take you through the onboarding process again, allowing you to select your start day and giving you access to 2022 content.",
+        "detailedAnswer": "The app logic is built to ask users if they would like to restart the year only once they have completed 255 days of readings, including Dec 31st. If you would like to restart the readings from the beginning before this point, you can do so by going to Menu > Settings > Reset app. \n\nThis will take you through the onboarding process again, allowing you to select your start day and giving you access to 2022 content. Please check your app is up to date (version 8.4.1 or later) if you can’t see the ‘reset’ button."
+      },
+      {
+        "title": "Have the 2022 readings been updated?",
+        "category": "Content",
+        "shortAnswer": "In 2022 we are only making slight tweaks to the content, so if you have done the Bible in One Year before, it may sound familiar to you. We trust however that God will speak to you through his word in fresh ways each year.",
+        "detailedAnswer": "In 2022 we are only making slight tweaks to the content, so if you have done the Bible in One Year before, it may sound familiar to you. We trust however that God will speak to you through his word in fresh ways each year."
       }
     ],
     "seeMore": "See More",
@@ -480,9 +504,9 @@
     "faqsItems": [
       {
         "title": "J'ai un problème d'affichage dans les commentaires, que faire ?",
-        "shortAnswer": "La version française de l'application étant une nouveauté, nous faisons face à un problème d'affichage dans certains commentaires. Si vous recontrez ce problème sur votre smartphone, nous vous encourageons à vous rendre dans les paramètres de l'application, puis à changer la langue de contenu (par exemple \"English\"), puis à nouveau changer la langue de contenu sur \"Français\". Merci de votre compréhension et désolé pour ce désagrément !\n\nNous faisons tout notre possible pour régler ce problème au plus vite.",
+        "shortAnswer": "La version française de l'application étant une nouveauté, nous faisons face à un problème d'affichage dans certains commentaires. Si vous recontrez ce problème sur votre smartphone, nous vous encourageons à vous rendre dans les paramètres de l'application, puis à changer la langue de contenu (par exemple \"English\"), puis à nouveau changer la langue de contenu sur \"Français\". Merci de votre compréhension et désolés pour ce désagrément !\n\nNous faisons tout notre possible pour régler ce problème au plus vite.",
         "category": "Content",
-        "detailedAnswer": "La version française de l'application étant une nouveauté, nous faisons face à un problème d'affichage dans certains commentaires, lorsqu'il y a des paragraphes décalés après un titre avec un numéro.\n\nSi vous recontrez ce problème sur votre smartphone, vous pouvez le régler comme suit :\n\n*  lorsque vous êtes dans la liste des jours, appuyez sur le bouton \"menu\" en bas à gauche (trois barres horizontales), puis sur le premier rectangle du menu \"Paramètres\" avec l'icone de roue dentée. Ensuite, appuyez sur \"Langue de contenu\" et sélectionnez par exemple \"English\". Puis enfin, au même endroit, sélectionnez à nouveau \"Français\".\n\nMerci de votre compréhension et désolé pour ce désagrément ! Nous faisons tout notre possible pour régler ce problème au plus vite."
+        "detailedAnswer": "La version française de l'application étant une nouveauté, nous faisons face à un problème d'affichage dans certains commentaires, lorsqu'il y a des paragraphes décalés après un titre avec un numéro.\n\nSi vous recontrez ce problème sur votre smartphone, vous pouvez le régler comme suit :\n\n* lorsque vous êtes dans la liste des jours, appuyez sur le bouton \"menu\" en bas à gauche (trois barres horizontales), puis sur le premier rectangle du menu \"Paramètres\" avec l'icone de roue dentée. Ensuite, appuyez sur \"Langue de contenu\" et sélectionnez par exemple \"English\". Puis enfin, au même endroit, sélectionnez à nouveau \"Français\".\n* vous pouvez aussi actualiser la journée lorsque vous êtes au début de cette dernière (tout en haut de la page défilante) et balayez l'écran vers le bas. Toutefois, l'actualisation ne se fera que pour la journée en question et il faudra, le cas échéant, refaire l'opération sur les autres jours où le problème a lieu.\n\nMerci de votre compréhension et désolés pour ce désagrément ! Nous faisons tout notre possible pour régler ce problème au plus vite."
       },
       {
         "title": "Puis-je accélérer/ralentir la vitesse du contenu audio ?",
