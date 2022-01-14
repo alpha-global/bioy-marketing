@@ -92,7 +92,7 @@
         "description": "Start reading today’s devotion right here on the BiOY website.",
         "image": "/assets/img/medium_laptop.jpg",
         "cta": {
-          "code": "<a href=\"#today\" class=\"whiteButton\">Read now</a>"
+          "code": "<a href=\"#todays-devotion\" class=\"whiteButton\">Read now</a>"
         }
       },
       {
@@ -246,8 +246,6 @@
     ]
   },
   "id": {
-    "distribution": [
-      {}
-    ]
+    "distribution": [{}]
   }
 }
