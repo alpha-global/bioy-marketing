@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "Marketing site for Bible in One Year",
   "scripts": {
-    "dev": "ELEVENTY_ENV=development eleventy --serve & mix watch",
     "11ty": "ELEVENTY_ENV=development eleventy --serve",
+    "dev": "npm run 11ty && mix watch",
     "dev:cleanSlate": "npm run wipe && ELEVENTY_ENV=development CLEAN_SLATE=true eleventy",
     "cms": "npx netlify-cms-proxy-server",
     "wipe": "rm -rf ./.cache && rm -rf ./build",
@@ -18,9 +18,9 @@
     "swipejs": "^2.3.1"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-cache-assets": "^2.2.1",
-    "@11ty/eleventy-img": "^0.9.0",
+    "@11ty/eleventy-img": "^1.0.0",
     "@ayctor/laravel-mix-svg-sprite": "^1.0.0",
     "@tailwindcss/typography": "^0.5.0",
     "autoprefixer": "^10.4.2",
