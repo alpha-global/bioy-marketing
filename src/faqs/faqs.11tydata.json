@@ -506,7 +506,7 @@
         "title": "J'ai un problème d'affichage dans les commentaires, que faire ?",
         "shortAnswer": "La version française de l'application étant une nouveauté, nous faisons face à un problème d'affichage dans certains commentaires. Si vous recontrez ce problème sur votre smartphone, nous vous encourageons à vous rendre dans les paramètres de l'application, puis à changer la langue de contenu (par exemple \"English\"), puis à nouveau changer la langue de contenu sur \"Français\". Merci de votre compréhension et désolés pour ce désagrément !\n\nNous faisons tout notre possible pour régler ce problème au plus vite.",
         "category": "Content",
-        "detailedAnswer": "La version française de l'application étant une nouveauté, nous faisons face à un problème d'affichage dans certains commentaires, lorsqu'il y a des paragraphes décalés après un titre avec un numéro.\n\nSi vous recontrez ce problème sur votre smartphone, vous pouvez le régler comme suit :\n\n* lorsque vous êtes dans la liste des jours, appuyez sur le bouton \"menu\" en bas à gauche (trois barres horizontales), puis sur le premier rectangle du menu \"Paramètres\" avec l'icone de roue dentée. Ensuite, appuyez sur \"Langue de contenu\" et sélectionnez par exemple \"English\". Puis enfin, au même endroit, sélectionnez à nouveau \"Français\".\n* vous pouvez aussi actualiser la journée lorsque vous êtes au début de cette dernière (tout en haut de la page défilante) et balayez l'écran vers le bas. Toutefois, l'actualisation ne se fera que pour la journée en question et il faudra, le cas échéant, refaire l'opération sur les autres jours où le problème a lieu.\n\nMerci de votre compréhension et désolés pour ce désagrément ! Nous faisons tout notre possible pour régler ce problème au plus vite."
+        "detailedAnswer": "La version française de l'application étant une nouveauté, nous faisons face à un problème d'affichage dans certains commentaires, lorsqu'il y a des paragraphes décalés après un titre avec un numéro.\n\nSi vous recontrez ce problème sur votre smartphone, vous pouvez le régler comme suit :\n\n* lorsque vous êtes dans la liste des jours, appuyez sur le bouton \"menu\" en bas à gauche (trois barres horizontales), puis sur le premier rectangle du menu \"Paramètres\" avec l'icone de roue dentée. Ensuite, appuyez sur \"Langue de contenu\" et sélectionnez par exemple \"English\". Puis enfin, au même endroit, sélectionnez à nouveau \"Français\".\n* vous pouvez aussi actualiser la journée lorsque vous êtes au début de cette dernière (tout en haut de la page défilante) et balayez l'écran vers le bas. Vous pouvez également balayer vers le bas lorsque vous êtes tout en haut de la liste des jours.\n\nMerci de votre compréhension et désolés pour ce désagrément ! Nous faisons tout notre possible pour régler ce problème au plus vite."
       },
       {
         "title": "Puis-je accélérer/ralentir la vitesse du contenu audio ?",
@@ -737,7 +737,7 @@
     "notFoundMessage": "Désolé, nous n'avons aucun résultat",
     "title": "FAQ",
     "filter": "Filtrer",
-    "backButton": "Back to all Frequently Asked Questions (FAQs)",
+    "backButton": "Retourner à la foire aux questions (FAQ)",
     "categories": {
       "Audio": "Audio",
       "Content": "Contenu",
