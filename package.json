@@ -4,7 +4,7 @@
   "description": "Marketing site for Bible in One Year",
   "scripts": {
     "11ty": "ELEVENTY_ENV=development eleventy --serve",
-    "dev": "npm run 11ty && mix watch",
+    "dev": "npm run 11ty & mix watch",
     "dev:cleanSlate": "npm run wipe && ELEVENTY_ENV=development CLEAN_SLATE=true eleventy",
     "cms": "npx netlify-cms-proxy-server",
     "wipe": "rm -rf ./.cache && rm -rf ./build",
