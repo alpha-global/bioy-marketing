@@ -22,6 +22,10 @@
       "helpText": "Registriere dich, um jeden Tag die Bibel in Einem Jahr in deinem Posteingang zu erhalten.",
       "privacyLink": "https://bibleinoneyear.org/en/privacy-policy/",
       "ButtonText": "Jetzt anmelden"
+    },
+    "404Page": {
+      "description": "Tut mir leid, diese Seite existiert nicht",
+      "goHomeButton": "Nach Hause gehen"
     }
   },
   "hi": {
@@ -30,6 +34,9 @@
       "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
       "cta": "Find out more",
       "closeButton": "Close"
+    },
+    "404Page": {
+      "description": "क्षमा करें, वह पृष्ठ मौजूद नहीं है"
     }
   },
   "en": {
@@ -55,6 +62,10 @@
       "privacyText": "If you would like to know how Alpha processes your data, please view Alpha's <Privacy Policy>.",
       "privacyLink": "https://bibleinoneyear.org/en/privacy-policy/",
       "ButtonText": "Sign up now"
+    },
+    "404Page": {
+      "description": "Sorry, that page doesn't exist",
+      "goHomeButton": "Go Home"
     }
   },
   "fr": {
@@ -80,6 +91,9 @@
       "privacyText": "Si vous souhaitez savoir comment Alpha traite vos données, veuillez consulter la <Politique de confidentialité> d'Alpha.",
       "privacyLink": "https://bibleinoneyear.org/fr/privacy-policy/",
       "ButtonText": "S'inscrire maintenant"
+    },
+    "404Page": {
+      "description": "Désolé, cette page n'existe pas"
     }
   },
   "es": {
@@ -91,6 +105,10 @@
       "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
       "cta": "Find out more",
       "closeButton": "Close"
+    },
+    "404Page": {
+      "description": "Lo siento, esa página no existe",
+      "goHomeButton": "Go Home"
     }
   },
   "zh": {
@@ -103,6 +121,9 @@
       "text": "This website stores data such as cookies to enable necessary site functionality and analytics. - ZH",
       "cta": "Find out more - ZH",
       "closeButton": "Close - ZH"
+    },
+    "404Page": {
+      "description": "抱歉，该页面不存在"
     }
   },
   "ar": {
@@ -119,6 +140,10 @@
       "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
       "cta": "Find out more",
       "closeButton": "Close"
+    },
+    "404Page": {
+      "description": "Sorry, that page doesn't exist",
+      "goHomeButton": "Go Home"
     }
   },
   "th": {
@@ -140,9 +165,17 @@
       "privacyText": "หากต้องการทราบว่า Alpha ประมวลผลข้อมูลของคุณอย่างไร โปรดดูใน <นโยบายความเป็นส่วนตัว> ของ Alpha",
       "privacyLink": "https://bibleinoneyear.org/en/privacy-policy/",
       "ButtonText": "ลงทะเบียนตอนนี้"
+    },
+    "404Page": {
+      "description": "ขออภัย หน้านั้นไม่มีอยู่จริง",
+      "goHomeButton": "Go Home"
     }
   },
   "id": {
-    "title": "Bible in One Year"
+    "title": "Bible in One Year",
+    "404Page": {
+      "description": "Maaf, halaman itu tidak ada",
+      "goHomeButton": "Go Home"
+    }
   }
 }
