@@ -974,6 +974,28 @@ collections:
                       },
                     ],
                 },
+                {
+                  name: "404Page",
+                  label: "404 Page",
+                  widget: "object",
+                  i18n: true,
+                  fields:
+                    [
+                      {
+                        label: "Description",
+                        name: "description",
+                        widget: "text",
+                        i18n: true,
+                      },
+                      {
+                        label: "Go Home Button",
+                        name: "goHomeButton",
+                        widget: "string",
+                        hint: "Go Home",
+                        i18n: true,
+                      },
+                    ],
+                },
               ],
           },
         ],
