@@ -110,7 +110,7 @@
     },
     "404Page": {
       "description": "Lo siento, esa página no existe",
-      "goHomeButton": "Go Home"
+      "goHomeButton": "Ir a la pagina principal"
     }
   },
   "zh": {
@@ -145,8 +145,8 @@
       "closeButton": "Close"
     },
     "404Page": {
-      "description": "Sorry, that page doesn't exist",
-      "goHomeButton": "Go Home"
+      "description": "عذرا ، هذه الصفحة غير موجودة",
+      "goHomeButton": "اذهب الى الصفحة الرئيسية"
     }
   },
   "th": {
@@ -171,14 +171,14 @@
     },
     "404Page": {
       "description": "ขออภัย หน้านั้นไม่มีอยู่จริง",
-      "goHomeButton": "Go Home"
+      "goHomeButton": "ไปที่หน้าแรก"
     }
   },
   "id": {
     "title": "Bible in One Year",
     "404Page": {
       "description": "Maaf, halaman itu tidak ada",
-      "goHomeButton": "Go Home"
+      "goHomeButton": "Pergi ke beranda"
     }
   }
 }
