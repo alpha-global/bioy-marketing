@@ -1,3 +1,5 @@
+const { locales } = require("../../_data/globals");
+
 export default () => {
   return {
     currentUserLocale: "",
@@ -7,7 +9,7 @@ export default () => {
     getUserLocale() {
       const browserLocale = navigator.language;
       const userLocale = browserLocale.split("-")[0];
-      return userLocale;
+      return locales.includes(userLocale) ? userLocale : "en";
     },
     goHome() {
       const hostname = location.host;
