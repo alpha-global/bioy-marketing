@@ -15,5 +15,8 @@ export default () => {
       const url = `${protocol}//${hostname}/${this.currentUserLocale}`;
       window.location.assign(url);
     },
+    errorMessageForLocale(locale) {
+      return locale === this.currentUserLocale ? true : false;
+    },
   };
 };
