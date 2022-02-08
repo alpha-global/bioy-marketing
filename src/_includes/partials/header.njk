@@ -18,20 +18,22 @@
                 <button>{{ editions[locale].classic }}</button>
               </a>
             {% endif %}
-            {% if editions[locale].youth and (devotion.variant !== 'youth') %}
-               <a href="/{{ locale }}/youth/{{ devotion.devotionId }}" class="block text-white text-xs py-3 pl-2 pr-4">
-                  <button>{{ editions[locale].youth }}</button>
-                </a>
+            {% if editions[locale].youth and(devotion.variant !== 'youth') %}
+              <a href="/{{ locale }}/youth/{{ devotion.devotionId }}" class="block text-white text-xs py-3 pl-2 pr-4">
+                <button>{{ editions[locale].youth }}</button>
+              </a>
             {% endif %}
-            {% if editions[locale].express and (devotion.variant !== 'express') %}
-                <a href="/{{ locale }}/express/{{ devotion.devotionId }}" class="block text-white text-xs py-3 pl-2 pr-4">
-                  <button>{{ editions[locale].express }}</button>
-                </a>
-            {% endif %}       
-            {% if not editions[locale].youth and not editions[locale].express %}
+            {% if editions[locale].express and(devotion.variant !== 'express') %}
+              <a href="/{{ locale }}/express/{{ devotion.devotionId }}" class="block text-white text-xs py-3 pl-2 pr-4">
+                <button>{{ editions[locale].express }}</button>
+              </a>
+            {% endif %}
+            {% if not editions[locale]
+              .youth and not editions[locale]
+              .express %}
               <span class="block text-white text-xs py-3 pl-2 pr-4">No other editions available in your chosen language</span>
             {% endif %}
-           
+
           </div>
         </div>
         {% if locale %}
@@ -52,11 +54,8 @@
       {% endif %}
     </div>
   </h1>
-  <div x-data="app.baseViewModel" x-init="init()" class="absolute top-0 right-0 pt-2 pr-2 flex flex-row-reverse justify-center items-center rtl:pr-0 rtl:pl-2 rtl:left-0
-                                                                                                                                                                  rtl:right-auto md:hidden">
-    <a href="/{{ locale }}/#start" :href="deviceUrl('{{ locale }}', '{{ globals.stores.android }}', '{{ globals.stores.ios }}')" class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red
-                                                                                                                                                                                                                        transition-colors">
-      {{ navigation[locale].download }}
+  <div x-data="app.baseViewModel" class="absolute top-0 right-0 pt-2 pr-2 flex flex-row-reverse justify-center items-center rtl:pr-0 rtl:pl-2 rtl:left-0 rtl:right-auto md:hidden">
+    <a href="/{{ locale }}/#start" :href="deviceUrl('{{ locale }}', '{{ globals.stores.android }}', '{{ globals.stores.ios }}')" class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors">{{ navigation[locale].download }}
     </a>
   </div>
 </header>
@@ -72,20 +71,20 @@
     <a href="/{{ locale }}/about" class="flex flex-col items-center justify-center {{ 'text-red' if activePage == 'about' }} md:py-1.5 md:mr-4
                                                                                                                                                                                                                         md:underline">
       {% svgSprite name="about", class="fill-current h-6 w-6 mb-1 sm:h-8 sm:w-8 md:hidden" %}
-       {{ navigation[locale].about }}
+      {{ navigation[locale].about }}
     </a>
     <a href="/{{ locale }}/faqs" class="flex flex-col items-center justify-center {{ 'text-red' if activePage == 'help' }} md:py-1.5 md:mr-4 md:underline">
       {% svgSprite name="help", class="fill-current h-6 w-6 mb-1 sm:h-8 sm:w-8 md:hidden" %}
-       {{ navigation[locale].faqs }}
+      {{ navigation[locale].faqs }}
     </a>
     <a href="/{{ locale }}/donate" class="flex flex-col items-center justify-center {{ 'text-red' if activePage == 'donate' }} md:py-1.5 md:mr-4
                                                                                                                                                                                                                         md:underline">
       {% svgSprite name="donate", class="fill-current h-6 w-6 mb-1 sm:h-8 sm:w-8 md:hidden" %}
-       {{ navigation[locale].donate }}
+      {{ navigation[locale].donate }}
     </a>
     <a class="hidden bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors
                                                                                                                                                                     no-underline mr-4 md:flex" href="/{{ locale }}/#start" :href="deviceUrl('{{ locale }}', '{{ globals.stores.android }}', '{{ globals.stores.ios }}')">
-       {{ navigation[locale].download }}
+      {{ navigation[locale].download }}
     </a>
   </div>
 </nav>

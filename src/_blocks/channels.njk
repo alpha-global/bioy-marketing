@@ -1,7 +1,6 @@
 <section
   class="lg:container mx-auto p-4"
   x-data="app.mediumViewModel"
-  x-init="init()"
   id="start"
 >
   <div class="relative lg:rounded">
@@ -38,7 +37,7 @@
             rtl:pl-0 rtl:pr-36
             lg:rounded-lg
           "
-        >  
+        >
             {% if medium.icon !== 'medium_podcast' %}
               <div class="max-w-xs">
 
@@ -60,74 +59,79 @@
                   <h4 class="text-xl font-bold mb-3">{{ medium.channel }}</h4>
                   {{ medium.description | markdown | safe }}
                 </div>
-                
+
                 {% if (podcastUrls[locale].podcasts | length) !== 0 %}
-                <div class="md:flex md:items-center md:justify-center lg:hidden mt-4 md:mt-8">
-                  <div class="relative md:max-w-xs">
+                  <div class="md:flex md:items-center md:justify-center lg:hidden mt-4 md:mt-8">
+                    <div class="relative md:max-w-xs">
                       {% if (podcastUrls[locale].podcasts | length) > 1 %}
-                    <div class="flex items-center justify-between w-full absolute top-1">
-                      <button class="flex items-center justify-center z-10 px-2" id="previous">{% svgSprite name = "back",
-                        class = "h-8 w-8 rtl:rotate-180" %}</button>
-                      <button class="flex items-center justify-center z-10 px-2" id="next">{% svgSprite name = "forward",
-                        class = "h-8 w-8 rtl:rotate-180" %}</button>
-                    </div>
-                    {% endif %}
-                    <div id="podcast" class="relative overflow-hidden invisible flex flex-col max-w-xs">
-                      <div class="relative overflow-hidden flex items-center">
-                        
-                        {% for podcast in podcastUrls[locale].podcasts %}
-                          <div class="relative float-left w-full overflow-hidden">
-                            <div class="space-y-4">
-                              <p class="text-center font-bold">{{podcast.edition}}</p>
-                              {% for feed in podcast.feeds %}
-                              <a href="{{ feed.url }}" class="podcast-link" style="text-decoration:none">
-                                  {% if feed.icon === 'spotify_podcasts' %}
-                                    {% svgSprite name="spotify_podcasts", class="h-8 w-8" %}
-                                  {% elif feed.icon === 'apple_podcasts' %}
-                                      {% svgSprite name="apple_podcasts", class="h-8 w-8" %}
-                                  {% elif feed.icon === 'google_podcasts' %}
-                                      {% svgSprite name="google_podcasts", class="h-8 w-8" %}
-                                  {% endif %}
-                                <span>{{ feed.name }}</span>
-                              </a>
-                              {% endfor %}
+                        <div class="flex items-center justify-between w-full absolute top-1">
+                          <button class="flex items-center justify-center z-10 px-2" id="previous">{% svgSprite name = "back",
+                            class = "h-8 w-8 rtl:rotate-180" %}</button>
+                          <button class="flex items-center justify-center z-10 px-2" id="next">{% svgSprite name = "forward",
+                            class = "h-8 w-8 rtl:rotate-180" %}</button>
+                        </div>
+                      {% endif %}
+                      <div id="podcast" class="relative overflow-hidden invisible flex flex-col max-w-xs">
+                        <div class="relative overflow-hidden flex items-center">
+
+                          {% for podcast in podcastUrls[locale].podcasts %}
+                            <div class="relative float-left w-full overflow-hidden">
+                              <div class="space-y-4">
+                                <p class="text-center font-bold">{{podcast.edition}}</p>
+                                {% for feed in podcast.feeds %}
+                                  <a href="{{ feed.url }}" class="podcast-link" style="text-decoration:none">
+                                    {% if feed.icon === 'spotify_podcasts' %}
+                                      {% svgSprite name = "spotify_podcasts",
+                                      class = "h-8 w-8" %}
+                                    {% elif feed.icon === 'apple_podcasts' %}
+                                      {% svgSprite name = "apple_podcasts",
+                                      class = "h-8 w-8" %}
+                                    {% elif feed.icon === 'google_podcasts' %}
+                                      {% svgSprite name = "google_podcasts",
+                                      class = "h-8 w-8" %}
+                                    {% endif %}
+                                    <span>{{ feed.name }}</span>
+                                  </a>
+                                {% endfor %}
+                              </div>
                             </div>
-                          </div>
-                        {% endfor %}
+                          {% endfor %}
 
+                        </div>
                       </div>
-                    </div>
-                    
-                    {% if (podcastUrls[locale].podcasts | length) > 1 %}
-                    <div class="flex items-center justify-center space-x-1 rtl:space-x-reverse mt-4">
-                      {% for podcast in podcastUrls[locale].podcasts %}
-                        <button data-index="{{ loop.index0 }}" class="podcast-pagination"></button>
-                      {% endfor %}
-                    </div>
-                    {% endif %}
-                  </div>
-                </div>
-              
 
-                <div class="hidden lg:flex  rtl:space-x-reverse lg:mt-8 {% if devotion %} lg:space-x-6 {% else %} lg:space-x-11 {% endif %}">
-                  {% for podcast in podcastUrls[locale].podcasts %}
-                    <div class="space-y-4">
-                      <p class="font-bold">{{podcast.edition}}</p>
-                      {% for feed in podcast.feeds %}
+                      {% if (podcastUrls[locale].podcasts | length) > 1 %}
+                        <div class="flex items-center justify-center space-x-1 rtl:space-x-reverse mt-4">
+                          {% for podcast in podcastUrls[locale].podcasts %}
+                            <button data-index="{{ loop.index0 }}" class="podcast-pagination"></button>
+                          {% endfor %}
+                        </div>
+                      {% endif %}
+                    </div>
+                  </div>
+
+                  <div class="hidden lg:flex  rtl:space-x-reverse lg:mt-8 {% if devotion %} lg:space-x-6 {% else %} lg:space-x-11 {% endif %}">
+                    {% for podcast in podcastUrls[locale].podcasts %}
+                      <div class="space-y-4">
+                        <p class="font-bold">{{podcast.edition}}</p>
+                        {% for feed in podcast.feeds %}
                           <a href="{{ feed.url }}" class="podcast-link" style="text-decoration:none">
-                          {% if feed.icon === 'spotify_podcasts' %}
-                              {% svgSprite name="spotify_podcasts", class="h-8 w-8" %}
-                          {% elif feed.icon === 'apple_podcasts' %}
-                              {% svgSprite name="apple_podcasts", class="h-8 w-8" %}
-                          {% elif feed.icon === 'google_podcasts' %}
-                              {% svgSprite name="google_podcasts", class="h-8 w-8" %}
-                          {% endif %}
+                            {% if feed.icon === 'spotify_podcasts' %}
+                              {% svgSprite name = "spotify_podcasts",
+                              class = "h-8 w-8" %}
+                            {% elif feed.icon === 'apple_podcasts' %}
+                              {% svgSprite name = "apple_podcasts",
+                              class = "h-8 w-8" %}
+                            {% elif feed.icon === 'google_podcasts' %}
+                              {% svgSprite name = "google_podcasts",
+                              class = "h-8 w-8" %}
+                            {% endif %}
                             <span>{{ feed.name }}</span>
                           </a>
-                      {% endfor %}
+                        {% endfor %}
                       </div>
-                  {% endfor %}
-                </div>
+                    {% endfor %}
+                  </div>
                 {% endif %}
 
               </div>
@@ -150,9 +154,9 @@
       "
       x-ref="mediaNav"
     >
-    {% for medium in channels[locale].distribution %}
+      {% for medium in channels[locale].distribution %}
         {% if medium | length %}
-           <button
+          <button
               class="
                 flex-1 flex flex-col
                 items-center
@@ -167,21 +171,21 @@
               @click="mediaFocus = {{ loop.index0 }}"
               style="min-height: 6rem"
             >
-              {% if medium.icon === 'medium_app' %}
-                {% svgSprite name="medium_app", class="fill-current h-10 w-10 mb-1" %}
-              {% elif medium.icon === 'medium_email' %}
-                 {% svgSprite name="medium_email", class="fill-current h-10 w-10 mb-1" %}
-              {% elif medium.icon === 'medium_podcast' %}
-                 {% svgSprite name="medium_podcast", class="fill-current h-10 w-10 mb-1" %}
-              {% elif medium.icon === 'medium_website' %}
-                 {% svgSprite name="medium_website", class="fill-current h-10 w-10 mb-1" %}
-              {% else %}
-                {% svgSprite name="medium_book", class="fill-current h-10 w-10 mb-1" %}
-              {% endif %}
+            {% if medium.icon === 'medium_app' %}
+              {% svgSprite name="medium_app", class="fill-current h-10 w-10 mb-1" %}
+            {% elif medium.icon === 'medium_email' %}
+              {% svgSprite name="medium_email", class="fill-current h-10 w-10 mb-1" %}
+            {% elif medium.icon === 'medium_podcast' %}
+              {% svgSprite name="medium_podcast", class="fill-current h-10 w-10 mb-1" %}
+            {% elif medium.icon === 'medium_website' %}
+              {% svgSprite name="medium_website", class="fill-current h-10 w-10 mb-1" %}
+            {% else %}
+              {% svgSprite name="medium_book", class="fill-current h-10 w-10 mb-1" %}
+            {% endif %}
             <div>{{ medium.channel }}</div>
           </button>
         {% endif %}
-    {% endfor %}    
+      {% endfor %}
     </div>
   </div>
 </section>
