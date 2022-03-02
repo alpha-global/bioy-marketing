@@ -14,14 +14,6 @@ async function fetchDevotionRange(
   locale = "en_GB",
   variant = "classic"
 ) {
-  if (
-    locale === "de" ||
-    locale === "th" ||
-    locale === "fr" ||
-    locale === "id"
-  ) {
-    from = 1;
-  }
   const url = `https://api.bioydata.com/api/v2/devotion/from/${from}/to/${to}?locale=${locale}&variant=${variant}&format=html`;
   let devotions = await _fetchDevotionRangeFromUrl(url, []);
   devotions.forEach((_, index) => {
@@ -69,13 +61,13 @@ module.exports = async function (fullImport = false) {
     var diff = now - start;
     var oneDay = 1000 * 60 * 60 * 24;
     var day = Math.floor(diff / oneDay);
-     if (day < 11) {
-       startDayNumber = 1;
-       endDayNumber = 10;
-     } else {
-       startDayNumber = day - 5;
-       endDayNumber = day + 2;
-     }
+    if (day < 11) {
+      startDayNumber = 1;
+      endDayNumber = 10;
+    } else {
+      startDayNumber = day - 5;
+      endDayNumber = day + 2;
+    }
   }
 
   try {
