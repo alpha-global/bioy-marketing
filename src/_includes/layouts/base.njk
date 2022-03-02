@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ locale }}"{% if locale == 'ar'%} dir="rtl" {% else %} dir="ltr" {% endif %}>
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
 
     <link rel="preload" href="/assets/css/app.css?{{ globals.cacheBuster }}" as="style">
     <link rel="preload" href="/assets/fonts/ITCAvantGardeStd-Md.woff2" as="font" type="font/woff2" crossorigin>
@@ -17,25 +17,41 @@
       href="/assets/css/app.css?{{ globals.cacheBuster }}"
       media="screen"
       type="text/css"
-    />
+/>
 
-    <link rel="shortcut icon" href="/assets/icon/favicon.ico" />
+    <link rel="shortcut icon" href="/assets/icon/favicon.ico"/>
     {% include 'partials/meta.njk' %}
 
     {% if globals.env == 'production' %}
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PXPGP5Q');</script>
+      <script>
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || [];
+          w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+          var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer'
+              ? '&l=' + l
+              : '';
+          j.async = true;
+          j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+          f
+            .parentNode
+            .insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PXPGP5Q');
+      </script>
     {% endif %}
   </head>
 
   <body
     x-data="app.baseViewModel"
-    x-init="init()"
     @keydown.escape="isLangPickerOpen = false"
   >
 
-  {% if globals.env == 'production' %}
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXPGP5Q" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  {% endif %}
+    {% if globals.env == 'production' %}
+      <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXPGP5Q" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+      </noscript>
+    {% endif %}
 
     {% include 'partials/header.njk' %}
 
@@ -46,41 +62,43 @@
     {% include 'partials/footer.njk' %}
 
     {% if page.url != '/' %}
-    <!-- scrim -->
-    <div
+      <!-- scrim -->
+      <div
       class="overflow-auto"
       x-show="isLangPickerOpen"
       :class="{ 'bg-black bg-opacity-70 fixed inset-0 z-10 flex items-start justify-center': isLangPickerOpen }"
     >
-      <!-- dialog -->
-      <div
+        <!-- dialog -->
+        <div
         class="shadow-2xl w-full m-8 md:max-w-sm bg-white border-t-4 border-red py-8 px-4 rounded"
         x-show="isLangPickerOpen"
         @click.away="isLangPickerOpen = false"
       >
-        <h2 class="text-xl md:text-2xl text-red font-bold mb-2">
-          {{ site.switcher.title }}
-        </h2>
-        <p class="text-grey mb-4">
-          {{ site.switcher.subTitle }}
-        </p>
-        <ul>
-          {% for lang in globals.languages %}
-          {% if lang.locale in globals.liveLanguages %}
-          <li class="mb-4">
-            <a class="text-red underline" href="/{{ lang.locale }}">{{
+          <h2 class="text-xl md:text-2xl text-red font-bold mb-2">
+            {{ site.switcher.title }}
+          </h2>
+          <p class="text-grey mb-4">
+            {{ site.switcher.subTitle }}
+          </p>
+          <ul>
+            {% for lang in globals.languages %}
+              {% if lang.locale in globals.liveLanguages %}
+                <li class="mb-4">
+                  <a class="text-red underline" href="/{{ lang.locale }}">{{
               lang.language
             }}</a>
-          </li>
-          {% endif %}
-          {% endfor %}
-        </ul>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
       </div>
-    </div>
     {% endif %}
 
     <div x-show="isCookieBoxOpen" class="fixed bottom-20 z-10 bg-white bg-opacity-90 drop-shadow-lg filter right-4 left-4 p-4 flex flex-col sm:bottom-24 md:bottom-4 md:max-w-md md:right-auto">
-      <p class="text-sm">{{ siteLocal[locale].cookies.text }} <a class="text-red underline hover:text-red-darker md:block" href="/{{ locale }}/cookies">{{ siteLocal[locale].cookies.cta }}</a></p>
+      <p class="text-sm">{{ siteLocal[locale].cookies.text }}
+        <a class="text-red underline hover:text-red-darker md:block" href="/{{ locale }}/cookies">{{ siteLocal[locale].cookies.cta }}</a>
+      </p>
       <button class="mt-2 btn bg-red text-white hover:bg-red-dark" @click="acceptCookies()">{{ siteLocal[locale].cookies.closeButton }}</button>
     </div>
 

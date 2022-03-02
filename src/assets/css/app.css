@@ -181,3 +181,7 @@
   border-right-width: 0.25rem;
   border-right-color: #e5e7eb;
 }
+
+[x-cloak] {
+  display: none !important;
+}

@@ -4,12 +4,12 @@ import Swipe from "swipejs";
 import baseViewModel from "./baseViewModel.js";
 import faqsViewModel from "./faqsViewModel.js";
 import mediumViewModel from "./mediumViewModel.js";
+import errorPageViewModel from "./errorPageViewModel.js";
 const { locales } = require("../../_data/globals");
 
 import helpers from "./helpers.js";
 
 window.app = new (function () {
-
   return {
     init() {},
 
@@ -17,6 +17,7 @@ window.app = new (function () {
     faqsViewModel,
     mediumViewModel,
     helpers,
+    errorPageViewModel,
   };
 })();
 

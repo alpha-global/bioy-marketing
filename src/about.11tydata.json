@@ -42,7 +42,10 @@
       },
       "cta": "Hol dir die App. Wähle deinen Stil."
     },
-    "body": "**Bibel in einem Jahr ist ein Bibelleseplan, der dich in 365 Tagen durch die gesamt Bibel führt. Er ist ideal für alle, die einen einfachen Weg suchen, die Bibel zu lesen und zu verstehen.**\n\nJeder Tag enthält Abschnitte aus einem Psalm oder den Sprüchen, dem Neuen und dem Alten Testament sowie einen ansprechenden Kommentar von Nicky und Pippa Gumbel, Leiter der [Holy Trinity Brompton (HTB)](https://htb.org/) - Kirche in London und Pioniere von [Alpha](https://alpha.org/).  \n\nBibel in einem Jahr hilft dir, dich intensiver mit der Bibel auseinanderzusetzen, die Prinzipien im täglichen Leben anzuwenden und in deiner Beziehung zu Jesus zu wachsen.\n\nDu kannst die Texte entweder lesen oder anhören. Und, je nachdem, was besser zu dir und deinem Lebensstil passt, wählst du die Classic-Version (ca. 25 Minuten) oder die etwas kürzere Express-Version (ca. 10 Minuten). \n\nÜber 4,5 Millionen Menschen aus 160 Ländern nutzen Bibel in einem Jahr . Schließ dich ihnen an, lass dich von der Bibel begeistern und komm so Gott näher."
+    "body": "**Bibel in einem Jahr ist ein Bibelleseplan, der dich in 365 Tagen durch die gesamt Bibel führt. Er ist ideal für alle, die einen einfachen Weg suchen, die Bibel zu lesen und zu verstehen.**\n\nJeder Tag enthält Abschnitte aus einem Psalm oder den Sprüchen, dem Neuen und dem Alten Testament sowie einen ansprechenden Kommentar von Nicky und Pippa Gumbel, Leiter der [Holy Trinity Brompton (HTB)](https://htb.org/) - Kirche in London und Pioniere von [Alpha](https://alpha.org/).  \n\nBibel in einem Jahr hilft dir, dich intensiver mit der Bibel auseinanderzusetzen, die Prinzipien im täglichen Leben anzuwenden und in deiner Beziehung zu Jesus zu wachsen.\n\nDu kannst die Texte entweder lesen oder anhören. Und, je nachdem, was besser zu dir und deinem Lebensstil passt, wählst du die Classic-Version (ca. 25 Minuten) oder die etwas kürzere Express-Version (ca. 10 Minuten). \n\nÜber 4,5 Millionen Menschen aus 160 Ländern nutzen Bibel in einem Jahr . Schließ dich ihnen an, lass dich von der Bibel begeistern und komm so Gott näher.",
+    "cta": true,
+    "editions": false,
+    "testimonials": true
   },
   "es": {
     "header": {
@@ -71,7 +74,10 @@
       },
       "cta": "Téléchargez l'application. Trouvez votre rythme."
     },
-    "body": "**La Bible en 1 an est un plan de lecture biblique quotidien qui vous fait parcourir toute la Bible en 365 jours. Il est idéal pour tous ceux qui recherchent un moyen simple et accessible de lire et de comprendre la Bible.**\n\nChaque jour comprend des passages d'un psaume ou d'un proverbe, du Nouveau Testament et de l'Ancien Testament, ainsi qu'un commentaire quotidien de Nicky & Pippa Gumbel, dirigeants de l'église [Holy Trinity Brompton (HTB)](https://htb.org/) à Londres et pionniers d'[Alpha](https://www.parcoursalpha.fr/). La Bible en 1 an vous encouragera à vous engager plus étroitement avec la Bible, à appliquer ses enseignements à la vie de tous les jours et à grandir dans votre relation avec Jésus.\n\nVous pouvez suivre en lisant le texte ou en écoutant le commentaire audio et vous pouvez choisir la version qui convient le mieux à votre style de vie ; la version Classique (25 minutes), ou une version plus courte, Express ou Jeunesse (environ 15 minutes chacune).\n\nPlus de 4,5 millions de personnes de 160 pays ont fait l'expérience de la Bible en 1 an. Pourquoi ne pas les rejoindre, trouver votre propre rythme et vous rapprocher de Dieu ?"
+    "body": "**La Bible en 1 an est un plan de lecture biblique quotidien qui vous fait parcourir toute la Bible en 365 jours. Il est idéal pour tous ceux qui recherchent un moyen simple et accessible de lire et de comprendre la Bible.**\n\nChaque jour comprend des passages d'un psaume ou d'un proverbe, du Nouveau Testament et de l'Ancien Testament, ainsi qu'un commentaire quotidien de Nicky & Pippa Gumbel, dirigeants de l'église [Holy Trinity Brompton (HTB)](https://htb.org/) à Londres et pionniers d'[Alpha](https://www.parcoursalpha.fr/). La Bible en 1 an vous encouragera à vous engager plus étroitement avec la Bible, à appliquer ses enseignements à la vie de tous les jours et à grandir dans votre relation avec Jésus.\n\nVous pouvez suivre en lisant le texte ou en écoutant le commentaire audio et vous pouvez choisir la version qui convient le mieux à votre style de vie ; la version Classique (25 minutes), ou une version plus courte, Express ou Jeunesse (environ 15 minutes chacune).\n\nPlus de 4,5 millions de personnes de 160 pays ont fait l'expérience de la Bible en 1 an. Pourquoi ne pas les rejoindre, trouver votre propre rythme et vous rapprocher de Dieu ?",
+    "cta": true,
+    "editions": false,
+    "testimonials": true
   },
   "hi": {
     "header": {
@@ -94,7 +100,10 @@
       },
       "strapline": "That's 365 days well spent! - Thai",
       "cta": "Download the app. Find your rhythm. Thai"
-    }
+    },
+    "cta": true,
+    "editions": false,
+    "testimonials": true
   },
   "zh": {
     "header": {

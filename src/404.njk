@@ -7,9 +7,18 @@ permalink: 404.html
 eleventyExcludeFromCollections: true
 ---
 
-<div class="text-center py-12 mb-4 md:mb-8">
-  <h1 class="text-xl font-bold mb-4">Sorry, that page doesn't exist</h1>
-  <a class="no-underline inline-block bg-white text-red border border-red rounded p-2 pb-1.5 hover:bg-red hover:text-white transition-colors" href="/">Go home</a>
+<div x-data="app.errorPageViewModel" class="text-center py-12 mb-4 md:mb-8">
+  {% for lang in globals.languages %}
+    <div x-cloak x-show="errorMessageForLocale('{{lang.locale}}')">
+      <h1 class="text-xl font-bold mb-4">
+        {{ siteLocal[lang.locale].404Page.description }}
+      </h1>
+      <a class="no-underline inline-block bg-white text-red border border-red rounded p-2 pb-1.5 hover:bg-red hover:text-white transition-colors cursor-pointer" @click="goHome">
+        {{ siteLocal[lang.locale].404Page.goHomeButton }}
+      </a>
+    </div>
+  {% endfor %}
+
 </div>
 
 {% include './_blocks/cta.njk' %}
