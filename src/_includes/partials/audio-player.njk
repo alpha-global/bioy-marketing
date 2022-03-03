@@ -1,0 +1,35 @@
+<section x-data="app.audioPlayerModel" class="bg-grey-light pt-[34px] rounded-lg">
+
+    <div class="grid grid-cols-3 font-semibold px-[34px]">
+        <p>1x</p>
+        <p class="">{{audio.length}}</p>
+    </div>
+    <div>
+        <audio x-ref="audio">
+            <source src="{{audio.url}}" type="audio/mpeg">
+            <p>Your browser doesn't support HTML5 audio. Here is a <a href="{{audio.url}}">link to the audio</a> instead.</p>
+        </audio>
+        <div class="grid grid-cols-5 space-x-2">
+            <button class="flex" @click="skipBack()">
+                {% svgSprite name="skip-back", class="h-10 w-auto" %}
+            </button>
+            <button class="flex"  @click="speedBack()">
+                {% svgSprite name="speed-back", class="h-10 w-auto" %}
+            </button>
+            <button class="flex" @click="player()">
+                <template x-if="!isPlaying">
+                    {% svgSprite name="play", class="h-10 w-auto" %}
+                </template>
+                <template x-if="isPlaying">
+                    {% svgSprite name="pause", class="h-10 w-auto" %}
+                </template>
+            </button>
+            <button class="flex"  @click="speedForwards()">
+                {% svgSprite name="speed-forwards", class="h-10 w-auto" %}
+            </button>
+            <button class="flex" @click="skipForwards()">
+                {% svgSprite name="skip-forwards", class="h-10 w-auto" %}
+            </button>
+        </div>
+    </div>
+</section>
