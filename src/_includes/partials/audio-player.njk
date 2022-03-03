@@ -2,10 +2,11 @@
 
     <div class="grid grid-cols-3 font-semibold px-[34px]">
         <p>1x</p>
-        <p class="">{{audio.length}}</p>
+        <p x-text="totalTime"></p>
+        <p x-text="progressTime"></p>
     </div>
     <div>
-        <audio x-ref="audio">
+        <audio x-ref="audio" preload="metadata">
             <source src="{{audio.url}}" type="audio/mpeg">
             <p>Your browser doesn't support HTML5 audio. Here is a <a href="{{audio.url}}">link to the audio</a> instead.</p>
         </audio>
