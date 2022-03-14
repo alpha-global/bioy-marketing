@@ -2,8 +2,13 @@
 
     <div class="grid grid-cols-3 font-semibold px-[34px]">
         <p>1x</p>
-        <p x-text="totalTime"></p>
-        <p x-text="progressTime"></p>
+    </div>
+    <div class="px-[34px] w-full">
+        <input class="rounded-lg overflow-hidden appearance-none bg-red h-3 w-128 w-full" type="range" max="100" value="0" >
+    </div>
+    <div class="flex justify-between items-center font-semibold px-[34px]">
+        <span x-text="progressTime"></span>
+        <span x-text="totalTime"></span>
     </div>
     <div>
         <audio x-ref="audio" preload="metadata">
