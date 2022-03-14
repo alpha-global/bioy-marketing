@@ -7,6 +7,8 @@ export default () => {
     hours: 0,
     progressTime: "00:00",
     totalTime: "00:00",
+    progress: 0,
+    range: 0,
 
     init() {
       this.$refs.audio.onloadedmetadata = () =>
@@ -14,6 +16,13 @@ export default () => {
 
       setInterval(() => {
         this.progressTime = this.formatTime(this.$refs.audio.currentTime);
+        this.progress =
+          (this.$refs.audio.currentTime / this.$refs.audio.duration) * 100;
+      });
+
+      this.$watch("range", () => {
+        this.$refs.audio.currentTime =
+          (this.range * this.$refs.audio.duration) / 100;
       });
     },
     formatTime(time) {

@@ -2,9 +2,13 @@
 
     <div class="grid grid-cols-3 font-semibold px-[34px]">
         <p>1x</p>
+        <p>Range: <span x-text="range"></span></p>
     </div>
-    <div class="px-[34px] w-full">
-        <input class="rounded-lg overflow-hidden appearance-none bg-red h-3 w-128 w-full" type="range" max="100" value="0" >
+
+    <div class="mx-3 relative mb-2">
+        <input class="absolute top-0 z-10" type="range" min="0" max="100" x-model="range" :value="progress">
+        <div class="bg-[#E5E5E5] h-1 w-full top-0 absolute z-0"></div>
+        <div class="bg-red h-1 top-0 absolute" :style="{ width: progress + '%' }"></div>
     </div>
     <div class="flex justify-between items-center font-semibold px-[34px]">
         <span x-text="progressTime"></span>
