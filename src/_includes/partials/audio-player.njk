@@ -1,4 +1,9 @@
-<section x-data="app.audioPlayerModel" class="bg-[#F5F5F5] pt-[34px] pb-4 rounded-2xl">
+{% set bookmarks = [] %}
+{% for chapter in audio.chapters %}
+    {% set bookmarks = (bookmarks.push(chapter.start), bookmarks) %}
+{% endfor %}
+
+<section x-data="app.audioPlayerModel" x-init="getChapters('{{bookmarks}}')" class="bg-[#F5F5F5] pt-[34px] pb-4 rounded-2xl">
     <div class="max-w-sm md:max-w-md lg:max-w-full mx-auto px-[16px] text-sm md:text-base">
         <div class="flex justify-between text-sm md:text-base font-medium">
             <p>1x</p>

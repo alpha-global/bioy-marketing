@@ -10,6 +10,7 @@ export default () => {
     progress: 0,
     range: 0,
     currentChapter: 0,
+    bookmarks: [],
 
     init() {
       this.$refs.audio.onloadedmetadata = () =>
@@ -70,13 +71,29 @@ export default () => {
       this.$refs.audio.currentTime += 15;
     },
     skipForwards() {
-      this.$refs.audio.pause();
+      for (let i = 0; i < this.bookmarks.length; i++) {
+        if (Number(this.bookmarks[i]) > this.$refs.audio.currentTime) {
+          this.$refs.audio.currentTime = Number(this.bookmarks[i]);
+          break;
+        }
+      }
     },
-    skipBack() {},
+
+    skipBack() {
+      for (let i = this.bookmarks.length - 1; i >= 0; i--) {
+        if (Number(this.bookmarks[i]) < this.$refs.audio.currentTime) {
+          this.$refs.audio.currentTime = Number(this.bookmarks[i]);
+          break;
+        }
+      }
+    },
     showChapterTitle(start, end = this.$refs.audio.duration) {
       let startTime = (start / this.$refs.audio.duration) * 100;
       let endTime = (end / this.$refs.audio.duration) * 100;
       return this.progress > startTime && this.progress < endTime;
+    },
+    getChapters(bookmarks) {
+      this.bookmarks = bookmarks.split(",");
     },
   };
 };
