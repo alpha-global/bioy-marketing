@@ -1,44 +1,43 @@
-<section x-data="app.audioPlayerModel" class="bg-grey-light pt-[34px] rounded-lg">
+<section x-data="app.audioPlayerModel" class="bg-[#F5F5F5] pt-[34px] rounded-2xl">
 
-    <div class="grid grid-cols-3 font-semibold px-[34px]">
-        <p>1x</p>
-        <p>Range: <span x-text="range"></span></p>
-        <p>Progress: <span x-text="progress"></span></p>
-    </div>
-
-    <div class="mx-3 mb-2">
-        <input  x-ref="input" class="w-full" type="range" min="0" max="100" x-model="range" :value="progress">
-    </div>
-    <div class="flex justify-between items-center font-semibold px-[34px]">
-        <span x-text="progressTime"></span>
-        <span x-text="totalTime"></span>
-    </div>
-    <div>
-        <audio x-ref="audio" preload="metadata">
-            <source src="{{audio.url}}" type="audio/mpeg">
-            <p>Your browser doesn't support HTML5 audio. Here is a <a href="{{audio.url}}">link to the audio</a> instead.</p>
-        </audio>
-        <div class="grid grid-cols-5 space-x-2">
-            <button class="flex" @click="skipBack()">
-                {% svgSprite name="skip-back", class="h-10 w-auto" %}
-            </button>
-            <button class="flex"  @click="speedBack()">
-                {% svgSprite name="speed-back", class="h-10 w-auto" %}
-            </button>
-            <button class="flex" @click="player()">
-                <template x-if="!isPlaying">
-                    {% svgSprite name="play", class="h-10 w-auto" %}
-                </template>
-                <template x-if="isPlaying">
-                    {% svgSprite name="pause", class="h-10 w-auto" %}
-                </template>
-            </button>
-            <button class="flex"  @click="speedForwards()">
-                {% svgSprite name="speed-forwards", class="h-10 w-auto" %}
-            </button>
-            <button class="flex" @click="skipForwards()">
-                {% svgSprite name="skip-forwards", class="h-10 w-auto" %}
-            </button>
+    <div class="max-w-sm mx-auto px-[16px] text-sm md:text-base">
+        <div class="grid grid-cols-3 font-semibold">
+            <p>1x</p>
+            <p>Range: <span x-text="range"></span></p>
+            <p>Progress: <span x-text="progress"></span></p>
+        </div>
+        <input  x-ref="input" class="w-full mt-[23px]" type="range" min="0" max="100" x-model="range" :value="progress">
+        <div class="flex justify-between items-center font-normal mt-[8px]">
+            <span x-text="progressTime"></span>
+            <span x-text="totalTime"></span>
+        </div>
+        <div class="mt-[20px]">
+            <audio x-ref="audio" preload="metadata">
+                <source src="{{audio.url}}" type="audio/mpeg">
+                <p>Your browser doesn't support HTML5 audio. Here is a <a href="{{audio.url}}">link to the audio</a> instead.</p>
+            </audio>
+            <div class="grid grid-cols-5 space-x-2">
+                <button class="flex" @click="skipBack()">
+                    {% svgSprite name="skip-back", class="h-10 w-auto" %}
+                </button>
+                <button class="flex"  @click="speedBack()">
+                    {% svgSprite name="speed-back", class="h-10 w-auto" %}
+                </button>
+                <button class="flex" @click="player()">
+                    <template x-if="!isPlaying">
+                        {% svgSprite name="play", class="h-10 w-auto" %}
+                    </template>
+                    <template x-if="isPlaying">
+                        {% svgSprite name="pause", class="h-10 w-auto" %}
+                    </template>
+                </button>
+                <button class="flex"  @click="speedForwards()">
+                    {% svgSprite name="speed-forwards", class="h-10 w-auto" %}
+                </button>
+                <button class="flex" @click="skipForwards()">
+                    {% svgSprite name="skip-forwards", class="h-10 w-auto" %}
+                </button>
+            </div>
         </div>
     </div>
 </section>

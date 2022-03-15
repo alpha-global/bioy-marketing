@@ -95,7 +95,7 @@
     background-image: linear-gradient(
       90deg,
       theme("colors.red.DEFAULT") var(--webkitProgressPercent),
-      theme("colors.white") var(--webkitProgressPercent)
+      #e5e5e5 var(--webkitProgressPercent)
     );
   }
 
