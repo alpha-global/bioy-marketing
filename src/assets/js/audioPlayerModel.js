@@ -30,6 +30,9 @@ export default () => {
 
       this.$watch("progress", () => {
         this.setCSSProperty();
+        if (this.progress === 100) {
+          this.isPlaying = false;
+        }
       });
     },
     setCSSProperty() {
