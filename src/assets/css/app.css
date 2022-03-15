@@ -43,28 +43,63 @@
     font-style: normal;
     font-display: swap;
   }
-
+  /* Input Range Default Styles */
   input[type="range"] {
-    @apply appearance-none outline-none h-1 w-full bg-transparent rounded-full;
+    @apply appearance-none outline-none bg-transparent border-none;
   }
   input[type="range"]::-webkit-slider-thumb {
     @apply appearance-none;
   }
 
-  /*  */
+  input[type="range"]:focus {
+    @apply outline-none;
+  }
+
+  input[type="range"]::-ms-track {
+    @apply w-full cursor-pointer bg-transparent border-none;
+  }
+
   input[type="range"]::-webkit-slider-thumb {
-    @apply appearance-none shadow-2xl  bg-red rounded-full h-3 w-3 border-none;
+    @apply appearance-none h-3 w-3 bg-red border-none rounded-full cursor-pointer -mt-1;
   }
-
-  /* Firefox */
   input[type="range"]::-moz-range-thumb {
-    @apply appearance-none shadow-2xl  bg-red rounded-full h-3 w-3 border-none;
+    @apply appearance-none h-3 w-3 bg-red border-none rounded-full cursor-pointer;
+  }
+  input[type="range"]::-ms-thumb {
+    @apply appearance-none h-3 w-3 bg-red border-none rounded-full cursor-pointer;
   }
 
-  /* IE */
-  input[type="range"]::-ms-thumb {
-    @apply appearance-none shadow-2xl bg-red rounded-full h-3 w-3 border-none;
+  input[type="range"]::-webkit-slider-runnable-track {
+    @apply bg-white cursor-pointer h-1 w-full;
   }
+  input[type="range"]::-moz-range-track {
+    @apply bg-white cursor-pointer h-1 w-full;
+  }
+  input[type="range"]::-ms-track {
+    @apply bg-white cursor-pointer h-1 w-full;
+  }
+  input[type="range"]::-ms-fill-lower {
+    @apply bg-red;
+  }
+  input[type="range"]::-ms-fill-upper {
+    @apply bg-red;
+  }
+  input[type="range"]::-moz-range-progress {
+    @apply bg-red;
+  }
+  /* WebKit does not support progress styling https://dev.to/munkacsimark/styled-range-input-a-way-out-of-range-input-nightmare-jeo */
+  input[type="range"] {
+    --webkitProgressPercent: 0%;
+  }
+  input[type="range"]::-webkit-slider-runnable-track {
+    background-image: linear-gradient(
+      90deg,
+      theme("colors.red.DEFAULT") var(--webkitProgressPercent),
+      theme("colors.white") var(--webkitProgressPercent)
+    );
+  }
+
+  /* Input Range Default Styles */
 }
 
 @layer components {

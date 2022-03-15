@@ -16,14 +16,26 @@ export default () => {
 
       setInterval(() => {
         this.progressTime = this.formatTime(this.$refs.audio.currentTime);
-        this.progress =
-          (this.$refs.audio.currentTime / this.$refs.audio.duration) * 100;
+        this.progress = Math.floor(
+          (this.$refs.audio.currentTime / this.$refs.audio.duration) * 100
+        );
       });
 
       this.$watch("range", () => {
         this.$refs.audio.currentTime =
           (this.range * this.$refs.audio.duration) / 100;
+        this.setCSSProperty();
       });
+
+      this.$watch("progress", () => {
+        this.setCSSProperty();
+      });
+    },
+    setCSSProperty() {
+      this.$refs.input.style.setProperty(
+        "--webkitProgressPercent",
+        `${this.progress}%`
+      );
     },
     formatTime(time) {
       let hours = parseInt(time / 3600);

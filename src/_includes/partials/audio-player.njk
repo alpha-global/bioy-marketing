@@ -3,12 +3,11 @@
     <div class="grid grid-cols-3 font-semibold px-[34px]">
         <p>1x</p>
         <p>Range: <span x-text="range"></span></p>
+        <p>Progress: <span x-text="progress"></span></p>
     </div>
 
-    <div class="mx-3 relative mb-2">
-        <input class="absolute top-0 z-10" type="range" min="0" max="100" x-model="range" :value="progress">
-        <div class="bg-[#E5E5E5] h-1 w-full top-0 absolute z-0 rounded-full"></div>
-        <div class="bg-red h-1 top-0 absolute rounded-full" :style="{ width: progress + '%' }"></div>
+    <div class="mx-3 mb-2">
+        <input  x-ref="input" class="w-full" type="range" min="0" max="100" x-model="range" :value="progress">
     </div>
     <div class="flex justify-between items-center font-semibold px-[34px]">
         <span x-text="progressTime"></span>
