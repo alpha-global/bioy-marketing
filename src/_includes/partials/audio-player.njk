@@ -1,10 +1,12 @@
 <section x-data="app.audioPlayerModel" class="bg-[#F5F5F5] pt-[34px] pb-4 rounded-2xl">
-
     <div class="max-w-sm md:max-w-md lg:max-w-full mx-auto px-[16px] text-sm md:text-base">
-        <div class="grid grid-cols-3 font-semibold">
+        <div class="flex justify-between text-sm md:text-base font-medium">
             <p>1x</p>
-            <p>Range: <span x-text="range"></span></p>
-            <p>Progress: <span x-text="progress"></span></p>
+            {% for chapter in audio.chapters %}
+                <p x-show="showChapterTitle({{chapter.start}}, {{audio.chapters[loop.index].start}})">
+                    {{chapter.title}}
+                </p>
+            {% endfor %}
         </div>
         <input  x-ref="input" class="w-full mt-[23px]" type="range" min="0" max="100" x-model="range" :value="progress">
         <div class="flex justify-between items-center font-normal mt-[8px]">
@@ -17,10 +19,10 @@
                 <p>Your browser doesn't support HTML5 audio. Here is a <a href="{{audio.url}}">link to the audio</a> instead.</p>
             </audio>
             <div class="grid grid-cols-5 space-x-2">
-                <button class="flex" @click="skipBack()">
+                <button class="flex" @click="skipBack()" >
                     {% svgSprite name="skip-back", class="audio__icons" %}
                 </button>
-                <button class="flex"  @click="speedBack()">
+                <button class="flex"  @click="speedBack()" >
                     {% svgSprite name="speed-back", class="audio__icons" %}
                 </button>
                 <button class="flex" @click="player()">
@@ -33,7 +35,7 @@
                         class = "audio__icons" %}
                     </template>
                 </button>
-                <button class="flex"  @click="speedForwards()">
+                <button class="flex"  @click="speedForwards()" >
                     {% svgSprite name="speed-forwards", class="audio__icons" %}
                 </button>
                 <button class="flex" @click="skipForwards()">

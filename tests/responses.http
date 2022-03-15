@@ -1,7 +1,7 @@
 @authority = https://api.bioydata.com/api/v2/devotion
 
-@from = 2
-@to = 3
+@from = 6
+@to = 7
 @locale=en_GB
 @variant=classic
 

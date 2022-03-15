@@ -9,6 +9,7 @@ export default () => {
     totalTime: "00:00",
     progress: 0,
     range: 0,
+    currentChapter: 0,
 
     init() {
       this.$refs.audio.onloadedmetadata = () =>
@@ -69,5 +70,10 @@ export default () => {
       this.$refs.audio.pause();
     },
     skipBack() {},
+    showChapterTitle(start, end = this.$refs.audio.duration) {
+      let startTime = (start / this.$refs.audio.duration) * 100;
+      let endTime = (end / this.$refs.audio.duration) * 100;
+      return this.progress > startTime && this.progress < endTime;
+    },
   };
 };
