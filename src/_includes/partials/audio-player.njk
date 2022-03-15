@@ -1,6 +1,6 @@
-<section x-data="app.audioPlayerModel" class="bg-[#F5F5F5] pt-[34px] rounded-2xl">
+<section x-data="app.audioPlayerModel" class="bg-[#F5F5F5] pt-[34px] pb-4 rounded-2xl">
 
-    <div class="max-w-sm mx-auto px-[16px] text-sm md:text-base">
+    <div class="max-w-sm md:max-w-md lg:max-w-full mx-auto px-[16px] text-sm md:text-base">
         <div class="grid grid-cols-3 font-semibold">
             <p>1x</p>
             <p>Range: <span x-text="range"></span></p>
@@ -18,24 +18,26 @@
             </audio>
             <div class="grid grid-cols-5 space-x-2">
                 <button class="flex" @click="skipBack()">
-                    {% svgSprite name="skip-back", class="h-10 w-auto" %}
+                    {% svgSprite name="skip-back", class="audio__icons" %}
                 </button>
                 <button class="flex"  @click="speedBack()">
-                    {% svgSprite name="speed-back", class="h-10 w-auto" %}
+                    {% svgSprite name="speed-back", class="audio__icons" %}
                 </button>
                 <button class="flex" @click="player()">
                     <template x-if="!isPlaying">
-                        {% svgSprite name="play", class="h-10 w-auto" %}
+                        {% svgSprite name = "play",
+                        class = "audio__icons" %}
                     </template>
                     <template x-if="isPlaying">
-                        {% svgSprite name="pause", class="h-10 w-auto" %}
+                        {% svgSprite name = "pause",
+                        class = "audio__icons" %}
                     </template>
                 </button>
                 <button class="flex"  @click="speedForwards()">
-                    {% svgSprite name="speed-forwards", class="h-10 w-auto" %}
+                    {% svgSprite name="speed-forwards", class="audio__icons" %}
                 </button>
                 <button class="flex" @click="skipForwards()">
-                    {% svgSprite name="skip-forwards", class="h-10 w-auto" %}
+                    {% svgSprite name="skip-forwards", class="audio__icons" %}
                 </button>
             </div>
         </div>

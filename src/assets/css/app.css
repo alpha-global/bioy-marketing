@@ -159,6 +159,10 @@
   .podcast-pagination {
     @apply rounded-full h-4  w-4 flex items-center justify-center border-2 hover:bg-white;
   }
+
+  .audio__icons {
+    @apply h-8 md:h-10 w-auto;
+  }
 }
 
 @layer utilities {
