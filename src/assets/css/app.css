@@ -45,7 +45,7 @@
   }
 
   input[type="range"] {
-    @apply appearance-none outline-none h-1 w-full bg-transparent rounded-md;
+    @apply appearance-none outline-none h-1 w-full bg-transparent rounded-full;
   }
   input[type="range"]::-webkit-slider-thumb {
     @apply appearance-none;
@@ -53,12 +53,12 @@
 
   /*  */
   input[type="range"]::-webkit-slider-thumb {
-    @apply appearance-none shadow-2xl bg-red rounded-full h-3 w-3 border-none;
+    @apply appearance-none shadow-2xl  bg-red rounded-full h-3 w-3 border-none;
   }
 
   /* Firefox */
   input[type="range"]::-moz-range-thumb {
-    @apply appearance-none shadow-2xl bg-red rounded-full h-3 w-3 border-none;
+    @apply appearance-none shadow-2xl  bg-red rounded-full h-3 w-3 border-none;
   }
 
   /* IE */
