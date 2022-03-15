@@ -11,6 +11,7 @@ export default () => {
     range: 0,
     currentChapter: 0,
     bookmarks: [],
+    playrate: 1,
 
     init() {
       this.$refs.audio.onloadedmetadata = () =>
@@ -94,6 +95,9 @@ export default () => {
     },
     getChapters(bookmarks) {
       this.bookmarks = bookmarks.split(",");
+    },
+    changePlayrate() {
+      this.$refs.audio.playbackRate = this.playrate;
     },
   };
 };

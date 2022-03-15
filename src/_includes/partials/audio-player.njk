@@ -6,7 +6,15 @@
 <section x-data="app.audioPlayerModel" x-init="getChapters('{{bookmarks}}')" class="bg-[#F5F5F5] pt-[34px] pb-4 rounded-2xl">
     <div class="max-w-sm md:max-w-md lg:max-w-full mx-auto px-[16px] text-sm md:text-base">
         <div class="flex justify-between text-sm md:text-base font-medium">
-            <p>1x</p>
+            <select x-model="playrate" x-effect="changePlayrate()" class="appearance-none focus:outline-none bg-transparent">
+                <option value="1.75">1.75x</option>
+                <option value="1.5">1.5x</option>
+                <option value="1.25">1.25x</option>
+                <option value="1">1x</option>
+                <option value="0.75">0.75x</option>
+                <option value="0.5">0.5x</option>
+                <option value="0.25">0.25x</option>
+            </select>
             {% for chapter in audio.chapters %}
                 <p x-show="showChapterTitle({{chapter.start}}, {{audio.chapters[loop.index].start}})">
                     {{chapter.title}}
