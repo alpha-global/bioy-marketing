@@ -36,6 +36,8 @@ export default () => {
           this.isPlaying = false;
         }
       });
+
+      this.hideNavbar();
     },
     setCSSProperty() {
       this.$refs.input.style.setProperty(
@@ -98,6 +100,21 @@ export default () => {
     },
     changePlayrate() {
       this.$refs.audio.playbackRate = this.playrate;
+    },
+    hideNavbar() {
+      let prevScrollPosition = window.pageYOffset;
+      const mediaQuery = window.matchMedia("(min-width: 768px)");
+      window.onscroll = function () {
+        let currentScrollPosition = window.pageYOffset;
+        if (prevScrollPosition > currentScrollPosition && !mediaQuery.matches) {
+          document.getElementById("navbar").classList.remove("hidden");
+        } else if (mediaQuery.matches) {
+          document.getElementById("navbar").classList.remove("hidden");
+        } else {
+          document.getElementById("navbar").classList.add("hidden");
+        }
+        prevScrollPosition = currentScrollPosition;
+      };
     },
   };
 };
