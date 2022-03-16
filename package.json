@@ -5,7 +5,7 @@
   "scripts": {
     "11ty": "ELEVENTY_ENV=development npx @11ty/eleventy --serve",
     "watch": "mix watch",
-    "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --incremental --serve && mix watch",
+    "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --serve & mix watch",
     "dev:cleanSlate": "npm run wipe && ELEVENTY_ENV=development CLEAN_SLATE=true npx @11ty/eleventy",
     "cms": "npx netlify-cms-proxy-server",
     "wipe": "rm -rf ./.cache && rm -rf ./build",

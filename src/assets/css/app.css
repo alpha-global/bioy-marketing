@@ -43,6 +43,63 @@
     font-style: normal;
     font-display: swap;
   }
+  /* Input Range Default Styles */
+  input[type="range"] {
+    @apply appearance-none outline-none bg-transparent border-none;
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    @apply appearance-none;
+  }
+
+  input[type="range"]:focus {
+    @apply outline-none;
+  }
+
+  input[type="range"]::-ms-track {
+    @apply w-full cursor-pointer bg-transparent border-none;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    @apply appearance-none h-3 w-3 bg-red border-none rounded-full cursor-pointer -mt-1;
+  }
+  input[type="range"]::-moz-range-thumb {
+    @apply appearance-none h-3 w-3 bg-red border-none rounded-full cursor-pointer;
+  }
+  input[type="range"]::-ms-thumb {
+    @apply appearance-none h-3 w-3 bg-red border-none rounded-full cursor-pointer;
+  }
+
+  input[type="range"]::-webkit-slider-runnable-track {
+    @apply bg-white cursor-pointer h-1 w-full;
+  }
+  input[type="range"]::-moz-range-track {
+    @apply bg-white cursor-pointer h-1 w-full;
+  }
+  input[type="range"]::-ms-track {
+    @apply bg-white cursor-pointer h-1 w-full;
+  }
+  input[type="range"]::-ms-fill-lower {
+    @apply bg-red;
+  }
+  input[type="range"]::-ms-fill-upper {
+    @apply bg-red;
+  }
+  input[type="range"]::-moz-range-progress {
+    @apply bg-red;
+  }
+  /* WebKit does not support progress styling https://dev.to/munkacsimark/styled-range-input-a-way-out-of-range-input-nightmare-jeo */
+  input[type="range"] {
+    --webkitProgressPercent: 0%;
+  }
+  input[type="range"]::-webkit-slider-runnable-track {
+    background-image: linear-gradient(
+      90deg,
+      theme("colors.red.DEFAULT") var(--webkitProgressPercent),
+      #e5e5e5 var(--webkitProgressPercent)
+    );
+  }
+
+  /* Input Range Default Styles */
 }
 
 @layer components {
@@ -101,6 +158,10 @@
 
   .podcast-pagination {
     @apply rounded-full h-4  w-4 flex items-center justify-center border-2 hover:bg-white;
+  }
+
+  .audio__icons {
+    @apply h-8 md:h-10 w-1/2;
   }
 }
 

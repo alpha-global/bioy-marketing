@@ -1,0 +1,62 @@
+{% set bookmarks = [] %}
+{% for chapter in audio.chapters %}
+    {% set bookmarks = (bookmarks.push(chapter.start), bookmarks) %}
+{% endfor %}
+
+<section x-data="app.audioPlayerModel" x-init="getChapters('{{bookmarks}}')" class="bg-[#F5F5F5] pt-[34px] pb-4 rounded-2xl">
+    <div class="px-[16px] md:px-[26px] text-sm md:text-base">
+        <div class="flex text-sm md:text-base font-medium">
+            <select x-model="playrate" x-effect="changePlayrate()" class="appearance-none focus:outline-none bg-transparent">
+                <option value="1.75">1.75x</option>
+                <option value="1.5">1.5x</option>
+                <option value="1.25">1.25x</option>
+                <option value="1">1x</option>
+                <option value="0.75">0.75x</option>
+                <option value="0.5">0.5x</option>
+                <option value="0.25">0.25x</option>
+            </select>
+            <div class="w-full flex items-center  justify-center">
+                {% for chapter in audio.chapters %}
+                    <p x-show="showChapterTitle({{chapter.start}}, {{audio.chapters[loop.index].start}})">
+                        {{chapter.title}}
+                    </p>
+                {% endfor %}
+            </div>
+        </div>
+        <input  x-ref="input" class="w-full mt-[23px]" type="range" min="0" max="100" x-model="range" :value="progress">
+        <div class="flex justify-between items-center font-normal mt-[8px]">
+            <span x-text="progressTime"></span>
+            <span x-text="totalTime"></span>
+        </div>
+        <div class="mt-[20px]">
+            <audio x-ref="audio" preload="metadata">
+                <source src="{{audio.url}}" type="audio/mpeg">
+                <p>Your browser doesn't support HTML5 audio. Here is a <a href="{{audio.url}}">link to the audio</a> instead.</p>
+            </audio>
+            <div class="grid grid-cols-5 md:max-w-md mx-auto">
+                <button class="flex justify-start" @click="skipBack()" >
+                    {% svgSprite name="skip-back", class="audio__icons" %}
+                </button>
+                <button class="flex justify-around"  @click="speedBack()" >
+                    {% svgSprite name="speed-back", class="audio__icons" %}
+                </button>
+                <button class="flex justify-around" @click="player()">
+                    <template x-if="!isPlaying">
+                        {% svgSprite name = "play",
+                        class = "audio__icons" %}
+                    </template>
+                    <template x-if="isPlaying">
+                        {% svgSprite name = "pause",
+                        class = "audio__icons" %}
+                    </template>
+                </button>
+                <button class="flex justify-around"  @click="speedForwards()" >
+                    {% svgSprite name="speed-forwards", class="audio__icons" %}
+                </button>
+                <button class="flex justify-end" @click="skipForwards()">
+                    {% svgSprite name="skip-forwards", class="audio__icons" %}
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
