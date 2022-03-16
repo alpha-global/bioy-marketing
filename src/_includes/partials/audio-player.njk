@@ -4,7 +4,7 @@
 {% endfor %}
 
 <section x-data="app.audioPlayerModel" x-init="getChapters('{{bookmarks}}')" class="bg-[#F5F5F5] pt-[34px] pb-4 rounded-2xl">
-    <div class="px-[16px] text-sm md:text-base">
+    <div class="px-[16px] md:px-[26px] text-sm md:text-base">
         <div class="flex text-sm md:text-base font-medium">
             <select x-model="playrate" x-effect="changePlayrate()" class="appearance-none focus:outline-none bg-transparent">
                 <option value="1.75">1.75x</option>
