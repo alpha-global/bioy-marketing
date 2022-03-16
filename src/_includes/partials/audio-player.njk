@@ -31,14 +31,14 @@
                 <source src="{{audio.url}}" type="audio/mpeg">
                 <p>Your browser doesn't support HTML5 audio. Here is a <a href="{{audio.url}}">link to the audio</a> instead.</p>
             </audio>
-            <div class="grid grid-cols-5 space-x-2">
-                <button class="flex" @click="skipBack()" >
+            <div class="grid grid-cols-5 md:max-w-md mx-auto">
+                <button class="flex justify-start" @click="skipBack()" >
                     {% svgSprite name="skip-back", class="audio__icons" %}
                 </button>
-                <button class="flex"  @click="speedBack()" >
+                <button class="flex justify-around"  @click="speedBack()" >
                     {% svgSprite name="speed-back", class="audio__icons" %}
                 </button>
-                <button class="flex" @click="player()">
+                <button class="flex justify-around" @click="player()">
                     <template x-if="!isPlaying">
                         {% svgSprite name = "play",
                         class = "audio__icons" %}
@@ -48,10 +48,10 @@
                         class = "audio__icons" %}
                     </template>
                 </button>
-                <button class="flex"  @click="speedForwards()" >
+                <button class="flex justify-around"  @click="speedForwards()" >
                     {% svgSprite name="speed-forwards", class="audio__icons" %}
                 </button>
-                <button class="flex" @click="skipForwards()">
+                <button class="flex justify-end" @click="skipForwards()">
                     {% svgSprite name="skip-forwards", class="audio__icons" %}
                 </button>
             </div>
