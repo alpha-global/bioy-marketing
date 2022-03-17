@@ -17,7 +17,8 @@ eleventyComputed:
 <article class="max-w-prose mx-auto font-commentary break-words">
   <div class="mx-10 prose lg:prose-xl ">
     <div class="mt-24">
-      <span class="text-xl text-red">{{ lang.day }} {{ devotion.devotionId }}</span>
+      <span class="text-xl text-red">{{ lang.day }}
+        {{ devotion.devotionId }}</span>
     </div>
     <div class="mt-2">
       <h1 class="text-xl">{{ devotion.title }}</h1>
@@ -49,36 +50,34 @@ eleventyComputed:
   </div>
 
   {% devotionSection
-    title=lang.wisdom,
-    commentary=lang.commentary,
-    prayerTitle=lang.prayer,
-    reference=devotion.wisdom.reference,
-    text=devotion.wisdom.text,
-    comment=devotion.wisdom.comment,
-    prayer=devotion.wisdom.prayer
-  %}
+  title = lang.wisdom,
+  commentary = lang.commentary,
+  prayerTitle = lang.prayer,
+  reference = devotion.wisdom.reference,
+  text = devotion.wisdom.text,
+  comment = devotion.wisdom.comment,
+  prayer = devotion.wisdom.prayer
+ %}
 
   {% devotionSection
-    title=lang.newTestament,
-    commentary=lang.commentary,
-    prayerTitle=lang.prayer,
-    reference=devotion.newTestament.reference,
-    text=devotion.newTestament.text,
-    comment=devotion.newTestament.comment,
-    prayer=devotion.newTestament.prayer
-  %}
+  title = lang.newTestament,
+  commentary = lang.commentary,
+  prayerTitle = lang.prayer,
+  reference = devotion.newTestament.reference,
+  text = devotion.newTestament.text,
+  comment = devotion.newTestament.comment,
+  prayer = devotion.newTestament.prayer
+ %}
 
   {% devotionSection
-    title=lang.oldTestament,
-    commentary=lang.commentary,
-    prayerTitle=lang.prayer,
-    reference=devotion.oldTestament.reference,
-    text=devotion.oldTestament.text,
-    comment=devotion.oldTestament.comment,
-    prayer=devotion.oldTestament.prayer
-  %}
-
-
+  title = lang.oldTestament,
+  commentary = lang.commentary,
+  prayerTitle = lang.prayer,
+  reference = devotion.oldTestament.reference,
+  text = devotion.oldTestament.text,
+  comment = devotion.oldTestament.comment,
+  prayer = devotion.oldTestament.prayer
+ %}
 
   <section class="prose lg:prose-xl mx-10 bg-stone p-4 mb-4">
     <h2>{{lang.pippaAdds}}</h2>
@@ -133,4 +132,9 @@ eleventyComputed:
       </a>
     </div>
   {% endif %}
+</div>
+
+<div  class="px-4 lg:max-w-2xl container mx-auto left-0 right-0 fixed bottom-24 md:bottom-11">
+  {% set audio = devotion.audio %}
+  {% include 'partials/audio-player.njk' %}
 </div>
