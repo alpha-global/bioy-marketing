@@ -38,6 +38,7 @@ export default () => {
       });
 
       this.hideNavbar();
+      this.listenForMediaKeys();
     },
     setCSSProperty() {
       this.$refs.input.style.setProperty(
@@ -66,6 +67,34 @@ export default () => {
         ? this.$refs.audio.play()
         : this.$refs.audio.pause();
       this.isPlaying = !this.isPlaying;
+    },
+
+    listenForMediaKeys() {
+      this.$refs.audio.addEventListener("play", () => {
+        this.isPlaying = true;
+      });
+
+      this.$refs.audio.addEventListener("pause", () => {
+        this.isPlaying = false;
+      });
+
+      if ("mediaSession" in navigator) {
+        navigator.mediaSession.setActionHandler("seekbackward", () => {
+          this.seekBackward();
+        });
+        navigator.mediaSession.setActionHandler("seekforward", () => {
+          this.seekForward();
+        });
+
+        navigator.mediaSession.setActionHandler("previoustrack", () => {
+          console.log("previous");
+          this.previousTrack();
+        });
+        navigator.mediaSession.setActionHandler("nexttrack", () => {
+          console.log("next track");
+          this.nextTrack();
+        });
+      }
     },
     seekBackward() {
       this.$refs.audio.currentTime -= 15;
