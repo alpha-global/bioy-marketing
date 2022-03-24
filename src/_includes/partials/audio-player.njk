@@ -34,10 +34,10 @@
                 <p>Your browser doesn't support HTML5 audio. Here is a <a href="{{audio.url}}">link to the audio</a> instead.</p>
             </audio>
             <div class="grid grid-cols-5 md:max-w-md mx-auto">
-                <button class="flex justify-start" @click="skipBack()" >
+                <button class="flex justify-start" @click="previousTrack()" >
                     {% svgSprite name="skip-back", class="audio__icons" %}
                 </button>
-                <button class="flex justify-around"  @click="speedBack()" >
+                <button class="flex justify-around"  @click="seekBackward()" >
                     {% svgSprite name="speed-back", class="audio__icons" %}
                 </button>
                 <button class="flex justify-around" @click="player()">
@@ -50,10 +50,10 @@
                         class = "audio__icons" %}
                     </template>
                 </button>
-                <button class="flex justify-around"  @click="speedForwards()" >
+                <button class="flex justify-around"  @click="seekForward()" >
                     {% svgSprite name="speed-forwards", class="audio__icons" %}
                 </button>
-                <button class="flex justify-end" @click="skipForwards()">
+                <button class="flex justify-end" @click="nextTrack()">
                     {% svgSprite name="skip-forwards", class="audio__icons" %}
                 </button>
             </div>

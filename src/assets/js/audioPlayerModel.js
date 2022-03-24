@@ -67,13 +67,13 @@ export default () => {
         : this.$refs.audio.pause();
       this.isPlaying = !this.isPlaying;
     },
-    speedBack() {
+    seekBackward() {
       this.$refs.audio.currentTime -= 15;
     },
-    speedForwards() {
+    seekForward() {
       this.$refs.audio.currentTime += 15;
     },
-    skipForwards() {
+    nextTrack() {
       for (let i = 0; i < this.bookmarks.length; i++) {
         if (Number(this.bookmarks[i]) > this.$refs.audio.currentTime) {
           this.$refs.audio.currentTime = Number(this.bookmarks[i]);
@@ -82,7 +82,7 @@ export default () => {
       }
     },
 
-    skipBack() {
+    previousTrack() {
       for (let i = this.bookmarks.length - 1; i >= 0; i--) {
         if (Number(this.bookmarks[i]) < this.$refs.audio.currentTime) {
           this.$refs.audio.currentTime = Number(this.bookmarks[i]);
