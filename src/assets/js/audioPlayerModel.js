@@ -87,11 +87,9 @@ export default () => {
         });
 
         navigator.mediaSession.setActionHandler("previoustrack", () => {
-          console.log("previous");
           this.previousTrack();
         });
         navigator.mediaSession.setActionHandler("nexttrack", () => {
-          console.log("next track");
           this.nextTrack();
         });
       }
