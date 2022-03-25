@@ -19,9 +19,8 @@ export default () => {
 
       setInterval(() => {
         this.progressTime = this.formatTime(this.$refs.audio.currentTime);
-        this.progress = Math.floor(
-          (this.$refs.audio.currentTime / this.$refs.audio.duration) * 100
-        );
+        this.progress =
+          (this.$refs.audio.currentTime / this.$refs.audio.duration) * 100;
       });
 
       this.$watch("range", () => {
