@@ -12,6 +12,7 @@ export default () => {
     currentChapter: 0,
     bookmarks: [],
     playrate: 1,
+    showBioyTitle: true,
 
     init() {
       this.$refs.audio.onloadedmetadata = () =>
@@ -34,6 +35,11 @@ export default () => {
         if (this.progress === 100) {
           this.isPlaying = false;
         }
+
+        this.progress <
+        (Number(this.bookmarks[0]) / this.$refs.audio.duration) * 100
+          ? (this.showBioyTitle = true)
+          : (this.showBioyTitle = false);
       });
 
       this.hideNavbar();
