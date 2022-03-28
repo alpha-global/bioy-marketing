@@ -30,7 +30,7 @@ export default () => {
         this.$refs.audio.currentTime =
           (this.range * this.$refs.audio.duration) / 100;
         this.setCSSProperty();
-        if (this.range === 100) {
+        if (Number(this.range) === 100) {
           this.isPlaying = false;
           this.showBioyTitle = true;
         }
