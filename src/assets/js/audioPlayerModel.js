@@ -78,7 +78,9 @@ export default () => {
         : this.$refs.audio.pause();
       this.isPlaying = !this.isPlaying;
     },
-
+    showAudioPlayer() {
+      this.player();
+    },
     listenForMediaKeys() {
       this.$refs.audio.addEventListener("play", () => {
         this.isPlaying = true;
