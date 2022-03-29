@@ -12,10 +12,13 @@ export default () => {
     currentChapter: 0,
     bookmarks: [],
     playrate: 1,
+    showBioyTitle: true,
 
     init() {
       this.$refs.audio.onloadedmetadata = () =>
         (this.totalTime = this.formatTime(this.$refs.audio.duration));
+
+      this.$refs.audio.onended = () => (this.showBioyTitle = true);
 
       setInterval(() => {
         this.progressTime = this.formatTime(this.$refs.audio.currentTime);
@@ -27,6 +30,10 @@ export default () => {
         this.$refs.audio.currentTime =
           (this.range * this.$refs.audio.duration) / 100;
         this.setCSSProperty();
+        if (Number(this.range) === 100) {
+          this.isPlaying = false;
+          this.showBioyTitle = true;
+        }
       });
 
       this.$watch("progress", () => {
@@ -34,6 +41,10 @@ export default () => {
         if (this.progress === 100) {
           this.isPlaying = false;
         }
+        this.progress <
+        (Number(this.bookmarks[0]) / this.$refs.audio.duration) * 100
+          ? (this.showBioyTitle = true)
+          : (this.showBioyTitle = false);
       });
 
       this.hideNavbar();
