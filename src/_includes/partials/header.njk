@@ -54,12 +54,21 @@
                 <a class="block text-white text-xs py-3 pl-2 pr-4" :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">
                   <div class="flex justify-between space-x-2 whitespace-nowrap">
                     <span>{{ lang.language }}</span>
-                    {% for devotion in todaysDevotions %}
-                      {% if devotion.locale == lang.locale and devotion.audio.url %}
-                        {% svgSprite name = "audio",
-                        class = "h-4 w-4" %}
-                      {% endif %}
-                    {% endfor %}
+                    <div class="grid grid-cols-2 gap-2">
+                      {% for devotion in todaysDevotions %}
+                        {% if devotion.locale == lang.locale and devotion.audio.url %}
+                          {% if lang.locale in['ar', 'es'] %}
+                            {% svgSprite name = "audio",
+                            class = "h-4 w-4" %}
+                            <span>en</span>
+                          {% else %}
+                            {% svgSprite name = "audio",
+                            class = "h-4 w-4" %}
+                            <span></span>
+                          {% endif %}
+                        {% endif %}
+                      {% endfor %}
+                    </div>
                   </div>
                 </a>
               {% endfor %}
