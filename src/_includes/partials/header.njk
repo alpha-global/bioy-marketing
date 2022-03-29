@@ -52,22 +52,23 @@
             <div class="absolute bg-red divide-y-2" :class="outOfView ? 'w-1/2' : ''" x-show="openLanguages">
               {% for lang in globals.languages %}
                 <a class="block text-white text-xs py-3 pl-2 pr-4" :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">
-                  <div class="flex justify-between space-x-2 whitespace-nowrap">
-                    <span>{{ lang.language }}</span>
-                    <div class="grid grid-cols-2 gap-2">
-                      {% for devotion in todaysDevotions %}
-                        {% if devotion.locale == lang.locale and devotion.audio.url %}
-                          {% if lang.locale in['ar', 'es'] %}
-                            {% svgSprite name = "audio",
-                            class = "h-4 w-4" %}
-                            <span>en</span>
-                          {% else %}
-                            {% svgSprite name = "audio",
-                            class = "h-4 w-4" %}
-                            <span></span>
+                  <div class="grid grid-cols-3 gap-3 min-w-max">
+                    <span class="col-start-1 col-end-3">{{ lang.language }}</span>
+                    <div class="col-start-3 col-end-4 flex justify-end">
+                      <div class="grid grid-cols-2 gap-2">
+                        {% for devotion in todaysDevotions %}
+                          {% if devotion.locale == lang.locale and devotion.audio.url %}
+                            {% if lang.locale in['ar', 'es'] %}
+                              {% svgSprite name = "audio",
+                              class = "h-4 w-4" %}
+                              <span>en</span>
+                            {% else %}
+                              {% svgSprite name = "audio",
+                              class = "h-4 w-4" %}
+                            {% endif %}
                           {% endif %}
-                        {% endif %}
-                      {% endfor %}
+                        {% endfor %}
+                      </div>
                     </div>
                   </div>
                 </a>
