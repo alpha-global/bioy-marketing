@@ -1,3 +1,10 @@
+{% set todaysDevotions = [] %}
+{% for devotion in bioy %}
+  {% if devotion.devotionId == globals.today and devotion.variant == variant %}
+    {% set todaysDevotions = (todaysDevotions.push(devotion), todaysDevotions )%}
+  {% endif %}
+{% endfor %}
+
 <header x-data="app.helpers" x-init="init('{{ devotion.variant }}')" id="header" class="border-red border-t-4 absolute {% if imageBanner %}bg-gradient-to-b bg-opacity-80 from-black-scrim{% endif %} h-16 text-white top-0 w-full z-10 md:bg-none">
   <h1 class="text-2xl font-medium m-0 -top-1 absolute">
     <a href="/{{ locale }}" class="flex items-center" title="{{ site.title }}">
@@ -45,7 +52,22 @@
             <div class="absolute bg-red divide-y-2" :class="outOfView ? 'w-1/2' : ''" x-show="openLanguages">
               {% for lang in globals.languages %}
                 <a class="block text-white text-xs py-3 pl-2 pr-4" :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">
-                  <button>{{ lang.language }}</button>
+                  <div class="grid grid-cols-3 gap-3 min-w-max">
+                    <span class="col-start-1 col-end-3">{{ lang.language }}</span>
+                    <div class="col-start-3 col-end-4 flex justify-end">
+                      <div class="grid grid-cols-2 gap-2">
+                        {% for devotion in todaysDevotions %}
+                          {% if devotion.locale == lang.locale and devotion.audio.url %}
+                            {% svgSprite name = "audio",
+                            class = "h-4 w-4" %}
+                            {% if lang.locale in['ar', 'es'] %}
+                              <span>en</span>
+                            {% endif %}
+                          {% endif %}
+                        {% endfor %}
+                      </div>
+                    </div>
+                  </div>
                 </a>
               {% endfor %}
             </div>
