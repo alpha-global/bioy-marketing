@@ -19,9 +19,8 @@ export default () => {
 
       setInterval(() => {
         this.progressTime = this.formatTime(this.$refs.audio.currentTime);
-        this.progress = Math.floor(
-          (this.$refs.audio.currentTime / this.$refs.audio.duration) * 100
-        );
+        this.progress =
+          (this.$refs.audio.currentTime / this.$refs.audio.duration) * 100;
       });
 
       this.$watch("range", () => {
@@ -110,12 +109,17 @@ export default () => {
     },
 
     previousTrack() {
+      let availableBookmarks = [];
       for (let i = this.bookmarks.length - 1; i >= 0; i--) {
         if (Number(this.bookmarks[i]) < this.$refs.audio.currentTime) {
-          this.$refs.audio.currentTime = Number(this.bookmarks[i]);
-          break;
+          availableBookmarks.push(Number(this.bookmarks[i]));
         }
       }
+
+      availableBookmarks.length > 0
+        ? (this.$refs.audio.currentTime =
+            availableBookmarks[1] || availableBookmarks[0])
+        : (this.$refs.audio.currentTime = 0);
     },
     showChapterTitle(start, end = this.$refs.audio.duration) {
       let startTime = (start / this.$refs.audio.duration) * 100;
