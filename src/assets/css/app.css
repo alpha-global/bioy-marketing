@@ -157,11 +157,14 @@
   }
 
   .podcast-pagination {
-    @apply rounded-full h-4  w-4 flex items-center justify-center border-2 hover:bg-white;
+    @apply rounded-full h-4 w-4 flex items-center justify-center border-2 hover:bg-white;
   }
 
   .audio__icons {
-    @apply h-8 md:h-10 w-1/2;
+    @apply h-6 sm:h-8 md:h-10 w-1/2;
+  }
+  .audio__controls {
+    @apply rounded-full h-8 w-8 sm:h-12 sm:w-12 md:h-14 md:w-14 flex items-center justify-center hover:bg-red/10 active:bg-red/20 focus:outline-none focus-visible:ring focus:ring-red/10 transition duration-100 ease-out hover:ease-in active:ease-in;
   }
 }
 
