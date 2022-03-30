@@ -56,6 +56,7 @@ export default () => {
         `${this.progress}%`
       );
     },
+    circumference: 30 * 2 * Math.PI,
     formatTime(time) {
       let hours = parseInt(time / 3600);
       time = time % 3600;

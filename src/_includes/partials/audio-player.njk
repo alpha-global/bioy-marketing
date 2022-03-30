@@ -4,7 +4,17 @@
 {% endfor %}
 
 <section x-data="app.audioPlayerModel" x-init="getChapters('{{bookmarks}}')">
-    <div x-show="!isPlaying">
+    {# Circlular Progress Bar: https://css-tricks.com/building-progress-ring-quickly/ #}
+    <button x-show="!isPlaying" class="absolute right-1 bottom-4 inline-flex items-center justify-center overflow-hidden rounded-full hover:bg-red/10 active:bg-red/20 focus:outline-none focus-visible:ring focus:ring-red/10 transition duration-100 ease-out hover:ease-in active:ease-in bg-white" @click="showAudioPlayer()">
+        <svg class="h-20 w-20 -rotate-90">
+            <circle class="text-black" stroke-width="3" stroke="currentColor" fill="transparent" r="30" cx="40" cy="40"/>
+            <circle class="text-red" stroke-width="4" :stroke-dasharray="circumference" :stroke-dashoffset="circumference - progress / 100 * circumference" stroke-linecap="round" stroke="currentColor" fill="transparent" r="30" cx="40" cy="40"/>
+        </svg>
+        {% svgSprite name = "play",
+        class = "absolute audio__icons" %}
+    </button>
+
+    <div x-show="!isPlaying" class="hidden">
         <button class="absolute right-1 bottom-4 bg-white border audio__controls" @click="showAudioPlayer()">{% svgSprite name = "play",
             class = "audio__icons" %}
         </button>
