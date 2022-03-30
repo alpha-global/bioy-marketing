@@ -59,7 +59,7 @@
                     <button class="audio__controls" @click="previousTrack()" >
                         {% svgSprite name="skip-back", class="audio__icons" %}
                     </button>
-                    <button class="audio__controls"  @click="seekBackward()" >
+                    <button x-ref="seekBackward" class="audio__controls"  @click="seekBackward()" >
                         {% svgSprite name="speed-back", class="audio__icons" %}
                     </button>
                     <button class="audio__controls" @click="player()" :class="isPlaying ? 'bg-red/10': '' ">
@@ -72,7 +72,7 @@
                             class = "audio__icons" %}
                         </template>
                     </button>
-                    <button class="audio__controls"  @click="seekForward()" >
+                    <button x-ref="seekForward" class="audio__controls"  @click="seekForward()" >
                         {% svgSprite name="speed-forwards", class="audio__icons" %}
                     </button>
                     <button class="audio__controls" @click="nextTrack()">

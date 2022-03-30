@@ -109,10 +109,22 @@ export default () => {
     },
     seekBackward() {
       this.$refs.audio.currentTime -= 15;
+      let el = this.$refs.seekBackward;
+      this.animate(el, "-rotate-90");
     },
     seekForward() {
       this.$refs.audio.currentTime += 15;
+      let el = this.$refs.seekForward;
+      this.animate(el, "rotate-90");
     },
+
+    animate(el, direction) {
+      el.classList.add(direction, "transition", "duration-200", "ease-in-out");
+      el.addEventListener("transitionend", () => {
+        el.classList.remove(direction);
+      });
+    },
+
     nextTrack() {
       for (let i = 0; i < this.bookmarks.length; i++) {
         if (Number(this.bookmarks[i]) > this.$refs.audio.currentTime) {
