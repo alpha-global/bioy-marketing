@@ -56,6 +56,7 @@ export default () => {
         `${this.progress}%`
       );
     },
+    circumference: 30 * 2 * Math.PI,
     formatTime(time) {
       let hours = parseInt(time / 3600);
       time = time % 3600;
@@ -78,7 +79,9 @@ export default () => {
         : this.$refs.audio.pause();
       this.isPlaying = !this.isPlaying;
     },
-
+    showAudioPlayer() {
+      this.player();
+    },
     listenForMediaKeys() {
       this.$refs.audio.addEventListener("play", () => {
         this.isPlaying = true;
@@ -106,10 +109,22 @@ export default () => {
     },
     seekBackward() {
       this.$refs.audio.currentTime -= 15;
+      let el = this.$refs.seekBackward;
+      this.animate(el, "-rotate-90");
     },
     seekForward() {
       this.$refs.audio.currentTime += 15;
+      let el = this.$refs.seekForward;
+      this.animate(el, "rotate-90");
     },
+
+    animate(el, direction) {
+      el.addEventListener("transitionend", () => {
+        el.classList.remove(direction);
+      });
+      el.classList.add(direction, "transition", "duration-200", "ease-in-out");
+    },
+
     nextTrack() {
       for (let i = 0; i < this.bookmarks.length; i++) {
         if (Number(this.bookmarks[i]) > this.$refs.audio.currentTime) {
