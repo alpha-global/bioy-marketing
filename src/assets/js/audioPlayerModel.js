@@ -119,10 +119,10 @@ export default () => {
     },
 
     animate(el, direction) {
-      el.classList.add(direction, "transition", "duration-200", "ease-in-out");
       el.addEventListener("transitionend", () => {
         el.classList.remove(direction);
       });
+      el.classList.add(direction, "transition", "duration-200", "ease-in-out");
     },
 
     nextTrack() {
