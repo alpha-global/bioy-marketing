@@ -33,10 +33,10 @@
                     <option value="2">2x</option>
                 </select>
                 <div class="col-start-2 col-end-6 min-w-fit flex items-center justify-center text-xs sm:text-sm md:text-base">
-                    <p x-cloak x-show="showBioyTitle" class="uppercase">Bible in One Year</p>
+                    <p x-show="showBioyTitle" class="uppercase">{{ site.title }}</p>
                     <ul>
                         {% for chapter in audio.chapters %}
-                            <li x-cloak x-show="showChapterTitle({{chapter.start}}, {{audio.chapters[loop.index].start}})">
+                            <li x-show="showChapterTitle({{chapter.start}}, {{audio.chapters[loop.index].start}})">
                                 {{chapter.title}}
                             </li>
                         {% endfor %}
