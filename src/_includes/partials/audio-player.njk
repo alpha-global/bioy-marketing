@@ -7,7 +7,7 @@
 
 <section x-data="app.audioPlayerModel" x-init="getChapters('{{bookmarks}}')">
     {# Circlular Progress Bar: https://css-tricks.com/building-progress-ring-quickly/ #}
-    <button x-show="!isPlaying" class="absolute ltr:right-1 rtl:left-0 bottom-4 inline-flex items-center justify-center overflow-hidden rounded-full hover:bg-red/10 active:bg-red/20 focus:outline-none focus-visible:ring focus:ring-red/10 transition duration-100 ease-out hover:ease-in active:ease-in bg-white shadow-md" @click="showAudioPlayer()">
+    <button x-cloak x-show="!isPlaying" class="absolute ltr:right-1 rtl:left-0 bottom-4 inline-flex items-center justify-center overflow-hidden rounded-full hover:bg-red/10 active:bg-red/20 focus:outline-none focus-visible:ring focus:ring-red/10 transition duration-100 ease-out hover:ease-in active:ease-in bg-white shadow-md" @click="showAudioPlayer()">
         <svg class="h-20 w-20 -rotate-90 rounded-full">
             <circle class="text-red" stroke-width="3" :stroke-dasharray="circumference" :stroke-dashoffset="circumference - progress / 100 * circumference" stroke-linecap="round" stroke="currentColor" fill="transparent" r="30" cx="40" cy="40"/>
         </svg>
@@ -15,12 +15,7 @@
         class = "absolute audio__icons" %}
     </button>
 
-    <div x-show="!isPlaying" class="hidden">
-        <button class="absolute right-1 bottom-4 bg-white border audio__controls" @click="showAudioPlayer()">{% svgSprite name = "play",
-            class = "audio__icons" %}
-        </button>
-    </div>
-    <div class="bg-[#F5F5F5] pt-[34px] pb-4 rounded-2xl" 
+    <div x-cloak x-show="isPlaying" class="bg-[#F5F5F5] pt-[34px] pb-4 rounded-2xl" 
         x-transition:enter="transition ease-out duration-300 origin-top-right"
         x-transition:enter-start="opacity-0 scale-90"
         x-transition:enter-end="opacity-100 scale-100"
@@ -38,10 +33,10 @@
                     <option value="2">2x</option>
                 </select>
                 <div class="col-start-2 col-end-6 min-w-fit flex items-center justify-center text-xs sm:text-sm md:text-base">
-                    <p x-show="showBioyTitle" class="uppercase">Bible in One Year</p>
+                    <p x-cloak x-show="showBioyTitle" class="uppercase">Bible in One Year</p>
                     <ul>
                         {% for chapter in audio.chapters %}
-                            <li x-show="showChapterTitle({{chapter.start}}, {{audio.chapters[loop.index].start}})">
+                            <li x-cloak x-show="showChapterTitle({{chapter.start}}, {{audio.chapters[loop.index].start}})">
                                 {{chapter.title}}
                             </li>
                         {% endfor %}
