@@ -1,9 +1,12 @@
 @authority = https://api.bioydata.com/api/v2/devotion
 
-@from = 6
-@to = 7
-@locale=en_GB
+@from = 94
+@to = 95
+@locale=hi
 @variant=classic
 
 ###
 GET {{authority}}/from/{{from}}/to/{{to}}?locale={{locale}}&variant={{variant}}&format=html HTTP/1.1
+
+###
+GET {{authority}}/95?locale={{locale}}&variant={{variant}}&format=json HTTP/1.1

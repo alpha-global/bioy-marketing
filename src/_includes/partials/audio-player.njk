@@ -1,11 +1,11 @@
-{% set bookmarks = [] %}
+{% set chapters = [] %}
 {% for chapter in audio.chapters %}
     {% if loop.first or(chapter.start > 0.5) %}
-        {% set bookmarks = (bookmarks.push(chapter.start), bookmarks) %}
+        {% set chapters = (chapters.push(chapter), chapters) %}
     {% endif %}
 {% endfor %}
 
-<section x-data="app.audioPlayerModel" x-init="getChapters('{{bookmarks}}')">
+<section x-data="app.audioPlayerModel" x-init="getChapters({{ chapters | dump}})" >
     {# Circlular Progress Bar: https://css-tricks.com/building-progress-ring-quickly/ #}
     <button x-cloak x-show="!isPlaying" class="absolute ltr:right-1 rtl:left-0 bottom-4 inline-flex items-center justify-center overflow-hidden rounded-full hover:bg-red/10 active:bg-red/20 focus:outline-none focus-visible:ring focus:ring-red/10 transition duration-100 ease-out hover:ease-in active:ease-in bg-white shadow-md" @click="showAudioPlayer()">
         <svg class="h-20 w-20 -rotate-90 rounded-full">
@@ -35,11 +35,15 @@
                 <div class="col-start-2 col-end-6 min-w-fit flex items-center justify-center text-xs sm:text-sm md:text-base">
                     <p x-show="showBioyTitle" class="uppercase">{{ site.title }}</p>
                     <ul>
-                        {% for chapter in audio.chapters %}
-                            <li x-show="showChapterTitle({{chapter.start}}, {{audio.chapters[loop.index].start}})">
-                                {{chapter.title}}
-                            </li>
-                        {% endfor %}
+                        {% if chapters.length < 2 %}
+                            <li class="uppercase">{{site.title}}</li>
+                        {% else %}
+                            {% for chapter in chapters %}
+                                <li x-show="showChapterTitle({{chapter.start}}, {{audio.chapters[loop.index].start}})">
+                                    {{chapter.title}}
+                                </li>
+                            {% endfor %}
+                        {% endif %}
                     </ul>
                 </div>
             </div>
@@ -54,7 +58,7 @@
                     <p>Your browser doesn't support HTML5 audio. Here is a <a href="{{audio.url}}">link to the audio</a> instead.</p>
                 </audio>
                 <div class="flex justify-between md:max-w-md mx-auto">
-                    <button class="audio__controls" @click="previousTrack()" {{ "disabled" if (bookmarks.length < 2) }}>
+                    <button class="audio__controls" @click="previousTrack()" {{ "disabled" if (chapters.length < 2) }}>
                         {% svgSprite name="skip-back", class="audio__icons" %}
                     </button>
                     <button x-ref="seekBackward" class="audio__controls"  @click="seekBackward()" >
@@ -73,7 +77,7 @@
                     <button x-ref="seekForward" class="audio__controls"  @click="seekForward()" >
                         {% svgSprite name="speed-forwards", class="audio__icons" %}
                     </button>
-                    <button class="audio__controls" @click="nextTrack()" {{ "disabled" if (bookmarks.length < 2) }}>
+                    <button class="audio__controls" @click="nextTrack()" {{ "disabled" if (chapters.length < 2) }}>
                         {% svgSprite name="skip-forwards", class="audio__icons" %}
                     </button>
                 </div>

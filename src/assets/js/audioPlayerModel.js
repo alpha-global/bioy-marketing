@@ -152,8 +152,8 @@ export default () => {
       let endTime = (end / this.$refs.audio.duration) * 100;
       return this.progress > startTime && this.progress < endTime;
     },
-    getChapters(bookmarks) {
-      this.bookmarks = bookmarks.split(",");
+    getChapters(chapters) {
+      this.bookmarks = chapters.map(({ start }) => start);
     },
     changePlayrate() {
       this.$refs.audio.playbackRate = this.playrate;
