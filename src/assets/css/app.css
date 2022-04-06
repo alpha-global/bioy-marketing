@@ -170,7 +170,11 @@
     @apply h-6 sm:h-8 md:h-10 w-1/2;
   }
   .audio__controls {
-    @apply rounded-full h-8 w-8 sm:h-12 sm:w-12 md:h-14 md:w-14 flex items-center justify-center hover:bg-red/10 active:bg-red/20 focus:bg-transparent focus:outline-none focus-visible:ring focus-within:bg-red/10 focus:ring-red/10 transition duration-100 ease-out hover:ease-in active:ease-in webkit-tap-highlight-color;
+    @apply rounded-full h-8 w-8 sm:h-12 sm:w-12 md:h-14 md:w-14 flex items-center justify-center hover:bg-red/10 active:bg-red/20 focus:bg-transparent focus:outline-none focus-visible:ring focus-within:bg-red/10 focus:ring-red/10 transition duration-100 ease-out hover:ease-in active:ease-in webkit-tap-highlight-color disabled:cursor-not-allowed disabled:hover:bg-transparent;
+  }
+
+  [x-cloak]{
+    @apply hidden;
   }
 }
 
@@ -250,10 +254,6 @@
   @apply pl-0 pr-2 border-l-0;
   border-right-width: 0.25rem;
   border-right-color: #e5e7eb;
-}
-
-[x-cloak] {
-  display: none !important;
 }
 
 .webkit-tap-highlight-color {
