@@ -9,7 +9,8 @@
     "commentary": "Commentary",
     "prayer": "Prayer",
     "pippaAdds": "Pippa adds",
-    "verseOfTheDay": "Verse of the Day"
+    "verseOfTheDay": "Verse of the Day",
+    "references": "References"
   },
   "es": {
     "day": "Día",
@@ -21,7 +22,8 @@
     "commentary": "Comentario",
     "prayer": "Oración",
     "pippaAdds": "Añadidos de Pippa",
-    "verseOfTheDay": "Versículo del día"
+    "verseOfTheDay": "Versículo del día",
+    "references": "Referencias"
   },
   "ar": {
     "day": "اليوم",
@@ -33,7 +35,8 @@
     "commentary": "تعليق",
     "prayer": "صلاة",
     "pippaAdds": "تعليق من بيبا",
-    "verseOfTheDay": "آية اليوم"
+    "verseOfTheDay": "آية اليوم",
+    "references": "المراجع"
   },
   "hi": {
     "day": "दिन",
@@ -45,7 +48,8 @@
     "commentary": "समीक्षा",
     "prayer": "प्रार्थना",
     "pippaAdds": "पिप्पा भी कहते है",
-    "verseOfTheDay": "दिन का वचन"
+    "verseOfTheDay": "दिन का वचन",
+    "references": "संदर्भ"
   },
   "zh": {
     "day": "日期",
@@ -57,7 +61,8 @@
     "commentary": "释经评注",
     "prayer": "祷告",
     "pippaAdds": "佩泊的补充",
-    "verseOfTheDay": "每日金句"
+    "verseOfTheDay": "每日金句",
+    "reference": "参考"
   },
   "fr": {
     "day": "Jour",
@@ -69,7 +74,8 @@
     "commentary": "Commentaire",
     "prayer": "Prière",
     "pippaAdds": "Pippa ajoute",
-    "verseOfTheDay": "Verset du jour"
+    "verseOfTheDay": "Verset du jour",
+    "references": "Références"
   },
   "de": {
     "day": "Tag",
@@ -81,7 +87,8 @@
     "commentary": "Kommentar",
     "prayer": "Gebet",
     "pippaAdds": "Pippa fügt hinzu",
-    "verseOfTheDay": "Vers des Tages"
+    "verseOfTheDay": "Vers des Tages",
+    "references": "Verweise"
   },
   "id": {
     "day": "Hari",
@@ -93,18 +100,20 @@
     "commentary": "Komentar",
     "prayer": "Doa",
     "pippaAdds": "Pippa menambahkan",
-    "verseOfTheDay": "ayat hari ini"
+    "verseOfTheDay": "ayat hari ini",
+    "references": "Referensi"
   },
   "th": {
     "day": "วัน",
     "todaysReading": "การอ่านวันนี้",
-    "wisdom": "ภูมิปัญญา",
+    "wisdom": "ปัญญานิพนธ์",
     "newTestament": "พันธสัญญาใหม่",
     "oldTestament": "พันธสัญญาเดิม",
-    "introduction": "บทนำ",
+    "introduction": "เกริ่นนำ",
     "commentary": "ความเห็น",
-    "prayer": "สวดมนต์",
+    "prayer": "คำอธิษฐาน",
     "pippaAdds": "ปิ๊ปปาเสริม",
-    "verseOfTheDay": "กลอนประจำวัน"
+    "verseOfTheDay": "กลอนประจำวัน",
+    "references": "การอ้างอิง"
   }
 }
