@@ -98,12 +98,12 @@
   "th": {
     "day": "วัน",
     "todaysReading": "การอ่านวันนี้",
-    "wisdom": "ภูมิปัญญา",
+    "wisdom": "ปัญญานิพนธ์",
     "newTestament": "พันธสัญญาใหม่",
     "oldTestament": "พันธสัญญาเดิม",
-    "introduction": "บทนำ",
+    "introduction": "เกริ่นนำ",
     "commentary": "ความเห็น",
-    "prayer": "สวดมนต์",
+    "prayer": "คำอธิษฐาน",
     "pippaAdds": "ปิ๊ปปาเสริม",
     "verseOfTheDay": "กลอนประจำวัน"
   }
