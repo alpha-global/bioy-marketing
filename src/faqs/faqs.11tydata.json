@@ -288,6 +288,12 @@
         "detailedAnswer": "BiOY uses New International Version (NIVUK), with some references to particular passages of Eugene Peterson’s The Message."
       },
       {
+        "title": "Why is my devotion in the app on a different day to the website or daily email?",
+        "category": "Content",
+        "shortAnswer": "Your app readings are based on the date you started Bible in One Year. If you started with Day 1 on January 1st, your app readings will match the website and email readings. If you started with Day 1 on 2nd March, they will not match. This is because the website and email readings follow the year starting with Day 1 on 1st January. Tap the link to find out more.",
+        "detailedAnswer": "Your app readings are based on the date you started Bible in One Year. If you started with Day 1 on January 1st, your app readings will match the website and email readings. If you started with Day 1 on 2nd March, they will not match. This is because the website and email readings follow the year starting with Day 1 on 1st January. \n\nIf you would like your app to match the website and email devotion, please tap on Menu > Settings > Reset App. You will be taken back through the onboarding process and will need to select 'I am familiar with the Bible' and select the edition you wish to use. When asked what was the last day you got to, select yesterday's day number - as shown on the website. Your app will then be set up to match the email and the website."
+      },
+      {
         "title": "How can I change my Edition?",
         "category": "Content",
         "shortAnswer": "If you would like to switch to a different Edition of the Bible In One Year plan you can find this in the Settings menu.",
@@ -296,7 +302,7 @@
       {
         "title": "I’m not able to play the audio, what should I do?",
         "category": "Audio",
-        "shortAnswer": "Check if you have connectivity, or if the devotion is downloaded.\nPull down on the ListView to refresh the app.\nTry to play the audio again.\n\nPlease refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to download audio.",
+        "shortAnswer": "Check if your app is up to date with the latest version. \n\nCheck if you have connectivity.\nIf the play icon is grey this means that your device is unable to download the audio and there is no internet connection. \n\nTest if your app will play the audio after downloading it manually (swipe right on the day in the list view and tap on the download icon, wait as the white circle turns red). Test again to see if the audio plays.\n\nIf you are using mobile data on the app, check your settings within the app to make sure mobile data can be used. (Tap on Menu > Settings > Audio Downloads and switch on the toggle for 'use mobile data').\n\nIf there is no play icon at all, please raise a bug report or support ticket with the BiOY team indicating what day number, edition and language you are unable to access.\n\nPlease also refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to auto download audio. You may find that the app has reached its audio download limit.",
         "detailedAnswer": "Check if you have connectivity, or if the devotion is downloaded.\nPull down on the ListView to refresh the app.\nTry to play the audio again.\n\nPlease refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to download audio."
       },
       {
