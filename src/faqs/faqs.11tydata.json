@@ -366,10 +366,10 @@
         "detailedAnswer": "When opening the app you will see the list view with the day numbers and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY."
       },
       {
-        "title": "Can I change the start date?",
+        "title": "Can I change 'Today' to a different day number?",
         "category": "App",
-        "shortAnswer": "If you would like to change the date you selected to start the BiOY reading plan you will need to either reset your app data or re-install the app.",
-        "detailedAnswer": "If you would like to change the date you selected to start the BiOY reading plan you will need to uninstall the app and install it again from the App Store or Google Play. When you launch the app again for the first time, proceed through the onboarding, indicating that you are familiar with the Bible, before selecting your Edition and select the last devotion that you completed."
+        "shortAnswer": "If you would like to change the day number that you are on for today, please reset the app. Tap on Menu > Settings > Reset App. Follow the prompts, indicating that you are familiar with the Bible, select what plan you are on (Classic, Express or Youth edition) and the last day you got to.\n\nPlease note that your app will start on the day following the last day you got to. For example: if you select that you got to Day 23, the app will show Today as Day 24. All earlier devotions will be marked as complete when you do this.\n",
+        "detailedAnswer": "If you would like to change the day number that you are on for today, please reset the app. Tap on Menu > Settings > Reset App. Follow the prompts, indicating that you are familiar with the Bible, select what plan you are on (Classic, Express or Youth edition) and the last day you got to.\n\nPlease note that your app will start on the day following the last day you got to. For example: if you select that you got to Day 23, the app will show Today as Day 24. All earlier devotions will be marked as complete when you do this."
       },
       {
         "title": "Why have you updated the app?",
