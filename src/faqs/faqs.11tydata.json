@@ -277,7 +277,7 @@
       },
       {
         "title": "How do I manually delete audio files that are saved to my device?",
-        "category": "App",
+        "category": "Audio",
         "shortAnswer": "Swipe right on the relevant day from the list view and tap the bin icon.\n\nTo delete more than one day of audio at once and view a list of all your downloaded audio, tap on Menu > Settings > Manage Audio. Tick the box to select which days you would like to delete or select all. Then tap on Delete Selected Audio.",
         "detailedAnswer": "Swipe right on the relevant day from the list view and tap the bin icon. \n\nTo delete more than one day of audio at once and view a list of all your downloaded audio, tap on Menu > Settings > Manage Audio. Tick the box to select which days you would like to delete or select all. Then tap on Delete Selected Audio."
       },
@@ -432,7 +432,7 @@
         "detailedAnswer": "No, the app is designed to prevent you loosing your progress if you have not completed over 255 days of devotions. Provided you are on version 8.4.0 of the app or later, the app will ask if you would like to restart the year once you have read more than 255 days of devotions, including December 31st. \n\nIf you would like to restart from Day 1 before completing the previous year, you will need to either scroll to the top of the list view and tap on the 'Start a new year' button or reset the app (tap on Menu > Settings > Reset app), which will allow you to go through the onboarding process again and select 'Day 1' as your start point."
       },
       {
-        "title": "Is it the commentary the same every year?",
+        "title": "Is the commentary the same every year?",
         "category": "Content",
         "shortAnswer": "The majority of the content will be the same with small updates each year.",
         "detailedAnswer": "The majority of the content will be the same with small updates each year."
