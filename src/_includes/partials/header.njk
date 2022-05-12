@@ -49,7 +49,7 @@
               <span x-show="outOfView">{% svgSprite name="translate", class="fill-current h-6 w-6 ltr:mr-2 rtl:ml-2" %}</span>
               {{ locale }}
             </button>
-            <div class="absolute bg-red divide-y-2" :class="outOfView ? 'w-1/2' : ''" x-show="openLanguages">
+            <div class="absolute bg-red divide-y-2" :class="outOfView ? 'w-1/2' : 'min-w-max'" x-show="openLanguages">
               {% for lang in globals.languages %}
                 <a class="block text-white text-xs py-3 pl-2 pr-4" :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">
                   <div class="grid grid-cols-3 gap-3 min-w-max">

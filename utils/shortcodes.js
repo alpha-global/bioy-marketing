@@ -18,7 +18,7 @@ module.exports = {
     <div class="py-4">
       <h2>${devotionSection.reference}</h1>
         <div class="font-scripture">
-          ${devotionSection.text}
+          ${devotionSection.text.replace(/\|/g, "&ensp;")}
         </div>
         <h2>${devotionSection.commentary}</h2>
         ${devotionSection.comment}
