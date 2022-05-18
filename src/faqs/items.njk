@@ -20,7 +20,7 @@ eleventyComputed:
 
 
   <div class="max-w-3xl">
-    <h1 class="title mb-2">{{ title }}</h1>
+    <h1 class="title mb-2">{{ title | safe }}</h1>
     <div class="alt-prose">
       {{ item.detailedAnswer|markdown|safe }}
     </div>
