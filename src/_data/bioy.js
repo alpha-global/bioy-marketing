@@ -66,7 +66,7 @@ module.exports = async function (fullImport = false) {
       endDayNumber = 10;
     } else {
       startDayNumber = day - 5;
-      endDayNumber = day + 2;
+      endDayNumber = day + 7;
     }
   }
 
