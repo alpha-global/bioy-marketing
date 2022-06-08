@@ -10,7 +10,7 @@
     "cms": "npx netlify-cms-proxy-server",
     "wipe": "rm -rf ./.cache && rm -rf ./build",
     "production": "ELEVENTY_ENV=production npx @11ty/eleventy && mix --production",
-    "production:cleanSlate": "ELEVENTY_ENV=production CLEAN_SLATE=true npx @11ty/eleventy && mix --production"
+    "production:cleanSlate": "NODE_OPTIONS='--max-old-space-size=8192' ELEVENTY_ENV=production CLEAN_SLATE=true npx @11ty/eleventy && mix --production"
   },
   "author": "Alpha International / OneSheep",
   "license": "ISC",
