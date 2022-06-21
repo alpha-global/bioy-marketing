@@ -1,4 +1,31 @@
 {
+  "de": {
+    "title": "About",
+    "header": {
+      "title": "365 Tage mit der Bibel",
+      "strapline": "Das sind 365 gut genutzte Tage!",
+      "img": {
+        "src": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
+        "desc": "Nicky and Pippa lesen die Bibel in einem Jahr"
+      },
+      "cta": "Hol dir die App. Wähle deinen Stil."
+    },
+    "body": "**Bibel in einem Jahr ist ein Bibelleseplan, der dich in 365 Tagen durch die gesamt Bibel führt. Er ist ideal für alle, die einen einfachen Weg suchen, die Bibel zu lesen und zu verstehen.**\n\nJeder Tag enthält Abschnitte aus einem Psalm oder den Sprüchen, dem Neuen und dem Alten Testament sowie einen ansprechenden Kommentar von Nicky und Pippa Gumbel, Leiter der [Holy Trinity Brompton (HTB)](https://htb.org/) - Kirche in London und Pioniere von [Alpha](https://alpha.org/).  \n\nBibel in einem Jahr hilft dir, dich intensiver mit der Bibel auseinanderzusetzen, die Prinzipien im täglichen Leben anzuwenden und in deiner Beziehung zu Jesus zu wachsen.\n\nDu kannst die Texte entweder lesen oder anhören. Und, je nachdem, was besser zu dir und deinem Lebensstil passt, wählst du die Classic-Version (ca. 25 Minuten) oder die etwas kürzere Express-Version (ca. 10 Minuten). \n\nÜber 4,5 Millionen Menschen aus 160 Ländern nutzen Bibel in einem Jahr . Schließ dich ihnen an, lass dich von der Bibel begeistern und komm so Gott näher.",
+    "cta": true,
+    "editions": false,
+    "testimonials": true
+  },
+  "hi": {
+    "header": {
+      "title": "365 Days in the Bible",
+      "strapline": "Join the 3 million people who start their day in the Bible"
+    },
+    "cta": true,
+    "editions": false,
+    "testimonials": true,
+    "title": "About",
+    "body": "**The Bible in One Year is a daily Bible reading plan which takes you through the whole Bible in 365 days.  It is ideal for anyone who is looking for an easy and accessible way to read and understand the Bible.** \n\nEach day includes passages from a Psalm or Proverb, the New Testament and the Old Testament along with a daily commentary from Nicky and Pippa Gumbel, leaders of[ Holy Trinity Brompton (HTB)](https://htb.org/) Church in London and pioneers of [Alpha](https://alpha.org/). The Bible in One Year will encourage you to engage more closely with the Bible, to apply its teachings to everyday life and to grow in your relationship with Jesus. \n\nYou can follow along by reading the text or listening to the audio commentary and you can choose the version that best suits your lifestyle; the Classic version (25 minutes), or a shorter Express or Youth version (both around 15 minutes). \n\nOver 4.5 million people from 160 countries have experienced Bible in One Year. Why not join them, find your own rhythm and draw closer to God."
+  },
   "en": {
     "header": {
       "title": "365 Days in the Bible",
@@ -15,34 +42,18 @@
     "testimonials": true,
     "title": "About"
   },
-  "ar": {
+  "fr": {
+    "title": "À propos",
     "header": {
-      "strapline": "سوف تقضي 365 يوم بصورة ممتعة!",
-      "title": "اقرأ الكتاب المقدس في 365 يوم ",
-      "cta": "قم بتنزيل التطبيق. ابحث عن إيقاعك الخاص.",
+      "title": "365 jours dans la Bible",
+      "strapline": "C'est 365 jours bien utilisés !",
       "img": {
         "src": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
-        "desc": "Nicky and Pippa narrating the Bible in One Year"
-      }
-    },
-    "cta": true,
-    "editions": false,
-    "testimonials": true,
-    "title": "عن",
-    "body": "**الكتاب المقدس في عام واحد هو خطة يومية لقراءة الكتاب المقدس تأخذك خلال الكتاب المقدس بأكمله في 365 يومًا. إنه مثالي لمن يبحث عن طريقة سهلة وميسرة لقراءة وفهم الكتاب المقدس.**\n\nيتضمن كل يوم مقاطع من المزمور أو الأمثال والعهد الجديد والعهد القديم إلى جانب تعليق يومي من نيكي وبيبا جامبل ، وقادة [كنيسة ](https://htb.org/)[هولي ترينيتي برومبتون (HTB) ](https://htb.org/)لندن ورواد[ ألفا](mena.alpha.org). سيشجعك الكتاب المقدس في عام واحد على الانخراط بشكل أعمق في الكتاب المقدس، وتطبيق تعاليمه في حياتك اليومية وتنمية علاقتك مع يسوع.\n\nيمكنك المتابعة من خلال قراءة النص أو الاستماع إلى التعليق الصوتي ويمكنك اختيار الإصدار الذي يناسب أسلوب حياتك؛ الإصدار الكلاسيكي (25 دقيقة)، أو إصدار أقصر من Express أو إصدار الشباب (كلاهما حوالي 15 دقيقة).\n\nهناك أكثر من 4.5 مليون شخص من 160 دولة قد اختبروا الكتاب المقدس في عام واحد. لماذا لا تنضم إليهم، ابحث عن إيقاعك الخاص واقترب أكثر من الله."
-  },
-  "de": {
-    "title": "About",
-    "header": {
-      "title": "365 Tage mit der Bibel",
-      "strapline": "Das sind 365 gut genutzte Tage!",
-      "img": {
-        "src": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
-        "desc": "Nicky and Pippa lesen die Bibel in einem Jahr"
+        "desc": "Nicky et Pippa en train de raconter la Bible en 1 an"
       },
-      "cta": "Hol dir die App. Wähle deinen Stil."
+      "cta": "Téléchargez l'application. Trouvez votre rythme."
     },
-    "body": "**Bibel in einem Jahr ist ein Bibelleseplan, der dich in 365 Tagen durch die gesamt Bibel führt. Er ist ideal für alle, die einen einfachen Weg suchen, die Bibel zu lesen und zu verstehen.**\n\nJeder Tag enthält Abschnitte aus einem Psalm oder den Sprüchen, dem Neuen und dem Alten Testament sowie einen ansprechenden Kommentar von Nicky und Pippa Gumbel, Leiter der [Holy Trinity Brompton (HTB)](https://htb.org/) - Kirche in London und Pioniere von [Alpha](https://alpha.org/).  \n\nBibel in einem Jahr hilft dir, dich intensiver mit der Bibel auseinanderzusetzen, die Prinzipien im täglichen Leben anzuwenden und in deiner Beziehung zu Jesus zu wachsen.\n\nDu kannst die Texte entweder lesen oder anhören. Und, je nachdem, was besser zu dir und deinem Lebensstil passt, wählst du die Classic-Version (ca. 25 Minuten) oder die etwas kürzere Express-Version (ca. 10 Minuten). \n\nÜber 4,5 Millionen Menschen aus 160 Ländern nutzen Bibel in einem Jahr . Schließ dich ihnen an, lass dich von der Bibel begeistern und komm so Gott näher.",
+    "body": "**La Bible en 1 an est un plan de lecture biblique quotidien qui vous fait parcourir toute la Bible en 365 jours. Il est idéal pour tous ceux qui recherchent un moyen simple et accessible de lire et de comprendre la Bible.**\n\nChaque jour comprend des passages d'un psaume ou d'un proverbe, du Nouveau Testament et de l'Ancien Testament, ainsi qu'un commentaire quotidien de Nicky & Pippa Gumbel, dirigeants de l'église [Holy Trinity Brompton (HTB)](https://htb.org/) à Londres et pionniers d'[Alpha](https://www.parcoursalpha.fr/). La Bible en 1 an vous encouragera à vous engager plus étroitement avec la Bible, à appliquer ses enseignements à la vie de tous les jours et à grandir dans votre relation avec Jésus.\n\nVous pouvez suivre en lisant le texte ou en écoutant le commentaire audio et vous pouvez choisir la version qui convient le mieux à votre style de vie ; la version Classique (25 minutes), ou une version plus courte, Express ou Jeunesse (environ 15 minutes chacune).\n\nPlus de 4,5 millions de personnes de 160 pays ont fait l'expérience de la Bible en 1 an. Pourquoi ne pas les rejoindre, trouver votre propre rythme et vous rapprocher de Dieu ?",
     "cta": true,
     "editions": false,
     "testimonials": true
@@ -61,33 +72,39 @@
     "editions": false,
     "testimonials": true,
     "body": "**The Bible in One Year is a daily Bible reading plan which takes you through the whole Bible in 365 days.**  \n\nEach day includes passages from the New Testament, the Old Testament and the Psalms or Proverbs, along with a daily commentary from Nicky and Pippa Gumbel, leaders of [Holy Trinity Brompton (HTB) Church](https://htb.org) in London and pioneers of [Alpha](https://alpha.org). The Bible in One Year encourages readers to engage more closely with the Bible, to apply its teachings to everyday life and to grow in relationship with Jesus.\n\nThe Bible in One Year is a wonderful tool for those who have just finished Alpha and are looking for an easy and accessible way to read and understand the Bible. Each day, readers can follow along by reading the text or listening to the audio commentary and can choose the version that best suits their lifestyle; the Classic version (25 minutes) or a shorter Express version (10 minutes). A Youth version is also available.Join 3 million users worldwide each day in reading the Bible in One Year.",
-    "title": "关于"
+    "title": "Sobre"
   },
-  "fr": {
-    "title": "À propos",
+  "zh": {
     "header": {
-      "title": "365 jours dans la Bible",
-      "strapline": "C'est 365 jours bien utilisés !",
+      "strapline": "与全球3百万人一起，用阅读圣经来开启新的一天",
+      "title": "365天 天天与圣经同行",
+      "cta": "现在就下载吧",
       "img": {
         "src": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
-        "desc": "Nicky et Pippa en train de raconter la Bible en 1 an"
-      },
-      "cta": "Téléchargez l'application. Trouvez votre rythme."
-    },
-    "body": "**La Bible en 1 an est un plan de lecture biblique quotidien qui vous fait parcourir toute la Bible en 365 jours. Il est idéal pour tous ceux qui recherchent un moyen simple et accessible de lire et de comprendre la Bible.**\n\nChaque jour comprend des passages d'un psaume ou d'un proverbe, du Nouveau Testament et de l'Ancien Testament, ainsi qu'un commentaire quotidien de Nicky & Pippa Gumbel, dirigeants de l'église [Holy Trinity Brompton (HTB)](https://htb.org/) à Londres et pionniers d'[Alpha](https://www.parcoursalpha.fr/). La Bible en 1 an vous encouragera à vous engager plus étroitement avec la Bible, à appliquer ses enseignements à la vie de tous les jours et à grandir dans votre relation avec Jésus.\n\nVous pouvez suivre en lisant le texte ou en écoutant le commentaire audio et vous pouvez choisir la version qui convient le mieux à votre style de vie ; la version Classique (25 minutes), ou une version plus courte, Express ou Jeunesse (environ 15 minutes chacune).\n\nPlus de 4,5 millions de personnes de 160 pays ont fait l'expérience de la Bible en 1 an. Pourquoi ne pas les rejoindre, trouver votre propre rythme et vous rapprocher de Dieu ?",
-    "cta": true,
-    "editions": false,
-    "testimonials": true
-  },
-  "hi": {
-    "header": {
-      "title": "365 Days in the Bible",
-      "strapline": "Join the 3 million people who start their day in the Bible"
+        "desc": "圣经日日行由力克和佩泊朗读"
+      }
     },
     "cta": true,
     "editions": false,
     "testimonials": true,
-    "title": "Title"
+    "title": "介绍",
+    "body": "**《圣经日日行》是一个每日读经灵修集，它帮助你在365天内读完整本圣经。本软件特别适合那些希望通过**一**种简单易懂的方式来阅读、理解《圣经》的人。**\n\n《圣经日日行》灵修集包含三部分：新约，旧约以及诗篇或箴言。每部分都附有甘力克和太太佩泊所写的圣经评注。甘力克和佩泊是启发国际事工的创始人，并且是伦敦圣三一布朗普顿（HTB）教会的领袖。《圣经日日行》帮助读者更好阅读《圣经》，并把教义应用到日常生活中，进而与耶稣建立亲密的关系。\n\n你可以阅读文本或聆听语音，也可选择最适合你的版本，它们是：经典版（25分钟）；快速版（10分钟）和青年版。（中文目前只支持经典版）\n\n在全球160个国家中，已经有450万人正在使用《圣经日日行》作为他们的每日灵修指南。现在就加入我们，按照你的节奏，每日亲近神！"
+  },
+  "ar": {
+    "header": {
+      "strapline": "سوف تقضي 365 يوم بصورة ممتعة!",
+      "title": "اقرأ الكتاب المقدس في 365 يوم ",
+      "cta": "قم بتنزيل التطبيق. ابحث عن إيقاعك الخاص.",
+      "img": {
+        "src": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
+        "desc": "Nicky and Pippa narrating the Bible in One Year"
+      }
+    },
+    "cta": true,
+    "editions": false,
+    "testimonials": true,
+    "title": "عن",
+    "body": "**الكتاب المقدس في عام واحد هو خطة يومية لقراءة الكتاب المقدس تأخذك خلال الكتاب المقدس بأكمله في 365 يومًا. إنه مثالي لمن يبحث عن طريقة سهلة وميسرة لقراءة وفهم الكتاب المقدس.**\n\nيتضمن كل يوم مقاطع من المزمور أو الأمثال والعهد الجديد والعهد القديم إلى جانب تعليق يومي من نيكي وبيبا جامبل ، وقادة [كنيسة ](https://htb.org/)[هولي ترينيتي برومبتون (HTB) ](https://htb.org/)لندن ورواد[ ألفا](mena.alpha.org). سيشجعك الكتاب المقدس في عام واحد على الانخراط بشكل أعمق في الكتاب المقدس، وتطبيق تعاليمه في حياتك اليومية وتنمية علاقتك مع يسوع.\n\nيمكنك المتابعة من خلال قراءة النص أو الاستماع إلى التعليق الصوتي ويمكنك اختيار الإصدار الذي يناسب أسلوب حياتك؛ الإصدار الكلاسيكي (25 دقيقة)، أو إصدار أقصر من Express أو إصدار الشباب (كلاهما حوالي 15 دقيقة).\n\nهناك أكثر من 4.5 مليون شخص من 160 دولة قد اختبروا الكتاب المقدس في عام واحد. لماذا لا تنضم إليهم، ابحث عن إيقاعك الخاص واقترب أكثر من الله."
   },
   "th": {
     "title": "เกี่ยวกับเรา",
@@ -105,20 +122,8 @@
     "editions": false,
     "testimonials": true
   },
-  "zh": {
-    "header": {
-      "strapline": "与全球3百万人一起，用阅读圣经来开启新的一天",
-      "title": "365天 天天与圣经同行",
-      "cta": "现在就下载吧",
-      "img": {
-        "src": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
-        "desc": "圣经日日行由力克和佩泊朗读"
-      }
-    },
-    "cta": true,
-    "editions": false,
-    "testimonials": true,
-    "title": "介绍",
-    "body": "**《圣经日日行》是一个每日读经灵修集，它帮助你在365天内读完整本圣经。本软件特别适合那些希望通过**一**种简单易懂的方式来阅读、理解《圣经》的人。**\n\n《圣经日日行》灵修集包含三部分：新约，旧约以及诗篇或箴言。每部分都附有甘力克和太太佩泊所写的圣经评注。甘力克和佩泊是启发国际事工的创始人，并且是伦敦圣三一布朗普顿（HTB）教会的领袖。《圣经日日行》帮助读者更好阅读《圣经》，并把教义应用到日常生活中，进而与耶稣建立亲密的关系。\n\n你可以阅读文本或聆听语音，也可选择最适合你的版本，它们是：经典版（25分钟）；快速版（10分钟）和青年版。（中文目前只支持经典版）\n\n在全球160个国家中，已经有450万人正在使用《圣经日日行》作为他们的每日灵修指南。现在就加入我们，按照你的节奏，每日亲近神！"
+  "id": {
+    "title": "About",
+    "body": "**The Bible in One Year is a daily Bible reading plan which takes you through the whole Bible in 365 days.  It is ideal for anyone who is looking for an easy and accessible way to read and understand the Bible.** \n\nEach day includes passages from a Psalm or Proverb, the New Testament and the Old Testament along with a daily commentary from Nicky and Pippa Gumbel, leaders of[ Holy Trinity Brompton (HTB)](https://htb.org/) Church in London and pioneers of [Alpha](https://alpha.org/). The Bible in One Year will encourage you to engage more closely with the Bible, to apply its teachings to everyday life and to grow in your relationship with Jesus. \n\nYou can follow along by reading the text or listening to the audio commentary and you can choose the version that best suits your lifestyle; the Classic version (25 minutes), or a shorter Express or Youth version (both around 15 minutes). \n\nOver 4.5 million people from 160 countries have experienced Bible in One Year. Why not join them, find your own rhythm and draw closer to God."
   }
 }
