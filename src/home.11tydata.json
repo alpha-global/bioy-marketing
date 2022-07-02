@@ -68,12 +68,12 @@
   "es": {
     "intro": "Bom dia!",
     "header": {
-      "title": "¿Quiere conocer la Biblia?",
-      "strapline": "Lo guiaremos paso a paso.",
+      "title": "¿Quieres conocer la Biblia?",
+      "strapline": "Te guiaremos paso a paso.",
       "cta": "Vamos",
       "img": {
         "src": "/assets/img/bioy-header.jpg",
-        "desc": "A man looks down at his phone, while listening to Bible in One Year"
+        "desc": "Un hombre mira su teléfono mientras escucha La Biblia en Un Año"
       }
     },
     "about": {
