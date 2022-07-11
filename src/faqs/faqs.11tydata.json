@@ -514,6 +514,12 @@
         "category": "Content",
         "shortAnswer": "You can view the day number for today at this link: https://bibleinoneyear.org/en/#todays-devotion",
         "detailedAnswer": "You can view the day number for today at [this link](https://bibleinoneyear.org/en/#todays-devotion)."
+      },
+      {
+        "title": "The app has taken me back to Day 1, how do I get back to my place? ",
+        "category": "App",
+        "shortAnswer": "You can reset the app and resume your place within the app. Tap on Menu > Settings > Reset App. Follow the prompts and then select the day number you last completed. The following day will show as Today in your list view and all previous days will be marked complete.",
+        "detailedAnswer": "You can reset the app and resume your place within the app. Tap on Menu > Settings > Reset App. Follow the prompts and then select the day number you last completed. The following day will show as Today in your list view and all previous days will be marked complete."
       }
     ],
     "seeMore": "See More",
