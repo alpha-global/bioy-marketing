@@ -790,20 +790,25 @@
   "es": {
     "faqsItems": [
       {
-        "title": "Test",
-        "category": "App",
-        "shortAnswer": "short",
+        "title": "¿Puedo acelerar/disminuir la velocidad de la devoción de audio?",
+        "category": "Audio",
+        "shortAnswer": "¡Sí! Después de tocar el botón \"Reproducir\" en su devoción, verá un 1x en la esquina superior izquierda del reproductor de audio ampliado. Toque esto para recorrer las velocidades de reproducción: 1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x y luego redondee nuevamente a 1x, etc.",
         "detailedAnswer": "long"
       }
     ],
-    "seeMore": "See More",
-    "submitButton": "Submit a support request",
+    "seeMore": "Ver Más",
+    "submitButton": "Enviar una solicitud",
     "intro": "**¿Tienes alguna pregunta sobre la Biblia en un año?** ¿Algún problema con la aplicación? Empieza aqui…",
-    "notFoundMessage": "Sorry, we don’t have any results for",
+    "notFoundMessage": "Lo sentimos, no tenemos ningún resultado para",
     "title": "Ayuda",
-    "filter": "Filter",
+    "filter": "Filtró",
     "backButton": "Back to all Frequently Asked Questions (FAQs)",
-    "filterHint": "What are you looking for?"
+    "categories": {
+      "Audio": "Audio",
+      "Content": "Contenido",
+      "App": "Aplicación"
+    },
+    "filterHint": "Qué estás buscando?"
   },
   "zh": {
     "faqsItems": [
