@@ -802,13 +802,13 @@
     "notFoundMessage": "Lo sentimos, no tenemos ningún resultado para",
     "title": "Ayuda",
     "filter": "Filtró",
-    "backButton": "Back to all Frequently Asked Questions (FAQs)",
+    "backButton": "Volver a todas las Preguntas frecuentes (FAQs)",
     "categories": {
       "Audio": "Audio",
       "Content": "Contenido",
       "App": "Aplicación"
     },
-    "filterHint": "Qué estás buscando?"
+    "filterHint": "¿Qué estás buscando?"
   },
   "zh": {
     "faqsItems": [
