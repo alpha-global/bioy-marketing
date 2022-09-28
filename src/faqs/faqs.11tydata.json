@@ -794,6 +794,11 @@
         "category": "Audio",
         "shortAnswer": "¡Sí! Después de tocar el botón \"Reproducir\" en su devoción, verá un 1x en la esquina superior izquierda del reproductor de audio ampliado. Toque esto para recorrer las velocidades de reproducción: 1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x y luego redondee nuevamente a 1x, etc.",
         "detailedAnswer": "long"
+      },
+      {
+        "title": "¿Cómo puedo reiniciar mi aplicación?",
+        "category": "App",
+        "shortAnswer": "Tocar Menú > Configuración > Restablecer aplicación. Siga las indicaciones y seleccione el número del día que completó por última vez. El día siguiente se mostrará en la vista de lista como Hoy. Todos los días anteriores se mostrarán como completos."
       }
     ],
     "seeMore": "Ver Más",
