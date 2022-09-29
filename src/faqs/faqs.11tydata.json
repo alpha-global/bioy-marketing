@@ -798,7 +798,8 @@
       {
         "title": "¿Cómo puedo reiniciar mi aplicación?",
         "category": "App",
-        "shortAnswer": "Tocar Menú > Configuración > Restablecer aplicación. Siga las indicaciones y seleccione el número del día que completó por última vez. El día siguiente se mostrará en la vista de lista como Hoy. Todos los días anteriores se mostrarán como completos."
+        "shortAnswer": "Tocar Menú > Configuración > Restablecer aplicación. Siga las indicaciones y seleccione el número del día que completó por última vez. El día siguiente se mostrará en la vista de lista como Hoy. Todos los días anteriores se mostrarán como completos.",
+        "detailedAnswer": ""
       }
     ],
     "seeMore": "Ver Más",
