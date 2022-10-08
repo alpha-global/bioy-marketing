@@ -240,28 +240,28 @@
   "en": {
     "faqsItems": [
       {
-        "title": "Can I speed up/slow down the speed of the audio devotion?",
-        "category": "Audio",
-        "shortAnswer": "Yes! After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds: 1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc\n",
-        "detailedAnswer": "Yes! Please ensure you have updated to the latest version of the app from the iOS App Store or Google Play on Android. After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds:\n\n1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc"
-      },
-      {
-        "category": "App",
-        "title": "How can I reset my app?",
-        "shortAnswer": "Tap on Menu > Settings > Reset App. Follow the prompts and select the day number you last completed. The following day will show in the list view as Today. All previous days will show as complete.",
-        "detailedAnswer": "Tap on Menu > Settings > Reset App. Follow the prompts and select the day you last completed. The following day will show in the list view as Today. All previous days will show as complete."
-      },
-      {
         "title": "I can’t see beyond Day One after my first install",
         "category": "Content",
         "shortAnswer": "Any new user of the BiOY app will need step through an ‘onboarding process’. Here we help you find the best route to start your BiOY journey. Once completed, there are two options for you to choose from before you begin. ‘Start Now’ or ‘Explore the app’...",
         "detailedAnswer": "Any new user of the BiOY app will need step through an ‘onboarding process’. Here we help you find the best route to start your BiOY journey. Once completed, there are two options for you to choose from before you begin. ‘Start Now’ or ‘Explore the app’.\\\n\\\nStart Now.\\\nIf you select ‘Start Now’ the app, will automaticity open on Day One. A swipe to the left will reveal the devotion list as well as the option to open the settings menu, located in the lower left. \\\n\\\nExplore The App \\\nTapping the 'Explore the app' option allows the user to understand the app interface before they begin the devotion. Once you have completed the three on screen interactions, you will need to tap ‘Start Now’ for further devotionals to be viewed."
       },
       {
+        "title": "Can I speed up/slow down the speed of the audio devotion?",
+        "category": "Audio",
+        "shortAnswer": "Yes! After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds: 1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc\n",
+        "detailedAnswer": "Yes! Please ensure you have updated to the latest version of the app from the iOS App Store or Google Play on Android. After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds:\n\n1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc"
+      },
+      {
         "title": "Can I share a devotion with a friend?",
         "category": "Content",
         "shortAnswer": "Yes! We would absolutely love you do this and encourage someone who might need to hear from God through the devotions and commentaries. To find the link, tap the ‘book’ icon on the day you wish to share and then the ‘share’ icon in the bottom left-hand corner of the popup that appears. You will then be able to select how you wish to share it, whether directly into a text message or email, or by copying the link and pasting it where you wish.",
         "detailedAnswer": "Yes! We would absolutely love you do this and encourage someone who might need to hear from God through the devotions and commentaries. To find the link, tap the ‘book’ icon on the day you wish to share and then the ‘share’ icon in the bottom left-hand corner of the popup that appears. You will then be able to select how you wish to share it, whether directly into a text message or email, or by copying the link and pasting it where you wish."
+      },
+      {
+        "category": "App",
+        "title": "How can I reset my app?",
+        "shortAnswer": "Tap on Menu > Settings > Reset App. Follow the prompts and select the day number you last completed. The following day will show in the list view as Today. All previous days will show as complete.",
+        "detailedAnswer": "Tap on Menu > Settings > Reset App. Follow the prompts and select the day you last completed. The following day will show in the list view as Today. All previous days will show as complete."
       },
       {
         "title": "How do I return to the list view and menu from within a devotion?",
@@ -800,6 +800,11 @@
         "category": "App",
         "shortAnswer": "Tocar Menú > Configuración > Restablecer aplicación. Siga las indicaciones y seleccione el número del día que completó por última vez. El día siguiente se mostrará en la vista de lista como Hoy. Todos los días anteriores se mostrarán como completos.",
         "detailedAnswer": ""
+      },
+      {
+        "title": "No puedo ver más allá del primer día después de mi primera instalación",
+        "category": "Content",
+        "shortAnswer": "Cualquier nuevo usuario de la aplicación BiOY deberá pasar por un \"proceso de incorporación\". Aquí te ayudamos a encontrar la mejor ruta para comenzar tu viaje BiOY. Una vez completado, hay dos opciones para que elijas antes de comenzar. 'Empezar ahora' o 'Explorar la aplicación'..."
       }
     ],
     "seeMore": "Ver Más",
