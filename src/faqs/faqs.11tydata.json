@@ -804,7 +804,8 @@
       {
         "title": "No puedo ver más allá del primer día después de mi primera instalación",
         "category": "Content",
-        "shortAnswer": "Cualquier nuevo usuario de la aplicación BiOY deberá pasar por un \"proceso de incorporación\". Aquí te ayudamos a encontrar la mejor ruta para comenzar tu viaje BiOY. Una vez completado, hay dos opciones para que elijas antes de comenzar. 'Empezar ahora' o 'Explorar la aplicación'..."
+        "shortAnswer": "Cualquier nuevo usuario de la aplicación BiOY deberá pasar por un \"proceso de incorporación\". Aquí te ayudamos a encontrar la mejor ruta para comenzar tu viaje BiOY. Una vez completado, hay dos opciones para que elijas antes de comenzar. 'Empezar ahora' o 'Explorar la aplicación'...",
+        "detailedAnswer": ""
       }
     ],
     "seeMore": "Ver Más",
