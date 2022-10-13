@@ -1,5 +1,4 @@
 import Alpine from "alpinejs";
-import Swipe from "swipejs";
 
 import audioPlayer from "./audioPlayerModel.js";
 import baseView from "./baseViewModel.js";
@@ -7,6 +6,7 @@ import devotionBanner from "./devotionBannerModel.js";
 import errorPageView from "./errorPageViewModel.js";
 import faqsView from "./faqsViewModel.js";
 import mediumView from "./mediumViewModel.js";
+import testimonialsSlider from "./testimonialsSliderModel.js";
 
 function setMailPopup() {
   const mailerLiteLink = document.querySelector(".js-mailerLite");
@@ -43,18 +43,6 @@ function setMailPopup() {
   });
 }
 
-const testimonySwiper = new Swipe(document.getElementById("slider"), {
-  startSlide: 0,
-  speed: 500,
-  auto: 6000,
-  draggable: false,
-  continuous: true,
-  disableScroll: false,
-  stopPropagation: true,
-});
-
-window.testimonySwiper = testimonySwiper;
-
 setMailPopup();
 
 Alpine.data("audioPlayer", audioPlayer);
@@ -63,4 +51,5 @@ Alpine.data("devotionBanner", devotionBanner);
 Alpine.data("faqsView", faqsView);
 Alpine.data("errorPageView", errorPageView);
 Alpine.data("mediumView", mediumView);
+Alpine.data("testimonialsSlider", testimonialsSlider);
 Alpine.start();

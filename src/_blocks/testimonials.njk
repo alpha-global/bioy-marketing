@@ -1,6 +1,6 @@
 {% if testimonials[locale].collection | length %}
-  <div class="mb-4 py-6 w-full">
-    <div id="slider" class="
+  <div x-data="testimonialsSlider" class="mb-4 py-6 w-full">
+    <div x-ref="slider" class="
               relative
               overflow-hidden
               border-t-4 border-b-4 border-red
