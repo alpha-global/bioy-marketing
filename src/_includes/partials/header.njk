@@ -5,7 +5,7 @@
   {% endif %}
 {% endfor %}
 
-<header x-data="app.helpers" x-init="init('{{ devotion.variant }}')" id="header" class="border-red border-t-4 absolute {% if imageBanner %}bg-gradient-to-b bg-opacity-80 from-black-scrim{% endif %} h-16 text-white top-0 w-full z-10 md:bg-none">
+<header x-data="devotionBanner" x-init="init('{{ devotion.variant }}')" id="header" class="border-red border-t-4 absolute {% if imageBanner %}bg-gradient-to-b bg-opacity-80 from-black-scrim{% endif %} h-16 text-white top-0 w-full z-10 md:bg-none">
   <h1 class="text-2xl font-medium m-0 -top-1 absolute">
     <a href="/{{ locale }}" class="flex items-center" title="{{ site.title }}">
       {% svgSprite name="bioy-filled", class="fill-current text-red h-16 w-16" %}

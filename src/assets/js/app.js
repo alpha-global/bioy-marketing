@@ -9,7 +9,7 @@ import errorPageViewModel from "./errorPageViewModel.js";
 import audioPlayer from "./audioPlayerModel.js";
 const { locales } = require("../../_data/globals");
 
-import helpers from "./helpers.js";
+import devotionBanner from "./devotionBannerModel.js";
 
 window.app = new (function () {
   return {
@@ -18,7 +18,7 @@ window.app = new (function () {
     // baseViewModel,
     // faqsViewModel,
     // mediumViewModel,
-    helpers,
+    // helpers,
     errorPageViewModel,
     // audioPlayerModel,
   };
@@ -75,6 +75,7 @@ setMailPopup();
 
 Alpine.data("audioPlayer", audioPlayer);
 Alpine.data("baseView", baseView);
+Alpine.data("devotionBanner", devotionBanner);
 Alpine.data("mediumView", mediumView);
 Alpine.data("faqsView", faqsView);
 Alpine.start();
