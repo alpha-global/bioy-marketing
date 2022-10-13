@@ -3,7 +3,7 @@ import Swipe from "swipejs";
 
 import baseView from "./baseViewModel.js";
 import faqsView from "./faqsViewModel.js";
-import mediumViewModel from "./mediumViewModel.js";
+import mediumView from "./mediumViewModel.js";
 import errorPageViewModel from "./errorPageViewModel.js";
 
 import audioPlayer from "./audioPlayerModel.js";
@@ -17,7 +17,7 @@ window.app = new (function () {
 
     // baseViewModel,
     // faqsViewModel,
-    mediumViewModel,
+    // mediumViewModel,
     helpers,
     errorPageViewModel,
     // audioPlayerModel,
@@ -75,5 +75,6 @@ setMailPopup();
 
 Alpine.data("audioPlayer", audioPlayer);
 Alpine.data("baseView", baseView);
+Alpine.data("mediumView", mediumView);
 Alpine.data("faqsView", faqsView);
 Alpine.start();
