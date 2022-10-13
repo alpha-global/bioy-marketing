@@ -6,7 +6,7 @@ import faqsViewModel from "./faqsViewModel.js";
 import mediumViewModel from "./mediumViewModel.js";
 import errorPageViewModel from "./errorPageViewModel.js";
 
-import audioPlayerModel from "./audioPlayerModel.js";
+import audioPlayer from "./audioPlayerModel.js";
 const { locales } = require("../../_data/globals");
 
 import helpers from "./helpers.js";
@@ -20,7 +20,7 @@ window.app = new (function () {
     mediumViewModel,
     helpers,
     errorPageViewModel,
-    audioPlayerModel,
+    // audioPlayerModel,
   };
 })();
 
@@ -73,4 +73,5 @@ window.testimonySwiper = testimonySwiper;
 
 setMailPopup();
 
+Alpine.data("audioPlayer", audioPlayer);
 Alpine.start();
