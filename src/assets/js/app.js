@@ -1,8 +1,8 @@
 import Alpine from "alpinejs";
 import Swipe from "swipejs";
 
-import baseViewModel from "./baseViewModel.js";
-import faqsViewModel from "./faqsViewModel.js";
+import baseView from "./baseViewModel.js";
+import faqsView from "./faqsViewModel.js";
 import mediumViewModel from "./mediumViewModel.js";
 import errorPageViewModel from "./errorPageViewModel.js";
 
@@ -15,8 +15,8 @@ window.app = new (function () {
   return {
     init() {},
 
-    baseViewModel,
-    faqsViewModel,
+    // baseViewModel,
+    // faqsViewModel,
     mediumViewModel,
     helpers,
     errorPageViewModel,
@@ -74,4 +74,6 @@ window.testimonySwiper = testimonySwiper;
 setMailPopup();
 
 Alpine.data("audioPlayer", audioPlayer);
+Alpine.data("baseView", baseView);
+Alpine.data("faqsView", faqsView);
 Alpine.start();

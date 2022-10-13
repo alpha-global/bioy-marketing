@@ -76,7 +76,7 @@
       {% endif %}
     </div>
   </h1>
-  <div x-data="app.baseViewModel" class="absolute top-0 right-0 pt-2 pr-2 flex flex-row-reverse justify-center items-center rtl:pr-0 rtl:pl-2 rtl:left-0 rtl:right-auto md:hidden">
+  <div x-data="baseView" class="absolute top-0 right-0 pt-2 pr-2 flex flex-row-reverse justify-center items-center rtl:pr-0 rtl:pl-2 rtl:left-0 rtl:right-auto md:hidden">
     <a href="/{{ locale }}/#start" :href="deviceUrl('{{ locale }}', '{{ globals.stores.android }}', '{{ globals.stores.ios }}')" class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors">{{ navigation[locale].download }}
     </a>
   </div>
