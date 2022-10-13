@@ -1,28 +1,12 @@
 import Alpine from "alpinejs";
 import Swipe from "swipejs";
 
+import audioPlayer from "./audioPlayerModel.js";
 import baseView from "./baseViewModel.js";
+import devotionBanner from "./devotionBannerModel.js";
+import errorPageView from "./errorPageViewModel.js";
 import faqsView from "./faqsViewModel.js";
 import mediumView from "./mediumViewModel.js";
-import errorPageViewModel from "./errorPageViewModel.js";
-
-import audioPlayer from "./audioPlayerModel.js";
-const { locales } = require("../../_data/globals");
-
-import devotionBanner from "./devotionBannerModel.js";
-
-window.app = new (function () {
-  return {
-    init() {},
-
-    // baseViewModel,
-    // faqsViewModel,
-    // mediumViewModel,
-    // helpers,
-    errorPageViewModel,
-    // audioPlayerModel,
-  };
-})();
 
 function setMailPopup() {
   const mailerLiteLink = document.querySelector(".js-mailerLite");
@@ -76,6 +60,7 @@ setMailPopup();
 Alpine.data("audioPlayer", audioPlayer);
 Alpine.data("baseView", baseView);
 Alpine.data("devotionBanner", devotionBanner);
-Alpine.data("mediumView", mediumView);
 Alpine.data("faqsView", faqsView);
+Alpine.data("errorPageView", errorPageView);
+Alpine.data("mediumView", mediumView);
 Alpine.start();
