@@ -13,6 +13,11 @@
             "name": "Apple Podcasts",
             "icon": "apple_podcasts",
             "url": "https://podcasts.apple.com/us/podcast/bible-in-one-year-classic/id1601414341"
+          },
+          {
+            "name": "Google Podcasts",
+            "icon": "google_podcasts",
+            "url": "https://podcasts.google.com/feed/aHR0cHM6Ly9hcGkuYmlveWRhdGEuY29tL3Jzcy9wb2RjYXN0P2xvY2FsZT1kZSZ2YXJpYW50PWNsYXNzaWM"
           }
         ]
       },
@@ -28,6 +33,11 @@
             "name": "Apple Podcasts",
             "icon": "apple_podcasts",
             "url": "https://podcasts.apple.com/us/podcast/bible-in-one-year-express/id1601415097"
+          },
+          {
+            "url": "https://podcasts.google.com/feed/aHR0cHM6Ly9hcGkuYmlveWRhdGEuY29tL3Jzcy9wb2RjYXN0P3ZhcmlhbnQ9ZXhwcmVzcyZsb2NhbGU9ZGU",
+            "name": "Google Podcasts",
+            "icon": "google_podcasts"
           }
         ]
       }
