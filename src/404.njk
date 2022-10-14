@@ -7,7 +7,7 @@ permalink: 404.html
 eleventyExcludeFromCollections: true
 ---
 
-<div x-data="app.errorPageViewModel" class="text-center py-12 mb-4 md:mb-8">
+<div x-data="errorPageView" class="text-center py-12 mb-4 md:mb-8">
   {% for lang in globals.languages %}
     <div x-cloak x-show="errorMessageForLocale('{{lang.locale}}')">
       <h1 class="text-xl font-bold mb-4">

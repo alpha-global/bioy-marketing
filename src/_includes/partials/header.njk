@@ -5,7 +5,7 @@
   {% endif %}
 {% endfor %}
 
-<header x-data="app.helpers" x-init="init('{{ devotion.variant }}')" id="header" class="border-red border-t-4 absolute {% if imageBanner %}bg-gradient-to-b bg-opacity-80 from-black-scrim{% endif %} h-16 text-white top-0 w-full z-10 md:bg-none">
+<header x-data="devotionBanner" x-init="init('{{ devotion.variant }}')" id="header" class="border-red border-t-4 absolute {% if imageBanner %}bg-gradient-to-b bg-opacity-80 from-black-scrim{% endif %} h-16 text-white top-0 w-full z-10 md:bg-none">
   <h1 class="text-2xl font-medium m-0 -top-1 absolute">
     <a href="/{{ locale }}" class="flex items-center" title="{{ site.title }}">
       {% svgSprite name="bioy-filled", class="fill-current text-red h-16 w-16" %}
@@ -76,7 +76,7 @@
       {% endif %}
     </div>
   </h1>
-  <div x-data="app.baseViewModel" class="absolute top-0 right-0 pt-2 pr-2 flex flex-row-reverse justify-center items-center rtl:pr-0 rtl:pl-2 rtl:left-0 rtl:right-auto md:hidden">
+  <div x-data="baseView" class="absolute top-0 right-0 pt-2 pr-2 flex flex-row-reverse justify-center items-center rtl:pr-0 rtl:pl-2 rtl:left-0 rtl:right-auto md:hidden">
     <a href="/{{ locale }}/#start" :href="deviceUrl('{{ locale }}', '{{ globals.stores.android }}', '{{ globals.stores.ios }}')" class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors">{{ navigation[locale].download }}
     </a>
   </div>
