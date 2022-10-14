@@ -48,6 +48,19 @@ We have appointed a data protection lead (DPL) who is responsible for overseeing
 
 You have the right to make a complaint at any time to the Information Commissioner’s Office (ICO), the UK supervisory authority for data protection issues (ico.org.uk). We would, however, appreciate the chance to deal with your concerns before you approach the ICO so please contact us in the first instance.
 
+**If You Are Located In The European Union**
+
+We have appointed Willans Data Protection Services (**WillansDPS**) as our European Representative, located in Dublin, Ireland. If you have any questions about this privacy notice or would like to exercise your legal rights under the EU GDPR, you can do so by emailing [alpha@willansdps.com](mailto:alpha@willansdps.com) or by clicking on this [link](https://www.willansdataprotectionservices.com/make-a-data-request).
+
+**Willans Data Protection Limited**\
+Upper Pembroke Street 28 – 32\
+Dublin\
+County Dublin\
+DO2 EK84\
+Eire\
++353 1 447 0402\
+[alpha@willansdps.com](mailto:alpha@willansdps.com)
+
 \
 **Changes to the privacy notice and your duty to inform us of changes**
 
@@ -173,11 +186,8 @@ Some of our external third parties, National Alpha Offices and Fundraising Partn
 Whenever we transfer your personal data out of the EEA, we ensure a similar degree of protection is afforded to it by ensuring at least one of the following safeguards is implemented:
 
 * We will only transfer your personal data to countries that have been deemed to provide an adequate level of protection for personal data by the European Commission. For further details, see European Commission: Adequacy of the protection of personal data in non-EU countries.
-
 * Where we use certain service providers, we may use specific contracts approved by the European Commission which give personal data the same protection it has in Europe. For further details, see European Commission: Model contracts for the transfer of personal data to third countries.
-
 * Where we use providers based in the US, we check whether the supplier(s) can host the data within the EU. If this is not possible, we ensure Standard Contractual Clauses are in place before transferring any data.
-
 * Please email [GDPR@alpha.org](mailto:GDPR@alpha.org) if you want further information on the specific mechanism used by us when transferring your personal data out of the EEA.
 
 ### 7. Data security
