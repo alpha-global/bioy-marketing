@@ -21,7 +21,6 @@ export const urls = [
   "en",
   "de/datenschutzerklarungprivacy-policy",
   "en/about",
-  "en/classic/285",
   "en/faqs/ticket",
   "de/faqs/kann-ich-die-geschwindigkeit-der-audiowiedergabe-veraendern",
   "en/faqs",
