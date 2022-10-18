@@ -10,7 +10,8 @@
     "cms": "npx netlify-cms-proxy-server",
     "wipe": "rm -rf ./.cache && rm -rf ./build",
     "production": "ELEVENTY_ENV=production npx @11ty/eleventy && mix --production",
-    "production:cleanSlate": "NODE_OPTIONS='--max-old-space-size=8192' ELEVENTY_ENV=production CLEAN_SLATE=true npx @11ty/eleventy && mix --production"
+    "production:cleanSlate": "NODE_OPTIONS='--max-old-space-size=8192' ELEVENTY_ENV=production CLEAN_SLATE=true npx @11ty/eleventy && mix --production",
+    "test": "npx playwright test"
   },
   "author": "Alpha International / OneSheep",
   "license": "ISC",
@@ -30,7 +31,7 @@
     "laravel-mix": "^6.0.41",
     "postcss": "^8.4.5",
     "slugify": "^1.5.3",
-    "svg-spritemap-webpack-plugin": "^3.9.1",
+    "svg-spritemap-webpack-plugin": "^4.5.0",
     "tailwindcss": "^3.0.15"
   }
 }
