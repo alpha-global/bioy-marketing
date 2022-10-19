@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: zoho-email-sign-up-forms
 
 i18n:
   structure: single_file
@@ -463,6 +463,13 @@ collections:
                         name: "cta",
                         label: "Call to action",
                         widget: "code",
+                        required: false,
+                        i18n: true,
+                      },
+                      {
+                        name: "zohoFormUrl",
+                        label: "Zoho Form URL",
+                        widget: "string",
                         required: false,
                         i18n: true,
                       },
