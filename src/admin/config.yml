@@ -466,13 +466,6 @@ collections:
                         required: false,
                         i18n: true,
                       },
-                      {
-                        name: "zohoFormUrl",
-                        label: "Zoho Form URL",
-                        widget: "string",
-                        required: false,
-                        i18n: true,
-                      },
                       { label: "Image", name: "image", widget: "image" },
                     ],
                 },

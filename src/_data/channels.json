@@ -259,7 +259,7 @@
         "description": "Sign up now to receive Bible in One Year in your inbox each morning. You’ll get one email each day.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "<button @click=\"zohoForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>\n<iframe x-ref=\"zohoFormIframe\" frameborder=\"0\" class=\"w-full h-full fixed hidden inset-0 z-20\" src='https://forms.zohopublic.eu/bioy/form/TestFormBibleInOneYear/formperma/l3LFwhR3CNZB8npDG5nxKTHNF5btV7R9ySlJv3_MUVA'></iframe>\n<button class=\"bg-red fixed md:right-3/4 p-3 right-0 rounded-full top-2\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"h-6 w-6 text-white\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\" />\n    </svg>\n  </button>"
+          "code": "<button @click=\"zohoForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>\n<iframe x-ref=\"zohoFormIframe\" frameborder=\"0\" class=\"w-full h-full fixed hidden inset-0 z-20\" src='https://forms.zohopublic.eu/bioy/form/TestFormBibleInOneYear/formperma/l3LFwhR3CNZB8npDG5nxKTHNF5btV7R9ySlJv3_MUVA'></iframe>\n<button class=\"close__button\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"h-6 w-6 text-white\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\" />\n    </svg>\n  </button>"
         }
       },
       {
