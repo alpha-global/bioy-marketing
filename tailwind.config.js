@@ -1,5 +1,16 @@
 module.exports = {
   content: ["./src/**/*.{js,html,njk}"],
+  safelist: [
+    "bg-red",
+    "fixed",
+    "p-3",
+    "right-1",
+    "rounded-full",
+    "top-2",
+    "z-20",
+    "z-30",
+    "lg:right-1/3",
+  ],
   theme: {
     fontFamily: {
       sans: ['"AvantGardeGothicITC"', "Helvetica", "Arial", "sans-serif"],
