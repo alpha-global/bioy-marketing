@@ -47,7 +47,7 @@
         "description": "Sign up now to receive Bible in One Year in your inbox each morning. You’ll get one email each day.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "<a @click=\"mailerLitePopup\" href=\"https://landing.mailerlite.com/webforms/landing/y7w6m3\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors  \"data-ml=\"5166494,y7w6m3\">अभी साइनअप करें</a>"
+          "code": "<button @click=\"toggleZohoForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>\n<iframe x-ref=\"zohoFormIframe\" frameborder=\"0\" class=\"w-full h-full fixed hidden inset-0 z-20\" src='https://forms.zohopublic.eu/bioy/form/BibleinOneYear4/formperma/LC7qBqUkcBgvyoPpYvMRRc5Kr7dZKAGSft_vsh2Fnc0'></iframe>\n<button x-ref=\"zohoFormCloseButton\" @click=\"toggleZohoForm\" class=\"bg-red fixed hidden p-3 right-4 rounded-full top-2 z-30 lg:right-1/3\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"h-6 w-6 text-white\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\" />\n    </svg>\n</button>"
         }
       },
       {
@@ -145,7 +145,7 @@
         "description": "Receive a daily email with a fresh devotion straight in your inbox.",
         "image": "/assets/img/medium_app.jpg",
         "cta": {
-          "code": "<a @click=\"mailerLitePopup\" href=\"https://landing.mailerlite.com/webforms/landing/p9r9p0\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors \" data-ml=\"4091911,p9r9p0\">Regístrate ahora</a>"
+          "code": "<button @click=\"toggleZohoForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>\n<iframe x-ref=\"zohoFormIframe\" frameborder=\"0\" class=\"w-full h-full fixed hidden inset-0 z-20\" src='https://forms.zohopublic.eu/bioy/form/BibleinOneYear2/formperma/7ztR5K-HksIvln4nWnVN0booQ7U6NmFjiHNqcn7xmME'></iframe>\n<button x-ref=\"zohoFormCloseButton\" @click=\"toggleZohoForm\" class=\"bg-red fixed hidden p-3 right-4 rounded-full top-2 z-30 lg:right-1/3\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"h-6 w-6 text-white\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\" />\n    </svg>\n</button>"
         }
       },
       {
@@ -176,7 +176,7 @@
         "description": "Sign up now to receive Bible in One Year in your inbox each morning. You’ll get one email each day.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "<a @click=\"mailerLitePopup\" href=\"https://landing.mailerlite.com/webforms/landing/q8q8x7\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors  \"data-ml=\"5166785,q8q8x7\">立即注册</a>"
+          "code": "<button @click=\"toggleZohoForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>\n<iframe x-ref=\"zohoFormIframe\" frameborder=\"0\" class=\"w-full h-full fixed hidden inset-0 z-20\" src='https://forms.zohopublic.eu/bioy/form/BibleinOneYear3/formperma/TowRvXX6ev28MgzVcWcift_prhiRb4w2VpZWSu5MvHQ'></iframe>\n<button x-ref=\"zohoFormCloseButton\" @click=\"toggleZohoForm\" class=\"bg-red fixed hidden p-3 right-4 rounded-full top-2 z-30 lg:right-1/3\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"h-6 w-6 text-white\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\" />\n    </svg>\n</button>"
         }
       },
       {
@@ -200,7 +200,7 @@
         "description": "سجل الآن لتحصل على الكتاب المقدس في عام واحد على بريدك الإلكتروني كل صباح. ستتلقى بريدًا إلكترونيًا واحدًا كل يوم.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "<a @click=\"mailerLitePopup\" href=\"https://landing.mailerlite.com/webforms/landing/l2u8i1\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors  \"data-ml=\"5166407,l2u8i1\">سجل اليوم</a>"
+          "code": "<button @click=\"toggleZohoForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>\n<iframe x-ref=\"zohoFormIframe\" frameborder=\"0\" class=\"w-full h-full fixed hidden inset-0 z-20\" src='https://forms.zohopublic.eu/bioy/form/BibleinOneYear/formperma/F0X_3v_TN2OCNlM9zoo4nxtZUlrE0G6dUWxm1gMQOrA'></iframe>\n<button x-ref=\"zohoFormCloseButton\" @click=\"toggleZohoForm\" class=\"bg-red fixed hidden p-3 right-4 rounded-full top-2 z-30 lg:right-1/3\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"h-6 w-6 text-white\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\" />\n    </svg>\n</button>"
         }
       },
       {
