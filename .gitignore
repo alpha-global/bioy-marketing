@@ -3,3 +3,6 @@ node_modules
 .cache
 mix-manifest.json
 .vscode
+/test-results/
+/playwright-report/
+/playwright/.cache/
