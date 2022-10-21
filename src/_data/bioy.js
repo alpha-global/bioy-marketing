@@ -1,4 +1,4 @@
-const Cache = require("@11ty/eleventy-fetch");
+const Cache = require("@11ty/eleventy-cache-assets");
 
 /**
  * Fetch devotion range
