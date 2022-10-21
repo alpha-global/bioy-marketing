@@ -175,10 +175,6 @@
     @apply rounded-full h-8 w-8 sm:h-12 sm:w-12 md:h-14 md:w-14 flex items-center justify-center hover:bg-red/10 active:bg-red/20 focus:bg-transparent focus:outline-none focus-visible:ring focus-within:bg-red/10 focus:ring-red/10 transition duration-100 ease-out hover:ease-in active:ease-in webkit-tap-highlight-color disabled:cursor-not-allowed disabled:hover:bg-transparent;
   }
 
-  .close__button {
-    @apply bg-red fixed p-3 right-0 rounded-full top-2 z-30 lg:right-1/3;
-  }
-
   [x-cloak] {
     @apply hidden;
   }
