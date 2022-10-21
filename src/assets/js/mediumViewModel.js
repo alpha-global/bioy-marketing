@@ -89,9 +89,9 @@ export default () => {
       let d = e.target.dataset.ml.split(",");
       ml_account("webforms", String(d[0]), String(d[1]), "show");
     },
-
-    zohoForm() {
+    toggleZohoForm() {
       this.$refs.zohoFormIframe.classList.toggle("hidden");
+      this.$refs.zohoFormCloseButton.classList.toggle("hidden");
     },
   };
 };
