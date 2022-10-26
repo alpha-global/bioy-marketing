@@ -102,6 +102,8 @@
       <button class="mt-2 btn bg-red text-white hover:bg-red-dark" @click="acceptCookies()">{{ siteLocal[locale].cookies.closeButton }}</button>
     </div>
 
+    {% include "partials/promo.njk" %}
+
     <script src="/assets/js/app.js?{{ globals.cacheBuster }}" defer></script>
     <!-- last build: {{ globals.env }} | {{ globals.buildTime }} -->
   </body>
