@@ -67,6 +67,15 @@
     "404Page": {
       "description": "Sorry, that page doesn't exist",
       "goHomeButton": "Go Home"
+    },
+    "promo": {
+      "startDate": "October 28, 2022 10:45 AM",
+      "endDate": "November 4, 2022 12:00 AM",
+      "title": "Giving Tuesday",
+      "text": "This year, why not give a gift to Alpha?\n\nYour generosity will help over 1m people discover and develop a relationship with Jesus and be introduced to the Bible in One Year!",
+      "acceptText": "Give Now",
+      "dismissText": "No Thanks",
+      "ctaUrl": "https://bibleinoneyear.org/en/donate"
     }
   },
   "fr": {
@@ -111,6 +120,15 @@
     "404Page": {
       "description": "Lo siento, esa página no existe",
       "goHomeButton": "Ir a la pagina principal"
+    },
+    "promo": {
+      "startDate": "October 29, 2022 12:00 AM",
+      "endDate": "November 4, 2022 12:00 AM",
+      "title": "Giving Tuesday",
+      "text": "This year, why not give a gift to Alpha?\n\nYour generosity will help over 1m people discover and develop a relationship with Jesus and be introduced to the Bible in One Year!",
+      "acceptText": "Give Now",
+      "dismissText": "No Thanks",
+      "ctaUrl": "https://bibleinoneyear.org/es/donate"
     }
   },
   "zh": {
@@ -147,6 +165,10 @@
     "404Page": {
       "description": "عذرا ، هذه الصفحة غير موجودة",
       "goHomeButton": "اذهب الى الصفحة الرئيسية"
+    },
+    "promo": {
+      "startDate": "",
+      "endDate": ""
     }
   },
   "th": {
