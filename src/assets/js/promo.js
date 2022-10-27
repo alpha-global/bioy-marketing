@@ -2,7 +2,7 @@ import dayjs from "dayjs"
 
 export default () => {
     return {
-        startDate : "",
+        startDate : "October 28, 2022 10:45 AM",
         endDate : "",
         now: dayjs(),
         promoIsActive : false,
