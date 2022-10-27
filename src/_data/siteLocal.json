@@ -82,7 +82,9 @@
       "text": "This year, why not give a gift to Alpha?\n\nYour generosity will help over 1m people discover and develop a relationship with Jesus and be introduced to the Bible in One Year!",
       "acceptText": "Give Now",
       "dismissText": "No Thanks",
-      "ctaUrl": "https://bibleinoneyear.org/en/donate"
+      "ctaUrl": "https://bibleinoneyear.org/en/donate",
+      "startDate": "10/12/2022",
+      "endDate": "10/12/2022"
     }
   },
   "fr": {
