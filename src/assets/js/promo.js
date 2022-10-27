@@ -13,7 +13,6 @@ export default () => {
     endDate: '',
     now: dayjs(),
     isPromoActive: false,
-    isValidDates: false,
 
     async init(startDate, endDate) {
       await this.setPromoDates(startDate, endDate);
