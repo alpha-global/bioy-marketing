@@ -941,7 +941,7 @@ collections:
                         name: "startDate",
                         widget: "datetime",
                         default: "",
-                        date_format: "DD.MM.YYYY",
+                        date_format: "L",
                         time_format: false,
                         format: "L",
                         picker_utc: false,
