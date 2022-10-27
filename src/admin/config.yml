@@ -961,6 +961,13 @@ collections:
                         hint: "Date in YYYY-MM-DD format"
                       },
                       {
+                        name: "img",
+                        label: Image,
+                        widget: image,
+                        i18n: duplicate,
+                        required: true,
+                      },
+                      {
                         label: "Accept Text",
                         name: "acceptText",
                         widget: "string",

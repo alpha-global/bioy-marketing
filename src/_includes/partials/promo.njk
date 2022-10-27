@@ -7,10 +7,10 @@
   class="fixed inset-0 z-20 hidden flex-col items-center justify-center bg-black bg-opacity-30"
 >
   <div class="w-[90%] rounded-b-lg bg-white md:w-2/5">
-    <div class="h-78">
+    <div class="h-78 overflow-hidden">
       <img
-        class="h-full w-full overflow-hidden object-cover object-center"
-        src="https://dummyimage.com/720x400"
+        class="h-1/2 w-full object-cover"
+        src="https://images.unsplash.com/photo-1512917774080"
         alt="blog"
       />
     </div>
@@ -29,7 +29,7 @@
       >
         Give Now
       </button>
-      <button @click="hidePromo()">No Thanks</button>
+      <button @click="hidePromo()" class="hover:text-red">No Thanks</button>
     </div>
   </div>
 </div>

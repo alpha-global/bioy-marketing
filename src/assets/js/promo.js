@@ -22,12 +22,10 @@ export default () => {
         ? (this.isPromoActive = true)
         : (this.isPromoActive = false);
 
-      this.isValidDates &&
       dayjs().isSameOrBefore(this.endDate, 'day') &&
-      dayjs().isSameOrAfter(this.startDate, 'day') &&
-      !this.isPromoActive
-        ? this.showPromo()
-        : this.hidePromo();
+        dayjs().isSameOrAfter(this.startDate, 'day') &&
+        !this.isPromoActive &&
+        this.showPromo();
     },
     showPromo() {
       this.$refs.promo.classList.add('flex');
