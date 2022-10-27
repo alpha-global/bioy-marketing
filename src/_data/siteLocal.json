@@ -26,16 +26,6 @@
     "404Page": {
       "description": "Tut mir leid, diese Seite existiert nicht",
       "goHomeButton": "Nach Hause gehen"
-    },
-    "promo": {
-      "startDate": "10/19/2022",
-      "endDate": "10/11/2022",
-      "title": "Some",
-      "text": "Some",
-      "dismissText": "sd",
-      "acceptText": "ssd",
-      "ctaUrl": "sdsd",
-      "img": "/assets/img/bioy-main_4.jpg"
     }
   },
   "hi": {
@@ -48,9 +38,6 @@
     "404Page": {
       "description": "क्षमा करें, वह पृष्ठ मौजूद नहीं है",
       "goHomeButton": "होम पेज़ पर जाएं"
-    },
-    "promo": {
-      "img": "/assets/img/bioy-main_4.jpg"
     }
   },
   "en": {
@@ -80,16 +67,6 @@
     "404Page": {
       "description": "Sorry, that page doesn't exist",
       "goHomeButton": "Go Home"
-    },
-    "promo": {
-      "title": "Giving Tuesday",
-      "text": "This year, why not give a gift to Alpha?\n\nYour generosity will help over 1m people discover and develop a relationship with Jesus and be introduced to the Bible in One Year!",
-      "acceptText": "Give Now",
-      "dismissText": "No Thanks",
-      "ctaUrl": "https://bibleinoneyear.org/en/donate",
-      "startDate": "2022-10-27",
-      "endDate": "2022-10-29",
-      "img": "/assets/img/bioy-main_4.jpg"
     }
   },
   "fr": {
@@ -119,9 +96,6 @@
     "404Page": {
       "description": "Désolé, cette page n'existe pas",
       "goHomeButton": "Aller à la page d'accueil"
-    },
-    "promo": {
-      "img": "/assets/img/bioy-main_4.jpg"
     }
   },
   "es": {
@@ -137,9 +111,6 @@
     "404Page": {
       "description": "Lo siento, esa página no existe",
       "goHomeButton": "Ir a la pagina principal"
-    },
-    "promo": {
-      "img": "/assets/img/bioy-main_4.jpg"
     }
   },
   "zh": {
@@ -156,9 +127,6 @@
     "404Page": {
       "description": "抱歉，该页面不存在",
       "goHomeButton": "回去"
-    },
-    "promo": {
-      "img": "/assets/img/bioy-main_4.jpg"
     }
   },
   "ar": {
@@ -179,11 +147,6 @@
     "404Page": {
       "description": "عذرا ، هذه الصفحة غير موجودة",
       "goHomeButton": "اذهب الى الصفحة الرئيسية"
-    },
-    "promo": {
-      "startDate": "",
-      "endDate": "",
-      "img": "/assets/img/bioy-main_4.jpg"
     }
   },
   "th": {
@@ -209,9 +172,6 @@
     "404Page": {
       "description": "ขออภัย หน้านั้นไม่มีอยู่จริง",
       "goHomeButton": "ไปที่หน้าแรก"
-    },
-    "promo": {
-      "img": "/assets/img/bioy-main_4.jpg"
     }
   },
   "id": {
@@ -219,9 +179,6 @@
     "404Page": {
       "description": "Maaf, halaman itu tidak ada",
       "goHomeButton": "Pergi ke beranda"
-    },
-    "promo": {
-      "img": "/assets/img/bioy-main_4.jpg"
     }
   }
 }

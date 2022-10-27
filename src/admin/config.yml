@@ -964,8 +964,8 @@ collections:
                         name: "img",
                         label: Image,
                         widget: image,
-                        i18n: duplicate,
-                        required: true,
+                        i18n: true,
+                        required: false,
                       },
                       {
                         label: "Accept Text",
