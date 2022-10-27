@@ -26,6 +26,15 @@
     "404Page": {
       "description": "Tut mir leid, diese Seite existiert nicht",
       "goHomeButton": "Nach Hause gehen"
+    },
+    "promo": {
+      "startDate": "10/19/2022",
+      "endDate": "10/11/2022",
+      "title": "Some",
+      "text": "Some",
+      "dismissText": "sd",
+      "acceptText": "ssd",
+      "ctaUrl": "sdsd"
     }
   },
   "hi": {
