@@ -941,22 +941,24 @@ collections:
                         name: "startDate",
                         widget: "datetime",
                         default: "",
-                        date_format: "DD/MM/YYYY",
+                        date_format: "YYYY-MM-DD",
                         time_format: false,
-                        format: "DD/MM/YYYY",
+                        format: "YYYY-MM-DD",
                         picker_utc: false,
                         i18n: true,
+                        hint: "Date in YYYY-MM-DD format"
                       },
                       {
                         label: "End Date",
                         name: "endDate",
                         widget: "datetime",
                         default: "",
-                        date_format: "DD/MM/YYYY",
+                        date_format: "YYYY-MM-DD",
                         time_format: false,
-                        format: "DD/MM/YYYY",
+                        format: "YYYY-MM-DD",
                         picker_utc: false,
                         i18n: true,
+                        hint: "Date in YYYY-MM-DD format"
                       },
                       {
                         label: "Accept Text",

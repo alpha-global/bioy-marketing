@@ -1,5 +1,10 @@
 <div
- x-data="promo" x-ref="promo" class="fixed hidden inset-0 z-20 flex-col items-center justify-center bg-black bg-opacity-30"
+  x-data="promo"
+  x-ref="promo"
+  x-init="init('{{ siteLocal[locale].promo.startDate }}','{{
+    siteLocal[locale].promo.endDate
+  }}')"
+  class="fixed inset-0 z-20 hidden flex-col items-center justify-center bg-black bg-opacity-30"
 >
   <div class="w-[90%] rounded-b-lg bg-white md:w-2/5">
     <div class="h-78">
@@ -18,12 +23,12 @@
           with Jesus and be introduced to the Bible in One Year!
         </p>
       </div>
-      <a
-        href=""
+      <button
+        @click="donate('{{ siteLocal[locale].promo.ctaUrl }}')"
         class="inline-block w-4/6 rounded border border-red bg-red p-2 pb-1.5 text-center text-white transition-colors hover:bg-white hover:text-red"
       >
         Give Now
-      </a>
+      </button>
       <button @click="hidePromo()">No Thanks</button>
     </div>
   </div>
