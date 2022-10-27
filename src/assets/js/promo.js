@@ -1,10 +1,15 @@
+import dayjs from "dayjs"
+
 export default () => {
     return {
         startDate : "",
         endDate : "",
+        now: dayjs(),
+        promoIsActive : false,
 
         init(){
             this.showPromo()
+            console.log(this.now);
         },
 
         showPromo(){
@@ -17,3 +22,11 @@ export default () => {
         }
     }
 }
+
+// localStorage.setItem("cookieConsent", "accepted");
+//       this.isCookieBoxOpen = false;
+//       console.log("box is open: ", this.isCookieBoxOpen);
+
+//       const stored = localStorage.getItem("cookieConsent");
+//       if (stored !== "accepted") return;
+//       this.isCookieBoxOpen = false;
