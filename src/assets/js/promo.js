@@ -28,13 +28,13 @@ export default () => {
         this.showPromo();
     },
     showPromo() {
-      this.$refs.promo.classList.add('flex');
-      this.$refs.promo.classList.remove('hidden');
+      this.$refs.promoModal.classList.add('flex');
+      this.$refs.promoModal.classList.remove('hidden');
     },
     hidePromo() {
       localStorage.setItem('promoActive', 'true');
-      this.$refs.promo.classList.add('hidden');
-      this.$refs.promo.classList.remove('flex');
+      this.$refs.promoModal.classList.add('hidden');
+      this.$refs.promoModal.classList.remove('flex');
     },
     async setPromoDates(start, end) {
       if (

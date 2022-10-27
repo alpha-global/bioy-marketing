@@ -1,25 +1,20 @@
 <div
   x-data="promo"
-  x-ref="promo"
-  x-init="init('{{ siteLocal[locale].promo.startDate }}','{{
-    siteLocal[locale].promo.endDate
-  }}')"
-  class="fixed inset-0 z-20 hidden flex-col items-center justify-center bg-black bg-opacity-30"
+  x-ref="promoModal"
+  x-init="init('{{ siteLocal[locale].promo.startDate }}','{{ siteLocal[locale].promo.endDate }}')"
+  class="fixed inset-0 z-20 hidden flex-col items-center justify-center bg-black bg-opacity-60"
 >
-  <div class="w-[90%] overflow-hidden rounded-b-lg bg-white md:w-2/5">
-    <!-- <img
-      class="w-full object-cover object-center md:h-36 lg:h-48"
-      src="https://dummyimage.com/720x400"
-      alt="blog"
-    /> -->
+  <div
+    class="w-[90%] overflow-hidden rounded-b-lg bg-white shadow-lg md:w-[80%] lg:w-2/5"
+  >
     {% blockImage siteLocal[locale].promo.img, "Donate promo" , "(min-width: 640px) 60vw,
-    100vw", "w-full object-cover object-center h-38 sm:h-32 md:h-36 lg:h-48" %}
+    100vw", "w-full object-cover object-center h-38 md:h-auto lg:h-48 xl:h-56" %}
     <div class="flex flex-col items-center justify-center space-y-8 py-8 px-7">
       <h3 class="text-center text-base font-semibold text-red md:text-lg">
-        Giving Tuesday
+        {{ siteLocal[locale].promo.title }}
       </h3>
       <div class="space-y-4 text-center text-sm md:text-base">
-        {{ siteLocal[locale].promo.text }}
+        {{ siteLocal[locale].promo.text | markdown | safe }}
       </div>
       <button
         @click="donate('{{ siteLocal[locale].promo.ctaUrl }}')"

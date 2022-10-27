@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: giving-tuesday-web
+  branch: main
 
 i18n:
   structure: single_file
