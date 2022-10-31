@@ -1,7 +1,9 @@
 <div
   x-data="promo"
   x-ref="promoModal"
-  x-init="init('{{ siteLocal[locale].promo.startDate }}','{{ siteLocal[locale].promo.endDate }}')"
+  x-init="init('{{ siteLocal[locale].promo.startDate }}','{{
+    siteLocal[locale].promo.endDate
+  }}')"
   class="fixed inset-0 z-20 hidden flex-col items-center justify-center bg-black bg-opacity-60"
 >
   <div
@@ -17,12 +19,13 @@
         {{ siteLocal[locale].promo.text | markdown | safe }}
       </div>
       <button
+        id="ga-giving-tuesday-donate"
         @click="donate('{{ siteLocal[locale].promo.ctaUrl }}')"
         class="inline-block w-4/6 rounded border border-red bg-red p-2 pb-1.5 text-center text-white transition-colors hover:bg-white hover:text-red"
       >
         {{ siteLocal[locale].promo.acceptText }}
       </button>
-      <button @click="hidePromo()" class="hover:text-red">
+      <button id="ga-giving-tuesday-decline" @click="hidePromo()" class="hover:text-red">
         {{ siteLocal[locale].promo.dismissText }}
       </button>
     </div>
