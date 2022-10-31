@@ -12,18 +12,18 @@ export default () => {
     startDate: '',
     endDate: '',
     now: dayjs(),
-    isPromoActive: false,
+    hasSeenPromo: false,
 
     async init(startDate, endDate) {
       await this.setPromoDates(startDate, endDate);
 
-      localStorage.getItem('promoActive') === 'true'
-        ? (this.isPromoActive = true)
-        : (this.isPromoActive = false);
+      localStorage.getItem('hasSeenPromo') === 'true'
+        ? (this.hasSeenPromo = true)
+        : (this.hasSeenPromo = false);
 
       dayjs().isSameOrBefore(this.endDate, 'day') &&
         dayjs().isSameOrAfter(this.startDate, 'day') &&
-        !this.isPromoActive &&
+        !this.hasSeenPromo &&
         this.showPromo();
     },
     showPromo() {
@@ -31,7 +31,7 @@ export default () => {
       this.$refs.promoModal.classList.remove('hidden');
     },
     hidePromo() {
-      localStorage.setItem('promoActive', 'true');
+      localStorage.setItem('hasSeenPromo', 'true');
       this.$refs.promoModal.classList.add('hidden');
       this.$refs.promoModal.classList.remove('flex');
     },
@@ -45,7 +45,7 @@ export default () => {
       }
     },
     donate(donationUrl) {
-      localStorage.setItem('promoActive', 'true');
+      localStorage.setItem('hasSeenPromo', 'true');
       location.href = donationUrl;
     },
   };
