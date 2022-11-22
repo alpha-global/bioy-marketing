@@ -13,11 +13,15 @@ export default () => {
     endDate: '',
     now: dayjs(),
     hasSeenPromo: false,
+    promoID: '',
 
-    async init(startDate, endDate) {
+    async init(startDate, endDate, promoID) {
+      this.promoID = promoID;
+
       await this.setPromoDates(startDate, endDate);
 
-      localStorage.getItem('hasSeenPromo') === 'true'
+      localStorage.getItem('hasSeenPromo') === 'true' &&
+      JSON.parse(localStorage.getItem('promoIDs'))?.includes(this.promoID)
         ? (this.hasSeenPromo = true)
         : (this.hasSeenPromo = false);
 
@@ -26,12 +30,19 @@ export default () => {
         !this.hasSeenPromo &&
         this.showPromo();
     },
+    updatePromoIDsStore(promoID) {
+      const promoIDs = JSON.parse(localStorage.getItem('promoIDs')) || [];
+      if (promoIDs?.includes(promoID)) return;
+      promoIDs.push(promoID);
+      localStorage.setItem('promoIDs', JSON.stringify(promoIDs));
+    },
     showPromo() {
       this.$refs.promoModal.classList.add('flex');
       this.$refs.promoModal.classList.remove('hidden');
     },
     hidePromo() {
       localStorage.setItem('hasSeenPromo', 'true');
+      this.updatePromoIDsStore(this.promoID);
       this.$refs.promoModal.classList.add('hidden');
       this.$refs.promoModal.classList.remove('flex');
     },
@@ -46,6 +57,7 @@ export default () => {
     },
     donate(donationUrl) {
       localStorage.setItem('hasSeenPromo', 'true');
+      this.updatePromoIDsStore(this.promoID);
       location.href = donationUrl;
     },
   };
