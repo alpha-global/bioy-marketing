@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: unique-promo-id
 
 i18n:
   structure: single_file
@@ -934,6 +934,13 @@ collections:
                         label: "Description",
                         name: "text",
                         widget: "text",
+                        i18n: true,
+                      },
+                      {
+                        label: "Promo ID",
+                        name: "string",
+                        widget: "string",
+                        required: true,
                         i18n: true,
                       },
                       {
