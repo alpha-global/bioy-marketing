@@ -937,6 +937,13 @@ collections:
                         i18n: true,
                       },
                       {
+                        label: "Promo ID",
+                        name: "promoID",
+                        widget: "string",
+                        required: true,
+                        i18n: true,
+                      },
+                      {
                         label: "Start Date",
                         name: "startDate",
                         widget: "datetime",
