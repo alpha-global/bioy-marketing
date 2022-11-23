@@ -20,7 +20,6 @@ export default () => {
 
       await this.setPromoDates(startDate, endDate);
 
-      localStorage.getItem('hasSeenPromo') === 'true' &&
       JSON.parse(localStorage.getItem('promoIDs'))?.includes(this.promoID)
         ? (this.hasSeenPromo = true)
         : (this.hasSeenPromo = false);
@@ -41,7 +40,6 @@ export default () => {
       this.$refs.promoModal.classList.remove('hidden');
     },
     hidePromo() {
-      localStorage.setItem('hasSeenPromo', 'true');
       this.updatePromoIDsStore(this.promoID);
       this.$refs.promoModal.classList.add('hidden');
       this.$refs.promoModal.classList.remove('flex');
@@ -56,7 +54,6 @@ export default () => {
       }
     },
     donate(donationUrl) {
-      localStorage.setItem('hasSeenPromo', 'true');
       this.updatePromoIDsStore(this.promoID);
       location.href = donationUrl;
     },
