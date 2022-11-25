@@ -26,6 +26,17 @@
     "404Page": {
       "description": "Tut mir leid, diese Seite existiert nicht",
       "goHomeButton": "Nach Hause gehen"
+    },
+    "promo": {
+      "img": "/assets/img/website-giving-banner1.jpg",
+      "endDate": "2022-12-04",
+      "promoID": "giving-tuesday-2022",
+      "text": "Warum dieses Jahr nicht Alpha ein Geschenk machen?\nIhre Großzügigkeit wird über 1 Million Menschen helfen, eine Beziehung zu Jesus zu entdecken und aufzubauen und in einem Jahr in die Bibel eingeführt zu werden!",
+      "startDate": "2022-11-27",
+      "acceptText": "Jetzt spenden",
+      "dismissText": "Nein, danke",
+      "title": "Dienstag geben",
+      "ctaUrl": "https://bibleinoneyear.org/de/donate/?utm_source=web&utm_medium=pop-up&utm_campaign=giving_tuesday&utm_content=give%20now"
     }
   },
   "hi": {
@@ -77,7 +88,7 @@
       "acceptText": "Give Now",
       "dismissText": "No Thanks",
       "title": "Giving Tuesday",
-      "ctaUrl": "https://bibleinoneyear.org/en/donate/"
+      "ctaUrl": "https://bibleinoneyear.org/en/donate/?utm_source=web&utm_medium=pop-up&utm_campaign=giving_tuesday&utm_content=give%20now"
     }
   },
   "fr": {
