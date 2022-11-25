@@ -160,8 +160,15 @@
       "goHomeButton": "اذهب الى الصفحة الرئيسية"
     },
     "promo": {
-      "startDate": "",
-      "endDate": ""
+      "img": "/assets/img/website-giving-banner1.jpg",
+      "endDate": "2022-12-04",
+      "promoID": "giving-tuesday-2022",
+      "text": "هذا العام ، لماذا لا تقدم هدية لألفا؟ سيساعد كرمك أكثر من مليون شخص على اكتشاف علاقة مع يسوع وتطويرها والتعرف على الكتاب المقدس في عام واحد!",
+      "startDate": "2022-11-25",
+      "acceptText": "Give Now",
+      "dismissText": "No Thanks",
+      "title": "إعطاء الثلاثاء",
+      "ctaUrl": "https://bibleinoneyear.org/ar/donate/"
     }
   },
   "th": {
