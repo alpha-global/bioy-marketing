@@ -133,6 +133,17 @@
     "404Page": {
       "description": "Lo siento, esa página no existe",
       "goHomeButton": "Ir a la pagina principal"
+    },
+    "promo": {
+      "img": "/assets/img/website-giving-banner_3.jpg",
+      "endDate": "2022-12-04",
+      "promoID": "giving-tuesday-2022",
+      "text": "Este año, ¿por qué no darle un regalo a Alpha?\n¡Su generosidad ayudará a más de 1 millón de personas a descubrir y desarrollar una relación con Jesús y conocer la Biblia en un año!",
+      "startDate": "2022-11-27",
+      "acceptText": "Dar ahora",
+      "dismissText": "No, gracias",
+      "title": "Dando el martes",
+      "ctaUrl": "https://bibleinoneyear.org/es/donate/?utm_source=web&utm_medium=pop-up&utm_campaign=giving_tuesday&utm_content=give%20now"
     }
   },
   "zh": {
