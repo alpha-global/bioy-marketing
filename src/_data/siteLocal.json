@@ -118,6 +118,17 @@
     "404Page": {
       "description": "Désolé, cette page n'existe pas",
       "goHomeButton": "Aller à la page d'accueil"
+    },
+    "promo": {
+      "img": "/assets/img/website-giving-banner1.jpg",
+      "endDate": "2022-12-04",
+      "promoID": "giving-tuesday-2022",
+      "text": "Cette année, pourquoi ne pas offrir un cadeau à Alpha ?\nVotre générosité aidera plus d'un million de personnes à découvrir et à développer une relation avec Jésus et à découvrir la Bible en un an !",
+      "startDate": "2022-11-27",
+      "acceptText": "Faire un don",
+      "dismissText": "Non merci",
+      "title": "Donner mardi",
+      "ctaUrl": "https://bibleinoneyear.org/fr/donate/?utm_source=web&utm_medium=pop-up&utm_campaign=giving_tuesday&utm_content=give%20now"
     }
   },
   "es": {
