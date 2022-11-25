@@ -71,9 +71,9 @@
     "promo": {
       "img": "/assets/img/website-giving-banner_3.jpg",
       "endDate": "2022-12-04",
-      "promoID": "en-giving-tuesday-2022",
+      "promoID": "giving-tuesday-2022",
       "text": "This year, why not give a gift to Alpha?\nYour generosity will help over 1m people discover and develop a relationship with Jesus and be introduced to the Bible in One Year!",
-      "startDate": "2022-11-25",
+      "startDate": "2022-11-27",
       "acceptText": "Give Now",
       "dismissText": "No Thanks",
       "title": "Giving Tuesday",
@@ -162,9 +162,9 @@
     "promo": {
       "img": "/assets/img/website-giving-banner1.jpg",
       "endDate": "2022-12-04",
-      "promoID": "ar-giving-tuesday-2022",
+      "promoID": "giving-tuesday-2022",
       "text": "هذا العام ، لماذا لا تقدم هدية لألفا؟ سيساعد كرمك أكثر من مليون شخص على اكتشاف علاقة مع يسوع وتطويرها والتعرف على الكتاب المقدس في عام واحد!",
-      "startDate": "2022-11-25",
+      "startDate": "2022-11-27",
       "acceptText": "Give Now",
       "dismissText": "No Thanks",
       "title": "إعطاء الثلاثاء",
