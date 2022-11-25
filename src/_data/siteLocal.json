@@ -49,6 +49,17 @@
     "404Page": {
       "description": "क्षमा करें, वह पृष्ठ मौजूद नहीं है",
       "goHomeButton": "होम पेज़ पर जाएं"
+    },
+    "promo": {
+      "img": "/assets/img/website-giving-banner1.jpg",
+      "endDate": "2022-12-04",
+      "promoID": "giving-tuesday-2022",
+      "text": "इस साल, क्यों न अल्फ़ा को उपहार दिया जाए?\nआपकी उदारता 10 लाख से अधिक लोगों को यीशु के साथ संबंध खोजने और विकसित करने में मदद करेगी और एक वर्ष में बाइबल से परिचित हो जाएगी!",
+      "startDate": "2022-11-27",
+      "acceptText": "अभी दो",
+      "dismissText": "नहीं, धन्यवाद",
+      "title": "मंगलवार दे रहा है",
+      "ctaUrl": "https://bibleinoneyear.org/hi/donate/?utm_source=web&utm_medium=pop-up&utm_campaign=giving_tuesday&utm_content=give%20now"
     }
   },
   "en": {
@@ -171,6 +182,17 @@
     "404Page": {
       "description": "抱歉，该页面不存在",
       "goHomeButton": "回去"
+    },
+    "promo": {
+      "img": "/assets/img/website-giving-banner_8.jpg",
+      "endDate": "2022-12-04",
+      "promoID": "giving-tuesday-2022",
+      "text": "今年，为什么不送礼物给阿尔法呢？\n您的慷慨将帮助超过 100 万人发现并与耶稣建立关系，并在一年内被介绍给圣经",
+      "startDate": "2022-11-27",
+      "acceptText": "现在就奉献",
+      "dismissText": "不，谢谢。",
+      "title": "奉献星期二",
+      "ctaUrl": "https://bibleinoneyear.org/zh/donate/?utm_source=web&utm_medium=pop-up&utm_campaign=giving_tuesday&utm_content=give%20now"
     }
   },
   "ar": {
@@ -227,6 +249,17 @@
     "404Page": {
       "description": "ขออภัย หน้านั้นไม่มีอยู่จริง",
       "goHomeButton": "ไปที่หน้าแรก"
+    },
+    "promo": {
+      "img": "/assets/img/website-giving-banner_7.jpg",
+      "endDate": "2022-12-04",
+      "promoID": "giving-tuesday-2022",
+      "text": "ปีนี้ทำไมไม่ให้ของขวัญแก่อัลฟ่าล่ะ?\nความเอื้ออาทรของคุณจะช่วยให้ผู้คนกว่า 1 ล้านคนค้นพบและพัฒนาความสัมพันธ์กับพระเยซูและได้รับการแนะนำให้รู้จักกับพระคัมภีร์ในหนึ่งปี!",
+      "startDate": "2022-11-27",
+      "acceptText": "ถวาย ตอนนี้",
+      "dismissText": "ไม่เอา ขอบคุณ",
+      "title": "ให้วันอังคาร",
+      "ctaUrl": "https://bibleinoneyear.org/th/donate/?utm_source=web&utm_medium=pop-up&utm_campaign=giving_tuesday&utm_content=give%20now"
     }
   },
   "id": {
@@ -234,6 +267,17 @@
     "404Page": {
       "description": "Maaf, halaman itu tidak ada",
       "goHomeButton": "Pergi ke beranda"
+    },
+    "promo": {
+      "img": "/assets/img/website-giving-banner_7.jpg",
+      "endDate": "2022-12-04",
+      "promoID": "giving-tuesday-2022",
+      "text": "Tahun ini, mengapa tidak memberikan hadiah kepada Alpha?\nKemurahan hati Anda akan membantu lebih dari 1 juta orang menemukan dan mengembangkan hubungan dengan Yesus dan diperkenalkan dengan Alkitab dalam Satu Tahun!",
+      "startDate": "2022-11-27",
+      "acceptText": "Berikan sekarang",
+      "dismissText": "Tidak, terima kasih",
+      "title": "Pemberian hari Selasa",
+      "ctaUrl": "https://bibleinoneyear.org/id/donate/?utm_source=web&utm_medium=pop-up&utm_campaign=giving_tuesday&utm_content=give%20now"
     }
   }
 }
