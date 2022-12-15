@@ -37,8 +37,16 @@ const languages = [
     language: "Bahasa Indonesia",
   },
   {
+    locale: "it",
+    language: "Italiano",
+  },
+  {
     locale: "th",
     language: "ไทย",
+  },
+  {
+    locale: "vi",
+    language: "Tiếng Việt/㗂越",
   },
   {
     locale: "zh",
