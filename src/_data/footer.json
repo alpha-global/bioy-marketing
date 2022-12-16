@@ -287,5 +287,105 @@
       "description": "BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7&nbsp;1JA.",
       "title": "Copyright Alpha International"
     }
+  },
+  "it": {
+    "headline": "Start every day in the Bible.",
+    "cta": "Download the app today",
+    "nav": [
+      {
+        "href": "https://www.alpha.org/",
+        "label": "Alpha",
+        "external": true
+      },
+      {
+        "href": "https://www.htb.org/",
+        "label": "HTB Church",
+        "external": true
+      },
+      {
+        "href": "https://themarriagecourse.org/",
+        "label": "The Marriage Course",
+        "external": true
+      },
+      {
+        "href": "/it/donate",
+        "label": "Donate",
+        "external": false
+      },
+      {
+        "href": "/it/faqs",
+        "label": "FAQs",
+        "external": false
+      },
+      {
+        "href": "/it/privacy-policy/",
+        "label": "Privacy",
+        "external": false
+      },
+      {
+        "href": "/it/cookies/",
+        "label": "Cookies",
+        "external": false
+      }
+    ],
+    "social": {
+      "facebook": "nickygumbel",
+      "twitter": "nickygumbel",
+      "instagram": "nickygumbel"
+    },
+    "copyright": {
+      "description": "BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7&nbsp;1JA.",
+      "title": "Copyright Alpha International"
+    }
+  },
+  "vi": {
+    "headline": "Start every day in the Bible.",
+    "cta": "Download the app today",
+    "nav": [
+      {
+        "href": "https://www.alpha.org/",
+        "label": "Alpha",
+        "external": true
+      },
+      {
+        "href": "https://www.htb.org/",
+        "label": "HTB Church",
+        "external": true
+      },
+      {
+        "href": "https://themarriagecourse.org/",
+        "label": "The Marriage Course",
+        "external": true
+      },
+      {
+        "href": "/vi/donate",
+        "label": "Donate",
+        "external": false
+      },
+      {
+        "href": "/vi/faqs",
+        "label": "FAQs",
+        "external": false
+      },
+      {
+        "href": "/vi/privacy-policy/",
+        "label": "Privacy",
+        "external": false
+      },
+      {
+        "href": "/vi/cookies/",
+        "label": "Cookies",
+        "external": false
+      }
+    ],
+    "social": {
+      "facebook": "nickygumbel",
+      "twitter": "nickygumbel",
+      "instagram": "nickygumbel"
+    },
+    "copyright": {
+      "description": "BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7&nbsp;1JA.",
+      "title": "Copyright Alpha International"
+    }
   }
 }
