@@ -10,7 +10,7 @@
     "cms": "npx netlify-cms-proxy-server",
     "wipe": "rm -rf ./.cache && rm -rf ./build",
     "production": "ELEVENTY_ENV=production npx @11ty/eleventy && mix --production",
-    "production:cleanSlate": "NODE_OPTIONS='--max-old-space-size=9000' ELEVENTY_ENV=production CLEAN_SLATE=true npx @11ty/eleventy && mix --production",
+    "production:cleanSlate": "NODE_OPTIONS='--max-old-space-size=8192' ELEVENTY_ENV=production CLEAN_SLATE=true npx @11ty/eleventy && mix --production",
     "test": "npx playwright test"
   },
   "author": "Alpha International / OneSheep",
@@ -20,7 +20,7 @@
     "swipejs": "^2.3.1"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0-canary.18",
+    "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-cache-assets": "^2.3.0",
     "@11ty/eleventy-img": "^0.10.0",
     "@ayctor/laravel-mix-svg-sprite": "^1.0.0",
