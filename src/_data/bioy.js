@@ -76,6 +76,13 @@ module.exports = async function (fullImport = false) {
       youth: ["en_Gb", "ar"],
       express: ["en_Gb", "de", "ar"],
     };
+
+    if(process.env.CHUNKS){
+      let chunk = process.env.CHUNKS.split(",")
+      variants.classic = chunk
+      console.log(`Fetch ${variants.classic} variants...`);
+    }
+
     const data = [];
 
     for (const [variant, locales] of Object.entries(variants)) {
