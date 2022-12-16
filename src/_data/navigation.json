@@ -61,5 +61,19 @@
     "faqs": "FAQs",
     "donate": "Donate",
     "download": "Download"
+  },
+  "it": {
+    "start": "Start",
+    "about": "About",
+    "faqs": "FAQs",
+    "donate": "Donate",
+    "download": "Download"
+  },
+  "vi": {
+    "start": "Start",
+    "about": "About",
+    "faqs": "FAQs",
+    "donate": "Donate",
+    "download": "Download"
   }
 }

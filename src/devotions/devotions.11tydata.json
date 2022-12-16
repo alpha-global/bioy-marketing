@@ -115,5 +115,31 @@
     "pippaAdds": "เพิ่มเติมโดยพิพพา",
     "verseOfTheDay": "ข้อพระคำประจำวัน",
     "references": "การอ้างอิง"
+  },
+  "it": {
+    "day": "Giorno",
+    "todaysReading": "Lettura del giorno",
+    "wisdom": "Sapienziali",
+    "newTestament": "Nuovo Testamento",
+    "oldTestament": "Antico Testamento",
+    "introduction": "Introduzione",
+    "commentary": "Commento",
+    "prayer": "Preghiera",
+    "pippaAdds": "La moglie di Nicky dice",
+    "verseOfTheDay": "Versetto del giorno",
+    "references": "Riferimenti"
+  },
+  "vi": {
+    "day": "Ngày",
+    "todaysReading": "Bài đọc ngày hôm nay",
+    "wisdom": "Khôn ngoan",
+    "newTestament": "Tân ước",
+    "oldTestament": "Cựu Ước",
+    "introduction": "Giới thiệu",
+    "commentary": "Bình luận",
+    "prayer": "Cầu nguyện",
+    "pippaAdds": "Pippa chia sẻ",
+    "verseOfTheDay": "Câu kinh thánh trong ngày",
+    "references": "Tham khảo"
   }
 }

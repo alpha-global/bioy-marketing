@@ -72,7 +72,7 @@ module.exports = async function (fullImport = false) {
 
   try {
     const variants = {
-      classic: ["en_Gb", "es", "ar", "hi", "zh_Hans", "fr", "de", "th", "id"],
+      classic: ['en_GB', 'ar', 'de', 'fr', 'hi', 'id', 'it', 'es', 'th', 'vi', 'zh_Hans'],
       youth: ["en_Gb", "ar"],
       express: ["en_Gb", "de", "ar"],
     };

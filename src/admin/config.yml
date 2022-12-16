@@ -4,7 +4,7 @@ backend:
 
 i18n:
   structure: single_file
-  locales: [en, ar, de, es, fr, hi, id, th, zh]
+  locales: [en, ar, de, es, fr, hi, id, it, th, vi, zh]
   default_locale: en
 
 media_folder: "src/assets/img"
