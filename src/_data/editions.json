@@ -50,5 +50,13 @@
   "id": {
     "intro": "Bible in One Year comes in three different editions…",
     "classic": "Classic"
+  },
+  "it": {
+    "intro": "Bible in One Year comes in three different editions…",
+    "classic": "Classic"
+  },
+  "vi": {
+    "intro": "Bible in One Year comes in three different editions…",
+    "classic": "Classic"
   }
 }

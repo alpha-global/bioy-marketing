@@ -62,5 +62,21 @@
     "cta_teaser": "在圣经日日行APP中，你能找到所有历史、有声朗读、阅读跟进等等。",
     "cta": "今天就下载",
     "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
+  },
+  "it": {
+    "title": "Today's Reading",
+    "today": "Today",
+    "day": "Day",
+    "cta_teaser": "In the Bible in One Year app you can access a full history, audio devotions, progress tracking, and more.",
+    "cta": "Download today",
+    "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
+  },
+  "vi": {
+    "title": "Today's Reading",
+    "today": "Today",
+    "day": "Day",
+    "cta_teaser": "In the Bible in One Year app you can access a full history, audio devotions, progress tracking, and more.",
+    "cta": "Download today",
+    "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
   }
 }

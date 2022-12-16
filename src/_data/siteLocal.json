@@ -202,5 +202,85 @@
       "description": "Maaf, halaman itu tidak ada",
       "goHomeButton": "Pergi ke beranda"
     }
+  },
+  "it": {
+    "title": "Bible in One Year",
+    "switcher": {
+      "title": "Change Language",
+      "subTitle": "Bible in One Year is available in the following languages:"
+    },
+    "social": {
+      "desc": "Start your day with the Bible in One Year, a free Bible reading app from HTB and the Alpha Course with commentary by Nicky & Pippa Gumbel.",
+      "img": "/assets/img/bioy-og-en.jpg"
+    },
+    "cookies": {
+      "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
+      "cta": "Find out more",
+      "closeButton": "Close"
+    },
+    "signUpForm": {
+      "title": "Bible in One Year",
+      "helpText": "Sign up to receive each day's Bible in One Year reading in your inbox.",
+      "fieldLabel1": "Primary Email Address",
+      "fieldLabel2": "First Name",
+      "privacyText": "If you would like to know how Alpha processes your data, please view Alpha's <Privacy Policy>.",
+      "privacyLink": "https://bibleinoneyear.org/it/privacy-policy/",
+      "ButtonText": "Sign up now"
+    },
+    "404Page": {
+      "description": "Sorry, that page doesn't exist",
+      "goHomeButton": "Go Home"
+    },
+    "promo": {
+      "img": "/assets/img/website-giving-banner_3.jpg",
+      "endDate": "2022-12-04",
+      "promoID": "giving-tuesday-2022",
+      "text": "This year, why not give a gift to Alpha?\nYour generosity will help over 1m people discover and develop a relationship with Jesus and be introduced to the Bible in One Year!",
+      "startDate": "2022-11-27",
+      "acceptText": "Give Now",
+      "dismissText": "No Thanks",
+      "title": "Giving Tuesday",
+      "ctaUrl": "https://bibleinoneyear.org/it/donate/"
+    }
+  },
+  "vi": {
+    "title": "Bible in One Year",
+    "switcher": {
+      "title": "Change Language",
+      "subTitle": "Bible in One Year is available in the following languages:"
+    },
+    "social": {
+      "desc": "Start your day with the Bible in One Year, a free Bible reading app from HTB and the Alpha Course with commentary by Nicky & Pippa Gumbel.",
+      "img": "/assets/img/bioy-og-en.jpg"
+    },
+    "cookies": {
+      "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
+      "cta": "Find out more",
+      "closeButton": "Close"
+    },
+    "signUpForm": {
+      "title": "Bible in One Year",
+      "helpText": "Sign up to receive each day's Bible in One Year reading in your inbox.",
+      "fieldLabel1": "Primary Email Address",
+      "fieldLabel2": "First Name",
+      "privacyText": "If you would like to know how Alpha processes your data, please view Alpha's <Privacy Policy>.",
+      "privacyLink": "https://bibleinoneyear.org/vi/privacy-policy/",
+      "ButtonText": "Sign up now"
+    },
+    "404Page": {
+      "description": "Sorry, that page doesn't exist",
+      "goHomeButton": "Go Home"
+    },
+    "promo": {
+      "img": "/assets/img/website-giving-banner_3.jpg",
+      "endDate": "2022-12-04",
+      "promoID": "giving-tuesday-2022",
+      "text": "This year, why not give a gift to Alpha?\nYour generosity will help over 1m people discover and develop a relationship with Jesus and be introduced to the Bible in One Year!",
+      "startDate": "2022-11-27",
+      "acceptText": "Give Now",
+      "dismissText": "No Thanks",
+      "title": "Giving Tuesday",
+      "ctaUrl": "https://bibleinoneyear.org/vi/donate/"
+    }
   }
 }
