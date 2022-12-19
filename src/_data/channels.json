@@ -114,7 +114,7 @@
       {
         "channel": "Email",
         "icon": "medium_email",
-        "description": "Sign up now to receive Bible in One Year in your inbox each morning. You’ll get one email each day.",
+        "description": "Iscriviti ora per ricevere la Bibbia in un anno nella tua casella di posta ogni mattina. Riceverai un'email al giorno.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
           "code": "<a @click=\"mailerLitePopup\" href=\"https://landing.mailerlite.com/webforms/landing/p5d3p8\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors  \"data-ml=\"4010371,p5d3p8\">Sign up now</a>"
@@ -123,7 +123,7 @@
       {
         "channel": "Website",
         "icon": "medium_website",
-        "description": "Start reading today’s devotion right here on the BiOY website.",
+        "description": "Inizia a leggere la devozione di oggi proprio qui sul sito web di BiOY.",
         "image": "/assets/img/medium_laptop.jpg",
         "cta": {
           "code": "<a href=\"#todays-devotion\" class=\"whiteButton\">Read now</a>"
@@ -132,7 +132,7 @@
       {
         "channel": "Book",
         "icon": "medium_book",
-        "description": "The Bible in One Year Commentary is available as a book.\n\n* [Buy from the Alpha Shop](https://shop.alpha.org/bible-in-one-year)\n* [Buy from CLC Bookshops](https://clcbookshops.com/product/bible-in-one-year-the-a-commentary-by-nicky-gumbel-hard-cover-gumbel-nicky-hodder-stoughton-9781473677067)",
+        "description": "The Bible in One Year Commentary è disponibile come libro.\n\n* [Acquista dall'Alpha Shop](https://shop.alpha.org/bible-in-one-year)\n* \\[Acquista dalle librerie CLC](https://clcbookshops.com/product/bible-in-one-year-the-a-commentary-by-nicky-gumbel-hard-cover-gumbel-nicky-hodder-stoughton- 9781473677067)",
         "image": "/assets/img/books.jpg"
       }
     ]
@@ -259,13 +259,13 @@
       {
         "channel": "App",
         "icon": "medium_app",
-        "description": "Download the Bible in One Year app for iOS or Android devices and read along each day.\n\n* [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
+        "description": "Tải xuống ứng dụng Kinh Thánh Trong Một Năm dành cho thiết bị iOS hoặc Android và đọc theo mỗi ngày.\n\n* [Tải xuống cho iOS từ App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Tải xuống cho Android trên Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=vi)",
         "image": "/assets/img/medium_website.jpg"
       },
       {
         "channel": "Email",
         "icon": "medium_email",
-        "description": "Sign up now to receive Bible in One Year in your inbox each morning. You’ll get one email each day.",
+        "description": "Đăng ký ngay bây giờ để nhận Kinh thánh trong một năm trong hộp thư đến của bạn mỗi sáng. Bạn sẽ nhận được một email mỗi ngày.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
           "code": "<a @click=\"mailerLitePopup\" href=\"https://landing.mailerlite.com/webforms/landing/p5d3p8\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors  \"data-ml=\"4010371,p5d3p8\">Sign up now</a>"
@@ -274,7 +274,7 @@
       {
         "channel": "Website",
         "icon": "medium_website",
-        "description": "Start reading today’s devotion right here on the BiOY website.",
+        "description": "Bắt đầu đọc sự tận tâm của ngày hôm nay ngay tại đây trên trang web BiOY.",
         "image": "/assets/img/medium_laptop.jpg",
         "cta": {
           "code": "<a href=\"#todays-devotion\" class=\"whiteButton\">Read now</a>"
@@ -283,7 +283,7 @@
       {
         "channel": "Book",
         "icon": "medium_book",
-        "description": "The Bible in One Year Commentary is available as a book.\n\n* [Buy from the Alpha Shop](https://shop.alpha.org/bible-in-one-year)\n* [Buy from CLC Bookshops](https://clcbookshops.com/product/bible-in-one-year-the-a-commentary-by-nicky-gumbel-hard-cover-gumbel-nicky-hodder-stoughton-9781473677067)",
+        "description": "Kinh thánh trong một năm bình luận có sẵn như là một cuốn sách.\n\n* [Mua từ Cửa hàng Alpha](https://shop.alpha.org/bible-in-one-year)\n* \\[Mua từ Nhà sách CLC](https://clcbookshops.com/product/bible-in-one-year-the-a-commentary-by-nicky-gumbel-hard-cover-gumbel-nicky-hodder-stoughton- 9781473677067)",
         "image": "/assets/img/books.jpg"
       }
     ]
