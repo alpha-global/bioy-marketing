@@ -20,6 +20,13 @@
     "donate": "Donate",
     "download": "Download"
   },
+  "it": {
+    "start": "Inizio",
+    "about": "About",
+    "faqs": "FAQs",
+    "donate": "Donate",
+    "download": "Download"
+  },
   "fr": {
     "start": "Commencer",
     "about": "A propos",
@@ -48,6 +55,13 @@
     "donate": "دعّم",
     "download": "تنزيل"
   },
+  "vi": {
+    "start": "Start",
+    "about": "About",
+    "faqs": "FAQs",
+    "donate": "Donate",
+    "download": "Download"
+  },
   "th": {
     "start": "เริ่ม",
     "about": "เกี่ยวกับเรา",
@@ -56,20 +70,6 @@
     "download": "ดาวน์โหลด"
   },
   "id": {
-    "start": "Start",
-    "about": "About",
-    "faqs": "FAQs",
-    "donate": "Donate",
-    "download": "Download"
-  },
-  "it": {
-    "start": "Start",
-    "about": "About",
-    "faqs": "FAQs",
-    "donate": "Donate",
-    "download": "Download"
-  },
-  "vi": {
     "start": "Start",
     "about": "About",
     "faqs": "FAQs",
