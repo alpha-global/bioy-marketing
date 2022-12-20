@@ -138,7 +138,7 @@
       },
       {
         "href": "/it/faqs",
-        "label": "FAQs",
+        "label": "Domande frequenti",
         "external": false
       },
       {
@@ -148,7 +148,7 @@
       },
       {
         "href": "/it/cookies/",
-        "label": "Biscotti",
+        "label": "Cookie",
         "external": false
       }
     ],
@@ -314,17 +314,17 @@
       },
       {
         "href": "/vi/donate",
-        "label": "Donate",
+        "label": "Quyên tặng",
         "external": false
       },
       {
         "href": "/vi/faqs",
-        "label": "FAQs",
+        "label": "câu hỏi thường gặp",
         "external": false
       },
       {
         "href": "/vi/privacy-policy/",
-        "label": "Privacy",
+        "label": "Sự riêng tư",
         "external": false
       },
       {
