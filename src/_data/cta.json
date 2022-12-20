@@ -20,6 +20,13 @@
     "android": "Get it on Google Play",
     "ios": "Download in the App Store"
   },
+  "it": {
+    "title": "Scarica l'app iOS e Android",
+    "sub_title": "Leggi l'intera Bibbia in 365 giorni.",
+    "more": "Scopri di più",
+    "android": "Scaricalo su Google Play",
+    "ios": "Scaricare nella tienda delle applicazioni"
+  },
   "fr": {
     "title": "Téléchargez l'application iOS et Android",
     "android": "Obtenez-la sur Google Play",
@@ -48,6 +55,13 @@
     "android": "احصل عليه من متجر جوجل للتطبيقات",
     "ios": "قم بالتنزيل من متجر التطبيقات"
   },
+  "vi": {
+    "title": "Download the iOS and Android app",
+    "sub_title": "Read the whole Bible in 365 days.",
+    "more": "Find out more",
+    "android": "Get it on Google Play",
+    "ios": "Download in the App Store"
+  },
   "th": {
     "title": "ดาวน์โหลดแอพจาก iOS และ Android",
     "android": "ดาวน์โหลดบน Google Play",
@@ -61,19 +75,5 @@
     "ios": "Download in the App Store",
     "sub_title": "Read the whole Bible in 365 days.",
     "more": "Find out more"
-  },
-  "it": {
-    "title": "Download the iOS and Android app",
-    "sub_title": "Read the whole Bible in 365 days.",
-    "more": "Find out more",
-    "android": "Get it on Google Play",
-    "ios": "Download in the App Store"
-  },
-  "vi": {
-    "title": "Download the iOS and Android app",
-    "sub_title": "Read the whole Bible in 365 days.",
-    "more": "Find out more",
-    "android": "Get it on Google Play",
-    "ios": "Download in the App Store"
   }
 }
