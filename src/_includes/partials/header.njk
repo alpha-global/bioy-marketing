@@ -59,10 +59,10 @@
                         {% if (devotion.locale == lang.locale) and (lang.locale == 'it') and devotion.audio.url %}
                           {% svgSprite name = "audio", class = "h-4 w-4" %}<span>en</span>
                         {% else %}
-                          {% for devotion in todaysDevotions %}
-                            {% if devotion.locale == lang.locale and devotion.audio.url %}
-                              {% svgSprite name = "audio",
-                              class = "h-4 w-4" %}
+                        {# Since we don't have 365 devotions for IT we cannot pull in today's devotion and use the logic below for adding the audio icon #}
+                        {% for devotion in todaysDevotions %}
+                          {% if devotion.locale == lang.locale and devotion.audio.url %}
+                            {% svgSprite name = "audio", class = "h-4 w-4" %}
                               {% if lang.locale in['ar', 'es'] %}
                                 <span>en</span>
                               {% endif %}
