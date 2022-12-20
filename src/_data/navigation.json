@@ -22,10 +22,10 @@
   },
   "it": {
     "start": "Inizio",
-    "about": "About",
-    "faqs": "FAQs",
-    "donate": "Donate",
-    "download": "Download"
+    "about": "Di",
+    "faqs": "Domande frequenti",
+    "donate": "Donare",
+    "download": "Scaricamento"
   },
   "fr": {
     "start": "Commencer",
@@ -56,11 +56,11 @@
     "download": "تنزيل"
   },
   "vi": {
-    "start": "Start",
-    "about": "About",
-    "faqs": "FAQs",
-    "donate": "Donate",
-    "download": "Download"
+    "start": "Bắt đầu",
+    "about": "Trong khoảng",
+    "faqs": "câu hỏi thường gặp",
+    "donate": "Quyên tặng",
+    "download": "Tải xuống"
   },
   "th": {
     "start": "เริ่ม",
