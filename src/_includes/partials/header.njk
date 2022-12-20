@@ -56,15 +56,19 @@
                     <span class="col-start-1 col-end-3">{{ lang.language }}</span>
                     <div class="col-start-3 col-end-4 flex justify-end">
                       <div class="grid grid-cols-2 gap-2">
+                        {% if (devotion.locale == lang.locale) and (lang.locale == 'it') and devotion.audio.url %}
+                          {% svgSprite name = "audio", class = "h-4 w-4" %}<span>en</span>
+                        {% else %}
+                        {# Since we don't have 365 devotions for IT we cannot pull in today's devotion and use the logic below for adding the audio icon #}
                         {% for devotion in todaysDevotions %}
                           {% if devotion.locale == lang.locale and devotion.audio.url %}
-                            {% svgSprite name = "audio",
-                            class = "h-4 w-4" %}
-                            {% if lang.locale in['ar', 'es'] %}
-                              <span>en</span>
+                            {% svgSprite name = "audio", class = "h-4 w-4" %}
+                              {% if lang.locale in['ar', 'es'] %}
+                                <span>en</span>
+                              {% endif %}
                             {% endif %}
-                          {% endif %}
-                        {% endfor %}
+                          {% endfor %}
+                        {% endif %}
                       </div>
                     </div>
                   </div>
