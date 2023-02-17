@@ -14,8 +14,17 @@ export default () => {
     now: dayjs(),
     hasSeenPromo: false,
     promoID: '',
+    locator: null,
 
-    async init(startDate, endDate, promoID) {
+    async init(startDate, endDate, promoID, type) {
+      if (type == undefined) return;
+
+      if (type == 'modal') {
+        this.locator = this.$refs.promoModal;
+      } else if (type == 'banner') {
+        this.locator = this.$refs.promoBanner;
+      }
+
       this.promoID = promoID;
 
       await this.setPromoDates(startDate, endDate);
@@ -36,13 +45,13 @@ export default () => {
       localStorage.setItem('promoIDs', JSON.stringify(promoIDs));
     },
     showPromo() {
-      this.$refs.promoModal.classList.add('flex');
-      this.$refs.promoModal.classList.remove('hidden');
+      this.locator.classList.add('flex');
+      this.locator.classList.remove('hidden');
     },
     hidePromo() {
       this.updatePromoIDsStore(this.promoID);
-      this.$refs.promoModal.classList.add('hidden');
-      this.$refs.promoModal.classList.remove('flex');
+      this.locator.classList.add('hidden');
+      this.locator.classList.remove('flex');
     },
     async setPromoDates(start, end) {
       if (
