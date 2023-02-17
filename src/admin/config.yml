@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: lc-23-website-banner
 
 i18n:
   structure: single_file
@@ -919,7 +919,7 @@ collections:
                 },
                 {
                   name: "promo",
-                  label: "Promo Modal",
+                  label: "Promo",
                   widget: "object",
                   i18n: true,
                   fields:
@@ -940,6 +940,15 @@ collections:
                         label: "Promo ID",
                         name: "promoID",
                         widget: "string",
+                        required: true,
+                        i18n: true,
+                      },
+                      {
+                        label: "Type",
+                        name: "type",
+                        widget: "select",
+                        options: ['modal', 'banner'],
+                        default: ["banner"],
                         required: true,
                         i18n: true,
                       },
