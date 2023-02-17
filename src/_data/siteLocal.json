@@ -92,15 +92,15 @@
     },
     "promo": {
       "img": "/assets/img/website-giving-banner_3.jpg",
-      "endDate": "2023-02-18",
+      "endDate": "2023-03-18",
       "promoID": "lc-conference-2023",
       "text": "We look  forward to gathering together for world class teaching, equipping, and inspiration for leadership in all spheres of life",
       "startDate": "2023-02-17",
       "acceptText": "Register Now",
       "dismissText": "No Thanks",
       "title": "Leadership Conference 2023",
-      "type": "modal",
-      "ctaUrl": "https://bibleinoneyear.org/en/donate/?utm_source=web&utm_medium=pop-up&utm_campaign=giving_tuesday&utm_content=give%20now"
+      "type": "banner",
+      "ctaUrl": "https://www.leadershipconference.org.uk/book-now?utm_source=bioyweb&utm_medium=referral&utm_campaign=promo"
     }
   },
   "it": {

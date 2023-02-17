@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: lc-23-website-banner
+  branch: main
 
 i18n:
   structure: single_file
