@@ -1,33 +1,5 @@
-<div
-  x-data="promo"
-  x-ref="promoModal"
-  x-init="init('{{ siteLocal[locale].promo.startDate }}','{{
-    siteLocal[locale].promo.endDate
-  }}', '{{ siteLocal[locale].promo.promoID }}')"
-  class="fixed inset-0 z-20 hidden flex-col items-center justify-center bg-black bg-opacity-60"
->
-  <div
-    class="w-[90%] overflow-hidden rounded-b-lg bg-white shadow-lg md:w-[80%] lg:w-2/5"
-  >
-    {% blockImage siteLocal[locale].promo.img, "Donate promo" , "(min-width: 640px) 60vw,
-    100vw", "w-full object-cover object-center h-38 md:h-auto lg:h-48 xl:h-56" %}
-    <div class="flex flex-col items-center justify-center space-y-8 py-8 px-7">
-      <h3 class="text-center text-base font-semibold text-red md:text-lg">
-        {{ siteLocal[locale].promo.title }}
-      </h3>
-      <div class="space-y-4 text-center text-sm md:text-base">
-        {{ siteLocal[locale].promo.text | markdown | safe }}
-      </div>
-      <button
-        id="ga-giving-tuesday-donate"
-        @click="donate('{{ siteLocal[locale].promo.ctaUrl }}')"
-        class="inline-block w-4/6 rounded border border-red bg-red p-2 pb-1.5 text-center text-white transition-colors hover:bg-white hover:text-red"
-      >
-        {{ siteLocal[locale].promo.acceptText }}
-      </button>
-      <button id="ga-giving-tuesday-decline" @click="hidePromo()" class="hover:text-red">
-        {{ siteLocal[locale].promo.dismissText }}
-      </button>
-    </div>
-  </div>
-</div>
+{% if siteLocal[locale].promo.type == 'modal' %}
+  {% include "partials/modal.njk" %}
+{% elif siteLocal[locale].promo.type == 'banner' %}
+  {% include "partials/banner.njk" %}
+{% endif %}
