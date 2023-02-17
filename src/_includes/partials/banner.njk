@@ -1,5 +1,10 @@
 <div
-  class="relative isolate z-20 flex items-center gap-x-6 overflow-hidden bg-red py-2.5 px-6 sm:px-3.5 sm:before:flex-1"
+  x-data="promo"
+  x-ref="promoBanner"
+  x-init="init('{{ siteLocal[locale].promo.startDate }}','{{
+    siteLocal[locale].promo.endDate
+  }}', '{{ siteLocal[locale].promo.promoID }}', '{{ siteLocal[locale].promo.type }}')"
+  class="relative isolate z-20 hidden items-center gap-x-6 overflow-hidden bg-red py-2.5 px-6 sm:px-3.5 sm:before:flex-1"
 >
   <div class="flex flex-wrap items-center gap-y-2 gap-x-4 text-white">
     <p class="text-sm leading-6">
@@ -14,6 +19,7 @@
       >{{ siteLocal[locale].promo.text }}
     </p>
     <button
+      id="ga-{{  siteLocal[locale].promo.promoID }}-accept"
       @click="donate('{{ siteLocal[locale].promo.ctaUrl }}')"
       class="flex items-center justify-center rounded-full bg-black py-1 px-3.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-grey"
     >
@@ -22,7 +28,7 @@
     </button>
   </div>
   <div class="flex flex-1 justify-end">
-    <button type="button" class="-m-3 p-3 focus-visible:outline-offset-[-4px]">
+    <button id="ga-{{  siteLocal[locale].promo.promoID }}-decline" @click="hidePromo()" type="button" class="-m-3 p-3 focus-visible:outline-offset-[-4px]">
       <span class="sr-only">Dismiss</span>
       {% svgSprite name = "x-mark", class="h-6 w-6 text-white" %}
     </button>
