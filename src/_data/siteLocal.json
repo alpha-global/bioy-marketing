@@ -99,7 +99,7 @@
       "acceptText": "Register Now",
       "dismissText": "No Thanks",
       "title": "Leadership Conference 2023",
-      "type": "banner",
+      "type": "modal",
       "ctaUrl": "https://www.leadershipconference.org.uk/book-now?utm_source=bioyweb&utm_medium=referral&utm_campaign=promo"
     }
   },
