@@ -7,17 +7,17 @@
   class="fixed inset-0 z-20 hidden flex-col items-center justify-center bg-black bg-opacity-60"
 >
   <div
-    class="w-[90%] overflow-hidden rounded-b-lg bg-white shadow-lg md:w-[80%] lg:w-2/5 {{ '' if siteLocal[locale].promo.img else 'rounded-t-lg border-t-8 border-red'}}"
+    class="w-[90%] overflow-hidden rounded-lg bg-white shadow-lg md:w-[80%] lg:w-2/5 {{ '' if siteLocal[locale].promo.img else 'rounded-t-lg border-t-8 border-red'}}"
   >
     {% if siteLocal[locale].promo.img %}
       {% blockImage siteLocal[locale].promo.img, "Donate promo" , "(min-width: 640px) 60vw,
-    100vw", "w-full object-cover object-center h-38 md:h-auto lg:h-48 xl:h-56" %}
+    100vw", "w-full overflow-hidden object-cover object-center aspect-[2/1] h-32 xs:h-36 sm:h-40 md:h-44 lg:h-48 xl:h-56" %}
     {% endif %}
     <div class="flex flex-col items-center justify-center space-y-8 py-8 px-7">
       <h3 class="text-center text-base font-semibold text-red md:text-lg">
         {{ siteLocal[locale].promo.title }}
       </h3>
-      <div class="space-y-4 text-center text-sm md:text-base">
+      <div class="space-y-4 text-sm md:text-base">
         {{ siteLocal[locale].promo.text | markdown | safe }}
       </div>
       <button
