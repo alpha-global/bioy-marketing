@@ -133,14 +133,15 @@
     },
     "promo": {
       "img": "/assets/img/website-giving-banner_3.jpg",
-      "endDate": "2022-12-04",
-      "promoID": "giving-tuesday-2022",
-      "text": "This year, why not give a gift to Alpha?\nYour generosity will help over 1m people discover and develop a relationship with Jesus and be introduced to the Bible in One Year!",
-      "startDate": "2022-11-27",
-      "acceptText": "Give Now",
+      "endDate": "2023-03-18",
+      "promoID": "lc-conference-2023",
+      "text": "We look  forward to gathering together for world class teaching, equipping, and inspiration for leadership in all spheres of life",
+      "startDate": "2023-02-17",
+      "acceptText": "Register Now",
       "dismissText": "No Thanks",
-      "title": "Giving Tuesday",
-      "ctaUrl": "https://bibleinoneyear.org/it/donate/"
+      "title": "Leadership Conference 2023",
+      "type": "banner",
+      "ctaUrl": "https://www.leadershipconference.org.uk/book-now?utm_source=bioyweb&utm_medium=referral&utm_campaign=promo"
     }
   },
   "fr": {
