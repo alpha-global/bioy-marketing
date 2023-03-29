@@ -4,10 +4,10 @@
   x-init="init('{{ siteLocal[locale].promo.startDate }}','{{
     siteLocal[locale].promo.endDate
   }}', '{{ siteLocal[locale].promo.promoID }}', '{{ siteLocal[locale].promo.type }}')"
-  class="fixed inset-0 z-20 hidden flex-col items-center justify-center bg-black bg-opacity-60"
+  class="fixed inset-0 z-20 hidden flex-col items-center justify-center bg-black bg-opacity-60 min-h-screen"
 >
   <div
-    class="w-[90%] overflow-hidden rounded-lg bg-white shadow-lg md:w-[80%] lg:w-2/5 {{ '' if siteLocal[locale].promo.img else 'rounded-t-lg border-t-8 border-red'}}"
+    class="w-[90%] overflow-y-auto overflow-hidden rounded-lg bg-white shadow-lg md:w-[80%] lg:w-2/5 {{ '' if siteLocal[locale].promo.img else 'rounded-t-lg border-t-8 border-red'}}"
   >
     {% if siteLocal[locale].promo.img %}
       {% blockImage siteLocal[locale].promo.img, "Donate promo" , "(min-width: 640px) 60vw,
