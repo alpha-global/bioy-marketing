@@ -28,16 +28,16 @@
       "goHomeButton": "Nach Hause gehen"
     },
     "promo": {
-      "img": "/assets/img/picture_1.jpg",
-      "endDate": "2023-05-01",
-      "promoID": "lc-conference-2023",
-      "text": "Nehmen Sie vom 1. bis 2. Mai 2023 an der Leadership Conference live aus der Royal Albert Hall teil\n\nDie Leadership Conference ist eine Gelegenheit für die Familie Gottes, in Einheit zusammenzukommen – um Freundschaften über Konfessionen, Generationen und Nationen hinweg aufzubauen, ermutigt zu werden, füreinander zu beten und von einigen äußerst inspirierenden Leitern zu lernen.\n\nEs ist ein Ort, um Jesus zu begegnen, mit dem Heiligen Geist erfüllt zu werden und befähigt zu werden, unsere Rolle beim Aufbau von Gottes Königreich zu spielen.",
-      "startDate": "2023-04-24",
-      "acceptText": "Jetzt registrieren",
+      "img": "/assets/img/lc23-ig-story-option-03.jpg",
+      "endDate": "2023-05-24",
+      "promoID": "lc-conference-2023-online",
+      "text": "Nachdem wir eine wundervolle Zeit bei der Leadership Conference in der Royal Albert Hall hatten, möchten wir sicherstellen, dass niemand die Gelegenheit verpasst, online an der LC23 teilzunehmen. Das Beste der zweitägigen Konferenz wird in einer zweistündigen und 15-minütigen Veranstaltung zusammengefasst, die am 24. Mai live mit Dolmetschung übertragen und am 25. Mai wiederholt wird – so dass es jeder überall erleben kann.",
+      "startDate": "2023-05-17",
+      "acceptText": "Registrieren Sie sich noch heute kostenlos!",
       "dismissText": "Nein danke",
-      "title": "Führungskonferenz 2023",
+      "title": "Seien Sie bei LC23 Online dabei!",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/book-now?utm_source=bioyweb&utm_medium=referral&utm_campaign=promo"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
     }
   },
   "hi": {
@@ -52,16 +52,16 @@
       "goHomeButton": "होम पेज़ पर जाएं"
     },
     "promo": {
-      "img": "/assets/img/picture_1.jpg",
-      "endDate": "2023-05-01",
-      "promoID": "lc-conference-2023",
-      "text": "1-2 मई 2023 को रॉयल अल्बर्ट हॉल से लीडरशिप कॉन्फ्रेंस लाइव में हमसे जुड़ें\n\nनेतृत्व सम्मेलन ईश्वर के परिवार के लिए एकता में एक साथ आने का एक अवसर है - संप्रदायों, पीढ़ियों और राष्ट्रों में दोस्ती बनाने, प्रोत्साहित करने, एक दूसरे के लिए प्रार्थना करने और कुछ बेहद प्रेरक नेताओं से सीखने के लिए।\n\nयह यीशु से मिलने, पवित्र आत्मा से भरे जाने और परमेश्वर के राज्य के निर्माण में अपनी भूमिका निभाने के लिए सशक्त होने का स्थान है।",
-      "startDate": "2023-04-24",
-      "acceptText": "अभी पंजीकरण करें",
+      "img": "/assets/img/lc23-ig-story-option-03.jpg",
+      "endDate": "2023-05-24",
+      "promoID": "lc-conference-2023-online",
+      "text": "रॉयल अल्बर्ट हॉल में नेतृत्व सम्मेलन में इतना अच्छा समय बिताने के बाद, हम यह सुनिश्चित करना चाहते हैं कि कोई भी हमारे साथ LC23 ऑनलाइन में शामिल होने का अवसर न चूके। दो दिवसीय सम्मेलन के सर्वश्रेष्ठ को 2 घंटे 15 मिनट की घटना में आसुत किया जाएगा जिसे 24 मई को व्याख्या के साथ लाइव स्ट्रीम किया जाएगा और 25 मई को दोहराया जाएगा - ताकि हर जगह हर कोई इसका अनुभव कर सके।",
+      "startDate": "2023-05-17",
+      "acceptText": "आज ही निःशुल्क पंजीकरण करें!",
       "dismissText": "नहीं, धन्यवाद",
-      "title": "नेतृत्व सम्मेलन 2023",
+      "title": "LC23 ऑनलाइन के लिए हमसे जुड़ें!",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/book-now?utm_source=bioyweb&utm_medium=referral&utm_campaign=promo"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
     }
   },
   "en": {
@@ -93,16 +93,16 @@
       "goHomeButton": "Go Home"
     },
     "promo": {
-      "img": "/assets/img/picture_1.jpg",
-      "endDate": "2023-05-01",
-      "promoID": "lc-conference-2023",
-      "text": "Join us for the Leadership Conference live from the Royal Albert Hall on 1-2 May 2023\n\nThe Leadership Conference is an opportunity for the family of God to come together in unity – to build friendships across denominations, generations and nations, to be encouraged, to pray for each other and to learn from some hugely inspiring leaders.\n\nIt’s a place to encounter Jesus, be filled with the Holy Spirit, and be empowered to play our part in building God’s kingdom.",
-      "startDate": "2023-04-24",
-      "acceptText": "Register Now",
+      "img": "/assets/img/lc23-ig-story-option-03.jpg",
+      "endDate": "2023-05-24",
+      "promoID": "lc-conference-2023-online",
+      "text": "Having had such a wonderful time at the Leadership Conference in the Royal Albert Hall, we want to make sure no one misses out on the opportunity to join us for LC23 online. The best of the two-day conference will be distilled into a 2-hour 15-minute event that will be streamed live with interpretation on 24 May and repeated on 25 May – so that everyone, everywhere can experience it.",
+      "startDate": "2023-05-17",
+      "acceptText": "Register for free today! ",
       "dismissText": "No Thanks",
-      "title": "Leadership Conference 2023",
+      "title": "Join us for LC23 Online!",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/book-now?utm_source=bioyweb&utm_medium=referral&utm_campaign=promo"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
     }
   },
   "it": {
@@ -134,16 +134,16 @@
       "goHomeButton": "Go Home"
     },
     "promo": {
-      "img": "/assets/img/picture_1.jpg",
-      "endDate": "2023-05-01",
-      "promoID": "lc-conference-2023",
-      "text": "Unisciti a noi per la Leadership Conference in diretta dalla Royal Albert Hall l'1-2 maggio 2023\n\nLa Leadership Conference è un'opportunità per la famiglia di Dio di riunirsi in unità - per costruire amicizie tra denominazioni, generazioni e nazioni, per essere incoraggiati, per pregare gli uni per gli altri e per imparare da alcuni leader di grande ispirazione.\n\nÈ un luogo in cui incontrare Gesù, essere ripieni di Spirito Santo e avere il potere di fare la nostra parte nella costruzione del regno di Dio.",
-      "startDate": "2023-04-24",
-      "acceptText": "Iscriviti ora",
+      "img": "/assets/img/lc23-ig-story-option-03.jpg",
+      "endDate": "2023-05-17",
+      "promoID": "lc-conference-2023-online",
+      "text": "Avendo trascorso momenti così meravigliosi alla Leadership Conference nella Royal Albert Hall, vogliamo assicurarci che nessuno perda l'opportunità di unirsi a noi per LC23 online. Il meglio della conferenza di due giorni sarà distillato in un evento di 2 ore e 15 minuti che sarà trasmesso in streaming dal vivo con interpretazione il 24 maggio e ripetuto il 25 maggio, in modo che tutti, ovunque possano sperimentarlo.",
+      "startDate": "2023-05-17",
+      "acceptText": "Registrati gratuitamente oggi!",
       "dismissText": "No grazie",
-      "title": "Conferenza sulla leadership 2023",
+      "title": "Unisciti a noi per LC23 Online!",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/book-now?utm_source=bioyweb&utm_medium=referral&utm_campaign=promo"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
     }
   },
   "fr": {
@@ -175,16 +175,16 @@
       "goHomeButton": "Aller à la page d'accueil"
     },
     "promo": {
-      "img": "/assets/img/picture_1.jpg",
-      "endDate": "2023-05-01",
-      "promoID": "lc-conference-2023",
-      "text": "Rejoignez-nous pour la conférence sur le leadership en direct du Royal Albert Hall les 1er et 2 mai 2023\n\nLa Conférence sur le leadership est une occasion pour la famille de Dieu de se rassembler dans l'unité - de nouer des amitiés entre les dénominations, les générations et les nations, d'être encouragé, de prier les uns pour les autres et d'apprendre de certains dirigeants extrêmement inspirants.\n\nC'est un endroit pour rencontrer Jésus, être rempli du Saint-Esprit et être habilité à jouer notre rôle dans la construction du royaume de Dieu.",
-      "startDate": "2023-04-24",
-      "acceptText": "S'inscrire maintenant",
+      "img": "/assets/img/lc23-ig-story-option-03.jpg",
+      "endDate": "2023-05-24",
+      "promoID": "lc-conference-2023-online",
+      "text": "Après avoir passé un si merveilleux moment à la Conférence sur le leadership au Royal Albert Hall, nous voulons nous assurer que personne ne manque l'occasion de nous rejoindre pour LC23 en ligne. Le meilleur de la conférence de deux jours sera distillé dans un événement de 2 heures 15 minutes qui sera diffusé en direct avec interprétation le 24 mai et répété le 25 mai - afin que tout le monde, partout, puisse en faire l'expérience.",
+      "startDate": "2023-05-17",
+      "acceptText": "Inscrivez-vous gratuitement dès aujourd'hui !",
       "dismissText": "Non merci",
-      "title": "Conférence sur le leadership 2023",
+      "title": " Rejoignez-nous pour LC23 en ligne !",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/book-now?utm_source=bioyweb&utm_medium=referral&utm_campaign=promo"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
     }
   },
   "es": {
@@ -202,16 +202,16 @@
       "goHomeButton": "Ir a la pagina principal"
     },
     "promo": {
-      "img": "/assets/img/picture_1.jpg",
-      "endDate": "2023-05-01",
-      "promoID": "lc-conference-2023",
-      "text": "Únase a nosotros para la Conferencia de Liderazgo en vivo desde el Royal Albert Hall del 1 al 2 de mayo de 2023\n\nLa Conferencia de Liderazgo es una oportunidad para que la familia de Dios se reúna en unidad, para construir amistades entre denominaciones, generaciones y naciones, para animarse, orar unos por otros y aprender de algunos líderes enormemente inspiradores.\n\nEs un lugar para encontrarse con Jesús, ser lleno del Espíritu Santo y empoderado para desempeñar nuestro papel en la construcción del reino de Dios.",
-      "startDate": "2023-04-24",
-      "acceptText": "Regístrate ahora",
+      "img": "/assets/img/lc23-ig-story-option-03.jpg",
+      "endDate": "2023-05-24",
+      "promoID": "lc-conference-2023-online",
+      "text": "Habiendo tenido un tiempo tan maravilloso en la Conferencia de Liderazgo en el Royal Albert Hall, queremos asegurarnos de que nadie pierda la oportunidad de unirse a nosotros para LC23 en línea. Lo mejor de la conferencia de dos días se resumirá en un evento de 2 horas y 15 minutos que se transmitirá en vivo con interpretación el 24 de mayo y se repetirá el 25 de mayo, para que todos, en todas partes, puedan experimentarlo.",
+      "startDate": "2023-05-17",
+      "acceptText": "¡Regístrese gratis hoy!",
       "dismissText": "No, gracias",
-      "title": "Conferencia de Liderazgo 2023",
+      "title": "¡Únase a nosotros para LC23 en línea!",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/book-now?utm_source=bioyweb&utm_medium=referral&utm_campaign=promo"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
     }
   },
   "zh": {
@@ -230,16 +230,16 @@
       "goHomeButton": "回去"
     },
     "promo": {
-      "img": "/assets/img/picture_1.jpg",
-      "endDate": "2023-05-01",
-      "promoID": "giving-tuesday-2022",
-      "text": "与我们一起参加 2023 年 5 月 1 日至 2 日在皇家阿尔伯特音乐厅举行的领导会议现场直播\n\n领袖大会是上帝大家庭团结一致的机会——建立跨教派、跨世代和跨国家的友谊，得到鼓励，为彼此祈祷，并向一些非常鼓舞人心的领袖学习。\n\n这是一个与耶稣相遇的地方，被圣灵充满，并有能力在建立上帝的国度中发挥我们的作用。",
-      "startDate": "2023-04-24",
-      "acceptText": "现在注册",
+      "img": "/assets/img/lc23-ig-story-option-03.jpg",
+      "endDate": "2023-05-24",
+      "promoID": "lc-conference-2023-online",
+      "text": "在皇家阿尔伯特音乐厅的领导会议上度过了如此美好的时光，我们希望确保没有人错过在线加入我们 LC23 的机会。为期两天的会议中最精彩的部分将被提炼成一个 2 小时 15 分钟的活动，该活动将于 5 月 24 日进行现场直播并提供口译服务，并于 5 月 25 日重播——以便世界各地的每个人都能体验到。",
+      "startDate": "2023-05-17",
+      "acceptText": "立即免费注册！",
       "dismissText": "不，谢谢。",
-      "title": "2023 年领导会议",
+      "title": "加入我们的 LC23 在线",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/book-now?utm_source=bioyweb&utm_medium=referral&utm_campaign=promo"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
     }
   },
   "ar": {
@@ -262,16 +262,16 @@
       "goHomeButton": "اذهب الى الصفحة الرئيسية"
     },
     "promo": {
-      "img": "/assets/img/picture_1.jpg",
-      "endDate": "2023-05-01",
-      "promoID": "lc-conference-2023",
-      "text": "انضم إلينا لحضور مؤتمر القيادة مباشرة من قاعة ألبرت الملكية في 1-2 مايو 2023\n\nمؤتمر القيادة هو فرصة لعائلة الله للالتقاء في وحدة - لبناء صداقات عبر الطوائف والأجيال والأمم ، ليتم تشجيعها ، والصلاة من أجل بعضها البعض ، والتعلم من بعض القادة الملهمين بشكل كبير.\n\nإنه مكان للقاء يسوع ، والامتلاء بالروح القدس ، وتمكيننا من لعب دورنا في بناء ملكوت الله.\n",
-      "startDate": "2023-04-24",
-      "acceptText": "سجل الان",
+      "img": "/assets/img/lc23-ig-story-option-03.jpg",
+      "endDate": "2023-05-24",
+      "promoID": "lc-conference-2023-online",
+      "text": "بعد أن قضينا وقتًا رائعًا في مؤتمر القيادة في Royal Albert Hall ، نريد التأكد من عدم تفويت أي شخص لفرصة الانضمام إلينا في LC23 عبر الإنترنت. سيتم تقطير أفضل ما في المؤتمر الذي يستمر يومين في حدث مدته ساعتان و 15 دقيقة سيتم بثه مباشرة مع الترجمة الفورية في 24 مايو ويتكرر في 25 مايو - حتى يتمكن الجميع في كل مكان من تجربته.",
+      "startDate": "2023-05-17",
+      "acceptText": "سجل مجانا اليوم!",
       "dismissText": "ًلا شكرا",
-      "title": "مؤتمر القيادة 2023",
+      "title": "انضم إلينا في LC23 Online!",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/book-now?utm_source=bioyweb&utm_medium=referral&utm_campaign=promo"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
     }
   },
   "vi": {
@@ -303,16 +303,16 @@
       "goHomeButton": "Go Home"
     },
     "promo": {
-      "img": "/assets/img/picture_1.jpg",
-      "endDate": "2023-05-01",
-      "promoID": "lc-conference-2023",
-      "text": "Hãy tham gia cùng chúng tôi để tham dự Hội nghị Lãnh đạo trực tiếp từ Royal Albert Hall vào ngày 1-2 tháng 5 năm 2023\n\nHội nghị Lãnh đạo là cơ hội để gia đình của Đức Chúa Trời đoàn kết lại với nhau – xây dựng tình bạn giữa các giáo phái, thế hệ và quốc gia, được khuyến khích, cầu nguyện cho nhau và học hỏi từ một số nhà lãnh đạo đầy cảm hứng.\n\nĐó là nơi để gặp gỡ Chúa Giêsu, được tràn đầy Chúa Thánh Thần và được trao quyền để đóng vai trò của chúng ta trong việc xây dựng vương quốc của Thiên Chúa.\n",
-      "startDate": "2023-04-24",
-      "acceptText": "Đăng ký ngay",
+      "img": "/assets/img/lc23-ig-story-option-03.jpg",
+      "endDate": "2023-05-24",
+      "promoID": "lc-conference-2023-online",
+      "text": "Đã có một khoảng thời gian tuyệt vời như vậy tại Hội nghị Lãnh đạo ở Royal Albert Hall, chúng tôi muốn đảm bảo rằng không ai bỏ lỡ cơ hội tham gia LC23 trực tuyến với chúng tôi. Những điều hay nhất của hội nghị kéo dài hai ngày sẽ được chắt lọc thành một sự kiện kéo dài 2 giờ 15 phút sẽ được phát trực tiếp với phần diễn giải vào ngày 24 tháng 5 và lặp lại vào ngày 25 tháng 5 – để mọi người, ở mọi nơi đều có thể trải nghiệm.",
+      "startDate": "2023-05-17",
+      "acceptText": "Đăng ký miễn phí ngay hôm nay!",
       "dismissText": "Không, cám ơn",
-      "title": "Hội nghị Lãnh đạo 2023",
+      "title": "Tham gia với chúng tôi cho LC23 trực tuyến!",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/book-now?utm_source=bioyweb&utm_medium=referral&utm_campaign=promo"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
     }
   },
   "th": {
@@ -340,16 +340,16 @@
       "goHomeButton": "ไปที่หน้าแรก"
     },
     "promo": {
-      "img": "/assets/img/picture_1.jpg",
-      "endDate": "2023-05-01",
-      "promoID": "lc-conference-2023",
-      "text": "เข้าร่วมการประชุมผู้นำสดจาก Royal Albert Hall ในวันที่ 1-2 พฤษภาคม 2566\n\nการประชุมผู้นำเป็นโอกาสที่ครอบครัวของพระเจ้าจะมารวมกันเป็นน้ำหนึ่งใจเดียวกัน – เพื่อสร้างมิตรภาพระหว่างนิกาย รุ่น และประเทศ ได้รับการหนุนใจ อธิษฐานเผื่อกันและกัน และเรียนรู้จากผู้นำที่เป็นแรงบันดาลใจอย่างมหาศาล\n\nเป็นสถานที่ที่จะได้พบกับพระเยซู ได้รับการเติมเต็มด้วยพระวิญญาณบริสุทธิ์ และรับพลังให้มีส่วนในการสร้างอาณาจักรของพระเจ้า",
-      "startDate": "2023-04-24",
-      "acceptText": "สมัครตอนนี้",
+      "img": "/assets/img/lc23-ig-story-option-03.jpg",
+      "endDate": "2023-05-24",
+      "promoID": "lc-conference-2023-online",
+      "text": "หลังจากมีช่วงเวลาที่ยอดเยี่ยมในการประชุมผู้นำใน Royal Albert Hall เราต้องการให้แน่ใจว่าไม่มีใครพลาดโอกาสที่จะเข้าร่วม LC23 ออนไลน์กับเรา การประชุมสองวันที่ดีที่สุดจะถูกกลั่นออกมาเป็นกิจกรรม 2 ชั่วโมง 15 นาที ซึ่งจะสตรีมสดพร้อมล่ามในวันที่ 24 พฤษภาคม และจัดซ้ำอีกครั้งในวันที่ 25 พฤษภาคม เพื่อให้ทุกคนจากทุกที่ได้สัมผัส",
+      "startDate": "2023-05-17",
+      "acceptText": "ลงทะเบียนฟรีวันนี้!",
       "dismissText": "ไม่เอา ขอบคุณ",
-      "title": "การประชุมผู้นำปี 2023",
+      "title": "เข้าร่วม LC23 ออนไลน์กับเรา!",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/book-now?utm_source=bioyweb&utm_medium=referral&utm_campaign=promo"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
     }
   },
   "id": {
@@ -359,16 +359,16 @@
       "goHomeButton": "Pergi ke beranda"
     },
     "promo": {
-      "img": "/assets/img/picture_1.jpg",
-      "endDate": "2023-05-01",
-      "promoID": "lc-conference-2023",
-      "text": "Bergabunglah dengan kami untuk Konferensi Kepemimpinan langsung dari Royal Albert Hall pada 1-2 Mei 2023\n\nKonferensi Kepemimpinan adalah kesempatan bagi keluarga Allah untuk berkumpul bersama dalam kesatuan – untuk membangun persahabatan lintas denominasi, generasi dan bangsa, untuk didorong, untuk saling mendoakan dan untuk belajar dari beberapa pemimpin yang sangat menginspirasi.\n\nItu adalah tempat untuk bertemu Yesus, dipenuhi dengan Roh Kudus, dan diberdayakan untuk memainkan peran kita dalam membangun kerajaan Allah.",
-      "startDate": "2023-04-24",
-      "acceptText": "Daftar sekarang",
+      "img": "/assets/img/lc23-ig-story-option-03.jpg",
+      "endDate": "2023-05-24",
+      "promoID": "lc-conference-2023-online",
+      "text": "Memiliki waktu yang luar biasa di Leadership Conference di Royal Albert Hall, kami ingin memastikan tidak ada yang melewatkan kesempatan untuk bergabung dengan kami di LC23 online. Konferensi dua hari terbaik akan disaring menjadi acara 2 jam 15 menit yang akan disiarkan langsung dengan interpretasi pada 24 Mei dan diulangi pada 25 Mei – sehingga semua orang, di mana saja dapat mengalaminya.",
+      "startDate": "2023-05-17",
+      "acceptText": "Daftar gratis hari ini!",
       "dismissText": "Tidak, terima kasih",
-      "title": "Konferensi Kepemimpinan 2023",
+      "title": " Bergabunglah dengan kami untuk LC23 Online!",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/book-now?utm_source=bioyweb&utm_medium=referral&utm_campaign=promo"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
     }
   }
 }
