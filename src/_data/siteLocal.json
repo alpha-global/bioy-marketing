@@ -38,6 +38,12 @@
       "title": "Seien Sie bei LC23 Online dabei!",
       "type": "modal",
       "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+    },
+    "ticket": {
+      "form": {
+        "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_lang=de&zf_enablecamera=true'></iframe>"
+      },
+      "title": "Ask a question about BiOY"
     }
   },
   "hi": {
@@ -62,6 +68,12 @@
       "title": "LC23 ऑनलाइन के लिए हमसे जुड़ें!",
       "type": "modal",
       "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+    },
+    "ticket": {
+      "form": {
+        "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_lang=hi&zf_enablecamera=true'></iframe>"
+      },
+      "title": "Ask a question about BiOY"
     }
   },
   "en": {
@@ -103,6 +115,12 @@
       "title": "Join us for LC23 Online!",
       "type": "modal",
       "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+    },
+    "ticket": {
+      "title": "Ask a question about BiOY",
+      "form": {
+        "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_enablecamera=true'></iframe>"
+      }
     }
   },
   "it": {
@@ -144,6 +162,12 @@
       "title": "Unisciti a noi per LC23 Online!",
       "type": "modal",
       "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+    },
+    "ticket": {
+      "form": {
+        "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_lang=it&zf_enablecamera=true'></iframe>"
+      },
+      "title": "Fai una domanda su BiOY"
     }
   },
   "fr": {
@@ -185,6 +209,12 @@
       "title": " Rejoignez-nous pour LC23 en ligne !",
       "type": "modal",
       "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+    },
+    "ticket": {
+      "form": {
+        "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_lang=fr&zf_enablecamera=true'></iframe>"
+      },
+      "title": "Ask a question about BiOY"
     }
   },
   "es": {
@@ -212,6 +242,12 @@
       "title": "¡Únase a nosotros para LC23 en línea!",
       "type": "modal",
       "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+    },
+    "ticket": {
+      "form": {
+        "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_lang=es&zf_enablecamera=true'></iframe>"
+      },
+      "title": "Ask a question about BiOY"
     }
   },
   "zh": {
@@ -240,6 +276,12 @@
       "title": "加入我们的 LC23 在线",
       "type": "modal",
       "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+    },
+    "ticket": {
+      "form": {
+        "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_lang=zh-cn&zf_enablecamera=true'></iframe>"
+      },
+      "title": "Ask a question about BiOY"
     }
   },
   "ar": {
@@ -272,6 +314,12 @@
       "title": "انضم إلينا في LC23 Online!",
       "type": "modal",
       "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+    },
+    "ticket": {
+      "form": {
+        "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_lang=ar&zf_enablecamera=true'></iframe>"
+      },
+      "title": "Ask a question about BiOY"
     }
   },
   "vi": {
