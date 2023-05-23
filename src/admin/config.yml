@@ -1004,6 +1004,27 @@ collections:
                     ],
                 },
                 {
+                  name: "ticket",
+                  label: "Support Ticket",
+                  widget: "object",
+                  i18n: true,
+                  fields:
+                    [
+                     {
+                        label: "Title",
+                        name: "title",
+                        widget: "string",
+                        i18n: true,
+                      },
+                      {
+                        label: "Form",
+                        name: "form",
+                        widget: "code",
+                        i18n: true,
+                      },
+                    ],
+                },
+                {
                   name: "signUpForm",
                   label: "Sign-up Form",
                   widget: "object",

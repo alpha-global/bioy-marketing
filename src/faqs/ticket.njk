@@ -12,14 +12,8 @@ redirectTo: faqs/ticket
 ---
 
 <main class="mx-auto py-2 sm:py-4 lg:container">
-  <h1 class="text-4xl lg:text-6xl font-bold">{{ title }}</h1>
-
-  <div id="wufoo-z1g3ei00jajz53">Form is loading.... </div>
-
-  <script type="text/javascript">
-  //--><![CDATA[// ><!--
-  var z1g3ei00jajz53; (function(d, t) { var s = d.createElement(t), options = { 'userName':'loveyourneighbour', 'formHash':'z1g3ei00jajz53', 'autoResize':true, 'height':'512', 'async':true, 'host':'wufoo.com', 'header':'hide', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { z1g3ei00jajz53 = new WufooForm(); z1g3ei00jajz53.initialize(options); z1g3ei00jajz53.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script');
-  //--><!]]>
-  </script>
-
+  <h1 class="text-4xl lg:text-6xl font-bold">{{ siteLocal[locale].ticket.title }}</h1>
+  <div>
+    {{ siteLocal[locale].ticket.form.code | safe }}
+  </div>
 </main>
