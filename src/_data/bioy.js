@@ -14,10 +14,6 @@ async function fetchDevotionRange(
   locale = 'en_GB',
   variant = 'classic',
 ) {
-  // if (locale === 'it' || locale === 'vi') {
-  //   from = 1;
-  //   to = 365;
-  // }
   const url = `https://api.bioydata.com/api/v2/devotion/from/${from}/to/${to}?locale=${locale}&variant=${variant}&format=html`;
   let devotions = await _fetchDevotionRangeFromUrl(url, []);
   devotions.forEach((_, index) => {
