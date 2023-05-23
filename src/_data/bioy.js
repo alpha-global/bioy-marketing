@@ -1,4 +1,4 @@
-const Cache = require('@11ty/eleventy-cache-assets');
+const EleventyFetch = require('@11ty/eleventy-fetch');
 
 /**
  * Fetch devotion range
@@ -14,10 +14,10 @@ async function fetchDevotionRange(
   locale = 'en_GB',
   variant = 'classic',
 ) {
-  if (locale === 'it' || locale === 'vi') {
-    from = 1;
-    to = 365;
-  }
+  // if (locale === 'it' || locale === 'vi') {
+  //   from = 1;
+  //   to = 365;
+  // }
   const url = `https://api.bioydata.com/api/v2/devotion/from/${from}/to/${to}?locale=${locale}&variant=${variant}&format=html`;
   let devotions = await _fetchDevotionRangeFromUrl(url, []);
   devotions.forEach((_, index) => {
@@ -39,9 +39,10 @@ async function fetchDevotionRange(
  * @returns {Promise<Array>}
  */
 async function _fetchDevotionRangeFromUrl(url, devotions) {
-  let json = await Cache(url, {
+  let json = await EleventyFetch(url, {
     duration: '1d',
     type: 'json',
+    verbose: true,
   });
 
   devotions.push(...json['data']);
