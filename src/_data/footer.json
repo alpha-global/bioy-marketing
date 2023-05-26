@@ -14,6 +14,10 @@
         "external": true
       },
       {
+        "label": "Kontakt",
+        "href": "https://bibleinoneyear.org/de/faqs/ticket/"
+      },
+      {
         "href": "https://www.htb.org/",
         "label": "HTB Church",
         "external": true
@@ -42,10 +46,6 @@
         "href": "/de/cookies/",
         "label": "Cookies",
         "external": false
-      },
-      {
-        "label": "Kontakt",
-        "href": "https://bibleinoneyear.org/de/faqs/ticket/"
       }
     ],
     "copyright": {
@@ -72,6 +72,10 @@
         "external": true
       },
       {
+        "label": "Contact",
+        "href": "https://bibleinoneyear.org/hi/faqs/ticket/"
+      },
+      {
         "href": "https://www.htb.org/",
         "label": "HTB Church",
         "external": true
@@ -100,10 +104,6 @@
         "href": "/en/cookies/",
         "label": "Cookies",
         "external": false
-      },
-      {
-        "label": "Contact",
-        "href": "https://bibleinoneyear.org/hi/faqs/ticket/"
       }
     ]
   },
@@ -117,6 +117,10 @@
         "external": true
       },
       {
+        "label": "Contact",
+        "href": "https://bibleinoneyear.org/en/faqs/ticket/"
+      },
+      {
         "href": "https://www.htb.org/",
         "label": "HTB Church",
         "external": true
@@ -145,10 +149,6 @@
         "href": "/en/cookies/",
         "label": "Cookies",
         "external": false
-      },
-      {
-        "label": "Contact",
-        "href": "https://bibleinoneyear.org/en/faqs/ticket/"
       }
     ],
     "social": {
@@ -169,6 +169,10 @@
         "href": "https://www.alpha.org/",
         "label": "Alpha",
         "external": true
+      },
+      {
+        "label": "Contatto",
+        "href": "https://bibleinoneyear.org/it/faqs/ticket/"
       },
       {
         "href": "https://www.htb.org/",
@@ -199,10 +203,6 @@
         "href": "/it/cookies/",
         "label": "Cookie",
         "external": false
-      },
-      {
-        "label": "Contatto",
-        "href": "https://bibleinoneyear.org/it/faqs/ticket/"
       }
     ],
     "social": {
@@ -265,7 +265,7 @@
         "external": false
       },
       {
-        "label": "contacC",
+        "label": "Contact",
         "href": "https://bibleinoneyear.org/fr/faqs/ticket/"
       }
     ],
@@ -293,6 +293,10 @@
         "external": true
       },
       {
+        "label": "Contact",
+        "href": "https://bibleinoneyear.org/es/faqs/ticket/"
+      },
+      {
         "href": "https://www.htb.org/",
         "label": "HTB Church",
         "external": true
@@ -321,10 +325,6 @@
         "href": "/en/cookies/",
         "label": "Cookies",
         "external": false
-      },
-      {
-        "label": "Contact",
-        "href": "https://bibleinoneyear.org/es/faqs/ticket/"
       }
     ]
   },
@@ -347,6 +347,10 @@
         "external": true
       },
       {
+        "label": "Contact",
+        "href": "https://bibleinoneyear.org/en/faqs/ticket/"
+      },
+      {
         "href": "https://www.htb.org/",
         "label": "HTB Church",
         "external": true
@@ -375,10 +379,6 @@
         "href": "/en/cookies/",
         "label": "Cookies",
         "external": false
-      },
-      {
-        "label": "Contact",
-        "href": "https://bibleinoneyear.org/en/faqs/ticket/"
       }
     ]
   },
@@ -390,6 +390,10 @@
         "href": "https://mena.alpha.org/",
         "label": "ألفا",
         "external": true
+      },
+      {
+        "label": "اتصال",
+        "href": "https://bibleinoneyear.org/ar/faqs/ticket/"
       },
       {
         "href": "https://www.htb.org/",
@@ -420,10 +424,6 @@
         "href": "/ar/cookie/",
         "label": "تعريف الارتباط",
         "external": false
-      },
-      {
-        "label": "اتصال",
-        "href": "https://bibleinoneyear.org/ar/faqs/ticket/"
       }
     ],
     "social": {
@@ -444,6 +444,10 @@
         "href": "https://www.alpha.org/",
         "label": "Alpha",
         "external": true
+      },
+      {
+        "label": "Liên hệ",
+        "href": "https://bibleinoneyear.org/vi/faqs/ticket/"
       },
       {
         "href": "https://www.htb.org/",
@@ -474,10 +478,6 @@
         "href": "/vi/cookies/",
         "label": "Cookies",
         "external": false
-      },
-      {
-        "label": "Liên hệ",
-        "href": "https://bibleinoneyear.org/vi/faqs/ticket/"
       }
     ],
     "social": {
@@ -498,6 +498,10 @@
         "label": "อัลฟ่า (Alpha)"
       },
       {
+        "label": "ติดต่อ",
+        "href": "https://bibleinoneyear.org/th/faqs/ticket/"
+      },
+      {
         "label": "HTB Church"
       },
       {
@@ -515,10 +519,6 @@
       },
       {
         "label": "Cookies"
-      },
-      {
-        "label": "ติดต่อ",
-        "href": "https://bibleinoneyear.org/th/faqs/ticket/"
       }
     ],
     "copyright": {
@@ -543,6 +543,10 @@
         "href": "https://www.alpha.org/",
         "label": "Alpha",
         "external": true
+      },
+      {
+        "label": "Contact",
+        "href": "https://bibleinoneyear.org/id/faqs/ticket/"
       },
       {
         "href": "https://www.htb.org/",
@@ -573,10 +577,6 @@
         "href": "/en/cookies/",
         "label": "Cookies",
         "external": false
-      },
-      {
-        "label": "Contact",
-        "href": "https://bibleinoneyear.org/id/faqs/ticket/"
       }
     ]
   }
