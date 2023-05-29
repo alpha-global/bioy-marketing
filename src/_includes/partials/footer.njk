@@ -45,6 +45,12 @@
               <span class="visually-hidden">Twitter</span>
             </a>
           {% endif %}
+          {% if footer[locale].social.contact %}
+            <a href="{{ footer[locale].social.contact }}" rel="noopener" target="_blank" class="flex items-center justify-center rounded-full bg-red text-white fill-current h-10 w-10 hover:bg-red-dark">
+              {% svgSprite name="contact", class="h-6 w-6 fill-current" %}
+              <span class="visually-hidden">Contact</span>
+            </a>
+          {% endif %}
         </div>
 
       </div>
