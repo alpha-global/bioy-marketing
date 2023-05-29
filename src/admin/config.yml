@@ -702,6 +702,14 @@ collections:
                         required: false,
                         hint: "URL part after instagram.com",
                       },
+                      {
+                        name: contact,
+                        label: Contact,
+                        widget: string,
+                        i18n: true,
+                        required: false,
+                        hint: "URL withot domain (/en/faqs/ticket)",
+                      },
                     ],
                 },
                 {
