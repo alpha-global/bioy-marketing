@@ -43,7 +43,7 @@
       "form": {
         "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_lang=de&zf_enablecamera=true'></iframe>"
       },
-      "title": "Ask a question about BiOY"
+      "title": "Stellen Sie eine Frage zu BiOY"
     }
   },
   "hi": {
@@ -73,7 +73,7 @@
       "form": {
         "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_lang=hi&zf_enablecamera=true'></iframe>"
       },
-      "title": "Ask a question about BiOY"
+      "title": "बायोवाई के बारे में एक प्रश्न पूछें"
     }
   },
   "en": {
@@ -214,7 +214,7 @@
       "form": {
         "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_lang=fr&zf_enablecamera=true'></iframe>"
       },
-      "title": "Ask a question about BiOY"
+      "title": "Poser une question sur BiOY"
     }
   },
   "es": {
@@ -247,7 +247,7 @@
       "form": {
         "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_lang=es&zf_enablecamera=true'></iframe>"
       },
-      "title": "Ask a question about BiOY"
+      "title": "Haz una pregunta sobre BiOY"
     }
   },
   "zh": {
@@ -281,7 +281,7 @@
       "form": {
         "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_lang=zh-cn&zf_enablecamera=true'></iframe>"
       },
-      "title": "Ask a question about BiOY"
+      "title": "问一个关于 BiOY 的问题"
     }
   },
   "ar": {
@@ -319,7 +319,7 @@
       "form": {
         "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_lang=ar&zf_enablecamera=true'></iframe>"
       },
-      "title": "Ask a question about BiOY"
+      "title": "اطرح سؤالاً حول BiOY"
     }
   },
   "vi": {
@@ -361,6 +361,12 @@
       "title": "Tham gia với chúng tôi cho LC23 trực tuyến!",
       "type": "modal",
       "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+    },
+    "ticket": {
+      "title": "Đặt câu hỏi về BiOY",
+      "form": {
+        "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_lang=vi&zf_enablecamera=true'></iframe>"
+      }
     }
   },
   "th": {
@@ -398,6 +404,12 @@
       "title": "เข้าร่วม LC23 ออนไลน์กับเรา!",
       "type": "modal",
       "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+    },
+    "ticket": {
+      "title": "ถามคำถามเกี่ยวกับ BiOY",
+      "form": {
+        "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_lang=th&zf_enablecamera=true'></iframe>"
+      }
     }
   },
   "id": {
@@ -417,6 +429,12 @@
       "title": " Bergabunglah dengan kami untuk LC23 Online!",
       "type": "modal",
       "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+    },
+    "ticket": {
+      "title": "Ajukan pertanyaan tentang BiOY",
+      "form": {
+        "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_lang=id&zf_enablecamera=true'></iframe>"
+      }
     }
   }
 }

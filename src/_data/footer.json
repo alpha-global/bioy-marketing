@@ -14,6 +14,10 @@
         "external": true
       },
       {
+        "label": "Kontakt",
+        "href": "https://bibleinoneyear.org/de/faqs/ticket/"
+      },
+      {
         "href": "https://www.htb.org/",
         "label": "HTB Church",
         "external": true
@@ -50,17 +54,58 @@
     }
   },
   "hi": {
-    "headline": "Start Every Day in God's Word",
-    "cta": "Download Today",
+    "headline": "Start every day in the Bible.",
+    "cta": "Download the app today",
     "social": {
-      "facebook": "BiOYApp",
-      "twitter": "bibleinoneyr?lang=hi",
+      "facebook": "nickygumbel",
+      "twitter": "nickygumbel",
       "instagram": "nickygumbel"
     },
     "copyright": {
       "description": "BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7 1JA.",
       "title": "Copyright Alpha International"
-    }
+    },
+    "nav": [
+      {
+        "href": "https://www.alpha.org/",
+        "label": "Alpha",
+        "external": true
+      },
+      {
+        "label": "Contact",
+        "href": "https://bibleinoneyear.org/hi/faqs/ticket/"
+      },
+      {
+        "href": "https://www.htb.org/",
+        "label": "HTB Church",
+        "external": true
+      },
+      {
+        "href": "https://themarriagecourse.org/",
+        "label": "The Marriage Course",
+        "external": true
+      },
+      {
+        "href": "/en/donate",
+        "label": "Donate",
+        "external": false
+      },
+      {
+        "href": "/en/faqs",
+        "label": "FAQs",
+        "external": false
+      },
+      {
+        "href": "/en/privacy-policy/",
+        "label": "Privacy",
+        "external": false
+      },
+      {
+        "href": "/en/cookies/",
+        "label": "Cookies",
+        "external": false
+      }
+    ]
   },
   "en": {
     "headline": "Start every day in the Bible.",
@@ -70,6 +115,10 @@
         "href": "https://www.alpha.org/",
         "label": "Alpha",
         "external": true
+      },
+      {
+        "label": "Contact",
+        "href": "https://bibleinoneyear.org/en/faqs/ticket/"
       },
       {
         "href": "https://www.htb.org/",
@@ -126,6 +175,10 @@
         "href": "https://www.alpha.org/",
         "label": "Alpha",
         "external": true
+      },
+      {
+        "label": "Contatto",
+        "href": "https://bibleinoneyear.org/it/faqs/ticket/"
       },
       {
         "href": "https://www.htb.org/",
@@ -216,6 +269,10 @@
         "href": "/fr/cookies/",
         "label": "Cookies",
         "external": false
+      },
+      {
+        "label": "Contact",
+        "href": "https://bibleinoneyear.org/fr/faqs/ticket/"
       }
     ],
     "copyright": {
@@ -224,30 +281,112 @@
     }
   },
   "es": {
-    "headline": "Start Every Day in God's Word",
-    "cta": "Download Today",
+    "headline": "Start every day in the Bible.",
+    "cta": "Download the app today",
     "social": {
-      "facebook": "BiOYApp",
-      "twitter": "bibleinoneyr?lang=es",
-      "instagram": "nickygumbel?hl=es"
-    },
-    "copyright": {
-      "description": "BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7 1JA.",
-      "title": "Copyright Alpha International"
-    }
-  },
-  "zh": {
-    "headline": "以阅读圣经来开启新的一天",
-    "cta": "今天就下载",
-    "social": {
-      "facebook": "BIOYApp",
-      "twitter": "bibleinoneyr?lang=zh",
+      "facebook": "nickygumbel",
+      "twitter": "nickygumbel",
       "instagram": "nickygumbel"
     },
     "copyright": {
       "description": "BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7 1JA.",
       "title": "Copyright Alpha International"
-    }
+    },
+    "nav": [
+      {
+        "href": "https://www.alpha.org/",
+        "label": "Alpha",
+        "external": true
+      },
+      {
+        "label": "Contact",
+        "href": "https://bibleinoneyear.org/es/faqs/ticket/"
+      },
+      {
+        "href": "https://www.htb.org/",
+        "label": "HTB Church",
+        "external": true
+      },
+      {
+        "href": "https://themarriagecourse.org/",
+        "label": "The Marriage Course",
+        "external": true
+      },
+      {
+        "href": "/en/donate",
+        "label": "Donate",
+        "external": false
+      },
+      {
+        "href": "/en/faqs",
+        "label": "FAQs",
+        "external": false
+      },
+      {
+        "href": "/en/privacy-policy/",
+        "label": "Privacy",
+        "external": false
+      },
+      {
+        "href": "/en/cookies/",
+        "label": "Cookies",
+        "external": false
+      }
+    ]
+  },
+  "zh": {
+    "headline": "Start every day in the Bible.",
+    "cta": "Download the app today",
+    "social": {
+      "facebook": "nickygumbel",
+      "twitter": "nickygumbel",
+      "instagram": "nickygumbel"
+    },
+    "copyright": {
+      "description": "BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7 1JA.",
+      "title": "Copyright Alpha International"
+    },
+    "nav": [
+      {
+        "href": "https://www.alpha.org/",
+        "label": "Alpha",
+        "external": true
+      },
+      {
+        "label": "Contact",
+        "href": "https://bibleinoneyear.org/en/faqs/ticket/"
+      },
+      {
+        "href": "https://www.htb.org/",
+        "label": "HTB Church",
+        "external": true
+      },
+      {
+        "href": "https://themarriagecourse.org/",
+        "label": "The Marriage Course",
+        "external": true
+      },
+      {
+        "href": "/en/donate",
+        "label": "Donate",
+        "external": false
+      },
+      {
+        "href": "/en/faqs",
+        "label": "FAQs",
+        "external": false
+      },
+      {
+        "href": "/en/privacy-policy/",
+        "label": "Privacy",
+        "external": false
+      },
+      {
+        "href": "/en/cookies/",
+        "label": "Cookies",
+        "external": false
+      }
+    ]
   },
   "ar": {
     "headline": "ابدأ كل يوم في الكتاب المقدس.",
@@ -257,6 +396,10 @@
         "href": "https://mena.alpha.org/",
         "label": "ألفا",
         "external": true
+      },
+      {
+        "label": "اتصال",
+        "href": "https://bibleinoneyear.org/ar/faqs/ticket/"
       },
       {
         "href": "https://www.htb.org/",
@@ -309,6 +452,10 @@
         "external": true
       },
       {
+        "label": "Liên hệ",
+        "href": "https://bibleinoneyear.org/vi/faqs/ticket/"
+      },
+      {
         "href": "https://www.htb.org/",
         "label": "HTB Church",
         "external": true
@@ -357,6 +504,10 @@
         "label": "อัลฟ่า (Alpha)"
       },
       {
+        "label": "ติดต่อ",
+        "href": "https://bibleinoneyear.org/th/faqs/ticket/"
+      },
+      {
         "label": "HTB Church"
       },
       {
@@ -392,6 +543,47 @@
     "copyright": {
       "description": "BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7 1JA.",
       "title": "Copyright Alpha International"
-    }
+    },
+    "nav": [
+      {
+        "href": "https://www.alpha.org/",
+        "label": "Alpha",
+        "external": true
+      },
+      {
+        "label": "Contact",
+        "href": "https://bibleinoneyear.org/id/faqs/ticket/"
+      },
+      {
+        "href": "https://www.htb.org/",
+        "label": "HTB Church",
+        "external": true
+      },
+      {
+        "href": "https://themarriagecourse.org/",
+        "label": "The Marriage Course",
+        "external": true
+      },
+      {
+        "href": "/en/donate",
+        "label": "Donate",
+        "external": false
+      },
+      {
+        "href": "/en/faqs",
+        "label": "FAQs",
+        "external": false
+      },
+      {
+        "href": "/en/privacy-policy/",
+        "label": "Privacy",
+        "external": false
+      },
+      {
+        "href": "/en/cookies/",
+        "label": "Cookies",
+        "external": false
+      }
+    ]
   }
 }
