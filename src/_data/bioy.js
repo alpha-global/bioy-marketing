@@ -55,11 +55,11 @@ module.exports = async function (fullImport = false) {
   let endDayNumber = 365;
 
   if (!process.env.CLEAN_SLATE) {
-    var now = new Date();
-    var start = new Date(now.getFullYear(), 0, 0);
-    var diff = now - start;
-    var oneDay = 1000 * 60 * 60 * 24;
-    var day = Math.floor(diff / oneDay);
+    const now = new Date();
+    const start = new Date(now.getFullYear(), 0, 0);
+    const diff = now - start;
+    const oneDay = 1000 * 60 * 60 * 24;
+    const day = Math.floor(diff / oneDay);
     if (day < 11) {
       startDayNumber = 1;
       endDayNumber = 10;
