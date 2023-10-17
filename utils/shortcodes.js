@@ -1,15 +1,7 @@
 const Image = require('@11ty/eleventy-img');
 const { cacheBuster } = require('../src/_data/globals');
-const marked = require('marked');
 
-function toHtml(markdown) {
-  let rendered = marked
-    .marked(markdown)
-    .replaceAll(/<code>/gm, '<sup>')
-    .replaceAll(/<\/code>/gm, '</sup>')
-    .replaceAll('|', '&nbsp;');
-  return rendered;
-}
+const { toHtml } = require('./helpers');
 
 module.exports = {
   // Usage: {% svgSprite name="icon" %}
