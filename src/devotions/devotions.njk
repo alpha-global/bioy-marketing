@@ -7,36 +7,36 @@ pagination:
 permalink: "{{ devotion.url }}/index.html"
 activePage: devotion
 eleventyComputed:
-  title: "{{ devotion.title }}"
+  title: "{{ devotion.bundle.title }}"
   locale: "{{ devotion.locale }}"
-  description: "{{ devotion.introduction | striptags | truncate }}"
+  description: "{{ devotion.bundle.introduction | striptags | truncate }}"
   variant: "{{ devotion.variant }}"
-  canonical: "/{{ devotion.locale }}/classic/{{ devotion.devotionId }}"
+  canonical: "/{{ devotion.locale }}/classic/{{ devotion.number }}"
 ---
 
 <article class="max-w-prose mx-auto font-commentary break-words">
   <div class="mx-10 prose lg:prose-xl ">
     <div class="mt-24">
       <span class="text-xl text-red">{{ lang.day }}
-        {{ devotion.devotionId }}</span>
+        {{ devotion.number }}</span>
     </div>
     <div class="mt-2">
-      <h1 class="text-xl">{{ devotion.title }}</h1>
+      <h1 class="text-xl">{{ devotion.bundle.title }}</h1>
     </div>
 
     <div class="mt-32">
       <h2>{{ todaysReading }}</h2>
       <div class="flex flex-col">
         <span class="text-red h-6">{{ lang.wisdom }}</span>
-        <span>{{ devotion.wisdom.reference }}</span>
+        <span>{{ devotion.bundle.wisdom.passage.reference }}</span>
       </div>
       <div class="flex flex-col mt-2">
         <span class="text-red h-6">{{ lang.newTestament }}</span>
-        <span>{{ devotion.newTestament.reference }}</span>
+        <span>{{ devotion.bundle.newTestament.passage.reference }}</span>
       </div>
       <div class="flex flex-col mt-2">
         <span class="text-red h-6">{{ lang.oldTestament }}</span>
-        <span>{{ devotion.oldTestament.reference }}</span>
+        <span>{{ devotion.bundle.oldTestament.passage.reference }}</span>
       </div>
     </div>
   </div>
@@ -46,97 +46,95 @@ eleventyComputed:
       <h2>{{ lang.introduction }}</h2>
     </div>
 
-    {{ devotion.introduction|safe }}
+    {{ devotion.bundle.introduction | markdown | safe }}
   </div>
 
   {% devotionSection
   title = lang.wisdom,
   commentary = lang.commentary,
   prayerTitle = lang.prayer,
-  reference = devotion.wisdom.reference,
-  text = devotion.wisdom.text,
-  comment = devotion.wisdom.comment,
-  prayer = devotion.wisdom.prayer
+  passage = devotion.bundle.wisdom.passage,
+  comment = devotion.bundle.wisdom.comment,
+  prayer = devotion.bundle.wisdom.prayer
  %}
 
   {% devotionSection
   title = lang.newTestament,
   commentary = lang.commentary,
   prayerTitle = lang.prayer,
-  reference = devotion.newTestament.reference,
-  text = devotion.newTestament.text,
-  comment = devotion.newTestament.comment,
-  prayer = devotion.newTestament.prayer
+  passage = devotion.bundle.newTestament.passage,
+  comment = devotion.bundle.newTestament.comment,
+  prayer = devotion.bundle.newTestament.prayer
  %}
 
   {% devotionSection
   title = lang.oldTestament,
   commentary = lang.commentary,
   prayerTitle = lang.prayer,
-  reference = devotion.oldTestament.reference,
-  text = devotion.oldTestament.text,
-  comment = devotion.oldTestament.comment,
-  prayer = devotion.oldTestament.prayer
+  passage = devotion.bundle.oldTestament.passage,
+  comment = devotion.bundle.oldTestament.comment,
+  prayer = devotion.bundle.oldTestament.prayer
  %}
 
   <section class="prose lg:prose-xl mx-10 bg-stone p-4 mb-4">
-    <h2>{{lang.pippaAdds}}</h2>
-    {{ devotion.pippa|safe }}
+    <h2>{{ lang.pippaAdds }}</h2>
+    {{ devotion.bundle.pippa | markdown | safe }}
   </section>
 
   <div class="mx-10 mb-4 grid gap-4 md:grid-cols-3">
     <section class="prose lg:prose-xl bg-stone p-4">
-      <h2 class="mt-0">{{lang.verseOfTheDay}}</h2>
-      <h3>{{devotion.verseOfTheDayReference}}</h3>
-      {{ devotion.verseOfTheDay|safe }}
+      <h2 class="mt-0">{{ lang.verseOfTheDay }}</h2>
+      <h3>{{ devotion.bundle.verseOfTheDay.reference }}</h3>
+      {{ devotion.bundle.verseOfTheDay.verse | markdown | safe }}
     </section>
 
-    {% if devotion.thoughtForTheDay %}
+    {% if devotion.bundle.thoughtForTheDay %}
       <section class="prose lg:prose-xl bg-stone p-4">
         <h2 class="mt-0">Thought for the Day</h2>
-        {{ devotion.thoughtForTheDay |safe }}
+        {{ devotion.bundle.thoughtForTheDay | markdown | safe }}
       </section>
     {% endif %}
 
-    {% if devotion.actionForTheDay %}
+    {% if devotion.bundle.actionForTheDay %}
       <section class="prose lg:prose-xl bg-stone p-4">
         <h2 class="mt-0">Action for the Day</h2>
-        {{ devotion.actionForTheDay |safe }}
+        {{ devotion.bundle.actionForTheDay | markdown | safe }}
       </section>
     {% endif %}
   </div>
 
-  {% include '../_blocks/channels.njk' %}
+  {% include "../_blocks/channels.njk" %}
 
   <section class="mx-10 py-4 prose lg:prose-xl">
-    <h2>{{lang.references}}</h2>
+    <h2>{{ lang.references }}</h2>
     <div class="prose-sm">
-      {{ devotion.references|safe }}
+      {{ devotion.bundle.references | markdown | safe }}
     </div>
   </section>
 </article>
 
-<div class="">
-  {% if devotion.devotionId > 1 and globals.today >= devotion.devotionId %}
+<div>
+  {% if devotion.number > 1 and globals.today >= devotion.number %}
     <div class="top-0 left-0 p-4 flex items-center h-screen fixed">
-      <a href="/{{ locale }}/{{ variant }}/{{ devotion.devotionId - 1 }}" title="Previous" class="bg-white shadow-lg rounded-full hover:text-red transition-colors">
+      <a href="/{{ locale }}/{{ variant }}/{{ devotion.number - 1 }}" title="Previous" class="bg-white shadow-lg rounded-full hover:text-red transition-colors">
         {% svgSprite name="back", class="relative -left-0.5 fill-current h-8 w-8 md:h-12 md:w-12" %}
       </a>
     </div>
   {% endif %}
 
-  {% if devotion.devotionId < 365 and globals.today > devotion.devotionId %}
+  {% if devotion.number < 365 and globals.today > devotion.number %}
     <div class="top-0 right-0 p-4 flex items-center h-screen fixed">
-      <a href="/{{ locale }}/{{ variant }}/{{ devotion.devotionId + 1 }}" title="Next" class="bg-white shadow-lg rounded-full hover:text-red transition-colors">
+      <a href="/{{ locale }}/{{ variant }}/{{ devotion.number + 1 }}" title="Next" class="bg-white shadow-lg rounded-full hover:text-red transition-colors">
         {% svgSprite name="forward", class="relative left-0.5 fill-current h-8 w-8 md:h-12 md:w-12" %}
       </a>
     </div>
   {% endif %}
 </div>
 
-{% if devotion.audio.url %}
+{% if devotion.bundle.audio.url %}
   <div  class="px-4 lg:max-w-2xl container mx-auto left-0 right-0 fixed bottom-24 md:bottom-11">
-    {% set audio = devotion.audio %}
-    {% include 'partials/audio-player.njk' %}
+    {% set audio = devotion.bundle.audio %}
+    {% set audio_chapters = devotion.bundle.audioChapters %}
+    {% include "partials/audio-player.njk" %}
   </div>
 {% endif %}

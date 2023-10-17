@@ -4,6 +4,8 @@ const filters = require('./utils/filters.js');
 const shortcodes = require('./utils/shortcodes.js');
 const collections = require('./utils/collections.js');
 
+const { toHtml } = require('./utils/helpers');
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
 
@@ -39,10 +41,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias('dynamicPage', 'layouts/dynamicPage.njk');
 
   eleventyConfig.addFilter('markdown', (rawString) => {
-    const mdRender = new markdownIt({ html: true });
-    const rendered = mdRender.render(rawString);
-    // return eleventyConfig.getFilter("safe")(rendered);  // not sure why this is not working for us
-    return rendered;
+    return toHtml(rawString);
   });
 
   eleventyConfig.addFilter('debugger', (...args) => {

@@ -11,10 +11,10 @@ const EleventyFetch = require('@11ty/eleventy-fetch');
 async function fetchDevotionRange(
   from = 1,
   to = 365,
-  locale = 'en_GB',
+  locale = 'en',
   variant = 'classic',
 ) {
-  const url = `https://api.bioydata.com/api/v2/devotion/from/${from}/to/${to}?locale=${locale}&variant=${variant}&format=html`;
+  const url = `https://content.bioy.app/api/v1/chapter/from/${from}/to/${to}?locale=${locale}&story=${variant}`;
   let devotions = await _fetchDevotionRangeFromUrl(url, []);
   devotions.forEach((_, index) => {
     // To build the pages and cool URIs later we'll need lto keep hold of
@@ -22,7 +22,7 @@ async function fetchDevotionRange(
     const lang = locale.split('_')[0];
     devotions[index]['locale'] = lang;
     devotions[index]['variant'] = variant;
-    devotions[index]['url'] = `/${lang}/${variant}/${devotions[index]['devotionId']}`;
+    devotions[index]['url'] = `/${lang}/${variant}/${devotions[index]['number']}`;
   });
 
   return devotions;
@@ -43,9 +43,9 @@ async function _fetchDevotionRangeFromUrl(url, devotions) {
 
   devotions.push(...json['data']);
 
-  if (json['links']['next'] != null) {
-    await _fetchDevotionRangeFromUrl(json['links']['next'], devotions);
-  }
+  // if (json['links']['next'] != null) {
+  //   await _fetchDevotionRangeFromUrl(json['links']['next'], devotions);
+  // }
 
   return devotions;
 }
@@ -55,11 +55,11 @@ module.exports = async function (fullImport = false) {
   let endDayNumber = 365;
 
   if (!process.env.CLEAN_SLATE) {
-    var now = new Date();
-    var start = new Date(now.getFullYear(), 0, 0);
-    var diff = now - start;
-    var oneDay = 1000 * 60 * 60 * 24;
-    var day = Math.floor(diff / oneDay);
+    const now = new Date();
+    const start = new Date(now.getFullYear(), 0, 0);
+    const diff = now - start;
+    const oneDay = 1000 * 60 * 60 * 24;
+    const day = Math.floor(diff / oneDay);
     if (day < 11) {
       startDayNumber = 1;
       endDayNumber = 10;
@@ -71,9 +71,10 @@ module.exports = async function (fullImport = false) {
 
   try {
     const variants = {
-      classic: ['en_GB', 'ar', 'de', 'fr', 'hi', 'id', 'it', 'es', 'th', 'vi', 'zh_Hans'],
-      youth: ['en_Gb', 'ar'],
-      express: ['en_Gb', 'de', 'ar'],
+      classic: ['en'],
+      classic: ['en', 'ar', 'de', 'fr', 'hi', 'id', 'it', 'es', 'th', 'vi', 'zh_Hans'],
+      youth: ['en', 'ar'],
+      express: ['en', 'de', 'ar'],
     };
 
     if (process.env.CHUNKS) {
