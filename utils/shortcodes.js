@@ -18,9 +18,9 @@ module.exports = {
         <div class="font-bold text-4xl text-white">${devotionSection.title}</div>
       </div>
       <div class="py-4">
-        <h2>${devotionSection.reference}</h2>
+        <h2>${devotionSection.passage.reference}</h2>
           <div class="font-scripture">
-            ${toHtml(devotionSection.verse)}
+            ${toHtml(devotionSection.passage.verse)}
           </div>
         <h2>${devotionSection.commentary}</h2>
         ${toHtml(devotionSection.comment)}
