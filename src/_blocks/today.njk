@@ -8,30 +8,35 @@
         {{ today[locale].title }}
       </h2>
 
-      {% for d in bioy|devotionList(locale, variant)|reverse %}
+      {% for d in bioy | devotionList(locale, variant) | reverse %}
         {% if loop.index <= 6 %}
           {% if loop.first %}
             <p class="mb-6">
               <span class="inline-block uppercase text-sm bg-white text-red p-2 pb-1 rounded-sm mb-1">{{ today[locale].today }}</span>
-              <a href="{{ d.url }}" class="underline block">{{ today[locale].day }} {{ d.devotionId }}: {{ d.title }}</a>
-              <span class="text-xs">{{ d.wisdom.reference }} &middot; {{ d.newTestament.reference }} &middot; {{ d.oldTestament.reference }}</span>
+              <a href="{{ d.url }}" class="underline block">{{ today[locale].day }}
+                {{ d.number }}: {{ d.bundle.title }}</a>
+              <span class="text-xs">{{ d.bundle.wisdom.passage.reference }} &middot; {{ d.bundle.newTestament.passage.reference }} &middot; {{ d.bundle.oldTestament.passage.reference }}</span>
             </p>
           {% else %}
-            <p><a href="{{ d.url}}" class="underline">{{ today[locale].day }} {{ d.devotionId }}: {{ d.title }}</a></p>
+            <p>
+              <a href="{{ d.url }}" class="underline">{{ today[locale].day }}
+                {{ d.number }}: {{ d.bundle.title }}</a>
+            </p>
           {% endif %}
         {% endif %}
       {% endfor %}
 
-      <p class="mt-4">{{ today[locale].cta_teaser }} <a class="underline" href="#start">{{ today[locale].cta }}</a></p>
+      <p class="mt-4">{{ today[locale].cta_teaser }}
+        <a class="underline" href="#start">{{ today[locale].cta }}</a>
+      </p>
 
     </div>
   </div>
 
   <div>
     {% if today[locale].image %}
-    {% blockImage today[locale].image, "reader", "(min-width: 640px) 50vw, 100vw",
+      {% blockImage today[locale].image, "reader", "(min-width: 640px) 50vw, 100vw",
     "object-cover h-full w-full" %}
     {% endif %}
   </div>
 </section>
-

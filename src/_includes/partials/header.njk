@@ -1,7 +1,7 @@
 {% set todaysDevotions = [] %}
 {% for devotion in bioy %}
-  {% if devotion.devotionId == globals.today and devotion.variant == variant %}
-    {% set todaysDevotions = (todaysDevotions.push(devotion), todaysDevotions )%}
+  {% if devotion.number == globals.today and devotion.variant == variant %}
+    {% set todaysDevotions = (todaysDevotions.push(devotion), todaysDevotions) %}
   {% endif %}
 {% endfor %}
 <header x-data="devotionBanner" x-init="init('{{ devotion.variant }}')" id="header" class="border-red border-t-4 absolute {% if imageBanner %}bg-gradient-to-b bg-opacity-80 from-black-scrim{% endif %} h-16 text-white top-0 w-full z-10 md:bg-none">
@@ -20,17 +20,17 @@
           </button>
           <div class="absolute bg-red divide-y-2" :class="outOfView ? 'w-1/2' : ''" x-show="openEdition">
             {% if devotion.variant !== 'classic' %}
-              <a href="/{{ locale }}/classic/{{ devotion.devotionId }}" class="block text-white text-xs py-3 pl-2 pr-4">
+              <a href="/{{ locale }}/classic/{{ devotion.number }}" class="block text-white text-xs py-3 pl-2 pr-4">
                 <button>{{ editions[locale].classic }}</button>
               </a>
             {% endif %}
             {% if editions[locale].youth and(devotion.variant !== 'youth') %}
-              <a href="/{{ locale }}/youth/{{ devotion.devotionId }}" class="block text-white text-xs py-3 pl-2 pr-4">
+              <a href="/{{ locale }}/youth/{{ devotion.number }}" class="block text-white text-xs py-3 pl-2 pr-4">
                 <button>{{ editions[locale].youth }}</button>
               </a>
             {% endif %}
             {% if editions[locale].express and(devotion.variant !== 'express') %}
-              <a href="/{{ locale }}/express/{{ devotion.devotionId }}" class="block text-white text-xs py-3 pl-2 pr-4">
+              <a href="/{{ locale }}/express/{{ devotion.number }}" class="block text-white text-xs py-3 pl-2 pr-4">
                 <button>{{ editions[locale].express }}</button>
               </a>
             {% endif %}
@@ -55,13 +55,16 @@
                     <span class="col-start-1 col-end-3">{{ lang.language }}</span>
                     <div class="col-start-3 col-end-4 flex justify-end">
                       <div class="grid grid-cols-2 gap-2">
-                        {% if (devotion.locale == lang.locale) and (lang.locale == 'it') and devotion.audio.url %}
-                          {% svgSprite name = "audio", class = "h-4 w-4" %}<span>en</span>
+                        {% if (devotion.locale == lang.locale) and (lang.locale == 'it')and devotion.bundle.audio.url %}
+                          {% svgSprite name = "audio",
+                          class = "h-4 w-4" %}
+                          <span>en</span>
                         {% else %}
-                        {# Since we don't have 365 devotions for IT we cannot pull in today's devotion and use the logic below for adding the audio icon #}
-                        {% for devotion in todaysDevotions %}
-                          {% if devotion.locale == lang.locale and devotion.audio.url %}
-                            {% svgSprite name = "audio", class = "h-4 w-4" %}
+                          {# Since we don't have 365 devotions for IT we cannot pull in today's devotion and use the logic below for adding the audio icon #}
+                          {% for devotion in todaysDevotions %}
+                            {% if devotion.locale == lang.locale and devotion.bundle.audio.url %}
+                              {% svgSprite name = "audio",
+                              class = "h-4 w-4" %}
                               {% if lang.locale in['ar', 'es'] %}
                                 <span>en</span>
                               {% endif %}
