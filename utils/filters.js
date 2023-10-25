@@ -26,7 +26,7 @@ module.exports = {
 
   devotionList: (devotions, locale, variant) => {
     return devotions.filter((devo) => {
-      return devo.locale == locale && devo.variant == variant && devo.devotionId <= today
+      return devo.locale == locale && devo.variant == variant && devo.number <= today
     });
   }
 }
