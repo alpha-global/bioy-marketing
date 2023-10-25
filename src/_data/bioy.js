@@ -1,4 +1,5 @@
 const EleventyFetch = require('@11ty/eleventy-fetch');
+const { variants } = require('./globals');
 
 /**
  * Fetch devotion range
@@ -43,14 +44,17 @@ async function _fetchDevotionRangeFromUrl(url, devotions) {
 
   devotions.push(...json['data']);
 
-  // if (json['links']['next'] != null) {
-  //   await _fetchDevotionRangeFromUrl(json['links']['next'], devotions);
-  // }
-
+  if (json.meta.next_page_url != null) {
+    const [base, qs] = url.split('?');
+    const [locale, story, page] = qs.split('&');
+    const next = page !== undefined ? parseInt(page.split('=')[1]) + 1 : 2;
+    const pageUrl = `${base}?${locale}&${story}&page=${next}`;
+    await _fetchDevotionRangeFromUrl(pageUrl, devotions);
+  }
   return devotions;
 }
 
-module.exports = async function (fullImport = false) {
+module.exports = async function () {
   let startDayNumber = 1;
   let endDayNumber = 365;
 
@@ -69,20 +73,12 @@ module.exports = async function (fullImport = false) {
     }
   }
 
+  if (process.env.START_DAY && process.env.END_DAY) {
+    startDayNumber = process.env.START_DAY;
+    endDayNumber = process.env.END_DAY;
+  }
+
   try {
-    const variants = {
-      classic: ['en'],
-      classic: ['en', 'ar', 'de', 'fr', 'hi', 'id', 'it', 'es', 'th', 'vi', 'zh_Hans'],
-      youth: ['en', 'ar'],
-      express: ['en', 'de', 'ar'],
-    };
-
-    if (process.env.CHUNKS) {
-      let chunk = process.env.CHUNKS.split(',');
-      variants.classic = chunk;
-      console.log(`Fetch ${variants.classic} variants...`);
-    }
-
     const data = [];
 
     for (const [variant, locales] of Object.entries(variants)) {
