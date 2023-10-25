@@ -69,4 +69,9 @@ module.exports = {
     android:
       "https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB",
   },
+  variants: {
+    classic: ['en', 'ar', 'de', 'fr', 'hi', 'id', 'it', 'es', 'th', 'vi', 'zh_Hans'],
+    youth: ['en', 'ar'],
+    express: ['en', 'de', 'ar'],
+  }
 };
