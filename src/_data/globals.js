@@ -9,69 +9,69 @@ const todaysDayNumber = () => {
 // https://en.wikipedia.org/wiki/IETF_language_tag
 const languages = [
   {
-    locale: "en",
-    language: "English",
+    locale: 'en',
+    language: 'English',
   },
   {
-    locale: "ar",
-    language: "عربى",
+    locale: 'ar',
+    language: 'عربى',
   },
   {
-    locale: "de",
-    language: "Deutsch",
+    locale: 'de',
+    language: 'Deutsch',
   },
   {
-    locale: "es",
-    language: "Español",
+    locale: 'es',
+    language: 'Español',
   },
   {
-    locale: "fr",
-    language: "Français",
+    locale: 'fr',
+    language: 'Français',
   },
   {
-    locale: "hi",
-    language: "हिंदी",
+    locale: 'hi',
+    language: 'हिंदी',
   },
   {
-    locale: "id",
-    language: "Bahasa Indonesia",
+    locale: 'id',
+    language: 'Bahasa Indonesia',
   },
   {
-    locale: "it",
-    language: "Italiano",
+    locale: 'it',
+    language: 'Italiano',
   },
   {
-    locale: "th",
-    language: "ไทย",
+    locale: 'th',
+    language: 'ไทย',
   },
   {
-    locale: "vi",
-    language: "Tiếng Việt/㗂越",
+    locale: 'vi',
+    language: 'Tiếng Việt/㗂越',
   },
   {
-    locale: "zh",
-    language: "中國人",
+    locale: 'zh',
+    language: '中國人',
   },
 ];
 
 module.exports = {
-  siteUrl: "https://bibleinoneyear.com",
+  siteUrl: 'https://bibleinoneyear.com',
   buildTime: new Date(),
   cacheBuster: Math.round(+new Date() / 1000),
   currentYear: new Date().getFullYear(),
   env: process.env.ELEVENTY_ENV,
-  liveLanguages: ["en", "es"],
+  liveLanguages: ['en', 'es'],
   locales: languages.map((i) => i.locale),
   languages: languages,
   today: todaysDayNumber(),
   stores: {
-    ios: "https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8",
+    ios: 'https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8',
     android:
-      "https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB",
+      'https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB',
   },
   variants: {
-    classic: ['en', 'ar', 'de', 'fr', 'hi', 'id', 'it', 'es', 'th', 'vi', 'zh_Hans'],
+    classic: ['en', 'ar', 'de', 'fr', 'hi', 'id', 'it', 'es', 'th', 'vi', 'zh'],
     youth: ['en', 'ar'],
     express: ['en', 'de', 'ar'],
-  }
+  },
 };
