@@ -7,6 +7,14 @@
     "cta": "Download today",
     "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
   },
+  "id": {
+    "title": "Today's Reading",
+    "today": "Today",
+    "day": "Day",
+    "cta_teaser": "In the Bible in One Year app you can access a full history, audio devotions, progress tracking, and more.",
+    "cta": "Download today",
+    "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
+  },
   "ar": {
     "title": "قراءة اليوم",
     "today": "اليوم",
