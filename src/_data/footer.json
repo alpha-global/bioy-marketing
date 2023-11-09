@@ -160,7 +160,7 @@
       "facebook": "nickygumbel",
       "twitter": "nickygumbel",
       "instagram": "nickygumbel",
-      "contact":"/en/faqs/ticket/"
+      "contact": "/en/faqs/ticket/"
     },
     "copyright": {
       "description": "BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7 1JA.",
@@ -430,12 +430,17 @@
         "href": "/ar/cookie/",
         "label": "تعريف الارتباط",
         "external": false
+      },
+      {
+        "label": "Contact",
+        "href": "/ar/faqs/ticket/"
       }
     ],
     "social": {
       "facebook": "BiOYApp",
       "twitter": "bibleinoneyr?lang=ar",
-      "instagram": "nickygumbel"
+      "instagram": "nickygumbel",
+      "contact": "/ar/faqs/ticket/"
     },
     "copyright": {
       "description": "BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7 1JA.",
