@@ -1,5 +1,3 @@
-const markdownIt = require('markdown-it');
-
 const filters = require('./utils/filters.js');
 const shortcodes = require('./utils/shortcodes.js');
 const collections = require('./utils/collections.js');
