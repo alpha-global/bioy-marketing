@@ -37,18 +37,23 @@ npm run production
 Merging to `staging` will deploy automagically to staging, and to `main` will deploy to
 production.
 
-### Production
+## Content Refresh
 
 To ensure that content is up-to date on the server a nightly cron should be set to run
 `npm run production` which will ensure that the latest content devotions are pulled in.
 
-When changing design, to ensure that that devotion pages are updated
-`npm run production:cleanSlate` should be run.
-
-### Build content for a specific day range
+When there is a design change to the devotions template or the content source changes, all the devotion pages can be rebuilt:
 
 ```
-START_DAY=1 END_DAY=20 ELEVENTY=production npx @11ty/eleventy
+npm run production:cleanSlate
+```
+
+The server might not be able to handle all the devotions being rebuilt in one go, so the follwing can be run on the staging or production server instead:
+
+```
+START_DAY=1 END_DAY=40 ELEVENTY=production npx @11ty/eleventy
+START_DAY=41 END_DAY=80 ELEVENTY=production npx @11ty/eleventy
+...
 ```
 
 ## CMS
