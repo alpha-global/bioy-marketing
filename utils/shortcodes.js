@@ -1,7 +1,7 @@
 const Image = require('@11ty/eleventy-img');
 const { cacheBuster } = require('../src/_data/globals');
 
-const { toHtml } = require('./helpers');
+const { toHtml, normalizeHeadings } = require('./helpers');
 
 module.exports = {
   // Usage: {% svgSprite name="icon" %}
@@ -23,7 +23,7 @@ module.exports = {
             ${toHtml(devotionSection.passage.verse)}
           </div>
         <h2>${devotionSection.commentary}</h2>
-        ${toHtml(devotionSection.comment)}
+        ${toHtml(normalizeHeadings(devotionSection.comment))}
         ${
           devotionSection.prayer != null
             ? `<h2>${devotionSection.prayerTitle}</h2>

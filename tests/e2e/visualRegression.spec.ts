@@ -41,3 +41,14 @@ for (const locale of locales) {
     }
   });
 }
+test.describe("Devotionals", () => {  
+  test(`Devotionals`, async ({ page }) => {
+    await page.goto(`en/classic/310`);
+    await expect(page).toHaveScreenshot(
+      `310-en-classic.png`,
+      {
+        fullPage: true,
+      }
+    );
+  });
+});
