@@ -28,16 +28,16 @@
       "goHomeButton": "Nach Hause gehen"
     },
     "promo": {
-      "img": "/assets/img/lc23-ig-story-option-03.jpg",
-      "endDate": "2023-05-24",
-      "promoID": "lc-conference-2023-online",
-      "text": "Nachdem wir eine wundervolle Zeit bei der Leadership Conference in der Royal Albert Hall hatten, möchten wir sicherstellen, dass niemand die Gelegenheit verpasst, online an der LC23 teilzunehmen. Das Beste der zweitägigen Konferenz wird in einer zweistündigen und 15-minütigen Veranstaltung zusammengefasst, die am 24. Mai live mit Dolmetschung übertragen und am 25. Mai wiederholt wird – so dass es jeder überall erleben kann.",
-      "startDate": "2023-05-17",
-      "acceptText": "Registrieren Sie sich noch heute kostenlos!",
-      "dismissText": "Nein danke",
-      "title": "Seien Sie bei LC23 Online dabei!",
+      "img": "/assets/img/website-giving-banner1.jpg",
+      "endDate": "2023-11-30",
+      "promoID": "website-giving-campaign-2023",
+      "text": "Fühlen Sie sich durch das Lesen und Hören der App 'Bibel in einem Jahr' inspiriert? Helfen Sie dieses Jahr am Giving Tuesday anderen, in ihrer Beziehung zu Jesus zu wachsen, indem Sie Bibel in einem Jahr schenken. Jede Spende zählt und wird einen echten Unterschied machen - danke!",
+      "startDate": "2023-11-24",
+      "acceptText": "Jetzt spenden",
+      "dismissText": "Vielleicht später",
+      "title": "Teilen Sie Gottes Liebe durch die Unterstützung von Bible in One Year",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+      "ctaUrl": "/de/donate"
     },
     "ticket": {
       "form": {
@@ -58,16 +58,16 @@
       "goHomeButton": "होम पेज़ पर जाएं"
     },
     "promo": {
-      "img": "/assets/img/lc23-ig-story-option-03.jpg",
-      "endDate": "2023-05-24",
-      "promoID": "lc-conference-2023-online",
-      "text": "रॉयल अल्बर्ट हॉल में नेतृत्व सम्मेलन में इतना अच्छा समय बिताने के बाद, हम यह सुनिश्चित करना चाहते हैं कि कोई भी हमारे साथ LC23 ऑनलाइन में शामिल होने का अवसर न चूके। दो दिवसीय सम्मेलन के सर्वश्रेष्ठ को 2 घंटे 15 मिनट की घटना में आसुत किया जाएगा जिसे 24 मई को व्याख्या के साथ लाइव स्ट्रीम किया जाएगा और 25 मई को दोहराया जाएगा - ताकि हर जगह हर कोई इसका अनुभव कर सके।",
-      "startDate": "2023-05-17",
-      "acceptText": "आज ही निःशुल्क पंजीकरण करें!",
-      "dismissText": "नहीं, धन्यवाद",
-      "title": "LC23 ऑनलाइन के लिए हमसे जुड़ें!",
+      "img": "/assets/img/website-giving-banner1.jpg",
+      "endDate": "2023-11-30",
+      "promoID": "website-giving-campaign-2023",
+      "text": "वन ईयर ऐप में बाइबल पढ़ने और सुनने से प्रेरणा महसूस हो रही है? इस वर्ष, गिविंग ट्यूज़डे के लिए, एक वर्ष में बाइबिल का उपहार देकर दूसरों को यीशु के साथ अपने रिश्ते को आगे बढ़ाने में मदद करें। हर दान मायने रखता है और इससे वास्तविक फर्क पड़ेगा। धन्यवाद!",
+      "startDate": "2023-11-24",
+      "acceptText": "अभी दान कीजिए",
+      "dismissText": "शायद बाद में",
+      "title": "एक वर्ष में बाइबल का समर्थन करके ईश्वर का प्रेम साझा करें",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+      "ctaUrl": "/hi/donate"
     },
     "ticket": {
       "form": {
@@ -105,16 +105,16 @@
       "goHomeButton": "Go Home"
     },
     "promo": {
-      "img": "/assets/img/lc23-ig-story-option-03.jpg",
-      "endDate": "2023-05-24",
-      "promoID": "lc-conference-2023-online",
-      "text": "Having had such a wonderful time at the Leadership Conference in the Royal Albert Hall, we want to make sure no one misses out on the opportunity to join us for LC23 online. The best of the two-day conference will be distilled into a 2-hour 15-minute event that will be streamed live with interpretation on 24 May and repeated on 25 May – so that everyone, everywhere can experience it.",
-      "startDate": "2023-05-17",
-      "acceptText": "Register for free today! ",
-      "dismissText": "No Thanks",
-      "title": "Join us for LC23 Online!",
+      "img": "/assets/img/website-giving-banner1.jpg",
+      "endDate": "2023-11-30",
+      "promoID": "website-giving-campaign-2023",
+      "text": "Feeling inspired by reading and listening to the Bible in One Year app? This year, for Giving Tuesday, help others grow in their relationship with Jesus with a gift to Bible in One Year. Every donation counts and will make a real difference.Thank you!",
+      "startDate": "2023-11-24",
+      "acceptText": "Donate Now ",
+      "dismissText": "Maybe Later",
+      "title": "Share God's love by supporting Bible in One Year",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+      "ctaUrl": "/en/donate"
     },
     "ticket": {
       "title": "Ask a question about BiOY",
@@ -152,16 +152,16 @@
       "goHomeButton": "Go Home"
     },
     "promo": {
-      "img": "/assets/img/lc23-ig-story-option-03.jpg",
-      "endDate": "2023-05-17",
-      "promoID": "lc-conference-2023-online",
-      "text": "Avendo trascorso momenti così meravigliosi alla Leadership Conference nella Royal Albert Hall, vogliamo assicurarci che nessuno perda l'opportunità di unirsi a noi per LC23 online. Il meglio della conferenza di due giorni sarà distillato in un evento di 2 ore e 15 minuti che sarà trasmesso in streaming dal vivo con interpretazione il 24 maggio e ripetuto il 25 maggio, in modo che tutti, ovunque possano sperimentarlo.",
-      "startDate": "2023-05-17",
-      "acceptText": "Registrati gratuitamente oggi!",
-      "dismissText": "No grazie",
-      "title": "Unisciti a noi per LC23 Online!",
+      "img": "/assets/img/website-giving-banner1.jpg",
+      "endDate": "2023-11-30",
+      "promoID": "website-giving-campaign-2023",
+      "text": "Vi sentite ispirati dalla lettura e dall'ascolto dell'applicazione Bibbia in un anno? Quest'anno, in occasione del Martedì del dono, aiutate altri a crescere nel loro rapporto con Gesù con una donazione alla Bibbia in un anno. Ogni donazione conta e farà davvero la differenza. Grazie!",
+      "startDate": "2023-11-24",
+      "acceptText": "Donare ora",
+      "dismissText": "Forse più tardi",
+      "title": "Condividere l'amore di Dio sostenendo la Bibbia in un anno",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+      "ctaUrl": "/it/donate"
     },
     "ticket": {
       "form": {
@@ -199,16 +199,16 @@
       "goHomeButton": "Aller à la page d'accueil"
     },
     "promo": {
-      "img": "/assets/img/lc23-ig-story-option-03.jpg",
-      "endDate": "2023-05-24",
-      "promoID": "lc-conference-2023-online",
-      "text": "Après avoir passé un si merveilleux moment à la Conférence sur le leadership au Royal Albert Hall, nous voulons nous assurer que personne ne manque l'occasion de nous rejoindre pour LC23 en ligne. Le meilleur de la conférence de deux jours sera distillé dans un événement de 2 heures 15 minutes qui sera diffusé en direct avec interprétation le 24 mai et répété le 25 mai - afin que tout le monde, partout, puisse en faire l'expérience.",
-      "startDate": "2023-05-17",
-      "acceptText": "Inscrivez-vous gratuitement dès aujourd'hui !",
-      "dismissText": "Non merci",
-      "title": " Rejoignez-nous pour LC23 en ligne !",
+      "img": "/assets/img/website-giving-banner1.jpg",
+      "endDate": "2023-11-30",
+      "promoID": "website-giving-campaign-2023",
+      "text": "Vous vous sentez inspiré par la lecture et l'écoute de l'application La Bible en un an ? Cette année, à l'occasion de Giving Tuesday, aidez d'autres personnes à grandir dans leur relation avec Jésus en faisant un don à Bible en un an. Chaque don compte et fera une réelle différence.",
+      "startDate": "2023-11-24",
+      "acceptText": "Faire un don",
+      "dismissText": "Peut-être plus tard",
+      "title": "Partager l'amour de Dieu en soutenant La Bible en un an",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+      "ctaUrl": "/fr/donate"
     },
     "ticket": {
       "form": {
@@ -232,16 +232,16 @@
       "goHomeButton": "Ir a la pagina principal"
     },
     "promo": {
-      "img": "/assets/img/lc23-ig-story-option-03.jpg",
-      "endDate": "2023-05-24",
-      "promoID": "lc-conference-2023-online",
-      "text": "Habiendo tenido un tiempo tan maravilloso en la Conferencia de Liderazgo en el Royal Albert Hall, queremos asegurarnos de que nadie pierda la oportunidad de unirse a nosotros para LC23 en línea. Lo mejor de la conferencia de dos días se resumirá en un evento de 2 horas y 15 minutos que se transmitirá en vivo con interpretación el 24 de mayo y se repetirá el 25 de mayo, para que todos, en todas partes, puedan experimentarlo.",
-      "startDate": "2023-05-17",
-      "acceptText": "¡Regístrese gratis hoy!",
-      "dismissText": "No, gracias",
-      "title": "¡Únase a nosotros para LC23 en línea!",
+      "img": "/assets/img/website-giving-banner1.jpg",
+      "endDate": "2023-11-30",
+      "promoID": "website-giving-campaign-2023",
+      "text": "¿Te sientes inspirado leyendo y escuchando la aplicación Bible in One Year? Este año, para el Martes de Dar, ayuda a otros a crecer en su relación con Jesús con una donación a Bible in One Year. Cada donación cuenta y marcará una verdadera diferencia.",
+      "startDate": "2023-11-24",
+      "acceptText": "Donar ahora",
+      "dismissText": "Tal vez más tarde",
+      "title": "Comparte el amor de Dios apoyando Biblia en un año",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+      "ctaUrl": "/es/donate"
     },
     "ticket": {
       "form": {
@@ -266,16 +266,16 @@
       "goHomeButton": "回去"
     },
     "promo": {
-      "img": "/assets/img/lc23-ig-story-option-03.jpg",
-      "endDate": "2023-05-24",
-      "promoID": "lc-conference-2023-online",
-      "text": "在皇家阿尔伯特音乐厅的领导会议上度过了如此美好的时光，我们希望确保没有人错过在线加入我们 LC23 的机会。为期两天的会议中最精彩的部分将被提炼成一个 2 小时 15 分钟的活动，该活动将于 5 月 24 日进行现场直播并提供口译服务，并于 5 月 25 日重播——以便世界各地的每个人都能体验到。",
-      "startDate": "2023-05-17",
-      "acceptText": "立即免费注册！",
-      "dismissText": "不，谢谢。",
-      "title": "加入我们的 LC23 在线",
+      "img": "/assets/img/website-giving-banner1.jpg",
+      "endDate": "2023-11-30",
+      "promoID": "website-giving-campaign-2023",
+      "text": "通过阅读和收听《圣经一年》应用程序，您是否感到深受启发？今年的 '奉献星期二'，请向 '圣经一年 '赠送礼物，帮助他人在与耶稣的关系中成长。每一笔捐款都很重要，都将带来真正的改变！",
+      "startDate": "2023-11-24",
+      "acceptText": "立即捐赠",
+      "dismissText": "也许以后",
+      "title": "支持《圣经一年读完》，分享上帝的爱",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+      "ctaUrl": "/zh/donate"
     },
     "ticket": {
       "form": {
@@ -304,16 +304,16 @@
       "goHomeButton": "اذهب الى الصفحة الرئيسية"
     },
     "promo": {
-      "img": "/assets/img/lc23-ig-story-option-03.jpg",
-      "endDate": "2023-05-24",
-      "promoID": "lc-conference-2023-online",
-      "text": "بعد أن قضينا وقتًا رائعًا في مؤتمر القيادة في Royal Albert Hall ، نريد التأكد من عدم تفويت أي شخص لفرصة الانضمام إلينا في LC23 عبر الإنترنت. سيتم تقطير أفضل ما في المؤتمر الذي يستمر يومين في حدث مدته ساعتان و 15 دقيقة سيتم بثه مباشرة مع الترجمة الفورية في 24 مايو ويتكرر في 25 مايو - حتى يتمكن الجميع في كل مكان من تجربته.",
-      "startDate": "2023-05-17",
-      "acceptText": "سجل مجانا اليوم!",
-      "dismissText": "ًلا شكرا",
-      "title": "انضم إلينا في LC23 Online!",
+      "img": "/assets/img/website-giving-banner1.jpg",
+      "endDate": "2023-11-30",
+      "promoID": "website-giving-campaign-2023",
+      "text": "هل تشعر بالإلهام من خلال القراءة والاستماع إلى الكتاب المقدس في تطبيق One Year؟ هذا العام، بمناسبة يوم الثلاثاء العطاء، ساعد الآخرين على النمو في علاقتهم مع يسوع من خلال هدية للكتاب المقدس في سنة واحدة. كل تبرع مهم وسيحدث فرقا حقيقيا. شكرا لك!",
+      "startDate": "2023-11-24",
+      "acceptText": "تبرع الآن",
+      "dismissText": "ربما في وقت لاحق",
+      "title": "شارك محبة الله من خلال دعم الكتاب المقدس في سنة واحدة",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+      "ctaUrl": "/ar/donate"
     },
     "ticket": {
       "form": {
@@ -351,16 +351,16 @@
       "goHomeButton": "Go Home"
     },
     "promo": {
-      "img": "/assets/img/lc23-ig-story-option-03.jpg",
-      "endDate": "2023-05-24",
-      "promoID": "lc-conference-2023-online",
-      "text": "Đã có một khoảng thời gian tuyệt vời như vậy tại Hội nghị Lãnh đạo ở Royal Albert Hall, chúng tôi muốn đảm bảo rằng không ai bỏ lỡ cơ hội tham gia LC23 trực tuyến với chúng tôi. Những điều hay nhất của hội nghị kéo dài hai ngày sẽ được chắt lọc thành một sự kiện kéo dài 2 giờ 15 phút sẽ được phát trực tiếp với phần diễn giải vào ngày 24 tháng 5 và lặp lại vào ngày 25 tháng 5 – để mọi người, ở mọi nơi đều có thể trải nghiệm.",
-      "startDate": "2023-05-17",
-      "acceptText": "Đăng ký miễn phí ngay hôm nay!",
-      "dismissText": "Không, cám ơn",
-      "title": "Tham gia với chúng tôi cho LC23 trực tuyến!",
+      "img": "/assets/img/website-giving-banner1.jpg",
+      "endDate": "2023-11-30",
+      "promoID": "website-giving-campaign-2023",
+      "text": "Bạn cảm thấy được truyền cảm hứng khi đọc và nghe ứng dụng Kinh Thánh trong Một Năm? Năm nay, vào Ngày Thứ Ba, hãy giúp người khác phát triển mối quan hệ của họ với Chúa Giê-su bằng món quà Kinh Thánh trong Một Năm. Mọi đóng góp đều có giá trị và sẽ tạo ra sự khác biệt thực sự. Cảm ơn bạn!",
+      "startDate": "2023-11-24",
+      "acceptText": "Quyên góp ngay bây giờ",
+      "dismissText": "Có lẽ sau này",
+      "title": "Chia sẻ tình yêu của Chúa bằng cách hỗ trợ Kinh Thánh trong một năm",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+      "ctaUrl": "/vi/donate"
     },
     "ticket": {
       "title": "Đặt câu hỏi về BiOY",
@@ -394,16 +394,16 @@
       "goHomeButton": "ไปที่หน้าแรก"
     },
     "promo": {
-      "img": "/assets/img/lc23-ig-story-option-03.jpg",
-      "endDate": "2023-05-24",
-      "promoID": "lc-conference-2023-online",
-      "text": "หลังจากมีช่วงเวลาที่ยอดเยี่ยมในการประชุมผู้นำใน Royal Albert Hall เราต้องการให้แน่ใจว่าไม่มีใครพลาดโอกาสที่จะเข้าร่วม LC23 ออนไลน์กับเรา การประชุมสองวันที่ดีที่สุดจะถูกกลั่นออกมาเป็นกิจกรรม 2 ชั่วโมง 15 นาที ซึ่งจะสตรีมสดพร้อมล่ามในวันที่ 24 พฤษภาคม และจัดซ้ำอีกครั้งในวันที่ 25 พฤษภาคม เพื่อให้ทุกคนจากทุกที่ได้สัมผัส",
-      "startDate": "2023-05-17",
-      "acceptText": "ลงทะเบียนฟรีวันนี้!",
-      "dismissText": "ไม่เอา ขอบคุณ",
-      "title": "เข้าร่วม LC23 ออนไลน์กับเรา!",
+      "img": "/assets/img/website-giving-banner1.jpg",
+      "endDate": "2023-11-30",
+      "promoID": "website-giving-campaign-2023",
+      "text": "รู้สึกได้รับแรงบันดาลใจจากการอ่านและฟังพระคัมภีร์ในแอป One Year หรือไม่? ในปีนี้ สำหรับ Giving Tuesday ช่วยให้คนอื่นๆ เติบโตในความสัมพันธ์กับพระเยซูด้วยของขวัญจากพระคัมภีร์ในหนึ่งปี ทุกการบริจาคมีค่าและจะสร้างความแตกต่างได้อย่างแท้จริง ขอบคุณ!",
+      "startDate": "2023-11-24",
+      "acceptText": "บริจาคตอนนี้",
+      "dismissText": "ไว้ก่อน",
+      "title": "แบ่งปันความรักของพระเจ้าโดยสนับสนุนพระคัมภีร์ในหนึ่งปี",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+      "ctaUrl": "/th/donate"
     },
     "ticket": {
       "title": "ถามคำถามเกี่ยวกับ BiOY",
@@ -419,16 +419,16 @@
       "goHomeButton": "Pergi ke beranda"
     },
     "promo": {
-      "img": "/assets/img/lc23-ig-story-option-03.jpg",
-      "endDate": "2023-05-24",
-      "promoID": "lc-conference-2023-online",
-      "text": "Memiliki waktu yang luar biasa di Leadership Conference di Royal Albert Hall, kami ingin memastikan tidak ada yang melewatkan kesempatan untuk bergabung dengan kami di LC23 online. Konferensi dua hari terbaik akan disaring menjadi acara 2 jam 15 menit yang akan disiarkan langsung dengan interpretasi pada 24 Mei dan diulangi pada 25 Mei – sehingga semua orang, di mana saja dapat mengalaminya.",
-      "startDate": "2023-05-17",
-      "acceptText": "Daftar gratis hari ini!",
-      "dismissText": "Tidak, terima kasih",
-      "title": " Bergabunglah dengan kami untuk LC23 Online!",
+      "img": "/assets/img/website-giving-banner1.jpg",
+      "endDate": "2023-11-30",
+      "promoID": "website-giving-campaign-2023",
+      "text": "Merasa terinspirasi dengan membaca dan mendengarkan Alkitab dalam aplikasi Satu Tahun? Tahun ini, untuk Giving Tuesday, bantulah orang lain bertumbuh dalam hubungan mereka dengan Yesus dengan hadiah Alkitab dalam Satu Tahun. Setiap donasi berarti dan akan membuat perbedaan nyata. Terima kasih!",
+      "startDate": "2023-11-24",
+      "acceptText": "Donasi Sekarang",
+      "dismissText": "Mungkin nanti",
+      "title": "Bagikan kasih Tuhan dengan mendukung Alkitab dalam Satu Tahun",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc23?utm_source=Web&utm_medium=button&utm_campaign=lc23_online&utm_id=lc23_campaign_promo"
+      "ctaUrl": "/id/donate"
     },
     "ticket": {
       "title": "Ajukan pertanyaan tentang BiOY",
