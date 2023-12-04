@@ -48,7 +48,7 @@ When changing design, to ensure that that devotion pages are updated
 ### Build content for a specific day range
 
 ```
-START_DAY=1 END_DAY=20 ELEVENTY=production npx @11ty/eleventy
+START_DAY=1 END_DAY=20 ELEVENTY_ENV=production npx @11ty/eleventy
 ```
 
 ## CMS
