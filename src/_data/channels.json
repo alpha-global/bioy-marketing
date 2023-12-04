@@ -4,7 +4,7 @@
       {
         "channel": "App",
         "icon": "medium_app",
-        "description": "Hol dir die \"Bible in one Year\" App für iOS oder Android und starte die Bibel regelmäßig zu lesen oder zu hören.\n\n* [Download für iOS aus dem App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download für Android bei Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
+        "description": "Hol dir die \"The Bible with Nicky and Pippa Gumbel\" App für iOS oder Android und starte die Bibel regelmäßig zu lesen oder zu hören.\n\n* [Download für iOS aus dem App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download für Android bei Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
         "image": "/assets/img/medium_website.jpg"
       },
       {
@@ -44,7 +44,7 @@
       {
         "channel": "Email",
         "icon": "medium_email",
-        "description": "Sign up now to receive Bible in One Year in your inbox each morning. You’ll get one email each day.",
+        "description": "Sign up now to receive The Bible with Nicky and Pippa Gumbel in your inbox each morning. You’ll get one email each day.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
           "code": "<button @click=\"toggleZohoForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>\n<iframe x-ref=\"zohoFormIframe\" frameborder=\"0\" class=\"w-full h-full fixed hidden inset-0 z-20\" src='https://forms.zohopublic.eu/bioy/form/BibleinOneYear4/formperma/LC7qBqUkcBgvyoPpYvMRRc5Kr7dZKAGSft_vsh2Fnc0'></iframe>\n<button x-ref=\"zohoFormCloseButton\" @click=\"toggleZohoForm\" class=\"bg-red fixed hidden p-3 right-4 rounded-full top-2 z-30 lg:right-1/3\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"h-6 w-6 text-white\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\" />\n    </svg>\n</button>"
@@ -53,7 +53,7 @@
       {
         "channel": "Podcast",
         "icon": "medium_podcast",
-        "description": "Subscribe and listen to Bible in One Year delivered to your favourite podcast app everyday."
+        "description": "Subscribe and listen to The Bible with Nicky and Pippa Gumbel delivered to your favourite podcast app everyday."
       },
       {
         "channel": "Website",
@@ -74,7 +74,7 @@
       {
         "channel": "Email",
         "icon": "medium_email",
-        "description": "Sign up now to receive Bible in One Year in your inbox each morning. You’ll get one email each day.",
+        "description": "Sign up now to receive The Bible with Nicky and Pippa Gumbel in your inbox each morning. You’ll get one email each day.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
           "code": "<button @click=\"toggleZohoForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>\n<iframe x-ref=\"zohoFormIframe\" frameborder=\"0\" class=\"w-full h-full fixed hidden inset-0 z-20\" src='https://forms.zohopublic.eu/bioy/form/BiOYEnSignUp/formperma/CGc5pZ06mBVs5IHbFMYKlC0LVyb-St_7B_alkF3SUHM'></iframe>\n<button x-ref=\"zohoFormCloseButton\" @click=\"toggleZohoForm\" class=\"bg-red fixed hidden p-3 right-4 rounded-full top-2 z-30 lg:right-1/3\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"h-6 w-6 text-white\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\" />\n    </svg>\n</button>"
@@ -83,7 +83,7 @@
       {
         "channel": "Podcast",
         "icon": "medium_podcast",
-        "description": "Subscribe and listen to Bible in One Year delivered to your favourite podcast app everyday.",
+        "description": "Subscribe and listen to The Bible with Nicky and Pippa Gumbel delivered to your favourite podcast app everyday.",
         "image": "/assets/img/medium_app.jpg"
       },
       {
@@ -185,7 +185,7 @@
       {
         "channel": "Podcast",
         "icon": "medium_podcast",
-        "description": "Subscribe and listen to Bible in One Year delivered to your favourte podcast app everyday.",
+        "description": "Subscribe and listen to The Bible with Nicky and Pippa Gumbel delivered to your favourte podcast app everyday.",
         "image": "/assets/img/today_en.jpg"
       },
       {
@@ -207,7 +207,7 @@
       {
         "channel": "Email",
         "icon": "medium_email",
-        "description": "Sign up now to receive Bible in One Year in your inbox each morning. You’ll get one email each day.",
+        "description": "Sign up now to receive The Bible with Nicky and Pippa Gumbel in your inbox each morning. You’ll get one email each day.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
           "code": "<button @click=\"toggleZohoForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>\n<iframe x-ref=\"zohoFormIframe\" frameborder=\"0\" class=\"w-full h-full fixed hidden inset-0 z-20\" src='https://forms.zohopublic.eu/bioy/form/BibleinOneYear3/formperma/TowRvXX6ev28MgzVcWcift_prhiRb4w2VpZWSu5MvHQ'></iframe>\n<button x-ref=\"zohoFormCloseButton\" @click=\"toggleZohoForm\" class=\"bg-red fixed hidden p-3 right-4 rounded-full top-2 z-30 lg:right-1/3\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"h-6 w-6 text-white\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\" />\n    </svg>\n</button>"
@@ -216,7 +216,7 @@
       {
         "channel": "Podcast",
         "icon": "medium_podcast",
-        "description": "Subscribe and listen to Bible in One Year delivered to your favourite podcast app everyday."
+        "description": "Subscribe and listen to The Bible with Nicky and Pippa Gumbel delivered to your favourite podcast app everyday."
       }
     ]
   },
@@ -255,7 +255,7 @@
       {
         "channel": "Podcast",
         "icon": "medium_podcast",
-        "description": "اشترك واستمع إلى Bible in One Year الذي يتم توصيله إلى تطبيق البودكاست المفضل لديك يوميًا."
+        "description": "اشترك واستمع إلى The Bible with Nicky and Pippa Gumbel الذي يتم توصيله إلى تطبيق البودكاست المفضل لديك يوميًا."
       }
     ]
   },
@@ -304,7 +304,7 @@
       {
         "channel": "อีเมล",
         "icon": "medium_email",
-        "description": "Sign up now to receive Bible in One Year in your inbox each morning. You’ll get one email each day.",
+        "description": "Sign up now to receive The Bible with Nicky and Pippa Gumbel in your inbox each morning. You’ll get one email each day.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
           "code": "<button @click=\"toggleZohoForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>\n<iframe x-ref=\"zohoFormIframe\" frameborder=\"0\" class=\"w-full h-full fixed hidden inset-0 z-20\" src='https://forms.zohopublic.eu/bioy/form/BibleinOneYear5/formperma/IQ2rAgUVjM4v97nHA8aVBkVwEWOOfcvRn5f8h1mWJPg'></iframe>\n<button x-ref=\"zohoFormCloseButton\" @click=\"toggleZohoForm\" class=\"bg-red fixed hidden p-3 right-4 rounded-full top-2 z-30 lg:right-1/3\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"h-6 w-6 text-white\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\" />\n    </svg>\n</button>"
@@ -313,7 +313,7 @@
       {
         "channel": "เว็บไซต์",
         "icon": "medium_podcast",
-        "description": "Subscribe and listen to Bible in One Year delivered to your favourite podcast app everyday.",
+        "description": "Subscribe and listen to The Bible with Nicky and Pippa Gumbel delivered to your favourite podcast app everyday.",
         "image": "/assets/img/medium_app.jpg"
       }
     ]
@@ -329,7 +329,7 @@
       {
         "channel": "Email",
         "icon": "medium_email",
-        "description": "Sign up now to receive Bible in One Year in your inbox each morning. You’ll get one email each day.",
+        "description": "Sign up now to receive The Bible with Nicky and Pippa Gumbel in your inbox each morning. You’ll get one email each day.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
           "code": "<button @click=\"toggleZohoForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>\n<iframe x-ref=\"zohoFormIframe\" frameborder=\"0\" class=\"w-full h-full fixed hidden inset-0 z-20\" src='https://forms.zohopublic.eu/bioy/form/BibleInOneYearIndonesian/formperma/u_HPD0EV0EMJ2w-pjqy9jYQFLemJlNRmjFU1S3-tavw'></iframe>\n<button x-ref=\"zohoFormCloseButton\" @click=\"toggleZohoForm\" class=\"bg-red fixed hidden p-3 right-4 rounded-full top-2 z-30 lg:right-1/3\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"h-6 w-6 text-white\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\" />\n    </svg>\n</button>"
