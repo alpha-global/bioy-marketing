@@ -1,5 +1,5 @@
 {% set todaysDevotions = [] %}
-{% for devotion in bioy %}
+{% for devotion in bwnpg %}
   {% if devotion.number == globals.today and devotion.variant == variant %}
     {% set todaysDevotions = (todaysDevotions.push(devotion), todaysDevotions) %}
   {% endif %}
@@ -8,7 +8,7 @@
   <h1 class="text-2xl font-medium m-0 -top-1 absolute">
     <a href="/{{ locale }}" class="flex items-center" title="{{ site.title }}">
       {% svgSprite name="bioy-filled", class="fill-current text-red h-16 w-16" %}
-      <span class="xs:hidden filter drop-shadow-lg {% if imageBanner %}drop-shadow-lg{% else %}text-black{% endif %}" aria-hidden="true">BiOY</span>
+      <span class="xs:hidden filter drop-shadow-lg {% if imageBanner %}drop-shadow-lg{% else %}text-black{% endif %}" aria-hidden="true">BWNPG</span>
       <span class="hidden xs:inline filter {% if imageBanner %}drop-shadow-lg{% else %}text-black{% endif %}">{{ site.title }}</span>
     </a>
     <div id="switchBanner" class="absolute top-10 inline-flex space-x-1 rtl:space-x-reverse ltr:left-16 rtl:right-16 ">
@@ -92,7 +92,7 @@
       md:rtl:left-0  md:text-black md:mt-4 md:shadow-none text-left flex-row-reverse md:rtl:pl-4
       md:w-1/2 ">
   <div class="w-full grid grid-cols-4 justify-items-stretch md:flex md:flex-row md:w-auto">
-    <a href="/{{ locale }}#start" class="flex flex-col items-center justify-center md:py-1.5 md:mr-4 md:underline" title="Start Bible in One Year Today">
+    <a href="/{{ locale }}#start" class="flex flex-col items-center justify-center md:py-1.5 md:mr-4 md:underline" title="Start the Bible with Nicky and Pippa Gumbel Today">
       {% svgSprite name="bioy-filled", class="fill-current h-6 w-6 mb-1 sm:h-8 sm:w-8 md:hidden" %}
       {{ navigation[locale].start }}
     </a>

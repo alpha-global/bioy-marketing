@@ -248,7 +248,7 @@ Whenever we transfer your personal data out of the EEA, we ensure a similar degr
   * Event management systems including Eventsforce, Eventbrite and Brushfire.
   * Electronic mailing and survey services such as Mailchimp*, SurveyMonkey and Mailerlite.
 
-    * \*We use Mailchimp for our Bible in One Year daily mailouts. Please be aware that Mailchimp may use your personal data for their own business purposes as stated in Section 3B of their privacy policy. Alpha is not responsible for the privacy practices of Mailchimp which may differ from those set forth in this privacy policy.
+    * \*We use Mailchimp for our Bible with Nicky and Pippa Gumbel daily mailouts. Please be aware that Mailchimp may use your personal data for their own business purposes as stated in Section 3B of their privacy policy. Alpha is not responsible for the privacy practices of Mailchimp which may differ from those set forth in this privacy policy.
   * CRMs such as Salesforce and Raiser’s Edge.
   * Retail services including Windsor Print and Wisque.
   * Professional advisers including lawyers, bankers, auditors, pension advisors and insurers based in the United Kingdom who provide consultancy, banking, legal, insurance and accounting services.

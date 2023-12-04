@@ -560,7 +560,7 @@ collections:
                 {
                   name: "title",
                   label: "Title",
-                  default: "Download Bible in One Year Today",
+                  default: "Download the Bible with Nicky and Pippa Gumbel Year Today",
                   widget: "string",
                   i18n: true,
                 },
@@ -581,7 +581,7 @@ collections:
                 {
                   name: "sub_title",
                   label: "Sub Title",
-                  default: "BiOY is also and email, a website and soon to be a podcast.",
+                  default: "BWNPG is also and email, a website and soon to be a podcast.",
                   widget: "string",
                   i18n: true,
                 },
@@ -847,7 +847,7 @@ collections:
                   name: "title",
                   label: "Title",
                   hint: "The site title",
-                  default: "Bible in One Year",
+                  default: "The Bible with Nicky and Pippa Gumbel",
                   widget: "text",
                   i18n: true,
                 },
@@ -1050,7 +1050,7 @@ collections:
                         name: "helpText",
                         widget: "text",
                         i18n: true,
-                        default: "Sign up to receive each day's Bible in One Year reading in your inbox",
+                        default: "Sign up to receive each day's the Bible with Nicky and Pippa Gumbel reading in your inbox",
                       },
                       {
                         label: "Field Label 1",

@@ -5,19 +5,19 @@ locale: en
 
 <div class="p-4 lg:container mx-auto">
   <section class="max-w-md mb-4 md:md-8">
-    <h1 class="text-2xl md:text-4xl mb-2 font-medium">Bible in One Year</h1>
+    <h1 class="text-2xl md:text-4xl mb-2 font-medium">The Bible with Nicky and Pippa Gumbel</h1>
 
-    <p>BiOY is an easy and accessible way to read and understand the Bible written by Nicky and Pippa Gumbel from HTB Church, London.</p>
+    <p>BWNPG is an easy and accessible way to read and understand the Bible written by Nicky and Pippa Gumbel from HTB Church, London.</p>
   </section>
 
-  <section class="">
+  <section>
     <h2 class="text-xl md:text-2xl mb-2">Pick your language:</h2>
 
-    <div class="">
+    <div>
       {% for lang in globals.languages %}
-      <div class="mr-4">
-        <a href="/{{ lang.locale }}" class="underline text-red hover:text-red-dark">{{ lang.language }}</a>
-      </div>
+        <div class="mr-4">
+          <a href="/{{ lang.locale }}" class="underline text-red hover:text-red-dark">{{ lang.language }}</a>
+        </div>
       {% endfor %}
     </div>
   </section>
