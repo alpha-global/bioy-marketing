@@ -463,7 +463,7 @@ implemented:
   - Electronic mailing and survey services such as Mailchimp\*, SurveyMonkey and
     Mailerlite.
 
-    - \*We use Mailchimp for our the Bible with Nicky and Pippa Gumbel daily mailouts.
+    - \*We use Mailchimp for our The Bible with Nicky and Pippa Gumbel daily mailouts.
       Please be aware that Mailchimp may use your personal data for their own business
       purposes as stated in Section 3B of their privacy policy. Alpha is not responsible
       for the privacy practices of Mailchimp which may differ from those set forth in this

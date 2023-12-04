@@ -560,7 +560,7 @@ collections:
                 {
                   name: "title",
                   label: "Title",
-                  default: "Download the Bible with Nicky and Pippa Gumbel Year Today",
+                  default: "Download The Bible with Nicky and Pippa Gumbel Today",
                   widget: "string",
                   i18n: true,
                 },
