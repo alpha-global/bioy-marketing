@@ -1050,7 +1050,7 @@ collections:
                         name: "helpText",
                         widget: "text",
                         i18n: true,
-                        default: "Sign up to receive each day's the Bible with Nicky and Pippa Gumbel reading in your inbox",
+                        default: "Sign up to receive each day's The Bible with Nicky and Pippa Gumbel reading in your inbox",
                       },
                       {
                         label: "Field Label 1",
