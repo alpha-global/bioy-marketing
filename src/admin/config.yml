@@ -581,7 +581,7 @@ collections:
                 {
                   name: "sub_title",
                   label: "Sub Title",
-                  default: "BWNPG is also and email, a website and soon to be a podcast.",
+                  default: "BNAP is also and email, a website and soon to be a podcast.",
                   widget: "string",
                   i18n: true,
                 },

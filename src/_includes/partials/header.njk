@@ -1,5 +1,5 @@
 {% set todaysDevotions = [] %}
-{% for devotion in bwnpg %}
+{% for devotion in BNAP %}
   {% if devotion.number == globals.today and devotion.variant == variant %}
     {% set todaysDevotions = (todaysDevotions.push(devotion), todaysDevotions) %}
   {% endif %}
@@ -8,7 +8,7 @@
   <h1 class="text-2xl font-medium m-0 -top-1 absolute">
     <a href="/{{ locale }}" class="flex items-center" title="{{ site.title }}">
       {% svgSprite name="bioy-filled", class="fill-current text-red h-16 w-16" %}
-      <span class="xs:hidden filter drop-shadow-lg {% if imageBanner %}drop-shadow-lg{% else %}text-black{% endif %}" aria-hidden="true">BWNPG</span>
+      <span class="xs:hidden filter drop-shadow-lg {% if imageBanner %}drop-shadow-lg{% else %}text-black{% endif %}" aria-hidden="true">BNAP</span>
       <span class="hidden xs:inline filter {% if imageBanner %}drop-shadow-lg{% else %}text-black{% endif %}">{{ site.title }}</span>
     </a>
     <div id="switchBanner" class="absolute top-10 inline-flex space-x-1 rtl:space-x-reverse ltr:left-16 rtl:right-16 ">
