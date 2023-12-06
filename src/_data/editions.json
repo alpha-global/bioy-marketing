@@ -6,13 +6,13 @@
     "youth": ""
   },
   "hi": {
-    "intro": "Bible in One Year comes in three different editions…",
+    "intro": "The Bible with Nicky and Pippa Gumbel comes in three different editions…",
     "classic": "Classic",
     "youth": "Youth",
     "express": "Express"
   },
   "en": {
-    "intro": "Bible in One Year comes in three different editions…",
+    "intro": "The Bible with Nicky and Pippa Gumbel comes in three different editions…",
     "classic": "Classic",
     "youth": "Youth",
     "express": "Express"
@@ -24,7 +24,7 @@
     "express": ""
   },
   "es": {
-    "intro": "Bible in One Year (Spanish) comes in one edition...",
+    "intro": "The Bible with Nicky and Pippa Gumbel (Spanish) comes in one edition...",
     "classic": "Classic",
     "youth": "",
     "express": ""
@@ -48,15 +48,15 @@
     "express": "ด่วนพิเศษ"
   },
   "id": {
-    "intro": "Bible in One Year comes in three different editions…",
+    "intro": "The Bible with Nicky and Pippa Gumbel comes in three different editions…",
     "classic": "Classic"
   },
   "it": {
-    "intro": "Bible in One Year comes in three different editions…",
+    "intro": "The Bible with Nicky and Pippa Gumbel comes in three different editions…",
     "classic": "Classic"
   },
   "vi": {
-    "intro": "Bible in One Year comes in three different editions…",
+    "intro": "The Bible with Nicky and Pippa Gumbel comes in three different editions…",
     "classic": "Classic"
   }
 }

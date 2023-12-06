@@ -1,27 +1,7 @@
 {
-  "en": {
-    "title": "Donate",
-    "intro": "**Bible in One Year is brought to you by Alpha International, home of Alpha.**\n\nEvery month, thousands of people are engaging with the word of God in a quick, simple and relatable way through the Bible in One Year and are being introduced to Jesus through Alpha. Our ministries are made possible because of the generosity and friendship of people like you.\n\nBy setting up a regular gift your support could help thousands of people every month to experience and grow in a loving personal relationship with Jesus.\n\nThank you!",
-    "blackbaud_id": "68492fa3-3097-44c2-9af5-baf286500b85"
-  },
-  "ar": {
-    "title": "دعّم ",
-    "intro": "**الكتاب المقدس في سنة واحدة هو أحد اصدارات ألفا الدولية، والمصدر الرئيسي لبرنامج ألفا.**\n\nفي كل شهر، يتفاعل الآلاف من الناس مع كلمة الله بطريقة سريعة وبسيطة وقابلة للتطبيق من خلال الكتاب المقدس في عام واحد ويتم تقديمهم إلى يسوع من خلال ألفا. أصبحت خدماتنا ممكنة بفضل كرم وصداقة أشخاص مثلك.\n\nمن خلال تقديم دعم مادي بصورة منتظمة، يمكن أن يساعد دعمك آلاف الأشخاص كل شهر لاختبار علاقة شخصية مع محبة يسوع والنمو فيها.\n\nشكرًا لك!",
-    "blackbaud_id": "68492fa3-3097-44c2-9af5-baf286500b85"
-  },
   "de": {
     "title": "Spenden",
     "intro": "**Bibel in einem Jahr wird von Alpha International, der Heimat des Alpha-Kurses, angeboten.**\n\nJeden Monat kommen Tausende von Menschen durch \"Bibel in einem Jahr\" auf schnelle, einfache und verständliche Weise mit dem Wort Gottes in Berührung und werden durch Alpha mit Jesus bekannt gemacht. Unsere Arbeit wird durch die Großzügigkeit und Partnerschaft von Menschen wie dir möglich gemacht.\n\nMit einer Spende, vielleicht sogar regelmäßig, kannst du Tausenden von Menschen helfen, eine persönliche Beziehung zu Jesus zu erleben und darin zu wachsen.\n\nVielen Dank!\n\n[Für Bibel in einem Jahr spenden](https://alphakurs.de/spenden)",
-    "blackbaud_id": ""
-  },
-  "es": {
-    "title": "Donar",
-    "intro": "ES: Bible in One Year is brought to you by Alpha International, home of the Alpha course. Every month, thousands of people are engaging with the Word of God in a quick, simple and relatable way through the Bible in One Year and being introduced to Jesus through an Alpha course. Our ministries are made possible because of the generosity and friendship of people like you. By setting up a regular gift your support could help thousands of people every month to experience and grow in a loving personal relationship with Jesus. Thank you!",
-    "blackbaud_id": "68492fa3-3097-44c2-9af5-baf286500b85"
-  },
-  "fr": {
-    "title": "Faire un don",
-    "intro": "**La Bible en 1 an vous est présentée par Alpha International, la maison d'Alpha.** \n\nChaque mois, des milliers de personnes s'engagent avec la parole de Dieu d'une manière rapide, simple et accessible à travers la Bible en 1 an et rencontrent Jésus au moyen d'Alpha. Nos ministères sont rendus possibles grâce à la générosité et à l'amitié de personnes comme vous.\n\nEn mettant en place un don régulier, votre soutien pourrait aider des milliers de personnes chaque mois à vivre et à grandir dans une relation personnelle aimante avec Jésus.\n\nMerci !",
     "blackbaud_id": "68492fa3-3097-44c2-9af5-baf286500b85"
   },
   "hi": {
@@ -29,14 +9,9 @@
     "intro": "**Bible in One Year is brought to you by Alpha International, home of the Alpha course.**\n\nEvery month, thousands of people are engaging with the Word of God in a quick, simple and relatable way through the Bible in One Year and being introduced to Jesus through an Alpha course. Our ministries are made possible because of the generosity and friendship of people like you.\n\nBy setting up a regular gift your support could help thousands of people every month to experience and grow in a loving personal relationship with Jesus.\n\nThank you!",
     "blackbaud_id": "68492fa3-3097-44c2-9af5-baf286500b85"
   },
-  "th": {
-    "title": "ถวาย",
-    "intro": "**พระคัมภีร์ในหนึ่งปี จัดทำโดย Alpha International ซึ่งเป็นจุดเริ่มต้นของ Alpha**\n\nทุกๆ เดือน ผู้คนหลายพันคนมีส่วนร่วมกับพระวจนะของพระเจ้าอย่างรวดเร็ว เรียบง่าย และสัมพันธ์กันผ่านทางพระคัมภีร์ในหนึ่งปี และได้รับการแนะนำให้รู้จักกับพระเยซูผ่านทางอัลฟ่า พันธกิจของเราเกิดขึ้นได้เพราะผู้คนที่มีจิตใจกว้างขวางและมิตรภาพเช่นคุณ\n\nการถวายเป็นประจำสม่ำเสมอ สามารถช่วยผู้คนหลายพันคนทุกเดือนให้มีประสบการณ์และเติบโตในความสัมพันธ์ส่วนตัวด้วยความรักกับพระเยซู\n\nขอขอบคุณ!",
-    "blackbaud_id": "68492fa3-3097-44c2-9af5-baf286500b85"
-  },
-  "zh": {
-    "title": "奉献支持",
-    "intro": "**《圣经日日行》由启发课程的创办机构 – 启发国际事工出品。**\n\n在全球，每个月都有成千上万人通过“启发课程”认识耶稣，并且通过《圣经日日行》 – 这种快速、简单、可靠的方式来了解上帝的话语。正是因为有了像您这样慷慨的奉献者和支持者，我们的事工才能成就。\n\n通过建立一个定期奉献账户，您就可以帮助成千上万人建立并体验与耶稣之间充满爱的亲密关系。\n\n谢谢您！",
+  "en": {
+    "title": "Donate",
+    "intro": "**Bible in One Year is brought to you by Alpha International, home of Alpha.**\n\nEvery month, thousands of people are engaging with the word of God in a quick, simple and relatable way through the Bible in One Year and are being introduced to Jesus through Alpha. Our ministries are made possible because of the generosity and friendship of people like you.\n\nBy setting up a regular gift your support could help thousands of people every month to experience and grow in a loving personal relationship with Jesus.\n\nThank you!",
     "blackbaud_id": "68492fa3-3097-44c2-9af5-baf286500b85"
   },
   "it": {
@@ -44,9 +19,39 @@
     "intro": "**Bible in One Year is brought to you by Alpha International, home of Alpha.**\n\nEvery month, thousands of people are engaging with the word of God in a quick, simple and relatable way through the Bible in One Year and are being introduced to Jesus through Alpha. Our ministries are made possible because of the generosity and friendship of people like you.\n\nBy setting up a regular gift your support could help thousands of people every month to experience and grow in a loving personal relationship with Jesus.\n\nThank you!",
     "blackbaud_id": "68492fa3-3097-44c2-9af5-baf286500b85"
   },
+  "fr": {
+    "title": "Faire un don",
+    "intro": "**La Bible en 1 an vous est présentée par Alpha International, la maison d'Alpha.** \n\nChaque mois, des milliers de personnes s'engagent avec la parole de Dieu d'une manière rapide, simple et accessible à travers la Bible en 1 an et rencontrent Jésus au moyen d'Alpha. Nos ministères sont rendus possibles grâce à la générosité et à l'amitié de personnes comme vous.\n\nEn mettant en place un don régulier, votre soutien pourrait aider des milliers de personnes chaque mois à vivre et à grandir dans une relation personnelle aimante avec Jésus.\n\nMerci !",
+    "blackbaud_id": "68492fa3-3097-44c2-9af5-baf286500b85"
+  },
+  "es": {
+    "title": "Donar",
+    "intro": "ES: Bible in One Year is brought to you by Alpha International, home of the Alpha course. Every month, thousands of people are engaging with the Word of God in a quick, simple and relatable way through the Bible in One Year and being introduced to Jesus through an Alpha course. Our ministries are made possible because of the generosity and friendship of people like you. By setting up a regular gift your support could help thousands of people every month to experience and grow in a loving personal relationship with Jesus. Thank you!",
+    "blackbaud_id": "68492fa3-3097-44c2-9af5-baf286500b85"
+  },
+  "zh": {
+    "title": "奉献支持",
+    "intro": "**《圣经日日行》由启发课程的创办机构 – 启发国际事工出品。**\n\n在全球，每个月都有成千上万人通过“启发课程”认识耶稣，并且通过《圣经日日行》 – 这种快速、简单、可靠的方式来了解上帝的话语。正是因为有了像您这样慷慨的奉献者和支持者，我们的事工才能成就。\n\n通过建立一个定期奉献账户，您就可以帮助成千上万人建立并体验与耶稣之间充满爱的亲密关系。\n\n谢谢您！",
+    "blackbaud_id": "68492fa3-3097-44c2-9af5-baf286500b85"
+  },
+  "ar": {
+    "title": "دعّم ",
+    "intro": "**الكتاب المقدس في سنة واحدة هو أحد اصدارات ألفا الدولية، والمصدر الرئيسي لبرنامج ألفا.**\n\nفي كل شهر، يتفاعل الآلاف من الناس مع كلمة الله بطريقة سريعة وبسيطة وقابلة للتطبيق من خلال الكتاب المقدس في عام واحد ويتم تقديمهم إلى يسوع من خلال ألفا. أصبحت خدماتنا ممكنة بفضل كرم وصداقة أشخاص مثلك.\n\nمن خلال تقديم دعم مادي بصورة منتظمة، يمكن أن يساعد دعمك آلاف الأشخاص كل شهر لاختبار علاقة شخصية مع محبة يسوع والنمو فيها.\n\nشكرًا لك!",
+    "blackbaud_id": "68492fa3-3097-44c2-9af5-baf286500b85"
+  },
   "vi": {
     "title": "Donate",
     "intro": "**Bible in One Year is brought to you by Alpha International, home of Alpha.**\n\nEvery month, thousands of people are engaging with the word of God in a quick, simple and relatable way through the Bible in One Year and are being introduced to Jesus through Alpha. Our ministries are made possible because of the generosity and friendship of people like you.\n\nBy setting up a regular gift your support could help thousands of people every month to experience and grow in a loving personal relationship with Jesus.\n\nThank you!",
     "blackbaud_id": "68492fa3-3097-44c2-9af5-baf286500b85"
+  },
+  "th": {
+    "title": "ถวาย",
+    "intro": "**พระคัมภีร์ในหนึ่งปี จัดทำโดย Alpha International ซึ่งเป็นจุดเริ่มต้นของ Alpha**\n\nทุกๆ เดือน ผู้คนหลายพันคนมีส่วนร่วมกับพระวจนะของพระเจ้าอย่างรวดเร็ว เรียบง่าย และสัมพันธ์กันผ่านทางพระคัมภีร์ในหนึ่งปี และได้รับการแนะนำให้รู้จักกับพระเยซูผ่านทางอัลฟ่า พันธกิจของเราเกิดขึ้นได้เพราะผู้คนที่มีจิตใจกว้างขวางและมิตรภาพเช่นคุณ\n\nการถวายเป็นประจำสม่ำเสมอ สามารถช่วยผู้คนหลายพันคนทุกเดือนให้มีประสบการณ์และเติบโตในความสัมพันธ์ส่วนตัวด้วยความรักกับพระเยซู\n\nขอขอบคุณ!",
+    "blackbaud_id": "68492fa3-3097-44c2-9af5-baf286500b85"
+  },
+  "id": {
+    "blackbaud_id": "68492fa3-3097-44c2-9af5-baf286500b85",
+    "intro": "**Alkitab dalam Setahun dipersembahkan oleh Alpha International, rumah dari Alpha.**.\n\nSetiap bulan, ribuan orang terlibat dengan firman Tuhan dengan cara yang cepat, sederhana, dan mudah dipahami melalui Bible in One Year dan diperkenalkan kepada Yesus melalui Alpha. Pelayanan kami dimungkinkan karena kemurahan hati dan persahabatan orang-orang seperti Anda.\n\nDengan memberikan persembahan rutin, dukungan Anda dapat membantu ribuan orang setiap bulannya untuk mengalami dan bertumbuh dalam hubungan pribadi yang penuh kasih dengan Yesus.\n\nTerima kasih!",
+    "title": "Donasi"
   }
 }
