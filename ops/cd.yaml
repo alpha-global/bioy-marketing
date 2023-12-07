@@ -25,7 +25,8 @@ steps:
     secretEnv: ['SLACK_ENDPOINT']
 
 options:
-  logging: CLOUD_LOGGING_ONLY
+  logging: LOGGING_UNSPECIFIED
+  logsBucket: 'gs://bioy-alpha_cloudbuild'
 
 tags:
   - gcp-cloud-build-deploy-cloud-run
