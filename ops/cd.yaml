@@ -24,10 +24,6 @@ steps:
         curl -X POST -H 'Content-type:application/json' --data '{"text":"✅ BNAP marketing site deployed"}' $$SLACK_ENDPOINT
     secretEnv: ['SLACK_ENDPOINT']
 
-options:
-  logging: LOGGING_UNSPECIFIED
-  logsBucket: 'gs://bioy-alpha_cloudbuild'
-
 tags:
   - gcp-cloud-build-deploy-cloud-run
   - gcp-cloud-build-deploy-cloud-run-managed
