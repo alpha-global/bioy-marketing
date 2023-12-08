@@ -11,7 +11,16 @@ export default () => {
     redirectRoot() {
       const relativeUrl = window.location.pathname;
       if (relativeUrl !== "/") return;
-      window.location.replace("/en/");
+      const browserLanguage = navigator.language || 'en';
+      const supportedLanguages = ['en', 'ar', 'de', 'fr', 'hi', 'id', 'it', 'es', 'th', 'vi', 'zh'];
+      let locale;
+      if (supportedLanguages.includes(browserLanguage.slice(0, 2))) {
+        locale = browserLanguage.slice(0, 2);
+      } else {
+        locale = 'en';
+      }
+
+      window.location.replace(`/${locale}/`);
     },
 
     deviceUrl(locale, androidUrl, iosUrl) {
@@ -29,10 +38,10 @@ export default () => {
     },
 
     init() {
+      this.redirectRoot();
       const stored = localStorage.getItem("cookieConsent");
       if (stored !== "accepted") return;
       this.isCookieBoxOpen = false;
-      this.redirectRoot();
     },
   };
 };
