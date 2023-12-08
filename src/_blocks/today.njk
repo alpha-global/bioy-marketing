@@ -8,7 +8,7 @@
         {{ today[locale].title }}
       </h2>
 
-      {% for d in bnap | devotionList(locale, variant) | reverse %}
+      {% for d in cms | devotionList(locale, variant) | reverse %}
         {% if loop.index <= 6 %}
           {% if loop.first %}
             <p class="mb-6">
