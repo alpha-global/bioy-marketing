@@ -6,7 +6,12 @@ export default () => {
     acceptCookies() {
       localStorage.setItem("cookieConsent", "accepted");
       this.isCookieBoxOpen = false;
-      console.log("box is open: ", this.isCookieBoxOpen);
+    },
+
+    redirectRoot() {
+      const relativeUrl = window.location.pathname;
+      if (relativeUrl !== "/") return;
+      window.location.replace("/en/");
     },
 
     deviceUrl(locale, androidUrl, iosUrl) {
@@ -27,6 +32,7 @@ export default () => {
       const stored = localStorage.getItem("cookieConsent");
       if (stored !== "accepted") return;
       this.isCookieBoxOpen = false;
+      this.redirectRoot();
     },
   };
 };
