@@ -1,7 +1,6 @@
 export default () => {
   return {
     isCookieBoxOpen: true,
-    isLangPickerOpen: false,
 
     acceptCookies() {
       localStorage.setItem("cookieConsent", "accepted");

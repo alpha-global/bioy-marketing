@@ -4,11 +4,7 @@
     <meta name="robots" content="index,follow">
     <meta name="author" content="Alpha International">
 
-    {% if locale in globals.liveLanguages %}
     <link rel="canonical" href="https://bibleinoneyear.org{{ canonical|default(page.url) }}">
-    {% else %}
-    <link rel="canonical" href="https://bibleinoneyear.org{{ canonical|default(page.url|replace('/'+locale+'/', '/en/')) }}">
-    {% endif %}
 
     <meta property="og:title" content="{% if title or lang.title %}{{ title|d(lang.title)|safe  }} | {% endif %}{{ site.title }}">
     <meta property="og:type" content="article">
