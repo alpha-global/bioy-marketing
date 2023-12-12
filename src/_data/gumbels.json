@@ -1,37 +1,4 @@
 {
-  "en": {
-    "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
-    "cta": {
-      "label": "Find out more",
-      "url": "/en/about"
-    },
-    "outro": " ",
-    "quote": "Join us as we read the Bible each day. It’s a practice that we have been doing for over 30 years and we hope it will benefit your life as much as it has ours.",
-    "intro": "Nicky Gumbel is the pioneer of Alpha and Vicar of Holy Trinity Brompton in London, which he leads with his wife Pippa. Together, they introduced the Bible in One Year commentary in 2009 as a daily email for their congregation. Since then, it has become a successful app, book, podcast and website with a global following. Join them today as they take you through every chapter and verse of the Bible, sharing their reflections and prayers along the way.",
-    "header": "Meet Nicky and Pippa"
-  },
-  "id": {
-    "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
-    "cta": {
-      "label": "Find out more",
-      "url": "/id/about"
-    },
-    "outro": " ",
-    "quote": "Join us as we read the Bible each day. It’s a practice that we have been doing for over 30 years and we hope it will benefit your life as much as it has ours.",
-    "intro": "Nicky Gumbel is the pioneer of Alpha and Vicar of Holy Trinity Brompton in London, which he leads with his wife Pippa. Together, they introduced the Bible in One Year commentary in 2009 as a daily email for their congregation. Since then, it has become a successful app, book, podcast and website with a global following. Join them today as they take you through every chapter and verse of the Bible, sharing their reflections and prayers along the way.",
-    "header": "Meet Nicky and Pippa"
-  },
-  "ar": {
-    "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
-    "cta": {
-      "label": "اعرف المزيد",
-      "url": "/ar/about"
-    },
-    "outro": "",
-    "quote": "انضم إلينا ونحن نقرأ الكتاب المقدس كل يوم. إنها ممارسة كنا نقوم بها منذ أكثر من 30 عامًا ونأمل أن تفيد حياتك بقدر ما تفيدنا.",
-    "intro": "نيكي جمبل هو رائد برنامج ألفا وراعي كنيسة الثالوث الاقدس برومبتون في لندن، والتي يقودها مع زوجته بيبا. قدموا معًا الكتاب المقدس في تعليق عام واحد في عام 2009 كبريد إلكتروني يومي لجماعة المصلين. منذ ذلك الحين، أصبح تطبيقًا وكتابًا وبودكاست وموقعًا إلكترونيًا ناجحًا مع متابعة عالمية. انضم إليهم اليوم حيث يأخذونك عبر كل فصل وآية من الكتاب المقدس، ويشاركون تأملاتهم وصلواتهم على طول الطريق.",
-    "header": "قابل نيكي وبيبا"
-  },
   "de": {
     "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
     "header": "Lerne Nicky and Pippa kennen",
@@ -41,28 +8,6 @@
     "cta": {
       "label": "Mehr erfahren",
       "url": "/de/about"
-    }
-  },
-  "es": {
-    "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
-    "cta": {
-      "label": "Find out more",
-      "url": "/es/about"
-    },
-    "outro": "Nicky & Pippa lead Holy Trinity Brompton (HTB), a church in central London. They first introduced the Bible in One Year commentary in 2011 as a daily email for their congregation members. Since then it has grown beyond that daily email to be a website, app, podcast, and more with a worldwide following.",
-    "quote": "Join us as we read the Bible each day. It’s a practice that we have been doing for over 30 years and we hope it will benefit your life as much as it has ours.",
-    "intro": "Bible in One Year is a practice that Nicky & Pippa Gumbel have been doing for over thirty years. Join them each day as they take you into every chapter and every verse in the Bible and let the Holy Spirit speak into your life.",
-    "header": "Let Nicky and Pippa Be Your Guide"
-  },
-  "fr": {
-    "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
-    "header": "Qui sont Nicky et Pippa ?",
-    "intro": "Nicky Gumbel est le pionnier d'Alpha et le pasteur de Holy Trinity Brompton (HTB) à Londres, qu'il dirige avec sa femme Pippa. Ensemble, ils ont lancé la Bible en 1 an en 2009, en anglais d'abord, sous format d'e-mail quotidien. Depuis, c'est aussi devenu une application et un site Web à succès avec un public international. Laissez-vous donc conduire par eux, alors qu'ils vous guident à travers chaque chapitre et verset de la Bible, en partageant des méditations et des prières.",
-    "quote": "Venez nous rejoindre pendant que nous lisons la Bible chaque jour. C'est ce que nous pratiquons tous les jours depuis 30 ans, et nous espérons que cela sera bénéfique autant à votre vie qu'à la nôtre.",
-    "outro": " ",
-    "cta": {
-      "label": "En savoir plus",
-      "url": "/fr/about"
     }
   },
   "hi": {
@@ -76,26 +21,16 @@
     "intro": "Bible in One Year is a practice that Nicky & Pippa Gumbel have been doing for over thirty years. Join them each day as they take you into every chapter and every verse in the Bible and let the Holy Spirit speak into your life.",
     "header": "Let Nicky and Pippa Be Your Guide"
   },
-  "th": {
-    "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
-    "header": "มาทำความรู้จัก นิคกี้และพิพพา",
-    "intro": "นิคกี้ กัมเบล เป็นผู้บุกเบิกอัลฟ่า และเป็นศิษยาภิบาลที่คริสตจักร Holy Trinity Brompton ในกรุงลอนดอน ประเทศอังกฤษ เขารับใช้ที่นั่นร่วมกับภรรยาคือพิพพา พวกเขาร่วมกันแนะนำพระคัมภีร์ในหนึ่งปีให้กับสมาชิกคริสตจักรผ่านทางอีเมลรายวัน ในปี 2009 ตั้งแต่นั้นมา ก็พัฒนามาเป็นแอพ หนังสือ พอดคาสต์ และเว็บไซต์ที่ประสบความสำเร็จโดยมีผู้ติดตามทั่วโลก เข้าร่วมแผนการอ่านกับพวกเขาวันนี้ พวกเขาจะพาคุณท่องพระคัมภีร์ทุกบท ทุกข้อ พร้อมกับการแบ่งปัน การใคร่ครวญ และคำอธิษฐานของพวกเขา",
-    "quote": "ขอเชิญชวนให้มาร่วมกับเราในการอ่านพระคัมภีร์ในแต่ละวัน เราทำมานานกว่า 30 ปีและเราหวังว่าจะเป็นประโยชน์ต่อชีวิตของคุณมากเท่ากับของเรา",
-    "cta": {
-      "label": "ดูเพิ่มเติม",
-      "url": "/th/about"
-    }
-  },
-  "zh": {
+  "en": {
     "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
     "cta": {
       "label": "Find out more",
       "url": "/en/about"
     },
-    "outro": "",
-    "quote": "加入我们，每天读圣经。30多年来，我们一直坚持这样做。我们希望读圣经能给你的生活带来众多益处，就像我们所经历的一样。",
-    "intro": "力克和佩泊.甘伯是位于伦敦市中心圣三一布朗普顿教堂的领袖。2009年，他们首次用电子邮件的形式把《圣经日日行》推送给自己教会的成员。从此，这个每日读经灵修集逐渐发展成APP、播客和网站等多种平台，读者遍及世界各地。今天就加入力克和佩泊，让他们带领你仔细阅读圣经的每一章节；愿你通过阅读他们的心得和祷告，装备自己，迎接更美好的明天。",
-    "header": "认识力克和佩泊"
+    "outro": " ",
+    "quote": "Join us as we read the Bible each day. It’s a practice that we have been doing for over 30 years and we hope it will benefit your life as much as it has ours.",
+    "intro": "Nicky Gumbel is the pioneer of Alpha and former Vicar of Holy Trinity Brompton in London, which he led with his wife Pippa. Together, they introduced The Bible with Nicky and Pippa Gumbel commentary in 2009 as a daily email for their congregation. Since then, it has become a successful app, book, podcast, and website with a global following. Join them today as they take you through every chapter and verse of the Bible, sharing their reflections and prayers along the way.",
+    "header": "Meet Nicky and Pippa"
   },
   "it": {
     "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
@@ -108,11 +43,76 @@
     "intro": "Nicky Gumbel is the pioneer of Alpha and Vicar of Holy Trinity Brompton in London, which he leads with his wife Pippa. Together, they introduced the Bible in One Year commentary in 2009 as a daily email for their congregation. Since then, it has become a successful app, book, podcast and website with a global following. Join them today as they take you through every chapter and verse of the Bible, sharing their reflections and prayers along the way.",
     "header": "Meet Nicky and Pippa"
   },
+  "fr": {
+    "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
+    "header": "Qui sont Nicky et Pippa ?",
+    "intro": "Nicky Gumbel est le pionnier d'Alpha et le pasteur de Holy Trinity Brompton (HTB) à Londres, qu'il dirige avec sa femme Pippa. Ensemble, ils ont lancé la Bible en 1 an en 2009, en anglais d'abord, sous format d'e-mail quotidien. Depuis, c'est aussi devenu une application et un site Web à succès avec un public international. Laissez-vous donc conduire par eux, alors qu'ils vous guident à travers chaque chapitre et verset de la Bible, en partageant des méditations et des prières.",
+    "quote": "Venez nous rejoindre pendant que nous lisons la Bible chaque jour. C'est ce que nous pratiquons tous les jours depuis 30 ans, et nous espérons que cela sera bénéfique autant à votre vie qu'à la nôtre.",
+    "outro": " ",
+    "cta": {
+      "label": "En savoir plus",
+      "url": "/fr/about"
+    }
+  },
+  "es": {
+    "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
+    "cta": {
+      "label": "Find out more",
+      "url": "/es/about"
+    },
+    "outro": "Nicky & Pippa lead Holy Trinity Brompton (HTB), a church in central London. They first introduced the Bible in One Year commentary in 2011 as a daily email for their congregation members. Since then it has grown beyond that daily email to be a website, app, podcast, and more with a worldwide following.",
+    "quote": "Join us as we read the Bible each day. It’s a practice that we have been doing for over 30 years and we hope it will benefit your life as much as it has ours.",
+    "intro": "Bible in One Year is a practice that Nicky & Pippa Gumbel have been doing for over thirty years. Join them each day as they take you into every chapter and every verse in the Bible and let the Holy Spirit speak into your life.",
+    "header": "Let Nicky and Pippa Be Your Guide"
+  },
+  "zh": {
+    "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
+    "cta": {
+      "label": "Find out more",
+      "url": "/en/about"
+    },
+    "outro": "",
+    "quote": "加入我们，每天读圣经。30多年来，我们一直坚持这样做。我们希望读圣经能给你的生活带来众多益处，就像我们所经历的一样。",
+    "intro": "力克和佩泊.甘伯是位于伦敦市中心圣三一布朗普顿教堂的领袖。2009年，他们首次用电子邮件的形式把《圣经日日行》推送给自己教会的成员。从此，这个每日读经灵修集逐渐发展成APP、播客和网站等多种平台，读者遍及世界各地。今天就加入力克和佩泊，让他们带领你仔细阅读圣经的每一章节；愿你通过阅读他们的心得和祷告，装备自己，迎接更美好的明天。",
+    "header": "认识力克和佩泊"
+  },
+  "ar": {
+    "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
+    "cta": {
+      "label": "اعرف المزيد",
+      "url": "/ar/about"
+    },
+    "outro": "",
+    "quote": "انضم إلينا ونحن نقرأ الكتاب المقدس كل يوم. إنها ممارسة كنا نقوم بها منذ أكثر من 30 عامًا ونأمل أن تفيد حياتك بقدر ما تفيدنا.",
+    "intro": "نيكي جمبل هو رائد برنامج ألفا وراعي كنيسة الثالوث الاقدس برومبتون في لندن، والتي يقودها مع زوجته بيبا. قدموا معًا الكتاب المقدس في تعليق عام واحد في عام 2009 كبريد إلكتروني يومي لجماعة المصلين. منذ ذلك الحين، أصبح تطبيقًا وكتابًا وبودكاست وموقعًا إلكترونيًا ناجحًا مع متابعة عالمية. انضم إليهم اليوم حيث يأخذونك عبر كل فصل وآية من الكتاب المقدس، ويشاركون تأملاتهم وصلواتهم على طول الطريق.",
+    "header": "قابل نيكي وبيبا"
+  },
   "vi": {
     "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
     "cta": {
       "label": "Find out more",
       "url": "/vi/about"
+    },
+    "outro": " ",
+    "quote": "Join us as we read the Bible each day. It’s a practice that we have been doing for over 30 years and we hope it will benefit your life as much as it has ours.",
+    "intro": "Nicky Gumbel is the pioneer of Alpha and Vicar of Holy Trinity Brompton in London, which he leads with his wife Pippa. Together, they introduced the Bible in One Year commentary in 2009 as a daily email for their congregation. Since then, it has become a successful app, book, podcast and website with a global following. Join them today as they take you through every chapter and verse of the Bible, sharing their reflections and prayers along the way.",
+    "header": "Meet Nicky and Pippa"
+  },
+  "th": {
+    "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
+    "header": "มาทำความรู้จัก นิคกี้และพิพพา",
+    "intro": "นิคกี้ กัมเบล เป็นผู้บุกเบิกอัลฟ่า และเป็นศิษยาภิบาลที่คริสตจักร Holy Trinity Brompton ในกรุงลอนดอน ประเทศอังกฤษ เขารับใช้ที่นั่นร่วมกับภรรยาคือพิพพา พวกเขาร่วมกันแนะนำพระคัมภีร์ในหนึ่งปีให้กับสมาชิกคริสตจักรผ่านทางอีเมลรายวัน ในปี 2009 ตั้งแต่นั้นมา ก็พัฒนามาเป็นแอพ หนังสือ พอดคาสต์ และเว็บไซต์ที่ประสบความสำเร็จโดยมีผู้ติดตามทั่วโลก เข้าร่วมแผนการอ่านกับพวกเขาวันนี้ พวกเขาจะพาคุณท่องพระคัมภีร์ทุกบท ทุกข้อ พร้อมกับการแบ่งปัน การใคร่ครวญ และคำอธิษฐานของพวกเขา",
+    "quote": "ขอเชิญชวนให้มาร่วมกับเราในการอ่านพระคัมภีร์ในแต่ละวัน เราทำมานานกว่า 30 ปีและเราหวังว่าจะเป็นประโยชน์ต่อชีวิตของคุณมากเท่ากับของเรา",
+    "cta": {
+      "label": "ดูเพิ่มเติม",
+      "url": "/th/about"
+    }
+  },
+  "id": {
+    "img": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
+    "cta": {
+      "label": "Find out more",
+      "url": "/id/about"
     },
     "outro": " ",
     "quote": "Join us as we read the Bible each day. It’s a practice that we have been doing for over 30 years and we hope it will benefit your life as much as it has ours.",
