@@ -1,12 +1,9 @@
-# BiOY Marketing Site
+# BNAP Marketing Site
 
 ## Toolbox
 
 - [Eleventy](https://11ty.dev)
 - [Tailwind](https://tailwindcss.com)
-
-On build 11ty will pull and cache the API response from the BiOY API into the `.cache`
-directory.
 
 ## Development
 
@@ -18,28 +15,23 @@ npm run dev
 ```
 
 By default `npm run dev` will just pull in the 5 days around today's date.
-`npm run dev:cleanSlate` brings _all_ the content and caches it for 11ty to use. You
-should only need to do this once.
+`npm run dev:cleanSlate` brings _all_ the content from the CMS and caches it for 11ty to
+use. You should only need to do this once.
 
 You may need to wipe the cached API responses, and the generated static site.
 `npm run wipe` will take care of that for you.
 
 ## Deployment
 
-11ty builds to the `build` directory, so nginx/apache should be set to serve from there.
-
-```
-git pull
-npm install
-npm run production
-```
+11ty builds a static website to the `build` directory, so the static site should be served
+from there.
 
 Merging to `staging` will deploy automagically to staging, and to `main` will deploy to
 production.
 
 ## Content Refresh
 
-To ensure that content is up-to date on the server a nightly cron should be set to run
+To ensure that content is up-to date a nightly cron should be set to run
 `npm run production` which will ensure that the latest content devotions are pulled in.
 
 When there is a design change to the devotions template or the content source changes, all
@@ -49,8 +41,8 @@ the devotion pages can be rebuilt:
 npm run production:cleanSlate
 ```
 
-The server might not be able to handle all the devotions being rebuilt in one go, so the
-follwing can be run on the staging or production server instead:
+The system might not be able to handle all the devotions being rebuilt in one go, so the
+following can be run on the staging or production server instead:
 
 ```
 START_DAY=1 END_DAY=40 ELEVENTY=production npx @11ty/eleventy
@@ -71,16 +63,13 @@ production when [deployed to Netlify](https://bioy-marketing.netlify.app/).
 
 ## Translations
 
-The site is localised with different paths for each language (`/en`, `/ar`, etc). On the
-production server an nginx rule exists to sniff the users' browser language and then
-redirects accordingly. If there are no obvious languages, then the user is invited to pick
-(see `src/index.njk`).
+The site is localised with different paths for each language (`/en`, `/ar`, etc)
 
 ## Adding new translations
 
 1. `src/admin/config.yml` - add the new locale code under `i18n/locales`.
 2. `src/_data/globals` - add the new locale under `languages`.
-3. When ready for deployment, add the new translation to the nginx record.
+3. `src/assets/js/baseViewModel.js` - add the new locale under `supportedLanguages`.
 
 There are two types of translated content:
 
@@ -116,3 +105,4 @@ and convert the points from absolute units, to percentage units. Use this tool:
 
 - Eleventy 3.0 for ESM support
 - Replace Laravel Mix
+- Tweak the content refresh cron to build a content subpath

@@ -91,6 +91,6 @@ module.exports = async function () {
 
     return data;
   } catch (e) {
-    console.log('\n\nSquark; talking to BiOY API failed\n\n');
+    console.error('\n\nTalking to CMS API failed\n\n');
   }
 };

@@ -64,7 +64,7 @@ module.exports = {
   languages: languages,
   today: todaysDayNumber(),
   stores: {
-    ios: 'https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8',
+    ios: 'https://apps.apple.com/gb/app/bible-in-one-year/id504133402',
     android:
       'https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB',
   },
