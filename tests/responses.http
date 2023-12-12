@@ -1,4 +1,4 @@
-@authority = https://api.bioydata.com/api/v2/devotion
+@authority = https://content.bioy.app/api/v1
 
 @from = 94
 @to = 95
@@ -6,7 +6,5 @@
 @variant=classic
 
 ###
-GET {{authority}}/from/{{from}}/to/{{to}}?locale={{locale}}&variant={{variant}}&format=html HTTP/1.1
-
-###
-GET {{authority}}/95?locale={{locale}}&variant={{variant}}&format=json HTTP/1.1
+# https://content.bioy.app/api/v1/chapter/from/93/to/95?locale=hi&story=classic
+GET {{authority}}/chapter/from/{{from}}/to/{{to}}?locale={{locale}}&story={{variant}} HTTP/1.1

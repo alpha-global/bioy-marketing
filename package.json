@@ -1,7 +1,7 @@
 {
-  "name": "bioy-marketing-site",
+  "name": "bnap-marketing-site",
   "version": "0.0.1",
-  "description": "Marketing site for Bible in One Year",
+  "description": "Marketing site for The Bible with Nicky and Pippa Gumbel",
   "scripts": {
     "11ty": "ELEVENTY_ENV=development npx @11ty/eleventy --serve",
     "watch": "mix watch",

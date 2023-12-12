@@ -4,10 +4,32 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!-- Collections -->
 {%- for page in collections.all %}
-  <url>
-    <loc>{{ globals.siteUrl }}{{ page.url }}</loc>
-    <lastmod>{{ page.date | htmlDateString }}</lastmod>
-  </url>
+    <url>
+        <loc>{{ globals.siteUrl }}{{ page.url }}</loc>
+        <lastmod>{{ page.date | htmlDateString }}</lastmod>
+        <priority>0.80</priority>
+    </url>
 {%- endfor %}
+<!-- FAQ -->
+{% for item in collections.faqsItems %}
+    <url>
+        <loc>{{ globals.siteUrl }}/{{ item.locale }}/faqs/{{ item.slug }}</loc>
+        <lastmod>2023-12-07T05:27:24+00:00</lastmod>
+        <priority>0.60</priority>
+    </url>
+{% endfor %}
+<!-- Devotions -->
+{% for edition in ['classic', 'express', 'youth'] %}
+{% for lang in globals.variants[edition] %}
+    {% for day in range(1, 366) %}
+    <url>
+        <loc>{{ globals.siteUrl }}/{{ lang }}/{{ edition }}/{{ day }}</loc>
+        <lastmod>2023-12-07T05:27:24+00:00</lastmod>
+        <priority>0.40</priority>
+    </url>
+    {% endfor %}
+{% endfor %}
+{% endfor %}
 </urlset>

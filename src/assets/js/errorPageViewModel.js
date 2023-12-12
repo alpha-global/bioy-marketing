@@ -1,4 +1,4 @@
-const { locales } = require("../../_data/globals");
+import { locales } from "../../_data/globals";
 
 export default () => {
   return {
