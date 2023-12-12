@@ -55,7 +55,7 @@ const languages = [
 ];
 
 module.exports = {
-  siteUrl: 'https://bibleinoneyear.com',
+  siteUrl: 'https://bible.alpha.org',
   buildTime: new Date(),
   cacheBuster: Math.round(+new Date() / 1000),
   currentYear: new Date().getFullYear(),
