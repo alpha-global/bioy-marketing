@@ -68,13 +68,13 @@
       {
         "channel": "App",
         "icon": "medium_app",
-        "description": "Download the Bible in One Year app for iOS or Android devices and read along each day.\n\n* [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
+        "description": "Download The Bible with Nicky and Pippa Gumbel app for iOS or Android devices and read along each day.\n\n* [Download for iOS from the App Store](https://itunes.apple.com/gb/app/bible-in-one-year/id504133402?mt=8)\n* [Download for Android on Google Play](https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en_GB)",
         "image": "/assets/img/medium_website.jpg"
       },
       {
         "channel": "Email",
         "icon": "medium_email",
-        "description": "Sign up now to receive Bible in One Year in your inbox each morning. You’ll get one email each day.",
+        "description": "Sign up now to receive The Bible with Nicky and Pippa Gumbel in your inbox each morning. You’ll get one email each day.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
           "code": "<button @click=\"toggleZohoForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>\n<iframe x-ref=\"zohoFormIframe\" frameborder=\"0\" class=\"w-full h-full fixed hidden inset-0 z-20\" src='https://forms.zohopublic.eu/bioy/form/BiOYEnSignUp/formperma/CGc5pZ06mBVs5IHbFMYKlC0LVyb-St_7B_alkF3SUHM'></iframe>\n<button x-ref=\"zohoFormCloseButton\" @click=\"toggleZohoForm\" class=\"bg-red fixed hidden p-3 right-4 rounded-full top-2 z-30 lg:right-1/3\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"h-6 w-6 text-white\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\" />\n    </svg>\n</button>"
@@ -83,13 +83,13 @@
       {
         "channel": "Podcast",
         "icon": "medium_podcast",
-        "description": "Subscribe and listen to Bible in One Year delivered to your favourite podcast app everyday.",
+        "description": "Subscribe and listen to The Bible with Nicky and Pippa Gumbel delivered to your favourite podcast app every day.",
         "image": "/assets/img/medium_app.jpg"
       },
       {
         "channel": "Website",
         "icon": "medium_website",
-        "description": "Start reading today’s devotion right here on the BiOY website.",
+        "description": "Start reading today’s devotion right here on The Bible with Nicky and Pippa Gumbel website.",
         "image": "/assets/img/medium_laptop.jpg",
         "cta": {
           "code": "<a href=\"#todays-devotion\" class=\"whiteButton\">Read now</a>"
@@ -98,7 +98,7 @@
       {
         "channel": "Book",
         "icon": "medium_book",
-        "description": "The Bible in One Year Commentary is available as a book.\n\n* [Buy from the Alpha Shop](https://shop.alpha.org/bible-in-one-year)\n* [Buy from CLC Bookshops](https://clcbookshops.com/product/bible-in-one-year-the-a-commentary-by-nicky-gumbel-hard-cover-gumbel-nicky-hodder-stoughton-9781473677067)",
+        "description": "The Bible with Nicky and Pippa Gumbel Commentary is available as a book.\n\n* [Buy from the Alpha Shop](https://shop.alpha.org/bible-in-one-year)\n* [Buy from CLC Bookshops](https://clcbookshops.com/product/bible-in-one-year-the-a-commentary-by-nicky-gumbel-hard-cover-gumbel-nicky-hodder-stoughton-9781473677067)",
         "image": "/assets/img/books.jpg"
       }
     ]
