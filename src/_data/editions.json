@@ -12,10 +12,14 @@
     "express": "Express"
   },
   "en": {
-    "intro": "Bible in One Year comes in three different editions…",
+    "intro": "The Bible with Nicky and Pippa Gumbel comes in three different editions…",
     "classic": "Classic",
     "youth": "Youth",
     "express": "Express"
+  },
+  "it": {
+    "intro": "Bible in One Year comes in three different editions…",
+    "classic": "Classic"
   },
   "fr": {
     "intro": "Bible en 1 an est pour l'instant uniquement disponible en version classique pour le français.",
@@ -41,6 +45,10 @@
     "youth": "الشباب",
     "express": "اكسبريس"
   },
+  "vi": {
+    "intro": "Bible in One Year comes in three different editions…",
+    "classic": "Classic"
+  },
   "th": {
     "intro": "พระคัมภีร์ในหนึ่งปี มีสามเวอร์ชั่นที่แตกต่างกัน...",
     "classic": "คลาสสิค",
@@ -48,14 +56,6 @@
     "express": "ด่วนพิเศษ"
   },
   "id": {
-    "intro": "Bible in One Year comes in three different editions…",
-    "classic": "Classic"
-  },
-  "it": {
-    "intro": "Bible in One Year comes in three different editions…",
-    "classic": "Classic"
-  },
-  "vi": {
     "intro": "Bible in One Year comes in three different editions…",
     "classic": "Classic"
   }
