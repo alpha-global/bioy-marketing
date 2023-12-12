@@ -530,6 +530,311 @@
     ],
     "seeMore": "See More",
     "submitButton": "Submit a support request",
+    "intro": "**Got a question about The Bible with Nicky and Pippa Gumbel?**\n\nA problem with app? Start typing your question here…",
+    "notFoundMessage": "Sorry, we don’t have any results for",
+    "title": "FAQs",
+    "filter": "Filter",
+    "backButton": "Back to all Frequently Asked Questions (FAQs)",
+    "categories": {
+      "Audio": "Audio",
+      "Content": "Content",
+      "App": "App"
+    },
+    "filterHint": "What are you looking for?"
+  },
+  "it": {
+    "faqsItems": [
+      {
+        "title": "I can’t see beyond Day One after my first install",
+        "category": "Content",
+        "shortAnswer": "Any new user of the BiOY app will need step through an ‘onboarding process’. Here we help you find the best route to start your BiOY journey. Once completed, there are two options for you to choose from before you begin. ‘Start Now’ or ‘Explore the app’...",
+        "detailedAnswer": "Any new user of the BiOY app will need step through an ‘onboarding process’. Here we help you find the best route to start your BiOY journey. Once completed, there are two options for you to choose from before you begin. ‘Start Now’ or ‘Explore the app’.\\\n\\\nStart Now.\\\nIf you select ‘Start Now’ the app, will automaticity open on Day One. A swipe to the left will reveal the devotion list as well as the option to open the settings menu, located in the lower left. \\\n\\\nExplore The App \\\nTapping the 'Explore the app' option allows the user to understand the app interface before they begin the devotion. Once you have completed the three on screen interactions, you will need to tap ‘Start Now’ for further devotionals to be viewed."
+      },
+      {
+        "title": "Can I speed up/slow down the speed of the audio devotion?",
+        "category": "Audio",
+        "shortAnswer": "Yes! After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds: 1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc\n",
+        "detailedAnswer": "Yes! Please ensure you have updated to the latest version of the app from the iOS App Store or Google Play on Android. After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds:\n\n1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc"
+      },
+      {
+        "title": "Can I share a devotion with a friend?",
+        "category": "Content",
+        "shortAnswer": "Yes! We would absolutely love you do this and encourage someone who might need to hear from God through the devotions and commentaries. To find the link, tap the ‘book’ icon on the day you wish to share and then the ‘share’ icon in the bottom left-hand corner of the popup that appears. You will then be able to select how you wish to share it, whether directly into a text message or email, or by copying the link and pasting it where you wish.",
+        "detailedAnswer": "Yes! We would absolutely love you do this and encourage someone who might need to hear from God through the devotions and commentaries. To find the link, tap the ‘book’ icon on the day you wish to share and then the ‘share’ icon in the bottom left-hand corner of the popup that appears. You will then be able to select how you wish to share it, whether directly into a text message or email, or by copying the link and pasting it where you wish."
+      },
+      {
+        "category": "App",
+        "title": "How can I reset my app?",
+        "shortAnswer": "Tap on Menu > Settings > Reset App. Follow the prompts and select the day number you last completed. The following day will show in the list view as Today. All previous days will show as complete.",
+        "detailedAnswer": "Tap on Menu > Settings > Reset App. Follow the prompts and select the day you last completed. The following day will show in the list view as Today. All previous days will show as complete."
+      },
+      {
+        "title": "How do I return to the list view and menu from within a devotion?",
+        "category": "Content",
+        "shortAnswer": "To return to the list view and the menu icon, swipe right from the left hand side of the screen on your device.",
+        "detailedAnswer": "To return to the list view and the menu icon, swipe right from the left hand side of the screen on your device."
+      },
+      {
+        "title": "What do the symbols mean in my list view?",
+        "category": "App",
+        "shortAnswer": "There are up to five symbols you might see on the list view.\n\nA red ‘tick’ within a circle: The devotion has been marked as completed.  \nBook icon: The bars next to it turn red to give you an indication of your reading progress through the devotion.  \nSpeaker icon: The day’s audio has been downloaded.  \nBroadcast icon: The day’s audio will be streamed live using your Wi-Fi or cellular data.\nArrow pointing to a square bracket: Located above the menu button in the red tab. Tap on this symbol to return to your last completed day and the next day for you to begin.",
+        "detailedAnswer": "There are up to five symbols you might see on the list view that help you understand your progress through the Bible in One Year plan and what your device is doing.\n\nA red ‘tick’ within a circle: The devotion has been marked as completed. This tick appears when you have scrolled through all the text or listened to the entire audio recording.\n\nBook icon: This is accompanied by bars that will turn red as you read the text which will give you an indication of your reading progress through the devotion.\n\nSpeaker icon: The day’s audio has been downloaded. This is often accompanied by how many minutes of audio you have remaining to listen to on that day, or the red completion ‘tick’.\n\nBroadcast icon: The day’s audio will be streamed live using your Wi-Fi or cellular data. If you are likely to want to continue listening in areas of low signal or no internet, please consider using the automatic download settings in the Settings menu, or download the single day’s audio by swiping right on the list view. \n\nIf you have swiped right you will also be able to use the download/bin icons and the rewind/tick icons.\n\nArrow pointing to a square bracket: This icon only appears if you scroll away from the next day you need to complete. Located above the menu button in the red tab. Tap on this symbol to return to your last completed day and the next day for you to begin."
+      },
+      {
+        "title": "Why does the app show a day number and not a date?",
+        "category": "App",
+        "shortAnswer": "In the past, we have offered Bible in One Year as a reading plan which anyone could join at any point, and everyone globally would be using the same readings. We are now moving to encouraging people to start the Bible in One Year from Day 1, regardless of what date they start on. This is because we believe it is easiest to understand the readings if they are started at the beginning, rather than picked up part way through.",
+        "detailedAnswer": "In the past, we have offered Bible in One Year as a reading plan which anyone could join at any point, and everyone globally would be using the same readings. We are now moving to encouraging people to start the Bible in One Year from Day 1, regardless of what date they start on. This is because we believe it is easiest to understand the readings if they are started at the beginning, rather than picked up part way through.\n\nThis has led to some confusion however where users weren’t sure why their 1 September devotion wasn’t the same as their friend’s 1 September devotion, or even the email and website. This was because the readings were based on the users’ start date rather than the calendar year, despite being named after the calendar year. We hope that by changing our naming convention from Jan 1, Jan 2 to Day 1, Day 2, it will be clearer for users to see that their devotions are named based on their start date and not the calendar year."
+      },
+      {
+        "title": "Can I adjust the number of days of audio stored on my device?",
+        "category": "App",
+        "shortAnswer": "You can adjust how many days of audio are stored on your device. Tap on Menu > Settings > Audio Downloads. Move the red circle along the line to adjust the number of days of audio that remain saved on your device. ",
+        "detailedAnswer": "You can adjust how many days of audio are stored on your device. Tap on Menu > Settings > Audio Downloads. Move the red circle along the line to adjust the number of days of audio that remain saved on your device. You can also select what options best suit you regarding mobile data and auto download."
+      },
+      {
+        "title": "How do I manually delete audio files that are saved to my device?",
+        "category": "Audio",
+        "shortAnswer": "Swipe right on the relevant day from the list view and tap the bin icon.\n\nTo delete more than one day of audio at once and view a list of all your downloaded audio, tap on Menu > Settings > Manage Audio. Tick the box to select which days you would like to delete or select all. Then tap on Delete Selected Audio.",
+        "detailedAnswer": "Swipe right on the relevant day from the list view and tap the bin icon. \n\nTo delete more than one day of audio at once and view a list of all your downloaded audio, tap on Menu > Settings > Manage Audio. Tick the box to select which days you would like to delete or select all. Then tap on Delete Selected Audio."
+      },
+      {
+        "title": "What is the structure of a day’s content?",
+        "category": "Content",
+        "shortAnswer": "Each day consists of three scriptures from different parts of the Bible and commentary and prayer reflections by Nicky Gumbel. The day starts with an Introduction, presenting the theme of the day. This is followed by a wisdom passage (Psalm or Proverb) and a commentary on that passage, a portion of the New Testament and then commentary on that, and a portion of the Old Testament and commentary on that. The devotion ends with a thought from Pippa Gumbel.",
+        "detailedAnswer": "Each day consists of three scriptures from different parts of the Bible and commentary and prayer reflections by Nicky Gumbel. The day starts with an Introduction, presenting the theme of the day. This is followed by a wisdom passage (Psalm or Proverb) and a commentary on that passage, a portion of the New Testament and then commentary on that, and a portion of the Old Testament and commentary on that. The devotion ends with a thought from Pippa Gumbel.\n\nIn the Express the scriptures are shorter and only reference small passages or a few verses. The Express and Youth edition both contain a verse of the day and thought of the day. The Youth edition also features an Action of the day."
+      },
+      {
+        "title": "What Bible translations are used across BiOY?",
+        "category": "Content",
+        "shortAnswer": "BiOY uses the New International Version (NIVUK), with some references to particular passages of Eugene Peterson’s The Message.",
+        "detailedAnswer": "BiOY uses New International Version (NIVUK), with some references to particular passages of Eugene Peterson’s The Message."
+      },
+      {
+        "title": "What does the icon above the menu button do?",
+        "category": "App",
+        "shortAnswer": "The icon is an arrow pointing to a square bracket. It will only appear if you scroll too far away from the next day you need to complete in the list view. Tap on the icon to quickly return to your last completed day in the list view.",
+        "detailedAnswer": "The icon is an arrow pointing to a square bracket. It will only appear if you scroll too far away from the next day you need to complete in the list view. Tap on the icon to quickly return to your last completed day in the list view."
+      },
+      {
+        "title": "Why is my devotion in the app on a different day to the website or daily email?",
+        "category": "Content",
+        "shortAnswer": "Your app readings are based on the date you started Bible in One Year. If you started with Day 1 on January 1st, your app readings will match the website and email readings. If you started with Day 1 on 2nd March, they will not match. This is because the website and email readings follow the year starting with Day 1 on 1st January. Tap the link to find out more.",
+        "detailedAnswer": "Your app readings are based on the date you started Bible in One Year. If you started with Day 1 on January 1st, your app readings will match the website and email readings. If you started with Day 1 on 2nd March, they will not match. This is because the website and email readings follow the year starting with Day 1 on 1st January. \n\nIf you would like your app to match the website and email devotion, please tap on Menu > Settings > Reset App. You will be taken back through the onboarding process and will need to select 'I am familiar with the Bible' and select the edition you wish to use. When asked what was the last day you got to, select yesterday's day number - as shown on the website. Your app will then be set up to match the email and the website."
+      },
+      {
+        "title": "How can I change my Edition?",
+        "category": "Content",
+        "shortAnswer": "If you would like to switch to a different Edition of the Bible In One Year plan you can find this in the Settings menu.",
+        "detailedAnswer": "If you would like to switch to a different Edition of the Bible In One Year plan you can find this in settings.\n\nNote: Express editions are available in German, English and Arabic. Youth Editions are available in Arabic and English. If your app is set to a language where an edition is not available, you will not be able to select it. To change edition, tap Edition and select either Classic, Express or Youth. Any content you have already completed will be downloaded again in this new edition format and your progress through the year will be saved."
+      },
+      {
+        "title": "I’m not able to play the audio, what should I do?",
+        "category": "Audio",
+        "shortAnswer": "Check if your app is up to date with the latest version.\n \n\nCheck if you have connectivity and other apps are working as they should be. \n\nIf the play icon is grey this means that your device is unable to download the audio and there is no internet connection. \n\n\nTest if your app will play the audio after downloading it manually (swipe right on the day in the list view and tap on the download icon, wait as the white circle turns red). Test again to see if the audio plays.\n\n\nIf you are using mobile data on the app, check your settings within the app to make sure mobile data can be used. (Tap on Menu > Settings > Audio Downloads and switch on the toggle for 'use mobile data').\n\n\nIf there is no play icon at all, please raise a bug report or support ticket with the BiOY team indicating what day number, edition and language you are unable to access.\n\n\nPlease also refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to auto download audio. You may find that the app has reached its audio download limit.",
+        "detailedAnswer": "Check if your app is up to date with the latest version. \n\nCheck if you have connectivity.\nIf the play icon is grey this means that your device is unable to download the audio and there is no internet connection. \n\nTest if your app will play the audio after downloading it manually (swipe right on the day in the list view and tap on the download icon, wait as the white circle turns red). Test again to see if the audio plays.\n\nIf you are using mobile data on the app, check your settings within the app to make sure mobile data can be used. (Tap on Menu > Settings > Audio Downloads and switch on the toggle for 'use mobile data').\n\nIf there is no play icon at all, please raise a bug report or support ticket with the BiOY team indicating what day number, edition and language you are unable to access.\n\nPlease also refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to auto download audio. You may find that the app has reached its audio download limit."
+      },
+      {
+        "title": "How do I stop my device auto-downloading audio files?",
+        "category": "Audio",
+        "shortAnswer": "Auto downloads can be managed in Settings, under the the ‘Audio Downloads’ section.",
+        "detailedAnswer": "Auto downloads can be managed in Settings, in the ‘Audio Downloads’ section.\n\nPlease note that turning Auto Downloads off won’t automatically delete any audio that has been downloaded already. Audio files stored on your phone can be deleted under ‘Settings’, in ‘Manage Audio’."
+      },
+      {
+        "title": "Can I listen to audio offline?",
+        "category": "Audio",
+        "detailedAnswer": "As long as you have the latest version of the app, you can do this in one of two ways.\n\n1. You can set up auto downloads, which will allow your phone to download the next day’s audio content automatically and keep it until you have listened to it. Go to Settings, Audio Downloads, and choose how many days audio you would like your app to download for you.\n\n2. Alternatively you can also manually download audio files, by swiping right on the day from the list view. This brings up a download button on the left, simply tap it to download the file.\n\nIf you are concerned about downloading over your mobile data, please ensure ‘Use mobile data’ is set to ‘Off’ on your device.",
+        "shortAnswer": "There are two ways of listening to audio offline."
+      },
+      {
+        "title": "How many days of audio are stored on my device?",
+        "category": "Audio",
+        "shortAnswer": "Tap on Menu > Settings > Manage Audio to find out how many days are currently stored on your device.",
+        "detailedAnswer": "Tap on Menu > Settings > Manage Audio to find out how many days are currently stored on your device."
+      },
+      {
+        "title": "What happens to my audio files if I change edition?",
+        "category": "Audio",
+        "shortAnswer": "Audio files are deleted if you change which edition your device is accessing. You can still download the audio files manually by swiping right on the day from the list view and tapping the download icon.",
+        "detailedAnswer": "Audio files are deleted if you change which edition your device is accessing. You can still download the audio files manually by swiping right on the day from the list view and tapping the download icon."
+      },
+      {
+        "title": "If I delete an audio file, can I ever get it back?",
+        "category": "Audio",
+        "shortAnswer": "You can download audio files at any time manually by swiping right on the day from the list view and clicking the download icon that appears.",
+        "detailedAnswer": "You can download audio files at any time manually by swiping right on the day from the list view and clicking the download icon that appears."
+      },
+      {
+        "title": "Do I have to download an audio file to listen to it?",
+        "category": "Audio",
+        "shortAnswer": "No, you can stream the audio over Wi-Fi or using mobile data if you prefer.",
+        "detailedAnswer": "No, you can stream the audio over wifi or using mobile data if you prefer."
+      },
+      {
+        "title": "How can I skip through different sections of the audio?",
+        "category": "Audio",
+        "shortAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio.",
+        "detailedAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio in this order: \n\nIntro, Proverbs/Psalm bible, Proverbs/Psalm Commentary, New Testament Bible, New Testament Commentary, Old Testament Bible, Old Testament Commentary, Pippa Adds. Additionally there is an option to skip 15 seconds forward or backwards through the audio. If you have no option to skip 15 seconds, please download the latest version of your app for this feature.\n\nThere is currently no option to skip through sections on the Youth edition."
+      },
+      {
+        "title": "Can I receive BiOY via email?",
+        "category": "Content",
+        "shortAnswer": "Yes. You can sign up to receive the BiOY Classic commentary from the BiOY homepage.",
+        "detailedAnswer": "Yes. If you would like to receive the BiOY Classic commentary by email, or if you have stopped receiving the daily BiOY emails and would like to re-subscribe, you can [sign up or re-subscribe here](https://bibleinoneyear.org/en/#start)."
+      },
+      {
+        "title": "What languages is BiOY available in?",
+        "category": "Content",
+        "shortAnswer": "Arabic, Bahasa Indonesia, English, Simplified Chinese, French, German, Hindi, Spanish, and Thai. ",
+        "detailedAnswer": "The Classic edition of BiOY is now available in Arabic, Bahasa Indonesia, English, Simplified Chinese, French, German, Hindi, Spanish, and Thai. The Express edition of BiOY is available in Arabic, English and German. The Youth edition is available in Arabic and English. Audio is available in English, Hindi, Chinese and German."
+      },
+      {
+        "title": "How do I access the new app Menu?",
+        "category": "App",
+        "shortAnswer": "When opening the app you will see the list view with the day numbers and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY.",
+        "detailedAnswer": "When opening the app you will see the list view with the day numbers and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY."
+      },
+      {
+        "title": "Can I change 'Today' to a different day number?",
+        "category": "App",
+        "shortAnswer": "If you would like to change the day number that you are on for today, please reset the app. Tap on Menu > Settings > Reset App. Follow the prompts, indicating that you are familiar with the Bible, select what plan you are on (Classic, Express or Youth edition) and the last day you got to.\n\nPlease note that your app will start on the day following the last day you got to. For example: if you select that you got to Day 23, the app will show Today as Day 24. All earlier devotions will be marked as complete when you do this.\n",
+        "detailedAnswer": "If you would like to change the day number that you are on for today, please reset the app. Tap on Menu > Settings > Reset App. Follow the prompts, indicating that you are familiar with the Bible, select what plan you are on (Classic, Express or Youth edition) and the last day you got to.\n\nPlease note that your app will start on the day following the last day you got to. For example: if you select that you got to Day 23, the app will show Today as Day 24. All earlier devotions will be marked as complete when you do this."
+      },
+      {
+        "title": "Why have you updated the app?",
+        "category": "App",
+        "shortAnswer": "We needed to move the app to a new platform to enable us to add more functionality and quality-of-life improvements that were not possible in the legacy BiOY app. Simply put, in order to improve the app, we had to rebuild it from the bottom up.",
+        "detailedAnswer": "We needed to move the app to a new platform to enable us to add more functionality and quality-of-life improvements that were not possible in the legacy BiOY app. Simply put, in order to improve the app, we had to rebuild it from the bottom up."
+      },
+      {
+        "title": "How can I donate via the app?",
+        "category": "App",
+        "shortAnswer": "Thank you for considering giving toward BiOY, you can donate through the app (tap on Menu > Give: Support the ministry of BiOY) or here on the BiOY website - click 'donate' at the top of the home page.",
+        "detailedAnswer": "Thank you for considering giving toward BiOY, you can donate through the app (tap on Menu > Give: Support the ministry of BiOY) or [here on the BiOY website](https://bibleinoneyear.org/en/donate/) - click 'donate' at the top of the home page."
+      },
+      {
+        "title": "Does this really contain the whole bible?",
+        "category": "Content",
+        "shortAnswer": "The entire bible is covered in the Classic edition of BiOY. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.",
+        "detailedAnswer": "The entire bible is covered in the Classic edition of BiOY. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.\n\nThe Youth and Express editions provide an abridged version of the Classic BiOY with selected scriptures from the book of Psalms or Proverbs, the New Testament and Old Testament. Not every verse in the bible is covered in these editions, however they do give a full experience of the bible."
+      },
+      {
+        "title": "I missed a day, can I catch up?",
+        "category": "Content",
+        "shortAnswer": "Yes, you can catch up because the content for the whole year is now available on the app. Tap on the day you missed in your list view. Once completed, swipe right to return to the list view and select another day. ",
+        "detailedAnswer": "Yes, you can catch up because the content for the whole year is now available on the app. Tap on the day you missed in your list view. Once completed, swipe right to return to the list view and select another day."
+      },
+      {
+        "title": "What editions are available?",
+        "category": "Content",
+        "shortAnswer": "In addition to the BiOY Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 11 - 13 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team and takes 12 - 14 minutes).",
+        "detailedAnswer": "In addition to the BiOY Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 11 - 13 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team and takes 12 - 14 minutes)."
+      },
+      {
+        "title": "Whose voices am I hearing in the audio tracks?",
+        "category": "Audio",
+        "shortAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team.",
+        "detailedAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team."
+      },
+      {
+        "title": "Can I synchronise the BiOY app between my phone and tablet?",
+        "category": "Audio",
+        "shortAnswer": "Not yet. There is currently no way to sync your progress through BiOY, although this is a feature that is being considered for 2022.",
+        "detailedAnswer": "Not yet. There is currently no way to sync your progress through BiOY, although this is a feature that is being considered for 2022."
+      },
+      {
+        "title": "Will the BiOY automatically reset after I complete Day 365?",
+        "category": "Content",
+        "shortAnswer": "No, the app is designed to prevent you loosing your progress if you have not completed over 255 days of devotions. Provided you are on version 8.4.0 of the app or later, the app will ask if you would like to restart the year once you have read more than 255 days of devotions, including December 31st. \n\nIf you would like to restart from Day 1 before completing the previous year, you will need to either scroll to the top of the list view and tap on the 'Start a new year' button or reset the app (tap on Menu > Settings > Reset app), which will allow you to go through the onboarding process again and select 'Day 1' as your start point.\n",
+        "detailedAnswer": "No, the app is designed to prevent you loosing your progress if you have not completed over 255 days of devotions. Provided you are on version 8.4.0 of the app or later, the app will ask if you would like to restart the year once you have read more than 255 days of devotions, including December 31st. \n\nIf you would like to restart from Day 1 before completing the previous year, you will need to either scroll to the top of the list view and tap on the 'Start a new year' button or reset the app (tap on Menu > Settings > Reset app), which will allow you to go through the onboarding process again and select 'Day 1' as your start point."
+      },
+      {
+        "title": "Is the commentary the same every year?",
+        "category": "Content",
+        "shortAnswer": "The majority of the content will be the same with small updates each year.",
+        "detailedAnswer": "The majority of the content will be the same with small updates each year."
+      },
+      {
+        "title": "How can I manually mark a devotion as complete/incomplete?",
+        "category": "App",
+        "shortAnswer": "To mark a devotion complete, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon. \n\nTo mark a devotion incomplete, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon.",
+        "detailedAnswer": "To mark a devotion complete, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon. \n\nTo mark a devotion incomplete, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon."
+      },
+      {
+        "title": "Can I track my reading progress per section of the devotion?",
+        "category": "App",
+        "shortAnswer": "Your reading progress is automatically tracked as you read through each day’s devotion. You will see a red bar appear (under the devotion title in the list view) for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’tick’ icon that appears next to the download/bin icon.",
+        "detailedAnswer": "Your reading progress is automatically tracked as you read through each day’s devotion. You will see a red bar appear (under the devotion title in the list view) for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’tick’ icon that appears next to the download/bin icon."
+      },
+      {
+        "title": "Can I jump between sections of the devotion text without having to scroll?",
+        "category": "App",
+        "shortAnswer": "Yes. Tap any of the sections presented under ‘Today’s Reading’ at the start of the devotion to quickly jump to that section. We have also built a navigation menu that is located above the play button. Tap on the book icon above the play button to open a pop-up menu with the option to navigate to any section of the devotion.",
+        "detailedAnswer": "Yes. Tap any of the sections presented under ‘Today’s Reading’ at the start of the devotion to quickly jump to that section. We have also built a navigation menu that is located above the play button. Tap on the book icon above the play button to open a pop-up menu with the option to navigate to any section of the devotion."
+      },
+      {
+        "title": "Help, my app is ‘locking’ and ‘bouncing’ in certain screens and pieces of content.",
+        "category": "App",
+        "shortAnswer": "The latest version of the app has improvements to help users distinguish between sections and reflect on what they have been reading. To continue reading, swipe up to read the next section.",
+        "detailedAnswer": "The latest version of the app has improvements to help users distinguish between sections and reflect on what they have been reading. To continue reading, swipe up to read the next section."
+      },
+      {
+        "title": "How can I manage audio?",
+        "category": "Audio",
+        "shortAnswer": "The app allows users to download audio in two different ways, manual and automatic.\n\nManual - audio can be downloaded by swiping left on a day and tapping the download icon. This provides a high level of control as to what is on your device at any time and it is recommended that you manually delete the audio from your device once you have finished listening to it.\n\nAutomatic - controlled by a section within Settings, the app is able to automatically download a number of audio days for you, up to a limit that you set. It will delete the audio from your device if you listen to it all the way through. The app will stop automatically downloading new audio when it reaches the limit. This happens when you have lots of automatically downloaded audio that you have only partially listened to. To resolve this, clear out your audio downloads: navigate to Menu > Settings > Manage Audio and select the audio you wish to delete.\n\n\n\n",
+        "detailedAnswer": "The app allows users to download audio in two different ways, manual and automatic.\n\nManual - audio can be downloaded by swiping left on a day and tapping the download icon. This provides a high level of control as to what is on your device at any time and it is recommended that you manually delete the audio from your device once you have finished listening to it.\n\nAutomatic - controlled by a section within Settings, the app is able to automatically download a number of audio days for you, up to a limit that you set. It will delete the audio from your device if you listen to it all the way through. The app will stop automatically downloading new audio when it reaches the limit. This happens when you have lots of automatically downloaded audio that you have only partially listened to. To resolve this, clear out your audio downloads: navigate to Menu > Settings > Manage Audio and select the audio you wish to delete. \n\nYou can adjust the automatic audio download limit by navigating to: Menu > Settings > Audio Downloads and then use the slider to set the number of audio days (between 1 and 14) you wish to store on your device."
+      },
+      {
+        "title": "I have got a new phone - do I have to lose my progress?",
+        "category": "App",
+        "detailedAnswer": "If you’ve had to re-install or move devices, please follow the steps below to restore your progress. \n\n* When you launch the app again for the first time, proceed through the onboarding, indicating that you are familiar with the Bible \n* Select your Edition \n* Select the last devotion that you completed. \n\nTo confirm which day you were on previously, you can browse through the devotions on our website (navigate forwards or backwards by one day by tapping on the arrows on the side of the screen). If you want to restart on the same day that the website and the email subscription are on (Day 1 = 1 January, Day 2 = 2 January), then click [here](https://bibleinoneyear.org/en/#today) (https://bibleinoneyear.org/en/#today) to find out what day number it is today.",
+        "shortAnswer": "No, you can tell the app which day you would like to start from and so restore your progress. Before switching devices, make a note of what day number you have completed."
+      },
+      {
+        "title": "My app shows a different devotion to my friends’ app. How do I get the same devotion as my friend?",
+        "category": "App",
+        "shortAnswer": "When installing the app for the first time you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both access the same devotion on the same day, reset your app. Tap on Menu > Settings > Reset App.",
+        "detailedAnswer": "When installing the app for the first time you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both access the same devotion on the same day, reset the app. Tap on Menu > Settings > Reset App. Follow the prompts indicating that you are familiar with the Bible and then select the edition you wish to use and the day number that your friend completed yesterday. You will then find the app opens to the list view with the following day number marked Today and all the previous devotions marked complete."
+      },
+      {
+        "title": "Can I still access 2021 readings?",
+        "category": "Content",
+        "shortAnswer": "If your app has 2022 content but you would still like to complete readings from 2021, you are able to do this either on the app (by scrolling forward) or online:\n\nhttps://bibleinoneyear.org/en/classic/365/\n\nSimply change the last digits to the day number you would like to read (between 1 and 365)",
+        "detailedAnswer": "Please  first check you have the latest version of the app installed. You can do this by going to menu > settings and checking the version which is listed at the bottom of the screen – it should say Bible in One Year 8.4.1 or later.  If that’s not the case, please go to your app store and update the app.\n\nIf your app is up to date, the new layout for the readings on the app means you are able to scroll forward through the whole year, back to where you had left off before. Depending on where you got up to in 2021, it may be worth going through the onboarding process again so that you can tell the app where you got up to. That would mean you don’t have to scroll through lots of readings each day to get back to where you were.  You can do this by going to menu > settings and selecting ‘reset app’, and you will be able to tell the app which day you would like to start from as part of the re-onbaording process that will subsequently pop up.\n\nYou can also access any day’s readings online here:\n\n<https://bibleinoneyear.org/en/classic/365/>\n\nSimply change the last digits to the day number you would like to read (between 1 and 365)"
+      },
+      {
+        "title": "I can't access app content, my app shows a white screen instead",
+        "category": "Content",
+        "shortAnswer": " This bug is known to us and we are working hard to fix it. In the meantime, please use this interim solution:\n\nLong press on the app icon (whether on the home screen shortcut of your device, or from the menu/list of apps within google play)\n• Tap ‘App Info’\n• Tap ‘Force stop’\n• Try opening the app again\n",
+        "detailedAnswer": "This issue where the app brings up a white screen rather than any content seems to be affecting a small number of Android users. Please use this interim fix while we work on a better solution.\n\n• Long press on the app icon (whether on the home screen shortcut of your device, or from the menu/list of apps within google play)\n• Tap ‘App Info’\n• Tap ‘Force stop’\n• Try opening the app again\n\nYou can also read the devotions online on our website https://bibleinoneyear.org or by subscribing to the daily email. If you prefer the audio, you can listen to the devotions as podcasts (Spotify, Apple, Google podcasts).\n\nWe do apologise and ask for your patience whilst we prioritise fixing this."
+      },
+      {
+        "title": "How can I access 2022 content?",
+        "category": "Content",
+        "shortAnswer": "If your app is still showing 2021 content, you can go to Menu > Settings > Reset app. This will take you through the onboarding process again, allowing you to select your start day and giving you access to 2022 content.",
+        "detailedAnswer": "The app logic is built to ask users if they would like to restart the year only once they have completed 255 days of readings, including Dec 31st. If you would like to restart the readings from the beginning before this point, you can do so by going to Menu > Settings > Reset app. \n\nThis will take you through the onboarding process again, allowing you to select your start day and giving you access to 2022 content. Please check your app is up to date (version 8.4.1 or later) if you can’t see the ‘reset’ button."
+      },
+      {
+        "title": "Have the 2022 readings been updated?",
+        "category": "Content",
+        "shortAnswer": "In 2022 we are only making slight tweaks to the content, so if you have done the Bible in One Year before, it may sound familiar to you. We trust however that God will speak to you through his word in fresh ways each year.",
+        "detailedAnswer": "In 2022 we are only making slight tweaks to the content, so if you have done the Bible in One Year before, it may sound familiar to you. We trust however that God will speak to you through his word in fresh ways each year."
+      },
+      {
+        "title": "If I started BiOY with Day 1 on 1 January, what day number is today?",
+        "category": "Content",
+        "shortAnswer": "You can view the day number for today at this link: https://bibleinoneyear.org/en/#todays-devotion",
+        "detailedAnswer": "You can view the day number for today at [this link](https://bibleinoneyear.org/en/#todays-devotion)."
+      },
+      {
+        "title": "The app has taken me back to Day 1, how do I get back to my place? ",
+        "category": "App",
+        "shortAnswer": "You can reset the app and resume your place within the app. Tap on Menu > Settings > Reset App. Follow the prompts and then select the day number you last completed. The following day will show as Today in your list view and all previous days will be marked complete.",
+        "detailedAnswer": "You can reset the app and resume your place within the app. Tap on Menu > Settings > Reset App. Follow the prompts and then select the day number you last completed. The following day will show as Today in your list view and all previous days will be marked complete."
+      }
+    ],
+    "seeMore": "See More",
+    "submitButton": "Submit a support request",
     "intro": "**Got a question about Bible in One Year?**\n\nA problem with app? Start typing your question here…",
     "notFoundMessage": "Sorry, we don’t have any results for",
     "title": "FAQs",
@@ -1108,6 +1413,311 @@
     },
     "filterHint": "ما الذي تبحث عنه؟"
   },
+  "vi": {
+    "faqsItems": [
+      {
+        "title": "I can’t see beyond Day One after my first install",
+        "category": "Content",
+        "shortAnswer": "Any new user of the BiOY app will need step through an ‘onboarding process’. Here we help you find the best route to start your BiOY journey. Once completed, there are two options for you to choose from before you begin. ‘Start Now’ or ‘Explore the app’...",
+        "detailedAnswer": "Any new user of the BiOY app will need step through an ‘onboarding process’. Here we help you find the best route to start your BiOY journey. Once completed, there are two options for you to choose from before you begin. ‘Start Now’ or ‘Explore the app’.\\\n\\\nStart Now.\\\nIf you select ‘Start Now’ the app, will automaticity open on Day One. A swipe to the left will reveal the devotion list as well as the option to open the settings menu, located in the lower left. \\\n\\\nExplore The App \\\nTapping the 'Explore the app' option allows the user to understand the app interface before they begin the devotion. Once you have completed the three on screen interactions, you will need to tap ‘Start Now’ for further devotionals to be viewed."
+      },
+      {
+        "title": "Can I speed up/slow down the speed of the audio devotion?",
+        "category": "Audio",
+        "shortAnswer": "Yes! After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds: 1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc\n",
+        "detailedAnswer": "Yes! Please ensure you have updated to the latest version of the app from the iOS App Store or Google Play on Android. After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds:\n\n1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc"
+      },
+      {
+        "title": "Can I share a devotion with a friend?",
+        "category": "Content",
+        "shortAnswer": "Yes! We would absolutely love you do this and encourage someone who might need to hear from God through the devotions and commentaries. To find the link, tap the ‘book’ icon on the day you wish to share and then the ‘share’ icon in the bottom left-hand corner of the popup that appears. You will then be able to select how you wish to share it, whether directly into a text message or email, or by copying the link and pasting it where you wish.",
+        "detailedAnswer": "Yes! We would absolutely love you do this and encourage someone who might need to hear from God through the devotions and commentaries. To find the link, tap the ‘book’ icon on the day you wish to share and then the ‘share’ icon in the bottom left-hand corner of the popup that appears. You will then be able to select how you wish to share it, whether directly into a text message or email, or by copying the link and pasting it where you wish."
+      },
+      {
+        "category": "App",
+        "title": "How can I reset my app?",
+        "shortAnswer": "Tap on Menu > Settings > Reset App. Follow the prompts and select the day number you last completed. The following day will show in the list view as Today. All previous days will show as complete.",
+        "detailedAnswer": "Tap on Menu > Settings > Reset App. Follow the prompts and select the day you last completed. The following day will show in the list view as Today. All previous days will show as complete."
+      },
+      {
+        "title": "How do I return to the list view and menu from within a devotion?",
+        "category": "Content",
+        "shortAnswer": "To return to the list view and the menu icon, swipe right from the left hand side of the screen on your device.",
+        "detailedAnswer": "To return to the list view and the menu icon, swipe right from the left hand side of the screen on your device."
+      },
+      {
+        "title": "What do the symbols mean in my list view?",
+        "category": "App",
+        "shortAnswer": "There are up to five symbols you might see on the list view.\n\nA red ‘tick’ within a circle: The devotion has been marked as completed.  \nBook icon: The bars next to it turn red to give you an indication of your reading progress through the devotion.  \nSpeaker icon: The day’s audio has been downloaded.  \nBroadcast icon: The day’s audio will be streamed live using your Wi-Fi or cellular data.\nArrow pointing to a square bracket: Located above the menu button in the red tab. Tap on this symbol to return to your last completed day and the next day for you to begin.",
+        "detailedAnswer": "There are up to five symbols you might see on the list view that help you understand your progress through the Bible in One Year plan and what your device is doing.\n\nA red ‘tick’ within a circle: The devotion has been marked as completed. This tick appears when you have scrolled through all the text or listened to the entire audio recording.\n\nBook icon: This is accompanied by bars that will turn red as you read the text which will give you an indication of your reading progress through the devotion.\n\nSpeaker icon: The day’s audio has been downloaded. This is often accompanied by how many minutes of audio you have remaining to listen to on that day, or the red completion ‘tick’.\n\nBroadcast icon: The day’s audio will be streamed live using your Wi-Fi or cellular data. If you are likely to want to continue listening in areas of low signal or no internet, please consider using the automatic download settings in the Settings menu, or download the single day’s audio by swiping right on the list view. \n\nIf you have swiped right you will also be able to use the download/bin icons and the rewind/tick icons.\n\nArrow pointing to a square bracket: This icon only appears if you scroll away from the next day you need to complete. Located above the menu button in the red tab. Tap on this symbol to return to your last completed day and the next day for you to begin."
+      },
+      {
+        "title": "Why does the app show a day number and not a date?",
+        "category": "App",
+        "shortAnswer": "In the past, we have offered Bible in One Year as a reading plan which anyone could join at any point, and everyone globally would be using the same readings. We are now moving to encouraging people to start the Bible in One Year from Day 1, regardless of what date they start on. This is because we believe it is easiest to understand the readings if they are started at the beginning, rather than picked up part way through.",
+        "detailedAnswer": "In the past, we have offered Bible in One Year as a reading plan which anyone could join at any point, and everyone globally would be using the same readings. We are now moving to encouraging people to start the Bible in One Year from Day 1, regardless of what date they start on. This is because we believe it is easiest to understand the readings if they are started at the beginning, rather than picked up part way through.\n\nThis has led to some confusion however where users weren’t sure why their 1 September devotion wasn’t the same as their friend’s 1 September devotion, or even the email and website. This was because the readings were based on the users’ start date rather than the calendar year, despite being named after the calendar year. We hope that by changing our naming convention from Jan 1, Jan 2 to Day 1, Day 2, it will be clearer for users to see that their devotions are named based on their start date and not the calendar year."
+      },
+      {
+        "title": "Can I adjust the number of days of audio stored on my device?",
+        "category": "App",
+        "shortAnswer": "You can adjust how many days of audio are stored on your device. Tap on Menu > Settings > Audio Downloads. Move the red circle along the line to adjust the number of days of audio that remain saved on your device. ",
+        "detailedAnswer": "You can adjust how many days of audio are stored on your device. Tap on Menu > Settings > Audio Downloads. Move the red circle along the line to adjust the number of days of audio that remain saved on your device. You can also select what options best suit you regarding mobile data and auto download."
+      },
+      {
+        "title": "How do I manually delete audio files that are saved to my device?",
+        "category": "Audio",
+        "shortAnswer": "Swipe right on the relevant day from the list view and tap the bin icon.\n\nTo delete more than one day of audio at once and view a list of all your downloaded audio, tap on Menu > Settings > Manage Audio. Tick the box to select which days you would like to delete or select all. Then tap on Delete Selected Audio.",
+        "detailedAnswer": "Swipe right on the relevant day from the list view and tap the bin icon. \n\nTo delete more than one day of audio at once and view a list of all your downloaded audio, tap on Menu > Settings > Manage Audio. Tick the box to select which days you would like to delete or select all. Then tap on Delete Selected Audio."
+      },
+      {
+        "title": "What is the structure of a day’s content?",
+        "category": "Content",
+        "shortAnswer": "Each day consists of three scriptures from different parts of the Bible and commentary and prayer reflections by Nicky Gumbel. The day starts with an Introduction, presenting the theme of the day. This is followed by a wisdom passage (Psalm or Proverb) and a commentary on that passage, a portion of the New Testament and then commentary on that, and a portion of the Old Testament and commentary on that. The devotion ends with a thought from Pippa Gumbel.",
+        "detailedAnswer": "Each day consists of three scriptures from different parts of the Bible and commentary and prayer reflections by Nicky Gumbel. The day starts with an Introduction, presenting the theme of the day. This is followed by a wisdom passage (Psalm or Proverb) and a commentary on that passage, a portion of the New Testament and then commentary on that, and a portion of the Old Testament and commentary on that. The devotion ends with a thought from Pippa Gumbel.\n\nIn the Express the scriptures are shorter and only reference small passages or a few verses. The Express and Youth edition both contain a verse of the day and thought of the day. The Youth edition also features an Action of the day."
+      },
+      {
+        "title": "What Bible translations are used across BiOY?",
+        "category": "Content",
+        "shortAnswer": "BiOY uses the New International Version (NIVUK), with some references to particular passages of Eugene Peterson’s The Message.",
+        "detailedAnswer": "BiOY uses New International Version (NIVUK), with some references to particular passages of Eugene Peterson’s The Message."
+      },
+      {
+        "title": "What does the icon above the menu button do?",
+        "category": "App",
+        "shortAnswer": "The icon is an arrow pointing to a square bracket. It will only appear if you scroll too far away from the next day you need to complete in the list view. Tap on the icon to quickly return to your last completed day in the list view.",
+        "detailedAnswer": "The icon is an arrow pointing to a square bracket. It will only appear if you scroll too far away from the next day you need to complete in the list view. Tap on the icon to quickly return to your last completed day in the list view."
+      },
+      {
+        "title": "Why is my devotion in the app on a different day to the website or daily email?",
+        "category": "Content",
+        "shortAnswer": "Your app readings are based on the date you started Bible in One Year. If you started with Day 1 on January 1st, your app readings will match the website and email readings. If you started with Day 1 on 2nd March, they will not match. This is because the website and email readings follow the year starting with Day 1 on 1st January. Tap the link to find out more.",
+        "detailedAnswer": "Your app readings are based on the date you started Bible in One Year. If you started with Day 1 on January 1st, your app readings will match the website and email readings. If you started with Day 1 on 2nd March, they will not match. This is because the website and email readings follow the year starting with Day 1 on 1st January. \n\nIf you would like your app to match the website and email devotion, please tap on Menu > Settings > Reset App. You will be taken back through the onboarding process and will need to select 'I am familiar with the Bible' and select the edition you wish to use. When asked what was the last day you got to, select yesterday's day number - as shown on the website. Your app will then be set up to match the email and the website."
+      },
+      {
+        "title": "How can I change my Edition?",
+        "category": "Content",
+        "shortAnswer": "If you would like to switch to a different Edition of the Bible In One Year plan you can find this in the Settings menu.",
+        "detailedAnswer": "If you would like to switch to a different Edition of the Bible In One Year plan you can find this in settings.\n\nNote: Express editions are available in German, English and Arabic. Youth Editions are available in Arabic and English. If your app is set to a language where an edition is not available, you will not be able to select it. To change edition, tap Edition and select either Classic, Express or Youth. Any content you have already completed will be downloaded again in this new edition format and your progress through the year will be saved."
+      },
+      {
+        "title": "I’m not able to play the audio, what should I do?",
+        "category": "Audio",
+        "shortAnswer": "Check if your app is up to date with the latest version.\n \n\nCheck if you have connectivity and other apps are working as they should be. \n\nIf the play icon is grey this means that your device is unable to download the audio and there is no internet connection. \n\n\nTest if your app will play the audio after downloading it manually (swipe right on the day in the list view and tap on the download icon, wait as the white circle turns red). Test again to see if the audio plays.\n\n\nIf you are using mobile data on the app, check your settings within the app to make sure mobile data can be used. (Tap on Menu > Settings > Audio Downloads and switch on the toggle for 'use mobile data').\n\n\nIf there is no play icon at all, please raise a bug report or support ticket with the BiOY team indicating what day number, edition and language you are unable to access.\n\n\nPlease also refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to auto download audio. You may find that the app has reached its audio download limit.",
+        "detailedAnswer": "Check if your app is up to date with the latest version. \n\nCheck if you have connectivity.\nIf the play icon is grey this means that your device is unable to download the audio and there is no internet connection. \n\nTest if your app will play the audio after downloading it manually (swipe right on the day in the list view and tap on the download icon, wait as the white circle turns red). Test again to see if the audio plays.\n\nIf you are using mobile data on the app, check your settings within the app to make sure mobile data can be used. (Tap on Menu > Settings > Audio Downloads and switch on the toggle for 'use mobile data').\n\nIf there is no play icon at all, please raise a bug report or support ticket with the BiOY team indicating what day number, edition and language you are unable to access.\n\nPlease also refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to auto download audio. You may find that the app has reached its audio download limit."
+      },
+      {
+        "title": "How do I stop my device auto-downloading audio files?",
+        "category": "Audio",
+        "shortAnswer": "Auto downloads can be managed in Settings, under the the ‘Audio Downloads’ section.",
+        "detailedAnswer": "Auto downloads can be managed in Settings, in the ‘Audio Downloads’ section.\n\nPlease note that turning Auto Downloads off won’t automatically delete any audio that has been downloaded already. Audio files stored on your phone can be deleted under ‘Settings’, in ‘Manage Audio’."
+      },
+      {
+        "title": "Can I listen to audio offline?",
+        "category": "Audio",
+        "detailedAnswer": "As long as you have the latest version of the app, you can do this in one of two ways.\n\n1. You can set up auto downloads, which will allow your phone to download the next day’s audio content automatically and keep it until you have listened to it. Go to Settings, Audio Downloads, and choose how many days audio you would like your app to download for you.\n\n2. Alternatively you can also manually download audio files, by swiping right on the day from the list view. This brings up a download button on the left, simply tap it to download the file.\n\nIf you are concerned about downloading over your mobile data, please ensure ‘Use mobile data’ is set to ‘Off’ on your device.",
+        "shortAnswer": "There are two ways of listening to audio offline."
+      },
+      {
+        "title": "How many days of audio are stored on my device?",
+        "category": "Audio",
+        "shortAnswer": "Tap on Menu > Settings > Manage Audio to find out how many days are currently stored on your device.",
+        "detailedAnswer": "Tap on Menu > Settings > Manage Audio to find out how many days are currently stored on your device."
+      },
+      {
+        "title": "What happens to my audio files if I change edition?",
+        "category": "Audio",
+        "shortAnswer": "Audio files are deleted if you change which edition your device is accessing. You can still download the audio files manually by swiping right on the day from the list view and tapping the download icon.",
+        "detailedAnswer": "Audio files are deleted if you change which edition your device is accessing. You can still download the audio files manually by swiping right on the day from the list view and tapping the download icon."
+      },
+      {
+        "title": "If I delete an audio file, can I ever get it back?",
+        "category": "Audio",
+        "shortAnswer": "You can download audio files at any time manually by swiping right on the day from the list view and clicking the download icon that appears.",
+        "detailedAnswer": "You can download audio files at any time manually by swiping right on the day from the list view and clicking the download icon that appears."
+      },
+      {
+        "title": "Do I have to download an audio file to listen to it?",
+        "category": "Audio",
+        "shortAnswer": "No, you can stream the audio over Wi-Fi or using mobile data if you prefer.",
+        "detailedAnswer": "No, you can stream the audio over wifi or using mobile data if you prefer."
+      },
+      {
+        "title": "How can I skip through different sections of the audio?",
+        "category": "Audio",
+        "shortAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio.",
+        "detailedAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio in this order: \n\nIntro, Proverbs/Psalm bible, Proverbs/Psalm Commentary, New Testament Bible, New Testament Commentary, Old Testament Bible, Old Testament Commentary, Pippa Adds. Additionally there is an option to skip 15 seconds forward or backwards through the audio. If you have no option to skip 15 seconds, please download the latest version of your app for this feature.\n\nThere is currently no option to skip through sections on the Youth edition."
+      },
+      {
+        "title": "Can I receive BiOY via email?",
+        "category": "Content",
+        "shortAnswer": "Yes. You can sign up to receive the BiOY Classic commentary from the BiOY homepage.",
+        "detailedAnswer": "Yes. If you would like to receive the BiOY Classic commentary by email, or if you have stopped receiving the daily BiOY emails and would like to re-subscribe, you can [sign up or re-subscribe here](https://bibleinoneyear.org/en/#start)."
+      },
+      {
+        "title": "What languages is BiOY available in?",
+        "category": "Content",
+        "shortAnswer": "Arabic, Bahasa Indonesia, English, Simplified Chinese, French, German, Hindi, Spanish, and Thai. ",
+        "detailedAnswer": "The Classic edition of BiOY is now available in Arabic, Bahasa Indonesia, English, Simplified Chinese, French, German, Hindi, Spanish, and Thai. The Express edition of BiOY is available in Arabic, English and German. The Youth edition is available in Arabic and English. Audio is available in English, Hindi, Chinese and German."
+      },
+      {
+        "title": "How do I access the new app Menu?",
+        "category": "App",
+        "shortAnswer": "When opening the app you will see the list view with the day numbers and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY.",
+        "detailedAnswer": "When opening the app you will see the list view with the day numbers and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY."
+      },
+      {
+        "title": "Can I change 'Today' to a different day number?",
+        "category": "App",
+        "shortAnswer": "If you would like to change the day number that you are on for today, please reset the app. Tap on Menu > Settings > Reset App. Follow the prompts, indicating that you are familiar with the Bible, select what plan you are on (Classic, Express or Youth edition) and the last day you got to.\n\nPlease note that your app will start on the day following the last day you got to. For example: if you select that you got to Day 23, the app will show Today as Day 24. All earlier devotions will be marked as complete when you do this.\n",
+        "detailedAnswer": "If you would like to change the day number that you are on for today, please reset the app. Tap on Menu > Settings > Reset App. Follow the prompts, indicating that you are familiar with the Bible, select what plan you are on (Classic, Express or Youth edition) and the last day you got to.\n\nPlease note that your app will start on the day following the last day you got to. For example: if you select that you got to Day 23, the app will show Today as Day 24. All earlier devotions will be marked as complete when you do this."
+      },
+      {
+        "title": "Why have you updated the app?",
+        "category": "App",
+        "shortAnswer": "We needed to move the app to a new platform to enable us to add more functionality and quality-of-life improvements that were not possible in the legacy BiOY app. Simply put, in order to improve the app, we had to rebuild it from the bottom up.",
+        "detailedAnswer": "We needed to move the app to a new platform to enable us to add more functionality and quality-of-life improvements that were not possible in the legacy BiOY app. Simply put, in order to improve the app, we had to rebuild it from the bottom up."
+      },
+      {
+        "title": "How can I donate via the app?",
+        "category": "App",
+        "shortAnswer": "Thank you for considering giving toward BiOY, you can donate through the app (tap on Menu > Give: Support the ministry of BiOY) or here on the BiOY website - click 'donate' at the top of the home page.",
+        "detailedAnswer": "Thank you for considering giving toward BiOY, you can donate through the app (tap on Menu > Give: Support the ministry of BiOY) or [here on the BiOY website](https://bibleinoneyear.org/en/donate/) - click 'donate' at the top of the home page."
+      },
+      {
+        "title": "Does this really contain the whole bible?",
+        "category": "Content",
+        "shortAnswer": "The entire bible is covered in the Classic edition of BiOY. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.",
+        "detailedAnswer": "The entire bible is covered in the Classic edition of BiOY. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.\n\nThe Youth and Express editions provide an abridged version of the Classic BiOY with selected scriptures from the book of Psalms or Proverbs, the New Testament and Old Testament. Not every verse in the bible is covered in these editions, however they do give a full experience of the bible."
+      },
+      {
+        "title": "I missed a day, can I catch up?",
+        "category": "Content",
+        "shortAnswer": "Yes, you can catch up because the content for the whole year is now available on the app. Tap on the day you missed in your list view. Once completed, swipe right to return to the list view and select another day. ",
+        "detailedAnswer": "Yes, you can catch up because the content for the whole year is now available on the app. Tap on the day you missed in your list view. Once completed, swipe right to return to the list view and select another day."
+      },
+      {
+        "title": "What editions are available?",
+        "category": "Content",
+        "shortAnswer": "In addition to the BiOY Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 11 - 13 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team and takes 12 - 14 minutes).",
+        "detailedAnswer": "In addition to the BiOY Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 11 - 13 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team and takes 12 - 14 minutes)."
+      },
+      {
+        "title": "Whose voices am I hearing in the audio tracks?",
+        "category": "Audio",
+        "shortAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team.",
+        "detailedAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team."
+      },
+      {
+        "title": "Can I synchronise the BiOY app between my phone and tablet?",
+        "category": "Audio",
+        "shortAnswer": "Not yet. There is currently no way to sync your progress through BiOY, although this is a feature that is being considered for 2022.",
+        "detailedAnswer": "Not yet. There is currently no way to sync your progress through BiOY, although this is a feature that is being considered for 2022."
+      },
+      {
+        "title": "Will the BiOY automatically reset after I complete Day 365?",
+        "category": "Content",
+        "shortAnswer": "No, the app is designed to prevent you loosing your progress if you have not completed over 255 days of devotions. Provided you are on version 8.4.0 of the app or later, the app will ask if you would like to restart the year once you have read more than 255 days of devotions, including December 31st. \n\nIf you would like to restart from Day 1 before completing the previous year, you will need to either scroll to the top of the list view and tap on the 'Start a new year' button or reset the app (tap on Menu > Settings > Reset app), which will allow you to go through the onboarding process again and select 'Day 1' as your start point.\n",
+        "detailedAnswer": "No, the app is designed to prevent you loosing your progress if you have not completed over 255 days of devotions. Provided you are on version 8.4.0 of the app or later, the app will ask if you would like to restart the year once you have read more than 255 days of devotions, including December 31st. \n\nIf you would like to restart from Day 1 before completing the previous year, you will need to either scroll to the top of the list view and tap on the 'Start a new year' button or reset the app (tap on Menu > Settings > Reset app), which will allow you to go through the onboarding process again and select 'Day 1' as your start point."
+      },
+      {
+        "title": "Is the commentary the same every year?",
+        "category": "Content",
+        "shortAnswer": "The majority of the content will be the same with small updates each year.",
+        "detailedAnswer": "The majority of the content will be the same with small updates each year."
+      },
+      {
+        "title": "How can I manually mark a devotion as complete/incomplete?",
+        "category": "App",
+        "shortAnswer": "To mark a devotion complete, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon. \n\nTo mark a devotion incomplete, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon.",
+        "detailedAnswer": "To mark a devotion complete, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon. \n\nTo mark a devotion incomplete, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon."
+      },
+      {
+        "title": "Can I track my reading progress per section of the devotion?",
+        "category": "App",
+        "shortAnswer": "Your reading progress is automatically tracked as you read through each day’s devotion. You will see a red bar appear (under the devotion title in the list view) for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’tick’ icon that appears next to the download/bin icon.",
+        "detailedAnswer": "Your reading progress is automatically tracked as you read through each day’s devotion. You will see a red bar appear (under the devotion title in the list view) for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’tick’ icon that appears next to the download/bin icon."
+      },
+      {
+        "title": "Can I jump between sections of the devotion text without having to scroll?",
+        "category": "App",
+        "shortAnswer": "Yes. Tap any of the sections presented under ‘Today’s Reading’ at the start of the devotion to quickly jump to that section. We have also built a navigation menu that is located above the play button. Tap on the book icon above the play button to open a pop-up menu with the option to navigate to any section of the devotion.",
+        "detailedAnswer": "Yes. Tap any of the sections presented under ‘Today’s Reading’ at the start of the devotion to quickly jump to that section. We have also built a navigation menu that is located above the play button. Tap on the book icon above the play button to open a pop-up menu with the option to navigate to any section of the devotion."
+      },
+      {
+        "title": "Help, my app is ‘locking’ and ‘bouncing’ in certain screens and pieces of content.",
+        "category": "App",
+        "shortAnswer": "The latest version of the app has improvements to help users distinguish between sections and reflect on what they have been reading. To continue reading, swipe up to read the next section.",
+        "detailedAnswer": "The latest version of the app has improvements to help users distinguish between sections and reflect on what they have been reading. To continue reading, swipe up to read the next section."
+      },
+      {
+        "title": "How can I manage audio?",
+        "category": "Audio",
+        "shortAnswer": "The app allows users to download audio in two different ways, manual and automatic.\n\nManual - audio can be downloaded by swiping left on a day and tapping the download icon. This provides a high level of control as to what is on your device at any time and it is recommended that you manually delete the audio from your device once you have finished listening to it.\n\nAutomatic - controlled by a section within Settings, the app is able to automatically download a number of audio days for you, up to a limit that you set. It will delete the audio from your device if you listen to it all the way through. The app will stop automatically downloading new audio when it reaches the limit. This happens when you have lots of automatically downloaded audio that you have only partially listened to. To resolve this, clear out your audio downloads: navigate to Menu > Settings > Manage Audio and select the audio you wish to delete.\n\n\n\n",
+        "detailedAnswer": "The app allows users to download audio in two different ways, manual and automatic.\n\nManual - audio can be downloaded by swiping left on a day and tapping the download icon. This provides a high level of control as to what is on your device at any time and it is recommended that you manually delete the audio from your device once you have finished listening to it.\n\nAutomatic - controlled by a section within Settings, the app is able to automatically download a number of audio days for you, up to a limit that you set. It will delete the audio from your device if you listen to it all the way through. The app will stop automatically downloading new audio when it reaches the limit. This happens when you have lots of automatically downloaded audio that you have only partially listened to. To resolve this, clear out your audio downloads: navigate to Menu > Settings > Manage Audio and select the audio you wish to delete. \n\nYou can adjust the automatic audio download limit by navigating to: Menu > Settings > Audio Downloads and then use the slider to set the number of audio days (between 1 and 14) you wish to store on your device."
+      },
+      {
+        "title": "I have got a new phone - do I have to lose my progress?",
+        "category": "App",
+        "detailedAnswer": "If you’ve had to re-install or move devices, please follow the steps below to restore your progress. \n\n* When you launch the app again for the first time, proceed through the onboarding, indicating that you are familiar with the Bible \n* Select your Edition \n* Select the last devotion that you completed. \n\nTo confirm which day you were on previously, you can browse through the devotions on our website (navigate forwards or backwards by one day by tapping on the arrows on the side of the screen). If you want to restart on the same day that the website and the email subscription are on (Day 1 = 1 January, Day 2 = 2 January), then click [here](https://bibleinoneyear.org/en/#today) (https://bibleinoneyear.org/en/#today) to find out what day number it is today.",
+        "shortAnswer": "No, you can tell the app which day you would like to start from and so restore your progress. Before switching devices, make a note of what day number you have completed."
+      },
+      {
+        "title": "My app shows a different devotion to my friends’ app. How do I get the same devotion as my friend?",
+        "category": "App",
+        "shortAnswer": "When installing the app for the first time you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both access the same devotion on the same day, reset your app. Tap on Menu > Settings > Reset App.",
+        "detailedAnswer": "When installing the app for the first time you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both access the same devotion on the same day, reset the app. Tap on Menu > Settings > Reset App. Follow the prompts indicating that you are familiar with the Bible and then select the edition you wish to use and the day number that your friend completed yesterday. You will then find the app opens to the list view with the following day number marked Today and all the previous devotions marked complete."
+      },
+      {
+        "title": "Can I still access 2021 readings?",
+        "category": "Content",
+        "shortAnswer": "If your app has 2022 content but you would still like to complete readings from 2021, you are able to do this either on the app (by scrolling forward) or online:\n\nhttps://bibleinoneyear.org/en/classic/365/\n\nSimply change the last digits to the day number you would like to read (between 1 and 365)",
+        "detailedAnswer": "Please  first check you have the latest version of the app installed. You can do this by going to menu > settings and checking the version which is listed at the bottom of the screen – it should say Bible in One Year 8.4.1 or later.  If that’s not the case, please go to your app store and update the app.\n\nIf your app is up to date, the new layout for the readings on the app means you are able to scroll forward through the whole year, back to where you had left off before. Depending on where you got up to in 2021, it may be worth going through the onboarding process again so that you can tell the app where you got up to. That would mean you don’t have to scroll through lots of readings each day to get back to where you were.  You can do this by going to menu > settings and selecting ‘reset app’, and you will be able to tell the app which day you would like to start from as part of the re-onbaording process that will subsequently pop up.\n\nYou can also access any day’s readings online here:\n\n<https://bibleinoneyear.org/en/classic/365/>\n\nSimply change the last digits to the day number you would like to read (between 1 and 365)"
+      },
+      {
+        "title": "I can't access app content, my app shows a white screen instead",
+        "category": "Content",
+        "shortAnswer": " This bug is known to us and we are working hard to fix it. In the meantime, please use this interim solution:\n\nLong press on the app icon (whether on the home screen shortcut of your device, or from the menu/list of apps within google play)\n• Tap ‘App Info’\n• Tap ‘Force stop’\n• Try opening the app again\n",
+        "detailedAnswer": "This issue where the app brings up a white screen rather than any content seems to be affecting a small number of Android users. Please use this interim fix while we work on a better solution.\n\n• Long press on the app icon (whether on the home screen shortcut of your device, or from the menu/list of apps within google play)\n• Tap ‘App Info’\n• Tap ‘Force stop’\n• Try opening the app again\n\nYou can also read the devotions online on our website https://bibleinoneyear.org or by subscribing to the daily email. If you prefer the audio, you can listen to the devotions as podcasts (Spotify, Apple, Google podcasts).\n\nWe do apologise and ask for your patience whilst we prioritise fixing this."
+      },
+      {
+        "title": "How can I access 2022 content?",
+        "category": "Content",
+        "shortAnswer": "If your app is still showing 2021 content, you can go to Menu > Settings > Reset app. This will take you through the onboarding process again, allowing you to select your start day and giving you access to 2022 content.",
+        "detailedAnswer": "The app logic is built to ask users if they would like to restart the year only once they have completed 255 days of readings, including Dec 31st. If you would like to restart the readings from the beginning before this point, you can do so by going to Menu > Settings > Reset app. \n\nThis will take you through the onboarding process again, allowing you to select your start day and giving you access to 2022 content. Please check your app is up to date (version 8.4.1 or later) if you can’t see the ‘reset’ button."
+      },
+      {
+        "title": "Have the 2022 readings been updated?",
+        "category": "Content",
+        "shortAnswer": "In 2022 we are only making slight tweaks to the content, so if you have done the Bible in One Year before, it may sound familiar to you. We trust however that God will speak to you through his word in fresh ways each year.",
+        "detailedAnswer": "In 2022 we are only making slight tweaks to the content, so if you have done the Bible in One Year before, it may sound familiar to you. We trust however that God will speak to you through his word in fresh ways each year."
+      },
+      {
+        "title": "If I started BiOY with Day 1 on 1 January, what day number is today?",
+        "category": "Content",
+        "shortAnswer": "You can view the day number for today at this link: https://bibleinoneyear.org/en/#todays-devotion",
+        "detailedAnswer": "You can view the day number for today at [this link](https://bibleinoneyear.org/en/#todays-devotion)."
+      },
+      {
+        "title": "The app has taken me back to Day 1, how do I get back to my place? ",
+        "category": "App",
+        "shortAnswer": "You can reset the app and resume your place within the app. Tap on Menu > Settings > Reset App. Follow the prompts and then select the day number you last completed. The following day will show as Today in your list view and all previous days will be marked complete.",
+        "detailedAnswer": "You can reset the app and resume your place within the app. Tap on Menu > Settings > Reset App. Follow the prompts and then select the day number you last completed. The following day will show as Today in your list view and all previous days will be marked complete."
+      }
+    ],
+    "seeMore": "See More",
+    "submitButton": "Submit a support request",
+    "intro": "**Got a question about Bible in One Year?**\n\nA problem with app? Start typing your question here…",
+    "notFoundMessage": "Sorry, we don’t have any results for",
+    "title": "FAQs",
+    "filter": "Filter",
+    "backButton": "Back to all Frequently Asked Questions (FAQs)",
+    "categories": {
+      "Audio": "Audio",
+      "Content": "Content",
+      "App": "App"
+    },
+    "filterHint": "What are you looking for?"
+  },
   "th": {
     "faqsItems": [
       {
@@ -1457,616 +2067,6 @@
         "category": "App",
         "shortAnswer": "When installing the app you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both read the same devotion on the same day feel free to reinstall the app and onboard into the same devotion.",
         "detailedAnswer": "When installing the app you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both read the same devotion on the same day feel free to reinstall the app and onboard into the same devotion, or feel free to scroll to where they are and mark the intervening devotions as unread. (Note: the red ’today’ marker will continue to move each day. The only way to reset this is be reinstalling the app and reonboarding together.)"
-      }
-    ],
-    "seeMore": "See More",
-    "submitButton": "Submit a support request",
-    "intro": "**Got a question about Bible in One Year?**\n\nA problem with app? Start typing your question here…",
-    "notFoundMessage": "Sorry, we don’t have any results for",
-    "title": "FAQs",
-    "filter": "Filter",
-    "backButton": "Back to all Frequently Asked Questions (FAQs)",
-    "categories": {
-      "Audio": "Audio",
-      "Content": "Content",
-      "App": "App"
-    },
-    "filterHint": "What are you looking for?"
-  },
-  "it": {
-    "faqsItems": [
-      {
-        "title": "I can’t see beyond Day One after my first install",
-        "category": "Content",
-        "shortAnswer": "Any new user of the BiOY app will need step through an ‘onboarding process’. Here we help you find the best route to start your BiOY journey. Once completed, there are two options for you to choose from before you begin. ‘Start Now’ or ‘Explore the app’...",
-        "detailedAnswer": "Any new user of the BiOY app will need step through an ‘onboarding process’. Here we help you find the best route to start your BiOY journey. Once completed, there are two options for you to choose from before you begin. ‘Start Now’ or ‘Explore the app’.\\\n\\\nStart Now.\\\nIf you select ‘Start Now’ the app, will automaticity open on Day One. A swipe to the left will reveal the devotion list as well as the option to open the settings menu, located in the lower left. \\\n\\\nExplore The App \\\nTapping the 'Explore the app' option allows the user to understand the app interface before they begin the devotion. Once you have completed the three on screen interactions, you will need to tap ‘Start Now’ for further devotionals to be viewed."
-      },
-      {
-        "title": "Can I speed up/slow down the speed of the audio devotion?",
-        "category": "Audio",
-        "shortAnswer": "Yes! After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds: 1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc\n",
-        "detailedAnswer": "Yes! Please ensure you have updated to the latest version of the app from the iOS App Store or Google Play on Android. After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds:\n\n1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc"
-      },
-      {
-        "title": "Can I share a devotion with a friend?",
-        "category": "Content",
-        "shortAnswer": "Yes! We would absolutely love you do this and encourage someone who might need to hear from God through the devotions and commentaries. To find the link, tap the ‘book’ icon on the day you wish to share and then the ‘share’ icon in the bottom left-hand corner of the popup that appears. You will then be able to select how you wish to share it, whether directly into a text message or email, or by copying the link and pasting it where you wish.",
-        "detailedAnswer": "Yes! We would absolutely love you do this and encourage someone who might need to hear from God through the devotions and commentaries. To find the link, tap the ‘book’ icon on the day you wish to share and then the ‘share’ icon in the bottom left-hand corner of the popup that appears. You will then be able to select how you wish to share it, whether directly into a text message or email, or by copying the link and pasting it where you wish."
-      },
-      {
-        "category": "App",
-        "title": "How can I reset my app?",
-        "shortAnswer": "Tap on Menu > Settings > Reset App. Follow the prompts and select the day number you last completed. The following day will show in the list view as Today. All previous days will show as complete.",
-        "detailedAnswer": "Tap on Menu > Settings > Reset App. Follow the prompts and select the day you last completed. The following day will show in the list view as Today. All previous days will show as complete."
-      },
-      {
-        "title": "How do I return to the list view and menu from within a devotion?",
-        "category": "Content",
-        "shortAnswer": "To return to the list view and the menu icon, swipe right from the left hand side of the screen on your device.",
-        "detailedAnswer": "To return to the list view and the menu icon, swipe right from the left hand side of the screen on your device."
-      },
-      {
-        "title": "What do the symbols mean in my list view?",
-        "category": "App",
-        "shortAnswer": "There are up to five symbols you might see on the list view.\n\nA red ‘tick’ within a circle: The devotion has been marked as completed.  \nBook icon: The bars next to it turn red to give you an indication of your reading progress through the devotion.  \nSpeaker icon: The day’s audio has been downloaded.  \nBroadcast icon: The day’s audio will be streamed live using your Wi-Fi or cellular data.\nArrow pointing to a square bracket: Located above the menu button in the red tab. Tap on this symbol to return to your last completed day and the next day for you to begin.",
-        "detailedAnswer": "There are up to five symbols you might see on the list view that help you understand your progress through the Bible in One Year plan and what your device is doing.\n\nA red ‘tick’ within a circle: The devotion has been marked as completed. This tick appears when you have scrolled through all the text or listened to the entire audio recording.\n\nBook icon: This is accompanied by bars that will turn red as you read the text which will give you an indication of your reading progress through the devotion.\n\nSpeaker icon: The day’s audio has been downloaded. This is often accompanied by how many minutes of audio you have remaining to listen to on that day, or the red completion ‘tick’.\n\nBroadcast icon: The day’s audio will be streamed live using your Wi-Fi or cellular data. If you are likely to want to continue listening in areas of low signal or no internet, please consider using the automatic download settings in the Settings menu, or download the single day’s audio by swiping right on the list view. \n\nIf you have swiped right you will also be able to use the download/bin icons and the rewind/tick icons.\n\nArrow pointing to a square bracket: This icon only appears if you scroll away from the next day you need to complete. Located above the menu button in the red tab. Tap on this symbol to return to your last completed day and the next day for you to begin."
-      },
-      {
-        "title": "Why does the app show a day number and not a date?",
-        "category": "App",
-        "shortAnswer": "In the past, we have offered Bible in One Year as a reading plan which anyone could join at any point, and everyone globally would be using the same readings. We are now moving to encouraging people to start the Bible in One Year from Day 1, regardless of what date they start on. This is because we believe it is easiest to understand the readings if they are started at the beginning, rather than picked up part way through.",
-        "detailedAnswer": "In the past, we have offered Bible in One Year as a reading plan which anyone could join at any point, and everyone globally would be using the same readings. We are now moving to encouraging people to start the Bible in One Year from Day 1, regardless of what date they start on. This is because we believe it is easiest to understand the readings if they are started at the beginning, rather than picked up part way through.\n\nThis has led to some confusion however where users weren’t sure why their 1 September devotion wasn’t the same as their friend’s 1 September devotion, or even the email and website. This was because the readings were based on the users’ start date rather than the calendar year, despite being named after the calendar year. We hope that by changing our naming convention from Jan 1, Jan 2 to Day 1, Day 2, it will be clearer for users to see that their devotions are named based on their start date and not the calendar year."
-      },
-      {
-        "title": "Can I adjust the number of days of audio stored on my device?",
-        "category": "App",
-        "shortAnswer": "You can adjust how many days of audio are stored on your device. Tap on Menu > Settings > Audio Downloads. Move the red circle along the line to adjust the number of days of audio that remain saved on your device. ",
-        "detailedAnswer": "You can adjust how many days of audio are stored on your device. Tap on Menu > Settings > Audio Downloads. Move the red circle along the line to adjust the number of days of audio that remain saved on your device. You can also select what options best suit you regarding mobile data and auto download."
-      },
-      {
-        "title": "How do I manually delete audio files that are saved to my device?",
-        "category": "Audio",
-        "shortAnswer": "Swipe right on the relevant day from the list view and tap the bin icon.\n\nTo delete more than one day of audio at once and view a list of all your downloaded audio, tap on Menu > Settings > Manage Audio. Tick the box to select which days you would like to delete or select all. Then tap on Delete Selected Audio.",
-        "detailedAnswer": "Swipe right on the relevant day from the list view and tap the bin icon. \n\nTo delete more than one day of audio at once and view a list of all your downloaded audio, tap on Menu > Settings > Manage Audio. Tick the box to select which days you would like to delete or select all. Then tap on Delete Selected Audio."
-      },
-      {
-        "title": "What is the structure of a day’s content?",
-        "category": "Content",
-        "shortAnswer": "Each day consists of three scriptures from different parts of the Bible and commentary and prayer reflections by Nicky Gumbel. The day starts with an Introduction, presenting the theme of the day. This is followed by a wisdom passage (Psalm or Proverb) and a commentary on that passage, a portion of the New Testament and then commentary on that, and a portion of the Old Testament and commentary on that. The devotion ends with a thought from Pippa Gumbel.",
-        "detailedAnswer": "Each day consists of three scriptures from different parts of the Bible and commentary and prayer reflections by Nicky Gumbel. The day starts with an Introduction, presenting the theme of the day. This is followed by a wisdom passage (Psalm or Proverb) and a commentary on that passage, a portion of the New Testament and then commentary on that, and a portion of the Old Testament and commentary on that. The devotion ends with a thought from Pippa Gumbel.\n\nIn the Express the scriptures are shorter and only reference small passages or a few verses. The Express and Youth edition both contain a verse of the day and thought of the day. The Youth edition also features an Action of the day."
-      },
-      {
-        "title": "What Bible translations are used across BiOY?",
-        "category": "Content",
-        "shortAnswer": "BiOY uses the New International Version (NIVUK), with some references to particular passages of Eugene Peterson’s The Message.",
-        "detailedAnswer": "BiOY uses New International Version (NIVUK), with some references to particular passages of Eugene Peterson’s The Message."
-      },
-      {
-        "title": "What does the icon above the menu button do?",
-        "category": "App",
-        "shortAnswer": "The icon is an arrow pointing to a square bracket. It will only appear if you scroll too far away from the next day you need to complete in the list view. Tap on the icon to quickly return to your last completed day in the list view.",
-        "detailedAnswer": "The icon is an arrow pointing to a square bracket. It will only appear if you scroll too far away from the next day you need to complete in the list view. Tap on the icon to quickly return to your last completed day in the list view."
-      },
-      {
-        "title": "Why is my devotion in the app on a different day to the website or daily email?",
-        "category": "Content",
-        "shortAnswer": "Your app readings are based on the date you started Bible in One Year. If you started with Day 1 on January 1st, your app readings will match the website and email readings. If you started with Day 1 on 2nd March, they will not match. This is because the website and email readings follow the year starting with Day 1 on 1st January. Tap the link to find out more.",
-        "detailedAnswer": "Your app readings are based on the date you started Bible in One Year. If you started with Day 1 on January 1st, your app readings will match the website and email readings. If you started with Day 1 on 2nd March, they will not match. This is because the website and email readings follow the year starting with Day 1 on 1st January. \n\nIf you would like your app to match the website and email devotion, please tap on Menu > Settings > Reset App. You will be taken back through the onboarding process and will need to select 'I am familiar with the Bible' and select the edition you wish to use. When asked what was the last day you got to, select yesterday's day number - as shown on the website. Your app will then be set up to match the email and the website."
-      },
-      {
-        "title": "How can I change my Edition?",
-        "category": "Content",
-        "shortAnswer": "If you would like to switch to a different Edition of the Bible In One Year plan you can find this in the Settings menu.",
-        "detailedAnswer": "If you would like to switch to a different Edition of the Bible In One Year plan you can find this in settings.\n\nNote: Express editions are available in German, English and Arabic. Youth Editions are available in Arabic and English. If your app is set to a language where an edition is not available, you will not be able to select it. To change edition, tap Edition and select either Classic, Express or Youth. Any content you have already completed will be downloaded again in this new edition format and your progress through the year will be saved."
-      },
-      {
-        "title": "I’m not able to play the audio, what should I do?",
-        "category": "Audio",
-        "shortAnswer": "Check if your app is up to date with the latest version.\n \n\nCheck if you have connectivity and other apps are working as they should be. \n\nIf the play icon is grey this means that your device is unable to download the audio and there is no internet connection. \n\n\nTest if your app will play the audio after downloading it manually (swipe right on the day in the list view and tap on the download icon, wait as the white circle turns red). Test again to see if the audio plays.\n\n\nIf you are using mobile data on the app, check your settings within the app to make sure mobile data can be used. (Tap on Menu > Settings > Audio Downloads and switch on the toggle for 'use mobile data').\n\n\nIf there is no play icon at all, please raise a bug report or support ticket with the BiOY team indicating what day number, edition and language you are unable to access.\n\n\nPlease also refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to auto download audio. You may find that the app has reached its audio download limit.",
-        "detailedAnswer": "Check if your app is up to date with the latest version. \n\nCheck if you have connectivity.\nIf the play icon is grey this means that your device is unable to download the audio and there is no internet connection. \n\nTest if your app will play the audio after downloading it manually (swipe right on the day in the list view and tap on the download icon, wait as the white circle turns red). Test again to see if the audio plays.\n\nIf you are using mobile data on the app, check your settings within the app to make sure mobile data can be used. (Tap on Menu > Settings > Audio Downloads and switch on the toggle for 'use mobile data').\n\nIf there is no play icon at all, please raise a bug report or support ticket with the BiOY team indicating what day number, edition and language you are unable to access.\n\nPlease also refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to auto download audio. You may find that the app has reached its audio download limit."
-      },
-      {
-        "title": "How do I stop my device auto-downloading audio files?",
-        "category": "Audio",
-        "shortAnswer": "Auto downloads can be managed in Settings, under the the ‘Audio Downloads’ section.",
-        "detailedAnswer": "Auto downloads can be managed in Settings, in the ‘Audio Downloads’ section.\n\nPlease note that turning Auto Downloads off won’t automatically delete any audio that has been downloaded already. Audio files stored on your phone can be deleted under ‘Settings’, in ‘Manage Audio’."
-      },
-      {
-        "title": "Can I listen to audio offline?",
-        "category": "Audio",
-        "detailedAnswer": "As long as you have the latest version of the app, you can do this in one of two ways.\n\n1. You can set up auto downloads, which will allow your phone to download the next day’s audio content automatically and keep it until you have listened to it. Go to Settings, Audio Downloads, and choose how many days audio you would like your app to download for you.\n\n2. Alternatively you can also manually download audio files, by swiping right on the day from the list view. This brings up a download button on the left, simply tap it to download the file.\n\nIf you are concerned about downloading over your mobile data, please ensure ‘Use mobile data’ is set to ‘Off’ on your device.",
-        "shortAnswer": "There are two ways of listening to audio offline."
-      },
-      {
-        "title": "How many days of audio are stored on my device?",
-        "category": "Audio",
-        "shortAnswer": "Tap on Menu > Settings > Manage Audio to find out how many days are currently stored on your device.",
-        "detailedAnswer": "Tap on Menu > Settings > Manage Audio to find out how many days are currently stored on your device."
-      },
-      {
-        "title": "What happens to my audio files if I change edition?",
-        "category": "Audio",
-        "shortAnswer": "Audio files are deleted if you change which edition your device is accessing. You can still download the audio files manually by swiping right on the day from the list view and tapping the download icon.",
-        "detailedAnswer": "Audio files are deleted if you change which edition your device is accessing. You can still download the audio files manually by swiping right on the day from the list view and tapping the download icon."
-      },
-      {
-        "title": "If I delete an audio file, can I ever get it back?",
-        "category": "Audio",
-        "shortAnswer": "You can download audio files at any time manually by swiping right on the day from the list view and clicking the download icon that appears.",
-        "detailedAnswer": "You can download audio files at any time manually by swiping right on the day from the list view and clicking the download icon that appears."
-      },
-      {
-        "title": "Do I have to download an audio file to listen to it?",
-        "category": "Audio",
-        "shortAnswer": "No, you can stream the audio over Wi-Fi or using mobile data if you prefer.",
-        "detailedAnswer": "No, you can stream the audio over wifi or using mobile data if you prefer."
-      },
-      {
-        "title": "How can I skip through different sections of the audio?",
-        "category": "Audio",
-        "shortAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio.",
-        "detailedAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio in this order: \n\nIntro, Proverbs/Psalm bible, Proverbs/Psalm Commentary, New Testament Bible, New Testament Commentary, Old Testament Bible, Old Testament Commentary, Pippa Adds. Additionally there is an option to skip 15 seconds forward or backwards through the audio. If you have no option to skip 15 seconds, please download the latest version of your app for this feature.\n\nThere is currently no option to skip through sections on the Youth edition."
-      },
-      {
-        "title": "Can I receive BiOY via email?",
-        "category": "Content",
-        "shortAnswer": "Yes. You can sign up to receive the BiOY Classic commentary from the BiOY homepage.",
-        "detailedAnswer": "Yes. If you would like to receive the BiOY Classic commentary by email, or if you have stopped receiving the daily BiOY emails and would like to re-subscribe, you can [sign up or re-subscribe here](https://bibleinoneyear.org/en/#start)."
-      },
-      {
-        "title": "What languages is BiOY available in?",
-        "category": "Content",
-        "shortAnswer": "Arabic, Bahasa Indonesia, English, Simplified Chinese, French, German, Hindi, Spanish, and Thai. ",
-        "detailedAnswer": "The Classic edition of BiOY is now available in Arabic, Bahasa Indonesia, English, Simplified Chinese, French, German, Hindi, Spanish, and Thai. The Express edition of BiOY is available in Arabic, English and German. The Youth edition is available in Arabic and English. Audio is available in English, Hindi, Chinese and German."
-      },
-      {
-        "title": "How do I access the new app Menu?",
-        "category": "App",
-        "shortAnswer": "When opening the app you will see the list view with the day numbers and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY.",
-        "detailedAnswer": "When opening the app you will see the list view with the day numbers and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY."
-      },
-      {
-        "title": "Can I change 'Today' to a different day number?",
-        "category": "App",
-        "shortAnswer": "If you would like to change the day number that you are on for today, please reset the app. Tap on Menu > Settings > Reset App. Follow the prompts, indicating that you are familiar with the Bible, select what plan you are on (Classic, Express or Youth edition) and the last day you got to.\n\nPlease note that your app will start on the day following the last day you got to. For example: if you select that you got to Day 23, the app will show Today as Day 24. All earlier devotions will be marked as complete when you do this.\n",
-        "detailedAnswer": "If you would like to change the day number that you are on for today, please reset the app. Tap on Menu > Settings > Reset App. Follow the prompts, indicating that you are familiar with the Bible, select what plan you are on (Classic, Express or Youth edition) and the last day you got to.\n\nPlease note that your app will start on the day following the last day you got to. For example: if you select that you got to Day 23, the app will show Today as Day 24. All earlier devotions will be marked as complete when you do this."
-      },
-      {
-        "title": "Why have you updated the app?",
-        "category": "App",
-        "shortAnswer": "We needed to move the app to a new platform to enable us to add more functionality and quality-of-life improvements that were not possible in the legacy BiOY app. Simply put, in order to improve the app, we had to rebuild it from the bottom up.",
-        "detailedAnswer": "We needed to move the app to a new platform to enable us to add more functionality and quality-of-life improvements that were not possible in the legacy BiOY app. Simply put, in order to improve the app, we had to rebuild it from the bottom up."
-      },
-      {
-        "title": "How can I donate via the app?",
-        "category": "App",
-        "shortAnswer": "Thank you for considering giving toward BiOY, you can donate through the app (tap on Menu > Give: Support the ministry of BiOY) or here on the BiOY website - click 'donate' at the top of the home page.",
-        "detailedAnswer": "Thank you for considering giving toward BiOY, you can donate through the app (tap on Menu > Give: Support the ministry of BiOY) or [here on the BiOY website](https://bibleinoneyear.org/en/donate/) - click 'donate' at the top of the home page."
-      },
-      {
-        "title": "Does this really contain the whole bible?",
-        "category": "Content",
-        "shortAnswer": "The entire bible is covered in the Classic edition of BiOY. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.",
-        "detailedAnswer": "The entire bible is covered in the Classic edition of BiOY. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.\n\nThe Youth and Express editions provide an abridged version of the Classic BiOY with selected scriptures from the book of Psalms or Proverbs, the New Testament and Old Testament. Not every verse in the bible is covered in these editions, however they do give a full experience of the bible."
-      },
-      {
-        "title": "I missed a day, can I catch up?",
-        "category": "Content",
-        "shortAnswer": "Yes, you can catch up because the content for the whole year is now available on the app. Tap on the day you missed in your list view. Once completed, swipe right to return to the list view and select another day. ",
-        "detailedAnswer": "Yes, you can catch up because the content for the whole year is now available on the app. Tap on the day you missed in your list view. Once completed, swipe right to return to the list view and select another day."
-      },
-      {
-        "title": "What editions are available?",
-        "category": "Content",
-        "shortAnswer": "In addition to the BiOY Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 11 - 13 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team and takes 12 - 14 minutes).",
-        "detailedAnswer": "In addition to the BiOY Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 11 - 13 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team and takes 12 - 14 minutes)."
-      },
-      {
-        "title": "Whose voices am I hearing in the audio tracks?",
-        "category": "Audio",
-        "shortAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team.",
-        "detailedAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team."
-      },
-      {
-        "title": "Can I synchronise the BiOY app between my phone and tablet?",
-        "category": "Audio",
-        "shortAnswer": "Not yet. There is currently no way to sync your progress through BiOY, although this is a feature that is being considered for 2022.",
-        "detailedAnswer": "Not yet. There is currently no way to sync your progress through BiOY, although this is a feature that is being considered for 2022."
-      },
-      {
-        "title": "Will the BiOY automatically reset after I complete Day 365?",
-        "category": "Content",
-        "shortAnswer": "No, the app is designed to prevent you loosing your progress if you have not completed over 255 days of devotions. Provided you are on version 8.4.0 of the app or later, the app will ask if you would like to restart the year once you have read more than 255 days of devotions, including December 31st. \n\nIf you would like to restart from Day 1 before completing the previous year, you will need to either scroll to the top of the list view and tap on the 'Start a new year' button or reset the app (tap on Menu > Settings > Reset app), which will allow you to go through the onboarding process again and select 'Day 1' as your start point.\n",
-        "detailedAnswer": "No, the app is designed to prevent you loosing your progress if you have not completed over 255 days of devotions. Provided you are on version 8.4.0 of the app or later, the app will ask if you would like to restart the year once you have read more than 255 days of devotions, including December 31st. \n\nIf you would like to restart from Day 1 before completing the previous year, you will need to either scroll to the top of the list view and tap on the 'Start a new year' button or reset the app (tap on Menu > Settings > Reset app), which will allow you to go through the onboarding process again and select 'Day 1' as your start point."
-      },
-      {
-        "title": "Is the commentary the same every year?",
-        "category": "Content",
-        "shortAnswer": "The majority of the content will be the same with small updates each year.",
-        "detailedAnswer": "The majority of the content will be the same with small updates each year."
-      },
-      {
-        "title": "How can I manually mark a devotion as complete/incomplete?",
-        "category": "App",
-        "shortAnswer": "To mark a devotion complete, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon. \n\nTo mark a devotion incomplete, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon.",
-        "detailedAnswer": "To mark a devotion complete, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon. \n\nTo mark a devotion incomplete, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon."
-      },
-      {
-        "title": "Can I track my reading progress per section of the devotion?",
-        "category": "App",
-        "shortAnswer": "Your reading progress is automatically tracked as you read through each day’s devotion. You will see a red bar appear (under the devotion title in the list view) for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’tick’ icon that appears next to the download/bin icon.",
-        "detailedAnswer": "Your reading progress is automatically tracked as you read through each day’s devotion. You will see a red bar appear (under the devotion title in the list view) for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’tick’ icon that appears next to the download/bin icon."
-      },
-      {
-        "title": "Can I jump between sections of the devotion text without having to scroll?",
-        "category": "App",
-        "shortAnswer": "Yes. Tap any of the sections presented under ‘Today’s Reading’ at the start of the devotion to quickly jump to that section. We have also built a navigation menu that is located above the play button. Tap on the book icon above the play button to open a pop-up menu with the option to navigate to any section of the devotion.",
-        "detailedAnswer": "Yes. Tap any of the sections presented under ‘Today’s Reading’ at the start of the devotion to quickly jump to that section. We have also built a navigation menu that is located above the play button. Tap on the book icon above the play button to open a pop-up menu with the option to navigate to any section of the devotion."
-      },
-      {
-        "title": "Help, my app is ‘locking’ and ‘bouncing’ in certain screens and pieces of content.",
-        "category": "App",
-        "shortAnswer": "The latest version of the app has improvements to help users distinguish between sections and reflect on what they have been reading. To continue reading, swipe up to read the next section.",
-        "detailedAnswer": "The latest version of the app has improvements to help users distinguish between sections and reflect on what they have been reading. To continue reading, swipe up to read the next section."
-      },
-      {
-        "title": "How can I manage audio?",
-        "category": "Audio",
-        "shortAnswer": "The app allows users to download audio in two different ways, manual and automatic.\n\nManual - audio can be downloaded by swiping left on a day and tapping the download icon. This provides a high level of control as to what is on your device at any time and it is recommended that you manually delete the audio from your device once you have finished listening to it.\n\nAutomatic - controlled by a section within Settings, the app is able to automatically download a number of audio days for you, up to a limit that you set. It will delete the audio from your device if you listen to it all the way through. The app will stop automatically downloading new audio when it reaches the limit. This happens when you have lots of automatically downloaded audio that you have only partially listened to. To resolve this, clear out your audio downloads: navigate to Menu > Settings > Manage Audio and select the audio you wish to delete.\n\n\n\n",
-        "detailedAnswer": "The app allows users to download audio in two different ways, manual and automatic.\n\nManual - audio can be downloaded by swiping left on a day and tapping the download icon. This provides a high level of control as to what is on your device at any time and it is recommended that you manually delete the audio from your device once you have finished listening to it.\n\nAutomatic - controlled by a section within Settings, the app is able to automatically download a number of audio days for you, up to a limit that you set. It will delete the audio from your device if you listen to it all the way through. The app will stop automatically downloading new audio when it reaches the limit. This happens when you have lots of automatically downloaded audio that you have only partially listened to. To resolve this, clear out your audio downloads: navigate to Menu > Settings > Manage Audio and select the audio you wish to delete. \n\nYou can adjust the automatic audio download limit by navigating to: Menu > Settings > Audio Downloads and then use the slider to set the number of audio days (between 1 and 14) you wish to store on your device."
-      },
-      {
-        "title": "I have got a new phone - do I have to lose my progress?",
-        "category": "App",
-        "detailedAnswer": "If you’ve had to re-install or move devices, please follow the steps below to restore your progress. \n\n* When you launch the app again for the first time, proceed through the onboarding, indicating that you are familiar with the Bible \n* Select your Edition \n* Select the last devotion that you completed. \n\nTo confirm which day you were on previously, you can browse through the devotions on our website (navigate forwards or backwards by one day by tapping on the arrows on the side of the screen). If you want to restart on the same day that the website and the email subscription are on (Day 1 = 1 January, Day 2 = 2 January), then click [here](https://bibleinoneyear.org/en/#today) (https://bibleinoneyear.org/en/#today) to find out what day number it is today.",
-        "shortAnswer": "No, you can tell the app which day you would like to start from and so restore your progress. Before switching devices, make a note of what day number you have completed."
-      },
-      {
-        "title": "My app shows a different devotion to my friends’ app. How do I get the same devotion as my friend?",
-        "category": "App",
-        "shortAnswer": "When installing the app for the first time you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both access the same devotion on the same day, reset your app. Tap on Menu > Settings > Reset App.",
-        "detailedAnswer": "When installing the app for the first time you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both access the same devotion on the same day, reset the app. Tap on Menu > Settings > Reset App. Follow the prompts indicating that you are familiar with the Bible and then select the edition you wish to use and the day number that your friend completed yesterday. You will then find the app opens to the list view with the following day number marked Today and all the previous devotions marked complete."
-      },
-      {
-        "title": "Can I still access 2021 readings?",
-        "category": "Content",
-        "shortAnswer": "If your app has 2022 content but you would still like to complete readings from 2021, you are able to do this either on the app (by scrolling forward) or online:\n\nhttps://bibleinoneyear.org/en/classic/365/\n\nSimply change the last digits to the day number you would like to read (between 1 and 365)",
-        "detailedAnswer": "Please  first check you have the latest version of the app installed. You can do this by going to menu > settings and checking the version which is listed at the bottom of the screen – it should say Bible in One Year 8.4.1 or later.  If that’s not the case, please go to your app store and update the app.\n\nIf your app is up to date, the new layout for the readings on the app means you are able to scroll forward through the whole year, back to where you had left off before. Depending on where you got up to in 2021, it may be worth going through the onboarding process again so that you can tell the app where you got up to. That would mean you don’t have to scroll through lots of readings each day to get back to where you were.  You can do this by going to menu > settings and selecting ‘reset app’, and you will be able to tell the app which day you would like to start from as part of the re-onbaording process that will subsequently pop up.\n\nYou can also access any day’s readings online here:\n\n<https://bibleinoneyear.org/en/classic/365/>\n\nSimply change the last digits to the day number you would like to read (between 1 and 365)"
-      },
-      {
-        "title": "I can't access app content, my app shows a white screen instead",
-        "category": "Content",
-        "shortAnswer": " This bug is known to us and we are working hard to fix it. In the meantime, please use this interim solution:\n\nLong press on the app icon (whether on the home screen shortcut of your device, or from the menu/list of apps within google play)\n• Tap ‘App Info’\n• Tap ‘Force stop’\n• Try opening the app again\n",
-        "detailedAnswer": "This issue where the app brings up a white screen rather than any content seems to be affecting a small number of Android users. Please use this interim fix while we work on a better solution.\n\n• Long press on the app icon (whether on the home screen shortcut of your device, or from the menu/list of apps within google play)\n• Tap ‘App Info’\n• Tap ‘Force stop’\n• Try opening the app again\n\nYou can also read the devotions online on our website https://bibleinoneyear.org or by subscribing to the daily email. If you prefer the audio, you can listen to the devotions as podcasts (Spotify, Apple, Google podcasts).\n\nWe do apologise and ask for your patience whilst we prioritise fixing this."
-      },
-      {
-        "title": "How can I access 2022 content?",
-        "category": "Content",
-        "shortAnswer": "If your app is still showing 2021 content, you can go to Menu > Settings > Reset app. This will take you through the onboarding process again, allowing you to select your start day and giving you access to 2022 content.",
-        "detailedAnswer": "The app logic is built to ask users if they would like to restart the year only once they have completed 255 days of readings, including Dec 31st. If you would like to restart the readings from the beginning before this point, you can do so by going to Menu > Settings > Reset app. \n\nThis will take you through the onboarding process again, allowing you to select your start day and giving you access to 2022 content. Please check your app is up to date (version 8.4.1 or later) if you can’t see the ‘reset’ button."
-      },
-      {
-        "title": "Have the 2022 readings been updated?",
-        "category": "Content",
-        "shortAnswer": "In 2022 we are only making slight tweaks to the content, so if you have done the Bible in One Year before, it may sound familiar to you. We trust however that God will speak to you through his word in fresh ways each year.",
-        "detailedAnswer": "In 2022 we are only making slight tweaks to the content, so if you have done the Bible in One Year before, it may sound familiar to you. We trust however that God will speak to you through his word in fresh ways each year."
-      },
-      {
-        "title": "If I started BiOY with Day 1 on 1 January, what day number is today?",
-        "category": "Content",
-        "shortAnswer": "You can view the day number for today at this link: https://bibleinoneyear.org/en/#todays-devotion",
-        "detailedAnswer": "You can view the day number for today at [this link](https://bibleinoneyear.org/en/#todays-devotion)."
-      },
-      {
-        "title": "The app has taken me back to Day 1, how do I get back to my place? ",
-        "category": "App",
-        "shortAnswer": "You can reset the app and resume your place within the app. Tap on Menu > Settings > Reset App. Follow the prompts and then select the day number you last completed. The following day will show as Today in your list view and all previous days will be marked complete.",
-        "detailedAnswer": "You can reset the app and resume your place within the app. Tap on Menu > Settings > Reset App. Follow the prompts and then select the day number you last completed. The following day will show as Today in your list view and all previous days will be marked complete."
-      }
-    ],
-    "seeMore": "See More",
-    "submitButton": "Submit a support request",
-    "intro": "**Got a question about Bible in One Year?**\n\nA problem with app? Start typing your question here…",
-    "notFoundMessage": "Sorry, we don’t have any results for",
-    "title": "FAQs",
-    "filter": "Filter",
-    "backButton": "Back to all Frequently Asked Questions (FAQs)",
-    "categories": {
-      "Audio": "Audio",
-      "Content": "Content",
-      "App": "App"
-    },
-    "filterHint": "What are you looking for?"
-  },
-  "vi": {
-    "faqsItems": [
-      {
-        "title": "I can’t see beyond Day One after my first install",
-        "category": "Content",
-        "shortAnswer": "Any new user of the BiOY app will need step through an ‘onboarding process’. Here we help you find the best route to start your BiOY journey. Once completed, there are two options for you to choose from before you begin. ‘Start Now’ or ‘Explore the app’...",
-        "detailedAnswer": "Any new user of the BiOY app will need step through an ‘onboarding process’. Here we help you find the best route to start your BiOY journey. Once completed, there are two options for you to choose from before you begin. ‘Start Now’ or ‘Explore the app’.\\\n\\\nStart Now.\\\nIf you select ‘Start Now’ the app, will automaticity open on Day One. A swipe to the left will reveal the devotion list as well as the option to open the settings menu, located in the lower left. \\\n\\\nExplore The App \\\nTapping the 'Explore the app' option allows the user to understand the app interface before they begin the devotion. Once you have completed the three on screen interactions, you will need to tap ‘Start Now’ for further devotionals to be viewed."
-      },
-      {
-        "title": "Can I speed up/slow down the speed of the audio devotion?",
-        "category": "Audio",
-        "shortAnswer": "Yes! After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds: 1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc\n",
-        "detailedAnswer": "Yes! Please ensure you have updated to the latest version of the app from the iOS App Store or Google Play on Android. After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds:\n\n1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc"
-      },
-      {
-        "title": "Can I share a devotion with a friend?",
-        "category": "Content",
-        "shortAnswer": "Yes! We would absolutely love you do this and encourage someone who might need to hear from God through the devotions and commentaries. To find the link, tap the ‘book’ icon on the day you wish to share and then the ‘share’ icon in the bottom left-hand corner of the popup that appears. You will then be able to select how you wish to share it, whether directly into a text message or email, or by copying the link and pasting it where you wish.",
-        "detailedAnswer": "Yes! We would absolutely love you do this and encourage someone who might need to hear from God through the devotions and commentaries. To find the link, tap the ‘book’ icon on the day you wish to share and then the ‘share’ icon in the bottom left-hand corner of the popup that appears. You will then be able to select how you wish to share it, whether directly into a text message or email, or by copying the link and pasting it where you wish."
-      },
-      {
-        "category": "App",
-        "title": "How can I reset my app?",
-        "shortAnswer": "Tap on Menu > Settings > Reset App. Follow the prompts and select the day number you last completed. The following day will show in the list view as Today. All previous days will show as complete.",
-        "detailedAnswer": "Tap on Menu > Settings > Reset App. Follow the prompts and select the day you last completed. The following day will show in the list view as Today. All previous days will show as complete."
-      },
-      {
-        "title": "How do I return to the list view and menu from within a devotion?",
-        "category": "Content",
-        "shortAnswer": "To return to the list view and the menu icon, swipe right from the left hand side of the screen on your device.",
-        "detailedAnswer": "To return to the list view and the menu icon, swipe right from the left hand side of the screen on your device."
-      },
-      {
-        "title": "What do the symbols mean in my list view?",
-        "category": "App",
-        "shortAnswer": "There are up to five symbols you might see on the list view.\n\nA red ‘tick’ within a circle: The devotion has been marked as completed.  \nBook icon: The bars next to it turn red to give you an indication of your reading progress through the devotion.  \nSpeaker icon: The day’s audio has been downloaded.  \nBroadcast icon: The day’s audio will be streamed live using your Wi-Fi or cellular data.\nArrow pointing to a square bracket: Located above the menu button in the red tab. Tap on this symbol to return to your last completed day and the next day for you to begin.",
-        "detailedAnswer": "There are up to five symbols you might see on the list view that help you understand your progress through the Bible in One Year plan and what your device is doing.\n\nA red ‘tick’ within a circle: The devotion has been marked as completed. This tick appears when you have scrolled through all the text or listened to the entire audio recording.\n\nBook icon: This is accompanied by bars that will turn red as you read the text which will give you an indication of your reading progress through the devotion.\n\nSpeaker icon: The day’s audio has been downloaded. This is often accompanied by how many minutes of audio you have remaining to listen to on that day, or the red completion ‘tick’.\n\nBroadcast icon: The day’s audio will be streamed live using your Wi-Fi or cellular data. If you are likely to want to continue listening in areas of low signal or no internet, please consider using the automatic download settings in the Settings menu, or download the single day’s audio by swiping right on the list view. \n\nIf you have swiped right you will also be able to use the download/bin icons and the rewind/tick icons.\n\nArrow pointing to a square bracket: This icon only appears if you scroll away from the next day you need to complete. Located above the menu button in the red tab. Tap on this symbol to return to your last completed day and the next day for you to begin."
-      },
-      {
-        "title": "Why does the app show a day number and not a date?",
-        "category": "App",
-        "shortAnswer": "In the past, we have offered Bible in One Year as a reading plan which anyone could join at any point, and everyone globally would be using the same readings. We are now moving to encouraging people to start the Bible in One Year from Day 1, regardless of what date they start on. This is because we believe it is easiest to understand the readings if they are started at the beginning, rather than picked up part way through.",
-        "detailedAnswer": "In the past, we have offered Bible in One Year as a reading plan which anyone could join at any point, and everyone globally would be using the same readings. We are now moving to encouraging people to start the Bible in One Year from Day 1, regardless of what date they start on. This is because we believe it is easiest to understand the readings if they are started at the beginning, rather than picked up part way through.\n\nThis has led to some confusion however where users weren’t sure why their 1 September devotion wasn’t the same as their friend’s 1 September devotion, or even the email and website. This was because the readings were based on the users’ start date rather than the calendar year, despite being named after the calendar year. We hope that by changing our naming convention from Jan 1, Jan 2 to Day 1, Day 2, it will be clearer for users to see that their devotions are named based on their start date and not the calendar year."
-      },
-      {
-        "title": "Can I adjust the number of days of audio stored on my device?",
-        "category": "App",
-        "shortAnswer": "You can adjust how many days of audio are stored on your device. Tap on Menu > Settings > Audio Downloads. Move the red circle along the line to adjust the number of days of audio that remain saved on your device. ",
-        "detailedAnswer": "You can adjust how many days of audio are stored on your device. Tap on Menu > Settings > Audio Downloads. Move the red circle along the line to adjust the number of days of audio that remain saved on your device. You can also select what options best suit you regarding mobile data and auto download."
-      },
-      {
-        "title": "How do I manually delete audio files that are saved to my device?",
-        "category": "Audio",
-        "shortAnswer": "Swipe right on the relevant day from the list view and tap the bin icon.\n\nTo delete more than one day of audio at once and view a list of all your downloaded audio, tap on Menu > Settings > Manage Audio. Tick the box to select which days you would like to delete or select all. Then tap on Delete Selected Audio.",
-        "detailedAnswer": "Swipe right on the relevant day from the list view and tap the bin icon. \n\nTo delete more than one day of audio at once and view a list of all your downloaded audio, tap on Menu > Settings > Manage Audio. Tick the box to select which days you would like to delete or select all. Then tap on Delete Selected Audio."
-      },
-      {
-        "title": "What is the structure of a day’s content?",
-        "category": "Content",
-        "shortAnswer": "Each day consists of three scriptures from different parts of the Bible and commentary and prayer reflections by Nicky Gumbel. The day starts with an Introduction, presenting the theme of the day. This is followed by a wisdom passage (Psalm or Proverb) and a commentary on that passage, a portion of the New Testament and then commentary on that, and a portion of the Old Testament and commentary on that. The devotion ends with a thought from Pippa Gumbel.",
-        "detailedAnswer": "Each day consists of three scriptures from different parts of the Bible and commentary and prayer reflections by Nicky Gumbel. The day starts with an Introduction, presenting the theme of the day. This is followed by a wisdom passage (Psalm or Proverb) and a commentary on that passage, a portion of the New Testament and then commentary on that, and a portion of the Old Testament and commentary on that. The devotion ends with a thought from Pippa Gumbel.\n\nIn the Express the scriptures are shorter and only reference small passages or a few verses. The Express and Youth edition both contain a verse of the day and thought of the day. The Youth edition also features an Action of the day."
-      },
-      {
-        "title": "What Bible translations are used across BiOY?",
-        "category": "Content",
-        "shortAnswer": "BiOY uses the New International Version (NIVUK), with some references to particular passages of Eugene Peterson’s The Message.",
-        "detailedAnswer": "BiOY uses New International Version (NIVUK), with some references to particular passages of Eugene Peterson’s The Message."
-      },
-      {
-        "title": "What does the icon above the menu button do?",
-        "category": "App",
-        "shortAnswer": "The icon is an arrow pointing to a square bracket. It will only appear if you scroll too far away from the next day you need to complete in the list view. Tap on the icon to quickly return to your last completed day in the list view.",
-        "detailedAnswer": "The icon is an arrow pointing to a square bracket. It will only appear if you scroll too far away from the next day you need to complete in the list view. Tap on the icon to quickly return to your last completed day in the list view."
-      },
-      {
-        "title": "Why is my devotion in the app on a different day to the website or daily email?",
-        "category": "Content",
-        "shortAnswer": "Your app readings are based on the date you started Bible in One Year. If you started with Day 1 on January 1st, your app readings will match the website and email readings. If you started with Day 1 on 2nd March, they will not match. This is because the website and email readings follow the year starting with Day 1 on 1st January. Tap the link to find out more.",
-        "detailedAnswer": "Your app readings are based on the date you started Bible in One Year. If you started with Day 1 on January 1st, your app readings will match the website and email readings. If you started with Day 1 on 2nd March, they will not match. This is because the website and email readings follow the year starting with Day 1 on 1st January. \n\nIf you would like your app to match the website and email devotion, please tap on Menu > Settings > Reset App. You will be taken back through the onboarding process and will need to select 'I am familiar with the Bible' and select the edition you wish to use. When asked what was the last day you got to, select yesterday's day number - as shown on the website. Your app will then be set up to match the email and the website."
-      },
-      {
-        "title": "How can I change my Edition?",
-        "category": "Content",
-        "shortAnswer": "If you would like to switch to a different Edition of the Bible In One Year plan you can find this in the Settings menu.",
-        "detailedAnswer": "If you would like to switch to a different Edition of the Bible In One Year plan you can find this in settings.\n\nNote: Express editions are available in German, English and Arabic. Youth Editions are available in Arabic and English. If your app is set to a language where an edition is not available, you will not be able to select it. To change edition, tap Edition and select either Classic, Express or Youth. Any content you have already completed will be downloaded again in this new edition format and your progress through the year will be saved."
-      },
-      {
-        "title": "I’m not able to play the audio, what should I do?",
-        "category": "Audio",
-        "shortAnswer": "Check if your app is up to date with the latest version.\n \n\nCheck if you have connectivity and other apps are working as they should be. \n\nIf the play icon is grey this means that your device is unable to download the audio and there is no internet connection. \n\n\nTest if your app will play the audio after downloading it manually (swipe right on the day in the list view and tap on the download icon, wait as the white circle turns red). Test again to see if the audio plays.\n\n\nIf you are using mobile data on the app, check your settings within the app to make sure mobile data can be used. (Tap on Menu > Settings > Audio Downloads and switch on the toggle for 'use mobile data').\n\n\nIf there is no play icon at all, please raise a bug report or support ticket with the BiOY team indicating what day number, edition and language you are unable to access.\n\n\nPlease also refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to auto download audio. You may find that the app has reached its audio download limit.",
-        "detailedAnswer": "Check if your app is up to date with the latest version. \n\nCheck if you have connectivity.\nIf the play icon is grey this means that your device is unable to download the audio and there is no internet connection. \n\nTest if your app will play the audio after downloading it manually (swipe right on the day in the list view and tap on the download icon, wait as the white circle turns red). Test again to see if the audio plays.\n\nIf you are using mobile data on the app, check your settings within the app to make sure mobile data can be used. (Tap on Menu > Settings > Audio Downloads and switch on the toggle for 'use mobile data').\n\nIf there is no play icon at all, please raise a bug report or support ticket with the BiOY team indicating what day number, edition and language you are unable to access.\n\nPlease also refer to the FAQ regarding managing audio downloads to ensure your app has sufficient space to auto download audio. You may find that the app has reached its audio download limit."
-      },
-      {
-        "title": "How do I stop my device auto-downloading audio files?",
-        "category": "Audio",
-        "shortAnswer": "Auto downloads can be managed in Settings, under the the ‘Audio Downloads’ section.",
-        "detailedAnswer": "Auto downloads can be managed in Settings, in the ‘Audio Downloads’ section.\n\nPlease note that turning Auto Downloads off won’t automatically delete any audio that has been downloaded already. Audio files stored on your phone can be deleted under ‘Settings’, in ‘Manage Audio’."
-      },
-      {
-        "title": "Can I listen to audio offline?",
-        "category": "Audio",
-        "detailedAnswer": "As long as you have the latest version of the app, you can do this in one of two ways.\n\n1. You can set up auto downloads, which will allow your phone to download the next day’s audio content automatically and keep it until you have listened to it. Go to Settings, Audio Downloads, and choose how many days audio you would like your app to download for you.\n\n2. Alternatively you can also manually download audio files, by swiping right on the day from the list view. This brings up a download button on the left, simply tap it to download the file.\n\nIf you are concerned about downloading over your mobile data, please ensure ‘Use mobile data’ is set to ‘Off’ on your device.",
-        "shortAnswer": "There are two ways of listening to audio offline."
-      },
-      {
-        "title": "How many days of audio are stored on my device?",
-        "category": "Audio",
-        "shortAnswer": "Tap on Menu > Settings > Manage Audio to find out how many days are currently stored on your device.",
-        "detailedAnswer": "Tap on Menu > Settings > Manage Audio to find out how many days are currently stored on your device."
-      },
-      {
-        "title": "What happens to my audio files if I change edition?",
-        "category": "Audio",
-        "shortAnswer": "Audio files are deleted if you change which edition your device is accessing. You can still download the audio files manually by swiping right on the day from the list view and tapping the download icon.",
-        "detailedAnswer": "Audio files are deleted if you change which edition your device is accessing. You can still download the audio files manually by swiping right on the day from the list view and tapping the download icon."
-      },
-      {
-        "title": "If I delete an audio file, can I ever get it back?",
-        "category": "Audio",
-        "shortAnswer": "You can download audio files at any time manually by swiping right on the day from the list view and clicking the download icon that appears.",
-        "detailedAnswer": "You can download audio files at any time manually by swiping right on the day from the list view and clicking the download icon that appears."
-      },
-      {
-        "title": "Do I have to download an audio file to listen to it?",
-        "category": "Audio",
-        "shortAnswer": "No, you can stream the audio over Wi-Fi or using mobile data if you prefer.",
-        "detailedAnswer": "No, you can stream the audio over wifi or using mobile data if you prefer."
-      },
-      {
-        "title": "How can I skip through different sections of the audio?",
-        "category": "Audio",
-        "shortAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio.",
-        "detailedAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio in this order: \n\nIntro, Proverbs/Psalm bible, Proverbs/Psalm Commentary, New Testament Bible, New Testament Commentary, Old Testament Bible, Old Testament Commentary, Pippa Adds. Additionally there is an option to skip 15 seconds forward or backwards through the audio. If you have no option to skip 15 seconds, please download the latest version of your app for this feature.\n\nThere is currently no option to skip through sections on the Youth edition."
-      },
-      {
-        "title": "Can I receive BiOY via email?",
-        "category": "Content",
-        "shortAnswer": "Yes. You can sign up to receive the BiOY Classic commentary from the BiOY homepage.",
-        "detailedAnswer": "Yes. If you would like to receive the BiOY Classic commentary by email, or if you have stopped receiving the daily BiOY emails and would like to re-subscribe, you can [sign up or re-subscribe here](https://bibleinoneyear.org/en/#start)."
-      },
-      {
-        "title": "What languages is BiOY available in?",
-        "category": "Content",
-        "shortAnswer": "Arabic, Bahasa Indonesia, English, Simplified Chinese, French, German, Hindi, Spanish, and Thai. ",
-        "detailedAnswer": "The Classic edition of BiOY is now available in Arabic, Bahasa Indonesia, English, Simplified Chinese, French, German, Hindi, Spanish, and Thai. The Express edition of BiOY is available in Arabic, English and German. The Youth edition is available in Arabic and English. Audio is available in English, Hindi, Chinese and German."
-      },
-      {
-        "title": "How do I access the new app Menu?",
-        "category": "App",
-        "shortAnswer": "When opening the app you will see the list view with the day numbers and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY.",
-        "detailedAnswer": "When opening the app you will see the list view with the day numbers and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY."
-      },
-      {
-        "title": "Can I change 'Today' to a different day number?",
-        "category": "App",
-        "shortAnswer": "If you would like to change the day number that you are on for today, please reset the app. Tap on Menu > Settings > Reset App. Follow the prompts, indicating that you are familiar with the Bible, select what plan you are on (Classic, Express or Youth edition) and the last day you got to.\n\nPlease note that your app will start on the day following the last day you got to. For example: if you select that you got to Day 23, the app will show Today as Day 24. All earlier devotions will be marked as complete when you do this.\n",
-        "detailedAnswer": "If you would like to change the day number that you are on for today, please reset the app. Tap on Menu > Settings > Reset App. Follow the prompts, indicating that you are familiar with the Bible, select what plan you are on (Classic, Express or Youth edition) and the last day you got to.\n\nPlease note that your app will start on the day following the last day you got to. For example: if you select that you got to Day 23, the app will show Today as Day 24. All earlier devotions will be marked as complete when you do this."
-      },
-      {
-        "title": "Why have you updated the app?",
-        "category": "App",
-        "shortAnswer": "We needed to move the app to a new platform to enable us to add more functionality and quality-of-life improvements that were not possible in the legacy BiOY app. Simply put, in order to improve the app, we had to rebuild it from the bottom up.",
-        "detailedAnswer": "We needed to move the app to a new platform to enable us to add more functionality and quality-of-life improvements that were not possible in the legacy BiOY app. Simply put, in order to improve the app, we had to rebuild it from the bottom up."
-      },
-      {
-        "title": "How can I donate via the app?",
-        "category": "App",
-        "shortAnswer": "Thank you for considering giving toward BiOY, you can donate through the app (tap on Menu > Give: Support the ministry of BiOY) or here on the BiOY website - click 'donate' at the top of the home page.",
-        "detailedAnswer": "Thank you for considering giving toward BiOY, you can donate through the app (tap on Menu > Give: Support the ministry of BiOY) or [here on the BiOY website](https://bibleinoneyear.org/en/donate/) - click 'donate' at the top of the home page."
-      },
-      {
-        "title": "Does this really contain the whole bible?",
-        "category": "Content",
-        "shortAnswer": "The entire bible is covered in the Classic edition of BiOY. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.",
-        "detailedAnswer": "The entire bible is covered in the Classic edition of BiOY. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.\n\nThe Youth and Express editions provide an abridged version of the Classic BiOY with selected scriptures from the book of Psalms or Proverbs, the New Testament and Old Testament. Not every verse in the bible is covered in these editions, however they do give a full experience of the bible."
-      },
-      {
-        "title": "I missed a day, can I catch up?",
-        "category": "Content",
-        "shortAnswer": "Yes, you can catch up because the content for the whole year is now available on the app. Tap on the day you missed in your list view. Once completed, swipe right to return to the list view and select another day. ",
-        "detailedAnswer": "Yes, you can catch up because the content for the whole year is now available on the app. Tap on the day you missed in your list view. Once completed, swipe right to return to the list view and select another day."
-      },
-      {
-        "title": "What editions are available?",
-        "category": "Content",
-        "shortAnswer": "In addition to the BiOY Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 11 - 13 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team and takes 12 - 14 minutes).",
-        "detailedAnswer": "In addition to the BiOY Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 11 - 13 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team and takes 12 - 14 minutes)."
-      },
-      {
-        "title": "Whose voices am I hearing in the audio tracks?",
-        "category": "Audio",
-        "shortAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team.",
-        "detailedAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team."
-      },
-      {
-        "title": "Can I synchronise the BiOY app between my phone and tablet?",
-        "category": "Audio",
-        "shortAnswer": "Not yet. There is currently no way to sync your progress through BiOY, although this is a feature that is being considered for 2022.",
-        "detailedAnswer": "Not yet. There is currently no way to sync your progress through BiOY, although this is a feature that is being considered for 2022."
-      },
-      {
-        "title": "Will the BiOY automatically reset after I complete Day 365?",
-        "category": "Content",
-        "shortAnswer": "No, the app is designed to prevent you loosing your progress if you have not completed over 255 days of devotions. Provided you are on version 8.4.0 of the app or later, the app will ask if you would like to restart the year once you have read more than 255 days of devotions, including December 31st. \n\nIf you would like to restart from Day 1 before completing the previous year, you will need to either scroll to the top of the list view and tap on the 'Start a new year' button or reset the app (tap on Menu > Settings > Reset app), which will allow you to go through the onboarding process again and select 'Day 1' as your start point.\n",
-        "detailedAnswer": "No, the app is designed to prevent you loosing your progress if you have not completed over 255 days of devotions. Provided you are on version 8.4.0 of the app or later, the app will ask if you would like to restart the year once you have read more than 255 days of devotions, including December 31st. \n\nIf you would like to restart from Day 1 before completing the previous year, you will need to either scroll to the top of the list view and tap on the 'Start a new year' button or reset the app (tap on Menu > Settings > Reset app), which will allow you to go through the onboarding process again and select 'Day 1' as your start point."
-      },
-      {
-        "title": "Is the commentary the same every year?",
-        "category": "Content",
-        "shortAnswer": "The majority of the content will be the same with small updates each year.",
-        "detailedAnswer": "The majority of the content will be the same with small updates each year."
-      },
-      {
-        "title": "How can I manually mark a devotion as complete/incomplete?",
-        "category": "App",
-        "shortAnswer": "To mark a devotion complete, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon. \n\nTo mark a devotion incomplete, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon.",
-        "detailedAnswer": "To mark a devotion complete, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon. \n\nTo mark a devotion incomplete, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon."
-      },
-      {
-        "title": "Can I track my reading progress per section of the devotion?",
-        "category": "App",
-        "shortAnswer": "Your reading progress is automatically tracked as you read through each day’s devotion. You will see a red bar appear (under the devotion title in the list view) for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’tick’ icon that appears next to the download/bin icon.",
-        "detailedAnswer": "Your reading progress is automatically tracked as you read through each day’s devotion. You will see a red bar appear (under the devotion title in the list view) for each section of the devotion that you read. If you are following the devotion plan, but only reading one section of it this year (e.g. a whole year of just the Old Testament), you can mark a day as ‘Done’ from the list view by swiping right on the day from the list view and tap the ’tick’ icon that appears next to the download/bin icon."
-      },
-      {
-        "title": "Can I jump between sections of the devotion text without having to scroll?",
-        "category": "App",
-        "shortAnswer": "Yes. Tap any of the sections presented under ‘Today’s Reading’ at the start of the devotion to quickly jump to that section. We have also built a navigation menu that is located above the play button. Tap on the book icon above the play button to open a pop-up menu with the option to navigate to any section of the devotion.",
-        "detailedAnswer": "Yes. Tap any of the sections presented under ‘Today’s Reading’ at the start of the devotion to quickly jump to that section. We have also built a navigation menu that is located above the play button. Tap on the book icon above the play button to open a pop-up menu with the option to navigate to any section of the devotion."
-      },
-      {
-        "title": "Help, my app is ‘locking’ and ‘bouncing’ in certain screens and pieces of content.",
-        "category": "App",
-        "shortAnswer": "The latest version of the app has improvements to help users distinguish between sections and reflect on what they have been reading. To continue reading, swipe up to read the next section.",
-        "detailedAnswer": "The latest version of the app has improvements to help users distinguish between sections and reflect on what they have been reading. To continue reading, swipe up to read the next section."
-      },
-      {
-        "title": "How can I manage audio?",
-        "category": "Audio",
-        "shortAnswer": "The app allows users to download audio in two different ways, manual and automatic.\n\nManual - audio can be downloaded by swiping left on a day and tapping the download icon. This provides a high level of control as to what is on your device at any time and it is recommended that you manually delete the audio from your device once you have finished listening to it.\n\nAutomatic - controlled by a section within Settings, the app is able to automatically download a number of audio days for you, up to a limit that you set. It will delete the audio from your device if you listen to it all the way through. The app will stop automatically downloading new audio when it reaches the limit. This happens when you have lots of automatically downloaded audio that you have only partially listened to. To resolve this, clear out your audio downloads: navigate to Menu > Settings > Manage Audio and select the audio you wish to delete.\n\n\n\n",
-        "detailedAnswer": "The app allows users to download audio in two different ways, manual and automatic.\n\nManual - audio can be downloaded by swiping left on a day and tapping the download icon. This provides a high level of control as to what is on your device at any time and it is recommended that you manually delete the audio from your device once you have finished listening to it.\n\nAutomatic - controlled by a section within Settings, the app is able to automatically download a number of audio days for you, up to a limit that you set. It will delete the audio from your device if you listen to it all the way through. The app will stop automatically downloading new audio when it reaches the limit. This happens when you have lots of automatically downloaded audio that you have only partially listened to. To resolve this, clear out your audio downloads: navigate to Menu > Settings > Manage Audio and select the audio you wish to delete. \n\nYou can adjust the automatic audio download limit by navigating to: Menu > Settings > Audio Downloads and then use the slider to set the number of audio days (between 1 and 14) you wish to store on your device."
-      },
-      {
-        "title": "I have got a new phone - do I have to lose my progress?",
-        "category": "App",
-        "detailedAnswer": "If you’ve had to re-install or move devices, please follow the steps below to restore your progress. \n\n* When you launch the app again for the first time, proceed through the onboarding, indicating that you are familiar with the Bible \n* Select your Edition \n* Select the last devotion that you completed. \n\nTo confirm which day you were on previously, you can browse through the devotions on our website (navigate forwards or backwards by one day by tapping on the arrows on the side of the screen). If you want to restart on the same day that the website and the email subscription are on (Day 1 = 1 January, Day 2 = 2 January), then click [here](https://bibleinoneyear.org/en/#today) (https://bibleinoneyear.org/en/#today) to find out what day number it is today.",
-        "shortAnswer": "No, you can tell the app which day you would like to start from and so restore your progress. Before switching devices, make a note of what day number you have completed."
-      },
-      {
-        "title": "My app shows a different devotion to my friends’ app. How do I get the same devotion as my friend?",
-        "category": "App",
-        "shortAnswer": "When installing the app for the first time you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both access the same devotion on the same day, reset your app. Tap on Menu > Settings > Reset App.",
-        "detailedAnswer": "When installing the app for the first time you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both access the same devotion on the same day, reset the app. Tap on Menu > Settings > Reset App. Follow the prompts indicating that you are familiar with the Bible and then select the edition you wish to use and the day number that your friend completed yesterday. You will then find the app opens to the list view with the following day number marked Today and all the previous devotions marked complete."
-      },
-      {
-        "title": "Can I still access 2021 readings?",
-        "category": "Content",
-        "shortAnswer": "If your app has 2022 content but you would still like to complete readings from 2021, you are able to do this either on the app (by scrolling forward) or online:\n\nhttps://bibleinoneyear.org/en/classic/365/\n\nSimply change the last digits to the day number you would like to read (between 1 and 365)",
-        "detailedAnswer": "Please  first check you have the latest version of the app installed. You can do this by going to menu > settings and checking the version which is listed at the bottom of the screen – it should say Bible in One Year 8.4.1 or later.  If that’s not the case, please go to your app store and update the app.\n\nIf your app is up to date, the new layout for the readings on the app means you are able to scroll forward through the whole year, back to where you had left off before. Depending on where you got up to in 2021, it may be worth going through the onboarding process again so that you can tell the app where you got up to. That would mean you don’t have to scroll through lots of readings each day to get back to where you were.  You can do this by going to menu > settings and selecting ‘reset app’, and you will be able to tell the app which day you would like to start from as part of the re-onbaording process that will subsequently pop up.\n\nYou can also access any day’s readings online here:\n\n<https://bibleinoneyear.org/en/classic/365/>\n\nSimply change the last digits to the day number you would like to read (between 1 and 365)"
-      },
-      {
-        "title": "I can't access app content, my app shows a white screen instead",
-        "category": "Content",
-        "shortAnswer": " This bug is known to us and we are working hard to fix it. In the meantime, please use this interim solution:\n\nLong press on the app icon (whether on the home screen shortcut of your device, or from the menu/list of apps within google play)\n• Tap ‘App Info’\n• Tap ‘Force stop’\n• Try opening the app again\n",
-        "detailedAnswer": "This issue where the app brings up a white screen rather than any content seems to be affecting a small number of Android users. Please use this interim fix while we work on a better solution.\n\n• Long press on the app icon (whether on the home screen shortcut of your device, or from the menu/list of apps within google play)\n• Tap ‘App Info’\n• Tap ‘Force stop’\n• Try opening the app again\n\nYou can also read the devotions online on our website https://bibleinoneyear.org or by subscribing to the daily email. If you prefer the audio, you can listen to the devotions as podcasts (Spotify, Apple, Google podcasts).\n\nWe do apologise and ask for your patience whilst we prioritise fixing this."
-      },
-      {
-        "title": "How can I access 2022 content?",
-        "category": "Content",
-        "shortAnswer": "If your app is still showing 2021 content, you can go to Menu > Settings > Reset app. This will take you through the onboarding process again, allowing you to select your start day and giving you access to 2022 content.",
-        "detailedAnswer": "The app logic is built to ask users if they would like to restart the year only once they have completed 255 days of readings, including Dec 31st. If you would like to restart the readings from the beginning before this point, you can do so by going to Menu > Settings > Reset app. \n\nThis will take you through the onboarding process again, allowing you to select your start day and giving you access to 2022 content. Please check your app is up to date (version 8.4.1 or later) if you can’t see the ‘reset’ button."
-      },
-      {
-        "title": "Have the 2022 readings been updated?",
-        "category": "Content",
-        "shortAnswer": "In 2022 we are only making slight tweaks to the content, so if you have done the Bible in One Year before, it may sound familiar to you. We trust however that God will speak to you through his word in fresh ways each year.",
-        "detailedAnswer": "In 2022 we are only making slight tweaks to the content, so if you have done the Bible in One Year before, it may sound familiar to you. We trust however that God will speak to you through his word in fresh ways each year."
-      },
-      {
-        "title": "If I started BiOY with Day 1 on 1 January, what day number is today?",
-        "category": "Content",
-        "shortAnswer": "You can view the day number for today at this link: https://bibleinoneyear.org/en/#todays-devotion",
-        "detailedAnswer": "You can view the day number for today at [this link](https://bibleinoneyear.org/en/#todays-devotion)."
-      },
-      {
-        "title": "The app has taken me back to Day 1, how do I get back to my place? ",
-        "category": "App",
-        "shortAnswer": "You can reset the app and resume your place within the app. Tap on Menu > Settings > Reset App. Follow the prompts and then select the day number you last completed. The following day will show as Today in your list view and all previous days will be marked complete.",
-        "detailedAnswer": "You can reset the app and resume your place within the app. Tap on Menu > Settings > Reset App. Follow the prompts and then select the day number you last completed. The following day will show as Today in your list view and all previous days will be marked complete."
       }
     ],
     "seeMore": "See More",
