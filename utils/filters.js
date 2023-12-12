@@ -1,5 +1,5 @@
 const dayjs = require('dayjs');
-const { today }= require('../src/_data/globals');
+const { today } = require('../src/_data/globals');
 
 module.exports = {
   protectRunts: (str) => {

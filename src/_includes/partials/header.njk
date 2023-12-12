@@ -8,8 +8,8 @@
   <h1 class="text-2xl font-medium m-0 -top-1 absolute">
     <a href="/{{ locale }}" class="flex items-center" title="{{ site.title }}">
       {% svgSprite name="bioy-filled", class="fill-current text-red h-16 w-16" %}
-      <span class="xs:hidden filter drop-shadow-lg {% if imageBanner %}drop-shadow-lg{% else %}text-black{% endif %}" aria-hidden="true">BNAP</span>
-      <span class="hidden xs:inline filter {% if imageBanner %}drop-shadow-lg{% else %}text-black{% endif %}">{{ site.title }}</span>
+      <span class="xs:hidden filter drop-shadow-lg {% if imageBanner %}drop-shadow-lg{% else %}text-black{% endif %}" aria-hidden="true"></span>
+      <span class="hidden lg:inline filter {% if imageBanner %}drop-shadow-lg{% else %}text-black{% endif %}">{{ site.title }}</span>
     </a>
     <div id="switchBanner" class="absolute top-10 inline-flex space-x-1 rtl:space-x-reverse ltr:left-16 rtl:right-16 ">
       {% if devotion %}
@@ -82,7 +82,7 @@
       {% endif %}
     </div>
   </h1>
-  <div x-data="baseView" class="absolute top-0 right-0 pt-2 pr-2 flex flex-row-reverse justify-center items-center rtl:pr-0 rtl:pl-2 rtl:left-0 rtl:right-auto md:hidden">
+  <div class="absolute top-0 right-0 pt-2 pr-2 flex flex-row-reverse justify-center items-center rtl:pr-0 rtl:pl-2 rtl:left-0 rtl:right-auto md:hidden">
     <a href="/{{ locale }}/#start" :href="deviceUrl('{{ locale }}', '{{ globals.stores.android }}', '{{ globals.stores.ios }}')" class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors">{{ navigation[locale].download }}
     </a>
   </div>

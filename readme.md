@@ -42,13 +42,15 @@ production.
 To ensure that content is up-to date on the server a nightly cron should be set to run
 `npm run production` which will ensure that the latest content devotions are pulled in.
 
-When there is a design change to the devotions template or the content source changes, all the devotion pages can be rebuilt:
+When there is a design change to the devotions template or the content source changes, all
+the devotion pages can be rebuilt:
 
 ```
 npm run production:cleanSlate
 ```
 
-The server might not be able to handle all the devotions being rebuilt in one go, so the follwing can be run on the staging or production server instead:
+The server might not be able to handle all the devotions being rebuilt in one go, so the
+follwing can be run on the staging or production server instead:
 
 ```
 START_DAY=1 END_DAY=40 ELEVENTY=production npx @11ty/eleventy
@@ -109,3 +111,8 @@ To get this working responsively you need to use the
 [clipPathUnits attribute](https://www.sarasoueidan.com/blog/css-svg-clipping/#clippathunits)
 and convert the points from absolute units, to percentage units. Use this tool:
 [https://yoksel.github.io/relative-clip-path/].
+
+## Tech Debt
+
+- Eleventy 3.0 for ESM support
+- Replace Laravel Mix
