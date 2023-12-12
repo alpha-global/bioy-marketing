@@ -917,7 +917,7 @@ collections:
                         name: 'privacyLink',
                         widget: 'string',
                         i18n: true,
-                        default: 'https://bibleinoneyear.org/en/privacy-policy/',
+                        default: 'https://alpha.bible.org/en/privacy-policy/',
                       },
                       {
                         label: 'Button Text',
