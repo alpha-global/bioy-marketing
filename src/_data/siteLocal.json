@@ -33,11 +33,11 @@
       "promoID": "bnap-2023",
       "text": "Willkommen auf der neuen Homepage von Bibel in Einem Jahr. Ansonsten hat sich nichts geändert. Wir hoffen, Du hast weiterhin Freude an unserer täglichen Bibellese.",
       "startDate": "2023-12-14",
-      "acceptText": "Jetzt spenden",
-      "dismissText": "Vielleicht später",
+      "acceptText": "OK",
+      "dismissText": "",
       "title": "Haben Sie etwas Neues entdeckt?",
       "type": "modal",
-      "ctaUrl": "/de/donate"
+      "ctaUrl": ""
     },
     "ticket": {
       "form": {
@@ -63,8 +63,8 @@
       "promoID": "bnap-2023",
       "text": "एक वर्ष में बाइबिल के नए ऑनलाइन होम में आपका स्वागत है। और कुछ नहीं बदला है, हम आशा करते हैं कि आप हमारे दैनिक बाइबल पढ़ने का आनंद लेना जारी रखेंगे।",
       "startDate": "2023-12-14",
-      "acceptText": "OK",
-      "dismissText": "शायद बाद में",
+      "acceptText": "ठीक है",
+      "dismissText": "",
       "title": "कुछ नया नोटिस किया?",
       "type": "modal",
       "ctaUrl": ""
@@ -158,7 +158,7 @@
       "text": "Benvenuti nella nuova pagina online di Bibbia in un Anno. Non è cambiato quasi nulla. La nostra speranza è che tu possa continuare il tuo viaggio quotidiano di lettura della Bibbia.",
       "startDate": "2023-12-14",
       "acceptText": "OK",
-      "dismissText": "Forse più tardi",
+      "dismissText": "",
       "title": "Notate qualcosa di nuovo?",
       "type": "modal",
       "ctaUrl": ""
@@ -204,8 +204,8 @@
       "promoID": "bnap-2023",
       "text": "Bienvenue sur le nouveau site de La Bible en un an. Rien d'autre n'a changé, nous espérons que vous continuerez à apprécier nos lectures bibliques quotidiennes.",
       "startDate": "2023-12-14",
-      "acceptText": "OK",
-      "dismissText": "Peut-être plus tard",
+      "acceptText": "D'accord",
+      "dismissText": "",
       "title": "Vous avez remarqué quelque chose de nouveau ?",
       "type": "modal",
       "ctaUrl": ""
@@ -237,11 +237,11 @@
       "promoID": "bnap-2023",
       "text": "Te damos la bienvenida a la nueva \"Biblia con Nicky y Pippa Gumbel\" online (antes Biblia en un año). No ha cambiado nada más, esperamos que disfrutes de las lecturas diarias de la Biblia.",
       "startDate": "2023-12-14",
-      "acceptText": "Donar ahora",
-      "dismissText": "Tal vez más tarde",
+      "acceptText": "De acuerdo",
+      "dismissText": "",
       "title": "¿Has notado algo nuevo?",
       "type": "modal",
-      "ctaUrl": "/es/donate"
+      "ctaUrl": ""
     },
     "ticket": {
       "form": {
@@ -271,8 +271,8 @@
       "promoID": "bnap-2023",
       "text": "欢迎来到 \"一年读完圣经 \"的新网站。其他方面没有任何变化，希望您继续喜欢我们的每日读经。",
       "startDate": "2023-12-14",
-      "acceptText": "OK",
-      "dismissText": "也许以后",
+      "acceptText": "好的",
+      "dismissText": "",
       "title": "有什么新发现吗？",
       "type": "modal",
       "ctaUrl": ""
@@ -309,8 +309,8 @@
       "promoID": "bnap-2023",
       "text": "مرحبًا بكم في الموقع الإلكتروني الجديد للكتاب المقدس في سنة واحدة. لم يتغير شيء آخر، نأمل أن تستمر في الاستمتاع بقراءاتنا اليومية للكتاب المقدس.",
       "startDate": "2023-12-14",
-      "acceptText": "OK",
-      "dismissText": "ربما في وقت لاحق",
+      "acceptText": "نعم",
+      "dismissText": "",
       "title": "لاحظت شيئا جديدا؟",
       "type": "modal",
       "ctaUrl": ""
@@ -356,8 +356,8 @@
       "promoID": "bnap-2023",
       "text": "Chào mừng bạn đến với trang web trực tuyến mới của Kinh Thánh trong Một Năm. Không có gì thay đổi, chúng tôi hy vọng bạn tiếp tục thưởng thức các bài đọc kinh thánh hàng ngày của chúng tôi.",
       "startDate": "2023-12-14",
-      "acceptText": "OK",
-      "dismissText": "Có lẽ sau này",
+      "acceptText": "Được rồi",
+      "dismissText": "",
       "title": "Nhận thấy điều gì đó mới mẻ?",
       "type": "modal",
       "ctaUrl": ""
@@ -399,8 +399,8 @@
       "promoID": "bnap-2023",
       "text": "ยินดีต้อนรับสู่บ้านออนไลน์แห่งใหม่ของพระคัมภีร์ในหนึ่งปี ไม่มีอะไรเปลี่ยนแปลง เราหวังว่าคุณจะสนุกกับการอ่านพระคัมภีร์ทุกวันของเราต่อไป",
       "startDate": "2023-12-14",
-      "acceptText": "OK",
-      "dismissText": "ไว้ก่อน",
+      "acceptText": "ตกลง",
+      "dismissText": "",
       "title": "สังเกตเห็นสิ่งใหม่ ๆ ?",
       "type": "modal",
       "ctaUrl": ""
@@ -424,8 +424,8 @@
       "promoID": "bnap-2023",
       "text": "Selamat datang di rumah online baru Alkitab dalam Satu Tahun. Tidak ada yang berubah, kami harap Anda terus menikmati bacaan Alkitab setiap hari.",
       "startDate": "2023-12-14",
-      "acceptText": "OK",
-      "dismissText": "Mungkin nanti",
+      "acceptText": "Oke",
+      "dismissText": "",
       "title": "Melihat sesuatu yang baru?",
       "type": "modal",
       "ctaUrl": ""
