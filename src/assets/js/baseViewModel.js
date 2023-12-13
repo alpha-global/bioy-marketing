@@ -1,12 +1,22 @@
 export default () => {
   return {
     isCookieBoxOpen: true,
-    isLangPickerOpen: false,
 
     acceptCookies() {
       localStorage.setItem("cookieConsent", "accepted");
       this.isCookieBoxOpen = false;
       console.log("box is open: ", this.isCookieBoxOpen);
+    },
+
+    redirectRoot() {
+      // redirect after 3 seconds
+      setTimeout(() => {
+        const relativeUrl = window.location.pathname;
+        const targetDomain = "https://bible.alpha.org";
+
+        // replace does not push the url to the history, so the user can't go back
+        window.location.replace(`${targetDomain}${relativeUrl}`);
+      }, 3000);
     },
 
     deviceUrl(locale, androidUrl, iosUrl) {
@@ -24,6 +34,7 @@ export default () => {
     },
 
     init() {
+      this.redirectRoot();
       const stored = localStorage.getItem("cookieConsent");
       if (stored !== "accepted") return;
       this.isCookieBoxOpen = false;
