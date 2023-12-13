@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: refactor/popup-modal-on-new-website
 
 i18n:
   structure: single_file
@@ -861,8 +861,9 @@ collections:
                         name: 'dismissText',
                         widget: 'string',
                         i18n: false,
+                        required: false,
                       },
-                      { label: 'CTA URL', name: 'ctaUrl', widget: 'string', i18n: true },
+                      { label: 'CTA URL', name: 'ctaUrl', widget: 'string', i18n: true , required: false},
                     ],
                 },
                 {
