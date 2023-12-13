@@ -77,10 +77,10 @@
     }
   },
   "en": {
-    "title": "Bible in One Year",
+    "title": "The Bible with Nicky and Pippa Gumbel",
     "switcher": {
       "title": "Change Language",
-      "subTitle": "Bible in One Year is available in the following languages:"
+      "subTitle": "The Bible with Nicky and Pippa Gumbel is available in the following languages:"
     },
     "social": {
       "desc": "Start your day with the Bible in One Year, a free Bible reading app from HTB and the Alpha Course with commentary by Nicky & Pippa Gumbel.",
@@ -108,16 +108,16 @@
       "img": "/assets/img/website-giving-banner1.jpg",
       "endDate": "2023-11-30",
       "promoID": "website-giving-campaign-2023",
-      "text": "Feeling inspired by reading and listening to the Bible in One Year app? This year, for Giving Tuesday, help others grow in their relationship with Jesus with a gift to Bible in One Year. Every donation counts and will make a real difference. Thank you!",
+      "text": "Feeling inspired by reading and listening to The Bible with Nicky and Pippa Gumbel? This year, for Giving Tuesday, help others grow in their relationship with Jesus with a gift to The Bible with Nicky and Pippa Gumbel. Every donation counts and will make a real difference. Thank you!",
       "startDate": "2023-11-24",
       "acceptText": "Donate Now ",
       "dismissText": "Maybe Later",
-      "title": "Share God's love by supporting Bible in One Year",
+      "title": "Share God's love by supporting The Bible with Nicky and Pippa Gumbel",
       "type": "modal",
       "ctaUrl": "/en/donate"
     },
     "ticket": {
-      "title": "Ask a question about BiOY",
+      "title": "Ask a question about The Bible with Nicky and Pippa Gumbel",
       "form": {
         "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_enablecamera=true'></iframe>"
       }
@@ -218,7 +218,7 @@
     }
   },
   "es": {
-    "title": "Biblia en un año",
+    "title": "La Biblia con Nicky y Pippa Gumbel ",
     "switcher": {
       "title": "Change Language"
     },
@@ -235,11 +235,11 @@
       "img": "/assets/img/website-giving-banner1.jpg",
       "endDate": "2023-11-30",
       "promoID": "website-giving-campaign-2023",
-      "text": "¿Te sientes inspirado leyendo y escuchando la aplicación Bible in One Year? Este año, para el Martes de Dar, ayuda a otros a crecer en su relación con Jesús con una donación a Bible in One Year. Cada donación cuenta y marcará una verdadera diferencia.",
+      "text": "¿Te sientes inspirado leyendo y escuchando la aplicación La Biblia con Nicky y Pippa Gumbel? Este año, para el Martes de Dar, ayuda a otros a crecer en su relación con Jesús con una donación a La Biblia con Nicky y Pippa Gumbel. Cada donación cuenta y marcará una verdadera diferencia.",
       "startDate": "2023-11-24",
       "acceptText": "Donar ahora",
       "dismissText": "Tal vez más tarde",
-      "title": "Comparte el amor de Dios apoyando Biblia en un año",
+      "title": "Comparte el amor de Dios apoyando La Biblia con Nicky y Pippa Gumbel",
       "type": "modal",
       "ctaUrl": "/es/donate"
     },
@@ -247,7 +247,7 @@
       "form": {
         "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_lang=es&zf_enablecamera=true'></iframe>"
       },
-      "title": "Haz una pregunta sobre BiOY"
+      "title": "Haz una pregunta sobre La Biblia con Nicky y Pippa Gumbel"
     }
   },
   "zh": {
