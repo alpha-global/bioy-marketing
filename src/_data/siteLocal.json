@@ -111,10 +111,10 @@
       "text": "Welcome to the new online home of The Bible with Nicky and Pippa Gumbel (formerly Bible in One Year). Nothing else has changed, we hope you continue to enjoy our daily Bible readings.",
       "startDate": "2023-12-14",
       "acceptText": "OK",
-      "dismissText": "sdad",
+      "dismissText": "",
       "title": "Notice something new?",
       "type": "modal",
-      "ctaUrl": "sdasd"
+      "ctaUrl": ""
     },
     "ticket": {
       "title": "Ask a question about BiOY",
@@ -309,11 +309,11 @@
       "promoID": "bnap-2023",
       "text": "مرحبًا بكم في الموقع الإلكتروني الجديد للكتاب المقدس في سنة واحدة. لم يتغير شيء آخر، نأمل أن تستمر في الاستمتاع بقراءاتنا اليومية للكتاب المقدس.",
       "startDate": "2023-12-14",
-      "acceptText": "تبرع الآن",
+      "acceptText": "OK",
       "dismissText": "ربما في وقت لاحق",
       "title": "لاحظت شيئا جديدا؟",
       "type": "modal",
-      "ctaUrl": "/ar/donate"
+      "ctaUrl": ""
     },
     "ticket": {
       "form": {
