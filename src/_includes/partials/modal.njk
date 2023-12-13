@@ -7,12 +7,15 @@
   class="fixed inset-0 z-20 hidden flex-col items-center justify-center bg-black bg-opacity-60 min-h-screen"
 >
   <div
-    class="w-[90%] overflow-y-auto overflow-hidden rounded-lg bg-white shadow-lg md:w-[80%] lg:w-2/5 {{ '' if siteLocal[locale].promo.img else 'rounded-t-lg border-t-8 border-red'}}"
+    class="w-[90%] overflow-y-auto overflow-hidden rounded-lg bg-white shadow-lg md:w-[80%] lg:w-[60%] xl:w-[55%] 2xl:w-[40%] {{ '' if siteLocal[locale].promo.img else 'rounded-t-lg border-t-8 border-red'}}"
   >
     {% if siteLocal[locale].promo.img %}
-      {% blockImage siteLocal[locale].promo.img, "Donate promo" , "(min-width: 640px) 60vw,
-    100vw", "w-full overflow-hidden object-cover object-center aspect-[2/1] h-32 xs:h-36 sm:h-40 md:h-44 lg:h-48 xl:h-56" %}
-    {% endif %}
+      <div class="bg-red flex items-center justify-center py-14">
+
+        {% blockImage siteLocal[locale].promo.img, "Donate promo" , "(min-width: 640px) 60vw,
+    100vw", "w-auto overflow-hidden object-center aspect-[1.87] h-32 xs:h-36 sm:h-40 md:h-44 lg:h-48 xl:h-56" %}
+      {% endif %}
+    </div>
     <div class="flex flex-col items-center justify-center space-y-8 py-8 px-7">
       <h3 class="text-center text-base font-semibold text-red md:text-lg">
         {{ siteLocal[locale].promo.title }}
@@ -21,15 +24,17 @@
         {{ siteLocal[locale].promo.text | markdown | safe }}
       </div>
       <button
-        id="ga-{{  siteLocal[locale].promo.promoID }}-accept"
-        @click="donate('{{ siteLocal[locale].promo.ctaUrl }}')"
+        id="ga-{{ siteLocal[locale].promo.promoID }}-accept"
+        {% if siteLocal[locale].promo.ctaUrl %} @click="acceptAction('{{ siteLocal[locale].promo.ctaUrl }}')" {% else %} @click="hidePromo()"  {% endif %}
         class="inline-block w-4/6 rounded border border-red bg-red p-2 pb-1.5 text-center text-white transition-colors hover:bg-white hover:text-red"
       >
         {{ siteLocal[locale].promo.acceptText }}
       </button>
-      <button id="ga-{{  siteLocal[locale].promo.promoID }}-decline" @click="hidePromo()" class="hover:text-red">
-        {{ siteLocal[locale].promo.dismissText }}
-      </button>
+      {% if siteLocal[locale].promo.dismissText %}
+        <button id="ga-{{ siteLocal[locale].promo.promoID }}-decline" @click="hidePromo()" class="hover:text-red">
+          {{ siteLocal[locale].promo.dismissText }}
+        </button>
+      {% endif %}
     </div>
   </div>
 </div>
