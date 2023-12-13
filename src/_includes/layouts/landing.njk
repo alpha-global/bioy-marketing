@@ -33,13 +33,14 @@ imageBanner: true
     <h2 class="subtitle mb-4">
       {{ lang.header.strapline | protectRunts | safe }}
     </h2>
-
     {% if lang.header.cta %}
-      <div>
-        <a {% if page.fileSlug === 'about' %} href="#cta" {% else %} id="today"  href="/{{ locale }}/{{variant}}/{{globals.today}}" {% endif %} class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors">
-          {{ lang.header.cta }}
-        </a>
-      </div>
+      {% if locale not in['en', 'es'] %}
+        <div>
+          <a {% if page.fileSlug === 'about' %} href="#cta" {% else %} id="today"  href="/{{ locale }}/{{variant}}/{{globals.today}}" {% endif %} class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors">
+            {{ lang.header.cta }}
+          </a>
+        </div>
+      {% endif %}
     {% endif %}
   </div>
 </header>
