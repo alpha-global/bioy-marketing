@@ -1,33 +1,34 @@
-<title>{% if title or lang.title %}{{ title|d(lang.title)|safe  }} | {% endif %}{{ site.title }}</title>
-
-    <meta name="description" content="{{ description | default(site.social.desc) }}">
-    <meta name="robots" content="index,follow">
-    <meta name="author" content="Alpha International">
-
-    {% if locale in globals.liveLanguages %}
-    <link rel="canonical" href="https://bibleinoneyear.org{{ canonical|default(page.url) }}">
-    {% else %}
-    <link rel="canonical" href="https://bibleinoneyear.org{{ canonical|default(page.url|replace('/'+locale+'/', '/en/')) }}">
-    {% endif %}
-
-    <meta property="og:title" content="{% if title or lang.title %}{{ title|d(lang.title)|safe  }} | {% endif %}{{ site.title }}">
-    <meta property="og:type" content="article">
-
-    <meta property="og:url" content="https://bibleinoneyear.org{{ page.url }}">
-    <meta property="og:description" content="{{ description | default(site.social.desc) }}">
-    <meta property="og:image" content="{{ site.social.img }}">
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@BibleinOneYr">
-    <meta name="twitter:url" content="https://bibleinoneyear.org{{ page.url }}">
-    <meta name="twitter:title" content="{% if title or lang.title %}{{ title|safe }}{{ lang.title }} | {% endif %}{{ site.title }}">
-    <meta name="twitter:description" content="{{ description | default(site.social.desc) }}">
-    <meta name="twitter:image" content="{{ site.social.img }}">
-
-
-    {% if not disableMetaTranslations %}
+<title>
+    {% if title or lang.title %}{{ title|d(lang.title) |safe }} |{% endif %}
+{{ site.title }}</title>
+<meta name="description"
+      content="{{ description | default(site.social.desc) }}">
+<meta name="robots" content="index,follow">
+<meta name="author" content="Alpha International">
+<link rel="canonical"
+      href="https://bible.alpha.org{{ canonical|default(page.url) }}">
+<meta property="og:title"
+      content="{% if title or lang.title %}{{ title|d(lang.title) |safe }} | {% endif %}{{ site.title }}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://bible.alpha.org{{ page.url }}">
+<meta property="og:description"
+      content="{{ description | default(site.social.desc) }}">
+<meta property="og:image" content="{{ site.social.img }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@BibleinOneYr">
+<meta name="twitter:url" content="https://bible.alpha.org{{ page.url }}">
+<meta name="twitter:title"
+      content="{% if title or lang.title %}{{ title|safe }}{{ lang.title }} | {% endif %}{{ site.title }}">
+<meta name="twitter:description"
+      content="{{ description | default(site.social.desc) }}">
+<meta name="twitter:image" content="{{ site.social.img }}">
+{% if not disableMetaTranslations %}
     {% for translation_locale in globals.locales %}
-    <link rel="alternate" hreflang="{{ translation_locale }}" href="https://bibleinoneyear.org{{ page.url|replace('/'+locale+'/', '/'+translation_locale+'/') }}" />
+        <link rel="alternate"
+              hreflang="{{ translation_locale }}"
+              href="https://bible.alpha.org{{ page.url|replace('/'+locale+'/', '/'+translation_locale+'/') }}" />
     {% endfor %}
-    <link rel="alternate" hreflang="x-default" href="https://bibleinoneyear.org{{ page.url|replace('/'+locale+'/', '/en/') }}" />
-    {% endif %}
+    <link rel="alternate"
+          hreflang="x-default"
+          href="https://bible.alpha.org{{ page.url|replace('/'+locale+'/', '/en/') }}" />
+{% endif %}
