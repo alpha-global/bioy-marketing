@@ -62,9 +62,9 @@ export default () => {
         this.endDate = dayjs(end, 'YYYY-MM-DD');
       }
     },
-    donate(donationUrl) {
+    acceptAction(ctaUrl) {
       this.updatePromoIDsStore(this.promoID);
-      location.href = donationUrl;
+      location.href = ctaUrl;
     },
   };
 };
