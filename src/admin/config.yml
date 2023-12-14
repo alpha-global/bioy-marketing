@@ -860,9 +860,10 @@ collections:
                         label: 'Dismiss Text',
                         name: 'dismissText',
                         widget: 'string',
-                        i18n: true,
+                        i18n: false,
+                        required: false,
                       },
-                      { label: 'CTA URL', name: 'ctaUrl', widget: 'string', i18n: true },
+                      { label: 'CTA URL', name: 'ctaUrl', widget: 'string', i18n: true , required: false},
                     ],
                 },
                 {
