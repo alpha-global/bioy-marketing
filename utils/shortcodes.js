@@ -27,7 +27,9 @@ module.exports = {
         ${
           devotionSection.prayer != null
             ? `<h2>${devotionSection.prayerTitle}</h2>
-          <div class="border-l-4 pl-4 border-red font-scripture">${devotionSection.prayer}</div>`
+          <div class="border-l-4 pl-4 border-red font-scripture">${toHtml(
+            devotionSection.prayer,
+          )}</div>`
             : ''
         }
       </div>
