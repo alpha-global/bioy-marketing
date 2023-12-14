@@ -47,7 +47,7 @@
     }
   },
   "hi": {
-    "title": "The Bible with Nicky and Pippa Gumbel",
+    "title": "एक साल में बाइबल",
     "cookies": {
       "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
       "cta": "Find out more",
@@ -117,14 +117,14 @@
       "ctaUrl": ""
     },
     "ticket": {
-      "title": "Ask a question about BiOY",
+      "title": "Ask a question about The Bible with Nicky and Pippa Gumbel",
       "form": {
         "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_enablecamera=true'></iframe>"
       }
     }
   },
   "it": {
-    "title": "The Bible with Nicky and Pippa Gumbel",
+    "title": "La Bibbia in un anno",
     "switcher": {
       "title": "Change Language",
       "subTitle": "The Bible with Nicky and Pippa Gumbel is available in the following languages:"
@@ -323,7 +323,7 @@
     }
   },
   "vi": {
-    "title": "The Bible with Nicky and Pippa Gumbel",
+    "title": "Kinh Thánh trong một năm",
     "switcher": {
       "title": "Change Language",
       "subTitle": "The Bible with Nicky and Pippa Gumbel is available in the following languages:"
@@ -370,7 +370,7 @@
     }
   },
   "th": {
-    "title": "พระคัมภีร์ในหนึ่งปี\n(The Bible with Nicky and Pippa Gumbel)",
+    "title": "พระคัมภีร์ในหนึ่งปี",
     "switcher": {
       "title": "เปลี่ยนภาษา",
       "subTitle": "พระคัมภีร์ในหนึ่งปีมีให้บริการในภาษาต่อไปนี้:"
@@ -413,7 +413,7 @@
     }
   },
   "id": {
-    "title": "The Bible with Nicky and Pippa Gumbel",
+    "title": "Alkitab dalam Satu Tahun",
     "404Page": {
       "description": "Maaf, halaman itu tidak ada",
       "goHomeButton": "Pergi ke beranda"
