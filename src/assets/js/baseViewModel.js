@@ -3,20 +3,19 @@ export default () => {
     isCookieBoxOpen: true,
 
     acceptCookies() {
-      localStorage.setItem("cookieConsent", "accepted");
+      localStorage.setItem('cookieConsent', 'accepted');
       this.isCookieBoxOpen = false;
-      console.log("box is open: ", this.isCookieBoxOpen);
     },
 
-    redirectRoot() {
-      // redirect after 3 seconds
+    redirectSubPath(path, target) {
       setTimeout(() => {
-        const relativeUrl = window.location.pathname;
-        const targetDomain = "https://bible.alpha.org";
-
-        // replace does not push the url to the history, so the user can't go back
-        window.location.replace(`${targetDomain}${relativeUrl}`);
+        window.location.replace(`${target}${path}`);
       }, 3000);
+    },
+    redirectRoot(path, target) {
+      setTimeout(() => {
+        window.location.replace(`${target}${path}`);
+      }, 5000);
     },
 
     deviceUrl(locale, androidUrl, iosUrl) {
@@ -34,9 +33,17 @@ export default () => {
     },
 
     init() {
-      this.redirectRoot();
-      const stored = localStorage.getItem("cookieConsent");
-      if (stored !== "accepted") return;
+      const path = window.location.pathname;
+      const target = 'https://bible.alpha.org';
+
+      const segments = path.split('/').filter((segment) => segment.trim() !== '');
+
+      segments.length <= 1
+        ? this.redirectRoot(path, target)
+        : this.redirectSubPath(path, target);
+
+      const stored = localStorage.getItem('cookieConsent');
+      if (stored !== 'accepted') return;
       this.isCookieBoxOpen = false;
     },
   };
