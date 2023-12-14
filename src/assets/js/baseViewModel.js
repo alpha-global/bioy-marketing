@@ -5,7 +5,6 @@ export default () => {
     acceptCookies() {
       localStorage.setItem('cookieConsent', 'accepted');
       this.isCookieBoxOpen = false;
-      console.log('box is open: ', this.isCookieBoxOpen);
     },
 
     redirectSubPath(path, target) {
