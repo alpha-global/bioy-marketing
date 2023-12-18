@@ -1,4 +1,20 @@
 {
+  "de": {
+    "title": "Aktueller Text",
+    "today": "Heute",
+    "day": "Tag",
+    "cta_teaser": "In der App \"Bibel in einem Jahr\" hast du Zugriff auf den gesamten Verlauf, Audios, Fortschrittsanzeige und vieles mehr.",
+    "cta": "Jetzt runterladen",
+    "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
+  },
+  "hi": {
+    "title": "Today's Reading",
+    "today": "Today",
+    "day": "Day",
+    "cta_teaser": "In the Bible in One Year app you can access a full history, audio devotions, progress tracking, and more.",
+    "cta": "Download today",
+    "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
+  },
   "en": {
     "title": "Today's Reading",
     "today": "Today",
@@ -7,31 +23,7 @@
     "cta": "Download today",
     "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
   },
-  "id": {
-    "title": "Today's Reading",
-    "today": "Today",
-    "day": "Day",
-    "cta_teaser": "In The Bible with Nicky and Pippa Gumbel app you can access a full history, audio devotions, progress tracking, and more.",
-    "cta": "Download today",
-    "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
-  },
-  "ar": {
-    "title": "قراءة اليوم",
-    "today": "اليوم",
-    "day": "اليوم",
-    "cta_teaser": "في تطبيق الكتاب المقدس في عام واحد ، يمكنك الوصول إلى قراءاتك السابقة الكاملة والتأملات الصوتية ومتابعة تقدمك والمزيد.",
-    "cta": "تحميل اليوم",
-    "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
-  },
-  "de": {
-    "title": "Aktueller Text",
-    "today": "Heute",
-    "day": "Tag",
-    "cta_teaser": "In der App \"Bibel in einem Jahr\" hast du Zugriff auf den gesamten Verlauf, Audios, Fortschrittsanzeige und vieles mehr.",
-    "cta": "Jetzt runterladen",
-     "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
-  },
-  "es": {
+  "it": {
     "title": "Today's Reading",
     "today": "Today",
     "day": "Day",
@@ -45,9 +37,33 @@
     "day": "Jour",
     "cta_teaser": "Dans l'application Bible en 1 an, vous pouvez accéder à un historique complet, à des commentaires audio (français bientôt disponible), à un suivi de la progression, et plus encore.",
     "cta": "Télécharger aujourd'hui",
-     "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
+    "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
   },
-  "hi": {
+  "es": {
+    "title": "Today's Reading",
+    "today": "Today",
+    "day": "Day",
+    "cta_teaser": "In the Bible in One Year app you can access a full history, audio devotions, progress tracking, and more.",
+    "cta": "Download today",
+    "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
+  },
+  "zh": {
+    "title": "今日读经",
+    "today": "今天",
+    "day": "日",
+    "cta_teaser": "在圣经日日行APP中，你能找到所有历史、有声朗读、阅读跟进等等。",
+    "cta": "今天就下载",
+    "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
+  },
+  "ar": {
+    "title": "قراءة اليوم",
+    "today": "اليوم",
+    "day": "اليوم",
+    "cta_teaser": "في تطبيق الكتاب المقدس في عام واحد ، يمكنك الوصول إلى قراءاتك السابقة الكاملة والتأملات الصوتية ومتابعة تقدمك والمزيد.",
+    "cta": "تحميل اليوم",
+    "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
+  },
+  "vi": {
     "title": "Today's Reading",
     "today": "Today",
     "day": "Day",
@@ -61,30 +77,6 @@
     "day": "วันที่",
     "cta_teaser": "ในแอพพระคัมภีร์ในหนึ่งปี คุณสามารถเข้าถึงประวัติฉบับเต็ม เฝ้าเดี่ยวด้วยการฟัง ติดตามความคืบหน้า และอีกมากมาย",
     "cta": "ดาวน์โหลดวันนี้",
-     "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
-  },
-  "zh": {
-    "title": "今日读经",
-    "today": "今天",
-    "day": "日",
-    "cta_teaser": "在圣经日日行APP中，你能找到所有历史、有声朗读、阅读跟进等等。",
-    "cta": "今天就下载",
-    "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
-  },
-  "it": {
-    "title": "Today's Reading",
-    "today": "Today",
-    "day": "Day",
-    "cta_teaser": "In The Bible with Nicky and Pippa Gumbel app you can access a full history, audio devotions, progress tracking, and more.",
-    "cta": "Download today",
-    "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
-  },
-  "vi": {
-    "title": "Today's Reading",
-    "today": "Today",
-    "day": "Day",
-    "cta_teaser": "In The Bible with Nicky and Pippa Gumbel app you can access a full history, audio devotions, progress tracking, and more.",
-    "cta": "Download today",
     "image": "/assets/img/rendy-novantino-cb4yg-pnyzo-unsplash.jpg"
   }
 }

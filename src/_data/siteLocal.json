@@ -47,7 +47,7 @@
     }
   },
   "hi": {
-    "title": "The Bible with Nicky and Pippa Gumbel",
+    "title": "एक साल में बाइबल",
     "cookies": {
       "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
       "cta": "Find out more",
@@ -83,8 +83,8 @@
       "subTitle": "The Bible with Nicky and Pippa Gumbel is available in the following languages:"
     },
     "social": {
-      "desc": "Start your day with The Bible with Nicky and Pippa Gumbel, a free Bible reading app from HTB and the Alpha Course with commentary by Nicky & Pippa Gumbel.",
-      "img": "/assets/img/bioy-og-en.jpg"
+      "desc": "Start your day with The Bible with Nicky and Pippa Gumbel, a free Bible reading app from HTB and the Alpha Course with commentary by Nicky and Pippa Gumbel.",
+      "img": "/assets/img/screenshot-2023-12-15-at-10.33.29.png"
     },
     "cookies": {
       "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
@@ -117,20 +117,20 @@
       "ctaUrl": ""
     },
     "ticket": {
-      "title": "Ask a question about BiOY",
+      "title": "Ask a question about The Bible with Nicky and Pippa Gumbel",
       "form": {
         "code": "<iframe frameborder=\"0\" allow=\"camera;\" style=\"height:500px;width:99%;border:none;\" src='https://forms.zohopublic.eu/bioy/form/BiOYSupportRequestEnglish/formperma/ZzdXpM2ldWtd-aWs20a3QNut-QNKdMw_x9NmZUP9gm8?zf_enablecamera=true'></iframe>"
       }
     }
   },
   "it": {
-    "title": "The Bible with Nicky and Pippa Gumbel",
+    "title": "La Bibbia in un anno",
     "switcher": {
       "title": "Change Language",
       "subTitle": "The Bible with Nicky and Pippa Gumbel is available in the following languages:"
     },
     "social": {
-      "desc": "Start your day with The Bible with Nicky and Pippa Gumbel, a free Bible reading app from HTB and the Alpha Course with commentary by Nicky & Pippa Gumbel.",
+      "desc": "Start your day with The Bible with Nicky and Pippa Gumbel, a free Bible reading app from HTB and the Alpha Course with commentary by Nicky and Pippa Gumbel.",
       "img": "/assets/img/bioy-og-en.jpg"
     },
     "cookies": {
@@ -220,7 +220,8 @@
   "es": {
     "title": "La Biblia con Nicky y Pippa Gumbel",
     "switcher": {
-      "title": "Change Language"
+      "title": "Change Language",
+      "subTitle": "The Bible with Nicky and Pippa Gumbel is available in the following languages:"
     },
     "cookies": {
       "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
@@ -292,7 +293,7 @@
     },
     "social": {
       "desc": "ابدأ يومك بالكتاب المقدس في عام واحد ، وهو تطبيق مجاني لقراءة الكتاب المقدس من كنيسة الثالوث الاقدس وبرنامج ألفا مع تعليق من Nicky & Pippa Gumbel.",
-      "img": "/assets/img/bioy-og-en.jpg"
+      "img": "/assets/img/screenshot-2023-12-15-at-10.32.31.png"
     },
     "cookies": {
       "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
@@ -323,13 +324,13 @@
     }
   },
   "vi": {
-    "title": "The Bible with Nicky and Pippa Gumbel",
+    "title": "Kinh Thánh trong một năm",
     "switcher": {
       "title": "Change Language",
       "subTitle": "The Bible with Nicky and Pippa Gumbel is available in the following languages:"
     },
     "social": {
-      "desc": "Start your day with The Bible with Nicky and Pippa Gumbel, a free Bible reading app from HTB and the Alpha Course with commentary by Nicky & Pippa Gumbel.",
+      "desc": "Start your day with The Bible with Nicky and Pippa Gumbel, a free Bible reading app from HTB and the Alpha Course with commentary by Nicky and Pippa Gumbel.",
       "img": "/assets/img/bioy-og-en.jpg"
     },
     "cookies": {
@@ -370,7 +371,7 @@
     }
   },
   "th": {
-    "title": "พระคัมภีร์ในหนึ่งปี\n(The Bible with Nicky and Pippa Gumbel)",
+    "title": "พระคัมภีร์ในหนึ่งปี",
     "switcher": {
       "title": "เปลี่ยนภาษา",
       "subTitle": "พระคัมภีร์ในหนึ่งปีมีให้บริการในภาษาต่อไปนี้:"
@@ -413,7 +414,7 @@
     }
   },
   "id": {
-    "title": "The Bible with Nicky and Pippa Gumbel",
+    "title": "Alkitab dalam Satu Tahun",
     "404Page": {
       "description": "Maaf, halaman itu tidak ada",
       "goHomeButton": "Pergi ke beranda"
