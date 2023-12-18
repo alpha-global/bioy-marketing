@@ -9,7 +9,7 @@
     <a href="/{{ locale }}" title="{{ site.title }}">
       {% svgSprite name="bnap", class="fill-current text-red w-32 h-auto ml-3 sm:w-36 md:w-40" %}
     </a>
-    <div id="switchBanner" class="absolute top-10 inline-flex space-x-1 rtl:space-x-reverse ltr:left-[9rem] sm:ltr:left-[10rem] md:ltr:left-[11rem] rtl:right-16">
+    <div id="switchBanner" class="absolute top-10 inline-flex space-x-1 rtl:space-x-reverse ltr:left-[9rem] sm:ltr:left-[10rem] md:ltr:left-[11rem] rtl:right-36 sm:rtl:right-40 md:rtl:right-44">
       {% if devotion %}
         <div class="space-y-1 ltr:w-full" :class="outOfView ? 'rtl:w-full' : ''">
           <button id="editionButton" class="bg-transparent px-2  text-black uppercase" :class="outOfView ? 'text-base w-full space-x-1.5 py-3 flex items-center justify-center' :'border border-red text-xs'" @click="openEdition = !openEdition">

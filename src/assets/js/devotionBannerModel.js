@@ -45,7 +45,9 @@ export default () => {
                 'ltr:left-[9rem]',
                 'sm:ltr:left-[10rem]',
                 'md:ltr:left-[11rem]',
-                'rtl:right-16',
+                'rtl:right-36',
+                'sm:rtl:right-40',
+                'md:rtl:right-44',
               );
             } else {
               this.outOfView = true;
@@ -56,7 +58,9 @@ export default () => {
                 'ltr:left-[9rem]',
                 'sm:ltr:left-[10rem]',
                 'md:ltr:left-[11rem]',
-                'rtl:right-16',
+                'rtl:right-36',
+                'sm:rtl:right-40',
+                'md:rtl:right-44',
               );
             }
           }
