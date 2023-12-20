@@ -64,12 +64,15 @@ module.exports = async function () {
     const diff = now - start;
     const oneDay = 1000 * 60 * 60 * 24;
     const day = Math.floor(diff / oneDay);
-    if (day < 11) {
+    if (day <= 5) {
       startDayNumber = 1;
-      endDayNumber = 10;
-    } else {
+      endDayNumber = 8;
+    } else if (day >= 360 && day <= 365) {
       startDayNumber = day - 5;
-      endDayNumber = day;
+      endDayNumber = 365;
+    } else {
+      startDayNumber = day - 4;
+      endDayNumber = day + 3;
     }
   }
 
