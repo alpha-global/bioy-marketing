@@ -54,26 +54,41 @@ async function _fetchDevotionRangeFromUrl(url, devotions) {
   return devotions;
 }
 
+function calculateDateRange(currentDate) {
+  const startDayOffset = 4;
+  const endDayOffset = 3;
+
+  const start = new Date(currentDate.getFullYear(), 0, 0);
+  const diff = currentDate - start;
+  const dayOfYear = Math.floor(diff / (1000 * 60 * 60 * 24));
+
+  let startDay, endDay;
+
+  if (dayOfYear <= 5) {
+    startDay = 1;
+    endDay = 8;
+  } else if (dayOfYear >= 360 && dayOfYear <= 365) {
+    startDay = dayOfYear - startDayOffset;
+    endDay = 365;
+  } else if (dayOfYear === 366) {
+    startDay = 361;
+    endDay = 366;
+  } else {
+    startDay = dayOfYear - startDayOffset;
+    endDay = dayOfYear + endDayOffset;
+  }
+  return { startDay, endDay };
+}
+
 module.exports = async function () {
   let startDayNumber = 1;
   let endDayNumber = 365;
 
   if (!process.env.CLEAN_SLATE) {
     const now = new Date();
-    const start = new Date(now.getFullYear(), 0, 0);
-    const diff = now - start;
-    const oneDay = 1000 * 60 * 60 * 24;
-    const day = Math.floor(diff / oneDay);
-    if (day <= 5) {
-      startDayNumber = 1;
-      endDayNumber = 8;
-    } else if (day >= 360 && day <= 365) {
-      startDayNumber = day - 5;
-      endDayNumber = 365;
-    } else {
-      startDayNumber = day - 4;
-      endDayNumber = day + 3;
-    }
+    const { startDay, endDay } = calculateDateRange(now);
+    startDayNumber = startDay;
+    endDayNumber = endDay;
   }
 
   if (process.env.START_DAY && process.env.END_DAY) {
