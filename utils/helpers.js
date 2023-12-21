@@ -40,7 +40,10 @@ const calculateDateRange = (currentDate) => {
   if (dayOfYear <= 5) {
     startDay = 1;
     endDay = 8;
-  } else if (dayOfYear >= 360 && dayOfYear <= 365) {
+    return { startDay, endDay };
+  }
+
+  if (dayOfYear >= 360 && dayOfYear <= 365) {
     startDay = dayOfYear - startDayOffset;
     endDay = 365;
   } else if (dayOfYear === 366) {
