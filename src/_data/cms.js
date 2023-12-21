@@ -1,5 +1,6 @@
 const EleventyFetch = require('@11ty/eleventy-fetch');
 const { variants } = require('./globals');
+const { calculateDateRange } = require('../../utils/helpers');
 
 /**
  * Fetch devotion range
@@ -52,32 +53,6 @@ async function _fetchDevotionRangeFromUrl(url, devotions) {
     await _fetchDevotionRangeFromUrl(pageUrl, devotions);
   }
   return devotions;
-}
-
-function calculateDateRange(currentDate) {
-  const startDayOffset = 4;
-  const endDayOffset = 3;
-
-  const start = new Date(currentDate.getFullYear(), 0, 0);
-  const diff = currentDate - start;
-  const dayOfYear = Math.floor(diff / (1000 * 60 * 60 * 24));
-
-  let startDay, endDay;
-
-  if (dayOfYear <= 5) {
-    startDay = 1;
-    endDay = 8;
-  } else if (dayOfYear >= 360 && dayOfYear <= 365) {
-    startDay = dayOfYear - startDayOffset;
-    endDay = 365;
-  } else if (dayOfYear === 366) {
-    startDay = 361;
-    endDay = 366;
-  } else {
-    startDay = dayOfYear - startDayOffset;
-    endDay = dayOfYear + endDayOffset;
-  }
-  return { startDay, endDay };
 }
 
 module.exports = async function () {
