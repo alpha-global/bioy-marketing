@@ -39,12 +39,12 @@
       "header": "Let Nicky and Pippa Be Your Guide"
     },
     "header": {
-      "title": "Want to get to know the Bible?",
-      "strapline": "We'll take you through it, step by step.",
-      "cta": "Let's go",
+      "title": "Life is complicated.",
+      "strapline": "Reading the Bible doesn't have to be.",
+      "cta": "Start reading",
       "img": {
-        "src": "/assets/img/bioy-lead.jpg",
-        "desc": "A woman looks up from reading The Bible with Nicky and Pippa Gumbel on her phone."
+        "src": "/assets/img/hiking-man.jpg",
+        "desc": "A man looking down at a map, standing lost in the middle of a forest."
       }
     },
     "editions": {
