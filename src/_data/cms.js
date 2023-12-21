@@ -1,5 +1,6 @@
 const EleventyFetch = require('@11ty/eleventy-fetch');
 const { variants } = require('./globals');
+const { calculateDateRange } = require('../../utils/helpers');
 
 /**
  * Fetch devotion range
@@ -60,17 +61,9 @@ module.exports = async function () {
 
   if (!process.env.CLEAN_SLATE) {
     const now = new Date();
-    const start = new Date(now.getFullYear(), 0, 0);
-    const diff = now - start;
-    const oneDay = 1000 * 60 * 60 * 24;
-    const day = Math.floor(diff / oneDay);
-    if (day < 11) {
-      startDayNumber = 1;
-      endDayNumber = 10;
-    } else {
-      startDayNumber = day - 5;
-      endDayNumber = day;
-    }
+    const { startDay, endDay } = calculateDateRange(now);
+    startDayNumber = startDay;
+    endDayNumber = endDay;
   }
 
   if (process.env.START_DAY && process.env.END_DAY) {
