@@ -8,3 +8,6 @@
 ###
 # https://content.bioy.app/api/v1/chapter/from/93/to/95?locale=hi&story=classic
 GET {{authority}}/chapter/from/{{from}}/to/{{to}}?locale={{locale}}&story={{variant}} HTTP/1.1
+
+###
+GET https://bible.alpha.org/en/index.html HTTP/1.1
