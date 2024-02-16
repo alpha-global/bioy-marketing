@@ -29,7 +29,7 @@
     "autoprefixer": "^10.4.17",
     "dayjs": "^1.11.10",
     "laravel-mix": "^6.0.49",
-    "marked": "^9.1.2",
+    "marked": "^12.0.0",
     "netlify-plugin-cache": "^1.0.3",
     "postcss": "^8.4.35",
     "prettier": "^3.2.5",
