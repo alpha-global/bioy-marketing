@@ -18,7 +18,7 @@ test.describe('Today', () => {
         test.setTimeout(120000);
         await page.goto(`${lang}/classic/${globals.today}`);
         expect(await page.isVisible('main')).toBeTruthy();
-        await expect(page.getByText(`${translations[lang].day} ${today}`)).toBeVisible();
+        await expect(page.getByText(`${translations[lang].day} ${globals.today}`)).toBeVisible();
       });
     }
   }
