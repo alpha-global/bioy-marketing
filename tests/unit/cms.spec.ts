@@ -2,6 +2,12 @@ import { test, expect } from '@playwright/test';
 const mockDate = require('mockdate');
 const fetchData = require('../../src/_data/cms');
 
+// Run tests in serial mode to:
+// - avoid conflicts with the mock date
+// - use a global variable
+
+test.describe.configure({ mode: 'serial' });
+
 let marchOneTitle;
 
 test.describe('get leap year data', () => {
