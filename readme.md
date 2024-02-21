@@ -38,15 +38,23 @@ When there is a design change to the devotions template or the content source ch
 the devotion pages can be rebuilt:
 
 ```
-npm run production:cleanSlate
+npm run content:all
 ```
 
-The system might not be able to handle all the devotions being rebuilt in one go, so the
-following can be run on the staging or production server instead:
+Or, in stages when the system resources can't handle a full build in one go:
 
 ```
 START_DAY=1 END_DAY=40 ELEVENTY=production npx @11ty/eleventy
 START_DAY=41 END_DAY=80 ELEVENTY=production npx @11ty/eleventy
+...
+```
+
+Then upload to the cloud bucket:
+
+```
+gcloud storage cp --recursive ./build/ar gs://bnap-website
+gcloud storage cp --recursive ./build/de gs://bnap-website
+gcloud storage cp --recursive ./build/en gs://bnap-website
 ...
 ```
 
