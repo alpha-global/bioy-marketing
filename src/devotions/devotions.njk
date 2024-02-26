@@ -81,12 +81,14 @@ eleventyComputed:
     {{ devotion.bundle.pippa | markdown | safe }}
   </section>
 
-  <div class="mx-10 mb-4 grid gap-4 md:grid-cols-3">
+  <div class="mx-10 mb-4 grid gap-4">
+    {% if devotion.bundle.verseOfTheDay?.verse %}
     <section class="prose lg:prose-xl bg-stone p-4">
       <h2 class="mt-0">{{ lang.verseOfTheDay }}</h2>
       <h3>{{ devotion.bundle.verseOfTheDay.reference }}</h3>
       {{ devotion.bundle.verseOfTheDay.verse | markdown | safe }}
     </section>
+    {% endif %}
 
     {% if devotion.bundle.thoughtForTheDay %}
       <section class="prose lg:prose-xl bg-stone p-4">
@@ -95,7 +97,7 @@ eleventyComputed:
       </section>
     {% endif %}
 
-    {% if devotion.bundle.actionForTheDay %}
+    {% if devotion.bundle.actionForTheDay > 0  %}
       <section class="prose lg:prose-xl bg-stone p-4">
         <h2 class="mt-0">Action for the Day</h2>
         {{ devotion.bundle.actionForTheDay | markdown | safe }}
