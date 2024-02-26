@@ -14,18 +14,31 @@ module.exports = {
   devotionSection: (devotionSection) => {
     return `
     <section class="prose lg:prose-xl mb-8 mx-10">
-      <div class="p-4 bg-red rounded">
-        <div class="font-bold text-4xl text-white">${devotionSection.title}</div>
-      </div>
-      <div class="py-4">
-        <h2>${devotionSection.passage.reference}</h2>
-          <div class="font-scripture">
-            ${toHtml(devotionSection.passage.verse)}
-          </div>
-        <h2>${devotionSection.commentary}</h2>
-        ${toHtml(normalizeHeadings(devotionSection.comment))}
         ${
-          devotionSection.prayer != null
+          devotionSection.title != ''
+            ? `<div class="p-4 bg-red rounded">
+                  <div class="font-bold text-4xl text-white">${devotionSection.title}</div>
+              </div>`
+            : ''
+        }
+      <div class="py-4">
+        ${
+          devotionSection.passage.reference != ''
+            ? `<h2>${devotionSection.passage.reference}</h2>`
+            : ''
+        }
+
+        ${
+          devotionSection.passage.verse != ''
+            ? `<div class="font-scripture">${toHtml(devotionSection.passage.verse)}</div>`
+            : ''
+        }
+        ${devotionSection.commentary != '' ? `<h2>${devotionSection.commentary}</h2>` : ''}
+
+        ${devotionSection.comment != '' ? `${toHtml(normalizeHeadings(devotionSection.comment))}` : ''}
+
+        ${
+          devotionSection.prayer != ''
             ? `<h2>${devotionSection.prayerTitle}</h2>
           <div class="border-l-4 pl-4 border-red font-scripture">${toHtml(
             devotionSection.prayer,

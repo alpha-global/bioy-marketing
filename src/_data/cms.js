@@ -1,6 +1,10 @@
 const EleventyFetch = require('@11ty/eleventy-fetch');
 const { variants } = require('./globals');
 const { calculateDateRange } = require('../../utils/helpers');
+const dayjs = require('dayjs');
+const leapYearPlugin = require('dayjs/plugin/isLeapYear');
+
+dayjs.extend(leapYearPlugin);
 
 /**
  * Fetch devotion range
@@ -55,7 +59,51 @@ async function _fetchDevotionRangeFromUrl(url, devotions) {
   return devotions;
 }
 
+function isLeapYear() {
+  const year = new Date().getFullYear();
+  const isLeap = dayjs(year.toString(), 'YYYY').isLeapYear();
+  return isLeap;
+}
+
+async function injectLeapYear(data) {
+  // if not leapyear, return data minus the leap year content
+  if (!isLeapYear()) return data;
+
+
+  // this is a leap year get the LY content
+  const leapYear = [];
+
+  for (const [variant, locales] of Object.entries(variants)) {
+    for (const locale of locales) {
+      const day60 = await fetchDevotionRange(366, 366, locale, variant);
+      if (!day60.length) continue;
+      const item = day60[0];
+      item.number = 60;
+      item.url = item.url.replace('366', '60');
+      leapYear.push(item);
+    }
+  }
+
+  const preDays = data.filter((item) => item.number < 60);
+  const postDays = data.filter((item) => item.number >= 60).map((item) => {
+    // bump the day number by 1
+    const newId = item.number + 1;
+    item.number = newId;
+    // change the url
+    item.url = `/${item.locale}/${item.variant}/${newId}`;
+    return item;
+  });
+
+  return [
+    ...preDays,
+    ...leapYear,
+    ...postDays
+  ];
+
+}
+
 module.exports = async function () {
+
   let startDayNumber = 1;
   let endDayNumber = 365;
 
@@ -82,7 +130,8 @@ module.exports = async function () {
       }
     }
 
-    return data;
+    const adjusted = injectLeapYear(data);
+    return adjusted;
   } catch (e) {
     console.error('\n\nTalking to CMS API failed\n\n');
   }
