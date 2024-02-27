@@ -1,11 +1,13 @@
 steps:
   # install dependencies
-  - name: 'node:20'
+  - name: 'node'
+    entrypoint: 'npm'
     args: ['install']
     id: Prep
 
   # build the static assets
-  - name: 'node:20'
+  - name: 'node'
+    entrypoint: 'npm'
     args: ['run', 'production']
     id: Build
 
