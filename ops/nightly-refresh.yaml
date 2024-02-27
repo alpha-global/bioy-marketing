@@ -1,11 +1,11 @@
 steps:
   # install dependencies
-  - name: 'node'
+  - name: 'node:18.19.1'
     args: ['install']
     id: Prep
 
   # build the static assets
-  - name: 'node'
+  - name: 'node:18.19.1'
     args: ['run', 'production']
     id: Build
 
