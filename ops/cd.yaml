@@ -1,11 +1,11 @@
 steps:
   # install dependencies
-  - name: 'gcr.io/cloud-builders/npm'
+  - name: 'node'
     args: ['install']
     id: Prep
 
   # build the static assets
-  - name: 'gcr.io/cloud-builders/npm'
+  - name: 'node'
     args: ['run', 'production']
     id: Build
 
