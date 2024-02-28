@@ -3,6 +3,8 @@ const { cacheBuster } = require('../src/_data/globals');
 
 const { toHtml, normalizeHeadings } = require('./helpers');
 
+const notEmpty = (value) => value !== undefined && value !== null && value !== '';
+
 module.exports = {
   // Usage: {% svgSprite name="icon" %}
   svgSprite: (svgSprite) => {
@@ -14,37 +16,33 @@ module.exports = {
   devotionSection: (devotionSection) => {
     return `
     <section class="prose lg:prose-xl mb-8 mx-10">
-        ${
-          devotionSection.title != ''
-            ? `<div class="p-4 bg-red rounded">
+        ${notEmpty(devotionSection.title)
+        ? `<div class="p-4 bg-red rounded">
                   <div class="font-bold text-4xl text-white">${devotionSection.title}</div>
               </div>`
-            : ''
-        }
+        : ''
+      }
       <div class="py-4">
-        ${
-          devotionSection.passage.reference != ''
-            ? `<h2>${devotionSection.passage.reference}</h2>`
-            : ''
-        }
+        ${notEmpty(devotionSection.passage.reference)
+        ? `<h2>${devotionSection.passage.reference}</h2>`
+        : ''
+      }
 
-        ${
-          devotionSection.passage.verse != ''
-            ? `<div class="font-scripture">${toHtml(devotionSection.passage.verse)}</div>`
-            : ''
-        }
-        ${devotionSection.commentary != '' ? `<h2>${devotionSection.commentary}</h2>` : ''}
+        ${notEmpty(devotionSection.passage.verse)
+        ? `<div class="font-scripture">${toHtml(devotionSection.passage.verse)}</div>`
+        : ''
+      }
+        ${notEmpty(devotionSection.commentary) ? `<h2>${devotionSection.commentary}</h2>` : ''}
 
-        ${devotionSection.comment != '' ? `${toHtml(normalizeHeadings(devotionSection.comment))}` : ''}
+        ${notEmpty(devotionSection.comment) ? `${toHtml(normalizeHeadings(devotionSection.comment))}` : ''}
 
-        ${
-          devotionSection.prayer != ''
-            ? `<h2>${devotionSection.prayerTitle}</h2>
+        ${notEmpty(devotionSection.prayer)
+        ? `<h2>${devotionSection.prayerTitle}</h2>
           <div class="border-l-4 pl-4 border-red font-scripture">${toHtml(
-            devotionSection.prayer,
-          )}</div>`
-            : ''
-        }
+          devotionSection.prayer,
+        )}</div>`
+        : ''
+      }
       </div>
     </section>
     `;
