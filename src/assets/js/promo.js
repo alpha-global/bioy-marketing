@@ -15,6 +15,7 @@ export default () => {
     hasSeenPromo: false,
     promoID: '',
     locator: null,
+    showVideo: false,
 
     async init(startDate, endDate, promoID, type) {
       if (type == undefined) return;
