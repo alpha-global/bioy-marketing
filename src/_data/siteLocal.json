@@ -61,13 +61,14 @@
       "img": "/assets/img/pop-up.jpg",
       "endDate": "2024-03-28",
       "promoID": "lc-2024",
-      "text": "एक वर्ष में बाइबिल के नए ऑनलाइन होम में आपका स्वागत है। और कुछ नहीं बदला है, हम आशा करते हैं कि आप हमारे दैनिक बाइबल पढ़ने का आनंद लेना जारी रखेंगे।",
+      "youTubeURL": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
+      "text": "अल्फा का नेतृत्व सम्मेलन 6-7 मई 2024 को लंदन के रॉयल अल्बर्ट हॉल में हो रहा है। यह हर क्षेत्र के नेताओं के लिए - संदर्भों, परंपराओं, पीढ़ियों और संस्कृतियों से परे - एक साथ इकट्ठा होने, यीशु से मिलने और पवित्र आत्मा से भरने का एक अनूठा अवसर है।आज ही",
       "startDate": "2024-03-15",
-      "acceptText": "ठीक है",
+      "acceptText": "रजिस्टर करें",
       "dismissText": "",
-      "title": "कुछ नया नोटिस किया?",
+      "title": "आप आमंत्रित हैं",
       "type": "modal",
-      "ctaUrl": ""
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnapweb&utm_medium=popup&utm_campaign=lc24.1"
     },
     "ticket": {
       "form": {
@@ -157,13 +158,14 @@
       "img": "/assets/img/pop-up.jpg",
       "endDate": "2024-03-28",
       "promoID": "lc-2024",
-      "text": "Benvenuti nella nuova pagina online di Bibbia in un Anno. Non è cambiato quasi nulla. La nostra speranza è che tu possa continuare il tuo viaggio quotidiano di lettura della Bibbia.",
+      "youTubeURL": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
+      "text": "La Leadership Conference di Alpha si terrà alla Royal Albert Hall di Londra il 6-7 maggio 2024.Un'opportunità unica di ritrovarsi insieme, incontrare Gesù ed essere riempiti di Spirito Santo, per leader di contesti, tradizioni, generazioni e culture diverse.",
       "startDate": "2024-03-15",
-      "acceptText": "OK",
+      "acceptText": "Registrati oggi",
       "dismissText": "",
-      "title": "Notate qualcosa di nuovo?",
+      "title": "Vieni anche tu!",
       "type": "modal",
-      "ctaUrl": ""
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnapweb&utm_medium=popup&utm_campaign=lc24.1"
     },
     "ticket": {
       "form": {
