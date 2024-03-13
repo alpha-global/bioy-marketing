@@ -204,13 +204,14 @@
       "img": "/assets/img/pop-up.jpg",
       "endDate": "2024-03-28",
       "promoID": "lc-2024",
-      "text": "Bienvenue sur le nouveau site de La Bible en un an. Rien d'autre n'a changé, nous espérons que vous continuerez à apprécier nos lectures bibliques quotidiennes.",
+      "youTubeURL": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
+      "text": "La Leadership Conference d'Alpha aura lieu au Royal Albert Hall de Londres, les 6 et 7 mai 2024.C'est une opportunité unique pour les dirigeants de tous les domaines -- quels que soient les contextes, les traditions, les générations et les cultures -- de se rassembler, de rencontrer Jésus et d'être remplis du Saint-Esprit.",
       "startDate": "2024-03-15",
-      "acceptText": "D'accord",
+      "acceptText": "Inscrivez-vous aujourd'hui",
       "dismissText": "",
-      "title": "Vous avez remarqué quelque chose de nouveau ?",
+      "title": "Vous êtes invités",
       "type": "modal",
-      "ctaUrl": ""
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnapweb&utm_medium=popup&utm_campaign=lc24.1"
     },
     "ticket": {
       "form": {
