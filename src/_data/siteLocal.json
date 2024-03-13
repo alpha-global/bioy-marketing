@@ -242,13 +242,14 @@
       "img": "/assets/img/pop-up.jpg",
       "endDate": "2024-03-28",
       "promoID": "lc-2024",
-      "text": "Te damos la bienvenida a la nueva \"Biblia con Nicky y Pippa Gumbel\" online (antes Biblia en un año). No ha cambiado nada más, esperamos que disfrutes de las lecturas diarias de la Biblia.",
+      "youTubeURL": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
+      "text": "The Leadershio Conference de Alpha se llevará a cabo en el Royal Albert Hall de Londres los días 6 y 7 de mayo de 2024.Es una oportunidad única para que los líderes de todos los ámbitos (a través de contextos, tradiciones, generaciones y culturas) se reúnan como uno solo, encuentren a Jesús y sean llenos del Espíritu Santo.",
       "startDate": "2024-03-15",
-      "acceptText": "De acuerdo",
+      "acceptText": "Registrate ahora",
       "dismissText": "",
-      "title": "¿Has notado algo nuevo?",
+      "title": "Estas invitado",
       "type": "modal",
-      "ctaUrl": ""
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnapweb&utm_medium=popup&utm_campaign=lc24.1"
     },
     "ticket": {
       "form": {
