@@ -109,14 +109,14 @@
       "endDate": "2024-03-28",
       "promoID": "lc-2024",
       "youTubeURL": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
-      "text": "Welcome to the new online home of the Bible with Nicky and Pippa Gumbel - formerly Bible in One Year (we were asked to change the name because of possible confusion with other products). Nothing else has changed, we hope you continue to enjoy our daily Bible readings.",
+      "text": "We are delighted to invite you to join us this year at the Leadership Conference on 6-7 May 2024.\nLC24 is a unique opportunity for leaders in every sphere to gather as one, encounter Jesus, and be filled with the Holy Spirit.",
       "startDate": "2024-03-15",
       "youTubeVideoLink": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
-      "acceptText": "OK",
-      "dismissText": "",
-      "title": "Notice something new?",
+      "acceptText": "Register today",
+      "dismissText": "No Thanks",
+      "title": "You're invited",
       "type": "modal",
-      "ctaUrl": ""
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnapweb&utm_medium=popup&utm_campaign=lc24.1"
     },
     "ticket": {
       "title": "Ask a question about The Bible with Nicky and Pippa Gumbel",
@@ -310,6 +310,7 @@
       "img": "/assets/img/pop-up.jpg",
       "endDate": "2024-03-28",
       "promoID": "lc-2024",
+      "youTubeURL": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
       "text": "مرحبًا بكم في الموقع الإلكتروني الجديد للكتاب المقدس في سنة واحدة. لم يتغير شيء آخر، نأمل أن تستمر في الاستمتاع بقراءاتنا اليومية للكتاب المقدس.",
       "startDate": "2024-03-15",
       "youTubeVideoLink": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
@@ -317,7 +318,7 @@
       "dismissText": "",
       "title": "لاحظت شيئا جديدا؟",
       "type": "modal",
-      "ctaUrl": ""
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnapweb&utm_medium=popup&utm_campaign=lc24.1"
     },
     "ticket": {
       "form": {
