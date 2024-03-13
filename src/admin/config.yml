@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: feat/lc-24
 
 i18n:
   structure: single_file
@@ -871,8 +871,8 @@ collections:
                         required: false,
                       },
                       {
-                        label: 'YouTube Video Link',
-                        name: 'youTubeVideoLink',
+                        label: 'YouTube URL',
+                        name: 'youTubeURL',
                         widget: 'string',
                         i18n: true,
                         required: false,

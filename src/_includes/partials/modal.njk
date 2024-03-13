@@ -1,8 +1,8 @@
 <div x-data="promo"
      x-ref="promoModal"
-     x-init="init('{{ siteLocal[locale].promo.startDate }}','{{ siteLocal[locale].promo.endDate }}', '{{ siteLocal[locale].promo.promoID }}', '{{ siteLocal[locale].promo.type }}')"
+     x-init="init('{{ siteLocal[locale].promo.startDate }}','{{ siteLocal[locale].promo.endDate }}', '{{ siteLocal[locale].promo.promoID }}', '{{ siteLocal[locale].promo.type }}', '{{ siteLocal[locale].promo.youTubeURL }}')"
      class="fixed inset-0 z-20 hidden flex-col items-center justify-center bg-black bg-opacity-60 min-h-screen">
-  <div class="w-[90%] overflow-y-auto overflow-hidden rounded-lg bg-white shadow-lg md:w-[80%] lg:w-2/5 {{ '' if siteLocal[locale].promo.img else 'rounded-t-lg border-t-8 border-red'}}">
+  <div class="w-[90%] overflow-y-auto overflow-hidden rounded-lg bg-white shadow-lg md:w-[80%] lg:w-2/5 {{ '' if siteLocal[locale].promo.img else 'rounded-t-lg border-t-8 border-red' }}">
     <div class="relative">
       <template x-if="!showVideo">
         {% if siteLocal[locale].promo.img %}
@@ -10,17 +10,19 @@
           100vw", "w-full h-72 overflow-hidden object-cover object-top" %}
         {% endif %}
       </template>
-      <template x-if="showVideo">
-        <iframe class="w-full h-72"
-                src="https://www.youtube.com/embed/hsdKJnJv9zU?autoplay=1&controls=0"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-        </iframe>
-      </template>
-      <button x-show="!showVideo"
-              @click="playVideo"
-              class="absolute top-1/2 left-1/2">{% svgSprite name="play", class="text-red h-10 w-10" %}</button>
+      {% if siteLocal[locale].promo.youTubeURL %}
+        <template x-if="showVideo">
+          <iframe class="w-full h-72"
+                  src="https://www.youtube.com/embed/hsdKJnJv9zU?autoplay=1&controls=0"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+          </iframe>
+        </template>
+        <button x-show="!showVideo"
+                @click="playVideo"
+                class="absolute top-1/2 left-1/2">{% svgSprite name="play", class="text-red h-10 w-10" %}</button>
+      {% endif %}
     </div>
     <div class="flex flex-col items-center justify-center space-y-8 py-8 px-7">
       <h3 class="text-center text-base font-semibold text-red md:text-lg">{{ siteLocal[locale].promo.title }}</h3>
