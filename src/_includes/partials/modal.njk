@@ -21,7 +21,9 @@
         </template>
         <button x-show="!showVideo"
                 @click="playVideo"
-                class="absolute top-1/2 left-1/2">{% svgSprite name="play", class="text-red h-10 w-10" %}</button>
+                class="absolute inset-0 flex flex-col items-center justify-center">
+          {% svgSprite name="play-circle", class="text-red h-12 w-12 mt-16" %}
+        </button>
       {% endif %}
     </div>
     <div class="flex flex-col items-center justify-center space-y-8 py-8 px-7">
