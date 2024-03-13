@@ -20,6 +20,11 @@ export default () => {
 
     async init(startDate, endDate, promoID, type, youTubeURL) {
       if (type == undefined) return;
+      if (youTubeURL == undefined || youTubeURL == '') {
+        return;
+      } else {
+        this.embedURL = this.videoParams(youTubeURL).embedURL;
+      }
 
       if (type == 'modal') {
         this.locator = this.$refs.promoModal;
