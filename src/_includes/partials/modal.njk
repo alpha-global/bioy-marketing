@@ -13,7 +13,7 @@
       {% if siteLocal[locale].promo.youTubeURL %}
         <template x-if="showVideo">
           <iframe class="w-full h-72"
-                  src="https://www.youtube.com/embed/hsdKJnJv9zU?autoplay=1&controls=0"
+                  :src="embedURL"
                   frameborder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen>
