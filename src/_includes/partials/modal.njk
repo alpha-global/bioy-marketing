@@ -4,24 +4,23 @@
      class="fixed inset-0 z-20 hidden flex-col items-center justify-center bg-black bg-opacity-60 min-h-screen">
   <div class="w-[90%] overflow-y-auto overflow-hidden rounded-lg bg-white shadow-lg md:w-[80%] lg:w-2/5 {{ '' if siteLocal[locale].promo.img else 'rounded-t-lg border-t-8 border-red'}}">
     <div class="relative">
-      <div x-show="!showVideo">
+      <template x-if="!showVideo">
         {% if siteLocal[locale].promo.img %}
           {% blockImage siteLocal[locale].promo.img, "Donate promo" , "(min-width: 640px) 60vw,
           100vw", "w-full h-72 overflow-hidden object-cover object-top" %}
         {% endif %}
-      </div>
-      <iframe x-show="showVideo"
-              class="w-full h-72"
-              src="https://www.youtube.com/embed/hsdKJnJv9zU?si=q1AMVC9PxvQocNNv"
-              title="{{ siteLocal[locale].promo.title }}"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
+      </template>
+      <template x-if="showVideo">
+        <iframe class="w-full h-72"
+                src="https://www.youtube.com/embed/hsdKJnJv9zU?autoplay=1&controls=0"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+      </template>
       <button x-show="!showVideo"
-              @click="play"
-              class="absolute top-1/2 left-1/2 grid place-content-center place-items-center">
-        {% svgSprite name="play", class=" text-red h-10 w-10" %}
-      </button>
+              @click="playVideo"
+              class="absolute top-1/2 left-1/2">{% svgSprite name="play", class="text-red h-10 w-10" %}</button>
     </div>
     <div class="flex flex-col items-center justify-center space-y-8 py-8 px-7">
       <h3 class="text-center text-base font-semibold text-red md:text-lg">{{ siteLocal[locale].promo.title }}</h3>

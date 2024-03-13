@@ -67,5 +67,8 @@ export default () => {
       this.updatePromoIDsStore(this.promoID);
       location.href = ctaUrl;
     },
+    playVideo() {
+      this.showVideo = true;
+    },
   };
 };
