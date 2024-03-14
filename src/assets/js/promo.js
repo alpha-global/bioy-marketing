@@ -15,9 +15,15 @@ export default () => {
     hasSeenPromo: false,
     promoID: '',
     locator: null,
+    showVideo: false,
+    embedURL: '',
 
-    async init(startDate, endDate, promoID, type) {
+    async init(startDate, endDate, promoID, type, youTubeURL) {
       if (type == undefined) return;
+
+      youTubeURL == undefined || youTubeURL == ''
+        ? (this.embedURL = '')
+        : (this.embedURL = this.videoParams(youTubeURL).embedURL);
 
       if (type == 'modal') {
         this.locator = this.$refs.promoModal;
@@ -65,6 +71,21 @@ export default () => {
     acceptAction(ctaUrl) {
       this.updatePromoIDsStore(this.promoID);
       location.href = ctaUrl;
+    },
+    playVideo() {
+      this.showVideo = true;
+    },
+    videoParams(videoUrl) {
+      const videoId = videoUrl.split('v=')[1];
+      const ampersandPosition = videoId.indexOf('&');
+      if (ampersandPosition !== -1) {
+        return videoId.substring(0, ampersandPosition);
+      }
+      const embedURL = `https://www.youtube.com/embed/${videoId}?autoplay=1&controls=0`;
+      return {
+        embedURL: embedURL,
+        videoId: videoId,
+      };
     },
   };
 };

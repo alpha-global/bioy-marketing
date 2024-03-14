@@ -863,7 +863,20 @@ collections:
                         i18n: false,
                         required: false,
                       },
-                      { label: 'CTA URL', name: 'ctaUrl', widget: 'string', i18n: true , required: false},
+                      {
+                        label: 'CTA URL',
+                        name: 'ctaUrl',
+                        widget: 'string',
+                        i18n: true,
+                        required: false,
+                      },
+                      {
+                        label: 'YouTube URL',
+                        name: 'youTubeURL',
+                        widget: 'string',
+                        i18n: true,
+                        required: false,
+                      },
                     ],
                 },
                 {
