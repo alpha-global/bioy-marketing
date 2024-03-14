@@ -66,7 +66,7 @@
       "text": "अल्फा का नेतृत्व सम्मेलन 6-7 मई 2024 को लंदन के रॉयल अल्बर्ट हॉल में हो रहा है। यह हर क्षेत्र के नेताओं के लिए - संदर्भों, परंपराओं, पीढ़ियों और संस्कृतियों से परे - एक साथ इकट्ठा होने, यीशु से मिलने और पवित्र आत्मा से भरने का एक अनूठा अवसर है।आज ही",
       "startDate": "2024-03-14",
       "acceptText": "रजिस्टर करें",
-      "dismissText": "",
+      "dismissText": "खारिज",
       "title": "आप आमंत्रित हैं",
       "type": "modal",
       "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnapweb&utm_medium=popup&utm_campaign=lc24.1"
@@ -163,7 +163,7 @@
       "text": "La Leadership Conference di Alpha si terrà alla Royal Albert Hall di Londra il 6-7 maggio 2024.Un'opportunità unica di ritrovarsi insieme, incontrare Gesù ed essere riempiti di Spirito Santo, per leader di contesti, tradizioni, generazioni e culture diverse.",
       "startDate": "2024-03-14",
       "acceptText": "Registrati oggi",
-      "dismissText": "",
+      "dismissText": "Chiudi",
       "title": "Vieni anche tu!",
       "type": "modal",
       "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnapweb&utm_medium=popup&utm_campaign=lc24.1"
@@ -211,7 +211,7 @@
       "text": "La Leadership Conference d'Alpha aura lieu au Royal Albert Hall de Londres, les 6 et 7 mai 2024.C'est une opportunité unique pour les dirigeants de tous les domaines -- quels que soient les contextes, les traditions, les générations et les cultures -- de se rassembler, de rencontrer Jésus et d'être remplis du Saint-Esprit.",
       "startDate": "2024-03-14",
       "acceptText": "Inscrivez-vous aujourd'hui",
-      "dismissText": "",
+      "dismissText": "Fermer",
       "title": "Vous êtes invités",
       "type": "modal",
       "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnapweb&utm_medium=popup&utm_campaign=lc24.1"
@@ -280,10 +280,10 @@
       "text": "欢迎来到 \"一年读完圣经 \"的新网站。其他方面没有任何变化，希望您继续喜欢我们的每日读经。",
       "startDate": "2024-03-14",
       "acceptText": "好的",
-      "dismissText": "",
+      "dismissText": "忽略",
       "title": "有什么新发现吗？",
       "type": "modal",
-      "ctaUrl": ""
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnapweb&utm_medium=popup&utm_campaign=lc24.1"
     },
     "ticket": {
       "form": {
@@ -320,7 +320,7 @@
       "startDate": "2024-03-14",
       "youTubeVideoLink": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
       "acceptText": "نعم",
-      "dismissText": "",
+      "dismissText": "رفض",
       "title": "لاحظت شيئا جديدا؟",
       "type": "modal",
       "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnapweb&utm_medium=popup&utm_campaign=lc24.1"
@@ -367,10 +367,10 @@
       "text": "Chào mừng bạn đến với trang web trực tuyến mới của Kinh Thánh trong Một Năm. Không có gì thay đổi, chúng tôi hy vọng bạn tiếp tục thưởng thức các bài đọc kinh thánh hàng ngày của chúng tôi.",
       "startDate": "2024-03-14",
       "acceptText": "Được rồi",
-      "dismissText": "",
+      "dismissText": "Bỏ qua",
       "title": "Nhận thấy điều gì đó mới mẻ?",
       "type": "modal",
-      "ctaUrl": ""
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnapweb&utm_medium=popup&utm_campaign=lc24.1"
     },
     "ticket": {
       "title": "Đặt câu hỏi về BiOY",
@@ -413,7 +413,7 @@
       "dismissText": "",
       "title": "สังเกตเห็นสิ่งใหม่ ๆ ?",
       "type": "modal",
-      "ctaUrl": ""
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnapweb&utm_medium=popup&utm_campaign=lc24.1"
     },
     "ticket": {
       "title": "ถามคำถามเกี่ยวกับ BiOY",
@@ -435,10 +435,10 @@
       "text": "Selamat datang di rumah online baru Alkitab dalam Satu Tahun. Tidak ada yang berubah, kami harap Anda terus menikmati bacaan Alkitab setiap hari.",
       "startDate": "2024-03-14",
       "acceptText": "Oke",
-      "dismissText": "",
+      "dismissText": "Berhentikan",
       "title": "Melihat sesuatu yang baru?",
       "type": "modal",
-      "ctaUrl": ""
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnapweb&utm_medium=popup&utm_campaign=lc24.1"
     },
     "ticket": {
       "title": "Ajukan pertanyaan tentang BiOY",
