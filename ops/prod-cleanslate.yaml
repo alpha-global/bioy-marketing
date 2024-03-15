@@ -1,0 +1,35 @@
+steps:
+  # install dependencies
+  - name: 'node'
+    entrypoint: 'npm'
+    args: ['install']
+    id: Prep
+
+  # build the static assets
+  - name: 'node'
+    entrypoint: 'npm'
+    args: ['run', 'production:cleanSlate']
+    id: Build
+
+  # push the content of the build folder to our gs bucket
+  - name: gcr.io/cloud-builders/gsutil
+    args: ['-m', 'cp', '-r', 'build/*', 'gs://$_BUCKET_NAME']
+    id: Copy
+
+  # notify in Slack
+  - name: gcr.io/cloud-builders/gcloud
+    id: Notify
+    entrypoint: bash
+    args:
+      - -c
+      - |
+        curl -X POST -H 'Content-type:application/json' --data '{"text":"✅ BNAP marketing site all content refreshed"}' $$SLACK_ENDPOINT
+    secretEnv: ['SLACK_ENDPOINT']
+
+substitutions:
+  _BUCKET_NAME: bnap-website
+
+availableSecrets:
+  secretManager:
+    - env: 'SLACK_ENDPOINT'
+      versionName: projects/$PROJECT_ID/secrets/SLACK_ENDPOINT/versions/2
