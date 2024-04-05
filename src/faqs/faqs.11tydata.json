@@ -526,6 +526,12 @@
         "category": "App",
         "shortAnswer": "You can reset the app and resume your place within the app. Tap on Menu > Settings > Reset App. Follow the prompts and then select the day number you last completed. The following day will show as Today in your list view and all previous days will be marked complete.",
         "detailedAnswer": "You can reset the app and resume your place within the app. Tap on Menu > Settings > Reset App. Follow the prompts and then select the day number you last completed. The following day will show as Today in your list view and all previous days will be marked complete."
+      },
+      {
+        "title": "Why is the content different on the app than on the website/ email/ podcast i.e. a day behind?",
+        "category": "Content",
+        "detailedAnswer": "To accommodate Leap Year (29th February 2024), we introduced an extra day of special Leap Year content on our website. This adjustment effectively shifted our content schedule - making Leap Year content Day 60, pushing the original Day 60 to Day 61, and so forth. If you've been following our plan from 1st January 2024, you'll find everything in its expected place on the website. \n\nHowever, the app's schedule remained unchanged. Leap Year content was viewed on the website, via a pop-up link, without altering the app's calendar. As a result, those who started on 1st January and follow every day's content, including Leap Day, are technically a day ahead in the app, concluding the plan on 30th December, not the 31st.\n\nIf you’d like your app's schedule to mirror the website's, complete with a day off:\n\nNavigate to the menu, select settings, and choose 'reset app.'\n\nWhen prompted, select the day *before* the one you want to start on e.g. Day 70, to start on Day 71.\n\nWe're actively looking into a more permanent solution and appreciate your patience in the meantime. Our sincerest apologies for any confusion this discrepancy may have caused. Thank you for your understanding and continued support.",
+        "shortAnswer": "To accommodate Leap Year (29th February 2024), we introduced an extra day of special Leap Year content on our website. This adjustment effectively shifted our content schedule - making Leap Year content Day 60, pushing the original Day 60 to Day 61, and so forth. If you've been following our plan from 1st January 2024, you'll find everything in its expected place on the website. \n\nHowever, the app's schedule remained unchanged."
       }
     ],
     "seeMore": "See More",
