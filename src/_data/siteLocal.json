@@ -28,17 +28,17 @@
       "goHomeButton": "Nach Hause gehen"
     },
     "promo": {
-      "img": "/assets/img/pop-up2.jpg",
-      "endDate": "2024-04-11",
-      "promoID": "lc-2024-2",
+      "img": "/assets/img/pop-up3.jpg",
+      "endDate": "2024-05-03",
+      "promoID": "lc-2024-3",
       "youTubeURL": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
-      "text": "Die Leadership Conference von Alpha findet am 6. und 7. Mai 2024 in der Royal Albert Hall in London statt.Sie ist eine einzigartige Gelegenheit für Führungskräfte aus allen Bereichen - über Kontexte, Traditionen, Generationen und Kulturen hinweg - sich zu versammeln, Jesus zu begegnen und vom Heiligen Geist erfüllt zu werden.",
-      "startDate": "2024-03-28",
+      "text": "Die Leadership Conference von Alpha findet am 6. und 7. Mai 2024 in der Royal Albert Hall in London statt.\nSie ist eine einzigartige Gelegenheit für Führungskräfte aus allen Bereichen - über Kontexte, Traditionen, Generationen und Kulturen hinweg - sich zu versammeln, Jesus zu begegnen und vom Heiligen Geist erfüllt zu werden.",
+      "startDate": "2024-04-11",
       "acceptText": "Jetzt anmelden",
       "dismissText": "Nein danke",
-      "title": "Haben Sie etwas Neues entdeckt?",
+      "title": "Du bist eingeladen",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.2"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.3"
     },
     "ticket": {
       "form": {
@@ -59,17 +59,17 @@
       "goHomeButton": "होम पेज़ पर जाएं"
     },
     "promo": {
-      "img": "/assets/img/pop-up2.jpg",
-      "endDate": "2024-04-11",
-      "promoID": "lc-2024-2",
+      "img": "/assets/img/pop-up3.jpg",
+      "endDate": "2024-05-03",
+      "promoID": "lc-2024-3",
       "youTubeURL": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
-      "text": "अल्फा का नेतृत्व सम्मेलन 6-7 मई 2024 को लंदन के रॉयल अल्बर्ट हॉल में हो रहा है। यह हर क्षेत्र के नेताओं के लिए - संदर्भों, परंपराओं, पीढ़ियों और संस्कृतियों से परे - एक साथ इकट्ठा होने, यीशु से मिलने और पवित्र आत्मा से भरने का एक अनूठा अवसर है।आज ही",
-      "startDate": "2024-03-28",
+      "text": "अल्फा का नेतृत्व सम्मेलन 6-7 मई 2024 को लंदन के रॉयल अल्बर्ट हॉल में हो रहा है।\nयह हर क्षेत्र के नेताओं के लिए - संदर्भों, परंपराओं, पीढ़ियों और संस्कृतियों से परे - एक साथ इकट्ठा होने, यीशु से मिलने और पवित्र आत्मा से भरने का एक अनूठा अवसर है।आज ही",
+      "startDate": "2024-04-11",
       "acceptText": "रजिस्टर करें",
       "dismissText": "खारिज",
       "title": "आप आमंत्रित हैं",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.2"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.3"
     },
     "ticket": {
       "form": {
@@ -107,18 +107,18 @@
       "goHomeButton": "Go Home"
     },
     "promo": {
-      "img": "/assets/img/pop-up2.jpg",
-      "endDate": "2024-04-11",
-      "promoID": "lc-2024-2",
+      "img": "/assets/img/pop-up3.jpg",
+      "endDate": "2024-05-03",
+      "promoID": "lc-2024-3",
       "youTubeURL": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
-      "text": "Join us at the Leadership Conference on 6-7 May 2024. This year we are delighted to welcome the following contributors: Danielle Strickland, Lecrae, Carey Nieuwhof, Dr Johannes Hartl, Jennie Allen, Fr Hayden Williams, Tom Holland, Mark Varughese, Pete Greig, and more. LC24 is a unique opportunity for leaders in every sphere to gather as one, encounter Jesus, and be filled with the Holy Spirit.",
-      "startDate": "2024-03-28",
+      "text": "The Leadership Conference is just around the corner on the 6-7 May 2024. LC24 is a unique opportunity for leaders in every sphere to gather as one, encounter Jesus, and be filled with the Holy Spirit. This year we will welcome the following contributors: Danielle Strickland, Lecrae, Carey Nieuwhof, Dr Johannes Hartl, Jennie Allen, Fr Hayden Williams, Tom Holland, Mark Varughese, Pete Greig, and more.",
+      "startDate": "2024-04-11",
       "youTubeVideoLink": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
       "acceptText": "Register today",
       "dismissText": "No Thanks",
-      "title": "Don't miss out!",
+      "title": "It's nearly here!",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.2"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.3"
     },
     "ticket": {
       "title": "Ask a question about The Bible with Nicky and Pippa Gumbel",
@@ -156,17 +156,17 @@
       "goHomeButton": "Go Home"
     },
     "promo": {
-      "img": "/assets/img/pop-up2.jpg",
-      "endDate": "2024-04-11",
-      "promoID": "lc-2024-2",
+      "img": "/assets/img/pop-up3.jpg",
+      "endDate": "2024-05-03",
+      "promoID": "lc-2024-3",
       "youTubeURL": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
-      "text": "La Leadership Conference di Alpha si terrà alla Royal Albert Hall di Londra il 6-7 maggio 2024.Un'opportunità unica di ritrovarsi insieme, incontrare Gesù ed essere riempiti di Spirito Santo, per leader di contesti, tradizioni, generazioni e culture diverse.",
-      "startDate": "2024-03-28",
+      "text": "La Leadership Conference di Alpha si terrà alla Royal Albert Hall di Londra il 6-7 maggio 2024.\nUn'opportunità unica di ritrovarsi insieme, incontrare Gesù ed essere riempiti di Spirito Santo, per leader di contesti, tradizioni, generazioni e culture diverse.",
+      "startDate": "2024-04-11",
       "acceptText": "Registrati oggi",
       "dismissText": "Chiudi",
       "title": "Vieni anche tu!",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.2"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.3"
     },
     "ticket": {
       "form": {
@@ -204,17 +204,17 @@
       "goHomeButton": "Aller à la page d'accueil"
     },
     "promo": {
-      "img": "/assets/img/pop-up2.jpg",
-      "endDate": "2024-04-11",
-      "promoID": "lc-2024-2",
+      "img": "/assets/img/pop-up3.jpg",
+      "endDate": "2024-05-03",
+      "promoID": "lc-2024-3",
       "youTubeURL": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
-      "text": "La Leadership Conference d'Alpha aura lieu au Royal Albert Hall de Londres, les 6 et 7 mai 2024.C'est une opportunité unique pour les dirigeants de tous les domaines -- quels que soient les contextes, les traditions, les générations et les cultures -- de se rassembler, de rencontrer Jésus et d'être remplis du Saint-Esprit.",
-      "startDate": "2024-03-28",
+      "text": "La Leadership Conference d'Alpha aura lieu au Royal Albert Hall de Londres, les 6 et 7 mai 2024.\nC'est une opportunité unique pour les dirigeants de tous les domaines -- quels que soient les contextes, les traditions, les générations et les cultures -- de se rassembler, de rencontrer Jésus et d'être remplis du Saint-Esprit.",
+      "startDate": "2024-04-11",
       "acceptText": "Inscrivez-vous aujourd'hui",
       "dismissText": "Fermer",
       "title": "Vous êtes invités",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.2"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.3"
     },
     "ticket": {
       "form": {
@@ -239,17 +239,17 @@
       "goHomeButton": "Ir a la pagina principal"
     },
     "promo": {
-      "img": "/assets/img/pop-up2.jpg",
-      "endDate": "2024-04-11",
-      "promoID": "lc-2024-2",
+      "img": "/assets/img/pop-up3.jpg",
+      "endDate": "2024-05-03",
+      "promoID": "lc-2024-3",
       "youTubeURL": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
-      "text": "The Leadershio Conference de Alpha se llevará a cabo en el Royal Albert Hall de Londres los días 6 y 7 de mayo de 2024.Es una oportunidad única para que los líderes de todos los ámbitos (a través de contextos, tradiciones, generaciones y culturas) se reúnan como uno solo, encuentren a Jesús y sean llenos del Espíritu Santo.",
-      "startDate": "2024-03-28",
+      "text": "The Leadershio Conference de Alpha se llevará a cabo en el Royal Albert Hall de Londres los días 6 y 7 de mayo de 2024.\nEs una oportunidad única para que los líderes de todos los ámbitos (a través de contextos, tradiciones, generaciones y culturas) se reúnan como uno solo, encuentren a Jesús y sean llenos del Espíritu Santo.",
+      "startDate": "2024-04-11",
       "acceptText": "Registrate ahora",
       "dismissText": "No, gracias",
       "title": "Estas invitado",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.2"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.3"
     },
     "ticket": {
       "form": {
@@ -274,17 +274,17 @@
       "goHomeButton": "回去"
     },
     "promo": {
-      "img": "/assets/img/pop-up2.jpg",
-      "endDate": "2024-04-11",
-      "promoID": "lc-2024-2",
+      "img": "/assets/img/pop-up3.jpg",
+      "endDate": "2024-05-03",
+      "promoID": "lc-2024-3",
       "youTubeURL": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
-      "text": "欢迎来到 \"一年读完圣经 \"的新网站。其他方面没有任何变化，希望您继续喜欢我们的每日读经。",
-      "startDate": "2024-03-28",
-      "acceptText": "好的",
+      "text": "Alpha的领导力会议将于2024年5月6日和7日在伦敦皇家阿尔伯特音乐厅举行。\n这是一个独特的机会，让来自各个领域的领导者-跨越背景、传统、世代和文化-聚集在一起，与耶稣相遇并被圣灵充满。",
+      "startDate": "2024-04-11",
+      "acceptText": "立即注册",
       "dismissText": "忽略",
-      "title": "有什么新发现吗？",
+      "title": "邀请您参加",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.2"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.3"
     },
     "ticket": {
       "form": {
@@ -313,18 +313,18 @@
       "goHomeButton": "اذهب الى الصفحة الرئيسية"
     },
     "promo": {
-      "img": "/assets/img/pop-up2.jpg",
-      "endDate": "2024-04-11",
-      "promoID": "lc-2024-2",
+      "img": "/assets/img/pop-up3.jpg",
+      "endDate": "2024-05-03",
+      "promoID": "lc-2024-3",
       "youTubeURL": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
-      "text": "مرحبًا بكم في الموقع الإلكتروني الجديد للكتاب المقدس في سنة واحدة. لم يتغير شيء آخر، نأمل أن تستمر في الاستمتاع بقراءاتنا اليومية للكتاب المقدس.",
-      "startDate": "2024-03-28",
+      "text": "تقام مؤتمر القيادة من ألفا في 6 و 7 مايو 2024 في قاعة رويال البرت في لندن.\nإنها فرصة فريدة للقادة من جميع المجالات - عبر السياقات والتقاليد والأجيال والثقافات - للتجمع ومقابلة يسوع وأن يملأهم الروح القدس.",
+      "startDate": "2024-04-11",
       "youTubeVideoLink": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
-      "acceptText": "نعم",
+      "acceptText": "سجل الآن",
       "dismissText": "رفض",
-      "title": "لاحظت شيئا جديدا؟",
+      "title": "أنت مدعو",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.2"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.3"
     },
     "ticket": {
       "form": {
@@ -362,17 +362,17 @@
       "goHomeButton": "Go Home"
     },
     "promo": {
-      "img": "/assets/img/pop-up2.jpg",
-      "endDate": "2024-04-11",
-      "promoID": "lc-2024-2",
+      "img": "/assets/img/pop-up3.jpg",
+      "endDate": "2024-05-03",
+      "promoID": "lc-2024-3",
       "youTubeURL": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
-      "text": "Chào mừng bạn đến với trang web trực tuyến mới của Kinh Thánh trong Một Năm. Không có gì thay đổi, chúng tôi hy vọng bạn tiếp tục thưởng thức các bài đọc kinh thánh hàng ngày của chúng tôi.",
-      "startDate": "2024-03-28",
-      "acceptText": "Được rồi",
+      "text": "Hội nghị Lãnh đạo của Alpha sẽ diễn ra vào ngày 6 và 7 tháng 5 năm 2024 tại Royal Albert Hall, Luân Đôn.\nĐây là một cơ hội độc đáo cho các nhà lãnh đạo từ mọi lĩnh vực - vượt qua ngữ cảnh, truyền thống, thế hệ và văn hóa - để tụ họp, gặp gỡ Chúa Giê-su và được Đức Thánh Linh tràn đầy.",
+      "startDate": "2024-04-11",
+      "acceptText": "Đăng ký ngay",
       "dismissText": "Bỏ qua",
-      "title": "Nhận thấy điều gì đó mới mẻ?",
+      "title": "Bạn được mời",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnapweb&utm_medium=popup&utm_campaign=lc24.1"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnapweb&utm_medium=popup&utm_campaign=lc24.3"
     },
     "ticket": {
       "title": "Đặt câu hỏi về BiOY",
@@ -406,17 +406,17 @@
       "goHomeButton": "ไปที่หน้าแรก"
     },
     "promo": {
-      "img": "/assets/img/pop-up2.jpg",
-      "endDate": "2024-04-11",
-      "promoID": "lc-2024-2",
+      "img": "/assets/img/pop-up3.jpg",
+      "endDate": "2024-05-03",
+      "promoID": "lc-2024-3",
       "youTubeURL": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
-      "text": "ยินดีต้อนรับสู่บ้านออนไลน์แห่งใหม่ของพระคัมภีร์ในหนึ่งปี ไม่มีอะไรเปลี่ยนแปลง เราหวังว่าคุณจะสนุกกับการอ่านพระคัมภีร์ทุกวันของเราต่อไป",
-      "startDate": "2024-03-28",
-      "acceptText": "ตกลง",
+      "text": "การประชุมผู้นำของอัลฟ่าจะจัดขึ้นในวันที่ 6 และ 7 พฤษภาคม 2567 ที่ Royal Albert Hall ในลอนดอน\nเป็นโอกาสที่ไม่เหมือนใครสำหรับผู้นำทุกสายงาน - ทั้งในบริบท ประเพณี รุ่น และวัฒนธรรม - ที่จะรวมตัวกัน เจอพระเยซู และรับเต็มเปี่ยมด้วยพระวจนะ",
+      "startDate": "2024-04-11",
+      "acceptText": "ลงทะเบียนเดี๋ยวนี้",
       "dismissText": "ออก",
-      "title": "สังเกตเห็นสิ่งใหม่ ๆ ?",
+      "title": "คุณได้รับเชิญ",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.2"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.3"
     },
     "ticket": {
       "title": "ถามคำถามเกี่ยวกับ BiOY",
@@ -432,17 +432,17 @@
       "goHomeButton": "Pergi ke beranda"
     },
     "promo": {
-      "img": "/assets/img/pop-up2.jpg",
-      "endDate": "2024-04-11",
-      "promoID": "lc-2024-2",
+      "img": "/assets/img/pop-up3.jpg",
+      "endDate": "2024-05-03",
+      "promoID": "lc-2024-3",
       "youTubeURL": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
-      "text": "Selamat datang di rumah online baru Alkitab dalam Satu Tahun. Tidak ada yang berubah, kami harap Anda terus menikmati bacaan Alkitab setiap hari.",
-      "startDate": "2024-03-28",
-      "acceptText": "Oke",
+      "text": "Konferensi Kepemimpinan Alpha akan diadakan pada tanggal 6 dan 7 Mei 2024 di Royal Albert Hall, London.\nIni adalah kesempatan unik bagi para pemimpin dari berbagai bidang - melintasi konteks, tradisi, generasi, dan budaya - untuk berkumpul, bertemu dengan Yesus, dan diisi oleh Roh Kudus.",
+      "startDate": "2024-04-11",
+      "acceptText": "Daftar sekarang",
       "dismissText": "Berhentikan",
-      "title": "Melihat sesuatu yang baru?",
+      "title": "Anda diundang",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.2"
+      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.3"
     },
     "ticket": {
       "title": "Ajukan pertanyaan tentang BiOY",
