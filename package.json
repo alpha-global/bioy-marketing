@@ -13,7 +13,7 @@
     "production:cleanSlate": "ELEVENTY_ENV=production CLEAN_SLATE=true npx @11ty/eleventy && mix --production",
     "test": "npx playwright test"
   },
-  "author": "Alpha International / OneSheep",
+  "author": "scout+redeem",
   "license": "ISC",
   "dependencies": {
     "alpinejs": "^3.13.5",
