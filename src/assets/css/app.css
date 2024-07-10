@@ -240,6 +240,19 @@
       text-align: initial;
     }
   }
+
+  #mce-success-response {
+    @apply !text-white !m-0 !px-0 !py-2;
+  
+  }
+
+  input.button {
+    @apply inline-block !bg-white rounded p-2 pb-1.5 !text-red hover:!bg-red hover:!text-white transition-colors;
+  
+  }
+  #mc_embed_signup div#mce-responses {
+    @apply !mx-0;
+  }
 }
 
 [dir="rtl"] .prose ul > li,
@@ -261,3 +274,4 @@
 .webkit-tap-highlight-color {
   -webkit-tap-highlight-color: transparent;
 }
+
