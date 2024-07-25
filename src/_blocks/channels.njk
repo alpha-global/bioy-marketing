@@ -1,57 +1,24 @@
-<section
-  class="lg:container mx-auto p-4"
-  x-data="mediumView"
-  id="start"
->
+<section class="lg:container mx-auto p-4" x-data="mediumView" id="start">
   <div class="relative lg:rounded">
-    <div
-      class="flex flex-col items-stretch"
-      style="min-height: 30rem"
-      x-ref="mediaContainer"
-    >
+    <div class="flex flex-col items-stretch"
+         style="min-height: 30rem"
+         x-ref="mediaContainer">
       {% for medium in channels[locale].distribution %}
-        <div
-        class="relative bg-cover bg-center w-full bioy-medium"
-        x-show="mediaFocus === {{ loop.index0 }}"
-      >
+        <div class="relative bg-cover bg-center w-full bioy-medium"
+             x-show="mediaFocus === {{ loop.index0 }}">
           {% if medium.image %}
             {% blockImage medium.image , "reader",
-        "(min-width: 1526px) calc(1536px - 2rem), (min-width: 1280px)
-        calc(1280px - 2rem), (min-width: 1024px) calc(1024px - 2rem), calc(100vw
-        - 2rem)", "object-cover h-full w-full absolute filter saturate-0
-        lg:rounded-lg rtl:transform rtl:-scale-x-1" %}
+            "(min-width: 1526px) calc(1536px - 2rem), (min-width: 1280px)
+            calc(1280px - 2rem), (min-width: 1024px) calc(1024px - 2rem), calc(100vw
+            - 2rem)", "object-cover h-full w-full absolute filter saturate-0
+            lg:rounded-lg rtl:transform rtl:-scale-x-1" %}
           {% endif %}
-
-          <div
-          class="
-            flex flex-col
-            justify-center
-            relative
-            h-full
-            bg-red bg-opacity-80
-            text-white
-            pl-28
-            pr-4
-            py-6
-            md:pl-36
-            rtl:pl-0 rtl:pr-36
-            lg:rounded-lg
-          "
-        >
+          <div class=" flex flex-col justify-center relative h-full bg-red bg-opacity-80 text-white pl-28 pr-4 py-6 md:pl-36 rtl:pl-0 rtl:pr-36 lg:rounded-lg ">
             {% if medium.icon !== 'medium_podcast' %}
               <div class="max-w-xs">
-
-                <h4 class="text-xl font-bold mb-3">
-                  {{ medium.channel }}
-                </h4>
-                {% if medium.description %}
-                  {{ medium.description | markdown | safe }}
-                {% endif %}
-
-                {% if medium.cta %}
-                  {{ medium.cta.code | safe }}
-                {% endif %}
-
+                <h4 class="text-xl font-bold mb-3">{{ medium.channel }}</h4>
+                {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
+                {% if medium.cta %}{{ medium.cta.code | safe }}{% endif %}
               </div>
             {% else %}
               <div class="max-w-xs md:max-w-xl lg:max-w-2xl">
@@ -59,27 +26,32 @@
                   <h4 class="text-xl font-bold mb-3">{{ medium.channel }}</h4>
                   {{ medium.description | markdown | safe }}
                 </div>
-
                 {% if (podcastUrls[locale].podcasts | length) !== 0 %}
                   <div class="md:flex md:items-center md:justify-center lg:hidden mt-4 md:mt-8">
                     <div class="relative md:max-w-xs">
                       {% if (podcastUrls[locale].podcasts | length) > 1 %}
                         <div class="flex items-center justify-between w-full absolute top-1">
-                          <button class="flex items-center justify-center z-10 px-2" id="previous">{% svgSprite name = "back",
-                            class = "h-8 w-8 rtl:rotate-180" %}</button>
-                          <button class="flex items-center justify-center z-10 px-2" id="next">{% svgSprite name = "forward",
-                            class = "h-8 w-8 rtl:rotate-180" %}</button>
+                          <button class="flex items-center justify-center z-10 px-2" id="previous">
+                            {% svgSprite name = "back",
+                            class = "h-8 w-8 rtl:rotate-180" %}
+                          </button>
+                          <button class="flex items-center justify-center z-10 px-2" id="next">
+                            {% svgSprite name = "forward",
+                            class = "h-8 w-8 rtl:rotate-180" %}
+                          </button>
                         </div>
                       {% endif %}
-                      <div id="podcast" class="relative overflow-hidden invisible flex flex-col max-w-xs">
+                      <div id="podcast"
+                           class="relative overflow-hidden invisible flex flex-col max-w-xs">
                         <div class="relative overflow-hidden flex items-center">
-
                           {% for podcast in podcastUrls[locale].podcasts %}
                             <div class="relative float-left w-full overflow-hidden">
                               <div class="space-y-4">
-                                <p class="text-center font-bold">{{podcast.edition}}</p>
+                                <p class="text-center font-bold">{{ podcast.edition }}</p>
                                 {% for feed in podcast.feeds %}
-                                  <a href="{{ feed.url }}" class="podcast-link" style="text-decoration:none">
+                                  <a href="{{ feed.url }}"
+                                     class="podcast-link"
+                                     style="text-decoration:none">
                                     {% if feed.icon === 'spotify_podcasts' %}
                                       {% svgSprite name = "spotify_podcasts",
                                       class = "h-8 w-8" %}
@@ -96,10 +68,8 @@
                               </div>
                             </div>
                           {% endfor %}
-
                         </div>
                       </div>
-
                       {% if (podcastUrls[locale].podcasts | length) > 1 %}
                         <div class="flex items-center justify-center space-x-1 rtl:space-x-reverse mt-4">
                           {% for podcast in podcastUrls[locale].podcasts %}
@@ -109,13 +79,14 @@
                       {% endif %}
                     </div>
                   </div>
-
                   <div class="hidden lg:flex  rtl:space-x-reverse lg:mt-8 {% if devotion %} lg:space-x-6 {% else %} lg:space-x-11 {% endif %}">
                     {% for podcast in podcastUrls[locale].podcasts %}
                       <div class="space-y-4">
-                        <p class="font-bold">{{podcast.edition}}</p>
+                        <p class="font-bold">{{ podcast.edition }}</p>
                         {% for feed in podcast.feeds %}
-                          <a href="{{ feed.url }}" class="podcast-link" style="text-decoration:none">
+                          <a href="{{ feed.url }}"
+                             class="podcast-link"
+                             style="text-decoration:none">
                             {% if feed.icon === 'spotify_podcasts' %}
                               {% svgSprite name = "spotify_podcasts",
                               class = "h-8 w-8" %}
@@ -133,44 +104,20 @@
                     {% endfor %}
                   </div>
                 {% endif %}
-
               </div>
             {% endif %}
           </div>
         </div>
       {% endfor %}
     </div>
-
-    <div
-      class="
-        hidden
-        top-0
-        h-full
-        flex flex-col
-        absolute
-        w-24
-        fill-current
-        text-red
-      "
-      x-ref="mediaNav"
-    >
+    <div class=" hidden top-0 h-full flex flex-col absolute w-24 fill-current text-red "
+         x-ref="mediaNav">
       {% for medium in channels[locale].distribution %}
         {% if medium | length %}
-          <button
-              class="
-                flex-1 flex flex-col
-                items-center
-                justify-center
-                bg-opacity-90
-                lg:rtl:rounded-tr-lg
-                lg:rtl:rounded-tl-none
-                {{ 'lg:rounded-tl-lg' if loop.first }}
-                {{ 'lg:rounded-bl-lg' if loop.last }}
-              "
-              :class="mediaClass({{ loop.index0 }})"
-              @click="mediaFocus = {{ loop.index0 }}"
-              style="min-height: 6rem"
-            >
+          <button class=" flex-1 flex flex-col items-center justify-center bg-opacity-90 lg:rtl:rounded-tr-lg lg:rtl:rounded-tl-none {{ 'lg:rounded-tl-lg' if loop.first }} {{ 'lg:rounded-bl-lg' if loop.last }} "
+                  :class="mediaClass({{ loop.index0 }})"
+                  @click="mediaFocus = {{ loop.index0 }}"
+                  style="min-height: 6rem">
             {% if medium.icon === 'medium_app' %}
               {% svgSprite name="medium_app", class="fill-current h-10 w-10 mb-1" %}
             {% elif medium.icon === 'medium_email' %}
