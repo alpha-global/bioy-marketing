@@ -15,19 +15,33 @@
           {% endif %}
           <div class=" flex flex-col justify-center relative h-full bg-red bg-opacity-80 text-white pl-28 pr-4 py-6 md:pl-36 rtl:pl-0 rtl:pr-36 lg:rounded-lg ">
             {% if medium.icon !== 'medium_podcast' %}
-              <div class="max-w-xs">
-                <h4 class="text-xl font-bold mb-3">{{ medium.channel }}</h4>
-                {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
-                {% if medium.cta and medium.icon === 'medium_email' %}
-                  {% if locale === 'de' %}
+              {% if medium.icon === 'medium_email' %}
+                {% if locale === 'de' %}
+                  <div class="relative">
+                    <div class="max-w-xs">
+                      <h4 class="text-xl font-bold mb-3">{{ medium.channel }}</h4>
+                      {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
+                      {% if medium.cta %}{{ medium.cta.code | safe }}{% endif %}
+                    </div>
+                  </div>
+                  <div x-ref="mcForm"
+                       class="w-full hidden h-full fixed inset-0 flex-col items-center justify-center z-30">
                     {% include "./partials/mc/de.njk" %}
-                  {% else %}
-                    {{ medium.cta.code | safe }}
-                  {% endif %}
+                  </div>
                 {% else %}
-                  {{ medium.cta.code | safe }}
+                  <div class="max-w-xs">
+                    <h4 class="text-xl font-bold mb-3">{{ medium.channel }}</h4>
+                    {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
+                    {% if medium.cta %}{{ medium.cta.code | safe }}{% endif %}
+                  </div>
                 {% endif %}
-              </div>
+              {% else %}
+                <div class="max-w-xs">
+                  <h4 class="text-xl font-bold mb-3">{{ medium.channel }}</h4>
+                  {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
+                  {% if medium.cta %}{{ medium.cta.code | safe }}{% endif %}
+                </div>
+              {% endif %}
             {% else %}
               <div class="max-w-xs md:max-w-xl lg:max-w-2xl">
                 <div class="lg:max-w-xl">
