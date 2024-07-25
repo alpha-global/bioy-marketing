@@ -43,6 +43,13 @@
     font-style: normal;
     font-display: swap;
   }
+  @font-face {
+    font-family: "AvantGardeGothicITC";
+    src: url("/assets/fonts/ITCAvantGardeStdXLt.otf");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
   /* Input Range Default Styles */
   input[type="range"] {
     @apply appearance-none outline-none bg-transparent border-none;
