@@ -93,5 +93,13 @@ export default () => {
       this.$refs.zohoFormIframe.classList.toggle("hidden");
       this.$refs.zohoFormCloseButton.classList.toggle("hidden");
     },
+    openMCForm() {
+      this.$refs.mcForm.classList.remove("hidden");
+      this.$refs.mcForm.classList.add("flex");
+    },
+    closeMCForm() {
+      this.$refs.mcForm.classList.remove("flex");
+      this.$refs.mcForm.classList.add("hidden");
+    }
   };
 };
