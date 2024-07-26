@@ -1,27 +1,36 @@
 <!DOCTYPE html>
-<html lang="{{ locale }}"{% if locale == 'ar'%} dir="rtl" {% else %} dir="ltr" {% endif %}>
+<html lang="{{ locale }}"
+      {% if locale == 'ar' %} dir="rtl" {% else %} dir="ltr" {% endif %}>
   <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
-
-    <link rel="preload" href="/assets/css/app.css?{{ globals.cacheBuster }}" as="style">
-    <link rel="preload" href="/assets/fonts/ITCAvantGardeStd-Md.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="/assets/fonts/ITCAvantGardeStd-Demi.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="/assets/fonts/ITCAvantGardeStd-Bold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link
-      rel="stylesheet"
-      href="/assets/css/app.css?{{ globals.cacheBuster }}"
-      media="screen"
-      type="text/css"
-/>
-
-    <link rel="shortcut icon" href="/assets/icon/favicon.ico"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <link rel="preload"
+          href="/assets/css/app.css?{{ globals.cacheBuster }}"
+          as="style" />
+    <link rel="preload"
+          href="/assets/fonts/ITCAvantGardeStd-Md.woff2"
+          as="font"
+          type="font/woff2"
+          crossorigin />
+    <link rel="preload"
+          href="/assets/fonts/ITCAvantGardeStd-Demi.woff2"
+          as="font"
+          type="font/woff2"
+          crossorigin />
+    <link rel="preload"
+          href="/assets/fonts/ITCAvantGardeStd-Bold.woff2"
+          as="font"
+          type="font/woff2"
+          crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet"
+          href="/assets/css/app.css?{{ globals.cacheBuster }}"
+          media="screen"
+          type="text/css" />
+    <link rel="shortcut icon" href="/assets/icon/favicon.ico" />
     {% include 'partials/meta.njk' %}
-
     {% if globals.env == 'production' %}
       <script>
         (function (w, d, s, l, i) {
@@ -40,36 +49,35 @@
         })(window, document, 'script', 'dataLayer', 'GTM-WS26JLBF');
       </script>
     {% endif %}
-   
   </head>
-
   <body x-data="baseView">
-
     {% if globals.env == 'production' %}
       <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WS26JLBF" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WS26JLBF"
+                height="0"
+                width="0"
+                style="display:none;
+                       visibility:hidden"></iframe>
       </noscript>
     {% endif %}
-
     {% if siteLocal[locale].promo %}
       {% include "partials/promo.njk" %}
     {% endif %}
-
     {% include 'partials/header.njk' %}
-
     <main>
       {{ layoutContent | safe }}
     </main>
-
     {% include 'partials/footer.njk' %}
-
-    <div x-show="isCookieBoxOpen" class="fixed bottom-20 z-10 bg-white bg-opacity-90 drop-shadow-lg filter right-4 left-4 p-4 flex flex-col sm:bottom-24 md:bottom-4 md:max-w-md md:right-auto">
-      <p class="text-sm">{{ siteLocal[locale].cookies.text }}
-        <a class="text-red underline hover:text-red-darker md:block" href="/{{ locale }}/cookies">{{ siteLocal[locale].cookies.cta }}</a>
+    <div x-show="isCookieBoxOpen"
+         class="fixed bottom-20 z-10 bg-white bg-opacity-90 drop-shadow-lg filter right-4 left-4 p-4 flex flex-col sm:bottom-24 md:bottom-4 md:max-w-md md:right-auto">
+      <p class="text-sm">
+        {{ siteLocal[locale].cookies.text }}
+        <a class="text-red underline hover:text-red-darker md:block"
+           href="/{{ locale }}/cookies">{{ siteLocal[locale].cookies.cta }}</a>
       </p>
-      <button class="mt-2 btn bg-red text-white hover:bg-red-dark" @click="acceptCookies()">{{ siteLocal[locale].cookies.closeButton }}</button>
+      <button class="mt-2 btn bg-red text-white hover:bg-red-dark"
+              @click="acceptCookies()">{{ siteLocal[locale].cookies.closeButton }}</button>
     </div>
-
     <script src="/assets/js/app.js?{{ globals.cacheBuster }}" defer></script>
     <!-- last build: {{ globals.env }} | {{ globals.buildTime }} -->
   </body>
