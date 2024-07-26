@@ -30,7 +30,7 @@
           media="screen"
           type="text/css" />
     <link rel="shortcut icon" href="/assets/icon/favicon.ico" />
-    {% include 'partials/meta.njk' %}
+    {% include "partials/meta.njk" %}
     {% if globals.env == 'production' %}
       <script>
         (function (w, d, s, l, i) {
@@ -63,11 +63,11 @@
     {% if siteLocal[locale].promo %}
       {% include "partials/promo.njk" %}
     {% endif %}
-    {% include 'partials/header.njk' %}
+    {% include "partials/header.njk" %}
     <main>
       {{ layoutContent | safe }}
     </main>
-    {% include 'partials/footer.njk' %}
+    {% include "partials/footer.njk" %}
     <div x-show="isCookieBoxOpen"
          class="fixed bottom-20 z-10 bg-white bg-opacity-90 drop-shadow-lg filter right-4 left-4 p-4 flex flex-col sm:bottom-24 md:bottom-4 md:max-w-md md:right-auto">
       <p class="text-sm">
