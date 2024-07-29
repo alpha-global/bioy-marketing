@@ -124,6 +124,18 @@
                        class="w-full hidden h-full fixed inset-0 flex-col items-center justify-center z-30">
                     {% include "./partials/mc/it.njk" %}
                   </div>
+                {% elif locale === 'vi' %}
+                  <div class="relative">
+                    <div class="max-w-xs">
+                      <h4 class="text-xl font-bold mb-3">{{ medium.channel }}</h4>
+                      {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
+                      {% if medium.cta %}{{ medium.cta.code | safe }}{% endif %}
+                    </div>
+                  </div>
+                  <div x-ref="mcForm"
+                       class="w-full hidden h-full fixed inset-0 flex-col items-center justify-center z-30">
+                    {% include "./partials/mc/vi.njk" %}
+                  </div>
                 {% else %}
                   <div class="max-w-xs">
                     <h4 class="text-xl font-bold mb-3">{{ medium.channel }}</h4>
