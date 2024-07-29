@@ -117,7 +117,7 @@
         "description": "Iscriviti ora per ricevere la Bibbia in un anno nella tua casella di posta ogni mattina. Riceverai un'email al giorno.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "<a @click=\"mailerLitePopup\" href=\"https://landing.mailerlite.com/webforms/landing/p5d3p8\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors  \"data-ml=\"4010371,p5d3p8\">Sign up now</a>"
+          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>"
         }
       },
       {
