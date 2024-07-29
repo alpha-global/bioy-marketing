@@ -151,7 +151,7 @@
         "description": "Inscrivez-vous maintenant pour recevoir la Bible en 1 an dans votre boîte de réception chaque matin. Vous recevrez un e-mail par jour.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "\n<button @click=\"toggleZohoForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>\n<iframe x-ref=\"zohoFormIframe\" frameborder=\"0\" class=\"w-full h-full fixed hidden inset-0 z-20\" src='https://forms.zohopublic.eu/bioy/form/BibleinOneYearFrench/formperma/Ez7I6JiwkCqrOF14lzsXj85LMBtXSFr_IwKbjf4XGi0'></iframe>\n<button x-ref=\"zohoFormCloseButton\" @click=\"toggleZohoForm\" class=\"bg-red fixed hidden p-3 right-4 rounded-full top-2 z-30 lg:right-1/3\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"h-6 w-6 text-white\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\" />\n    </svg>\n</button>"
+          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>\n"
         }
       },
       {
