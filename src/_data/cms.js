@@ -65,6 +65,15 @@ function isLeapYear() {
   return isLeap;
 }
 
+function includeLeapYear(data) {
+  const minNumber = data.reduce((acc, item) => Math.min(acc, item.number), 400);
+  const maxNumber = data.reduce((acc, item) => Math.max(acc, item.number), -1);
+  if (maxNumber < 59) return false;
+  if (minNumber > 61) return false;
+
+  return true;
+}
+
 async function injectLeapYear(data) {
   // if not leapyear, return data minus the leap year content
   if (!isLeapYear()) return data;
@@ -93,6 +102,15 @@ async function injectLeapYear(data) {
     item.url = `/${item.locale}/${item.variant}/${newId}`;
     return item;
   });
+
+  if (!includeLeapYear(data)) {
+    // date range not near 29 Feb, so 
+    // one of the following will be empty
+    return [
+      ...preDays,
+      ...postDays
+    ];
+  }
 
   return [
     ...preDays,
