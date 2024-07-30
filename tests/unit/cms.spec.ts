@@ -58,4 +58,39 @@ test.describe('get leap year data', () => {
 
     mockDate.reset();
   });
+
+  test('leap year is included in nightly', async () => {
+    // date well beyond 29 Feb
+    mockDate.set('2024-05-27');
+    const postWindow = await fetchData();
+    let day60 = postWindow.find((day) => day.number === 60);
+    expect(day60).toBeUndefined();
+
+    // date well before 29 Feb
+    mockDate.set('2024-01-27');
+    const preWindow = await fetchData();
+    day60 = preWindow.find((day) => day.number === 60);
+    expect(day60).toBeUndefined();
+
+    // first day to include leap year,
+    // fetches 3 days ahead
+    mockDate.set('2024-02-25');
+    const leadUp = await fetchData();
+    day60 = leadUp.find((day) => day.number === 60);
+    expect(day60).toBeDefined();
+
+    // last day to include leap year,
+    // fetches 4 days before
+    mockDate.set('2024-03-04');
+    const trail = await fetchData();
+    day60 = trail.find((day) => day.number === 60);
+    expect(day60).toBeDefined();
+
+    // trail.forEach((day) => {
+    //   if (day.locale === 'en' && day.variant === 'classic')
+    //     console.log(
+    //       `have ${day.locale} ${day.variant} ${day.number} ${day.bundle.title} `,
+    //     );
+    // });
+  });
 });
