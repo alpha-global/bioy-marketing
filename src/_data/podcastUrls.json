@@ -13,11 +13,6 @@
             "name": "Apple Podcasts",
             "icon": "apple_podcasts",
             "url": "https://podcasts.apple.com/us/podcast/bible-in-one-year-classic/id1601414341"
-          },
-          {
-            "name": "Google Podcasts",
-            "icon": "google_podcasts",
-            "url": "https://podcasts.google.com/feed/aHR0cHM6Ly9hcGkuYmlveWRhdGEuY29tL3Jzcy9wb2RjYXN0P2xvY2FsZT1kZSZ2YXJpYW50PWNsYXNzaWM"
           }
         ]
       },
@@ -33,11 +28,6 @@
             "name": "Apple Podcasts",
             "icon": "apple_podcasts",
             "url": "https://podcasts.apple.com/us/podcast/bible-in-one-year-express/id1601415097"
-          },
-          {
-            "url": "https://podcasts.google.com/feed/aHR0cHM6Ly9hcGkuYmlveWRhdGEuY29tL3Jzcy9wb2RjYXN0P3ZhcmlhbnQ9ZXhwcmVzcyZsb2NhbGU9ZGU",
-            "name": "Google Podcasts",
-            "icon": "google_podcasts"
           }
         ]
       }
@@ -76,11 +66,6 @@
             "name": "Apple Podcasts",
             "icon": "apple_podcasts",
             "url": "https://podcasts.apple.com/gb/podcast/bible-in-one-year-classic/id1462347514"
-          },
-          {
-            "name": "Google Podcasts",
-            "icon": "google_podcasts",
-            "url": "https://podcasts.google.com/feed/aHR0cHM6Ly9hcGkuYmlveWRhdGEuY29tL3Jzcy9wb2RjYXN0"
           }
         ]
       },
@@ -96,11 +81,6 @@
             "name": "Apple Podcasts",
             "icon": "apple_podcasts",
             "url": "https://podcasts.apple.com/gb/podcast/bible-in-one-year-youth/id1493330473"
-          },
-          {
-            "name": "Google Podcasts",
-            "icon": "google_podcasts",
-            "url": "https://podcasts.google.com/feed/aHR0cHM6Ly9hcGkuYmlveWRhdGEuY29tL3Jzcy9wb2RjYXN0P3ZhcmlhbnQ9eW91dGg"
           }
         ]
       },
@@ -116,11 +96,6 @@
             "name": "Apple Podcasts",
             "icon": "apple_podcasts",
             "url": "https://podcasts.apple.com/gb/podcast/bible-in-one-year-express/id1584089153"
-          },
-          {
-            "name": "Google Podcasts",
-            "icon": "google_podcasts",
-            "url": "https://podcasts.google.com/feed/aHR0cHM6Ly9hcGkuYmlveWRhdGEuY29tL3Jzcy9wb2RjYXN0P3ZhcmlhbnQ9ZXhwcmVzcw"
           }
         ]
       }
