@@ -20,10 +20,10 @@ Holy Trinity Brompton uses information for the following general purposes: produ
 
 Holy Trinity Brompton may occasionally obtain IP addresses from users depending upon how you access our web site. IP addresses, browser and session information may be used for various purposes, including to:
 
-- Diagnose and prevent service or technology problems reported by our users or engineers that are associated with the IP addresses controlled by a specific web company or ISP.
-- Estimate the total number of users visiting HTB.org.uk from specific geographical regions.
-- Help determine which users have access privileges to certain content, services or resources that we offer.
-- Monitor and prevent fraud and abuse.
+* Diagnose and prevent service or technology problems reported by our users or engineers that are associated with the IP addresses controlled by a specific web company or ISP.
+* Estimate the total number of users visiting HTB.org.uk from specific geographical regions.
+* Help determine which users have access privileges to certain content, services or resources that we offer.
+* Monitor and prevent fraud and abuse.
 
 Holy Trinity Brompton may display your IP address to the owners or maintainers of certain Holy Trinity Brompton pages when you post to those pages and the owner or maintainer has enabled functionality on the site for this purpose.
 
@@ -31,16 +31,16 @@ Holy Trinity Brompton may display your IP address to the owners or maintainers o
 
 A cookie is a small amount of data, which often includes an anonymous unique identifier that is sent to your browser from a web site's computers and stored on your computer's hard drive.
 
-If you reject all cookies, you may not be able to use htb.org products or services that require you to \"log in,\" and you may not be able to take full advantage of all offerings.
+If you reject all cookies, you may not be able to use htb.org products or services that require you to "log in," and you may not be able to take full advantage of all offerings.
 
 You can configure your browser to accept all cookies, reject all cookies, or notify you when a cookie is set.
 
 htb.org.uk uses its own cookies for a number of purposes, including to:
 
-- Require you to re-enter your password after a certain period of time has elapsed to protect you against others accidentally accessing your account contents.
-- Keep track of preferences you specify while you are using Holy Trinity Brompton services.
-- Estimate and report our total audience size and traffic.
-- Conduct research to improve htb.org.uk content and services.
+* Require you to re-enter your password after a certain period of time has elapsed to protect you against others accidentally accessing your account contents.
+* Keep track of preferences you specify while you are using Holy Trinity Brompton services.
+* Estimate and report our total audience size and traffic.
+* Conduct research to improve htb.org.uk content and services.
 
 [Read our cookie policy](/en/cookies).
 
@@ -62,10 +62,10 @@ If you post personal information online that is accessible to the public, you ma
 
 Holy Trinity Brompton does or may share personally identifiable information about you under the following circumstances:
 
-- In the course of operating it may be necessary or appropriate for us to provide access to your personal information to others such as our service providers, contractors and select vendors so that we can operate the Service. Where practical, we seek to obtain confidentiality agreements that are consistent with this policy and that limit others' use or disclosure of the information you have shared.
-- We may share your personal information to respond to subpoenas, court orders, or legal process, to establish or exercise our legal rights or, defend against legal claims and if in our judgment in such circumstances disclosure is required or appropriate.
-- We may share your personal information if we believe it is necessary in order to investigate, prevent, or take action regarding illegal activities, suspected fraud, situations involving potential threats to the physical safety of any person, violations of Holy Trinity Brompton terms of use, or as otherwise required by law.
-- As we continue to develop our service, we might also buy or sell all or part of our service. In such transactions, personally identifiable information you have shared with us is generally one of the business assets that will be transferred. The transferred personally identifiable information will remain subject to the promises made in this privacy policy or subsequent policies to which you have consented.
+* In the course of operating it may be necessary or appropriate for us to provide access to your personal information to others such as our service providers, contractors and select vendors so that we can operate the Service. Where practical, we seek to obtain confidentiality agreements that are consistent with this policy and that limit others' use or disclosure of the information you have shared.
+* We may share your personal information to respond to subpoenas, court orders, or legal process, to establish or exercise our legal rights or, defend against legal claims and if in our judgment in such circumstances disclosure is required or appropriate.
+* We may share your personal information if we believe it is necessary in order to investigate, prevent, or take action regarding illegal activities, suspected fraud, situations involving potential threats to the physical safety of any person, violations of Holy Trinity Brompton terms of use, or as otherwise required by law.
+* As we continue to develop our service, we might also buy or sell all or part of our service. In such transactions, personally identifiable information you have shared with us is generally one of the business assets that will be transferred. The transferred personally identifiable information will remain subject to the promises made in this privacy policy or subsequent policies to which you have consented.
 
 If there is ever a change to how Holy Trinity Brompton uses or intends to use personal information, we will post that change to this policy and, if the new policy is materially less restrictive than this policy, we will seek your consent.
 
