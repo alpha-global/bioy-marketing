@@ -24,8 +24,8 @@
           <div class="absolute flex mt-6 gap-x-11 md:gap-x-6">
             <div class="relative">
               <button @click="showEditions = !showEditions"
-                      class="rounded-[2px] border border-red bg-transparent px-2 text-xs uppercase text-black md:text-[18px] md:leading-[27px] md:px-3 inline-flex items-center">
-                {{ devotion.variant }}
+                      class="flex items-center justify-center rounded-[2px] border border-red bg-transparent px-2 text-xs uppercase text-black md:px-3 md:text-lg pt-1 md:font-medium">
+                <span>{{ devotion.variant }}</span>
               </button>
               <div x-cloak
                    x-show="showEditions"
@@ -57,7 +57,7 @@
             </div>
             <div class="relative">
               <button @click="showLanguages = !showLanguages"
-                      class="rounded-[2px] border border-red bg-transparent px-2 text-xs uppercase text-black md:text-[18px] md:leading-[27px] md:px-3 inline-flex items-center">
+                      class="flex items-center justify-center rounded-[2px] border border-red bg-transparent px-2 text-xs uppercase text-black md:px-3 md:text-lg pt-1 md:font-medium">
                 {{ locale }}
               </button>
               <div x-cloak
