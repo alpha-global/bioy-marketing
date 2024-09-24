@@ -64,30 +64,32 @@
                    x-show="showLanguages"
                    class="absolute mt-3 divide-y-2 md:mt-7 bg-red max-w-max">
                 {% for lang in globals.languages %}
-                  <a class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium"
-                     :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">
-                    <div class="grid grid-cols-3 gap-3 min-w-max">
-                      <span class="col-start-1 col-end-3">{{ lang.language }}</span>
-                      <div class="flex justify-end col-start-3 col-end-4">
-                        <div class="grid grid-cols-2 gap-2">
-                          {% if (devotion.locale == lang.locale) and (lang.locale == 'it')and devotion.bundle.audio.url %}
-                            {% svgSprite name = "audio",
-                            class = "w-4 h-4" %}
-                            <span>en</span>
-                          {% else %}
-                            {# Since we don't have 365 devotions for IT we cannot pull in today's devotion and use the logic below for adding the audio icon #}
-                            {% for devotion in todaysDevotions %}
-                              {% if devotion.locale == lang.locale and devotion.bundle.audio.url %}
-                                {% svgSprite name = "audio",
-                                class = "w-4 h-4" %}
-                                {% if lang.locale in['ar', 'es'] %}<span>en</span>{% endif %}
-                              {% endif %}
-                            {% endfor %}
-                          {% endif %}
+                  {% if lang.locale != locale %}
+                    <a class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium"
+                       :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">
+                      <div class="grid grid-cols-3 gap-3 min-w-max">
+                        <span class="col-start-1 col-end-3">{{ lang.language }}</span>
+                        <div class="flex justify-end col-start-3 col-end-4">
+                          <div class="grid grid-cols-2 gap-2">
+                            {% if (devotion.locale == lang.locale) and (lang.locale == 'it')and devotion.bundle.audio.url %}
+                              {% svgSprite name = "audio",
+                              class = "w-4 h-4" %}
+                              <span>en</span>
+                            {% else %}
+                              {# Since we don't have 365 devotions for IT we cannot pull in today's devotion and use the logic below for adding the audio icon #}
+                              {% for devotion in todaysDevotions %}
+                                {% if devotion.locale == lang.locale and devotion.bundle.audio.url %}
+                                  {% svgSprite name = "audio",
+                                  class = "w-4 h-4" %}
+                                  {% if lang.locale in['ar', 'es'] %}<span>en</span>{% endif %}
+                                {% endif %}
+                              {% endfor %}
+                            {% endif %}
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </a>
+                    </a>
+                  {% endif %}
                 {% endfor %}
               </div>
             </div>
@@ -138,30 +140,32 @@
               <div class="col-start-2">
                 <div x-cloak x-show="showLanguages" class="divide-y-2 divide-white bg-red">
                   {% for lang in globals.languages %}
-                    <a class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium"
-                       :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">
-                      <div class="grid grid-cols-3 gap-3 min-w-max">
-                        <span class="col-start-1 col-end-3">{{ lang.language }}</span>
-                        <div class="flex justify-end col-start-3 col-end-4">
-                          <div class="grid grid-cols-2 gap-2">
-                            {% if (devotion.locale == lang.locale) and (lang.locale == 'it')and devotion.bundle.audio.url %}
-                              {% svgSprite name = "audio",
-                              class = "w-4 h-4" %}
-                              <span>en</span>
-                            {% else %}
-                              {# Since we don't have 365 devotions for IT we cannot pull in today's devotion and use the logic below for adding the audio icon #}
-                              {% for devotion in todaysDevotions %}
-                                {% if devotion.locale == lang.locale and devotion.bundle.audio.url %}
-                                  {% svgSprite name = "audio",
-                                  class = "w-4 h-4" %}
-                                  {% if lang.locale in['ar', 'es'] %}<span>en</span>{% endif %}
-                                {% endif %}
-                              {% endfor %}
-                            {% endif %}
+                    {% if lang.locale != locale %}
+                      <a class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium"
+                         :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">
+                        <div class="grid grid-cols-3 gap-3 min-w-max">
+                          <span class="col-start-1 col-end-3">{{ lang.language }}</span>
+                          <div class="flex justify-end col-start-3 col-end-4">
+                            <div class="grid grid-cols-2 gap-2">
+                              {% if (devotion.locale == lang.locale) and (lang.locale == 'it')and devotion.bundle.audio.url %}
+                                {% svgSprite name = "audio",
+                                class = "w-4 h-4" %}
+                                <span>en</span>
+                              {% else %}
+                                {# Since we don't have 365 devotions for IT we cannot pull in today's devotion and use the logic below for adding the audio icon #}
+                                {% for devotion in todaysDevotions %}
+                                  {% if devotion.locale == lang.locale and devotion.bundle.audio.url %}
+                                    {% svgSprite name = "audio",
+                                    class = "w-4 h-4" %}
+                                    {% if lang.locale in['ar', 'es'] %}<span>en</span>{% endif %}
+                                  {% endif %}
+                                {% endfor %}
+                              {% endif %}
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </a>
+                      </a>
+                    {% endif %}
                   {% endfor %}
                 </div>
               </div>
@@ -177,13 +181,14 @@
         <a href="/{{ locale }}/faqs">{{ navigation[locale].faqs }}</a>
         <a href="/{{ locale }}/donate">{{ navigation[locale].donate }}</a>
       </div>
-      <a href=""
-         class="inline-block rounded border border-red bg-red p-2 pb-1.5 text-white transition-colors hover:bg-white hover:text-red"> Download </a>
+      <a :href="deviceUrl('{{ locale }}', '{{ globals.stores.android }}', '{{ globals.stores.ios }}')"
+         class="inline-block rounded border border-red bg-red p-2 pb-1.5 text-white transition-colors hover:bg-white hover:text-red"> {{ navigation[locale].download }} </a>
     </div>
   </nav>
 </div>
 <div class="fixed bottom-0 z-10 w-full bg-white shadow-lg md:hidden">
-  <nav class="flex items-center justify-between gap-x-[46px] py-2 px-6 sm:px-10">
+  <nav id="navbar"
+       class="flex items-center justify-between gap-x-[46px] py-2 px-6 sm:px-10">
     <a href="/{{ locale }}#start"
        class="flex flex-col items-center justify-center gap-y-1">
       {% svgSprite name="bnap", class="fill-current h-5 w-auto aspect-[1.8] sm:h-6 " %}
