@@ -20,7 +20,7 @@
         </svg>
       </a>
       {% if devotion %}
-        <div class="relative">
+        <div x-cloak x-show="!outOfView" class="relative">
           <div class="absolute flex mt-6 gap-x-11 md:gap-x-6">
             <div class="relative">
               <button @click="showEditions = !showEditions"
@@ -108,58 +108,62 @@
               </button>
             </div>
             <div class="grid grid-cols-2 mt-1 gap-x-2">
-              <div x-cloak x-show="showEditions" class="divide-y-2 divide-white">
-                {% if devotion.variant !== 'classic' %}
-                  <a href="/{{ locale }}/classic/{{ devotion.number }}"
-                     class="bg-red block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">
-                    <button>{{ editions[locale].classic }}</button>
-                  </a>
-                {% endif %}
-                {% if editions[locale].youth and(devotion.variant !== 'youth') %}
-                  <a href="/{{ locale }}/youth/{{ devotion.number }}"
-                     class="bg-red block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">
-                    <button>{{ editions[locale].youth }}</button>
-                  </a>
-                {% endif %}
-                {% if editions[locale].express and(devotion.variant !== 'express') %}
-                  <a href="/{{ locale }}/express/{{ devotion.number }}"
-                     class="bg-red block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">
-                    <button>{{ editions[locale].express }}</button>
-                  </a>
-                {% endif %}
-                {% if not editions[locale]
-                  .youth and not editions[locale]
-                  .express %}
-                  <span class="bg-red block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">No other editions available in your chosen language</span>
-                {% endif %}
+              <div class="col-start-1">
+                <div x-cloak x-show="showEditions" class="divide-y-2 divide-white">
+                  {% if devotion.variant !== 'classic' %}
+                    <a href="/{{ locale }}/classic/{{ devotion.number }}"
+                       class="bg-red block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">
+                      <button>{{ editions[locale].classic }}</button>
+                    </a>
+                  {% endif %}
+                  {% if editions[locale].youth and(devotion.variant !== 'youth') %}
+                    <a href="/{{ locale }}/youth/{{ devotion.number }}"
+                       class="bg-red block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">
+                      <button>{{ editions[locale].youth }}</button>
+                    </a>
+                  {% endif %}
+                  {% if editions[locale].express and(devotion.variant !== 'express') %}
+                    <a href="/{{ locale }}/express/{{ devotion.number }}"
+                       class="bg-red block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">
+                      <button>{{ editions[locale].express }}</button>
+                    </a>
+                  {% endif %}
+                  {% if not editions[locale]
+                    .youth and not editions[locale]
+                    .express %}
+                    <span class="bg-red block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">No other editions available in your chosen language</span>
+                  {% endif %}
+                </div>
               </div>
-              <div x-cloak x-show="showLanguages" class="divide-y-2 divide-white bg-red">
-                {% for lang in globals.languages %}
-                  <a class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium"
-                     :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">
-                    <div class="grid grid-cols-3 gap-3 min-w-max">
-                      <span class="col-start-1 col-end-3">{{ lang.language }}</span>
-                      <div class="flex justify-end col-start-3 col-end-4">
-                        <div class="grid grid-cols-2 gap-2">
-                          {% if (devotion.locale == lang.locale) and (lang.locale == 'it')and devotion.bundle.audio.url %}
-                            {% svgSprite name = "audio",
-                            class = "w-4 h-4" %}
-                            <span>en</span>
-                          {% else %}
-                            {# Since we don't have 365 devotions for IT we cannot pull in today's devotion and use the logic below for adding the audio icon #}
-                            {% for devotion in todaysDevotions %}
-                              {% if devotion.locale == lang.locale and devotion.bundle.audio.url %}
-                                {% svgSprite name = "audio",
-                                class = "w-4 h-4" %}
-                                {% if lang.locale in['ar', 'es'] %}<span>en</span>{% endif %}
-                              {% endif %}
-                            {% endfor %}
-                          {% endif %}
+              <div class="col-start-2">
+                <div x-cloak x-show="showLanguages" class="divide-y-2 divide-white bg-red">
+                  {% for lang in globals.languages %}
+                    <a class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium"
+                       :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">
+                      <div class="grid grid-cols-3 gap-3 min-w-max">
+                        <span class="col-start-1 col-end-3">{{ lang.language }}</span>
+                        <div class="flex justify-end col-start-3 col-end-4">
+                          <div class="grid grid-cols-2 gap-2">
+                            {% if (devotion.locale == lang.locale) and (lang.locale == 'it')and devotion.bundle.audio.url %}
+                              {% svgSprite name = "audio",
+                              class = "w-4 h-4" %}
+                              <span>en</span>
+                            {% else %}
+                              {# Since we don't have 365 devotions for IT we cannot pull in today's devotion and use the logic below for adding the audio icon #}
+                              {% for devotion in todaysDevotions %}
+                                {% if devotion.locale == lang.locale and devotion.bundle.audio.url %}
+                                  {% svgSprite name = "audio",
+                                  class = "w-4 h-4" %}
+                                  {% if lang.locale in['ar', 'es'] %}<span>en</span>{% endif %}
+                                {% endif %}
+                              {% endfor %}
+                            {% endif %}
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </a>
-                {% endfor %}
+                    </a>
+                  {% endfor %}
+                </div>
               </div>
             </div>
           </div>
