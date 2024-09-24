@@ -63,8 +63,6 @@ module.exports = {
           },
         },
       }),
-    },
-    extend: {
       fontSize: {
         "6xl": ["3.75rem", "4rem"],
         title: ["32px", "46px"],
