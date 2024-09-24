@@ -2,6 +2,4 @@
 layout: layouts/base.njk
 ---
 
-<div class="mt-24 px-4 sm:mt-32">
-  {{ layoutContent | safe }}
-</div>
+<div class="px-4 {% if devotion %} mt-32 sm:mt-40 {% else %} mt-24 sm:mt-32 {% endif %}">{{ layoutContent | safe }}</div>
