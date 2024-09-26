@@ -16,6 +16,7 @@
   "author": "scout+redeem",
   "license": "ISC",
   "dependencies": {
+    "@alpinejs/intersect": "^3.14.1",
     "alpinejs": "^3.13.5",
     "swipejs": "^2.3.1"
   },
