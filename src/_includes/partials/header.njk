@@ -12,7 +12,7 @@
          x-intersect:enter="outOfView = false"
          href="/{{ locale }}"
          title="{{ site.title }}">
-        <svg class="w-24 h-auto"
+        <svg class="w-24 h-auto lg:w-[157px]"
              viewBox="0 0 96 52"
              fill="none"
              xmlns="http://www.w3.org/2000/svg">
@@ -21,7 +21,7 @@
       </a>
       {% if devotion %}
         <div x-cloak x-show="!outOfView" class="relative">
-          <div class="absolute flex mt-6 gap-x-11 md:gap-x-6">
+          <div class="absolute flex mt-6 lg:mt-9 gap-x-11 md:gap-x-6">
             <div class="relative">
               <button @click="showEditions = !showEditions"
                       class="flex items-center justify-center rounded-[2px] border border-red bg-transparent px-2 text-xs uppercase text-black md:px-3 md:text-lg pt-1 md:font-medium">

@@ -2,4 +2,6 @@
 layout: layouts/base.njk
 ---
 
-<div class="px-4 {% if devotion %} mt-32 sm:mt-40 {% else %} mt-24 sm:mt-32 {% endif %}">{{ layoutContent | safe }}</div>
+<div class="px-4 {% if devotion %} mt-40 lg:mt-56 {% else %} mt-24 sm:mt-32 {% endif %}">
+    {{ layoutContent | safe }}
+</div>
