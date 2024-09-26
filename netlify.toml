@@ -1,0 +1,11 @@
+[[plugins]]
+package = "netlify-plugin-cache"
+
+  [plugins.inputs]
+  paths = [ ".cache" ]
+
+[functions]
+  external_node_modules = ["sharp"]
+
+[[plugins]]
+package = "netlify-plugin-debug-cache"
