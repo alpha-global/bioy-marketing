@@ -66,7 +66,27 @@
                 {% for lang in globals.languages %}
                   {% if lang.locale != locale %}
                     <a class="flex py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium  min-w-max"
-                       :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">{{ lang.language }}</a>
+                       :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">
+                      <span class="col-start-1 col-end-3">{{ lang.language }}</span>
+                      <div class="flex justify-end col-start-3 col-end-4">
+                        <div class="grid grid-cols-2 gap-2">
+                          {% if (devotion.locale == lang.locale) and (lang.locale == 'it')and devotion.bundle.audio.url %}
+                            {% svgSprite name = "audio",
+                            class = "w-4 h-4" %}
+                            <span>en</span>
+                          {% else %}
+                            {# Since we don't have 365 devotions for IT we cannot pull in today's devotion and use the logic below for adding the audio icon #}
+                            {% for devotion in todaysDevotions %}
+                              {% if devotion.locale == lang.locale and devotion.bundle.audio.url %}
+                                {% svgSprite name = "audio",
+                                class = "w-4 h-4" %}
+                                {% if lang.locale in['ar', 'es'] %}<span>en</span>{% endif %}
+                              {% endif %}
+                            {% endfor %}
+                          {% endif %}
+                        </div>
+                      </div>
+                    </a>
                   {% endif %}
                 {% endfor %}
               </div>
