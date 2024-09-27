@@ -62,33 +62,11 @@
               </button>
               <div x-cloak
                    x-show="showLanguages"
-                   class="absolute mt-3 divide-y-2 md:mt-7 bg-red max-w-max">
+                   class="absolute flex flex-col mt-3 divide-y-2 min-w-max md:mt-7 bg-red">
                 {% for lang in globals.languages %}
                   {% if lang.locale != locale %}
-                    <a class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium"
-                       :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">
-                      <div class="grid grid-cols-3 gap-3 min-w-max">
-                        <span class="col-start-1 col-end-3">{{ lang.language }}</span>
-                        <div class="flex justify-end col-start-3 col-end-4">
-                          <div class="grid grid-cols-2 gap-2">
-                            {% if (devotion.locale == lang.locale) and (lang.locale == 'it')and devotion.bundle.audio.url %}
-                              {% svgSprite name = "audio",
-                              class = "w-4 h-4" %}
-                              <span>en</span>
-                            {% else %}
-                              {# Since we don't have 365 devotions for IT we cannot pull in today's devotion and use the logic below for adding the audio icon #}
-                              {% for devotion in todaysDevotions %}
-                                {% if devotion.locale == lang.locale and devotion.bundle.audio.url %}
-                                  {% svgSprite name = "audio",
-                                  class = "w-4 h-4" %}
-                                  {% if lang.locale in['ar', 'es'] %}<span>en</span>{% endif %}
-                                {% endif %}
-                              {% endfor %}
-                            {% endif %}
-                          </div>
-                        </div>
-                      </div>
-                    </a>
+                    <a class="flex py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium  min-w-max"
+                       :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">{{ lang.language }}</a>
                   {% endif %}
                 {% endfor %}
               </div>
