@@ -4,113 +4,208 @@
     {% set todaysDevotions = (todaysDevotions.push(devotion), todaysDevotions) %}
   {% endif %}
 {% endfor %}
-<header x-data="devotionBanner" x-init="init('{{ devotion.variant }}')" id="header" class="border-red border-t-4 absolute {% if imageBanner %}bg-gradient-to-b bg-opacity-80 from-black-scrim{% endif %} h-16 text-white top-0 w-full z-10 md:bg-none">
-  <h1 class="absolute text-2xl font-medium m-0 -top-[2.0rem] sm:-top-[1.8rem] md:-top-[1.3rem]">
-    <a href="/{{ locale }}" title="{{ site.title }}">
-      {% svgSprite name="bnap", class="fill-current text-red w-32 h-auto ml-3 sm:w-36 md:w-40" %}
-    </a>
-    <div id="switchBanner" class="absolute top-10 inline-flex space-x-1 rtl:space-x-reverse ltr:left-[9rem] sm:ltr:left-[10rem] md:ltr:left-[11rem] rtl:right-36 sm:rtl:right-40 md:rtl:right-44">
+<div x-data="langSwitcher"
+     class="absolute top-0 z-10 w-full h-16 p-5 text-white border-t-4 border-red md:bg-none">
+  <nav class="flex items-center justify-between">
+    <div>
+      <a x-intersect:leave="outOfView = true"
+         x-intersect:enter="outOfView = false"
+         href="/{{ locale }}"
+         title="{{ site.title }}">
+        <svg class="w-24 h-auto lg:w-[157px]"
+             viewBox="0 0 96 52"
+             fill="none"
+             xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4526 8.25986V0.0574341H19.0754V1.89744H16.5378V3.17214H18.9982V5.01214H16.5378V6.41986H19.0754V8.25986H14.4526ZM10.4337 36.4533H6.86724V31.3029H10.4717C12.1412 31.3029 13.8106 31.7226 13.8106 33.7446C13.8106 35.8428 12.217 36.4533 10.4337 36.4533ZM6.86724 20.8878H9.63715C11.1167 20.8878 12.4446 21.2311 12.4446 23.0243C12.4446 24.8173 11.1547 25.2751 9.59915 25.2751H6.86724V20.8878ZM16.0491 27.6404C18.1358 26.4578 19.312 24.3595 19.312 21.956C19.312 20.2012 18.8187 18.5988 17.6425 17.3016C15.2144 14.5928 12.0272 14.5548 8.65071 14.5548H0V42.7863H8.91613L9.07946 42.7863C12.6382 42.7869 15.2576 42.7873 18.0978 40.3446C19.8432 38.8568 20.6779 36.4533 20.6779 34.2023C20.6779 30.9978 19.1221 28.7086 16.0491 27.6404ZM31.964 42.7864H32.0091V14.5548H24.8384V42.7864H24.8497L28.4068 41.1309L31.964 42.7864ZM44.0438 36.4533H47.6103C49.3934 36.4533 50.987 35.8428 50.987 33.7446C50.987 31.7226 49.3177 31.3029 47.6483 31.3029H44.0438V36.4533ZM46.8135 20.8878H44.0438V25.2751H46.7755C48.3313 25.2751 49.6211 24.8173 49.6211 23.0243C49.6211 21.2311 48.2933 20.8878 46.8135 20.8878ZM56.4884 21.956C56.4884 24.3595 55.3122 26.4578 53.2255 27.6404C56.2987 28.7086 57.8543 30.9978 57.8543 34.2023C57.8543 36.4533 57.0197 38.8568 55.2742 40.3446C52.434 42.7873 49.8146 42.7869 46.2558 42.7863L46.0925 42.7863H37.1764V14.5548H45.8271C49.2037 14.5548 52.3908 14.5928 54.8191 17.3016C55.9952 18.5988 56.4884 20.2012 56.4884 21.956ZM69.0424 14.5548H61.8715V42.7864H77.3514V36.4533H69.0424V14.5548ZM95.3771 14.5548V20.8878H86.6507V25.2751H95.1115V31.6082H86.6507V36.4533H95.3771V42.7864H79.7833V14.5548H95.3771ZM6.13467 8.25986H8.21992V4.97889H10.8899V8.25986H12.9752V0.0574341H10.8899V3.13889H8.21992V0.0574341H6.13467V8.25986ZM1.61083 8.25986V1.89744H0V0.0574341H5.29588V1.89744H3.69608V8.25986H1.61083ZM93.2889 47.8225V51.8661H95.3771V51.2978H93.939V47.8225H93.2889ZM89.9108 51.8661V47.8225H92.1919V48.3908H90.561V49.5383H92.1698V50.1011H90.561V51.2978H92.1919V51.8661H89.9108ZM86.2103 47.8225V51.8661H87.4059C87.9073 51.8661 88.1497 51.8278 88.4362 51.6311C88.7503 51.4453 88.9266 51.1065 88.9321 50.7076C88.9321 50.5273 88.8935 49.9317 88.1883 49.7076C88.4803 49.5546 88.7062 49.2869 88.7062 48.8607C88.7062 48.5383 88.5905 48.2214 88.293 48.041C88.0946 47.899 87.8136 47.8225 87.4279 47.8225H86.2103ZM86.8604 49.5V48.3908H87.3784C87.5822 48.3908 87.7089 48.4126 87.8081 48.4618C87.9514 48.5274 88.0836 48.6913 88.0836 48.9372C88.0836 49.1503 88.012 49.3251 87.8081 49.4344C87.6924 49.4891 87.5436 49.5 87.3949 49.5H86.8604ZM86.8604 51.2978V50.041H87.461C87.6594 50.041 87.7916 50.0464 87.9514 50.112C88.1607 50.1994 88.3095 50.3907 88.3095 50.6694C88.304 50.9754 88.1497 51.1448 87.9514 51.2322C87.8136 51.2868 87.6483 51.2978 87.5161 51.2978H86.8604ZM81.3295 51.8661H80.7234V47.8225H81.616L82.8833 50.9535L84.134 47.8225H85.0211V51.8661H84.4205L84.437 48.4563L83.0871 51.8661H82.6629L81.313 48.4563L81.3295 51.8661ZM77.3501 47.8225H76.6999V50.347C76.6944 50.8388 76.744 51.2377 77.1462 51.5928C77.4217 51.8606 77.8404 51.9426 78.1325 51.9426C78.5347 51.9426 78.8597 51.8059 79.1022 51.5874C79.4603 51.2923 79.5485 50.8825 79.5429 50.347V47.8225H78.8983V50.347C78.8983 50.6093 78.8983 50.8333 78.744 51.0628C78.6338 51.2486 78.4079 51.3743 78.1269 51.3743C77.8459 51.3743 77.62 51.2431 77.4988 51.0519C77.3501 50.8169 77.3501 50.5983 77.3501 50.347V47.8225ZM75.5235 48.97H74.7907C74.686 48.8224 74.5593 48.6913 74.4161 48.5875C74.1791 48.4181 73.8926 48.3142 73.5565 48.3142C72.7852 48.3142 72.0634 48.8935 72.0634 49.8333C72.0634 50.806 72.7907 51.3742 73.5565 51.3742C73.9312 51.3742 74.2563 51.2595 74.4987 51.0737C74.7466 50.8879 74.9174 50.6311 74.9781 50.3524H73.2204V49.8279H75.7329C75.7329 50.0847 75.6888 50.4344 75.5511 50.7349C75.1764 51.5382 74.3334 51.9425 73.562 51.9425C72.3554 51.9425 71.4188 51.0191 71.4188 49.8333C71.4188 48.6257 72.383 47.7459 73.5676 47.7459C74.4436 47.7459 75.2315 48.2705 75.5235 48.97ZM65.5316 51.8661L65.9062 50.9098H67.6473L68.033 51.8661H68.7383L67.0908 47.8225H66.5013L64.8263 51.8661H65.5316ZM66.7713 48.5711L67.471 50.3907H66.0826L66.7713 48.5711ZM62.0266 47.8225H63.1892C63.8228 47.8225 64.0928 47.9044 64.3352 48.0957C64.6217 48.3143 64.787 48.7022 64.787 49.0902C64.787 49.4781 64.6162 49.8825 64.3628 50.0847C64.0873 50.2978 63.8118 50.3852 63.2498 50.3852H62.6768V51.8661H62.0266V47.8225ZM62.6768 48.3908V49.8169H63.2388C63.4977 49.8169 63.6961 49.7896 63.8724 49.6803C64.0377 49.5874 64.1644 49.3743 64.1644 49.1011C64.1644 48.8279 64.0377 48.6203 63.8669 48.5219C63.6851 48.4126 63.4867 48.3908 63.2167 48.3908H62.6768ZM59.5908 47.8225H58.4283V51.8661H59.0784V50.3852H59.6515C60.2134 50.3852 60.4889 50.2978 60.7644 50.0847C61.0179 49.8825 61.1887 49.4781 61.1887 49.0902C61.1887 48.7022 61.0234 48.3143 60.7369 48.0957C60.4944 47.9044 60.2245 47.8225 59.5908 47.8225ZM59.0784 49.8169V48.3908H59.6184C59.8884 48.3908 60.0867 48.4126 60.2685 48.5219C60.4393 48.6203 60.5661 48.8279 60.5661 49.1011C60.5661 49.3743 60.4393 49.5874 60.2741 49.6803C60.0977 49.7896 59.8994 49.8169 59.6404 49.8169H59.0784ZM56.6115 51.8661V47.8225H57.2617V51.8661H56.6115ZM54.1537 47.8225H52.9912V51.8661H53.6413V50.3852H54.2143C54.7763 50.3852 55.0518 50.2978 55.3273 50.0847C55.5807 49.8825 55.7515 49.4781 55.7515 49.0902C55.7515 48.7022 55.5863 48.3143 55.2998 48.0957C55.0573 47.9044 54.7873 47.8225 54.1537 47.8225ZM53.6413 49.8169V48.3908H54.1813C54.4512 48.3908 54.6496 48.4126 54.8314 48.5219C55.0022 48.6203 55.1289 48.8279 55.1289 49.1011C55.1289 49.3743 55.0022 49.5874 54.8369 49.6803C54.6606 49.7896 54.4623 49.8169 54.2033 49.8169H53.6413ZM46.5968 51.8661V47.8225H47.8585C48.404 47.8225 49.0817 47.9044 49.5335 48.4782C49.842 48.8443 49.9798 49.3088 49.9798 49.8388C49.9798 51.0191 49.3351 51.8661 47.9026 51.8661H46.5968ZM47.247 48.3908V51.2978H47.9357C48.8944 51.2978 49.3351 50.6912 49.3351 49.8497C49.3351 49.4618 49.2305 49.0902 49.0046 48.817C48.7897 48.5711 48.4646 48.3908 47.9412 48.3908H47.247ZM44.7896 50.8989L42.6739 47.8225H42.0623V51.8661H42.6904L42.6794 48.7842L44.8117 51.8661H45.4067V47.8225H44.7786L44.7896 50.8989ZM38.3951 50.9098L38.0205 51.8661H37.3152L38.9902 47.8225H39.5797L41.2271 51.8661H40.5219L40.1362 50.9098H38.3951ZM39.9599 50.3907L39.2602 48.5711L38.5714 50.3907H39.9599ZM33.0869 50.4289V51.8661H33.7371V50.4289L35.0153 47.8225H34.3101L33.412 49.8224L32.5139 47.8225H31.8087L33.0869 50.4289ZM28.3602 51.8661V47.8225H29.0103V49.735L30.5035 47.8225H31.1922L29.6054 49.8388L31.352 51.8661H30.5531L29.0103 50.0027V51.8661H28.3602ZM27.2828 50.6366H26.5996C26.5114 50.7841 26.1313 51.3742 25.3434 51.3742C24.4838 51.3742 23.8667 50.6803 23.8667 49.8388C23.8667 49.0191 24.4728 48.3142 25.3378 48.3142C26.0541 48.3197 26.4673 48.8115 26.5996 49.0738H27.2883C27.0899 48.5164 26.4398 47.7514 25.3434 47.7459C24.0816 47.7459 23.2166 48.7295 23.2166 49.8388C23.2166 50.9863 24.1202 51.9425 25.3489 51.9425C26.2745 51.9425 27.0293 51.3742 27.2828 50.6366ZM21.5541 51.8661V47.8225H22.2042V51.8661H21.5541ZM19.7469 50.8989L17.6311 47.8225H17.0195V51.8661H17.6477L17.6366 48.7842L19.7689 51.8661H20.364V47.8225H19.7358L19.7469 50.8989ZM11.3932 51.8661H10.743V47.8225H11.3932V49.5273H13.1508V47.8225H13.8009V51.8661H13.1508V50.0956H11.3932V51.8661ZM8.3208 48.3908V51.8661H8.97095V48.3908H9.9076V47.8225H7.38414V48.3908H8.3208ZM5.89241 51.8661V47.8225H6.54256V51.8661H5.89241ZM0 47.8225L1.10195 51.8661H1.71904L2.50693 48.8006L3.29483 51.8661H3.89539L5.01937 47.8225H4.35821L3.5648 50.9918L2.75487 47.8225H2.2645L1.46559 50.9863L0.661169 47.8225H0Z" fill="#E42312" />
+        </svg>
+      </a>
       {% if devotion %}
-        <div class="space-y-1 ltr:w-full" :class="outOfView ? 'rtl:w-full' : ''">
-          <button id="editionButton" class="bg-transparent px-2  text-black uppercase" :class="outOfView ? 'text-base w-full space-x-1.5 py-3 flex items-center justify-center' :'border border-red text-xs'" @click="openEdition = !openEdition">
-            <span x-show="outOfView">{% svgSprite name="medium_book", class="fill-current h-6 w-6 ltr:mr-2 rtl:ml-2" %}</span>
-            {{ devotion.variant }}
-          </button>
-          <div class="absolute bg-red divide-y-2" :class="outOfView ? 'w-1/2' : ''" x-show="openEdition">
-            {% if devotion.variant !== 'classic' %}
-              <a href="/{{ locale }}/classic/{{ devotion.number }}" class="block text-white text-xs py-3 pl-2 pr-4">
-                <button>{{ editions[locale].classic }}</button>
-              </a>
-            {% endif %}
-            {% if editions[locale].youth and(devotion.variant !== 'youth') %}
-              <a href="/{{ locale }}/youth/{{ devotion.number }}" class="block text-white text-xs py-3 pl-2 pr-4">
-                <button>{{ editions[locale].youth }}</button>
-              </a>
-            {% endif %}
-            {% if editions[locale].express and(devotion.variant !== 'express') %}
-              <a href="/{{ locale }}/express/{{ devotion.number }}" class="block text-white text-xs py-3 pl-2 pr-4">
-                <button>{{ editions[locale].express }}</button>
-              </a>
-            {% endif %}
-            {% if not editions[locale]
-              .youth and not editions[locale]
-              .express %}
-              <span class="block text-white text-xs py-3 pl-2 pr-4">No other editions available in your chosen language</span>
-            {% endif %}
-
-          </div>
-        </div>
-        {% if locale %}
-          <div class="space-y-1 w-full">
-            <button id="languagesButton" class="bg-transparent px-2  text-black uppercase" :class="outOfView ? 'text-base w-full space-x-1.5 py-3 flex items-center justify-center' :'border border-red text-xs'" @click="openLanguages = !openLanguages">
-              <span x-show="outOfView">{% svgSprite name="translate", class="fill-current h-6 w-6 ltr:mr-2 rtl:ml-2" %}</span>
-              {{ locale }}
-            </button>
-            <div class="absolute bg-red divide-y-2" :class="outOfView ? 'w-1/2' : 'min-w-max'" x-show="openLanguages">
-              {% for lang in globals.languages %}
-                <a class="block text-white text-xs py-3 pl-2 pr-4" :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">
-                  <div class="grid grid-cols-3 gap-3 min-w-max">
-                    <span class="col-start-1 col-end-3">{{ lang.language }}</span>
-                    <div class="col-start-3 col-end-4 flex justify-end">
-                      <div class="grid grid-cols-2 gap-2">
-                        {% if (devotion.locale == lang.locale) and (lang.locale == 'it')and devotion.bundle.audio.url %}
-                          {% svgSprite name = "audio",
-                          class = "h-4 w-4" %}
-                          <span>en</span>
-                        {% else %}
-                          {# Since we don't have 365 devotions for IT we cannot pull in today's devotion and use the logic below for adding the audio icon #}
-                          {% for devotion in todaysDevotions %}
-                            {% if devotion.locale == lang.locale and devotion.bundle.audio.url %}
-                              {% svgSprite name = "audio",
-                              class = "h-4 w-4" %}
-                              {% if lang.locale in['ar', 'es'] %}
-                                <span>en</span>
+        <div x-cloak x-show="!outOfView" class="relative">
+          <div class="absolute flex mt-6 lg:mt-9 gap-x-11 md:gap-x-6">
+            <div class="relative">
+              <button @click="showEditions = !showEditions"
+                      class="flex items-center justify-center rounded-[2px] border border-red bg-transparent px-2 text-xs uppercase text-black md:px-3 md:text-lg pt-1 md:font-medium">
+                <span>{{ devotion.variant }}</span>
+              </button>
+              <div x-cloak
+                   x-show="showEditions"
+                   class="absolute divide-y-2 bg-red text-[14px] leading-4 text-white font-normal md:font-medium mt-3 md:mt-7">
+                {% if devotion.variant !== 'classic' %}
+                  <a href="/{{ locale }}/classic/{{ devotion.number }}"
+                     class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">
+                    <button>{{ editions[locale].classic }}</button>
+                  </a>
+                {% endif %}
+                {% if editions[locale].youth and(devotion.variant !== 'youth') %}
+                  <a href="/{{ locale }}/youth/{{ devotion.number }}"
+                     class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">
+                    <button>{{ editions[locale].youth }}</button>
+                  </a>
+                {% endif %}
+                {% if editions[locale].express and(devotion.variant !== 'express') %}
+                  <a href="/{{ locale }}/express/{{ devotion.number }}"
+                     class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">
+                    <button>{{ editions[locale].express }}</button>
+                  </a>
+                {% endif %}
+                {% if not editions[locale]
+                  .youth and not editions[locale]
+                  .express %}
+                  <span class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">No other editions available in your chosen language</span>
+                {% endif %}
+              </div>
+            </div>
+            <div class="relative">
+              <button @click="showLanguages = !showLanguages"
+                      class="flex items-center justify-center rounded-[2px] border border-red bg-transparent px-2 text-xs uppercase text-black md:px-3 md:text-lg pt-1 md:font-medium">
+                {{ locale }}
+              </button>
+              <div x-cloak
+                   x-show="showLanguages"
+                   class="absolute flex flex-col mt-3 divide-y-2 min-w-max md:mt-7 bg-red">
+                {% for lang in globals.languages %}
+                  {% if lang.locale != locale %}
+                    <a class="flex py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium  min-w-max"
+                       :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">
+                      <span class="col-start-1 col-end-3">{{ lang.language }}</span>
+                      <div class="flex justify-end col-start-3 col-end-4">
+                        <div class="grid grid-cols-2 gap-2">
+                          {% if (devotion.locale == lang.locale) and (lang.locale == 'it')and devotion.bundle.audio.url %}
+                            {% svgSprite name = "audio",
+                            class = "w-4 h-4" %}
+                            <span>en</span>
+                          {% else %}
+                            {# Since we don't have 365 devotions for IT we cannot pull in today's devotion and use the logic below for adding the audio icon #}
+                            {% for devotion in todaysDevotions %}
+                              {% if devotion.locale == lang.locale and devotion.bundle.audio.url %}
+                                {% svgSprite name = "audio",
+                                class = "w-4 h-4" %}
+                                {% if lang.locale in['ar', 'es'] %}<span>en</span>{% endif %}
                               {% endif %}
-                            {% endif %}
-                          {% endfor %}
-                        {% endif %}
+                            {% endfor %}
+                          {% endif %}
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                </a>
-              {% endfor %}
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              </div>
             </div>
           </div>
-        {% endif %}
+        </div>
+        <div x-cloak x-show="outOfView" class="fixed top-0 left-0 right-0">
+          <div class="max-w-2xl mx-auto">
+            <div class="grid grid-cols-2 bg-white border-b-2 divide-x-2 divide-grey-light border-red rtl:divide-x-reverse">
+              <button @click="showEditions = !showEditions"
+                      class="flex items-center justify-center px-2 py-3 text-base text-black uppercase">
+                <span>{% svgSprite name="medium_book", class="w-6 h-6 fill-current ltr:mr-2 rtl:ml-2" %}</span>
+                {{ devotion.variant }}
+              </button>
+              <button @click="showLanguages = !showLanguages"
+                      class="flex items-center justify-center px-2 py-3 text-base text-black uppercase">
+                <span>{% svgSprite name="translate", class="w-6 h-6 fill-current ltr:mr-2 rtl:ml-2" %}</span>
+                {{ locale }}
+              </button>
+            </div>
+            <div class="grid grid-cols-2 mt-1 gap-x-2">
+              <div class="col-start-1">
+                <div x-cloak x-show="showEditions" class="divide-y-2 divide-white">
+                  {% if devotion.variant !== 'classic' %}
+                    <a href="/{{ locale }}/classic/{{ devotion.number }}"
+                       class="bg-red block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">
+                      <button>{{ editions[locale].classic }}</button>
+                    </a>
+                  {% endif %}
+                  {% if editions[locale].youth and(devotion.variant !== 'youth') %}
+                    <a href="/{{ locale }}/youth/{{ devotion.number }}"
+                       class="bg-red block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">
+                      <button>{{ editions[locale].youth }}</button>
+                    </a>
+                  {% endif %}
+                  {% if editions[locale].express and(devotion.variant !== 'express') %}
+                    <a href="/{{ locale }}/express/{{ devotion.number }}"
+                       class="bg-red block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">
+                      <button>{{ editions[locale].express }}</button>
+                    </a>
+                  {% endif %}
+                  {% if not editions[locale]
+                    .youth and not editions[locale]
+                    .express %}
+                    <span class="bg-red block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">No other editions available in your chosen language</span>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="col-start-2">
+                <div x-cloak x-show="showLanguages" class="divide-y-2 divide-white bg-red">
+                  {% for lang in globals.languages %}
+                    {% if lang.locale != locale %}
+                      <a class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium"
+                         :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">
+                        <div class="grid grid-cols-3 gap-3 min-w-max">
+                          <span class="col-start-1 col-end-3">{{ lang.language }}</span>
+                          <div class="flex justify-end col-start-3 col-end-4">
+                            <div class="grid grid-cols-2 gap-2">
+                              {% if (devotion.locale == lang.locale) and (lang.locale == 'it')and devotion.bundle.audio.url %}
+                                {% svgSprite name = "audio",
+                                class = "w-4 h-4" %}
+                                <span>en</span>
+                              {% else %}
+                                {# Since we don't have 365 devotions for IT we cannot pull in today's devotion and use the logic below for adding the audio icon #}
+                                {% for devotion in todaysDevotions %}
+                                  {% if devotion.locale == lang.locale and devotion.bundle.audio.url %}
+                                    {% svgSprite name = "audio",
+                                    class = "w-4 h-4" %}
+                                    {% if lang.locale in['ar', 'es'] %}<span>en</span>{% endif %}
+                                  {% endif %}
+                                {% endfor %}
+                              {% endif %}
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    {% endif %}
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       {% endif %}
     </div>
-  </h1>
-  <div class="absolute top-0 right-0 pt-2 pr-2 flex flex-row-reverse justify-center items-center rtl:pr-0 rtl:pl-2 rtl:left-0 rtl:right-auto md:hidden">
-    <a href="/{{ locale }}/#start" :href="deviceUrl('{{ locale }}', '{{ globals.stores.android }}', '{{ globals.stores.ios }}')" class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors">{{ navigation[locale].download }}
+    <div class="flex gap-x-[46px]">
+      <div class="hidden items-center gap-x-[46px] text-[18px] font-normal leading-[22px] text-black md:flex *:underline">
+        <a href="/{{ locale }}#start">{{ navigation[locale].start }}</a>
+        <a href="/{{ locale }}/about">{{ navigation[locale].about }}</a>
+        <a href="/{{ locale }}/faqs">{{ navigation[locale].faqs }}</a>
+        <a href="/{{ locale }}/donate">{{ navigation[locale].donate }}</a>
+      </div>
+      <a :href="deviceUrl('{{ locale }}', '{{ globals.stores.android }}', '{{ globals.stores.ios }}')"
+         class="inline-block rounded border border-red bg-red p-2 pb-1.5 text-white transition-colors hover:bg-white hover:text-red"> {{ navigation[locale].download }} </a>
+    </div>
+  </nav>
+</div>
+<div class="fixed bottom-0 z-10 w-full bg-white shadow-lg md:hidden">
+  <nav id="navbar"
+       class="flex items-center justify-between gap-x-[46px] py-2 px-6 sm:px-10">
+    <a href="/{{ locale }}#start"
+       class="flex flex-col items-center justify-center gap-y-1">
+      {% svgSprite name="bnap", class="fill-current h-5 w-auto aspect-[1.8] sm:h-6 " %}
+      <span class="text-center text-[14px] font-medium leading-[17px]">{{ navigation[locale].start }}</span>
     </a>
-  </div>
-</header>
-<nav id="navbar" class=" fixed bottom-0 w-full bg-white z-10 shadow-lg h-16 flex items-center sm:h-20 md:absolute md:bg-transparent
-      md:h-auto md:bottom-auto md:top-0 md:ltr:right-0
-      md:rtl:left-0  md:text-black md:mt-4 md:shadow-none text-left flex-row-reverse md:rtl:pl-4
-      md:w-1/2 ">
-  <div class="w-full grid grid-cols-4 justify-items-stretch md:flex md:flex-row md:w-auto">
-    <a href="/{{ locale }}#start" class="flex flex-col items-center justify-center md:py-1.5 md:mr-4 md:underline" title="Start The Bible with Nicky and Pippa Gumbel Today">
-      {% svgSprite name="bnap", class="fill-current h-5 w-auto aspect-[1.8] mb-1 sm:h-6 md:hidden" %}
-      {{ navigation[locale].start }}
+    <a href="/{{ locale }}/about"
+       class="flex flex-col items-center justify-center gap-y-1">
+      {% svgSprite name="about", class="fill-current h-5 w-auto aspect-[1.8] sm:h-6 " %}
+      <span class="text-center text-[14px] font-medium leading-[17px]">{{ navigation[locale].about }}</span>
     </a>
-    <a href="/{{ locale }}/about" class="flex flex-col items-center justify-center {{ 'text-red' if activePage == 'about' }} md:py-1.5 md:mr-4
-                                                                                                                                                                                                                        md:underline">
-      {% svgSprite name="about", class="fill-current h-6 w-6 mb-1 sm:h-8 sm:w-8 md:hidden" %}
-      {{ navigation[locale].about }}
+    <a href="/{{ locale }}/faqs"
+       class="flex flex-col items-center justify-center gap-y-1">
+      {% svgSprite name="help", class="fill-current h-5 w-auto aspect-[1.8] sm:h-6 " %}
+      <span class="text-center text-[14px] font-medium leading-[17px]">{{ navigation[locale].start }}</span>
     </a>
-    <a href="/{{ locale }}/faqs" class="flex flex-col items-center justify-center {{ 'text-red' if activePage == 'help' }} md:py-1.5 md:mr-4 md:underline">
-      {% svgSprite name="help", class="fill-current h-6 w-6 mb-1 sm:h-8 sm:w-8 md:hidden" %}
-      {{ navigation[locale].faqs }}
+    <a href="/{{ locale }}/donate"
+       class="flex flex-col items-center justify-center gap-y-1">
+      {% svgSprite name="donate", class="fill-current h-5 w-auto aspect-[1.8] sm:h-6 " %}
+      <span class="text-center text-[14px] font-medium leading-[17px]">{{ navigation[locale].start }}</span>
     </a>
-    <a href="/{{ locale }}/donate" class="flex flex-col items-center justify-center {{ 'text-red' if activePage == 'donate' }} md:py-1.5 md:mr-4
-                                                                                                                                                                                                                        md:underline">
-      {% svgSprite name="donate", class="fill-current h-6 w-6 mb-1 sm:h-8 sm:w-8 md:hidden" %}
-      {{ navigation[locale].donate }}
-    </a>
-    <a class="hidden bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors
-                                                                                                                                                                    no-underline mr-4 md:flex" href="/{{ locale }}/#start" :href="deviceUrl('{{ locale }}', '{{ globals.stores.android }}', '{{ globals.stores.ios }}')">
-      {{ navigation[locale].download }}
-    </a>
-  </div>
-</nav>
+  </nav>
+</div>

@@ -22,20 +22,6 @@ export default () => {
       window.location.replace(`/${locale}/`);
     },
 
-    deviceUrl(locale, androidUrl, iosUrl) {
-      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-
-      if (/android/i.test(userAgent)) {
-        return androidUrl;
-      }
-
-      if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-        return iosUrl;
-      }
-
-      return `/${locale}/#start`;
-    },
-
     init() {
       this.redirectRoot();
       const stored = localStorage.getItem("cookieConsent");
