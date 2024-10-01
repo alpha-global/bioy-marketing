@@ -42,7 +42,7 @@ const languages = [
   },
   {
     locale: 'th',
-    language: 'ไทย',
+    language: 'ภาษาไทย',
   },
   {
     locale: 'vi',
@@ -50,7 +50,7 @@ const languages = [
   },
   {
     locale: 'zh',
-    language: '中國人',
+    language: '中文',
   },
 ];
 
