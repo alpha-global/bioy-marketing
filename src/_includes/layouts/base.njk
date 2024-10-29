@@ -78,7 +78,7 @@
       <!-- End Alpha Code -->
     {% endif %}
   </head>
-  <body x-data="baseView">
+  <body x-data="baseView" class="flex flex-col min-h-screen">
     {% if globals.env == 'production' %}
       <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WS26JLBF"
@@ -92,18 +92,20 @@
       {% include "partials/promo.njk" %}
     {% endif %}
     {% include "partials/header.njk" %}
-    <main>
+    <main class="grow">
       {{ layoutContent | safe }}
     </main>
-    {% include "partials/footer.njk" %}
+    {% if page.fileSlug !== 'donate' %}
+      {% include "partials/footer.njk" %}
+    {% endif %}
     <div x-show="isCookieBoxOpen"
-         class="fixed bottom-20 z-10 bg-white bg-opacity-90 drop-shadow-lg filter right-4 left-4 p-4 flex flex-col sm:bottom-24 md:bottom-4 md:max-w-md md:right-auto">
+         class="fixed z-10 flex flex-col p-4 bg-white bottom-20 bg-opacity-90 drop-shadow-lg filter right-4 left-4 sm:bottom-24 md:bottom-4 md:max-w-md md:right-auto">
       <p class="text-sm">
         {{ siteLocal[locale].cookies.text }}
-        <a class="text-red underline hover:text-red-darker md:block"
+        <a class="underline text-red hover:text-red-darker md:block"
            href="/{{ locale }}/cookies">{{ siteLocal[locale].cookies.cta }}</a>
       </p>
-      <button class="mt-2 btn bg-red text-white hover:bg-red-dark"
+      <button class="mt-2 text-white btn bg-red hover:bg-red-dark"
               @click="acceptCookies()">{{ siteLocal[locale].cookies.closeButton }}</button>
     </div>
     <script src="/assets/js/app.js?{{ globals.cacheBuster }}" defer></script>
