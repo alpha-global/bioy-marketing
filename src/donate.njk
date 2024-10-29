@@ -10,57 +10,32 @@ activePage: donate
 
 <section class="container mx-auto prose prose-lg">
   <h1>{{ lang.title }}</h1>
-
-  {% if lang.intro %}
-    {{ lang.intro|markdown|safe }}
-  {% endif %}
+  {% if lang.intro %}{{ lang.intro|markdown|safe }}{% endif %}
 </section>
-
 <section class="container mx-auto text-center">
-
-  <div id="bbox-root" class="mx-auto prose prose-lg donate"></div>
-
-  <script type="text/javascript">
-    window.bboxInit = function () {
-      bbox.showForm("{{lang.blackbaud_id}}");
-    };
-    (function () {
-      var e = document.createElement("script");
-      e.async = true;
-      e.src = "https://bbox.blackbaudhosting.com/webforms/bbox-min.js";
-      document.getElementsByTagName("head")[0].appendChild(e);
-    })();
-  </script>
+  <script src="https://alphagiving.tfaforms.net/publish/10"
+          data-qp-target-id=""
+          defer></script>
 </section>
+<div id="donate-footer" class="hidden">{% include "partials/footer.njk" %}</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const moveFooterAfterForm = () => {
+      const formWrapper = document.getElementById('FA__QP__BODYWRAPPERDIV');
+      const footer = document.getElementById('donate-footer');
+      if (formWrapper && footer) {
+        formWrapper.parentNode.insertBefore(footer, formWrapper.nextSibling);
+        footer.classList.remove('hidden');
+      }
+    };
 
-<style>
-  #bboxdonation_gift_rdlstGivingLevels {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+    const checkInterval = setInterval(() => {
+      if (document.getElementById('FA__QP__BODYWRAPPERDIV')) {
+        moveFooterAfterForm();
+        clearInterval(checkInterval);
+      }
+    }, 100);
 
-  #bboxdonation_billing_ddTitle,
-  .BBFormRadioLabelGivingLevel {
-    width: 100%;
-  }
-  .BBFormRadioLabelGivingLevelSelected {
-    border-color: #e42312 !important;
-    background-color: #e42312 !important;
-  }
-
-  .BBFormFieldUKGiftAidTermsLabel {
-    line-height: 120%!important;
-    font-size: 0.825rem !important;
-    color: #6A6A6A !important;
-  }
-
-  .BBDFormSectionComments .BBFormTextArea,
-  .BBDFormSectionComments .BBFormFieldLabel {
-    margin-left: 0 !important;
-  }
-
-  #bboxdonation_gift_lblGivingLevels {
-    display: none;
-  }
-</style>
+    setTimeout(() => clearInterval(checkInterval), 10000);
+  });
+</script>
