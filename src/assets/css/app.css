@@ -280,3 +280,8 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+#FA__QP__BODYWRAPPERDIV input[type="checkbox"] {
+  appearance: auto;
+  -webkit-appearance: auto;
+  -moz-appearance: auto;
+}
