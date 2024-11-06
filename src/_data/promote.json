@@ -1,25 +1,33 @@
 {
-    "de": {},
-    "hi": {},
-    "en": {
-      "promoteItems": [
-        {
-          "showImageOnMobile": false,
-          "showAppStoreButtons": false,
-          "ctaLinkStyle": [
-            "button"
-          ],
-          "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
-          "image": "/assets/img/qr-code.png"
-        }
-      ]
-    },
-    "it": {},
-    "fr": {},
-    "es": {},
-    "zh": {},
-    "ar": {},
-    "vi": {},
-    "th": {},
-    "id": {}
-  }
+  "de": {},
+  "hi": {},
+  "en": {
+    "promoteItems": [
+      {
+        "showImageOnMobile": false,
+        "showAppStoreButtons": false,
+        "ctaLinkStyle": [
+          "button"
+        ],
+        "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
+        "image": "/assets/img/qr-code.png"
+      },
+      {
+        "showImageOnMobile": false,
+        "showAppStoreButtons": false,
+        "ctaLinkStyle": [
+          "button"
+        ],
+        "title": "another one"
+      }
+    ]
+  },
+  "it": {},
+  "fr": {},
+  "es": {},
+  "zh": {},
+  "ar": {},
+  "vi": {},
+  "th": {},
+  "id": {}
+}
