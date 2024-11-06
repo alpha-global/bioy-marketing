@@ -2,17 +2,6 @@
   "de": {},
   "hi": {},
   "en": {
-    "promoteItems": [
-      {
-        "showImageOnMobile": false,
-        "showAppStoreButtons": false,
-        "ctaLinkStyle": [
-          "button"
-        ],
-        "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
-        "image": "/assets/img/qr-code.png"
-      }
-    ]
   },
   "it": {},
   "fr": {},
