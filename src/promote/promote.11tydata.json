@@ -1,8 +1,163 @@
 {
+  "de": {
+    "title": "About",
+    "header": {
+      "title": "365 Tage mit der Bibel",
+      "strapline": "Das sind 365 gut genutzte Tage!",
+      "img": {
+        "src": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
+        "desc": "Nicky and Pippa lesen die Bibel in einem Jahr"
+      },
+      "cta": "Hol dir die App. Wähle deinen Stil."
+    },
+    "body": "**Bibel in einem Jahr ist ein Bibelleseplan, der dich in 365 Tagen durch die gesamt Bibel führt. Er ist ideal für alle, die einen einfachen Weg suchen, die Bibel zu lesen und zu verstehen.**\n\nJeder Tag enthält Abschnitte aus einem Psalm oder den Sprüchen, dem Neuen und dem Alten Testament sowie einen ansprechenden Kommentar von Nicky und Pippa Gumbel, Leiter der [Holy Trinity Brompton (HTB)](https://htb.org/) - Kirche in London und Pioniere von [Alpha](https://alpha.org/).  \n\nBibel in einem Jahr hilft dir, dich intensiver mit der Bibel auseinanderzusetzen, die Prinzipien im täglichen Leben anzuwenden und in deiner Beziehung zu Jesus zu wachsen.\n\nDu kannst die Texte entweder lesen oder anhören. Und, je nachdem, was besser zu dir und deinem Lebensstil passt, wählst du die Classic-Version (ca. 25 Minuten) oder die etwas kürzere Express-Version (ca. 10 Minuten). \n\nÜber 4,5 Millionen Menschen aus 160 Ländern nutzen Bibel in einem Jahr . Schließ dich ihnen an, lass dich von der Bibel begeistern und komm so Gott näher.",
+    "cta": true,
+    "editions": false,
+    "testimonials": true
+  },
+  "hi": {
+    "header": {
+      "title": "365 Days in the Bible",
+      "strapline": "Join the 3 million people who start their day in the Bible"
+    },
+    "cta": true,
+    "editions": false,
+    "testimonials": true,
+    "title": "About",
+    "body": "**The Bible with Nicky and Pippa Gumbel is a daily Bible reading plan which takes you through the whole Bible in 365 days.  It is ideal for anyone who is looking for an easy and accessible way to read and understand the Bible.** \n\nEach day includes passages from a Psalm or Proverb, the New Testament and the Old Testament along with a daily commentary from Nicky and Pippa Gumbel, leaders of[ Holy Trinity Brompton (HTB)](https://htb.org/) Church in London and pioneers of [Alpha](https://alpha.org/). The Bible with Nicky and Pippa Gumbel will encourage you to engage more closely with the Bible, to apply its teachings to everyday life and to grow in your relationship with Jesus. \n\nYou can follow along by reading the text or listening to the audio commentary and you can choose the version that best suits your lifestyle; the Classic version (25 minutes), or a shorter Express or Youth version (both around 15 minutes). \n\nOver 4.5 million people from 160 countries have experienced Bible in One Year. Why not join them, find your own rhythm and draw closer to God."
+  },
   "en": {
-    "name": "Promotessss"
+    "header": {
+      "title": "365 Days in the Bible",
+      "strapline": "That's 365 days well spent!",
+      "img": {
+        "src": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
+        "desc": "Nicky and Pippa narrating The Bible with Nicky and Pippa Gumbel"
+      },
+      "cta": "Download the app. Find your rhythm."
+    },
+    "body": "**The Bible with Nicky and Pippa Gumbel is a daily Bible reading plan which takes you through the whole Bible in 365 days.  It is ideal for anyone who is looking for an easy and accessible way to read and understand the Bible.** \n\nEach day includes passages from a Psalm or Proverb, the New Testament and the Old Testament along with a daily commentary from Nicky and Pippa Gumbel, former leaders of [ Holy Trinity Brompton (HTB)](https://htb.org/) Church in London and pioneers of [Alpha](https://alpha.org/). The Bible with Nicky and Pippa Gumbel will encourage you to engage more closely with the Bible, to apply its teachings to everyday life and to grow in your relationship with Jesus. \n\nYou can follow along by reading the text or listening to the audio commentary and you can choose the version that best suits your lifestyle; the Classic version (25 minutes), or a shorter Express or Youth version (both around 15 minutes). \n\nOver 4.5 million people from 160 countries have experienced The Bible with Nicky and Pippa Gumbel. Why not join them, find your own rhythm and draw closer to God.",
+    "cta": true,
+    "editions": false,
+    "testimonials": true,
+    "title": "About"
+  },
+  "it": {
+    "header": {
+      "title": "365 giorni nella Bibbia",
+      "strapline": "Sono 365 giorni ben spesi!",
+      "img": {
+        "src": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
+        "desc": "Nicky e Pippa raccontano la Bibbia in un anno"
+      },
+      "cta": "Scarica l'applicazione. Trova il tuo ritmo."
+    },
+    "body": "**La Bibbia in un anno è un programma quotidiano di lettura della Bibbia che ti guida attraverso l'intera Bibbia in 365 giorni. È l'ideale per chiunque cerchi un modo semplice e accessibile per leggere e comprendere la Bibbia.**\n\nOgni giorno include passaggi di un Salmo o Proverbio, del Nuovo Testamento e dell'Antico Testamento insieme a un commento quotidiano di Nicky e Pippa Gumbel, leader di[Holy Trinity Brompton (HTB)](https://htb.org/) Churchin Londra e pionieri di[Alpha](https://alpha.org/). La Bibbia in un anno ti incoraggerà a impegnarti più da vicino con la Bibbia, ad applicare i suoi insegnamenti alla vita di tutti i giorni e a crescere nella tua relazione con Gesù.\n\nPuoi seguire leggendo il testo o ascoltando il commento audio e puoi scegliere la versione che meglio si adatta al tuo stile di vita; la versione classica (25 minuti) o una versione più breve Express o Youth (entrambe circa 15 minuti).\n\nOltre 4,5 milioni di persone di 160 paesi hanno sperimentato la Bibbia in un anno. Perché non unirti a loro, trovare il tuo ritmo e avvicinarti a Dio.",
+    "cta": true,
+    "editions": false,
+    "testimonials": true,
+    "title": "Di"
+  },
+  "fr": {
+    "title": "À propos",
+    "header": {
+      "title": "365 jours dans la Bible",
+      "strapline": "C'est 365 jours bien utilisés !",
+      "img": {
+        "src": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
+        "desc": "Nicky et Pippa en train de raconter la Bible en 1 an"
+      },
+      "cta": "Téléchargez l'application. Trouvez votre rythme."
+    },
+    "body": "**La Bible en 1 an est un plan de lecture biblique quotidien qui vous fait parcourir toute la Bible en 365 jours. Il est idéal pour tous ceux qui recherchent un moyen simple et accessible de lire et de comprendre la Bible.**\n\nChaque jour comprend des passages d'un psaume ou d'un proverbe, du Nouveau Testament et de l'Ancien Testament, ainsi qu'un commentaire quotidien de Nicky & Pippa Gumbel, dirigeants de l'église [Holy Trinity Brompton (HTB)](https://htb.org/) à Londres et pionniers d'[Alpha](https://www.parcoursalpha.fr/). La Bible en 1 an vous encouragera à vous engager plus étroitement avec la Bible, à appliquer ses enseignements à la vie de tous les jours et à grandir dans votre relation avec Jésus.\n\nVous pouvez suivre en lisant le texte ou en écoutant le commentaire audio et vous pouvez choisir la version qui convient le mieux à votre style de vie ; la version Classique (25 minutes), ou une version plus courte, Express ou Jeunesse (environ 15 minutes chacune).\n\nPlus de 4,5 millions de personnes de 160 pays ont fait l'expérience de la Bible en 1 an. Pourquoi ne pas les rejoindre, trouver votre propre rythme et vous rapprocher de Dieu ?",
+    "cta": true,
+    "editions": false,
+    "testimonials": true
+  },
+  "es": {
+    "header": {
+      "title": "365 Días en la Biblia",
+      "strapline": "Únete a las 3 millones de personas que comienzan su día en la Biblia",
+      "cta": "Descarga la aplicación hoy",
+      "img": {
+        "src": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
+        "desc": "Nicky y Pippa narrando la Biblia en Un Año"
+      }
+    },
+    "cta": true,
+    "editions": false,
+    "testimonials": true,
+    "body": "**La Biblia con Nicky y Pippa Gumbel es un plan diario de lectura bíblica que te lleva a través de toda la Biblia en 365 días. Es ideal para cualquier persona que busque una forma fácil y accesible de leer y comprender la Biblia.**\n\nCada día incluye pasajes del Nuevo Testamento, el Antiguo Testamento y los Salmos o Proverbios, junto con un comentario diario de Nicky y Pippa Gumbel, líderes de [Holy Trinity Brompton (HTB) Church](https://htb.org) en Londres y pioneros de [Alpha](https://alpha.org). La Biblia con Nicky y Pippa Gumbel alienta a los lectores a relacionarse más de cerca con la Biblia, a aplicar sus enseñanzas a la vida y a crecer en su relación con Jesús.\n\nLa Biblia con Nicky y Pippa Gumbel es una herramienta maravillosa para aquellos que acaban de terminar Alpha y buscan una manera fácil y accesible de leer y entender la Biblia. Cada día, los lectores pueden seguir leyendo el texto o escuchando el comentario de audio y pueden elegir la versión que mejor se adapte a su estilo de vida; la versión Clásica (25 minutos) o una versión Express más corta (10 minutos). También está disponible una versión para jóvenes. Únete a 3 millones de usuarios en todo el mundo cada día para leer La Biblia con Nicky y Pippa Gumbel.",
+    "title": "Sobre"
+  },
+  "zh": {
+    "header": {
+      "strapline": "与全球3百万人一起，用阅读圣经来开启新的一天",
+      "title": "365天 天天与圣经同行",
+      "cta": "现在就下载吧",
+      "img": {
+        "src": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
+        "desc": "圣经日日行由力克和佩泊朗读"
+      }
+    },
+    "cta": true,
+    "editions": false,
+    "testimonials": true,
+    "title": "介绍",
+    "body": "**《圣经日日行》是一个每日读经灵修集，它帮助你在365天内读完整本圣经。本软件特别适合那些希望通过**一**种简单易懂的方式来阅读、理解《圣经》的人。**\n\n《圣经日日行》灵修集包含三部分：新约，旧约以及诗篇或箴言。每部分都附有甘力克和太太佩泊所写的圣经评注。甘力克和佩泊是启发国际事工的创始人，并且是伦敦圣三一布朗普顿（HTB）教会的领袖。《圣经日日行》帮助读者更好阅读《圣经》，并把教义应用到日常生活中，进而与耶稣建立亲密的关系。\n\n你可以阅读文本或聆听语音，也可选择最适合你的版本，它们是：经典版（25分钟）；快速版（10分钟）和青年版。（中文目前只支持经典版）\n\n在全球160个国家中，已经有450万人正在使用《圣经日日行》作为他们的每日灵修指南。现在就加入我们，按照你的节奏，每日亲近神！"
   },
   "ar": {
-    "name": "Promote"
+    "header": {
+      "strapline": "سوف تقضي 365 يوم بصورة ممتعة!",
+      "title": "اقرأ الكتاب المقدس في 365 يوم ",
+      "cta": "قم بتنزيل التطبيق. ابحث عن إيقاعك الخاص.",
+      "img": {
+        "src": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
+        "desc": "Nicky and Pippa narrating The Bible with Nicky and Pippa Gumbel"
+      }
+    },
+    "cta": true,
+    "editions": false,
+    "testimonials": true,
+    "title": "عن",
+    "body": "**الكتاب المقدس في عام واحد هو خطة يومية لقراءة الكتاب المقدس تأخذك خلال الكتاب المقدس بأكمله في 365 يومًا. إنه مثالي لمن يبحث عن طريقة سهلة وميسرة لقراءة وفهم الكتاب المقدس.**\n\nيتضمن كل يوم مقاطع من المزمور أو الأمثال والعهد الجديد والعهد القديم إلى جانب تعليق يومي من نِكي وبيبا جمبل ، وقادة [كنيسة ](https://htb.org/)[هولي ترينيتي برومبتون (HTB) ](https://htb.org/)لندن ورواد[ ألفا](mena.alpha.org). سيشجعك الكتاب المقدس في عام واحد على الانخراط بشكل أعمق في الكتاب المقدس، وتطبيق تعاليمه في حياتك اليومية وتنمية علاقتك مع يسوع.\n\nيمكنك المتابعة من خلال قراءة النص أو الاستماع إلى التعليق الصوتي ويمكنك اختيار الإصدار الذي يناسب أسلوب حياتك؛ الإصدار الكلاسيكي (25 دقيقة)، أو إصدار أقصر من Express أو إصدار الشباب (كلاهما حوالي 15 دقيقة).\n\nهناك أكثر من 4.5 مليون شخص من 160 دولة قد اختبروا الكتاب المقدس في عام واحد. لماذا لا تنضم إليهم، ابحث عن إيقاعك الخاص واقترب أكثر من الله."
+  },
+  "vi": {
+    "header": {
+      "title": "365 ngày trong Kinh Thánh",
+      "strapline": "Đó là 365 ngày chi tiêu tốt!",
+      "img": {
+        "src": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
+        "desc": "Nicky and Pippa narrating The Bible with Nicky and Pippa Gumbel"
+      },
+      "cta": "Tải xuống ứng dụng. Tìm nhịp điệu của bạn."
+    },
+    "body": "**Kinh Thánh Trong Một Năm là một kế hoạch đọc Kinh Thánh hàng ngày sẽ đưa bạn qua toàn bộ Kinh Thánh trong 365 ngày. Cuốn sách lý tưởng cho bất kỳ ai đang tìm kiếm một cách dễ dàng và dễ tiếp cận để đọc và hiểu Kinh Thánh.**\n\nMỗi ngày bao gồm các đoạn từ Thi thiên hoặc Châm ngôn, Tân Ước và Cựu Ước cùng với bài bình luận hàng ngày của Nicky và Pippa Gumbel, những người lãnh đạo của [Holy Trinity Brompton (HTB)](https://htb.org/) Churchin London và những người tiên phong của [Alpha](https://alpha.org/). Cuốn Kinh Thánh Trong Một Năm sẽ khuyến khích bạn tìm hiểu Kinh Thánh chặt chẽ hơn, áp dụng những lời dạy của Kinh Thánh vào cuộc sống hàng ngày và phát triển trong mối quan hệ của bạn với Chúa Giê-su.\n\nBạn có thể theo dõi bằng cách đọc văn bản hoặc nghe bình luận bằng âm thanh và bạn có thể chọn phiên bản phù hợp nhất với lối sống của mình; phiên bản Cổ điển (25 phút) hoặc phiên bản Express hoặc Youth ngắn hơn (cả hai đều khoảng 15 phút).\n\nHơn 4,5 triệu người từ 160 quốc gia đã trải nghiệm Kinh Thánh trong một năm. Tại sao không tham gia cùng họ, tìm nhịp điệu của riêng bạn và đến gần hơn với Chúa.",
+    "cta": true,
+    "editions": false,
+    "testimonials": true,
+    "title": "Trong khoảng"
+  },
+  "th": {
+    "title": "เกี่ยวกับเรา",
+    "body": "**พระคัมภีร์ในหนึ่งปี (Bible in One Year) เป็นแผนการอ่านพระคัมภีร์ประจำวันที่จะพาคุณอ่านพระคัมภีร์ทั้งเล่มใน 365 วัน เหมาะอย่างยิ่งสำหรับผู้ที่กำลังมองหาวิธีอ่านและทำความเข้าใจพระคัมภีร์ที่ง่ายและเข้าถึงได้**\n\nในแต่ละวันประกอบด้วยพระคำจากสดุดีหรือสุภาษิต พันธสัญญาใหม่ และพันธสัญญาเดิม พร้อมด้วยคำอธิบายประจำวันจากนิคกี้ และพิพพา กัมเบล ผู้นำของคริสตจักร [Holy Trinity Brompton (HTB)](https://htb.org/) ในลอนดอน และผู้บุกเบิก  [Alpha ](https://alpha.org/)พระคัมภีร์ในหนึ่งปีจะช่วยให้คุณมีส่วนร่วมอย่างใกล้ชิดกับพระคัมภีร์ นำคำสอนของพระคัมภีร์ไปใช้ในชีวิตประจำวันและเติบโตในความสัมพันธ์กับพระเยซู\n\nคุณสามารถทำตามได้ด้วยการอ่านหรือฟังเสียงบรรยาย แล้วเลือกเวอร์ชั่นที่เหมาะกับไลฟ์สไตล์ของคุณ เวอร์ชั่นคลาสสิก (25 นาที) หรือเวอร์ชั่น ด่วนพิเศษ (Express) หรือ อนุชน (Youth) ที่สั้นกว่า (ทั้งสองประมาณ 15 นาที)\n\nผู้คนกว่า 4.5 ล้านคนจาก 160 ประเทศได้มีการใช้พระคัมภีร์ในหนึ่งปี ทำไมไม่เข้าร่วมกับพวกเขา ค้นหาจังหวะของคุณเองและเข้าใกล้พระเจ้ามากขึ้น",
+    "header": {
+      "title": "365 Thai Header",
+      "img": {
+        "src": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
+        "desc": "Nicky and Pippa narrating The Bible with Nicky and Pippa Gumbel"
+      },
+      "strapline": "That's 365 days well spent! - Thai",
+      "cta": "Download the app. Find your rhythm. Thai"
+    },
+    "cta": true,
+    "editions": false,
+    "testimonials": true
+  },
+  "id": {
+    "title": "About",
+    "body": "**The Bible with Nicky and Pippa Gumbel is a daily Bible reading plan which takes you through the whole Bible in 365 days.  It is ideal for anyone who is looking for an easy and accessible way to read and understand the Bible.** \n\nEach day includes passages from a Psalm or Proverb, the New Testament and the Old Testament along with a daily commentary from Nicky and Pippa Gumbel, leaders of[ Holy Trinity Brompton (HTB)](https://htb.org/) Church in London and pioneers of [Alpha](https://alpha.org/). The Bible with Nicky and Pippa Gumbel will encourage you to engage more closely with the Bible, to apply its teachings to everyday life and to grow in your relationship with Jesus. \n\nYou can follow along by reading the text or listening to the audio commentary and you can choose the version that best suits your lifestyle; the Classic version (25 minutes), or a shorter Express or Youth version (both around 15 minutes). \n\nOver 4.5 million people from 160 countries have experienced Bible in One Year. Why not join them, find your own rhythm and draw closer to God.",
+    "cta": true,
+    "editions": false
   }
 }
