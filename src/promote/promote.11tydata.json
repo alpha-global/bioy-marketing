@@ -40,7 +40,17 @@
     "cta": true,
     "editions": false,
     "testimonials": true,
-    "title": "Ab"
+    "title": "Ab",
+    "promoteItems": [
+      {
+        "showImageOnMobile": false,
+        "showAppStoreButtons": false,
+        "ctaLinkStyle": [
+          "button"
+        ],
+        "title": "sdadasd"
+      }
+    ]
   },
   "it": {
     "header": {
