@@ -1,0 +1,45 @@
+---
+layout: page
+pagination:
+  data: globals.locales
+  size: 1
+  alias: locale
+permalink: "{{ locale }}/promote/index.html"
+activePage: promote
+---
+
+<main class="container p-4 mx-auto">
+    <div class="grid grid-cols-1 gap-y-[88px] lg:grid-cols-2">
+        <section class="grid grid-cols-1 gap-y-8">
+            <h2 class="text-center text-[18px] font-semibold leading-[22px] tracking-[1%]">
+                Download The Bible with Nicky and Pippa Gumbel app today.
+            </h2>
+            <div class="flex flex-col items-center space-y-2">
+                <a href="{{ globals.stores.ios }}"
+                   class="block"
+                   target="_blank"
+                   rel="noopener">
+                    {% svgSprite name="app-store-ios", class="w-full h-16 sm:w-48" %}
+                    <span class="visually-hidden">{{ cta[locale].ios }}</span>
+                </a>
+                <a href="{{ globals.stores.android }}"
+                   class="block"
+                   target="_blank"
+                   rel="noopener">
+                    {% svgSprite name="app-store-android", class="w-full h-16 sm:w-48" %}
+                    <span class="visually-hidden">{{ cta[locale].android }}</span>
+                </a>
+            </div>
+            <a href=""
+               class="text-center text-[18px] font-semibold leading-4 tracking-[1%] text-red">Read the Bible online</a>
+        </section>
+        <section class="grid grid-cols-1 gap-y-[58px]">
+            <h2 class="text-center text-[18px] font-semibold leading-[22px] tracking-[1%]">
+                Tell others about The Bible with Nicky and Pippa Gumbel.
+            </h2>
+            <div class="w-full h-72 bg-red"></div>
+            <a href=""
+               class="mx-auto inline-block max-w-max rounded border border-red bg-red p-2 pb-1.5 text-white transition-colors hover:bg-white hover:text-red">How to share</a>
+        </section>
+    </div>
+</main>

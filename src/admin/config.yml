@@ -174,7 +174,6 @@ collections:
                 },
               ],
           },
-
           {
             label: 'FAQs',
             name: 'FAQs',
@@ -275,6 +274,14 @@ collections:
                     ],
                 },
               ],
+          },
+          {
+            label: 'Promote',
+            name: 'promote',
+            file: 'src/promote/promote.11tydata.json',
+            slug: 'promote',
+            i18n: true,
+            fields: [{ label: 'name', name: 'name', widget: 'string', i18n: true }],
           },
         ],
     },
