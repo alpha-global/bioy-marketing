@@ -154,6 +154,10 @@
         "href": "/en/faqs/ticket/",
         "label": "Contact",
         "external": false
+      },
+      {
+        "label": "Promote",
+        "href": "/en/promote"
       }
     ],
     "social": {
