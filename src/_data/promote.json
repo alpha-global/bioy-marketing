@@ -1,32 +1,70 @@
 {
   "de": {
     "promote": {
-      "title": "Cms Download The Bible with Nicky and Pippa Gumbel app today.",
-      "subTitle": "cms Tell others about The Bible with Nicky and Pippa Gumbel.",
+      "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
+      "subTitle": "Tell others about The Bible with Nicky and Pippa Gumbel.",
       "qrImage": "/assets/img/qr-code.png",
       "image": "/assets/img/promote.jpeg",
-      "howToShare": "cms How to share",
-      "ctaText": "cms Read the Bible online"
+      "howToShare": "How to share",
+      "ctaText": "Read the Bible online"
+    },
+    "share": {
+      "title": "Share with your church, friends or anyone you know.",
+      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
+      "cta": {
+        "text": "Downoad promotional pack",
+        "link": "https://example.com"
+      },
+      "images": [
+        {
+          "image": "/assets/img/share1.jpeg"
+        },
+        {
+          "image": "/assets/img/share2.jpeg"
+        },
+        {
+          "image": "/assets/img/share3.jpeg"
+        }
+      ]
     }
   },
   "hi": {
     "promote": {
-      "title": "Cms Download The Bible with Nicky and Pippa Gumbel app today.",
-      "subTitle": "cms Tell others about The Bible with Nicky and Pippa Gumbel.",
+      "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
+      "subTitle": "Tell others about The Bible with Nicky and Pippa Gumbel.",
       "qrImage": "/assets/img/qr-code.png",
       "image": "/assets/img/promote.jpeg",
-      "howToShare": "cms How to share",
-      "ctaText": "cms Read the Bible online"
+      "howToShare": "How to share",
+      "ctaText": "Read the Bible online"
+    },
+    "share": {
+      "title": "Share with your church, friends or anyone you know.",
+      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
+      "cta": {
+        "text": "Downoad promotional pack",
+        "link": "https://example.com"
+      },
+      "images": [
+        {
+          "image": "/assets/img/share1.jpeg"
+        },
+        {
+          "image": "/assets/img/share2.jpeg"
+        },
+        {
+          "image": "/assets/img/share3.jpeg"
+        }
+      ]
     }
   },
   "en": {
     "promote": {
-      "title": "Cms Download The Bible with Nicky and Pippa Gumbel app today.",
-      "subTitle": "cms Tell others about The Bible with Nicky and Pippa Gumbel.",
+      "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
+      "subTitle": "Tell others about The Bible with Nicky and Pippa Gumbel.",
       "qrImage": "/assets/img/qr-code.png",
       "image": "/assets/img/promote.jpeg",
-      "howToShare": "cms How to share",
-      "ctaText": "cms Read the Bible online"
+      "howToShare": "How to share",
+      "ctaText": "Read the Bible online"
     },
     "share": {
       "title": "Share with your church, friends or anyone you know.",
@@ -50,82 +88,234 @@
   },
   "it": {
     "promote": {
-      "title": "Cms Download The Bible with Nicky and Pippa Gumbel app today.",
-      "subTitle": "cms Tell others about The Bible with Nicky and Pippa Gumbel.",
+      "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
+      "subTitle": "Tell others about The Bible with Nicky and Pippa Gumbel.",
       "qrImage": "/assets/img/qr-code.png",
       "image": "/assets/img/promote.jpeg",
-      "howToShare": "cms How to share",
-      "ctaText": "cms Read the Bible online"
+      "howToShare": "How to share",
+      "ctaText": "Read the Bible online"
+    },
+    "share": {
+      "title": "Share with your church, friends or anyone you know.",
+      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
+      "cta": {
+        "text": "Downoad promotional pack",
+        "link": "https://example.com"
+      },
+      "images": [
+        {
+          "image": "/assets/img/share1.jpeg"
+        },
+        {
+          "image": "/assets/img/share2.jpeg"
+        },
+        {
+          "image": "/assets/img/share3.jpeg"
+        }
+      ]
     }
   },
   "fr": {
     "promote": {
-      "title": "Cms Download The Bible with Nicky and Pippa Gumbel app today.",
-      "subTitle": "cms Tell others about The Bible with Nicky and Pippa Gumbel.",
+      "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
+      "subTitle": "Tell others about The Bible with Nicky and Pippa Gumbel.",
       "qrImage": "/assets/img/qr-code.png",
       "image": "/assets/img/promote.jpeg",
-      "howToShare": "cms How to share",
-      "ctaText": "cms Read the Bible online"
+      "howToShare": "How to share",
+      "ctaText": "Read the Bible online"
+    },
+    "share": {
+      "title": "Share with your church, friends or anyone you know.",
+      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
+      "cta": {
+        "text": "Downoad promotional pack",
+        "link": "https://example.com"
+      },
+      "images": [
+        {
+          "image": "/assets/img/share1.jpeg"
+        },
+        {
+          "image": "/assets/img/share2.jpeg"
+        },
+        {
+          "image": "/assets/img/share3.jpeg"
+        }
+      ]
     }
   },
   "es": {
     "promote": {
-      "title": "Cms Download The Bible with Nicky and Pippa Gumbel app today.",
-      "subTitle": "cms Tell others about The Bible with Nicky and Pippa Gumbel.",
+      "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
+      "subTitle": "Tell others about The Bible with Nicky and Pippa Gumbel.",
       "qrImage": "/assets/img/qr-code.png",
       "image": "/assets/img/promote.jpeg",
-      "howToShare": "cms How to share",
-      "ctaText": "cms Read the Bible online"
+      "howToShare": "How to share",
+      "ctaText": "Read the Bible online"
+    },
+    "share": {
+      "title": "Share with your church, friends or anyone you know.",
+      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
+      "cta": {
+        "text": "Downoad promotional pack",
+        "link": "https://example.com"
+      },
+      "images": [
+        {
+          "image": "/assets/img/share1.jpeg"
+        },
+        {
+          "image": "/assets/img/share2.jpeg"
+        },
+        {
+          "image": "/assets/img/share3.jpeg"
+        }
+      ]
     }
   },
   "zh": {
     "promote": {
-      "title": "Cms Download The Bible with Nicky and Pippa Gumbel app today.",
-      "subTitle": "cms Tell others about The Bible with Nicky and Pippa Gumbel.",
+      "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
+      "subTitle": "Tell others about The Bible with Nicky and Pippa Gumbel.",
       "qrImage": "/assets/img/qr-code.png",
       "image": "/assets/img/promote.jpeg",
-      "howToShare": "cms How to share",
-      "ctaText": "cms Read the Bible online"
+      "howToShare": "How to share",
+      "ctaText": "Read the Bible online"
+    },
+    "share": {
+      "title": "Share with your church, friends or anyone you know.",
+      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
+      "cta": {
+        "text": "Downoad promotional pack",
+        "link": "https://example.com"
+      },
+      "images": [
+        {
+          "image": "/assets/img/share1.jpeg"
+        },
+        {
+          "image": "/assets/img/share2.jpeg"
+        },
+        {
+          "image": "/assets/img/share3.jpeg"
+        }
+      ]
     }
   },
   "ar": {
     "promote": {
-      "title": "Cms Download The Bible with Nicky and Pippa Gumbel app today.",
-      "subTitle": "cms Tell others about The Bible with Nicky and Pippa Gumbel.",
+      "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
+      "subTitle": "Tell others about The Bible with Nicky and Pippa Gumbel.",
       "qrImage": "/assets/img/qr-code.png",
       "image": "/assets/img/promote.jpeg",
-      "howToShare": "cms How to share",
-      "ctaText": "cms Read the Bible online"
+      "howToShare": "How to share",
+      "ctaText": "Read the Bible online"
+    },
+    "share": {
+      "title": "Share with your church, friends or anyone you know.",
+      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
+      "cta": {
+        "text": "Downoad promotional pack",
+        "link": "https://example.com"
+      },
+      "images": [
+        {
+          "image": "/assets/img/share1.jpeg"
+        },
+        {
+          "image": "/assets/img/share2.jpeg"
+        },
+        {
+          "image": "/assets/img/share3.jpeg"
+        }
+      ]
     }
   },
   "vi": {
     "promote": {
-      "title": "Cms Download The Bible with Nicky and Pippa Gumbel app today.",
-      "subTitle": "cms Tell others about The Bible with Nicky and Pippa Gumbel.",
+      "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
+      "subTitle": "Tell others about The Bible with Nicky and Pippa Gumbel.",
       "qrImage": "/assets/img/qr-code.png",
       "image": "/assets/img/promote.jpeg",
-      "howToShare": "cms How to share",
-      "ctaText": "cms Read the Bible online"
+      "howToShare": "How to share",
+      "ctaText": "Read the Bible online"
+    },
+    "share": {
+      "title": "Share with your church, friends or anyone you know.",
+      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
+      "cta": {
+        "text": "Downoad promotional pack",
+        "link": "https://example.com"
+      },
+      "images": [
+        {
+          "image": "/assets/img/share1.jpeg"
+        },
+        {
+          "image": "/assets/img/share2.jpeg"
+        },
+        {
+          "image": "/assets/img/share3.jpeg"
+        }
+      ]
     }
   },
   "th": {
     "promote": {
-      "title": "Cms Download The Bible with Nicky and Pippa Gumbel app today.",
-      "subTitle": "cms Tell others about The Bible with Nicky and Pippa Gumbel.",
+      "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
+      "subTitle": "Tell others about The Bible with Nicky and Pippa Gumbel.",
       "qrImage": "/assets/img/qr-code.png",
       "image": "/assets/img/promote.jpeg",
-      "howToShare": "cms How to share",
-      "ctaText": "cms Read the Bible online"
+      "howToShare": "How to share",
+      "ctaText": "Read the Bible online"
+    },
+    "share": {
+      "title": "Share with your church, friends or anyone you know.",
+      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
+      "cta": {
+        "text": "Downoad promotional pack",
+        "link": "https://example.com"
+      },
+      "images": [
+        {
+          "image": "/assets/img/share1.jpeg"
+        },
+        {
+          "image": "/assets/img/share2.jpeg"
+        },
+        {
+          "image": "/assets/img/share3.jpeg"
+        }
+      ]
     }
   },
   "id": {
     "promote": {
-      "title": "Cms Download The Bible with Nicky and Pippa Gumbel app today.",
-      "subTitle": "cms Tell others about The Bible with Nicky and Pippa Gumbel.",
+      "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
+      "subTitle": "Tell others about The Bible with Nicky and Pippa Gumbel.",
       "qrImage": "/assets/img/qr-code.png",
       "image": "/assets/img/promote.jpeg",
-      "howToShare": "cms How to share",
-      "ctaText": "cms Read the Bible online"
+      "howToShare": "How to share",
+      "ctaText": "Read the Bible online"
+    },
+    "share": {
+      "title": "Share with your church, friends or anyone you know.",
+      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
+      "cta": {
+        "text": "Downoad promotional pack",
+        "link": "https://example.com"
+      },
+      "images": [
+        {
+          "image": "/assets/img/share1.jpeg"
+        },
+        {
+          "image": "/assets/img/share2.jpeg"
+        },
+        {
+          "image": "/assets/img/share3.jpeg"
+        }
+      ]
     }
   }
 }
