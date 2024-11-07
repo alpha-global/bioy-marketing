@@ -5,19 +5,17 @@ module.exports = {
   protectRunts: (str) => {
     if (!str) { return; }
     if (str.search("<br>") === -1) {
-      let title = str.replace(/((.*)\s(.*))$/g, "$2&nbsp;$3");
+      const title = str.replace(/((.*)\s(.*))$/g, "$2&nbsp;$3");
       return title.replace(/"(.*)"/g, '\\"$1\\"');
     }
-    else {
-      let phrase = str.split("<br>");
-      let first = phrase[0]
-        .trimEnd()
-        .replace(/((.*)\s(.*))$/g, "$2&nbsp;$3")
-        .replace(/"(.*)"/g, '\\"$1\\"');
-      let last = phrase[1].trim();
-      let title = first.concat(" <br>", last);
-      return title
-    }
+    const phrase = str.split("<br>");
+    const first = phrase[0]
+      .trimEnd()
+      .replace(/((.*)\s(.*))$/g, "$2&nbsp;$3")
+      .replace(/"(.*)"/g, '\\"$1\\"');
+    const last = phrase[1].trim();
+    const title = first.concat(" <br>", last);
+    return title;
   },
 
   htmlDateString: (dateObj) => {
@@ -26,7 +24,11 @@ module.exports = {
 
   devotionList: (devotions, locale, variant) => {
     return devotions.filter((devo) => {
-      return devo.locale == locale && devo.variant == variant && devo.number <= today
+      return devo.locale === locale && devo.variant === variant && devo.number <= today
     });
-  }
+  },
+
+  highlightWord: (str) => {
+    return str.replace(/^(\w+)/, '<span class="text-red">$1</span>');
+  },
 }
