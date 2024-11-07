@@ -9,35 +9,58 @@ activePage: promote
 ---
 
 <main class="container p-4 mx-auto">
-    <div class="grid grid-cols-1 gap-y-[88px] lg:grid-cols-2">
-        <section class="grid grid-cols-1 gap-y-8">
-            <h2 class="text-center text-[18px] font-semibold leading-[22px] tracking-[1%]"></h2>
-            <div class="flex flex-col items-center space-y-2">
+    <div class="grid grid-cols-1 gap-y-[88px] lg:grid-cols-2 lg:divide-x lg:divide-red">
+        <section class="grid grid-cols-1 gap-y-8 lg:col-start-2 lg:col-span-1">
+            <div class="max-w-[412px] mx-auto">
+                <h2 class="text-center text-[18px] font-semibold leading-[22px] tracking-[1%]">
+                    {{ promote[locale].promote.title | highlightWord | safe }}
+                </h2>
+            </div>
+            <div class="hidden lg:block lg:mx-auto">
+                {% blockImage promote[locale].promote.qrImage, "QR Code" , "(min-width: 640px) 60vw,
+                100vw", "w-auto overflow-hidden object-center aspect-[315/347] h-[346px]" %}
+            </div>
+            <div class="flex flex-col items-center justify-center gap-y-2 md:flex-row md:gap-y-7">
                 <a href="{{ globals.stores.ios }}"
                    class="block"
                    target="_blank"
                    rel="noopener">
-                    {% svgSprite name="app-store-ios", class="w-full h-16 sm:w-48" %}
+                    {% svgSprite name="app-store-ios", class="w-full h-11 md:h-[55px]" %}
                     <span class="visually-hidden">{{ cta[locale].ios }}</span>
                 </a>
                 <a href="{{ globals.stores.android }}"
                    class="block"
                    target="_blank"
                    rel="noopener">
-                    {% svgSprite name="app-store-android", class="w-full h-16 sm:w-48" %}
+                    {% svgSprite name="app-store-android", class="w-full h-11 md:h-[55px]" %}
                     <span class="visually-hidden">{{ cta[locale].android }}</span>
                 </a>
             </div>
-            <a href=""
-               class="text-center text-[18px] font-semibold leading-4 tracking-[1%] text-red">Read the Bible online</a>
+            <a href="/{{ locale }}/classic/{{ globals.today }}"
+               class="text-center text-[18px] font-semibold leading-4 tracking-[1%] text-red flex items-center justify-center gap-x-[15px]">
+                <span>{{ promote[locale].promote.ctaText }}</span>
+                {% svgSprite name="arrow-right", class="size-6 text-black-scrim" %}
+            </a>
         </section>
-        <section class="grid grid-cols-1 gap-y-[58px]">
-            <h2 class="text-center text-[18px] font-semibold leading-[22px] tracking-[1%]">
-                Tell others about The Bible with Nicky and Pippa Gumbel.
-            </h2>
-            <div class="w-full h-72 bg-red"></div>
-            <a href=""
-               class="mx-auto inline-block max-w-max rounded border border-red bg-red p-2 pb-1.5 text-white transition-colors hover:bg-white hover:text-red">How to share</a>
+        <section class="grid grid-cols-1 gap-y-[58px] lg:col-start-1 lg:col-span-1 lg:row-start-1">
+            <div class="max-w-[412px] mx-auto">
+                <h2 class="text-center text-[18px] font-semibold leading-[22px] tracking-[1%]">
+                    {{ promote[locale].promote.subTitle |  highlightWord | safe }}
+                </h2>
+            </div>
+            <div class="mx-auto">
+                {% blockImage promote[locale].promote.image, "Promote image" , "(min-width: 640px) 60vw,
+                100vw", "w-auto overflow-hidden object-center aspect-[334/325] h-[325px] lg:h-[370px] lg:aspect-[475/370]" %}
+            </div>
+            <a href="/{{ locale }}/promote/share"
+               class="mx-auto inline-block max-w-max rounded border border-red bg-red p-2 pb-1.5 text-white transition-colors hover:bg-white hover:text-red">
+                {{ promote[locale].promote.howToShare }}
+            </a>
         </section>
     </div>
 </main>
+<style>
+    * {
+    outline: 1px solid red;
+  }
+</style>
