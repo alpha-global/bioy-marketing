@@ -12,7 +12,7 @@ activePage: promote
     <div class="grid grid-cols-1">
         <section class="grid grid-cols-1 md:mx-auto md:max-w-[774px]">
             <h2 class="text-center text-[32px] font-bold leading-[44px] text-[#333333] md:text-[53px] md:font-semibold md:leading-[64px]">
-                {{ promote[locale].share.title | highlightWord | safe }}
+                {{ promote[locale].share.title | highlightFirstWord | safe }}
             </h2>
             <p class="mt-2 text-center text-[18px] leading-9 tracking-[1%] md:mt-8">{{ promote[locale].share.subTitle | safe }}</p>
             <a href="{{ promote[locale].share.cta.link }}"
@@ -25,7 +25,7 @@ activePage: promote
             {% endfor %}
         </section>
         <a href="{{ promote[locale].share.cta.link }}"
-           class="mx-auto mt-[88px] inline-block max-w-max rounded border border-red bg-red px-3 py-5 text-[16px] font-medium leading-5 text-white transition-colors hover:bg-white">
+           class="mx-auto mt-[88px] inline-block max-w-max rounded border border-red bg-red px-3 py-5 text-[16px] font-medium leading-5 text-white transition-colors hover:bg-white hover:text-red md:px-6">
             {{ promote[locale].share.cta.text }}
         </a>
     </div>

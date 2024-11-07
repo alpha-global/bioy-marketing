@@ -28,7 +28,10 @@ module.exports = {
     });
   },
 
-  highlightWord: (str) => {
+  highlightFirstWord: (str) => {
     return str.replace(/^(\w+)/, '<span class="text-red">$1</span>');
+  },
+  highlightLastWord: (str) => {
+    return str.replace(/(\w+)$/, '<span class="font-bold">$1</span>');
   },
 }

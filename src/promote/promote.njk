@@ -13,7 +13,7 @@ activePage: promote
         <section class="grid grid-cols-1 gap-y-8 lg:col-start-2 lg:col-span-1 lg:py-[34px]">
             <div class="max-w-[412px] mx-auto">
                 <h2 class="text-center text-[18px] font-semibold leading-[22px] tracking-[1%] lg:text-2xl lg:leading-[26px]">
-                    {{ promote[locale].promote.title | highlightWord | safe }}
+                    {{ promote[locale].promote.title | highlightFirstWord | safe }}
                 </h2>
             </div>
             <div class="hidden lg:block lg:mx-auto lg:mt-9">
@@ -21,7 +21,7 @@ activePage: promote
                 100vw", "w-auto overflow-hidden object-center aspect-[315/347] h-[346px]" %}
             </div>
             <div class="mx-auto flex flex-col items-center gap-y-2 lg:flex-row lg:gap-x-[27px] lg:gap-y-0">
-                <a href="{{ globals.stores.io }}">
+                <a href="{{ globals.stores.ios }}">
                     <svg class="w-auto h-11 lg:h-[55px]"
                          viewBox="0 0 150 44"
                          fill="none"
@@ -63,7 +63,7 @@ activePage: promote
         <section class="grid grid-cols-1 gap-y-[58px] lg:col-start-1 lg:col-span-1 lg:row-start-1 lg:py-[34px]">
             <div class="max-w-[412px] mx-auto">
                 <h2 class="text-center text-[18px] font-semibold leading-[22px] tracking-[1%] lg:text-2xl lg:leading-[26px]">
-                    {{ promote[locale].promote.subTitle |  highlightWord | safe }}
+                    {{ promote[locale].promote.subTitle |  highlightFirstWord | safe }}
                 </h2>
             </div>
             <div class="mx-auto">
@@ -73,7 +73,7 @@ activePage: promote
             <div class="mx-auto">
                 <a href="/{{ locale }}/promote/share"
                    class=" max-w-max rounded border border-red bg-red px-3 py-5 text-[16px] font-medium leading-5 text-white transition-colors hover:bg-white hover:text-red lg:px-6">
-                    {{ promote[locale].promote.howToShare }}
+                    {{ promote[locale].promote.howToShare | highlightLastWord | safe }}
                 </a>
             </div>
         </section>
