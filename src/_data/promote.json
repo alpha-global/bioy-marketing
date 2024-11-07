@@ -30,7 +30,8 @@
         "url": "https://example.com"
       },
       "image": "/assets/img/promote.jpeg",
-      "howToShare": "How to share"
+      "howToShare": "How to share",
+      "ctaText": "Read the Bible online"
     }
   },
   "it": {},
