@@ -283,63 +283,74 @@ collections:
             fields:
               [
                 {
-                  label: 'Promote Items',
-                  name: 'promoteItems',
-                  widget: 'list',
-                  required: true,
+                  label: 'Promote',
+                  name: 'promote',
+                  widget: 'object',
                   i18n: true,
                   fields:
                     [
+                      { label: 'Title', name: 'title', widget: 'string', i18n: true },
                       {
-                        label: 'Title',
-                        name: 'title',
+                        label: 'Sub Title',
+                        name: 'subTitle',
                         widget: 'string',
-                        required: true,
                         i18n: true,
                       },
-                      {
-                        label: 'Image',
-                        name: 'image',
-                        widget: image,
-                        i18n: true,
-                        required: false,
-                      },
-                      {
-                        label: 'Show Image On Mobile',
-                        name: 'showImageOnMobile',
-                        widget: 'boolean',
-                        default: false,
-                        i18n: true,
-                      },
-                      {
-                        label: 'Show App Store Buttons',
-                        name: 'showAppStoreButtons',
-                        widget: 'boolean',
-                        default: false,
-                        i18n: true,
-                      },
+                      { label: 'QR Image', name: 'qrImage', widget: 'image', i18n: true },
                       {
                         label: 'CTA Text',
                         name: 'ctaText',
                         widget: 'string',
                         i18n: true,
-                        required: false,
                       },
+                      { label: 'Image', name: 'image', widget: 'image', i18n: true },
                       {
-                        label: 'CTA URL',
-                        name: 'ctaUrl',
+                        label: 'How To Share',
+                        name: 'howToShare',
                         widget: 'string',
                         i18n: true,
-                        required: false,
+                      },
+                    ],
+                },
+                {
+                  label: 'Share',
+                  name: 'share',
+                  widget: 'object',
+                  i18n: true,
+                  fields:
+                    [
+                      { label: 'Title', name: 'title', widget: 'string', i18n: true },
+                      {
+                        label: 'Sub Title',
+                        name: 'subTitle',
+                        widget: 'string',
+                        i18n: true,
                       },
                       {
-                        label: 'CTA Style',
-                        name: 'ctaLinkStyle',
-                        widget: 'select',
-                        options: ['button', 'link'],
-                        default: ['button'],
+                        label: 'CTA',
+                        name: 'cta',
+                        widget: 'object',
                         i18n: true,
-                        required: false,
+                        fields:
+                          [
+                            { label: 'Text', name: 'text', widget: 'string', i18n: true },
+                            { label: 'Link', name: 'link', widget: 'string', i18n: true },
+                          ],
+                      },
+                      {
+                        label: 'Images',
+                        name: 'images',
+                        widget: 'list',
+                        i18n: true,
+                        fields:
+                          [
+                            {
+                              label: 'Image',
+                              name: 'image',
+                              widget: 'image',
+                              i18n: true,
+                            },
+                          ],
                       },
                     ],
                 },
