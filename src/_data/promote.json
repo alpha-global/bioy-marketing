@@ -27,6 +27,25 @@
       "image": "/assets/img/promote.jpeg",
       "howToShare": "cms How to share",
       "ctaText": "cms Read the Bible online"
+    },
+    "share": {
+      "title": "Share with your church, friends or anyone you know.",
+      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
+      "cta": {
+        "text": "Downoad promotional pack",
+        "link": "https://example.com"
+      },
+      "images": [
+        {
+          "image": "/assets/img/share1.jpeg"
+        },
+        {
+          "image": "/assets/img/share2.jpeg"
+        },
+        {
+          "image": "/assets/img/share3.jpeg"
+        }
+      ]
     }
   },
   "it": {
