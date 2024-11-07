@@ -26,5 +26,9 @@ module.exports = {
     return devotions.filter((devo) => {
       return devo.locale === locale && devo.variant === variant && devo.number <= today
     });
-  }
+  },
+
+  highlightWord: (str) => {
+    return str.replace(/^(\w+)/, '<span class="text-red">$1</span>');
+  },
 }
