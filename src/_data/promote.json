@@ -2,33 +2,10 @@
   "de": {},
   "hi": {},
   "en": {
-    "promoteItems": [
-      {
-        "showImageOnMobile": false,
-        "showAppStoreButtons": false,
-        "ctaLinkStyle": [
-          "button"
-        ],
-        "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
-        "image": "/assets/img/qr-code.png"
-      },
-      {
-        "showImageOnMobile": false,
-        "showAppStoreButtons": false,
-        "ctaLinkStyle": [
-          "button"
-        ],
-        "title": "another one"
-      }
-    ],
     "promote": {
       "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
       "subTitle": "Tell others about The Bible with Nicky and Pippa Gumbel.",
       "qrImage": "/assets/img/qr-code.png",
-      "cta": {
-        "text": "Read the Bible online",
-        "url": "https://example.com"
-      },
       "image": "/assets/img/promote.jpeg",
       "howToShare": "How to share",
       "ctaText": "Read the Bible online"
