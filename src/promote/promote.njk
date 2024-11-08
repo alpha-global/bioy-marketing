@@ -9,10 +9,10 @@ activePage: promote
 ---
 
 <main class="container px-4 mx-auto py-[50px] lg:py-[84px]">
-    <div class="grid grid-cols-1 gap-y-[88px] lg:grid-cols-2 lg:divide-x lg:divide-x-reverse lg:divide-red">
+    <div class="grid grid-cols-1 gap-y-[88px] lg:grid-cols-2 divide-y lg:divide-y-0 lg:divide-x lg:divide-x-reverse divide-red">
         <section class="grid grid-cols-1 gap-y-8 lg:col-start-2 lg:col-span-1 lg:py-[34px]">
             <div class="max-w-[412px] mx-auto">
-                <h2 class="text-center text-[18px] font-semibold leading-[22px] tracking-[1%] lg:text-2xl lg:leading-[26px]">
+                <h2 class="text-center text-[18px] font-medium leading-[22px] tracking-[1%] lg:text-2xl lg:leading-[26px]">
                     {{ promote[locale].promote.title | highlightFirstWord | safe }}
                 </h2>
             </div>
@@ -55,20 +55,20 @@ activePage: promote
                 </a>
             </div>
             <a href="/{{ locale }}/classic/{{ globals.today }}"
-               class="text-center text-[18px] font-semibold leading-4 tracking-[1%] text-red flex items-center justify-center gap-x-[15px]">
+               class="text-center text-[18px] font-normal leading-4 tracking-[1%] text-black flex items-center justify-center gap-x-[15px]">
                 <span>{{ promote[locale].promote.ctaText }}</span>
                 {% svgSprite name="arrow-right", class="size-6 text-black-scrim" %}
             </a>
         </section>
-        <section class="grid grid-cols-1 gap-y-[58px] lg:col-start-1 lg:col-span-1 lg:row-start-1 lg:py-[34px]">
+        <section class="grid grid-cols-1 lg:col-start-1 lg:col-span-1 lg:row-start-1 lg:py-[34px] pt-[87px]">
             <div class="max-w-[412px] mx-auto">
-                <h2 class="text-center text-[18px] font-semibold leading-[22px] tracking-[1%] lg:text-2xl lg:leading-[26px]">
+                <h2 class="text-center text-[18px] font-medium leading-[22px] tracking-[1%] lg:text-2xl lg:leading-[26px]">
                     {{ promote[locale].promote.subTitle |  highlightFirstWord | safe }}
                 </h2>
             </div>
             <div class="mx-auto">
                 {% blockImage promote[locale].promote.image, "Promote image" , "(min-width: 640px) 60vw,
-                100vw", "w-auto overflow-hidden object-center aspect-square h-[325px] lg:h-[370px]" %}
+                100vw", "w-auto overflow-hidden object-center aspect-square h-[325px] lg:h-[400px]" %}
             </div>
             <div class="mx-auto">
                 <a href="/{{ locale }}/promote/share"
