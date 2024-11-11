@@ -3,7 +3,7 @@ layout: layouts/base.njk
 imageBanner: true
 ---
 
-{% if locale in ["en", "es", "de"] %}
+{% if page.fileSlug === "home" and locale in ["en", "de"] %}
   <div class="container px-4 pt-32 mx-auto pb-14 lg:pt-36 lg:pb-20">
     <div class="grid grid-cols-1 gap-y-[88px] lg:grid-cols-2 divide-y lg:divide-y-0 lg:divide-x lg:divide-x-reverse divide-red">
       <section class="grid grid-cols-1 gap-y-8 lg:col-start-2 lg:col-span-1 lg:py-[34px]">
