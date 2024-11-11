@@ -1,17 +1,17 @@
 {
   "ar": {
     "promote": {
-      "ctaText": "Read the Bible online",
-      "howToShare": "How to share",
+      "ctaText": "اقرأ الكتاب المقدس اون لاين",
+      "howToShare": "كيفية المشاركة",
       "image": "/assets/img/promote.jpeg",
       "qrImage": "/assets/img/qr-code.png",
-      "subTitle": "Spread the word about The Bible with Nicky and Pippa Gumbel.",
-      "title": "Download The Bible with Nicky and Pippa Gumbel app today."
+      "subTitle": "نشر الكلمة عن الكتاب المقدس مع نيكي وبيبا جامبل",
+      "title": "قم بتنزيل تطبيق الكتاب المقدس مع نيكي وبيبا جامبل اليوم"
     },
     "share": {
       "cta": {
         "link": "https://we.tl/t-FNw2hwio5o",
-        "text": "Download Promotional Pack"
+        "text": "تنزيل الحزمة الترويجية"
       },
       "images": [
         {
@@ -24,8 +24,8 @@
           "image": "/assets/img/share3.jpeg"
         }
       ],
-      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
-      "title": "Share with your church, friends or anyone you know."
+      "subTitle": "تتضمن هذه الحزمة الترويجية صورًا ومقاطع فيديو يمكنك مشاركتها على وسائل التواصل الاجتماعي أو في الكنيسة أو ألفا أو الفعاليات المسيحية وأماكن أخرى",
+      "title": "شارك مع كنيستك أو أصدقائك أو أي شخص تعرفه"
     }
   },
   "de": {

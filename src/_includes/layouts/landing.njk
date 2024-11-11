@@ -3,7 +3,7 @@ layout: layouts/base.njk
 imageBanner: true
 ---
 
-{% if page.fileSlug === "home" and locale in ["en", "de"] %}
+{% if page.fileSlug === "home" %}
   <div class="container px-4 pt-32 mx-auto pb-14 lg:pt-36 lg:pb-20">
     <div class="grid grid-cols-1 gap-y-[88px] lg:grid-cols-2 divide-y lg:divide-y-0 lg:divide-x lg:divide-x-reverse divide-red">
       <section class="grid grid-cols-1 gap-y-8 lg:col-start-2 lg:col-span-1 lg:py-[34px]">
@@ -67,7 +67,7 @@ imageBanner: true
           100vw", "w-auto overflow-hidden object-center aspect-square h-[325px] lg:h-[400px]" %}
         </div>
         <div class="mx-auto">
-          <a href="/{{ locale }}/promote/share"
+          <a href="/{{ locale }}/promote/"
              class=" max-w-max rounded border border-red bg-red px-3 py-5 text-[16px] font-medium leading-5 text-white transition-colors hover:bg-white hover:text-red lg:px-6">
             {{ promote[locale].promote.howToShare | highlightLastWord | safe }}
           </a>
