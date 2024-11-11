@@ -5,8 +5,8 @@ imageBanner: true
 
 {% if page.fileSlug === "home" %}
   <div class="container px-4 pt-32 mx-auto pb-14 lg:pt-36 lg:pb-20">
-    <div class="grid grid-cols-1 gap-y-[88px] lg:grid-cols-2 divide-y lg:divide-y-0 lg:divide-x lg:divide-x-reverse divide-red">
-      <section class="grid grid-cols-1 gap-y-8 lg:col-start-2 lg:col-span-1 lg:py-[34px]">
+    <div class="flex flex-col gap-y-[88px] divide-y divide-red lg:flex-row lg:divide-x lg:divide-y-0 ltr:lg:divide-x-reverse">
+      <section class="grid grid-cols-1 gap-y-8 lg:py-[34px] lg:w-1/2 lg:order-last">
         <div class="max-w-[412px] mx-auto">
           <h2 class="text-center text-[18px] font-medium leading-[22px] tracking-[1%] lg:text-2xl lg:leading-[26px]">
             {{ promote[locale].promote.title | highlightFirstWord | safe }}
@@ -56,7 +56,7 @@ imageBanner: true
           {% svgSprite name="arrow-right", class="size-6 text-black-scrim rtl:rotate-180" %}
         </a>
       </section>
-      <section class="grid grid-cols-1 lg:col-start-1 lg:col-span-1 lg:row-start-1 lg:py-[34px] pt-[87px]">
+      <section class="grid grid-cols-1 pt-[87px] lg:py-[34px] lg:w-1/2">
         <div class="max-w-[412px] mx-auto">
           <h2 class="text-center text-[18px] font-medium leading-[22px] tracking-[1%] lg:text-2xl lg:leading-[26px]">
             {{ promote[locale].promote.subTitle |  highlightFirstWord | safe }}
