@@ -5,21 +5,21 @@ const walkTokens = (token) => {
     token.depth = token.depth + 2;
   }
   if (token.children) {
-    token.children.forEach((child) => {
+    for (const child of token.children) {
       walkTokens(child);
-    });
+    }
   }
 };
 
 const normalizeHeadings = (rawString) => {
-  let tokens = marked.lexer(rawString);
+  const tokens = marked.lexer(rawString);
   tokens.forEach(walkTokens);
   return marked.parser(tokens);
 };
 
 const toHtml = (markdown) => {
   if (!markdown) return '';
-  let rendered = marked
+  const rendered = marked
     .marked(markdown)
     .replaceAll(/<code>/gm, '<sup>')
     .replaceAll(/<\/code>/gm, '</sup>')
@@ -35,7 +35,8 @@ const calculateDateRange = (currentDate) => {
   const diff = currentDate - start;
   const dayOfYear = Math.floor(diff / (1000 * 60 * 60 * 24));
 
-  let startDay, endDay;
+  let startDay;
+  let endDay;
 
   if (dayOfYear <= 5) {
     startDay = 1;
