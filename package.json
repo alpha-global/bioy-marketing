@@ -35,7 +35,7 @@
     "marked": "^12.0.0",
     "mockdate": "^3.0.5",
     "netlify-plugin-cache": "^1.0.3",
-    "postcss": "^8.4.48",
+    "postcss": "^8.4.49",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.8",
     "slugify": "^1.5.3",
