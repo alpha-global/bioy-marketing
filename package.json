@@ -32,7 +32,7 @@
     "autoprefixer": "^10.4.20",
     "dayjs": "^1.11.13",
     "laravel-mix": "^6.0.49",
-    "marked": "^12.0.0",
+    "marked": "^15.0.0",
     "mockdate": "^3.0.5",
     "netlify-plugin-cache": "^1.0.3",
     "postcss": "^8.4.49",
