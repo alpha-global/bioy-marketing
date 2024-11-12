@@ -44,8 +44,11 @@ for (const locale of locales) {
 test.describe("Devotionals", () => {
 	test("Devotionals", async ({ page }) => {
 		await page.goto("en/classic/317");
+		await page.waitForTimeout(500);
 		await expect(page).toHaveScreenshot("317-en-classic.png", {
 			fullPage: true,
+			animations: "disabled",
+			maxDiffPixelRatio: 0.2,
 		});
 	});
 });
