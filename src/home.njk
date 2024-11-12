@@ -8,14 +8,16 @@ permalink: "{{ locale }}/index.html"
 variant: classic
 ---
 
-{% include './_blocks/cta.njk' %}
+{% if page.fileSlug !== "home" %}
+  {% include "../../_blocks/cta.njk" %}
+{% endif %}
 <!-- --------- -->
-{% include './_blocks/channels.njk' %}
+{% include "./_blocks/channels.njk" %}
 <!-- --------- -->
-{% include './_blocks/editions.njk' %}
+{% include "./_blocks/editions.njk" %}
 <!-- --------- -->
-{% include './_blocks/gumbels.njk' %}
+{% include "./_blocks/gumbels.njk" %}
 <!-- --------- -->
-{% include './_blocks/testimonials.njk' %}
+{% include "./_blocks/testimonials.njk" %}
 <!-- --------- -->
-{% include './_blocks/today.njk' %}
+{% include "./_blocks/today.njk" %}
