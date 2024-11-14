@@ -10,81 +10,62 @@ redirectFrom: help
 redirectTo: faqs
 ---
 
-<main class="mx-auto py-2 sm:py-4 lg:container">
-
-  <h1 class="title">{{ lang.title }}</h1>
-
-  {% if lang.intro %}
-    <div class="prose">
-      {{ lang.intro | markdown | safe }}
-    </div>
-  {% endif %}
+<main class="py-2 mx-auto sm:py-4 lg:container">
+  <h1 class="title">
+    {% if lang.title %}{{ lang.title }}{% endif %}
+  </h1>
+  {% if lang.intro %}<div class="prose">{{ lang.intro | markdown | safe }}</div>{% endif %}
 </main>
-
-<div
-  class="mx-auto py-2 sm:py-4 lg:container"
-  x-data="faqsView"
->
-  <div class="js-filter hidden flex relative mb-4">
-    <span class="py-2 pr-2 font-bold absolute ltr:left-0 rtl:right-0 pointer"
-      >{{ lang.filter }}:</span
-    >
-    <input
-      type="text"
-      class="
-        searchField__input
-        appearance-none
-        w-full
-        p-2
-        ltr:pl-16
-        rtl:pr-16
-        border-b-2 border-grey
-        focus:outline-none
-        focus:border-red
-      "
-      placeholder="{{ lang.filterHint }}"
-      x-model="query"
-/>
-    {% svgSprite name="search", class="pointer-events-none absolute ltr:right-2 rtl:left-2 top-2 h-6 w-6" %}
+<div class="py-2 mx-auto sm:py-4 lg:container" x-data="faqsView">
+  <div class="relative flex hidden mb-4 js-filter">
+    <span class="absolute py-2 pr-2 font-bold ltr:left-0 rtl:right-0 pointer">
+      {% if lang.filter %}{{ lang.filter }}{% endif %}
+    :</span>
+    <input type="text"
+           class="w-full p-2 border-b-2 appearance-none searchField__input ltr:pl-16 rtl:pr-16 border-grey focus:outline-none focus:border-red"
+           {% if lang.filterHint %}placeholder="{{ lang.filterHint }}"{% endif %}
+           x-model="query" />
+    {% svgSprite name="search", class="absolute w-6 h-6 pointer-events-none ltr:right-2 rtl:left-2 top-2" %}
   </div>
-
-  <div class="grid gap-4 md:grid-cols-2 mb-4">
-    {% for category, faqsItem in collections.faqsItems | groupby('category') %}
-      <div class="border border-grey p-8 space-x-2 space-y-2 js-faqsItem">
-        <div class="font-bold inline-block text-gray-600 uppercase">
-          {{ lang.categories[category] }}
-        </div>
-        {% for item in faqsItem %}
-          {% if item.locale == locale %}
-            <details class="my-2 js-faqsItem">
-              <summary class="font-bold text-red ">{{item.title}}</summary>
-              <p class="my-1">{{item.shortAnswer}}</p>
-              {% if item.detailedAnswer %}
-                <a href="/{{ locale }}/faqs/{{ item.slug }}" class="mb-2 underline">
-                  {{ lang.seeMore }}
-                </a>
+  <div class="grid gap-4 mb-4 md:grid-cols-2">
+    {% if collections.faqsItems %}
+      {% for category, faqsItem in collections.faqsItems | groupby('category') %}
+        <div class="p-8 space-x-2 space-y-2 border border-grey js-faqsItem">
+          <div class="inline-block font-bold text-gray-600 uppercase">
+            {% if lang.categories[category] %}{{ lang.categories[category] }}{% endif %}
+          </div>
+          {% if faqsItem %}
+            {% for item in faqsItem %}
+              {% if item.locale == locale %}
+                <details class="my-2 js-faqsItem">
+                  <summary class="font-bold text-red ">
+                    {% if item.title %}{{ item.title }}{% endif %}
+                  </summary>
+                  <p class="my-1">
+                    {% if item.shortAnswer %}{{ item.shortAnswer }}{% endif %}
+                  </p>
+                  {% if item.detailedAnswer %}
+                    <a {% if item.slug %}href="/{{ locale }}/faqs/{{ item.slug }}"{% endif %}
+                       class="mb-2 underline">
+                      {% if lang.seeMore %}{{ lang.seeMore }}{% endif %}
+                    </a>
+                  {% endif %}
+                </details>
               {% endif %}
-            </details>
+            {% endfor %}
           {% endif %}
-        {% endfor %}
-      </div>
-    {% endfor %}
+        </div>
+      {% endfor %}
+    {% endif %}
   </div>
-
   <div x-show="!!query">
-    <div
-      x-show="filteredItems() == 0"
-      class="border border-grey mb-4 p-8 flex flex-col items-center"
-    >
-      <h1
-        class="font-bold text-center"
-        x-text="`{{ lang.notFoundMessage }} '${query}'`"
-      ></h1>
-      <a
-        href="/{{ locale }}/faqs/ticket"
-        class="border border-red text-red mt-4 px-2 py-4 rounded"
-      >
-        {{ lang.submitButton }}
+    <div x-show="filteredItems() == 0"
+         class="flex flex-col items-center p-8 mb-4 border border-grey">
+      <h1 class="font-bold text-center"
+          {% if lang.notFoundMessage %}x-text="`{{ lang.notFoundMessage }} '${query}'`"{% endif %}></h1>
+      <a href="/{{ locale }}/faqs/ticket"
+         class="px-2 py-4 mt-4 border rounded border-red text-red">
+        {% if lang.submitButton %}{{ lang.submitButton }}{% endif %}
       </a>
     </div>
   </div>

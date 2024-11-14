@@ -47,6 +47,11 @@ module.exports = function (eleventyConfig) {
     debugger;
   });
 
+  // eleventyConfig.setNunjucksEnvironmentOptions({
+  //   throwOnUndefined: true,
+  //   autoescape: false, // warning: don’t do this!
+  // });
+
   return {
     dir: {
       includes: '_includes',

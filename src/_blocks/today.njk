@@ -17,22 +17,32 @@ pagination:
               {% if today[locale].today %}
                 <span class="inline-block p-2 pb-1 mb-1 text-sm uppercase bg-white rounded-sm text-red">{{ today[locale].today }}</span>
               {% endif %}
-              <a href="{{ d.url }}" class="block underline">{{ today[locale].day }}
-              {{ d.number }}: {{ d.bundle.title }}</a>
-              <span class="text-xs">{{ d.bundle.wisdom.passage.reference }} &middot; {{ d.bundle.newTestament.passage.reference }} &middot; {{ d.bundle.oldTestament.passage.reference }}</span>
+              <a href="{{ d.url }}" class="block underline">
+                {% if today[locale].day %}{{ today[locale].day }}{% endif %}
+                {% if  d.number %}{{ d.number }}:{% endif %}
+                {% if d.bundle.title %}{{ d.bundle.title }}{% endif %}
+              </a>
+              <span class="text-xs">
+                {% if d.bundle.wisdom.passage.reference %}{{ d.bundle.wisdom.passage.reference }}{% endif %}
+                &middot;
+                {% if d.bundle.newTestament.passage.reference %}{{ d.bundle.newTestament.passage.reference }}{% endif %}
+                &middot;
+                {% if  d.bundle.oldTestament.passage.reference %}{{ d.bundle.oldTestament.passage.reference }}{% endif %}
+              </span>
             </p>
           {% else %}
             <p>
-              {% if today[locale].day %}
-                <a href="{{ d.url }}" class="underline">{{ today[locale].day }}
-                {{ d.number }}: {{ d.bundle.title }}</a>
-              {% endif %}
+              <a {% if d.url %}href="{{ d.url }}"{% endif %} class="underline">
+                {% if today[locale].day %}{{ today[locale].day }}{% endif %}
+                {% if d.number %}{{ d.number }}:{% endif %}
+                {% if d.budle.title %}{{ d.bundle.title }}{% endif %}
+              </a>
             </p>
           {% endif %}
         {% endif %}
       {% endfor %}
       <p class="mt-4">
-        {{ today[locale].cta_teaser }}
+        {% if  today[locale].cta_tease %}{{ today[locale].cta_teaser }}{% endif %}
         {% if today[locale].cta %}<a class="underline" href="#start">{{ today[locale].cta }}</a>{% endif %}
       </p>
     </div>

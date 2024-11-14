@@ -10,266 +10,308 @@ pagination:
     <div class="flex flex-col items-stretch"
          style="min-height: 30rem"
          x-ref="mediaContainer">
-      {% for medium in channels[locale].distribution %}
-        <div class="relative w-full bg-center bg-cover bioy-medium"
-             x-show="mediaFocus === {{ loop.index0 }}">
-          {% if medium.image %}
-            {% blockImage medium.image , "reader",
-            "(min-width: 1526px) calc(1536px - 2rem), (min-width: 1280px)
-            calc(1280px - 2rem), (min-width: 1024px) calc(1024px - 2rem), calc(100vw
-            - 2rem)", "object-cover h-full w-full absolute filter saturate-0
-            lg:rounded-lg rtl:transform rtl:-scale-x-1" %}
-          {% endif %}
-          <div class="relative flex flex-col justify-center h-full py-6 pr-4 text-white bg-red bg-opacity-80 pl-28 md:pl-36 rtl:pl-0 rtl:pr-36 lg:rounded-lg">
-            {% if medium.icon !== 'medium_podcast' %}
-              {% if medium.icon === 'medium_email' %}
-                {% if locale === 'de' %}
-                  <div class="relative">
-                    <div class="max-w-xs">
-                      <h4 class="mb-3 text-xl font-bold">{{ medium.channel }}</h4>
-                      {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
-                      {% if medium.cta %}{{ medium.cta.code | safe }}{% endif %}
+      {% if channels[locale].distribution %}
+        {% for medium in channels[locale].distribution %}
+          <div class="relative w-full bg-center bg-cover bioy-medium"
+               x-show="mediaFocus === {{ loop.index0 }}">
+            {% if medium.image %}
+              {% blockImage medium.image , "reader",
+              "(min-width: 1526px) calc(1536px - 2rem), (min-width: 1280px)
+              calc(1280px - 2rem), (min-width: 1024px) calc(1024px - 2rem), calc(100vw
+              - 2rem)", "object-cover h-full w-full absolute filter saturate-0
+              lg:rounded-lg rtl:transform rtl:-scale-x-1" %}
+            {% endif %}
+            <div class="relative flex flex-col justify-center h-full py-6 pr-4 text-white bg-red bg-opacity-80 pl-28 md:pl-36 rtl:pl-0 rtl:pr-36 lg:rounded-lg">
+              {% if medium.icon !== 'medium_podcast' %}
+                {% if medium.icon === 'medium_email' %}
+                  {% if locale === 'de' %}
+                    <div class="relative">
+                      <div class="max-w-xs">
+                        <h4 class="mb-3 text-xl font-bold">
+                          {% if medium.channel %}{{ medium.channel }}{% endif %}
+                        </h4>
+                        {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
+                        {% if medium.cta.code %}{{ medium.cta.code | safe }}{% endif %}
+                      </div>
                     </div>
-                  </div>
-                  <div x-ref="mcForm"
-                       class="fixed inset-0 z-30 flex-col items-center justify-center hidden w-full h-full">
-                    {% include "./partials/mc/de.njk" %}
-                  </div>
-                {% elif locale === 'en' %}
-                  <div class="relative">
-                    <div class="max-w-xs">
-                      <h4 class="mb-3 text-xl font-bold">{{ medium.channel }}</h4>
-                      {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
-                      {% if medium.cta %}{{ medium.cta.code | safe }}{% endif %}
+                    <div x-ref="mcForm"
+                         class="fixed inset-0 z-30 flex-col items-center justify-center hidden w-full h-full">
+                      {% include "./partials/mc/de.njk" %}
                     </div>
-                  </div>
-                  <div x-ref="mcForm"
-                       class="fixed inset-0 z-30 flex-col items-center justify-center hidden w-full h-full">
-                    {% include "./partials/mc/en.njk" %}
-                  </div>
-                {% elif locale === 'es' %}
-                  <div class="relative">
-                    <div class="max-w-xs">
-                      <h4 class="mb-3 text-xl font-bold">{{ medium.channel }}</h4>
-                      {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
-                      {% if medium.cta %}{{ medium.cta.code | safe }}{% endif %}
+                  {% elif locale === 'en' %}
+                    <div class="relative">
+                      <div class="max-w-xs">
+                        <h4 class="mb-3 text-xl font-bold">
+                          {% if medium.channel %}{{ medium.channel }}{% endif %}
+                        </h4>
+                        {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
+                        {% if medium.cta.code %}{{ medium.cta.code | safe }}{% endif %}
+                      </div>
                     </div>
-                  </div>
-                  <div x-ref="mcForm"
-                       class="fixed inset-0 z-30 flex-col items-center justify-center hidden w-full h-full">
-                    {% include "./partials/mc/es.njk" %}
-                  </div>
-                {% elif locale === 'zh' %}
-                  <div class="relative">
-                    <div class="max-w-xs">
-                      <h4 class="mb-3 text-xl font-bold">{{ medium.channel }}</h4>
-                      {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
-                      {% if medium.cta %}{{ medium.cta.code | safe }}{% endif %}
+                    <div x-ref="mcForm"
+                         class="fixed inset-0 z-30 flex-col items-center justify-center hidden w-full h-full">
+                      {% include "./partials/mc/en.njk" %}
                     </div>
-                  </div>
-                  <div x-ref="mcForm"
-                       class="fixed inset-0 z-30 flex-col items-center justify-center hidden w-full h-full">
-                    {% include "./partials/mc/zh.njk" %}
-                  </div>
-                {% elif locale === 'fr' %}
-                  <div class="relative">
-                    <div class="max-w-xs">
-                      <h4 class="mb-3 text-xl font-bold">{{ medium.channel }}</h4>
-                      {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
-                      {% if medium.cta %}{{ medium.cta.code | safe }}{% endif %}
+                  {% elif locale === 'es' %}
+                    <div class="relative">
+                      <div class="max-w-xs">
+                        <h4 class="mb-3 text-xl font-bold">
+                          {% if medium.channel %}{{ medium.channel }}{% endif %}
+                        </h4>
+                        {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
+                        {% if medium.cta.code %}{{ medium.cta.code | safe }}{% endif %}
+                      </div>
                     </div>
-                  </div>
-                  <div x-ref="mcForm"
-                       class="fixed inset-0 z-30 flex-col items-center justify-center hidden w-full h-full">
-                    {% include "./partials/mc/fr.njk" %}
-                  </div>
-                {% elif locale === 'th' %}
-                  <div class="relative">
-                    <div class="max-w-xs">
-                      <h4 class="mb-3 text-xl font-bold">{{ medium.channel }}</h4>
-                      {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
-                      {% if medium.cta %}{{ medium.cta.code | safe }}{% endif %}
+                    <div x-ref="mcForm"
+                         class="fixed inset-0 z-30 flex-col items-center justify-center hidden w-full h-full">
+                      {% include "./partials/mc/es.njk" %}
                     </div>
-                  </div>
-                  <div x-ref="mcForm"
-                       class="fixed inset-0 z-30 flex-col items-center justify-center hidden w-full h-full">
-                    {% include "./partials/mc/th.njk" %}
-                  </div>
-                {% elif locale === 'id' %}
-                  <div class="relative">
-                    <div class="max-w-xs">
-                      <h4 class="mb-3 text-xl font-bold">{{ medium.channel }}</h4>
-                      {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
-                      {% if medium.cta %}{{ medium.cta.code | safe }}{% endif %}
+                  {% elif locale === 'zh' %}
+                    <div class="relative">
+                      <div class="max-w-xs">
+                        <h4 class="mb-3 text-xl font-bold">
+                          {% if medium.channel %}{{ medium.channel }}{% endif %}
+                        </h4>
+                        {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
+                        {% if medium.cta.code %}{{ medium.cta.code | safe }}{% endif %}
+                      </div>
                     </div>
-                  </div>
-                  <div x-ref="mcForm"
-                       class="fixed inset-0 z-30 flex-col items-center justify-center hidden w-full h-full">
-                    {% include "./partials/mc/id.njk" %}
-                  </div>
-                {% elif locale === 'hi' %}
-                  <div class="relative">
-                    <div class="max-w-xs">
-                      <h4 class="mb-3 text-xl font-bold">{{ medium.channel }}</h4>
-                      {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
-                      {% if medium.cta %}{{ medium.cta.code | safe }}{% endif %}
+                    <div x-ref="mcForm"
+                         class="fixed inset-0 z-30 flex-col items-center justify-center hidden w-full h-full">
+                      {% include "./partials/mc/zh.njk" %}
                     </div>
-                  </div>
-                  <div x-ref="mcForm"
-                       class="fixed inset-0 z-30 flex-col items-center justify-center hidden w-full h-full">
-                    {% include "./partials/mc/hi.njk" %}
-                  </div>
-                {% elif locale === 'it' %}
-                  <div class="relative">
-                    <div class="max-w-xs">
-                      <h4 class="mb-3 text-xl font-bold">{{ medium.channel }}</h4>
-                      {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
-                      {% if medium.cta %}{{ medium.cta.code | safe }}{% endif %}
+                  {% elif locale === 'fr' %}
+                    <div class="relative">
+                      <div class="max-w-xs">
+                        <h4 class="mb-3 text-xl font-bold">
+                          {% if medium.channel %}{{ medium.channel }}{% endif %}
+                        </h4>
+                        {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
+                        {% if medium.cta.code %}{{ medium.cta.code | safe }}{% endif %}
+                      </div>
                     </div>
-                  </div>
-                  <div x-ref="mcForm"
-                       class="fixed inset-0 z-30 flex-col items-center justify-center hidden w-full h-full">
-                    {% include "./partials/mc/it.njk" %}
-                  </div>
-                {% elif locale === 'vi' %}
-                  <div class="relative">
-                    <div class="max-w-xs">
-                      <h4 class="mb-3 text-xl font-bold">{{ medium.channel }}</h4>
-                      {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
-                      {% if medium.cta %}{{ medium.cta.code | safe }}{% endif %}
+                    <div x-ref="mcForm"
+                         class="fixed inset-0 z-30 flex-col items-center justify-center hidden w-full h-full">
+                      {% include "./partials/mc/fr.njk" %}
                     </div>
-                  </div>
-                  <div x-ref="mcForm"
-                       class="fixed inset-0 z-30 flex-col items-center justify-center hidden w-full h-full">
-                    {% include "./partials/mc/vi.njk" %}
-                  </div>
+                  {% elif locale === 'th' %}
+                    <div class="relative">
+                      <div class="max-w-xs">
+                        <h4 class="mb-3 text-xl font-bold">
+                          {% if medium.channel %}{{ medium.channel }}{% endif %}
+                        </h4>
+                        {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
+                        {% if medium.cta.code %}{{ medium.cta.code | safe }}{% endif %}
+                      </div>
+                    </div>
+                    <div x-ref="mcForm"
+                         class="fixed inset-0 z-30 flex-col items-center justify-center hidden w-full h-full">
+                      {% include "./partials/mc/th.njk" %}
+                    </div>
+                  {% elif locale === 'id' %}
+                    <div class="relative">
+                      <div class="max-w-xs">
+                        <h4 class="mb-3 text-xl font-bold">
+                          {% if medium.channel %}{{ medium.channel }}{% endif %}
+                        </h4>
+                        {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
+                        {% if medium.cta.code %}{{ medium.cta.code | safe }}{% endif %}
+                      </div>
+                    </div>
+                    <div x-ref="mcForm"
+                         class="fixed inset-0 z-30 flex-col items-center justify-center hidden w-full h-full">
+                      {% include "./partials/mc/id.njk" %}
+                    </div>
+                  {% elif locale === 'hi' %}
+                    <div class="relative">
+                      <div class="max-w-xs">
+                        <h4 class="mb-3 text-xl font-bold">
+                          {% if medium.channel %}{{ medium.channel }}{% endif %}
+                        </h4>
+                        {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
+                        {% if medium.cta.code %}{{ medium.cta.code | safe }}{% endif %}
+                      </div>
+                    </div>
+                    <div x-ref="mcForm"
+                         class="fixed inset-0 z-30 flex-col items-center justify-center hidden w-full h-full">
+                      {% include "./partials/mc/hi.njk" %}
+                    </div>
+                  {% elif locale === 'it' %}
+                    <div class="relative">
+                      <div class="max-w-xs">
+                        <h4 class="mb-3 text-xl font-bold">
+                          {% if medium.channel %}{{ medium.channel }}{% endif %}
+                        </h4>
+                        {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
+                        {% if medium.cta.code %}{{ medium.cta.code | safe }}{% endif %}
+                      </div>
+                    </div>
+                    <div x-ref="mcForm"
+                         class="fixed inset-0 z-30 flex-col items-center justify-center hidden w-full h-full">
+                      {% include "./partials/mc/it.njk" %}
+                    </div>
+                  {% elif locale === 'vi' %}
+                    <div class="relative">
+                      <div class="max-w-xs">
+                        <h4 class="mb-3 text-xl font-bold">
+                          {% if medium.channel %}{{ medium.channel }}{% endif %}
+                        </h4>
+                        {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
+                        {% if medium.cta.code %}{{ medium.cta.code | safe }}{% endif %}
+                      </div>
+                    </div>
+                    <div x-ref="mcForm"
+                         class="fixed inset-0 z-30 flex-col items-center justify-center hidden w-full h-full">
+                      {% include "./partials/mc/vi.njk" %}
+                    </div>
+                  {% else %}
+                    <div class="max-w-xs">
+                      <h4 class="mb-3 text-xl font-bold">
+                        {% if medium.channel %}{{ medium.channel }}{% endif %}
+                      </h4>
+                      {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
+                      {% if medium.cta.code %}{{ medium.cta.code | safe }}{% endif %}
+                    </div>
+                  {% endif %}
                 {% else %}
                   <div class="max-w-xs">
-                    <h4 class="mb-3 text-xl font-bold">{{ medium.channel }}</h4>
+                    <h4 class="mb-3 text-xl font-bold">
+                      {% if medium.channel %}{{ medium.channel }}{% endif %}
+                    </h4>
                     {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
-                    {% if medium.cta %}{{ medium.cta.code | safe }}{% endif %}
+                    {% if medium.cta.code %}{{ medium.cta.code | safe }}{% endif %}
                   </div>
                 {% endif %}
               {% else %}
-                <div class="max-w-xs">
-                  <h4 class="mb-3 text-xl font-bold">{{ medium.channel }}</h4>
-                  {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
-                  {% if medium.cta %}{{ medium.cta.code | safe }}{% endif %}
-                </div>
-              {% endif %}
-            {% else %}
-              <div class="max-w-xs md:max-w-xl lg:max-w-2xl">
-                <div class="lg:max-w-xl">
-                  <h4 class="mb-3 text-xl font-bold">{{ medium.channel }}</h4>
-                  {{ medium.description | markdown | safe }}
-                </div>
-                {% if (podcastUrls[locale].podcasts | length) !== 0 %}
-                  <div class="mt-4 md:flex md:items-center md:justify-center lg:hidden md:mt-8">
-                    <div class="relative md:max-w-xs">
-                      {% if (podcastUrls[locale].podcasts | length) > 1 %}
-                        <div class="absolute flex items-center justify-between w-full top-1">
-                          <button class="z-10 flex items-center justify-center px-2" id="previous">
-                            {% svgSprite name = "back",
-                            class = "w-8 h-8 rtl:rotate-180" %}
-                          </button>
-                          <button class="z-10 flex items-center justify-center px-2" id="next">
-                            {% svgSprite name = "forward",
-                            class = "w-8 h-8 rtl:rotate-180" %}
-                          </button>
-                        </div>
-                      {% endif %}
-                      <div id="podcast"
-                           class="relative flex flex-col invisible max-w-xs overflow-hidden">
-                        <div class="relative flex items-center overflow-hidden">
-                          {% for podcast in podcastUrls[locale].podcasts %}
-                            <div class="relative float-left w-full overflow-hidden">
-                              <div class="space-y-4">
-                                <p class="font-bold text-center">{{ podcast.edition }}</p>
-                                {% for feed in podcast.feeds %}
-                                  <a href="{{ feed.url }}"
-                                     class="podcast-link"
-                                     style="text-decoration:none">
-                                    {% if feed.icon === 'spotify_podcasts' %}
-                                      {% svgSprite name = "spotify_podcasts",
-                                      class = "w-8 h-8" %}
-                                    {% elif feed.icon === 'apple_podcasts' %}
-                                      {% svgSprite name = "apple_podcasts",
-                                      class = "w-8 h-8" %}
-                                    {% elif feed.icon === 'google_podcasts' %}
-                                      {% svgSprite name = "google_podcasts",
-                                      class = "w-8 h-8" %}
-                                    {% endif %}
-                                    <span>{{ feed.name }}</span>
-                                  </a>
-                                {% endfor %}
-                              </div>
+                <div class="max-w-xs md:max-w-xl lg:max-w-2xl">
+                  <div class="lg:max-w-xl">
+                    <h4 class="mb-3 text-xl font-bold">
+                      {% if medium.channel %}{{ medium.channel }}{% endif %}
+                    </h4>
+                    {% if medium.description %}{{ medium.description | markdown | safe }}{% endif %}
+                  </div>
+                  {% if (podcastUrls[locale].podcasts | length) !== 0 %}
+                    <div class="mt-4 md:flex md:items-center md:justify-center lg:hidden md:mt-8">
+                      <div class="relative md:max-w-xs">
+                        {% if podcastUrls[locale].podcasts %}
+                          {% if (podcastUrls[locale].podcasts | length) > 1 %}
+                            <div class="absolute flex items-center justify-between w-full top-1">
+                              <button class="z-10 flex items-center justify-center px-2" id="previous">
+                                {% svgSprite name = "back",
+                                class = "w-8 h-8 rtl:rotate-180" %}
+                              </button>
+                              <button class="z-10 flex items-center justify-center px-2" id="next">
+                                {% svgSprite name = "forward",
+                                class = "w-8 h-8 rtl:rotate-180" %}
+                              </button>
                             </div>
-                          {% endfor %}
+                          {% endif %}
+                        {% endif %}
+                        <div id="podcast"
+                             class="relative flex flex-col invisible max-w-xs overflow-hidden">
+                          <div class="relative flex items-center overflow-hidden">
+                            {% if podcastUrls[locale].podcasts %}
+                              {% for podcast in podcastUrls[locale].podcasts %}
+                                <div class="relative float-left w-full overflow-hidden">
+                                  <div class="space-y-4">
+                                    {% if podcast.edition %}<p class="font-bold text-center">{{ podcast.edition }}</p>{% endif %}
+                                    {% if podcast.feeds %}
+                                      {% for feed in podcast.feeds %}
+                                        <a href="{{ feed.url }}"
+                                           class="podcast-link"
+                                           style="text-decoration:none">
+                                          {% if feed.icon === 'spotify_podcasts' %}
+                                            {% svgSprite name = "spotify_podcasts",
+                                            class = "w-8 h-8" %}
+                                          {% elif feed.icon === 'apple_podcasts' %}
+                                            {% svgSprite name = "apple_podcasts",
+                                            class = "w-8 h-8" %}
+                                          {% elif feed.icon === 'google_podcasts' %}
+                                            {% svgSprite name = "google_podcasts",
+                                            class = "w-8 h-8" %}
+                                          {% endif %}
+                                          <span>{{ feed.name }}</span>
+                                        </a>
+                                      {% endfor %}
+                                    {% endif %}
+                                  </div>
+                                </div>
+                              {% endfor %}
+                            {% endif %}
+                          </div>
                         </div>
+                        {% if (podcastUrls[locale].podcasts | length) > 1 %}
+                          <div class="flex items-center justify-center mt-4 space-x-1 rtl:space-x-reverse">
+                            {% if podcastUrls[locale].podcasts %}
+                              {% for podcast in podcastUrls[locale].podcasts %}
+                                <button data-index="{{ loop.index0 }}" class="podcast-pagination"></button>
+                              {% endfor %}
+                            {% endif %}
+                          </div>
+                        {% endif %}
                       </div>
-                      {% if (podcastUrls[locale].podcasts | length) > 1 %}
-                        <div class="flex items-center justify-center mt-4 space-x-1 rtl:space-x-reverse">
-                          {% for podcast in podcastUrls[locale].podcasts %}
-                            <button data-index="{{ loop.index0 }}" class="podcast-pagination"></button>
-                          {% endfor %}
-                        </div>
+                    </div>
+                    <div class="hidden lg:flex  rtl:space-x-reverse lg:mt-8 {% if devotion %} lg:space-x-6 {% else %} lg:space-x-11 {% endif %}">
+                      {% if podcastUrls[locale].podcasts %}
+                        {% for podcast in podcastUrls[locale].podcasts %}
+                          <div class="space-y-4">
+                            {% if podcast.edition %}<p class="font-bold">{{ podcast.edition }}</p>{% endif %}
+                            {% if podcast.feeds %}
+                              {% for feed in podcast.feeds %}
+                                <a href="{{ feed.url }}"
+                                   class="podcast-link"
+                                   style="text-decoration:none">
+                                  {% if feed.icon === 'spotify_podcasts' %}
+                                    {% svgSprite name = "spotify_podcasts",
+                                    class = "w-8 h-8" %}
+                                  {% elif feed.icon === 'apple_podcasts' %}
+                                    {% svgSprite name = "apple_podcasts",
+                                    class = "w-8 h-8" %}
+                                  {% elif feed.icon === 'google_podcasts' %}
+                                    {% svgSprite name = "google_podcasts",
+                                    class = "w-8 h-8" %}
+                                  {% endif %}
+                                  <span>{{ feed.name }}</span>
+                                </a>
+                              {% endfor %}
+                            {% endif %}
+                          </div>
+                        {% endfor %}
                       {% endif %}
                     </div>
-                  </div>
-                  <div class="hidden lg:flex  rtl:space-x-reverse lg:mt-8 {% if devotion %} lg:space-x-6 {% else %} lg:space-x-11 {% endif %}">
-                    {% for podcast in podcastUrls[locale].podcasts %}
-                      <div class="space-y-4">
-                        <p class="font-bold">{{ podcast.edition }}</p>
-                        {% for feed in podcast.feeds %}
-                          <a href="{{ feed.url }}"
-                             class="podcast-link"
-                             style="text-decoration:none">
-                            {% if feed.icon === 'spotify_podcasts' %}
-                              {% svgSprite name = "spotify_podcasts",
-                              class = "w-8 h-8" %}
-                            {% elif feed.icon === 'apple_podcasts' %}
-                              {% svgSprite name = "apple_podcasts",
-                              class = "w-8 h-8" %}
-                            {% elif feed.icon === 'google_podcasts' %}
-                              {% svgSprite name = "google_podcasts",
-                              class = "w-8 h-8" %}
-                            {% endif %}
-                            <span>{{ feed.name }}</span>
-                          </a>
-                        {% endfor %}
-                      </div>
-                    {% endfor %}
-                  </div>
-                {% endif %}
-              </div>
-            {% endif %}
+                  {% endif %}
+                </div>
+              {% endif %}
+            </div>
           </div>
-        </div>
-      {% endfor %}
+        {% endfor %}
+      {% endif %}
     </div>
     <div class="absolute top-0 flex flex-col hidden w-24 h-full fill-current text-red"
          x-ref="mediaNav">
-      {% for medium in channels[locale].distribution %}
-        {% if medium | length %}
-          <button class=" flex-1 flex flex-col items-center justify-center bg-opacity-90 lg:rtl:rounded-tr-lg lg:rtl:rounded-tl-none {{ 'lg:rounded-tl-lg' if loop.first }} {{ 'lg:rounded-bl-lg' if loop.last }} "
-                  :class="mediaClass({{ loop.index0 }})"
-                  @click="mediaFocus = {{ loop.index0 }}"
-                  style="min-height: 6rem">
-            {% if medium.icon === 'medium_app' %}
-              {% svgSprite name="medium_app", class="w-10 h-10 mb-1 fill-current" %}
-            {% elif medium.icon === 'medium_email' %}
-              {% svgSprite name="medium_email", class="w-10 h-10 mb-1 fill-current" %}
-            {% elif medium.icon === 'medium_podcast' %}
-              {% svgSprite name="medium_podcast", class="w-10 h-10 mb-1 fill-current" %}
-            {% elif medium.icon === 'medium_website' %}
-              {% svgSprite name="medium_website", class="w-10 h-10 mb-1 fill-current" %}
-            {% else %}
-              {% svgSprite name="medium_book", class="w-10 h-10 mb-1 fill-current" %}
-            {% endif %}
-            <div>{{ medium.channel }}</div>
-          </button>
-        {% endif %}
-      {% endfor %}
+      {% if channels[locale].distribution %}
+        {% for medium in channels[locale].distribution %}
+          {% if medium | length %}
+            <button class=" flex-1 flex flex-col items-center justify-center bg-opacity-90 lg:rtl:rounded-tr-lg lg:rtl:rounded-tl-none {{ 'lg:rounded-tl-lg' if loop.first }} {{ 'lg:rounded-bl-lg' if loop.last }} "
+                    :class="mediaClass({{ loop.index0 }})"
+                    @click="mediaFocus = {{ loop.index0 }}"
+                    style="min-height: 6rem">
+              {% if medium.icon === 'medium_app' %}
+                {% svgSprite name="medium_app", class="w-10 h-10 mb-1 fill-current" %}
+              {% elif medium.icon === 'medium_email' %}
+                {% svgSprite name="medium_email", class="w-10 h-10 mb-1 fill-current" %}
+              {% elif medium.icon === 'medium_podcast' %}
+                {% svgSprite name="medium_podcast", class="w-10 h-10 mb-1 fill-current" %}
+              {% elif medium.icon === 'medium_website' %}
+                {% svgSprite name="medium_website", class="w-10 h-10 mb-1 fill-current" %}
+              {% else %}
+                {% svgSprite name="medium_book", class="w-10 h-10 mb-1 fill-current" %}
+              {% endif %}
+              <div>{{ medium.channel }}</div>
+            </button>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     </div>
   </div>
 </section>

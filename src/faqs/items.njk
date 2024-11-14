@@ -12,19 +12,23 @@ eleventyComputed:
   disableMetaTranslations: true
 ---
 
-<section class="px-4 lg:container mx-auto">
-  <a href="/{{ locale }}/faqs" class="flex items-center mb-2 text-red hover:text-red-dark md:mb-4">
-    {% svgSprite name="arrow-left", class="h-6 w-6 hover:fill-current" %}
-    <span class="pl-1">{{ lang.backButton }}</span>
+<section class="px-4 mx-auto lg:container">
+  <a href="/{{ locale }}/faqs"
+     class="flex items-center mb-2 text-red hover:text-red-dark md:mb-4">
+    {% svgSprite name="arrow-left", class="w-6 h-6 hover:fill-current" %}
+    <span class="pl-1">
+      {% if lang.backButton %}{{ lang.backButton }}{% endif %}
+    </span>
   </a>
-
   <div class="max-w-3xl">
-    <h1 class="title mb-2">{{ title | safe }}</h1>
+    <h1 class="mb-2 title">
+      {% if title %}{{ title | safe }}{% endif %}
+    </h1>
     <div class="alt-prose">
       {% if item.detailedAnswer %}
         {{ item.detailedAnswer | markdown | safe }}
       {% else %}
-        {{ description }}
+        {% if description %}{{ description }}{% endif %}
       {% endif %}
     </div>
   </div>

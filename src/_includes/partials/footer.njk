@@ -6,15 +6,17 @@ pagination:
 ---
 
 <footer>
-  <p class="p-4 mt-12 text-lg font-medium text-center md:text-xl md:text-auto lg:container lg:mx-auto">
-    {{ site.title }}
-  </p>
+  {% if site.title %}
+    <p class="p-4 mt-12 text-lg font-medium text-center md:text-xl md:text-auto lg:container lg:mx-auto">
+      {{ site.title }}
+    </p>
+  {% endif %}
   <div class="mb-16 text-center bg-stone md:text-auto md:mb-0">
     <div class="grid gap-4 p-4 mx-auto lg:container md:grid-cols-2">
       <div>
         {% if footer[locale].headline %}{{ footer[locale].headline }}{% endif %}
         <div class="mt-4 mb-4">
-          {% if footer[locale].cata %}{{ footer[locale].cta }}{% endif %}
+          {% if footer[locale].cta %}{{ footer[locale].cta }}{% endif %}
           <div class="grid max-w-sm grid-cols-2 gap-4 mx-auto md:flex md:mx-0">
             <a href="{{ globals.stores.ios }}"
                class="block"
@@ -75,7 +77,7 @@ pagination:
         {% if footer[locale].nav %}
           {% for link in footer[locale].nav %}
             <li class="inline-block">
-              <a href="{{ link.href }}"
+              <a {% if link.href %}href="{{ link.href }}"{% endif %}
                  class="inline-block p-2 underline md:p-0 text-red hover:text-red-darker hover:no-underline"
                  {% if link.external %}target="_blank" rel="noopener"{% endif %}>{{ link.label }}</a>
             </li>

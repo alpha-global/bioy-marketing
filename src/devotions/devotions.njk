@@ -17,33 +17,51 @@ eleventyComputed:
 <article class="mx-auto break-words max-w-prose font-commentary">
     <div class="mx-10 prose lg:prose-xl ">
         <div class="mt-24">
-            <span class="text-xl text-red">{{ lang.day }}
-            {{ devotion.number }}</span>
+            <span class="text-xl text-red">
+                {% if lang.day %}{{ lang.day }}{% endif %}
+                {% if devotion.number %}{{ devotion.number }}{% endif %}
+            </span>
         </div>
         <div class="mt-2">
-            <h1 class="text-xl">{{ devotion.bundle.title }}</h1>
+            <h1 class="text-xl">
+                {% if devotion.bundle.title %}{{ devotion.bundle.title }}{% endif %}
+            </h1>
         </div>
         <div class="mt-32">
-            <h2>{{ todaysReading }}</h2>
+            {% if todaysReading %}<h2>{{ todaysReading }}</h2>{% endif %}
             <div class="flex flex-col">
-                <span class="h-6 text-red">{{ lang.wisdom }}</span>
-                <span>{{ devotion.bundle.wisdom.passage.reference }}</span>
+                <span class="h-6 text-red">
+                    {% if lang.wisdom %}{{ lang.wisdom }}{% endif %}
+                </span>
+                <span>
+                    {% if devotion.bundle.wisdom.passage.reference %}{{ devotion.bundle.wisdom.passage.reference }}{% endif %}
+                </span>
             </div>
             <div class="flex flex-col mt-2">
-                <span class="h-6 text-red">{{ lang.newTestament }}</span>
-                <span>{{ devotion.bundle.newTestament.passage.reference }}</span>
+                <span class="h-6 text-red">
+                    {% if lang.newTestament %}{{ lang.newTestament }}{% endif %}
+                </span>
+                <span>
+                    {% if devotion.bundle.newTestament.passage.reference %}{{ devotion.bundle.newTestament.passage.reference }}{% endif %}
+                </span>
             </div>
             <div class="flex flex-col mt-2">
-                <span class="h-6 text-red">{{ lang.oldTestament }}</span>
-                <span>{{ devotion.bundle.oldTestament.passage.reference }}</span>
+                <span class="h-6 text-red">
+                    {% if lang.oldTestament %}{{ lang.oldTestament }}{% endif %}
+                </span>
+                <span>
+                    {% if devotion.bundle.oldTestament.passage.reference %}{{ devotion.bundle.oldTestament.passage.reference }}{% endif %}
+                </span>
             </div>
         </div>
     </div>
     <div class="mx-10 mb-8 prose lg:prose-xl">
         <div class="mt-16">
-            <h2>{{ lang.introduction }}</h2>
+            <h2>
+                {% if lang.introduction %}{{ lang.introduction }}{% endif %}
+            </h2>
         </div>
-        {{ devotion.bundle.introduction | markdown | safe }}
+        {% if devotion.bundle.introduction %}{{ devotion.bundle.introduction | markdown | safe }}{% endif %}
     </div>
     {% devotionSection
     title = lang.wisdom,
@@ -70,15 +88,21 @@ eleventyComputed:
     prayer = devotion.bundle.oldTestament.prayer
     %}
     <section class="p-4 mx-10 mb-4 prose lg:prose-xl bg-stone">
-        <h2>{{ lang.pippaAdds }}</h2>
-        {{ devotion.bundle.pippa | markdown | safe }}
+        <h2>
+            {% if lang.pippaAdds %}{{ lang.pippaAdds }}{% endif %}
+        </h2>
+        {% if devotion.bundle.pippa %}{{ devotion.bundle.pippa | markdown | safe }}{% endif %}
     </section>
     <div class="grid gap-4 mx-10 mb-4">
-        {% if devotion.bundle.verseOfTheDay?.verse %}
+        {% if devotion.bundle.verseOfTheDay.verse %}
             <section class="p-4 prose lg:prose-xl bg-stone">
-                <h2 class="mt-0">{{ lang.verseOfTheDay }}</h2>
-                <h3>{{ devotion.bundle.verseOfTheDay.reference }}</h3>
-                {{ devotion.bundle.verseOfTheDay.verse | markdown | safe }}
+                <h2 class="mt-0">
+                    {% if lang.verseOfTheDay %}{{ lang.verseOfTheDay }}{% endif %}
+                </h2>
+                <h3>
+                    {% if devotion.bundle.verseOfTheDay.reference %}{{ devotion.bundle.verseOfTheDay.reference }}{% endif %}
+                </h3>
+                {% if devotion.bundle.verseOfTheDay.verse %}{{ devotion.bundle.verseOfTheDay.verse | markdown | safe }}{% endif %}
             </section>
         {% endif %}
         {% if devotion.bundle.thoughtForTheDay %}
@@ -96,8 +120,12 @@ eleventyComputed:
     </div>
     {% include "../_blocks/channels.njk" %}
     <section class="py-4 mx-10 prose lg:prose-xl">
-        <h2>{{ lang.references }}</h2>
-        <div class="prose-sm">{{ devotion.bundle.references | markdown | safe }}</div>
+        <h2>
+            {% if lang.references %}{{ lang.references }}{% endif %}
+        </h2>
+        <div class="prose-sm">
+            {% if devotion.bundle.references %}{{ devotion.bundle.references | markdown | safe }}{% endif %}
+        </div>
     </section>
 </article>
 <div>

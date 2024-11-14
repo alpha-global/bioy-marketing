@@ -4,27 +4,34 @@
         {% set chapters = (chapters.push(chapter), chapters) %}
     {% endif %}
 {% endfor %}
-
-<section x-cloak x-data="audioPlayer" x-init="getChapters({{ chapters | dump }})" >
+<section x-cloak
+         x-data="audioPlayer"
+         x-init="getChapters({{ chapters | dump }})">
     {# Circlular Progress Bar: https://css-tricks.com/building-progress-ring-quickly/ #}
-    <button x-cloak x-show="!isPlaying" class="absolute ltr:right-1 rtl:left-0 bottom-4 inline-flex items-center justify-center overflow-hidden rounded-full hover:bg-red/10 active:bg-red/20 focus:outline-none focus-visible:ring focus:ring-red/10 transition duration-100 ease-out hover:ease-in active:ease-in bg-white shadow-md" @click="showAudioPlayer()">
-        <svg class="h-20 w-20 -rotate-90 rounded-full">
-            <circle class="text-red" stroke-width="3" :stroke-dasharray="circumference" :stroke-dashoffset="circumference - progress / 100 * circumference" stroke-linecap="round" stroke="currentColor" fill="transparent" r="30" cx="40" cy="40"/>
+    <button x-cloak
+            x-show="!isPlaying"
+            class="absolute inline-flex items-center justify-center overflow-hidden transition duration-100 ease-out bg-white rounded-full shadow-md ltr:right-1 rtl:left-0 bottom-4 hover:bg-red/10 active:bg-red/20 focus:outline-none focus-visible:ring focus:ring-red/10 hover:ease-in active:ease-in"
+            @click="showAudioPlayer()">
+        <svg class="w-20 h-20 -rotate-90 rounded-full">
+            <circle class="text-red" stroke-width="3" :stroke-dasharray="circumference" :stroke-dashoffset="circumference - progress / 100 * circumference" stroke-linecap="round" stroke="currentColor" fill="transparent" r="30" cx="40" cy="40" />
         </svg>
         {% svgSprite name = "play",
         class = "absolute audio__icons" %}
     </button>
-
-    <div x-cloak x-show="isPlaying" class="bg-[#F5F5F5] pt-[34px] pb-4 rounded-2xl" 
-        x-transition:enter="transition ease-out duration-300 origin-top-right"
-        x-transition:enter-start="opacity-0 scale-90"
-        x-transition:enter-end="opacity-100 scale-100"
-        x-transition:leave="transition ease-out duration-300"
-        x-transition:leave-start="opacity-100 scale-100"
-        x-transition:leave-end="opacity-0 scale-90">
+    <div x-cloak
+         x-show="isPlaying"
+         class="bg-[#F5F5F5] pt-[34px] pb-4 rounded-2xl"
+         x-transition:enter="transition ease-out duration-300 origin-top-right"
+         x-transition:enter-start="opacity-0 scale-90"
+         x-transition:enter-end="opacity-100 scale-100"
+         x-transition:leave="transition ease-out duration-300"
+         x-transition:leave-start="opacity-100 scale-100"
+         x-transition:leave-end="opacity-0 scale-90">
         <div class="px-[16px] md:px-[26px]">
-            <div class="grid grid-cols-6 grid-rows-1 text-xs sm:text-sm md:text-base font-medium">
-                <select x-model="playrate" x-effect="changePlayrate()" class="max-w-fit appearance-none focus:outline-none bg-transparent">
+            <div class="grid grid-cols-6 grid-rows-1 text-xs font-medium sm:text-sm md:text-base">
+                <select x-model="playrate"
+                        x-effect="changePlayrate()"
+                        class="bg-transparent appearance-none max-w-fit focus:outline-none">
                     <option value="0.8">0.8x</option>
                     <option value="1">1x</option>
                     <option value="1.2">1.2x</option>
@@ -32,39 +39,55 @@
                     <option value="1.8">1.8x</option>
                     <option value="2">2x</option>
                 </select>
-                <div class="col-start-2 col-end-6 min-w-fit flex items-center justify-center text-xs sm:text-sm md:text-base">
-                    <p x-show="showBioyTitle" class="uppercase">{{ site.title }}</p>
+                <div class="flex items-center justify-center col-start-2 col-end-6 text-xs min-w-fit sm:text-sm md:text-base">
+                    <p x-show="showBioyTitle" class="uppercase">
+                        {% if site.title %}{{ site.title }}{% endif %}
+                    </p>
                     <ul>
                         {% if chapters.length < 2 %}
-                            <li class="uppercase">{{ site.title }}</li>
+                            <li class="uppercase">
+                                {% if site.title %}{{ site.title }}{% endif %}
+                            </li>
                         {% else %}
-                            {% for chapter in chapters %}
-                                <li x-show="showChapterTitle({{ chapter.start }}, {{ audio_chapters[loop.index].start }})">
-                                    {{ chapter.title }}
-                                </li>
-                            {% endfor %}
+                            {% if chapters %}
+                                {% for chapter in chapters %}
+                                    <li x-show="showChapterTitle({{ chapter.start }}, {{ audio_chapters[loop.index].start }})">
+                                        {% if chapter.title %}{{ chapter.title }}{% endif %}
+                                    </li>
+                                {% endfor %}
+                            {% endif %}
                         {% endif %}
                     </ul>
                 </div>
             </div>
-            <input  x-ref="input" class="w-full mt-[23px]" type="range" min="0" max="100" x-model="range" :value="progress">
+            <input x-ref="input"
+                   class="w-full mt-[23px]"
+                   type="range"
+                   min="0"
+                   max="100"
+                   x-model="range"
+                   :value="progress" />
             <div class="flex justify-between items-center font-normal mt-[8px] text-xs sm:text-sm md:text-base">
                 <span x-text="progressTime"></span>
                 <span x-text="totalTime"></span>
             </div>
             <div class="mt-[20px]">
                 <audio x-ref="audio" preload="metadata">
-                    <source src="{{ audio.url }}" type="audio/mpeg">
-                    <p>Your browser doesn't support HTML5 audio. Here is a <a href="{{ audio.url }}">link to the audio</a> instead.</p>
+                    <source {% if audio.url %}src="{{ audio.url }}"{% endif %} type="audio/mpeg" />
+                    <p>
+                        Your browser doesn't support HTML5 audio. Here is a <a {% if audio.url %} href="{{ audio.url }}" {% if audio.url %}>link to the audio</a> instead.
+                    </p>
                 </audio>
-                <div class="flex justify-between md:max-w-md mx-auto">
+                <div class="flex justify-between mx-auto md:max-w-md">
                     <button class="audio__controls" @click="previousTrack()" {{ "disabled" if (chapters.length < 2) }}>
                         {% svgSprite name="skip-back", class="audio__icons" %}
                     </button>
-                    <button x-ref="seekBackward" class="audio__controls"  @click="seekBackward()" >
+                    <button x-ref="seekBackward" class="audio__controls"  @click="seekBackward()">
                         {% svgSprite name="speed-back", class="audio__icons" %}
                     </button>
-                    <button class="audio__controls" @click="player()" :class="isPlaying ? 'bg-red/10': '' ">
+                    <button class="audio__controls"
+                            @click="player()"
+                            :class="isPlaying ? 'bg-red/10': '' ">
                         <template x-if="!isPlaying">
                             {% svgSprite name = "play",
                             class = "audio__icons" %}
@@ -74,7 +97,7 @@
                             class = "audio__icons" %}
                         </template>
                     </button>
-                    <button x-ref="seekForward" class="audio__controls"  @click="seekForward()" >
+                    <button x-ref="seekForward" class="audio__controls"  @click="seekForward()">
                         {% svgSprite name="speed-forwards", class="audio__icons" %}
                     </button>
                     <button class="audio__controls" @click="nextTrack()" {{ "disabled" if (chapters.length < 2) }}>
