@@ -46,6 +46,11 @@
         "href": "/de/cookies/",
         "label": "Cookies",
         "external": false
+      },
+      {
+        "href": "/de/promote/",
+        "label": "Promote",
+        "external": false
       }
     ],
     "copyright": {
@@ -104,6 +109,11 @@
         "href": "/en/cookies/",
         "label": "Cookies",
         "external": false
+      },
+      {
+        "href": "/hi/promote/",
+        "label": "Promote",
+        "external": false
       }
     ]
   },
@@ -153,6 +163,11 @@
       {
         "href": "/en/faqs/ticket/",
         "label": "Contact",
+        "external": false
+      },
+      {
+        "href": "/en/promote/",
+        "label": "Promote",
         "external": false
       }
     ],
@@ -208,6 +223,11 @@
       {
         "href": "/it/cookies/",
         "label": "Cookie",
+        "external": false
+      },
+      {
+        "href": "/it/promote/",
+        "label": "Promote",
         "external": false
       }
     ],
@@ -273,6 +293,11 @@
       {
         "label": "Contact",
         "href": "https://bibleinoneyear.org/fr/faqs/ticket/"
+      },
+      {
+        "href": "/fr/promote/",
+        "label": "Promote",
+        "external": false
       }
     ],
     "copyright": {
@@ -331,6 +356,11 @@
         "href": "/en/cookies/",
         "label": "Cookies",
         "external": false
+      },
+      {
+        "href": "/es/promote/",
+        "label": "Promote",
+        "external": false
       }
     ]
   },
@@ -385,6 +415,11 @@
         "href": "/en/cookies/",
         "label": "Cookies",
         "external": false
+      },
+      {
+        "href": "/zh/promote/",
+        "label": "Promote",
+        "external": false
       }
     ]
   },
@@ -434,6 +469,11 @@
       {
         "label": "Contact",
         "href": "/ar/faqs/ticket/"
+      },
+      {
+        "href": "/ar/promote/",
+        "label": "Promote",
+        "external": false
       }
     ],
     "social": {
@@ -489,6 +529,11 @@
         "href": "/vi/cookies/",
         "label": "Cookies",
         "external": false
+      },
+      {
+        "href": "/vi/promote/",
+        "label": "Promote",
+        "external": false
       }
     ],
     "social": {
@@ -530,6 +575,11 @@
       },
       {
         "label": "Cookies"
+      },
+      {
+        "href": "/th/promote/",
+        "label": "Promote",
+        "external": false
       }
     ],
     "copyright": {
@@ -587,6 +637,11 @@
       {
         "href": "/en/cookies/",
         "label": "Cookies",
+        "external": false
+      },
+      {
+        "href": "/id/promote/",
+        "label": "Promote",
         "external": false
       }
     ]

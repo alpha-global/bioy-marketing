@@ -1,7 +1,7 @@
 {
   "ar": {
     "promote": {
-      "ctaText": "اقرأ الكتاب المقدس اون لاين",
+      "ctaText": "اقرأ خطة الكتاب المقدس اليوم",
       "howToShare": "كيفية المشاركة",
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
@@ -30,7 +30,7 @@
   },
   "de": {
     "promote": {
-      "ctaText": "Lesen Sie die Bibel online",
+      "ctaText": "Lesen Sie den heutigen Bibelplan",
       "howToShare": "So teilen Sie",
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
@@ -59,7 +59,7 @@
   },
   "en": {
     "promote": {
-      "ctaText": "Read the Bible online",
+      "ctaText": "Read today’s Bible plan",
       "howToShare": "How to share",
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
@@ -88,7 +88,7 @@
   },
   "es": {
     "promote": {
-      "ctaText": "Leer la Biblia en línea",
+      "ctaText": "Lea el plan bíblico de hoy",
       "howToShare": "Cómo compartir",
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
@@ -117,17 +117,17 @@
   },
   "fr": {
     "promote": {
-      "ctaText": "Read the Bible online",
-      "howToShare": "How to share",
+      "ctaText": "Lisez le plan biblique d’aujourd’hui",
+      "howToShare": "Comment partager",
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
-      "subTitle": "Spread the word about The Bible with Nicky and Pippa Gumbel.",
-      "title": "Download The Bible with Nicky and Pippa Gumbel app today."
+      "subTitle": "Faites connaître la Bible avec Nicky et Pippa Gumbel.",
+      "title": "DTéléchargez l'application La Bible avec Nicky et Pippa Gumbel dès aujourd'hui."
     },
     "share": {
       "cta": {
         "link": "https://we.tl/t-FNw2hwio5o",
-        "text": "Download Promotional Pack"
+        "text": "Télécharger le pack promotionnel"
       },
       "images": [
         {
@@ -140,23 +140,23 @@
           "image": "/assets/img/share3.jpeg"
         }
       ],
-      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
-      "title": "Share with your church, friends or anyone you know."
+      "subTitle": "Ce pack promotionnel comprend des images et des vidéos à partager sur les réseaux sociaux ou à l'église, à Alpha, lors d'événements chrétiens et ailleurs.",
+      "title": "Partagez avec votre église, vos amis ou toute personne que vous connaissez."
     }
   },
   "hi": {
     "promote": {
-      "ctaText": "Read the Bible online",
-      "howToShare": "How to share",
+      "ctaText": "आज की बाइबल योजना पढ़ें",
+      "howToShare": "कैसे साझा करें",
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
-      "subTitle": "Spread the word about The Bible with Nicky and Pippa Gumbel.",
-      "title": "Download The Bible with Nicky and Pippa Gumbel app today."
+      "subTitle": "निकी और पिप्पा गम्बेल के साथ बाइबल के बारे में संदेश फैलाएं।",
+      "title": "आज ही द बाइबल विद निकी एंड पिप्पा गम्बेल ऐप डाउनलोड करें।"
     },
     "share": {
       "cta": {
         "link": "https://we.tl/t-FNw2hwio5o",
-        "text": "Download Promotional Pack"
+        "text": "प्रमोशनल पैक डाउनलोड करें"
       },
       "images": [
         {
@@ -169,23 +169,23 @@
           "image": "/assets/img/share3.jpeg"
         }
       ],
-      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
-      "title": "Share with your church, friends or anyone you know."
+      "subTitle": "इस प्रमोशनल पैक में आपके लिए सोशल मीडिया या चर्च, अल्फा, ईसाई आयोजनों और अन्य जगहों पर साझा करने के लिए चित्र और वीडियो शामिल हैं।",
+      "title": "अपने चर्च, दोस्तों या किसी भी परिचित के साथ साझा करें।"
     }
   },
   "id": {
     "promote": {
-      "ctaText": "Read the Bible online",
+      "ctaText": "Baca rencana Alkitab hari ini",
       "howToShare": "How to share",
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
-      "subTitle": "Spread the word about The Bible with Nicky and Pippa Gumbel.",
-      "title": "Download The Bible with Nicky and Pippa Gumbel app today."
+      "subTitle": "Sebarkan berita tentang Alkitab bersama Nicky dan Pippa Gumbel..",
+      "title": "Unduh aplikasi Alkitab bersama Nicky dan Pippa Gumbel hari ini."
     },
     "share": {
       "cta": {
         "link": "https://we.tl/t-FNw2hwio5o",
-        "text": "Download Promotional Pack"
+        "text": "Unduh Paket Promosi"
       },
       "images": [
         {
@@ -198,23 +198,23 @@
           "image": "/assets/img/share3.jpeg"
         }
       ],
-      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
-      "title": "Share with your church, friends or anyone you know."
+      "subTitle": "Paket promosi ini menyertakan gambar dan video untuk Anda bagikan di media sosial atau di gereja, Alpha, acara-acara Kristen, dan di tempat lain.",
+      "title": "Bagikan dengan gereja Anda, teman atau siapa pun yang Anda kenal."
     }
   },
   "it": {
     "promote": {
-      "ctaText": "Read the Bible online",
-      "howToShare": "How to share",
+      "ctaText": "Leggi il piano biblico di oggi",
+      "howToShare": "Come condividere",
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
-      "subTitle": "Spread the word about The Bible with Nicky and Pippa Gumbel.",
-      "title": "Download The Bible with Nicky and Pippa Gumbel app today."
+      "subTitle": "Diffondi la conoscenza della Bibbia con Nicky e Pippa Gumbel.",
+      "title": "Scarica subito l'app La Bibbia con Nicky e Pippa Gumbel."
     },
     "share": {
       "cta": {
         "link": "https://we.tl/t-FNw2hwio5o",
-        "text": "Download Promotional Pack"
+        "text": "Scarica il pacchetto promozionale"
       },
       "images": [
         {
@@ -227,13 +227,13 @@
           "image": "/assets/img/share3.jpeg"
         }
       ],
-      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
-      "title": "Share with your church, friends or anyone you know."
+      "subTitle": "Questo pacchetto promozionale include immagini e video da condividere sui social media o in chiesa, all'Alpha, durante eventi cristiani e altrove.",
+      "title": "Condividilo con la tua chiesa, con i tuoi amici o con chiunque tu conosca."
     }
   },
   "th": {
     "promote": {
-      "ctaText": "Read the Bible online",
+      "ctaText": "Read today’s Bible plan",
       "howToShare": "How to share",
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
@@ -262,7 +262,7 @@
   },
   "vi": {
     "promote": {
-      "ctaText": "Read the Bible online",
+      "ctaText": "Read today’s Bible plan",
       "howToShare": "How to share",
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
@@ -291,7 +291,7 @@
   },
   "zh": {
     "promote": {
-      "ctaText": "Read the Bible online",
+      "ctaText": "Read today’s Bible plan",
       "howToShare": "How to share",
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
