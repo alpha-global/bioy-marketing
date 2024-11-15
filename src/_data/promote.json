@@ -146,18 +146,18 @@
   },
   "es": {
     "promote": {
-      "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
-      "subTitle": "Spread the word about The Bible with Nicky and Pippa Gumbel.",
+      "title": "Descargue la aplicación La Biblia con Nicky y Pippa Gumbel hoy.",
+      "subTitle": "Corre la voz sobre La Biblia con Nicky y Pippa Gumbel.",
       "qrImage": "/assets/img/qr-code.png",
       "image": "/assets/img/promote.jpeg",
-      "howToShare": "How to share",
-      "ctaText": "Read the Bible online"
+      "howToShare": "Como compartir",
+      "ctaText": "Leer la Biblia en línea"
     },
     "share": {
-      "title": "Share with your church, friends or anyone you know.",
-      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
+      "title": "Comparte con tu iglesia, amigos o cualquier persona que conozcas.",
+      "subTitle": "Este paquete promocional incluye imágenes y videos para compartir en las redes sociales o en la iglesia, Alpha, eventos cristianos y otros lugares.",
       "cta": {
-        "text": "Download Promotional Pack",
+        "text": "Descargar Paquete Promocional",
         "link": "https://we.tl/t-FNw2hwio5o"
       },
       "images": [
