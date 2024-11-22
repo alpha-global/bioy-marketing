@@ -1,4 +1,52 @@
 {
+  "de": {
+    "collection": [
+      {
+        "quote": "Ich bin seit kurzem Christ und lese zum ersten Mal Bibel in einem Jahr... Ich freue mich jeden Tag darauf, sie zu hören/lesen.",
+        "source": "iOS App Store Review"
+      },
+      {
+        "quote": "Meine liebste Art, den Tag zu beginnen.",
+        "source": "Bear Grylls, Abenteurer"
+      },
+      {
+        "quote": "Jeden Morgen macht mein Herz einen Sprung, wenn ich \"Bibel in einem Jahr\" von Nicky Gumbel in meinem Posteingang liegen sehe.",
+        "source": "Darlene Zschech, Lobpreisleiterin"
+      },
+      {
+        "quote": "Ich habe seit vielen Jahren nach einer solchen App gesucht...",
+        "source": "iOS App Store Review"
+      },
+      {
+        "quote": "Fantastisches Angebot. Kombiniert inspirierende Alltagsgeschichten mit geistlichen Weisheiten aus der Bibel. Es ist erfrischend, herausfordernd und humorvoll.",
+        "source": "Google Play Review"
+      }
+    ]
+  },
+  "hi": {
+    "collection": [
+      {
+        "quote": "I’m a new Christian and this is my first experience of reading the Bible in one year… I look forward to hearing/reading it each day.",
+        "source": "iOS App Store Review"
+      },
+      {
+        "quote": "My favourite way to start the day.",
+        "source": "Bear Grylls, Adventurer"
+      },
+      {
+        "quote": "My heart leaps every morning when I see Bible in One Year by Nicky Gumbel sitting in my inbox.",
+        "source": "Darlene Zschech, Worship Leader"
+      },
+      {
+        "quote": "I’ve been looking for an app like this for many years…",
+        "source": "iOS App Store Review"
+      },
+      {
+        "quote": "Fantastic resource. Combines inspiring stories from everyday life and history with spiritual wisdom drawn from the Bible. It is uplifting, challenging and humorous.",
+        "source": "Google Play Review"
+      }
+    ]
+  },
   "en": {
     "collection": [
       {
@@ -23,79 +71,7 @@
       }
     ]
   },
-  "id": {
-    "collection": [
-      {
-        "quote": "I’m a new Christian and this is my first experience of reading the Bible in one year… I look forward to hearing/reading it each day.",
-        "source": "iOS App Store Review"
-      },
-      {
-        "quote": "My favourite way to start the day.",
-        "source": "Bear Grylls, Adventurer"
-      },
-      {
-        "quote": "My heart leaps every morning when I see Bible in One Year by Nicky Gumbel sitting in my inbox.",
-        "source": "Darlene Zschech, Worship Leader"
-      },
-      {
-        "quote": "I’ve been looking for an app like this for many years…",
-        "source": "iOS App Store Review"
-      },
-      {
-        "quote": "Fantastic resource. Combines inspiring stories from everyday life and history with spiritual wisdom drawn from the Bible. It is uplifting, challenging and humorous.",
-        "source": "Google Play Review"
-      }
-    ]
-  },
-  "ar": {
-    "collection": [
-      {
-        "quote": "I’m a new Christian and this is my first experience of reading the Bible in one year… I look forward to hearing/reading it each day.",
-        "source": "iOS App Store Review"
-      },
-      {
-        "quote": "My favourite way to start the day.",
-        "source": "Bear Grylls, Adventurer"
-      },
-      {
-        "quote": "My heart leaps every morning when I see Bible in One Year by Nicky Gumbel sitting in my inbox.",
-        "source": "Darlene Zschech, Worship Leader"
-      },
-      {
-        "quote": "I’ve been looking for an app like this for many years…",
-        "source": "iOS App Store Review"
-      },
-      {
-        "quote": "Fantastic resource. Combines inspiring stories from everyday life and history with spiritual wisdom drawn from the Bible. It is uplifting, challenging and humorous.",
-        "source": "Google Play Review"
-      }
-    ]
-  },
-  "de": {
-    "collection": [
-      {
-        "quote": "Ich bin seit kurzem Christ Christ und lese zum ersten Mal Bibel in einem Jahr... Ich freue mich jeden Tag darauf, sie zu hören/lesen.",
-        "source": "iOS App Store Review"
-      },
-      {
-        "quote": "Meine liebste Art, den Tag zu beginnen.",
-        "source": "Bear Grylls, Abenteurer"
-      },
-      {
-        "quote": "Jeden Morgen macht mein Herz einen Sprung, wenn ich \"Bibel in einem Jahr\" von Nicky Gumbel in meinem Posteingang liegen sehe.",
-        "source": "Darlene Zschech, Lobpreisleiterin"
-      },
-      {
-        "quote": "Ich habe seit vielen Jahren nach einer solchen App gesucht...",
-        "source": "iOS App Store Review"
-      },
-      {
-        "quote": "Fantastisches Angebot. Kombiniert inspirierende Alltagsgeschichten mit geistlichen Weisheiten aus der Bibel. Es ist erfrischend, herausfordernd und humorvoll.",
-        "source": "Google Play Review"
-      }
-    ]
-  },
-  "es": {
+  "it": {
     "collection": [
       {
         "quote": "I’m a new Christian and this is my first experience of reading the Bible in one year… I look forward to hearing/reading it each day.",
@@ -143,7 +119,79 @@
       }
     ]
   },
-  "hi": {
+  "es": {
+    "collection": [
+      {
+        "quote": "I’m a new Christian and this is my first experience of reading the Bible in one year… I look forward to hearing/reading it each day.",
+        "source": "iOS App Store Review"
+      },
+      {
+        "quote": "My favourite way to start the day.",
+        "source": "Bear Grylls, Adventurer"
+      },
+      {
+        "quote": "My heart leaps every morning when I see Bible in One Year by Nicky Gumbel sitting in my inbox.",
+        "source": "Darlene Zschech, Worship Leader"
+      },
+      {
+        "quote": "I’ve been looking for an app like this for many years…",
+        "source": "iOS App Store Review"
+      },
+      {
+        "quote": "Fantastic resource. Combines inspiring stories from everyday life and history with spiritual wisdom drawn from the Bible. It is uplifting, challenging and humorous.",
+        "source": "Google Play Review"
+      }
+    ]
+  },
+  "zh": {
+    "collection": [
+      {
+        "quote": "我刚刚成为基督徒，这是我第一次读这个灵修集。我期待每天都能阅读并且聆听《圣经日日行》",
+        "source": "苹果用户评论"
+      },
+      {
+        "quote": "我最喜欢用这种方式开始新一天。",
+        "source": "贝尔.格雷尔斯，荒野求生"
+      },
+      {
+        "quote": "每天早上，只要看到收件箱里有甘力克的邮件，我的心情就会特别好。",
+        "source": "达利尔.塞斯，敬拜带领人"
+      },
+      {
+        "quote": "多年来，我一直在寻找像圣经日日行这样的APP..... ",
+        "source": "苹果店用户评论"
+      },
+      {
+        "quote": "棒极了！充满圣经真理和智慧，又有来自日常生活的真实经历，还有历史伟人的箴言和轶事。《圣经日日行》充满幽默、令人振奋，带给人启发和挑战。",
+        "source": "谷歌用户评论"
+      }
+    ]
+  },
+  "ar": {
+    "collection": [
+      {
+        "quote": "I’m a new Christian and this is my first experience of reading the Bible in one year… I look forward to hearing/reading it each day.",
+        "source": "iOS App Store Review"
+      },
+      {
+        "quote": "My favourite way to start the day.",
+        "source": "Bear Grylls, Adventurer"
+      },
+      {
+        "quote": "My heart leaps every morning when I see Bible in One Year by Nicky Gumbel sitting in my inbox.",
+        "source": "Darlene Zschech, Worship Leader"
+      },
+      {
+        "quote": "I’ve been looking for an app like this for many years…",
+        "source": "iOS App Store Review"
+      },
+      {
+        "quote": "Fantastic resource. Combines inspiring stories from everyday life and history with spiritual wisdom drawn from the Bible. It is uplifting, challenging and humorous.",
+        "source": "Google Play Review"
+      }
+    ]
+  },
+  "vi": {
     "collection": [
       {
         "quote": "I’m a new Christian and this is my first experience of reading the Bible in one year… I look forward to hearing/reading it each day.",
@@ -186,55 +234,7 @@
       }
     ]
   },
-  "zh": {
-    "collection": [
-      {
-        "quote": "我刚刚成为基督徒，这是我第一次读这个灵修集。我期待每天都能阅读并且聆听《圣经日日行》",
-        "source": "苹果用户评论"
-      },
-      {
-        "quote": "我最喜欢用这种方式开始新一天。",
-        "source": "贝尔.格雷尔斯，荒野求生"
-      },
-      {
-        "quote": "每天早上，只要看到收件箱里有甘力克的邮件，我的心情就会特别好。",
-        "source": "达利尔.塞斯，敬拜带领人"
-      },
-      {
-        "quote": "多年来，我一直在寻找像圣经日日行这样的APP..... ",
-        "source": "苹果店用户评论"
-      },
-      {
-        "quote": "棒极了！充满圣经真理和智慧，又有来自日常生活的真实经历，还有历史伟人的箴言和轶事。《圣经日日行》充满幽默、令人振奋，带给人启发和挑战。",
-        "source": "谷歌用户评论"
-      }
-    ]
-  },
-  "it": {
-    "collection": [
-      {
-        "quote": "I’m a new Christian and this is my first experience of reading the Bible in one year… I look forward to hearing/reading it each day.",
-        "source": "iOS App Store Review"
-      },
-      {
-        "quote": "My favourite way to start the day.",
-        "source": "Bear Grylls, Adventurer"
-      },
-      {
-        "quote": "My heart leaps every morning when I see Bible in One Year by Nicky Gumbel sitting in my inbox.",
-        "source": "Darlene Zschech, Worship Leader"
-      },
-      {
-        "quote": "I’ve been looking for an app like this for many years…",
-        "source": "iOS App Store Review"
-      },
-      {
-        "quote": "Fantastic resource. Combines inspiring stories from everyday life and history with spiritual wisdom drawn from the Bible. It is uplifting, challenging and humorous.",
-        "source": "Google Play Review"
-      }
-    ]
-  },
-  "vi": {
+  "id": {
     "collection": [
       {
         "quote": "I’m a new Christian and this is my first experience of reading the Bible in one year… I look forward to hearing/reading it each day.",
