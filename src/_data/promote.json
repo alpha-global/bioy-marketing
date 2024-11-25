@@ -175,18 +175,18 @@
   },
   "zh": {
     "promote": {
-      "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
-      "subTitle": "Spread the word about The Bible with Nicky and Pippa Gumbel.",
+      "title": "立即下载《尼基和皮帕·甘贝尔圣经》应用程序。",
+      "subTitle": "与尼基·甘贝尔和皮帕·甘贝尔一起传播圣经。",
       "qrImage": "/assets/img/qr-code.png",
       "image": "/assets/img/promote.jpeg",
-      "howToShare": "How to share",
-      "ctaText": "Read the Bible online"
+      "howToShare": "如何分享",
+      "ctaText": "在线阅读圣经"
     },
     "share": {
-      "title": "Share with your church, friends or anyone you know.",
-      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
+      "title": "与您的教会、朋友或任何您认识的人分享。",
+      "subTitle": "此促销包包含图像和视频，供您在社交媒体或教堂、阿尔法、基督教活动和其他地方分享。",
       "cta": {
-        "text": "Download Promotional Pack",
+        "text": "下载促销包",
         "link": "https://we.tl/t-FNw2hwio5o"
       },
       "images": [
