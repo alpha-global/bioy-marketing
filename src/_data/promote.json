@@ -30,18 +30,18 @@
   },
   "hi": {
     "promote": {
-      "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
-      "subTitle": "Spread the word about The Bible with Nicky and Pippa Gumbel.",
+      "title": "निकी और पिप्पा गम्बेल ऐप के साथ आज ही बाइबिल डाउनलोड करें।",
+      "subTitle": "निकी और पिप्पा गम्बेल के साथ बाइबिल के बारे में प्रचार करें।",
       "qrImage": "/assets/img/qr-code.png",
       "image": "/assets/img/promote.jpeg",
-      "howToShare": "How to share",
-      "ctaText": "Read the Bible online"
+      "howToShare": "कैसे साझा करें",
+      "ctaText": "बाइबिल ऑनलाइन पढ़ें"
     },
     "share": {
-      "title": "Share with your church, friends or anyone you know.",
-      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
+      "title": "अपने चर्च, दोस्तों या अपने किसी जानने वाले के साथ साझा करें।",
+      "subTitle": "इस प्रचार पैक में आपके लिए सोशल मीडिया या चर्च, अल्फ़ा, ईसाई कार्यक्रमों और अन्य जगहों पर साझा करने के लिए चित्र और वीडियो शामिल हैं।",
       "cta": {
-        "text": "Download Promotional Pack",
+        "text": "प्रोमोशनल पैक डाउनलोड करें",
         "link": "https://we.tl/t-FNw2hwio5o"
       },
       "images": [
