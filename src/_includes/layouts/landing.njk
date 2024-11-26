@@ -13,8 +13,9 @@ imageBanner: true
           </h2>
         </div>
         <div class="hidden lg:block lg:mx-auto lg:mt-9">
-          {% blockImage promote[locale].promote.qrImage, "QR Code" , "(min-width: 640px) 60vw,
-          100vw", "w-auto overflow-hidden object-center aspect-[315/347] h-[346px]" %}
+          {% blockImage promote[locale].promote.qrCode.image, "QR Code" , "(min-width: 640px) 60vw,
+          100vw", "w-auto overflow-hidden object-center aspect-square h-[315px]" %}
+          <p class="text-center text-[18px] leading-4 mt-4">{{ promote[locale].promote.qrCode.caption }}</p>
         </div>
         <div class="mx-auto flex flex-col items-center gap-y-2 lg:flex-row lg:gap-x-[27px] lg:gap-y-0">
           <a href="{{ globals.stores.ios }}">

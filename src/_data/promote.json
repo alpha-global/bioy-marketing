@@ -6,7 +6,11 @@
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
       "subTitle": "Verbreiten Sie mit Nicky und Pippa Gumbel die Botschaft der Bibel.",
-      "title": "Laden Sie noch heute die App „Die Bibel mit Nicky und Pippa Gumbel“ herunter."
+      "title": "Laden Sie noch heute die App „Die Bibel mit Nicky und Pippa Gumbel“ herunter.",
+      "qrCode": {
+        "caption": "Scan to install the app",
+        "image": "/assets/img/qr-code-translatable.png"
+      }
     },
     "share": {
       "cta": {
@@ -35,7 +39,11 @@
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
       "subTitle": "निकी और पिप्पा गम्बेल के साथ बाइबल के बारे में संदेश फैलाएं।",
-      "title": "आज ही द बाइबल विद निकी एंड पिप्पा गम्बेल ऐप डाउनलोड करें।"
+      "title": "आज ही द बाइबल विद निकी एंड पिप्पा गम्बेल ऐप डाउनलोड करें।",
+      "qrCode": {
+        "caption": "Scan to install the app",
+        "image": "/assets/img/qr-code-translatable.png"
+      }
     },
     "share": {
       "cta": {
@@ -67,7 +75,7 @@
       "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
       "qrCode": {
         "image": "/assets/img/qr-code-translatable.png",
-        "caption": "Scan to install"
+        "caption": "Scan to install the app"
       }
     },
     "share": {
@@ -97,7 +105,11 @@
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
       "subTitle": "Diffondi la conoscenza della Bibbia con Nicky e Pippa Gumbel.",
-      "title": "Scarica subito l'app La Bibbia con Nicky e Pippa Gumbel."
+      "title": "Scarica subito l'app La Bibbia con Nicky e Pippa Gumbel.",
+      "qrCode": {
+        "caption": "Scan to install the app",
+        "image": "/assets/img/qr-code-translatable.png"
+      }
     },
     "share": {
       "cta": {
@@ -126,7 +138,11 @@
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
       "subTitle": "Faites connaître la Bible avec Nicky et Pippa Gumbel.",
-      "title": "DTéléchargez l'application La Bible avec Nicky et Pippa Gumbel dès aujourd'hui."
+      "title": "DTéléchargez l'application La Bible avec Nicky et Pippa Gumbel dès aujourd'hui.",
+      "qrCode": {
+        "caption": "Scan to install the app",
+        "image": "/assets/img/qr-code-translatable.png"
+      }
     },
     "share": {
       "cta": {
@@ -155,7 +171,11 @@
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
       "subTitle": "Difunde la palabra sobre La Biblia con Nicky y Pippa Gumbel.",
-      "title": "Descargue la aplicación La Biblia con Nicky y Pippa Gumbel hoy."
+      "title": "Descargue la aplicación La Biblia con Nicky y Pippa Gumbel hoy.",
+      "qrCode": {
+        "caption": "Scan to install the app",
+        "image": "/assets/img/qr-code-translatable.png"
+      }
     },
     "share": {
       "cta": {
@@ -184,7 +204,11 @@
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
       "subTitle": "Spread the word about The Bible with Nicky and Pippa Gumbel.",
-      "title": "Download The Bible with Nicky and Pippa Gumbel app today."
+      "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
+      "qrCode": {
+        "caption": "Scan to install the app",
+        "image": "/assets/img/qr-code-translatable.png"
+      }
     },
     "share": {
       "cta": {
@@ -215,7 +239,7 @@
       "subTitle": "نشر الكلمة عن الكتاب المقدس مع نيكي وبيبا جامبل",
       "title": "قم بتنزيل تطبيق الكتاب المقدس مع نيكي وبيبا جامبل اليوم",
       "qrCode": {
-        "caption": "Scan to install",
+        "caption": "Scan to install the app",
         "image": "/assets/img/qr-code-translatable.png"
       }
     },
@@ -246,7 +270,11 @@
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
       "subTitle": "Spread the word about The Bible with Nicky and Pippa Gumbel.",
-      "title": "Download The Bible with Nicky and Pippa Gumbel app today."
+      "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
+      "qrCode": {
+        "caption": "Scan to install the app",
+        "image": "/assets/img/qr-code-translatable.png"
+      }
     },
     "share": {
       "cta": {
@@ -275,7 +303,11 @@
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
       "subTitle": "Spread the word about The Bible with Nicky and Pippa Gumbel.",
-      "title": "Download The Bible with Nicky and Pippa Gumbel app today."
+      "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
+      "qrCode": {
+        "caption": "Scan to install the app",
+        "image": "/assets/img/qr-code-translatable.png"
+      }
     },
     "share": {
       "cta": {
@@ -304,7 +336,11 @@
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
       "subTitle": "Sebarkan berita tentang Alkitab bersama Nicky dan Pippa Gumbel..",
-      "title": "Unduh aplikasi Alkitab bersama Nicky dan Pippa Gumbel hari ini."
+      "title": "Unduh aplikasi Alkitab bersama Nicky dan Pippa Gumbel hari ini.",
+      "qrCode": {
+        "caption": "Scan to install the app",
+        "image": "/assets/img/qr-code-translatable.png"
+      }
     },
     "share": {
       "cta": {
