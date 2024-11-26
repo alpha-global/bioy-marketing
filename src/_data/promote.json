@@ -1,33 +1,4 @@
 {
-  "ar": {
-    "promote": {
-      "ctaText": "اقرأ خطة الكتاب المقدس اليوم",
-      "howToShare": "كيفية المشاركة",
-      "image": "/assets/img/promote-tr.png",
-      "qrImage": "/assets/img/qr-code.png",
-      "subTitle": "نشر الكلمة عن الكتاب المقدس مع نيكي وبيبا جامبل",
-      "title": "قم بتنزيل تطبيق الكتاب المقدس مع نيكي وبيبا جامبل اليوم"
-    },
-    "share": {
-      "cta": {
-        "link": "https://storage.googleapis.com/bnap-website/uploads/htbyouth_bnap-campaign-assets_2024-11-01_1158.zip",
-        "text": "تنزيل الحزمة الترويجية"
-      },
-      "images": [
-        {
-          "image": "/assets/img/share1.jpeg"
-        },
-        {
-          "image": "/assets/img/share2.jpeg"
-        },
-        {
-          "image": "/assets/img/share3.jpeg"
-        }
-      ],
-      "subTitle": "تتضمن هذه الحزمة الترويجية صورًا ومقاطع فيديو يمكنك مشاركتها على وسائل التواصل الاجتماعي أو في الكنيسة أو ألفا أو الفعاليات المسيحية وأماكن أخرى",
-      "title": "شارك مع كنيستك أو أصدقائك أو أي شخص تعرفه"
-    }
-  },
   "de": {
     "promote": {
       "ctaText": "Lesen Sie den heutigen Bibelplan",
@@ -55,93 +26,6 @@
       ],
       "subTitle": "Dieses Werbepaket enthält Bilder und Videos, die Sie in sozialen Medien oder in der Kirche, bei Alpha, bei christlichen Veranstaltungen und anderswo teilen können.",
       "title": "Teilen Sie es mit Ihrer Kirche, Ihren Freunden oder jedem, den Sie kennen."
-    }
-  },
-  "en": {
-    "promote": {
-      "ctaText": "Read today’s Bible plan",
-      "howToShare": "How to share",
-      "image": "/assets/img/promote-tr.png",
-      "qrImage": "/assets/img/qr-code.png",
-      "subTitle": "Spread the word about The Bible with Nicky and Pippa Gumbel.",
-      "title": "Download The Bible with Nicky and Pippa Gumbel app today."
-    },
-    "share": {
-      "cta": {
-        "link": "https://storage.googleapis.com/bnap-website/uploads/htbyouth_bnap-campaign-assets_2024-11-01_1158.zip",
-        "text": "Download Promotional Pack"
-      },
-      "images": [
-        {
-          "image": "/assets/img/share1.jpeg"
-        },
-        {
-          "image": "/assets/img/share2.jpeg"
-        },
-        {
-          "image": "/assets/img/share3.jpeg"
-        }
-      ],
-      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
-      "title": "Share with your church, friends or anyone you know."
-    }
-  },
-  "es": {
-    "promote": {
-      "ctaText": "Lea el plan bíblico de hoy",
-      "howToShare": "Cómo compartir",
-      "image": "/assets/img/promote-tr.png",
-      "qrImage": "/assets/img/qr-code.png",
-      "subTitle": "Difunde la palabra sobre La Biblia con Nicky y Pippa Gumbel.",
-      "title": "Descargue la aplicación La Biblia con Nicky y Pippa Gumbel hoy."
-    },
-    "share": {
-      "cta": {
-        "link": "https://storage.googleapis.com/bnap-website/uploads/htbyouth_bnap-campaign-assets_2024-11-01_1158.zip",
-        "text": "Descargar paquete promocional"
-      },
-      "images": [
-        {
-          "image": "/assets/img/share1.jpeg"
-        },
-        {
-          "image": "/assets/img/share2.jpeg"
-        },
-        {
-          "image": "/assets/img/share3.jpeg"
-        }
-      ],
-      "subTitle": "Este paquete promocional incluye imágenes y videos para que puedas compartir en las redes sociales o en la iglesia, Alpha, eventos cristianos y otros lugares.",
-      "title": "Comparte con tu iglesia, amigos o cualquier persona que conozcas."
-    }
-  },
-  "fr": {
-    "promote": {
-      "ctaText": "Lisez le plan biblique d’aujourd’hui",
-      "howToShare": "Comment partager",
-      "image": "/assets/img/promote-tr.png",
-      "qrImage": "/assets/img/qr-code.png",
-      "subTitle": "Faites connaître la Bible avec Nicky et Pippa Gumbel.",
-      "title": "DTéléchargez l'application La Bible avec Nicky et Pippa Gumbel dès aujourd'hui."
-    },
-    "share": {
-      "cta": {
-        "link": "https://storage.googleapis.com/bnap-website/uploads/htbyouth_bnap-campaign-assets_2024-11-01_1158.zip",
-        "text": "Télécharger le pack promotionnel"
-      },
-      "images": [
-        {
-          "image": "/assets/img/share1.jpeg"
-        },
-        {
-          "image": "/assets/img/share2.jpeg"
-        },
-        {
-          "image": "/assets/img/share3.jpeg"
-        }
-      ],
-      "subTitle": "Ce pack promotionnel comprend des images et des vidéos à partager sur les réseaux sociaux ou à l'église, à Alpha, lors d'événements chrétiens et ailleurs.",
-      "title": "Partagez avec votre église, vos amis ou toute personne que vous connaissez."
     }
   },
   "hi": {
@@ -173,19 +57,23 @@
       "title": "अपने चर्च, दोस्तों या किसी भी परिचित के साथ साझा करें।"
     }
   },
-  "id": {
+  "en": {
     "promote": {
-      "ctaText": "Baca rencana Alkitab hari ini",
+      "ctaText": "Read today’s Bible plan",
       "howToShare": "How to share",
       "image": "/assets/img/promote-tr.png",
       "qrImage": "/assets/img/qr-code.png",
-      "subTitle": "Sebarkan berita tentang Alkitab bersama Nicky dan Pippa Gumbel..",
-      "title": "Unduh aplikasi Alkitab bersama Nicky dan Pippa Gumbel hari ini."
+      "subTitle": "Spread the word about The Bible with Nicky and Pippa Gumbel.",
+      "title": "Download The Bible with Nicky and Pippa Gumbel app today.",
+      "qrCode": {
+        "image": "/assets/img/qr-code-translatable.png",
+        "caption": "Scan to install"
+      }
     },
     "share": {
       "cta": {
         "link": "https://storage.googleapis.com/bnap-website/uploads/htbyouth_bnap-campaign-assets_2024-11-01_1158.zip",
-        "text": "Unduh Paket Promosi"
+        "text": "Download Promotional Pack"
       },
       "images": [
         {
@@ -198,8 +86,8 @@
           "image": "/assets/img/share3.jpeg"
         }
       ],
-      "subTitle": "Paket promosi ini menyertakan gambar dan video untuk Anda bagikan di media sosial atau di gereja, Alpha, acara-acara Kristen, dan di tempat lain.",
-      "title": "Bagikan dengan gereja Anda, teman atau siapa pun yang Anda kenal."
+      "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
+      "title": "Share with your church, friends or anyone you know."
     }
   },
   "it": {
@@ -231,7 +119,65 @@
       "title": "Condividilo con la tua chiesa, con i tuoi amici o con chiunque tu conosca."
     }
   },
-  "th": {
+  "fr": {
+    "promote": {
+      "ctaText": "Lisez le plan biblique d’aujourd’hui",
+      "howToShare": "Comment partager",
+      "image": "/assets/img/promote-tr.png",
+      "qrImage": "/assets/img/qr-code.png",
+      "subTitle": "Faites connaître la Bible avec Nicky et Pippa Gumbel.",
+      "title": "DTéléchargez l'application La Bible avec Nicky et Pippa Gumbel dès aujourd'hui."
+    },
+    "share": {
+      "cta": {
+        "link": "https://storage.googleapis.com/bnap-website/uploads/htbyouth_bnap-campaign-assets_2024-11-01_1158.zip",
+        "text": "Télécharger le pack promotionnel"
+      },
+      "images": [
+        {
+          "image": "/assets/img/share1.jpeg"
+        },
+        {
+          "image": "/assets/img/share2.jpeg"
+        },
+        {
+          "image": "/assets/img/share3.jpeg"
+        }
+      ],
+      "subTitle": "Ce pack promotionnel comprend des images et des vidéos à partager sur les réseaux sociaux ou à l'église, à Alpha, lors d'événements chrétiens et ailleurs.",
+      "title": "Partagez avec votre église, vos amis ou toute personne que vous connaissez."
+    }
+  },
+  "es": {
+    "promote": {
+      "ctaText": "Lea el plan bíblico de hoy",
+      "howToShare": "Cómo compartir",
+      "image": "/assets/img/promote-tr.png",
+      "qrImage": "/assets/img/qr-code.png",
+      "subTitle": "Difunde la palabra sobre La Biblia con Nicky y Pippa Gumbel.",
+      "title": "Descargue la aplicación La Biblia con Nicky y Pippa Gumbel hoy."
+    },
+    "share": {
+      "cta": {
+        "link": "https://storage.googleapis.com/bnap-website/uploads/htbyouth_bnap-campaign-assets_2024-11-01_1158.zip",
+        "text": "Descargar paquete promocional"
+      },
+      "images": [
+        {
+          "image": "/assets/img/share1.jpeg"
+        },
+        {
+          "image": "/assets/img/share2.jpeg"
+        },
+        {
+          "image": "/assets/img/share3.jpeg"
+        }
+      ],
+      "subTitle": "Este paquete promocional incluye imágenes y videos para que puedas compartir en las redes sociales o en la iglesia, Alpha, eventos cristianos y otros lugares.",
+      "title": "Comparte con tu iglesia, amigos o cualquier persona que conozcas."
+    }
+  },
+  "zh": {
     "promote": {
       "ctaText": "Read today’s Bible plan",
       "howToShare": "How to share",
@@ -258,6 +204,39 @@
       ],
       "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
       "title": "Share with your church, friends or anyone you know."
+    }
+  },
+  "ar": {
+    "promote": {
+      "ctaText": "اقرأ خطة الكتاب المقدس اليوم",
+      "howToShare": "كيفية المشاركة",
+      "image": "/assets/img/promote-tr.png",
+      "qrImage": "/assets/img/qr-code.png",
+      "subTitle": "نشر الكلمة عن الكتاب المقدس مع نيكي وبيبا جامبل",
+      "title": "قم بتنزيل تطبيق الكتاب المقدس مع نيكي وبيبا جامبل اليوم",
+      "qrCode": {
+        "caption": "Scan to install",
+        "image": "/assets/img/qr-code-translatable.png"
+      }
+    },
+    "share": {
+      "cta": {
+        "link": "https://storage.googleapis.com/bnap-website/uploads/htbyouth_bnap-campaign-assets_2024-11-01_1158.zip",
+        "text": "تنزيل الحزمة الترويجية"
+      },
+      "images": [
+        {
+          "image": "/assets/img/share1.jpeg"
+        },
+        {
+          "image": "/assets/img/share2.jpeg"
+        },
+        {
+          "image": "/assets/img/share3.jpeg"
+        }
+      ],
+      "subTitle": "تتضمن هذه الحزمة الترويجية صورًا ومقاطع فيديو يمكنك مشاركتها على وسائل التواصل الاجتماعي أو في الكنيسة أو ألفا أو الفعاليات المسيحية وأماكن أخرى",
+      "title": "شارك مع كنيستك أو أصدقائك أو أي شخص تعرفه"
     }
   },
   "vi": {
@@ -289,7 +268,7 @@
       "title": "Share with your church, friends or anyone you know."
     }
   },
-  "zh": {
+  "th": {
     "promote": {
       "ctaText": "Read today’s Bible plan",
       "howToShare": "How to share",
@@ -316,6 +295,35 @@
       ],
       "subTitle": "This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.",
       "title": "Share with your church, friends or anyone you know."
+    }
+  },
+  "id": {
+    "promote": {
+      "ctaText": "Baca rencana Alkitab hari ini",
+      "howToShare": "How to share",
+      "image": "/assets/img/promote-tr.png",
+      "qrImage": "/assets/img/qr-code.png",
+      "subTitle": "Sebarkan berita tentang Alkitab bersama Nicky dan Pippa Gumbel..",
+      "title": "Unduh aplikasi Alkitab bersama Nicky dan Pippa Gumbel hari ini."
+    },
+    "share": {
+      "cta": {
+        "link": "https://storage.googleapis.com/bnap-website/uploads/htbyouth_bnap-campaign-assets_2024-11-01_1158.zip",
+        "text": "Unduh Paket Promosi"
+      },
+      "images": [
+        {
+          "image": "/assets/img/share1.jpeg"
+        },
+        {
+          "image": "/assets/img/share2.jpeg"
+        },
+        {
+          "image": "/assets/img/share3.jpeg"
+        }
+      ],
+      "subTitle": "Paket promosi ini menyertakan gambar dan video untuk Anda bagikan di media sosial atau di gereja, Alpha, acara-acara Kristen, dan di tempat lain.",
+      "title": "Bagikan dengan gereja Anda, teman atau siapa pun yang Anda kenal."
     }
   }
 }
