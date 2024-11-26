@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: staging
 
 i18n:
   structure: single_file
@@ -296,7 +296,28 @@ collections:
                         widget: 'string',
                         i18n: true,
                       },
-                      { label: 'QR Image', name: 'qrImage', widget: 'image', i18n: true },
+
+                      {
+                        label: 'QR Code',
+                        name: 'qrCode',
+                        widget: 'object',
+                        i18n: true,
+                        fields:
+                          [
+                            {
+                              label: 'Image',
+                              name: 'image',
+                              widget: 'image',
+                              i18n: true,
+                            },
+                            {
+                              label: 'Caption',
+                              name: 'caption',
+                              widget: 'string',
+                              i18n: true,
+                            },
+                          ],
+                      },
                       {
                         label: 'CTA Text',
                         name: 'ctaText',
