@@ -108,19 +108,19 @@
   },
   "ar": {
     "header": {
-      "strapline": "سوف تقضي 365 يوم بصورة ممتعة!",
-      "title": "اقرأ الكتاب المقدس في 365 يوم ",
-      "cta": "قم بتنزيل التطبيق. ابحث عن إيقاعك الخاص.",
+      "title": "365 giorni nella Bibbia",
+      "strapline": "Sono 365 giorni ben spesi!",
       "img": {
         "src": "/assets/img/bioy-nicky-and-pippa-gumbel.jpg",
-        "desc": "Nicky and Pippa narrating The Bible with Nicky and Pippa Gumbel"
-      }
+        "desc": "Nicky e Pippa raccontano la Bibbia in un anno"
+      },
+      "cta": "Scarica l'applicazione. Trova il tuo ritmo."
     },
     "cta": true,
     "editions": false,
     "testimonials": true,
-    "title": "عن",
-    "body": "**الكتاب المقدس في عام واحد هو خطة يومية لقراءة الكتاب المقدس تأخذك خلال الكتاب المقدس بأكمله في 365 يومًا. إنه مثالي لمن يبحث عن طريقة سهلة وميسرة لقراءة وفهم الكتاب المقدس.**\n\nيتضمن كل يوم مقاطع من المزمور أو الأمثال والعهد الجديد والعهد القديم إلى جانب تعليق يومي من نِكي وبيبا جمبل ، وقادة [كنيسة ](https://htb.org/)[هولي ترينيتي برومبتون (HTB) ](https://htb.org/)لندن ورواد[ ألفا](mena.alpha.org). سيشجعك الكتاب المقدس في عام واحد على الانخراط بشكل أعمق في الكتاب المقدس، وتطبيق تعاليمه في حياتك اليومية وتنمية علاقتك مع يسوع.\n\nيمكنك المتابعة من خلال قراءة النص أو الاستماع إلى التعليق الصوتي ويمكنك اختيار الإصدار الذي يناسب أسلوب حياتك؛ الإصدار الكلاسيكي (25 دقيقة)، أو إصدار أقصر من Express أو إصدار الشباب (كلاهما حوالي 15 دقيقة).\n\nهناك أكثر من 4.5 مليون شخص من 160 دولة قد اختبروا الكتاب المقدس في عام واحد. لماذا لا تنضم إليهم، ابحث عن إيقاعك الخاص واقترب أكثر من الله."
+    "title": "Di",
+    "body": "**Bibbia in un anno è un piano di lettura quotidiana della Bibbia che ti guida attraverso l’intera Bibbia in 365 giorni.**\\\nÈ ideale per chi cerca un modo semplice e accessibile per leggere e comprendere la Bibbia.\n\nOgni giorno include brani tratti da un Salmo o dai Proverbi, dal Nuovo e dall’Antico Testamento, accompagnati da un commento quotidiano di Nicky e Pippa Gumbel, ex leader della Chiesa [Holy Trinity Brompton (HTB)](https://htb.org/) di Londra e pionieri di [Alpha](https://alpha.org/).\\\n**Bibbia in un anno** ti incoraggerà a entrare in relazione più stretta con le Sacre Scritture, ad applicarne gli insegnamenti nella vita quotidiana e a crescere nel tuo rapporto con Gesù.\n\nPuoi seguire il piano leggendo i testi o ascoltando il commento audio e scegliere la versione che meglio si adatta al tuo stile di vita: la versione Classic (25 minuti) o le versioni Express o Youth più brevi (entrambe circa 15 minuti).\n\nOltre 4,5 milioni di persone in 160 paesi hanno già sperimentato **La Bibbia con Nicky e Pippa Gumbel**. Perché non unirti a loro, trovare il tuo ritmo e avvicinarti a Dio?"
   },
   "vi": {
     "header": {
