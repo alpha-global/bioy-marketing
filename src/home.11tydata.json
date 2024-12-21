@@ -133,12 +133,12 @@
   "ar": {
     "intro": "Bom dia!",
     "header": {
-      "title": "هل تريد التعرف على الكتاب المقدس؟",
-      "strapline": "سنأخذك من خلاله خطوة بخطوة.",
-      "cta": "لنبدأ",
+      "title": "Vuoi conoscere la Bibbia?",
+      "strapline": "Ti guideremo attraverso di essa, passo dopo passo.",
+      "cta": "Andiamo",
       "img": {
-        "src": "/assets/img/today_en.jpg",
-        "desc": "A man looks up from reading The Bible with Nicky and Pippa Gumbel on his phone."
+        "src": "/assets/img/bioy-lead.jpg",
+        "desc": "Una donna alza lo sguardo dopo aver letto la Bibbia in un anno sul suo telefono."
       }
     },
     "about": {
