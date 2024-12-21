@@ -1287,44 +1287,44 @@
       {
         "title": "Posso ricevere BiOY via email?",
         "category": "Content",
-        "shortAnswer": "Yes. You can sign up to receive the BiOY Classic commentary from the BiOY homepage.",
-        "detailedAnswer": "Yes. If you would like to receive the BiOY Classic commentary by email, or if you have stopped receiving the daily BiOY emails and would like to re-subscribe, you can [sign up or re-subscribe here](https://bibleinoneyear.org/en/#start)."
+        "shortAnswer": "Sì. Puoi iscriverti per ricevere il commento BiOY Classic dalla homepage di Bibbia in un anno.",
+        "detailedAnswer": "Sì. Se desideri ricevere il commento BiOY (versione classica) via email, o se hai smesso di ricevere le email giornaliere di BiOY e desideri ri-iscriverti, puoi [iscriverti o ri-iscriverti qui](https://bibleinoneyear.org/it/#start)."
       },
       {
-        "title": "What languages is BiOY available in?",
+        "title": "In quali lingue è disponibile BiOY?",
         "category": "Content",
-        "shortAnswer": "Arabic, Bahasa Indonesia, English, Simplified Chinese, French, German, Hindi, Spanish, and Thai. ",
-        "detailedAnswer": "The Classic edition of BiOY is now available in Arabic, Bahasa Indonesia, English, Simplified Chinese, French, German, Hindi, Spanish, and Thai. The Express edition of BiOY is available in Arabic, English and German. The Youth edition is available in Arabic and English. Audio is available in English, Hindi, Chinese and German."
+        "shortAnswer": "Arabo, Bahasa Indonesia, Inglese, Cinese semplificato, Francese, Tedesco, Hindi, Spagnolo, Thai e Italiano.",
+        "detailedAnswer": "L'edizione Classica di BiOY è ora disponibile in arabo, bahasa indonesiano, inglese, cinese semplificato, francese, tedesco, hindi, spagnolo, thailandese e italiana. L'edizione Express di BiOY è disponibile in arabo, inglese e tedesco. L'edizione Youth è disponibile in arabo, inglese e italiano. L'audio è disponibile in inglese, hindi, cinese, tedesco e italiano."
       },
       {
-        "title": "How do I access the new app Menu?",
+        "title": "Come faccio ad accedere al nuovo menu dell'app?",
         "category": "App",
-        "shortAnswer": "When opening the app you will see the list view with the day numbers and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY.",
-        "detailedAnswer": "When opening the app you will see the list view with the day numbers and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY."
+        "shortAnswer": "Quando apri l'app, vedrai la vista dell'elenco con i numeri dei giorni e i titoli delle giornate correnti e recenti. L'icona del menù (tre linee sovrapposte) si trova nella parte inferiore della barra rossa sul lato dello schermo. Tocca sull'icona del menù per accedere alle Impostazioni o per scoprire di più su BiOY.",
+        "detailedAnswer": "Quando apri l'app, vedrai la vista dell'elenco con i numeri dei giorni e i titoli delle giornate correnti e recenti. L'icona del menù (tre linee sovrapposte) si trova nella parte inferiore della barra rossa sul lato dello schermo. Tocca sull'icona del menù per accedere alle Impostazioni o per scoprire di più su BiOY."
       },
       {
-        "title": "Can I change 'Today' to a different day number?",
+        "title": "Posso cambiare \"Oggi\" con un altro numero di giorno?",
         "category": "App",
         "shortAnswer": "If you would like to change the day number that you are on for today, please reset the app. Tap on Menu > Settings > Reset App. Follow the prompts, indicating that you are familiar with the Bible, select what plan you are on (Classic, Express or Youth edition) and the last day you got to.\n\nPlease note that your app will start on the day following the last day you got to. For example: if you select that you got to Day 23, the app will show Today as Day 24. All earlier devotions will be marked as complete when you do this.\n",
-        "detailedAnswer": "If you would like to change the day number that you are on for today, please reset the app. Tap on Menu > Settings > Reset App. Follow the prompts, indicating that you are familiar with the Bible, select what plan you are on (Classic, Express or Youth edition) and the last day you got to.\n\nPlease note that your app will start on the day following the last day you got to. For example: if you select that you got to Day 23, the app will show Today as Day 24. All earlier devotions will be marked as complete when you do this."
+        "detailedAnswer": "Se desideri cambiare il numero di giorno su cui ti trovi oggi, resettando l'app, vai su Menu > Impostazioni > Ripristina l'app. Segui le istruzioni, indicando che conosci la Bibbia, seleziona quale piano stai seguendo (edizione Classica o Youth) e l'ultimo giorno a cui sei arrivato.\n\nTieni presente che l'app inizierà dal giorno successivo all'ultimo giorno a cui sei arrivato. Ad esempio, se selezioni di essere arrivato al Giorno 23, l'app mostrerà Oggi come il Giorno 24. Tutte le letture precedenti saranno contrassegnate come completate quando lo farai."
       },
       {
-        "title": "Why have you updated the app?",
+        "title": "Perché hai aggiornato l'app?",
         "category": "App",
-        "shortAnswer": "We needed to move the app to a new platform to enable us to add more functionality and quality-of-life improvements that were not possible in the legacy BiOY app. Simply put, in order to improve the app, we had to rebuild it from the bottom up.",
-        "detailedAnswer": "We needed to move the app to a new platform to enable us to add more functionality and quality-of-life improvements that were not possible in the legacy BiOY app. Simply put, in order to improve the app, we had to rebuild it from the bottom up."
+        "shortAnswer": "Abbiamo dovuto trasferire l'app su una nuova piattaforma per permetterci di aggiungere più funzionalità e miglioramenti nella qualità della vita che non erano possibili nell'app BiOY precedente. In poche parole, per migliorare l'app, abbiamo dovuto ricostruirla da zero.",
+        "detailedAnswer": "Abbiamo dovuto trasferire l'app su una nuova piattaforma per permetterci di aggiungere più funzionalità e miglioramenti nella qualità della vita che non erano possibili nell'app BiOY precedente. In poche parole, per migliorare l'app, abbiamo dovuto ricostruirla da zero."
       },
       {
-        "title": "How can I donate via the app?",
+        "title": "Come posso fare una donazione tramite l'app?",
         "category": "App",
-        "shortAnswer": "Thank you for considering giving toward BiOY, you can donate through the app (tap on Menu > Give: Support the ministry of BiOY) or here on the BiOY website - click 'donate' at the top of the home page.",
-        "detailedAnswer": "Thank you for considering giving toward BiOY, you can donate through the app (tap on Menu > Give: Support the ministry of BiOY) or [here on the BiOY website](https://bibleinoneyear.org/en/donate/) - click 'donate' at the top of the home page."
+        "shortAnswer": "Grazie per considerare una donazione per BiOY. Puoi fare una donazione tramite l'app (tocca su Menu > Dona: Supporta il nostro ministero) oppure qui sul sito di BiOY - clicca su 'dona' in cima alla pagina principale.",
+        "detailedAnswer": "Grazie per considerare una donazione per BiOY. Puoi fare una donazione tramite l'app (tocca su Menu > Dona: Supporta il nostro ministero) oppure [qui sul sito di BiOY](https://bibleinoneyear.org/en/donate/) - clicca su \"dona\" in cima alla pagina principale."
       },
       {
         "title": "Does this really contain the whole bible?",
         "category": "Content",
-        "shortAnswer": "The entire bible is covered in the Classic edition of BiOY. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.",
-        "detailedAnswer": "The entire bible is covered in the Classic edition of BiOY. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.\n\nThe Youth and Express editions provide an abridged version of the Classic BiOY with selected scriptures from the book of Psalms or Proverbs, the New Testament and Old Testament. Not every verse in the bible is covered in these editions, however they do give a full experience of the bible."
+        "shortAnswer": "L'edizione Classica include tutta Bibbia, ad esclusione dei libri deuterocanonici. Ogni giorno leggerai o ascolterai un passo tratto dai Sapienziali, una parte del Nuovo Testamento e dell'Antico Testamento.",
+        "detailedAnswer": "L'edizione Classica include tutta Bibbia, ad esclusione dei libri deuterocanonici. Ogni giorno leggerai o ascolterai un passo tratto dai Sapienziali, una parte del Nuovo Testamento e dell'Antico Testamento.\n\nLe edizioni Youth ed Express offrono una versione ridotta del BiOY Classic con scritture selezionate dai libri dei Salmi o dei Proverbi, dal Nuovo Testamento e dall'Antico Testamento. Non tutti i versetti della Bibbia sono inclusi in queste edizioni, ma esse offrono comunque un'esperienza completa della Bibbia."
       },
       {
         "title": "I missed a day, can I catch up?",
