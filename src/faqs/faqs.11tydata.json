@@ -1153,37 +1153,37 @@
   "ar": {
     "faqsItems": [
       {
-        "title": "Non riesco a vedere oltre Giorno 1 dopo la mia prima installazione.",
+        "title": "I can’t see beyond Day One after my first install",
         "category": "Content",
-        "shortAnswer": "Ogni nuovo utente dell'app BiOY dovrà seguire un processo di \"Introduzione\". Qui ti aiutiamo a trovare il percorso migliore per iniziare il tuo viaggio con BiOY. Una volta completato, avrai due opzioni tra cui scegliere prima di iniziare: \"Inizia ora\" o \"Dai un'occhiata all'app\"...",
-        "detailedAnswer": "Ogni nuovo utente dell'app BiOY dovrà seguire un **processo di introduzione**. Qui ti aiutiamo a trovare il percorso migliore per iniziare il tuo viaggio con BiOY. Una volta completato, avrai due opzioni tra cui scegliere prima di iniziare: **\"Inizia ora\"** o **\"Dai un'occhiata all'app\"**.\n\n**Inizia ora**\\\nSe selezioni **\"Inizia ora\"**, l'app si aprirà automaticamente su Giorno 1. Scorrendo a sinistra ti mostrerà l'elenco delle giornate, insieme all'opzione ad aprire il menu delle impostazioni, situato in basso a sinistra.\n\n**Dai un'occhiata all'app**\\\nToccando l'opzione **\"Dai un'occhiata all'app\"**, l'utente potrà comprendere l'interfaccia dell'app prima di iniziare la lettura della giornata scelta. Una volta completate le tre interazioni sullo schermo, dovrai toccare **\"Inizia ora\"** per visualizzare ulteriori giornate."
+        "shortAnswer": "Any new user of The Bible with Nicky and Pippa Gumbel app will need to step through an ‘onboarding process’. Here we help you find the best route to start your Bible reading journey. Once completed, there are two options for you to choose from before you begin. ‘Start Now’ or ‘Explore the app’...",
+        "detailedAnswer": "Any new user of The Bible with Nicky and Pippa Gumbel app will need step through an ‘onboarding process’. Here we help you find the best route to start your Bible reading journey. Once completed, there are two options for you to choose from before you begin. ‘Start Now’ or ‘Explore the app’.\\\n\\\nStart Now\\\nIf you select ‘Start Now’ the app will automatically open on Day One. A swipe to the left will reveal the devotion list as well as the option to open the settings menu, located in the lower left. \\\n\\\nExplore The App \\\nTapping the 'Explore the app' option allows the user to understand the app interface before they begin the devotion. Once you have completed the three on screen interactions, you will need to tap ‘Start Now’ for further devotionals to be viewed."
       },
       {
-        "title": "Posso aumentare o diminuire la velocità dei contenuti audio?",
+        "title": "Can I speed up/slow down the speed of the audio devotion?",
         "category": "Audio",
-        "shortAnswer": "Sì! Dopo aver premuto il pulsante 'Play' sulla tua giornata, noterai un 1x nell'angolo in alto a sinistra del lettore audio espanso. Tocca su questo per cambiare la velocità di riproduzione: 1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x e poi tornerà a 1x, e così via.\n",
-        "detailedAnswer": "Sì! Assicurati di aver aggiornato l'app all'ultima versione disponibile sull'App Store di iOS o Google Play per Android. Dopo aver premuto il pulsante \"Play\" sulla giornata, noterai un 1x nell'angolo in alto a sinistra del lettore audio espanso. Toccalo per cambiare la velocità di riproduzione:\n\n1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x e poi nuovamente 1x, e così via."
+        "shortAnswer": "Yes! After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds: 1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc",
+        "detailedAnswer": "Yes! Please ensure you have updated to the latest version of the app from the iOS App Store or Google Play on Android. After tapping the ‘Play’ button on your devotion, you will notice a 1x in the top left corner of the expanded audio player. Tap this to cycle through the playback speeds:\n\n1x, 1.2x, 1.5x, 1.8x, 2x, 0.8x and then round again to 1x etc"
       },
       {
-        "title": "Posso condividere una giornata con un amico?",
+        "title": "Can I share a devotion with a friend?",
         "category": "Content",
-        "shortAnswer": "Sì! Saremo felicissimi che tu lo faccia e ti incoraggiamo a condividerla con qualcuno che potrebbe aver bisogno di ascoltare la Parola di Dio attraverso i passi della Scrittura del giorno e i commenti.\n\nPer trovare il link, tocca l'icona del \"libro\" nel giorno che desideri condividere, quindi tocca l'icona di \"condivisione\" nell'angolo in basso a sinistra del finestra popup che appare. A questo punto, potrai scegliere come condividerlo: direttamente tramite un messaggio di testo, un'email oppure copiando il link e incollandolo dove preferisci.",
-        "detailedAnswer": "Sì! Saremo felicissimi che tu lo faccia e ti invitiamo a incoraggiare qualcuno che potrebbe aver bisogno di ascoltare la Parola di Dio attraverso i passi della Scrittura del giorno e i commenti.\n\nPer trovare il link, tocca l'icona del \"libro\" nel giorno che desideri condividere, quindi tocca l'icona di \"condivisione\"nell'angolo in basso a sinistra della finestra pop-up che appare. Potrai quindi scegliere come condividerlo: direttamente tramite un messaggio di testo o un'email, oppure copiando il link e incollandolo dove preferisci."
+        "shortAnswer": "Yes! We would absolutely love you do this and encourage someone who might need to hear from God through the devotions and commentaries. To find the link, tap the ‘book’ icon on the day you wish to share and then the ‘share’ icon in the bottom left-hand corner of the popup that appears. You will then be able to select how you wish to share it, whether directly into a text message or email, or by copying the link and pasting it where you wish.",
+        "detailedAnswer": "Yes! We would absolutely love you do this and encourage someone who might need to hear from God through the devotions and commentaries. To find the link, tap the ‘book’ icon on the day you wish to share and then the ‘share’ icon in the bottom left-hand corner of the popup that appears. You will then be able to select how you wish to share it, whether directly into a text message or email, or by copying the link and pasting it where you wish."
       },
       {
         "category": "App",
-        "title": "Come posso resettare l'app?",
-        "shortAnswer": "Tocca su Menu > Impostazioni > Ripristina l'App. Segui le istruzioni e seleziona il numero del giorno che hai completato per ultimo. Il giorno successivo verrà mostrato nell'elenco come Oggi. Tutti i giorni precedenti risulteranno completati.",
-        "detailedAnswer": "Tocca su Menu > Impostazioni > Ripristina l'App. Segui le istruzioni e seleziona il giorno che hai completato per ultimo. Il giorno successivo verrà visualizzato nell'elenco come Oggi e tutti i giorni precedenti risulteranno completati."
+        "title": "How can I reset my app?",
+        "shortAnswer": "Tap on Menu > Settings > Reset App. Follow the prompts and select the day number you last completed. The following day will show in the list view as Today. All previous days will show as complete.",
+        "detailedAnswer": "Tap on Menu > Settings > Reset App. Follow the prompts and select the day you last completed. The following day will show in the list view as Today. All previous days will show as complete."
       },
       {
-        "title": "Come faccio a tornare alla vista elenco e al menu mentre mi trovo all'interno di una giornata?",
+        "title": "How do I return to the list view and menu from within a devotion?",
         "category": "Content",
-        "shortAnswer": "Per tornare alla vista elenco e all'icona del menu, scorri verso destra partendo dal lato sinistro dello schermo del tuo dispositivo.",
-        "detailedAnswer": "Per tornare alla vista elenco e all'icona del menu, scorri verso destra partendo dal lato sinistro dello schermo del tuo dispositivo."
+        "shortAnswer": "To return to the list view and the menu icon, swipe right from the left hand side of the screen on your device.",
+        "detailedAnswer": "To return to the list view and the menu icon, swipe right from the left hand side of the screen on your device."
       },
       {
-        "title": "Cosa significano i simboli nella mia vista elenco?",
+        "title": "What do the symbols mean in my list view?",
         "category": "App",
         "shortAnswer": "Nella vista elenco possono apparire fino a cinque simboli:\n\nSegno di spunta rosso all'interno di un cerchio: La giornata è stata contrassegnata come completata.\n\nIcona del libro: Le barre accanto a essa diventano rosse per indicare i tuoi progressi nella lettura della giornata scelta.\n\nIcona dell'altoparlante: L'audio del giorno è stato scaricato.\n\nIcona di trasmissione: L'audio del giorno verrà trasmesso in streaming utilizzando il Wi-Fi o i dati mobili.\n\nFreccia che punta verso una parentesi quadra: Si trova sopra il pulsante del menu nella scheda rossa. Tocca questo simbolo per tornare al giorno che hai completato per ultimo e al giorno successivo da iniziare.",
         "detailedAnswer": "Ci sono fino a cinque simboli che puoi vedere nella vista elenco, che ti aiutano a comprendere i tuoi progressi nel piano di lettura di Bibbia in un anno e cosa sta facendo il tuo dispositivo.\n\nSegno di spunta rosso all'interno di un cerchio: La giornata è stata contrassegnata come completata. Questo segno appare quando hai letto tutto il testo o ascoltato l'intera registrazione audio.\n\nIcona del libro: È accompagnata da barre che diventano rosse man mano che leggi il testo, indicandoti i tuoi progressi nella lettura della giornata.\n\nIcona dell'altoparlante: L'audio del giorno è stato scaricato. Spesso è accompagnata da un'indicazione del tempo rimanente da ascoltare o dal segno di spunta rosso di completamento.\n\nIcona di trasmissione: L'audio del giorno verrà trasmesso in streaming utilizzando il Wi-Fi o i dati mobili. Se prevedi di voler continuare ad ascoltare in aree con segnale debole o senza internet, ti consigliamo di utilizzare le impostazioni di download automatico nel menù delle impostazioni, oppure scaricare l'audio del giorno singolo scorrendo a destra nella vista elenco.\n\nScorrendo a destra, sarai anche in grado di usare le icone di download/cestino e quelle di riavvolgimento/segno di spunta.\n\nFreccia che punta verso una parentesi quadra: Questa icona appare solo se sei andato oltre il giorno successivo che devi completare. Si trova sopra il pulsante del menu nella scheda rossa. Tocca questo simbolo per tornare all'ultimo giorno completato e al giorno successivo da iniziare."
@@ -1442,18 +1442,18 @@
       }
     ],
     "seeMore": "Mostra altro",
-    "submitButton": "Invia una richiesta di supporto",
-    "intro": "**Domande su Bibbia in un anno?**\n\nHai problemi con l'app? Inizia a descrivere qui il problema che hai riscontrato...",
-    "notFoundMessage": "Ci dispiace, non abbiamo risultati per",
+    "submitButton": "Submit a support request",
+    "intro": "**Got a question about The Bible with Nicky and Pippa Gumbel?**\n\nA problem with app? Start typing your question here...",
+    "notFoundMessage": "Sorry, we don’t have any results for",
     "title": "FAQs",
-    "filter": "Filtro",
-    "backButton": "Torna a tutte le Domande Frequenti (FAQ)",
+    "filter": "Filter",
+    "backButton": "Back to all Frequently Asked Questions (FAQs)",
     "categories": {
       "Audio": "Audio",
-      "Content": "Contenuti",
+      "Content": "Content",
       "App": "App"
     },
-    "filterHint": "Cosa stai cercando?"
+    "filterHint": "What are you looking for?"
   },
   "vi": {
     "faqsItems": [
