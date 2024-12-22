@@ -755,10 +755,10 @@
         "detailedAnswer": "La maggior parte del contenuti sarà la stessa con piccoli aggiornamenti ogni anno."
       },
       {
-        "title": "How can I manually mark a devotion as complete/incomplete?",
+        "title": "Come posso spuntare una giornata come completata/non completata?",
         "category": "App",
-        "shortAnswer": "To mark a devotion complete, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon. \n\nTo mark a devotion incomplete, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon.",
-        "detailedAnswer": "To mark a devotion complete, swipe right on the day from the list view and tap the 'tick' icon that appears next to the download/bin icon. \n\nTo mark a devotion incomplete, swipe right on the day from the list view and tap the ‘rewind’ icon that appears next to the download/bin icon."
+        "shortAnswer": "Per segnare una giornata come completata, scorri verso destra sul giorno dalla vista elenco e tocca l'icona a forma di \"spunta\" che appare accanto all'icona di download/cestino.\n\nPer segnare una giornata come non completata, scorri verso destra sul giorno dalla vista elenco e tocca l'icona \"riavvolgi\" che appare accanto all'icona di download/cestino.",
+        "detailedAnswer": "Per segnare una giornata come completata, scorri verso destra sul giorno dalla vista elenco e tocca l'icona a forma di \"spunta\" che appare accanto all'icona di download/cestino.\n\nPer segnare una giornata come non completata, scorri verso destra sul giorno dalla vista elenco e tocca l'icona \"riavvolgi\" che appare accanto all'icona di download/cestino."
       },
       {
         "title": "Can I track my reading progress per section of the devotion?",
