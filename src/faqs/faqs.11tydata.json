@@ -647,112 +647,112 @@
         "shortAnswer": "Ci sono due modi per ascoltare gli audio offline."
       },
       {
-        "title": "How many days of audio are stored on my device?",
+        "title": "Quanti audio delle giornate sono salvate sul mio dispositivo?",
         "category": "Audio",
-        "shortAnswer": "Tap on Menu > Settings > Manage Audio to find out how many days are currently stored on your device.",
-        "detailedAnswer": "Tap on Menu > Settings > Manage Audio to find out how many days are currently stored on your device."
+        "shortAnswer": "Tocca su Menu > Impostazioni > Gestisci l'audio per scoprire quanti giorni sono attualmente salvati sul tuo dispositivo.",
+        "detailedAnswer": "Tocca su Menu > Impostazioni > Gestisci l'audio per scoprire quanti giorni sono attualmente salvati sul tuo dispositivo."
       },
       {
-        "title": "What happens to my audio files if I change edition?",
+        "title": "Cosa accade ai miei file audio se cambio edizione?",
         "category": "Audio",
-        "shortAnswer": "Audio files are deleted if you change which edition your device is accessing. You can still download the audio files manually by swiping right on the day from the list view and tapping the download icon.",
-        "detailedAnswer": "Audio files are deleted if you change which edition your device is accessing. You can still download the audio files manually by swiping right on the day from the list view and tapping the download icon."
+        "shortAnswer": "I file audio vengono eliminati se cambi la versione a cui il tuo dispositivo sta accedendo. Puoi comunque scaricare manualmente i file audio scorrendo a destra sul giorno dalla vista dell'elenco e toccando l'icona di download.",
+        "detailedAnswer": "I file audio vengono eliminati se cambi la versione a cui il tuo dispositivo sta accedendo. Puoi comunque scaricare manualmente i file audio scorrendo a destra sul giorno dalla vista dell'elenco e toccando l'icona di download."
       },
       {
-        "title": "If I delete an audio file, can I ever get it back?",
+        "title": "Se elimino un file audio, posso recuperarlo?",
         "category": "Audio",
-        "shortAnswer": "You can download audio files at any time manually by swiping right on the day from the list view and clicking the download icon that appears.",
-        "detailedAnswer": "You can download audio files at any time manually by swiping right on the day from the list view and clicking the download icon that appears."
+        "shortAnswer": "Puoi scaricare i file audio in qualsiasi momento manualmente scorrendo verso destra sul giorno dalla vista dell'elenco e cliccando sull'icona di download che appare.",
+        "detailedAnswer": "Puoi scaricare i file audio in qualsiasi momento manualmente scorrendo verso destra sul giorno dalla vista dell'elenco e cliccando sull'icona di download che appare."
       },
       {
-        "title": "Do I have to download an audio file to listen to it?",
+        "title": "Devo scaricare un file audio per poterlo ascoltare?",
         "category": "Audio",
-        "shortAnswer": "No, you can stream the audio over Wi-Fi or using mobile data if you prefer.",
-        "detailedAnswer": "No, you can stream the audio over wifi or using mobile data if you prefer."
+        "shortAnswer": "No, puoi ascoltare l'audio in streaming tramite Wi-Fi o utilizzando i dati mobili, se preferisci.",
+        "detailedAnswer": "No, puoi ascoltare l'audio in streaming tramite Wi-Fi o utilizzando i dati mobili, se preferisci."
       },
       {
-        "title": "How can I skip through different sections of the audio?",
+        "title": "Come posso saltare tra le diverse sezioni dell'audio?",
         "category": "Audio",
-        "shortAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio.",
-        "detailedAnswer": "For Classic and Express editions of BiOY, the skip function on the audio player cycles through each section of the audio in this order: \n\nIntro, Proverbs/Psalm bible, Proverbs/Psalm Commentary, New Testament Bible, New Testament Commentary, Old Testament Bible, Old Testament Commentary, Pippa Adds. Additionally there is an option to skip 15 seconds forward or backwards through the audio. If you have no option to skip 15 seconds, please download the latest version of your app for this feature.\n\nThere is currently no option to skip through sections on the Youth edition."
+        "shortAnswer": "Per le edizioni Classic e Express di BiOY, la funzione di salto nel lettore audio passa attraverso ogni sezione dell'audio, se disponibile.",
+        "detailedAnswer": "Per le edizioni Classica e Youth di BiOY, la funzione di avanzamento nel lettore audio passa attraverso ogni sezione dell'audio in quest'ordine:\n\nIntroduzione, Proverbi/Salmo, Commento Proverbi/Salmi, Nuovo Testamento, Commento del Nuovo Testamento, Antico Testamento, Commento dell'Antico Testamento, Pippa aggiunge. Inoltre, c'è un'opzione per saltare avanti o indietro di 15 secondi nell'audio. Se non hai l'opzione per saltare 15 secondi, ti consigliamo di scaricare l'ultima versione dell'app per utilizzare questa funzionalità.\n\nAttualmente questa opzione non é disponibile nella lingua italiana."
       },
       {
-        "title": "Can I receive BiOY via email?",
+        "title": "Posso ricevere BiOY via email?",
         "category": "Content",
-        "shortAnswer": "Yes. You can sign up to receive the BiOY Classic commentary from the BiOY homepage.",
-        "detailedAnswer": "Yes. If you would like to receive the BiOY Classic commentary by email, or if you have stopped receiving the daily BiOY emails and would like to re-subscribe, you can [sign up or re-subscribe here](https://bibleinoneyear.org/en/#start)."
+        "shortAnswer": "Sì. Puoi iscriverti per ricevere il commento BiOY Classic dalla homepage di Bibbia in un anno.",
+        "detailedAnswer": "Sì. Se desideri ricevere il commento BiOY (versione classica) via email, o se hai smesso di ricevere le email giornaliere di BiOY e desideri ri-iscriverti, puoi [iscriverti o ri-iscriverti qui](https://bibleinoneyear.org/it/#start)."
       },
       {
-        "title": "What languages is BiOY available in?",
+        "title": "In quali lingue è disponibile BiOY?",
         "category": "Content",
-        "shortAnswer": "Arabic, Bahasa Indonesia, English, Simplified Chinese, French, German, Hindi, Spanish, and Thai. ",
-        "detailedAnswer": "The Classic edition of BiOY is now available in Arabic, Bahasa Indonesia, English, Simplified Chinese, French, German, Hindi, Spanish, and Thai. The Express edition of BiOY is available in Arabic, English and German. The Youth edition is available in Arabic and English. Audio is available in English, Hindi, Chinese and German."
+        "shortAnswer": "Arabo, Bahasa Indonesia, Inglese, Cinese semplificato, Francese, Tedesco, Hindi, Spagnolo, Thai e Italiano.",
+        "detailedAnswer": "L'edizione Classica di BiOY è ora disponibile in arabo, bahasa indonesiano, inglese, cinese semplificato, francese, tedesco, hindi, spagnolo, thailandese e italiana. L'edizione Express di BiOY è disponibile in arabo, inglese e tedesco. L'edizione Youth è disponibile in arabo, inglese e italiano. L'audio è disponibile in inglese, hindi, cinese, tedesco e italiano."
       },
       {
-        "title": "How do I access the new app Menu?",
+        "title": "Come faccio ad accedere al nuovo menu dell'app?",
         "category": "App",
-        "shortAnswer": "When opening the app you will see the list view with the day numbers and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY.",
-        "detailedAnswer": "When opening the app you will see the list view with the day numbers and titles of current and recent devotions. The menu icon (three lines on top of each other) is located at the bottom of the red bar on the side of the screen. Tap on the Menu icon to access Settings or find out more about BiOY."
+        "shortAnswer": "Quando apri l'app, vedrai la vista dell'elenco con i numeri dei giorni e i titoli delle giornate correnti e recenti. L'icona del menù (tre linee sovrapposte) si trova nella parte inferiore della barra rossa sul lato dello schermo. Tocca sull'icona del menù per accedere alle Impostazioni o per scoprire di più su BiOY.",
+        "detailedAnswer": "Quando apri l'app, vedrai la vista dell'elenco con i numeri dei giorni e i titoli delle giornate correnti e recenti. L'icona del menù (tre linee sovrapposte) si trova nella parte inferiore della barra rossa sul lato dello schermo. Tocca sull'icona del menù per accedere alle Impostazioni o per scoprire di più su BiOY."
       },
       {
-        "title": "Can I change 'Today' to a different day number?",
+        "title": "Posso cambiare \"Oggi\" con un altro numero di giorno?",
         "category": "App",
-        "shortAnswer": "If you would like to change the day number that you are on for today, please reset the app. Tap on Menu > Settings > Reset App. Follow the prompts, indicating that you are familiar with the Bible, select what plan you are on (Classic, Express or Youth edition) and the last day you got to.\n\nPlease note that your app will start on the day following the last day you got to. For example: if you select that you got to Day 23, the app will show Today as Day 24. All earlier devotions will be marked as complete when you do this.\n",
-        "detailedAnswer": "If you would like to change the day number that you are on for today, please reset the app. Tap on Menu > Settings > Reset App. Follow the prompts, indicating that you are familiar with the Bible, select what plan you are on (Classic, Express or Youth edition) and the last day you got to.\n\nPlease note that your app will start on the day following the last day you got to. For example: if you select that you got to Day 23, the app will show Today as Day 24. All earlier devotions will be marked as complete when you do this."
+        "shortAnswer": "Se desideri cambiare il numero di giorno su cui ti trovi oggi, resettando l'app, vai su Menu > Impostazioni > Ripristina l'app. Segui le istruzioni, indicando che conosci la Bibbia, seleziona quale piano stai seguendo (edizione Classica o Youth) e l'ultimo giorno a cui sei arrivato.\n\nTieni presente che l'app inizierà dal giorno successivo all'ultimo giorno a cui sei arrivato. Ad esempio, se selezioni di essere arrivato al Giorno 23, l'app mostrerà Oggi come il Giorno 24. Tutte le letture precedenti saranno contrassegnate come completate quando lo farai.",
+        "detailedAnswer": "Se desideri cambiare il numero di giorno su cui ti trovi oggi, resettando l'app, vai su Menu > Impostazioni > Ripristina l'app. Segui le istruzioni, indicando che conosci la Bibbia, seleziona quale piano stai seguendo (edizione Classica o Youth) e l'ultimo giorno a cui sei arrivato.\n\nTieni presente che l'app inizierà dal giorno successivo all'ultimo giorno a cui sei arrivato. Ad esempio, se selezioni di essere arrivato al Giorno 23, l'app mostrerà Oggi come il Giorno 24. Tutte le letture precedenti saranno contrassegnate come completate quando lo farai."
       },
       {
-        "title": "Why have you updated the app?",
+        "title": "Perché hai aggiornato l'app?",
         "category": "App",
-        "shortAnswer": "We needed to move the app to a new platform to enable us to add more functionality and quality-of-life improvements that were not possible in the legacy BiOY app. Simply put, in order to improve the app, we had to rebuild it from the bottom up.",
-        "detailedAnswer": "We needed to move the app to a new platform to enable us to add more functionality and quality-of-life improvements that were not possible in the legacy BiOY app. Simply put, in order to improve the app, we had to rebuild it from the bottom up."
+        "shortAnswer": "Abbiamo dovuto trasferire l'app su una nuova piattaforma per permetterci di aggiungere più funzionalità e miglioramenti nella qualità della vita che non erano possibili nell'app BiOY precedente. In poche parole, per migliorare l'app, abbiamo dovuto ricostruirla da zero.",
+        "detailedAnswer": "Abbiamo dovuto trasferire l'app su una nuova piattaforma per permetterci di aggiungere più funzionalità e miglioramenti nella qualità della vita che non erano possibili nell'app BiOY precedente. In poche parole, per migliorare l'app, abbiamo dovuto ricostruirla da zero."
       },
       {
-        "title": "How can I donate via the app?",
+        "title": "Come posso fare una donazione tramite l'app?",
         "category": "App",
-        "shortAnswer": "Thank you for considering giving toward BiOY, you can donate through the app (tap on Menu > Give: Support the ministry of BiOY) or here on the BiOY website - click 'donate' at the top of the home page.",
-        "detailedAnswer": "Thank you for considering giving toward BiOY, you can donate through the app (tap on Menu > Give: Support the ministry of BiOY) or [here on the BiOY website](https://bibleinoneyear.org/en/donate/) - click 'donate' at the top of the home page."
+        "shortAnswer": "Grazie per considerare una donazione per BiOY. Puoi fare una donazione tramite l'app (tocca su Menu > Dona: Supporta il nostro ministero) oppure qui sul sito di BiOY - clicca su 'dona' in cima alla pagina principale.",
+        "detailedAnswer": "Grazie per considerare una donazione per BiOY. Puoi fare una donazione tramite l'app (tocca su Menu > Dona: Supporta il nostro ministero) oppure [qui sul sito di BiOY](https://bibleinoneyear.org/en/donate/) - clicca su \"dona\" in cima alla pagina principale."
       },
       {
-        "title": "Does this really contain the whole bible?",
+        "title": "Contiene davvero tutta la Bibbia?",
         "category": "Content",
-        "shortAnswer": "The entire bible is covered in the Classic edition of BiOY. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.",
-        "detailedAnswer": "The entire bible is covered in the Classic edition of BiOY. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.\n\nThe Youth and Express editions provide an abridged version of the Classic BiOY with selected scriptures from the book of Psalms or Proverbs, the New Testament and Old Testament. Not every verse in the bible is covered in these editions, however they do give a full experience of the bible."
+        "shortAnswer": "L'edizione Classica include tutta Bibbia, ad esclusione dei libri deuterocanonici. Ogni giorno leggerai o ascolterai un passo tratto dai Sapienziali, una parte del Nuovo Testamento e dell'Antico Testamento.",
+        "detailedAnswer": "L'edizione Classica include tutta Bibbia, ad esclusione dei libri deuterocanonici. Ogni giorno leggerai o ascolterai un passo tratto dai Sapienziali, una parte del Nuovo Testamento e dell'Antico Testamento.\n\nLe edizioni Youth ed Express offrono una versione ridotta del BiOY Classic con scritture selezionate dai libri dei Salmi o dei Proverbi, dal Nuovo Testamento e dall'Antico Testamento. Non tutti i versetti della Bibbia sono inclusi in queste edizioni, ma esse offrono comunque un'esperienza completa della Bibbia."
       },
       {
-        "title": "I missed a day, can I catch up?",
+        "title": "Ho saltato un giorno, posso recuperarlo?",
         "category": "Content",
-        "shortAnswer": "Yes, you can catch up because the content for the whole year is now available on the app. Tap on the day you missed in your list view. Once completed, swipe right to return to the list view and select another day. ",
-        "detailedAnswer": "Yes, you can catch up because the content for the whole year is now available on the app. Tap on the day you missed in your list view. Once completed, swipe right to return to the list view and select another day."
+        "shortAnswer": "Sì, puoi recuperare perché il contenuto per tutto l'anno è ora disponibile nell'app. Tocca il giorno che hai saltato nella vista elenco. Una volta completato, scorri a destra per tornare alla vista elenco e selezionare un altro giorno.",
+        "detailedAnswer": "Sì, puoi recuperare perché il contenuto per tutto l'anno è ora disponibile nell'app. Tocca il giorno che hai saltato nella vista elenco. Una volta completato, scorri a destra per tornare alla vista elenco e selezionare un altro giorno."
       },
       {
-        "title": "What editions are available?",
+        "title": "Quali edizioni sono disponibili?",
         "category": "Content",
-        "shortAnswer": "In addition to the BiOY Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 11 - 13 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team and takes 12 - 14 minutes).",
-        "detailedAnswer": "In addition to the BiOY Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 11 - 13 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team and takes 12 - 14 minutes)."
+        "shortAnswer": "In aggiunta all'edizione Classica di BiOY (che dura circa 12-13 minuti), c'è anche l'opzione Youth (della medesima durata, ma con porzioni della Scrittura scelte).",
+        "detailedAnswer": "In aggiunta all'edizione Classica di BiOY (che dura circa 12-13 minuti), c'è anche l'opzione Youth (della medesima durata, ma con porzioni della Scrittura scelti)."
       },
       {
-        "title": "Whose voices am I hearing in the audio tracks?",
+        "title": "Di chi é la voce che sento nei commenti audio?",
         "category": "Audio",
-        "shortAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team.",
-        "detailedAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team."
+        "shortAnswer": "Al momento nella versione italiana é disponibile solo il commento audio narrato dal podcaster Gianluca Melilli.",
+        "detailedAnswer": "Al momento nella versione italiana é disponibile solo il commento audio narrato dal podcaster Gianluca Melilli."
       },
       {
-        "title": "Can I synchronise the BiOY app between my phone and tablet?",
+        "title": "Posso sincronizzare l'app BiOY tra il mio smartphone e il mio tablet?",
         "category": "Audio",
-        "shortAnswer": "Not yet. There is currently no way to sync your progress through BiOY, although this is a feature that is being considered for 2022.",
-        "detailedAnswer": "Not yet. There is currently no way to sync your progress through BiOY, although this is a feature that is being considered for 2022."
+        "shortAnswer": "Accedendo alla sezione Profilo avrai modo di creare un account che ti consenta di salvare i progressi e le impostazioni, di sincronizzarsi trai vari dispositivi e di sbloccare ulteriori funzioni dell'app.",
+        "detailedAnswer": "Accedendo alla sezione Profilo avrai modo di creare un account che ti consenta di salvare i progressi e le impostazioni, di sincronizzarsi trai vari dispositivi e di sbloccare ulteriori funzioni dell'app."
       },
       {
-        "title": "Will the BiOY automatically reset after I complete Day 365?",
+        "title": "L'app BiOY si resetterà automaticamente dopo aver completato il Giorno 365?",
         "category": "Content",
-        "shortAnswer": "No, the app is designed to prevent you loosing your progress if you have not completed over 255 days of devotions. Provided you are on version 8.4.0 of the app or later, the app will ask if you would like to restart the year once you have read more than 255 days of devotions, including December 31st. \n\nIf you would like to restart from Day 1 before completing the previous year, you will need to either scroll to the top of the list view and tap on the 'Start a new year' button or reset the app (tap on Menu > Settings > Reset app), which will allow you to go through the onboarding process again and select 'Day 1' as your start point.\n",
-        "detailedAnswer": "No, the app is designed to prevent you loosing your progress if you have not completed over 255 days of devotions. Provided you are on version 8.4.0 of the app or later, the app will ask if you would like to restart the year once you have read more than 255 days of devotions, including December 31st. \n\nIf you would like to restart from Day 1 before completing the previous year, you will need to either scroll to the top of the list view and tap on the 'Start a new year' button or reset the app (tap on Menu > Settings > Reset app), which will allow you to go through the onboarding process again and select 'Day 1' as your start point."
+        "shortAnswer": "No, l'app è progettata per evitare che tu perda i tuoi progressi se non hai completato più di 255 giorni. A condizione che tu stia utilizzando la versione 8.4.0 dell'app o successive, l'app ti chiederà se desideri riavviare l'anno una volta che avrai letto più di 255 giorni di devozioni, incluso il 31 dicembre.\n\nSe desideri ripartire dal Giorno 1 prima di aver completato l'anno precedente, dovrai scorrere fino alla parte superiore della vista elenco e fare clic sul pulsante \"Inizia un nuovo anno\" oppure resettare l'app (tocca su Menu > Impostazioni > Resetta l'app), il che ti consentirà di seguire nuovamente il processo di benvenuto/introduzione e selezionare \"Giorno 1\" come punto di partenza.",
+        "detailedAnswer": "No, l'app è progettata per evitare che tu perda i tuoi progressi se non hai completato più di 255 giorni. A condizione che tu stia utilizzando la versione 8.4.0 dell'app o successive, l'app ti chiederà se desideri riavviare l'anno una volta che avrai letto più di 255 giorni di devozioni, incluso il 31 dicembre.\n\nSe desideri ripartire dal Giorno 1 prima di aver completato l'anno precedente, dovrai scorrere fino alla parte superiore della vista elenco e fare clic sul pulsante \"Inizia un nuovo anno\" oppure resettare l'app (tocca su Menu > Impostazioni > Resetta l'app), il che ti consentirà di seguire nuovamente il processo di benvenuto/introduzione e selezionare \"Giorno 1\" come punto di partenza."
       },
       {
-        "title": "Is the commentary the same every year?",
+        "title": "Il commento è lo stesso ogni anno?",
         "category": "Content",
-        "shortAnswer": "The majority of the content will be the same with small updates each year.",
-        "detailedAnswer": "The majority of the content will be the same with small updates each year."
+        "shortAnswer": "La maggior parte del contenuti sarà la stessa con piccoli aggiornamenti ogni anno.",
+        "detailedAnswer": "La maggior parte del contenuti sarà la stessa con piccoli aggiornamenti ogni anno."
       },
       {
         "title": "How can I manually mark a devotion as complete/incomplete?",
