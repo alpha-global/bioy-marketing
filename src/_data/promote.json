@@ -100,14 +100,14 @@
   },
   "it": {
     "promote": {
-      "title": "Scarica l'app La Bibbia in un anno",
-      "subTitle": "Diffondi la voce sulla Bibbia in un anno",
+      "title": "Scarica l'app Bibbia in un anno",
+      "subTitle": "Diffondi la voce su Bibbia in un anno",
       "qrImage": "/assets/img/qr-code.png",
-      "image": "/assets/img/promote.jpeg",
+      "image": "/assets/img/3-3.png",
       "howToShare": "Come condividere",
       "ctaText": "Leggi la Bibbia on-line",
       "qrCode": {
-        "caption": "Scan to install the app",
+        "caption": "Scansiona per installare l'app",
         "image": "/assets/img/qr-code-translatable.png"
       }
     },
