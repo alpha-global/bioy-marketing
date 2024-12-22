@@ -133,12 +133,12 @@
   "ar": {
     "intro": "Bom dia!",
     "header": {
-      "title": "Vuoi conoscere la Bibbia?",
-      "strapline": "Ti guideremo attraverso di essa, passo dopo passo.",
-      "cta": "Andiamo",
+      "title": "هل تريد التعرف على الكتاب المقدس؟",
+      "strapline": "سنأخذك في رحلة عبره، خطوة بخطوة.",
+      "cta": "هيا بنا!",
       "img": {
         "src": "/assets/img/bioy-lead.jpg",
-        "desc": "Una donna alza lo sguardo dopo aver letto la Bibbia in un anno sul suo telefono."
+        "desc": "امرأة تنظر إلى خريطة، تقف تائهة في وسط غابة."
       }
     },
     "about": {
