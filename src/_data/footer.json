@@ -187,12 +187,12 @@
     "cta": "Scarica l'app oggi stesso",
     "nav": [
       {
-        "href": "https://www.alpha.org/",
+        "href": "https://alphaitalia.org",
         "label": "Alpha",
         "external": true
       },
       {
-        "label": "Contatto",
+        "label": "Contatti",
         "href": "https://bibleinoneyear.org/it/faqs/ticket/"
       },
       {
@@ -201,13 +201,13 @@
         "external": true
       },
       {
-        "href": "https://themarriagecourse.org/",
+        "href": "https://alphaitalia.org/the-marriage-course/",
         "label": "The Marriage Course",
         "external": true
       },
       {
         "href": "/it/donate",
-        "label": "Donare",
+        "label": "Dona",
         "external": false
       },
       {
@@ -217,7 +217,7 @@
       },
       {
         "href": "/it/privacy-policy/",
-        "label": "Riservatezza",
+        "label": "Privacy",
         "external": false
       },
       {
@@ -227,7 +227,7 @@
       },
       {
         "href": "/it/promote/",
-        "label": "Promote",
+        "label": "Promuovi",
         "external": false
       }
     ],
@@ -237,7 +237,7 @@
       "instagram": "nickygumbel"
     },
     "copyright": {
-      "description": "BiOY is part of Alpha International. Alpha International is a charity registered in England & Wales (no. 1086179) and in Scotland (no. SC042906) and a private company limited by guarantee and registered in England & Wales (no. 4157379). The registered office is at HTB Brompton Road SW7 1JA.",
+      "description": "BiOY fa parte di Alpha International. Alpha International è un’organizzazione benefica registrata in Inghilterra e Galles (n. 1086179) e in Scozia (n. SC042906), nonché una società privata a responsabilità limitata registrata in Inghilterra e Galles (n. 4157379). La sede legale si trova presso HTB Brompton Road, SW7 1JA.",
       "title": "Copyright Alpha International"
     }
   },
