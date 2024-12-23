@@ -114,7 +114,7 @@
       {
         "channel": "Email",
         "icon": "medium_email",
-        "description": "Iscriviti ora per ricevere la Bibbia in un anno nella tua casella di posta ogni mattina. Riceverai un'email al giorno.",
+        "description": "Iscriviti ora per ricevere Bibbia in un anno nella tua casella di posta ogni mattina. Riceverai un'email al giorno.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
           "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>"
@@ -123,7 +123,7 @@
       {
         "channel": "Website",
         "icon": "medium_website",
-        "description": "Inizia a leggere la devozione di oggi proprio qui sul sito web di BiOY.",
+        "description": "Inizia a leggere la giornata di oggi proprio qui sul sito web di BiOY.",
         "image": "/assets/img/medium_laptop.jpg",
         "cta": {
           "code": "<a href=\"#todays-devotion\" class=\"whiteButton\">Read now</a>"
