@@ -1323,44 +1323,44 @@
       {
         "title": "Does this really contain the whole bible?",
         "category": "Content",
-        "shortAnswer": "L'edizione Classica include tutta Bibbia, ad esclusione dei libri deuterocanonici. Ogni giorno leggerai o ascolterai un passo tratto dai Sapienziali, una parte del Nuovo Testamento e dell'Antico Testamento.",
-        "detailedAnswer": "L'edizione Classica include tutta Bibbia, ad esclusione dei libri deuterocanonici. Ogni giorno leggerai o ascolterai un passo tratto dai Sapienziali, una parte del Nuovo Testamento e dell'Antico Testamento.\n\nLe edizioni Youth ed Express offrono una versione ridotta del BiOY Classic con scritture selezionate dai libri dei Salmi o dei Proverbi, dal Nuovo Testamento e dall'Antico Testamento. Non tutti i versetti della Bibbia sono inclusi in queste edizioni, ma esse offrono comunque un'esperienza completa della Bibbia."
+        "shortAnswer": "The entire bible is covered in the Classic edition of The Bible with Nicky and Pippa Gumbel. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.",
+        "detailedAnswer": "The entire bible is covered in the Classic edition of The Bible with Nicky and Pippa Gumbel. Each day you'll read or listen to a Psalm or Proverb, and part of the New Testament and Old Testament.\n\nThe Youth and Express editions provide an abridged version of the Classic The Bible with Nicky and Pippa Gumbel, with selected scriptures from the book of Psalms or Proverbs, the New Testament and Old Testament. Not every verse in the bible is covered in these editions, however, they do give a full experience of the bible."
       },
       {
-        "title": "Ho saltato un giorno, posso recuperarlo?",
+        "title": "I missed a day, can I catch up?",
         "category": "Content",
-        "shortAnswer": "Sì, puoi recuperare perché il contenuto per tutto l'anno è ora disponibile nell'app. Tocca il giorno che hai saltato nella vista elenco. Una volta completato, scorri a destra per tornare alla vista elenco e selezionare un altro giorno.",
-        "detailedAnswer": "Sì, puoi recuperare perché il contenuto per tutto l'anno è ora disponibile nell'app. Tocca il giorno che hai saltato nella vista elenco. Una volta completato, scorri a destra per tornare alla vista elenco e selezionare un altro giorno."
+        "shortAnswer": "Yes, you can catch up because the content for the whole year is now available on the app. Tap on the day you missed in your list view. Once completed, swipe right to return to the list view and select another day. ",
+        "detailedAnswer": "Yes, you can catch up because the content for the whole year is now available on the app. Tap on the day you missed in your list view. Once completed, swipe right to return to the list view and select another day."
       },
       {
-        "title": "Quali edizioni sono disponibili?",
+        "title": "What editions are available?",
         "category": "Content",
-        "shortAnswer": "In aggiunta all'edizione Classica di BiOY (che dura circa 12-13 minuti), c'è anche l'opzione Youth (della medesima durata, ma con porzioni della Scrittura scelti).",
-        "detailedAnswer": "In aggiunta all'edizione Classica di BiOY (che dura circa 12-13 minuti), c'è anche l'opzione Youth (della medesima durata, ma con porzioni della Scrittura scelti)."
+        "shortAnswer": "In addition to The Bible with Nicky and Pippa Gumbel Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 11 - 13 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team and takes 12 - 14 minutes).",
+        "detailedAnswer": "In addition to The Bible with Nicky and Pippa Gumbel Classic edition (which takes around 25 minutes) there is also an option to do an Express edition (which takes 11 - 13 minutes) or the Youth edition (which is co-hosted by Toby Stokes, a member of the HTB Youth team and takes 12 - 14 minutes)."
       },
       {
-        "title": "Di chi é la voce che sento nei commenti audio?",
+        "title": "Whose voices am I hearing in the audio tracks?",
         "category": "Audio",
-        "shortAnswer": "Al momento nella versione italiana é disponibile solo il commento audio narrato dal podcaster Gianluca Melilli.",
-        "detailedAnswer": "Al momento nella versione italiana é disponibile solo il commento audio narrato dal podcaster Gianluca Melilli."
+        "shortAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team.",
+        "detailedAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team."
       },
       {
-        "title": "Posso sincronizzare l'app BiOY tra il mio smartphone e il mio tablet?",
+        "title": "Can I synchronise The Bible with Nicky and Pippa Gumbel app between my phone and tablet?",
         "category": "Audio",
-        "shortAnswer": "Accedendo alla sezione Profilo avrai modo di creare un account che ti consenta di salvare i progressi e le impostazioni, di sincronizzarsi trai vari dispositivi e di sbloccare ulteriori funzioni dell'app.",
-        "detailedAnswer": "Accedendo alla sezione Profilo avrai modo di creare un account che ti consenta di salvare i progressi e le impostazioni, di sincronizzarsi trai vari dispositivi e di sbloccare ulteriori funzioni dell'app."
+        "shortAnswer": "Not yet. There is currently no way to sync your progress through The Bible with Nicky and Pippa Gumbel, although this is a feature that is being launched in 2024.",
+        "detailedAnswer": "Not yet. There is currently no way to sync your progress through The Bible with Nicky and Pippa Gumbel, although this is a feature that is being launched in 2024."
       },
       {
-        "title": "L'app BiOY si resetterà automaticamente dopo aver completato il Giorno 365?",
+        "title": "Will the BNAP automatically reset after I complete Day 365?",
         "category": "Content",
         "shortAnswer": "No, the app is designed to prevent you loosing your progress if you have not completed over 255 days of devotions. Provided you are on version 8.4.0 of the app or later, the app will ask if you would like to restart the year once you have read more than 255 days of devotions, including December 31st. \n\nIf you would like to restart from Day 1 before completing the previous year, you will need to either scroll to the top of the list view and tap on the 'Start a new year' button or reset the app (tap on Menu > Settings > Reset app), which will allow you to go through the onboarding process again and select 'Day 1' as your start point.\n",
-        "detailedAnswer": "No, l'app è progettata per evitare che tu perda i tuoi progressi se non hai completato più di 255 giorni. A condizione che tu stia utilizzando la versione 8.4.0 dell'app o successive, l'app ti chiederà se desideri riavviare l'anno una volta che avrai letto più di 255 giorni di devozioni, incluso il 31 dicembre.\n\nSe desideri ripartire dal Giorno 1 prima di aver completato l'anno precedente, dovrai scorrere fino alla parte superiore della vista elenco e fare clic sul pulsante \"Inizia un nuovo anno\" oppure resettare l'app (tocca su Menu > Impostazioni > Resetta l'app), il che ti consentirà di seguire nuovamente il processo di benvenuto/introduzione e selezionare \"Giorno 1\" come punto di partenza."
+        "detailedAnswer": "No, the app is designed to prevent you loosing your progress if you have not completed over 255 days of devotions. Provided you are on version 8.4.0 of the app or later, the app will ask if you would like to restart the year once you have read more than 255 days of devotions, including December 31st. \n\nIf you would like to restart from Day 1 before completing the previous year, you will need to either scroll to the top of the list view and tap on the 'Start a new year' button or reset the app (tap on Menu > Settings > Reset app), which will allow you to go through the onboarding process again and select 'Day 1' as your start point."
       },
       {
-        "title": "Il commento è lo stesso ogni anno?",
+        "title": "Is the commentary the same every year?",
         "category": "Content",
-        "shortAnswer": "La maggior parte del contenuti sarà la stessa con piccoli aggiornamenti ogni anno.",
-        "detailedAnswer": "La maggior parte del contenuti sarà la stessa con piccoli aggiornamenti ogni anno."
+        "shortAnswer": "The majority of the content will be the same with small updates each year.",
+        "detailedAnswer": "The majority of the content will be the same with small updates each year."
       },
       {
         "title": "How can I manually mark a devotion as complete/incomplete?",
