@@ -128,32 +128,32 @@
     }
   },
   "it": {
-    "title": "La Bibbia in un anno",
+    "title": "Bibbia in un anno",
     "switcher": {
-      "title": "Change Language",
-      "subTitle": "The Bible with Nicky and Pippa Gumbel is available in the following languages:"
+      "title": "Cambia lingua",
+      "subTitle": "Bibbia in un anno è disponibile nelle seguenti lingue:"
     },
     "social": {
-      "desc": "Start your day with The Bible with Nicky and Pippa Gumbel, a free Bible reading app from HTB and the Alpha Course with commentary by Nicky and Pippa Gumbel.",
+      "desc": "Inizia la tua giornata con la Bibbia insieme a Nicky e Pippa Gumbel, un’app gratuita per la lettura della Bibbia creata da HTB e dal Corso Alpha, con i commenti di Nicky e Pippa Gumbel.",
       "img": "/assets/img/bioy-og-en.jpg"
     },
     "cookies": {
-      "text": "This website stores data such as cookies to enable necessary site functionality and analytics.",
-      "cta": "Find out more",
-      "closeButton": "Close"
+      "text": "Questo sito web memorizza dati come i cookie per abilitare le funzionalità necessarie del sito e le analisi.",
+      "cta": "Scopri di più",
+      "closeButton": "Chiudi"
     },
     "signUpForm": {
-      "title": "The Bible with Nicky and Pippa Gumbel",
-      "helpText": "Sign up to receive each day's The Bible with Nicky and Pippa Gumbel reading in your inbox.",
-      "fieldLabel1": "Primary Email Address",
-      "fieldLabel2": "First Name",
-      "privacyText": "If you would like to know how Alpha processes your data, please view Alpha's <Privacy Policy>.",
+      "title": "Bibbia in un anno",
+      "helpText": "\nIscriviti per ricevere ogni giorno Bibbia in un anno nella tua casella di posta.",
+      "fieldLabel1": " Indirizzo email principale",
+      "fieldLabel2": "Nome",
+      "privacyText": "Se desideri sapere come Alpha gestisce i tuoi dati, consulta la Politica della Privacy di Alpha.",
       "privacyLink": "https://bibleinoneyear.org/it/privacy-policy/",
-      "ButtonText": "Sign up now"
+      "ButtonText": "Registrati ora"
     },
     "404Page": {
-      "description": "Sorry, that page doesn't exist",
-      "goHomeButton": "Go Home"
+      "description": "Ci dispiace, la pagine non esiste!",
+      "goHomeButton": "Torna alla pagina iniziale"
     },
     "promo": {
       "img": "/assets/img/pop-up3.jpg",
