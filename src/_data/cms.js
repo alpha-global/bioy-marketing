@@ -1,10 +1,8 @@
 const EleventyFetch = require('@11ty/eleventy-fetch');
 const { variants } = require('./globals');
 const { calculateDateRange } = require('../../utils/helpers');
-const dayjs = require('dayjs');
-const leapYearPlugin = require('dayjs/plugin/isLeapYear');
 
-dayjs.extend(leapYearPlugin);
+
 
 /**
  * Fetch devotion range
@@ -59,66 +57,6 @@ async function _fetchDevotionRangeFromUrl(url, devotions) {
   return devotions;
 }
 
-function isLeapYear() {
-  const year = new Date().getFullYear();
-  const isLeap = dayjs(year.toString(), 'YYYY').isLeapYear();
-  return isLeap;
-}
-
-function includeLeapYear(data) {
-  const minNumber = data.reduce((acc, item) => Math.min(acc, item.number), 400);
-  const maxNumber = data.reduce((acc, item) => Math.max(acc, item.number), -1);
-  if (maxNumber < 59) return false;
-  if (minNumber > 61) return false;
-
-  return true;
-}
-
-async function injectLeapYear(data) {
-  // if not leapyear, return data minus the leap year content
-  if (!isLeapYear()) return data;
-
-
-  // this is a leap year get the LY content
-  const leapYear = [];
-
-  for (const [variant, locales] of Object.entries(variants)) {
-    for (const locale of locales) {
-      const day60 = await fetchDevotionRange(366, 366, locale, variant);
-      if (!day60.length) continue;
-      const item = day60[0];
-      item.number = 60;
-      item.url = item.url.replace('366', '60');
-      leapYear.push(item);
-    }
-  }
-
-  const preDays = data.filter((item) => item.number < 60);
-  const postDays = data.filter((item) => item.number >= 60).map((item) => {
-    // bump the day number by 1
-    const newId = item.number + 1;
-    item.number = newId;
-    // change the url
-    item.url = `/${item.locale}/${item.variant}/${newId}`;
-    return item;
-  });
-
-  if (!includeLeapYear(data)) {
-    // date range not near 29 Feb, so 
-    // one of the following will be empty
-    return [
-      ...preDays,
-      ...postDays
-    ];
-  }
-
-  return [
-    ...preDays,
-    ...leapYear,
-    ...postDays
-  ];
-
-}
 
 module.exports = async function () {
 
@@ -148,8 +86,7 @@ module.exports = async function () {
       }
     }
 
-    const adjusted = injectLeapYear(data);
-    return adjusted;
+    return data;
   } catch (e) {
     console.error('\n\nTalking to CMS API failed\n\n');
   }
