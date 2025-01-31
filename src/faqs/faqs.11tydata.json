@@ -240,6 +240,12 @@
   "en": {
     "faqsItems": [
       {
+        "detailedAnswer": "First open the **Settings**. Then, select **‘Account’** at the top of the list and choose **‘Login or Create Account’**. Scroll down to **‘Create an Alpha Account’** and fill in the required details.\n\nOnce you've completed this, you'll be redirected back to the Settings screen within the app. To confirm you're logged in, check that your name and email are visible in the Account section.\n\nCreating an account will allow you to synchronise progress across multiple devices.",
+        "shortAnswer": "First open the Settings. Then, select ‘Account’ at the top of the list and choose ‘Login or Create Account’. Scroll down to ‘Create an Alpha Account’ and fill in the required details.",
+        "title": "How do I create an account?",
+        "category": "App"
+      },
+      {
         "title": "I can’t see beyond Day One after my first install",
         "category": "Content",
         "shortAnswer": "Any new user of The Bible with Nicky and Pippa Gumbel app will need to step through an ‘onboarding process’. Here we help you find the best route to start your Bible reading journey. Once completed, there are two options for you to choose from before you begin. ‘Start Now’ or ‘Explore the app’...",
@@ -432,10 +438,10 @@
         "detailedAnswer": "Bible readings have been provided by David Suchet. Other voices that you will hear include Nicky and Pippa Gumbel. The Youth edition includes Toby Stokes, a member of the HTB Youth team."
       },
       {
-        "title": "Can I synchronise The Bible with Nicky and Pippa Gumbel app between my phone and tablet?",
-        "category": "Audio",
-        "shortAnswer": "Not yet. There is currently no way to sync your progress through The Bible with Nicky and Pippa Gumbel, although this is a feature that is being launched in 2024.",
-        "detailedAnswer": "Not yet. There is currently no way to sync your progress through The Bible with Nicky and Pippa Gumbel, although this is a feature that is being launched in 2024."
+        "title": "How Do I Sync Progress Across Devices?",
+        "category": "App",
+        "shortAnswer": "To synchronise progress across multiple devices, create an Alpha account. (Refer to How Do I Create an account?)\n\nAfter signing up, a progress toggle will appear on the Account screen.\n\nWhen this toggle is switched on, your progress will be saved across all devices that you log into.",
+        "detailedAnswer": "To synchronise progress across multiple devices, create an Alpha account. (Refer to How Do I Create an account?)\n\nAfter signing up, a progress toggle will appear on the Account screen.\n\nWhen this toggle is switched on, your progress will be saved across all devices that you log into.\n\nIf you have different editions or content active on separate devices, you will be prompted to select which edition or content you want to link to your account. Choosing one will erase the progress from the other.\n\nPlease let me know if you are okay with the above or if there are any changes I should make before I publish."
       },
       {
         "title": "Will the BNAP automatically reset after I complete Day 365?",
@@ -526,12 +532,6 @@
         "category": "Content",
         "detailedAnswer": "To accommodate Leap Year (29th February 2024), we introduced an extra day of special Leap Year content on our website. This adjustment effectively shifted our content schedule - making Leap Year content Day 60, pushing the original Day 60 to Day 61, and so forth. If you've been following our plan from 1st January 2024, you'll find everything in its expected place on the website. \n\nHowever, the app's schedule remained unchanged. Leap Year content was viewed on the website, via a pop-up link, without altering the app's calendar. As a result, those who started on 1st January and follow every day's content, including Leap Day, are technically a day ahead in the app, concluding the plan on 30th December, not the 31st.\n\nIf you’d like your app's schedule to mirror the website's, complete with a day off:\n\nNavigate to the menu, select settings, and choose 'reset app.'\n\nWhen prompted, select the day *before* the one you want to start on e.g. Day 70, to start on Day 71.\n\nWe're actively looking into a more permanent solution and appreciate your patience in the meantime. Our sincerest apologies for any confusion this discrepancy may have caused. Thank you for your understanding and continued support.",
         "shortAnswer": "To accommodate Leap Year (29th February 2024), we introduced an extra day of special Leap Year content on our website. This adjustment effectively shifted our content schedule - making Leap Year content Day 60, pushing the original Day 60 to Day 61, and so forth. If you've been following our plan from 1st January 2024, you'll find everything in its expected place on the website. \n\nHowever, the app's schedule remained unchanged."
-      },
-      {
-        "detailedAnswer": "First open the **Settings**. Then, select **‘Account’** at the top of the list and choose **‘Login or Create Account’**. Scroll down to **‘Create an Alpha Account’** and fill in the required details.\n\nOnce you've completed this, you'll be redirected back to the Settings screen within the app. To confirm you're logged in, check that your name and email are visible in the Account section.\n\nCreating an account will allow you to synchronise progress across multiple devices.",
-        "shortAnswer": "First open the Settings. Then, select ‘Account’ at the top of the list and choose ‘Login or Create Account’. Scroll down to ‘Create an Alpha Account’ and fill in the required details.",
-        "title": "How do I create an account?",
-        "category": "App"
       }
     ],
     "seeMore": "See More",
