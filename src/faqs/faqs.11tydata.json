@@ -240,8 +240,8 @@
   "en": {
     "faqsItems": [
       {
-        "detailedAnswer": "First open the **Settings**. Then, select **‘Account’** at the top of the list and choose **‘Login or Create Account’**. Scroll down to **‘Create an Alpha Account’** and fill in the required details.\n\nOnce you've completed this, you'll be redirected back to the Settings screen within the app. To confirm you're logged in, check that your name and email are visible in the Account section.\n\nCreating an account will allow you to synchronise progress across multiple devices.",
-        "shortAnswer": "First open the Settings. Then, select ‘Account’ at the top of the list and choose ‘Login or Create Account’. Scroll down to ‘Create an Alpha Account’ and fill in the required details.",
+        "detailedAnswer": "1. Go to **Settings** in the app.\n2. Select **Account** at the top, then tap **Login or Create Account**.\n3. Scroll down and choose **Create an Alpha Account**.\n4. Enter the required details to complete the registration.\n\nOnce done, you'll be redirected back to the Settings screen. Your name and email will appear under **Account** to confirm you're logged in.\n\nCreating an account enables you to sync your progress across multiple devices.",
+        "shortAnswer": "1. Go to 'Settings' in the app.\n2. Select 'Account' at the top, then tap 'Login or Create Account'.\n3. Scroll down and choose 'Create an Alpha Account'.\n4. Enter the required details to complete the registration.",
         "title": "How do I create an account?",
         "category": "App"
       },
