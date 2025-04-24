@@ -5,51 +5,6 @@
 @layer base {
   @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Work+Sans:wght@400;700&display=swap');
 
-  @font-face {
-    font-family: 'AvantGardeGothicITC';
-    src: url('/assets/fonts/ITCAvantGardeStd-Md.eot');
-    src:
-      url('/assets/fonts/ITCAvantGardeStd-Md.eot?#iefix') format('embedded-opentype'),
-      url('/assets/fonts/ITCAvantGardeStd-Md.woff2') format('woff2'),
-      url('/assets/fonts/ITCAvantGardeStd-Md.woff') format('woff'),
-      url('/assets/fonts/ITCAvantGardeStd-Md.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: 'AvantGardeGothicITC';
-    src: url('/assets/fonts/ITCAvantGardeStd-Demi.eot');
-    src:
-      url('/assets/fonts/ITCAvantGardeStd-Demi.eot?#iefix') format('embedded-opentype'),
-      url('/assets/fonts/ITCAvantGardeStd-Demi.woff2') format('woff2'),
-      url('/assets/fonts/ITCAvantGardeStd-Demi.woff') format('woff'),
-      url('/assets/fonts/ITCAvantGardeStd-Demi.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: 'AvantGardeGothicITC';
-    src: url('/assets/fonts/ITCAvantGardeStd-Bold.eot');
-    src:
-      url('/assets/fonts/ITCAvantGardeStd-Bold.eot?#iefix') format('embedded-opentype'),
-      url('/assets/fonts/ITCAvantGardeStd-Bold.woff2') format('woff2'),
-      url('/assets/fonts/ITCAvantGardeStd-Bold.woff') format('woff'),
-      url('/assets/fonts/ITCAvantGardeStd-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-  }
-  @font-face {
-    font-family: 'AvantGardeGothicITC';
-    src: url('/assets/fonts/ITCAvantGardeStdXLt.otf');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-  }
   /* Input Range Default Styles */
   input[type='range'] {
     @apply appearance-none border-none bg-transparent outline-none;
