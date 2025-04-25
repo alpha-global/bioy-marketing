@@ -24,40 +24,40 @@
           <div class="absolute flex mt-6 lg:mt-9 gap-x-11 md:gap-x-6">
             <div class="relative">
               <button @click="showEditions = !showEditions"
-                      class="flex items-center justify-center rounded-[2px] border border-red bg-transparent px-2 text-xs uppercase text-black md:px-3 md:text-lg pt-1 md:font-medium">
+                      class="flex items-center justify-center rounded-[2px] border border-red bg-transparent px-2 text-xs uppercase text-black md:px-3 md:text-lg pt-1 md:font-semibold">
                 <span>{{ devotion.variant }}</span>
               </button>
               <div x-cloak
                    x-show="showEditions"
-                   class="absolute divide-y-2 bg-red text-[14px] leading-4 text-white font-normal md:font-medium mt-3 md:mt-7">
+                   class="absolute divide-y-2 bg-red text-[14px] leading-4 text-white font-normal md:font-semibold mt-3 md:mt-7">
                 {% if devotion.variant !== 'classic' %}
                   <a href="/{{ locale }}/classic/{{ devotion.number }}"
-                     class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">
+                     class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-semibold">
                     <button>{{ editions[locale].classic }}</button>
                   </a>
                 {% endif %}
                 {% if editions[locale].youth and(devotion.variant !== 'youth') %}
                   <a href="/{{ locale }}/youth/{{ devotion.number }}"
-                     class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">
+                     class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-semibold">
                     <button>{{ editions[locale].youth }}</button>
                   </a>
                 {% endif %}
                 {% if editions[locale].express and(devotion.variant !== 'express') %}
                   <a href="/{{ locale }}/express/{{ devotion.number }}"
-                     class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">
+                     class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-semibold">
                     <button>{{ editions[locale].express }}</button>
                   </a>
                 {% endif %}
                 {% if not editions[locale]
                   .youth and not editions[locale]
                   .express %}
-                  <span class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">No other editions available in your chosen language</span>
+                  <span class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-semibold">No other editions available in your chosen language</span>
                 {% endif %}
               </div>
             </div>
             <div class="relative">
               <button @click="showLanguages = !showLanguages"
-                      class="flex items-center justify-center rounded-[2px] border border-red bg-transparent px-2 text-xs uppercase text-black md:px-3 md:text-lg pt-1 md:font-medium">
+                      class="flex items-center justify-center rounded-[2px] border border-red bg-transparent px-2 text-xs uppercase text-black md:px-3 md:text-lg pt-1 md:font-semibold">
                 {{ locale }}
               </button>
               <div x-cloak
@@ -65,7 +65,7 @@
                    class="absolute flex flex-col mt-3 divide-y-2 min-w-max md:mt-7 bg-red">
                 {% for lang in globals.languages %}
                   {% if lang.locale != locale %}
-                    <a class="flex py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium  min-w-max"
+                    <a class="flex py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-semibold  min-w-max"
                        :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">
                       <span class="col-start-1 col-end-3">{{ lang.language }}</span>
                       <div class="flex justify-end col-start-3 col-end-4">
@@ -112,26 +112,26 @@
                 <div x-cloak x-show="showEditions" class="divide-y-2 divide-white">
                   {% if devotion.variant !== 'classic' %}
                     <a href="/{{ locale }}/classic/{{ devotion.number }}"
-                       class="bg-red block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">
+                       class="bg-red block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-semibold">
                       <button>{{ editions[locale].classic }}</button>
                     </a>
                   {% endif %}
                   {% if editions[locale].youth and(devotion.variant !== 'youth') %}
                     <a href="/{{ locale }}/youth/{{ devotion.number }}"
-                       class="bg-red block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">
+                       class="bg-red block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-semibold">
                       <button>{{ editions[locale].youth }}</button>
                     </a>
                   {% endif %}
                   {% if editions[locale].express and(devotion.variant !== 'express') %}
                     <a href="/{{ locale }}/express/{{ devotion.number }}"
-                       class="bg-red block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">
+                       class="bg-red block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-semibold">
                       <button>{{ editions[locale].express }}</button>
                     </a>
                   {% endif %}
                   {% if not editions[locale]
                     .youth and not editions[locale]
                     .express %}
-                    <span class="bg-red block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium">No other editions available in your chosen language</span>
+                    <span class="bg-red block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-semibold">No other editions available in your chosen language</span>
                   {% endif %}
                 </div>
               </div>
@@ -139,7 +139,7 @@
                 <div x-cloak x-show="showLanguages" class="divide-y-2 divide-white bg-red">
                   {% for lang in globals.languages %}
                     {% if lang.locale != locale %}
-                      <a class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-medium"
+                      <a class="block py-[14px] px-4 text-[14px] leading-4 text-white font-normal md:font-semibold"
                          :href="parsePageUrl('{{ page.url }}', '{{ lang.locale }}')">
                         <div class="grid grid-cols-3 gap-3 min-w-max">
                           <span class="col-start-1 col-end-3">{{ lang.language }}</span>
@@ -190,22 +190,22 @@
     <a href="/{{ locale }}#start"
        class="flex flex-col items-center justify-center gap-y-1">
       {% svgSprite name="bnap", class="fill-current h-5 w-auto aspect-[1.8] sm:h-6 " %}
-      <span class="text-center text-[14px] font-medium leading-[17px]">{{ navigation[locale].start }}</span>
+      <span class="text-center text-[14px] font-semibold leading-[17px]">{{ navigation[locale].start }}</span>
     </a>
     <a href="/{{ locale }}/about"
        class="flex flex-col items-center justify-center gap-y-1">
       {% svgSprite name="about", class="fill-current h-5 w-auto aspect-[1.8] sm:h-6 " %}
-      <span class="text-center text-[14px] font-medium leading-[17px]">{{ navigation[locale].about }}</span>
+      <span class="text-center text-[14px] font-semibold leading-[17px]">{{ navigation[locale].about }}</span>
     </a>
     <a href="/{{ locale }}/faqs"
        class="flex flex-col items-center justify-center gap-y-1">
       {% svgSprite name="help", class="fill-current h-5 w-auto aspect-[1.8] sm:h-6 " %}
-      <span class="text-center text-[14px] font-medium leading-[17px]">{{ navigation[locale].faqs }}</span>
+      <span class="text-center text-[14px] font-semibold leading-[17px]">{{ navigation[locale].faqs }}</span>
     </a>
     <a href="/{{ locale }}/donate"
        class="flex flex-col items-center justify-center gap-y-1">
       {% svgSprite name="donate", class="fill-current h-5 w-auto aspect-[1.8] sm:h-6 " %}
-      <span class="text-center text-[14px] font-medium leading-[17px]">{{ navigation[locale].donate }}</span>
+      <span class="text-center text-[14px] font-semibold leading-[17px]">{{ navigation[locale].donate }}</span>
     </a>
   </nav>
 </div>

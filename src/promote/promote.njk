@@ -16,7 +16,7 @@ activePage: promote
             </h2>
             <p class="mt-2 text-center text-[18px] leading-9 tracking-[1%] md:mt-8">{{ promote[locale].share.subTitle | safe }}</p>
             <a href="{{ promote[locale].share.cta.link }}"
-               class="mx-auto mt-8 inline-block max-w-max rounded border border-red bg-red px-3 py-5 text-[16px] font-medium leading-5 text-white transition-colors hover:bg-white hover:text-red md:row-start-2 md:px-6">{{ promote[locale].share.cta.text }}</a>
+               class="mx-auto mt-8 inline-block max-w-max rounded border border-red bg-red px-3 py-5 text-[16px] font-semibold leading-5 text-white transition-colors hover:bg-white hover:text-red md:row-start-2 md:px-6">{{ promote[locale].share.cta.text }}</a>
         </section>
         <section class="mt-[54px] grid grid-cols-1 place-items-center gap-y-4 lg:grid-cols-3 lg:gap-x-11 lg:mt-[88px]">
             {% for image in promote[locale].share.images %}
@@ -25,7 +25,7 @@ activePage: promote
             {% endfor %}
         </section>
         <a href="{{ promote[locale].share.cta.link }}"
-           class="mx-auto mt-[88px] inline-block max-w-max rounded border border-red bg-red px-3 py-5 text-[16px] font-medium leading-5 text-white transition-colors hover:bg-white hover:text-red md:px-6">
+           class="mx-auto mt-[88px] inline-block max-w-max rounded border border-red bg-red px-3 py-5 text-[16px] font-semibold leading-5 text-white transition-colors hover:bg-white hover:text-red md:px-6">
             {{ promote[locale].share.cta.text }}
         </a>
     </div>

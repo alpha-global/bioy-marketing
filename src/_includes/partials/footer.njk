@@ -1,76 +1,85 @@
 <footer>
-  <p class="p-4 mt-12 font-medium text-lg text-center md:text-xl md:text-auto lg:container lg:mx-auto">
+  <p class="p-4 mt-12 text-lg font-semibold text-center md:text-xl md:text-auto lg:container lg:mx-auto">
     {{ site.title }}
   </p>
-
-  <div class="bg-stone text-center md:text-auto mb-16 md:mb-0">
-
-    <div class="lg:container p-4 mx-auto grid gap-4 md:grid-cols-2">
+  <div class="mb-16 text-center bg-stone md:text-auto md:mb-0">
+    <div class="grid gap-4 p-4 mx-auto lg:container md:grid-cols-2">
       <div>
         {{ footer[locale].headline }}
-
         <div class="mt-4 mb-4">
           {{ footer[locale].cta }}
-
-          <div class="max-w-sm grid gap-4 grid-cols-2 md:flex mx-auto md:mx-0">
-            <a href="{{ globals.stores.ios }}" class="block" target="_blank" rel="noopener">
-              {% svgSprite name="app-store-ios", class="h-16 w-full md:w-32" %}
+          <div class="grid max-w-sm grid-cols-2 gap-4 mx-auto md:flex md:mx-0">
+            <a href="{{ globals.stores.ios }}"
+               class="block"
+               target="_blank"
+               rel="noopener">
+              {% svgSprite name="app-store-ios", class="w-full h-16 md:w-32" %}
               <span class="visually-hidden">Download on the App Store</span>
             </a>
-            <a href="{{ globals.stores.android }}" class="block" target="_blank" rel="noopener">
-              {% svgSprite name="app-store-android", class="h-16 w-full md:w-32" %}
+            <a href="{{ globals.stores.android }}"
+               class="block"
+               target="_blank"
+               rel="noopener">
+              {% svgSprite name="app-store-android", class="w-full h-16 md:w-32" %}
               <span class="visually-hidden">Get it on Google Play</span>
             </a>
           </div>
         </div>
-
-        <div class="inline-flex gap-2 items-center justify-center md:justify-start">
+        <div class="inline-flex items-center justify-center gap-2 md:justify-start">
           {% if footer[locale].social.instagram %}
-            <a href="https://instagram.com/{{ footer[locale].social.instagram }}" rel="noopener" target="_blank" class="flex items-center justify-center rounded-full bg-red text-white fill-current h-10 w-10 hover:bg-red-dark">
-              {% svgSprite name="instagram", class="h-6 w-6 fill-current" %}
+            <a href="https://instagram.com/{{ footer[locale].social.instagram }}"
+               rel="noopener"
+               target="_blank"
+               class="flex items-center justify-center w-10 h-10 text-white rounded-full fill-current bg-red hover:bg-red-dark">
+              {% svgSprite name="instagram", class="w-6 h-6 fill-current" %}
               <span class="visually-hidden">Instagram</span>
             </a>
           {% endif %}
-
           {% if footer[locale].social.facebook %}
-            <a href="https://facebook.com/{{ footer[locale].social.facebook }}" rel="noopener" target="_blank" class="flex items-center justify-center rounded-full bg-red text-white fill-current h-10 w-10 hover:bg-red-dark">
-              {% svgSprite name="facebook", class="h-6 w-6 fill-current" %}
+            <a href="https://facebook.com/{{ footer[locale].social.facebook }}"
+               rel="noopener"
+               target="_blank"
+               class="flex items-center justify-center w-10 h-10 text-white rounded-full fill-current bg-red hover:bg-red-dark">
+              {% svgSprite name="facebook", class="w-6 h-6 fill-current" %}
               <span class="visually-hidden">Facebook</span>
             </a>
           {% endif %}
-
           {% if footer[locale].social.twitter %}
-            <a href="https://twitter.com/{{ footer[locale].social.twitter }}" rel="noopener" target="_blank" class="flex items-center justify-center rounded-full bg-red text-white fill-current h-10 w-10 hover:bg-red-dark">
-              {% svgSprite name="twitter", class="h-6 w-6 fill-current" %}
+            <a href="https://twitter.com/{{ footer[locale].social.twitter }}"
+               rel="noopener"
+               target="_blank"
+               class="flex items-center justify-center w-10 h-10 text-white rounded-full fill-current bg-red hover:bg-red-dark">
+              {% svgSprite name="twitter", class="w-6 h-6 fill-current" %}
               <span class="visually-hidden">Twitter</span>
             </a>
           {% endif %}
           {% if footer[locale].social.contact %}
-            <a href="{{ footer[locale].social.contact }}" rel="noopener" target="_blank" class="flex items-center justify-center rounded-full bg-red text-white fill-current h-10 w-10 hover:bg-red-dark">
-              {% svgSprite name="contact", class="h-6 w-6 fill-current" %}
+            <a href="{{ footer[locale].social.contact }}"
+               rel="noopener"
+               target="_blank"
+               class="flex items-center justify-center w-10 h-10 text-white rounded-full fill-current bg-red hover:bg-red-dark">
+              {% svgSprite name="contact", class="w-6 h-6 fill-current" %}
               <span class="visually-hidden">Contact</span>
             </a>
           {% endif %}
         </div>
-
       </div>
-
       <ul class="md:grid md:gap-4 md:grid-cols-2 md:w-2/3 md:justify-self-end md:mt-8">
         {% for link in footer[locale].nav %}
           <li class="inline-block">
-            <a href="{{ link.href }}" class="inline-block p-2 md:p-0 underline text-red hover:text-red-darker hover:no-underline"{% if link.external %} target="_blank" rel="noopener"{% endif %}>
-              {{ link.label }}</a>
+            <a href="{{ link.href }}"
+               class="inline-block p-2 underline md:p-0 text-red hover:text-red-darker hover:no-underline"
+               {% if link.external %}target="_blank" rel="noopener"{% endif %}>{{ link.label }}</a>
           </li>
         {% endfor %}
       </ul>
-
       <div class="text-xs text-grey">
-        {% if footer[locale].copyright.description %}
-          <p class="my-2">{{ footer[locale].copyright.description }}</p>
-        {% endif %}
+        {% if footer[locale].copyright.description %}<p class="my-2">{{ footer[locale].copyright.description }}</p>{% endif %}
         {% if footer[locale].copyright.title %}
-          <p class="my-2">&copy; {{ footer[locale].copyright.title }}
-            {{ globals.currentYear }}</p>
+          <p class="my-2">
+            &copy; {{ footer[locale].copyright.title }}
+            {{ globals.currentYear }}
+          </p>
         {% endif %}
       </div>
     </div>

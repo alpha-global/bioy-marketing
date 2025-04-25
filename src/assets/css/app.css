@@ -3,113 +3,68 @@
 @tailwind utilities;
 
 @layer base {
-  @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Work+Sans:wght@400;700&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Work+Sans:wght@400;700&display=swap');
 
-  @font-face {
-    font-family: "AvantGardeGothicITC";
-    src: url("/assets/fonts/ITCAvantGardeStd-Md.eot");
-    src: url("/assets/fonts/ITCAvantGardeStd-Md.eot?#iefix")
-        format("embedded-opentype"),
-      url("/assets/fonts/ITCAvantGardeStd-Md.woff2") format("woff2"),
-      url("/assets/fonts/ITCAvantGardeStd-Md.woff") format("woff"),
-      url("/assets/fonts/ITCAvantGardeStd-Md.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: "AvantGardeGothicITC";
-    src: url("/assets/fonts/ITCAvantGardeStd-Demi.eot");
-    src: url("/assets/fonts/ITCAvantGardeStd-Demi.eot?#iefix")
-        format("embedded-opentype"),
-      url("/assets/fonts/ITCAvantGardeStd-Demi.woff2") format("woff2"),
-      url("/assets/fonts/ITCAvantGardeStd-Demi.woff") format("woff"),
-      url("/assets/fonts/ITCAvantGardeStd-Demi.ttf") format("truetype");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: "AvantGardeGothicITC";
-    src: url("/assets/fonts/ITCAvantGardeStd-Bold.eot");
-    src: url("/assets/fonts/ITCAvantGardeStd-Bold.eot?#iefix")
-        format("embedded-opentype"),
-      url("/assets/fonts/ITCAvantGardeStd-Bold.woff2") format("woff2"),
-      url("/assets/fonts/ITCAvantGardeStd-Bold.woff") format("woff"),
-      url("/assets/fonts/ITCAvantGardeStd-Bold.ttf") format("truetype");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-  }
-  @font-face {
-    font-family: "AvantGardeGothicITC";
-    src: url("/assets/fonts/ITCAvantGardeStdXLt.otf");
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-  }
   /* Input Range Default Styles */
-  input[type="range"] {
-    @apply appearance-none outline-none bg-transparent border-none;
+  input[type='range'] {
+    @apply appearance-none border-none bg-transparent outline-none;
   }
-  input[type="range"]::-webkit-slider-thumb {
+  input[type='range']::-webkit-slider-thumb {
     @apply appearance-none;
   }
 
-  input[type="range"]:focus {
+  input[type='range']:focus {
     @apply outline-none;
   }
 
-  input[type="range"]::-ms-track {
-    @apply w-full cursor-pointer bg-transparent border-none;
+  input[type='range']::-ms-track {
+    @apply w-full cursor-pointer border-none bg-transparent;
   }
 
-  input[type="range"]::-webkit-slider-thumb {
-    @apply appearance-none h-3 w-3 bg-red border-none rounded-full cursor-pointer -mt-1;
+  input[type='range']::-webkit-slider-thumb {
+    @apply -mt-1 h-3 w-3 cursor-pointer appearance-none rounded-full border-none bg-red;
   }
-  input[type="range"]::-moz-range-thumb {
-    @apply appearance-none h-3 w-3 bg-red border-none rounded-full cursor-pointer;
+  input[type='range']::-moz-range-thumb {
+    @apply h-3 w-3 cursor-pointer appearance-none rounded-full border-none bg-red;
   }
-  input[type="range"]::-ms-thumb {
-    @apply appearance-none h-3 w-3 bg-red border-none rounded-full cursor-pointer;
+  input[type='range']::-ms-thumb {
+    @apply h-3 w-3 cursor-pointer appearance-none rounded-full border-none bg-red;
   }
 
-  input[type="range"]::-webkit-slider-runnable-track {
-    @apply bg-white cursor-pointer h-1 w-full;
+  input[type='range']::-webkit-slider-runnable-track {
+    @apply h-1 w-full cursor-pointer bg-white;
   }
-  input[type="range"]::-moz-range-track {
-    @apply bg-white cursor-pointer h-1 w-full;
+  input[type='range']::-moz-range-track {
+    @apply h-1 w-full cursor-pointer bg-white;
   }
-  input[type="range"]::-ms-track {
-    @apply bg-white cursor-pointer h-1 w-full;
+  input[type='range']::-ms-track {
+    @apply h-1 w-full cursor-pointer bg-white;
   }
-  input[type="range"]::-ms-fill-lower {
+  input[type='range']::-ms-fill-lower {
     @apply bg-red;
   }
-  input[type="range"]::-ms-fill-upper {
+  input[type='range']::-ms-fill-upper {
     @apply bg-red;
   }
-  input[type="range"]::-moz-range-progress {
+  input[type='range']::-moz-range-progress {
     @apply bg-red;
   }
   /* WebKit does not support progress styling https://dev.to/munkacsimark/styled-range-input-a-way-out-of-range-input-nightmare-jeo */
-  input[type="range"] {
+  input[type='range'] {
     --webkitProgressPercent: 0%;
   }
-  input[type="range"]::-webkit-slider-runnable-track {
+  input[type='range']::-webkit-slider-runnable-track {
     background-image: linear-gradient(
       90deg,
-      theme("colors.red.DEFAULT") var(--webkitProgressPercent),
+      theme('colors.red.DEFAULT') var(--webkitProgressPercent),
       #e5e5e5 var(--webkitProgressPercent)
     );
   }
 
-  [dir="rtl"] input[type="range"]::-webkit-slider-runnable-track {
+  [dir='rtl'] input[type='range']::-webkit-slider-runnable-track {
     background-image: linear-gradient(
       -90deg,
-      theme("colors.red.DEFAULT") var(--webkitProgressPercent),
+      theme('colors.red.DEFAULT') var(--webkitProgressPercent),
       #e5e5e5 var(--webkitProgressPercent)
     );
   }
@@ -119,25 +74,25 @@
 
 @layer components {
   .btn {
-    @apply rounded p-2 pb-1.5 transition-colors no-underline;
+    @apply rounded p-2 pb-1.5 no-underline transition-colors;
   }
 
   .whiteButton {
-    @apply inline-block text-red bg-white border border-red rounded p-2 pb-1.5 transition-colors;
+    @apply inline-block rounded border border-red bg-white p-2 pb-1.5 text-red transition-colors;
   }
 
   .whiteButton:hover {
-    @apply bg-red-dark text-white border-red-dark;
+    @apply border-red-dark bg-red-dark text-white;
   }
 
   .standoutQuote {
     @apply relative pl-3 italic;
-    quotes: "\201C""\201D""\2018""\2019";
+    quotes: '\201C' '\201D' '\2018' '\2019';
   }
 
   .standoutQuote:before,
   .standoutQuote:after {
-    @apply text-red text-2xl not-italic;
+    @apply text-2xl not-italic text-red;
   }
 
   .standoutQuote:before {
@@ -151,35 +106,35 @@
   }
 
   .title {
-    @apply text-black font-bold text-title md:text-title-medium lg:text-title-large;
+    @apply text-title font-bold text-black md:text-title-medium lg:text-title-large;
   }
   .subtitle {
-    @apply text-black font-normal text-subtitle md:text-subtitle-medium lg:text-subtitle-large;
+    @apply text-subtitle font-normal text-black md:text-subtitle-medium lg:text-subtitle-large;
   }
   .prose {
     @apply text-black;
   }
   /* use this when prose becomes a pain */
   .alt-prose p {
-    @apply text-black mt-4;
+    @apply mt-4 text-black;
   }
   .alt-prose a {
     @apply font-medium underline;
   }
 
   .podcast-link {
-    @apply flex items-center space-x-4 rtl:space-x-reverse border rounded px-3 py-2 text-sm text-white hover:text-red w-full hover:bg-white hover:opacity-80 hover:border-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red;
+    @apply flex w-full items-center space-x-4 rounded border px-3 py-2 text-sm text-white hover:border-white hover:bg-white hover:text-red hover:opacity-80 focus:outline-none focus:ring-2 focus:ring-red focus:ring-offset-2 rtl:space-x-reverse;
   }
 
   .podcast-pagination {
-    @apply rounded-full h-4 w-4 flex items-center justify-center border-2 hover:bg-white;
+    @apply flex h-4 w-4 items-center justify-center rounded-full border-2 hover:bg-white;
   }
 
   .audio__icons {
-    @apply h-6 sm:h-8 md:h-10 w-1/2;
+    @apply h-6 w-1/2 sm:h-8 md:h-10;
   }
   .audio__controls {
-    @apply rounded-full h-8 w-8 sm:h-12 sm:w-12 md:h-14 md:w-14 flex items-center justify-center hover:bg-red/10 active:bg-red/20 focus:bg-transparent focus:outline-none focus-visible:ring focus-within:bg-red/10 focus:ring-red/10 transition duration-100 ease-out hover:ease-in active:ease-in webkit-tap-highlight-color disabled:cursor-not-allowed disabled:hover:bg-transparent;
+    @apply webkit-tap-highlight-color flex h-8 w-8 items-center justify-center rounded-full transition duration-100 ease-out focus-within:bg-red/10 hover:bg-red/10 hover:ease-in focus:bg-transparent focus:outline-none focus:ring-red/10 focus-visible:ring active:bg-red/20 active:ease-in disabled:cursor-not-allowed disabled:hover:bg-transparent sm:h-12 sm:w-12 md:h-14 md:w-14;
   }
 
   [x-cloak] {
@@ -211,14 +166,14 @@
   }
 
   .bioy-medium li {
-    @apply list-outside ml-4;
+    @apply ml-4 list-outside;
   }
 
   .u-bannerImage {
     clip-path: url(#headerMobile);
   }
 
-  [dir="rtl"] .u-bannerImage {
+  [dir='rtl'] .u-bannerImage {
     clip-path: url(#headerMobile-rtl);
   }
 
@@ -227,7 +182,7 @@
       clip-path: url(#headerDesktop);
     }
 
-    [dir="rtl"] .u-bannerImage {
+    [dir='rtl'] .u-bannerImage {
       clip-path: url(#headerDesktop-rtl);
     }
   }
@@ -237,7 +192,7 @@
       clip-path: url(#NandPclipper);
     }
 
-    [dir="rtl"] .u-NandPclipper {
+    [dir='rtl'] .u-NandPclipper {
       clip-path: url(#NandPclipper-rtl);
     }
   }
@@ -257,21 +212,20 @@
   input.mce_inline_error {
     @apply !border-red;
   }
-
 }
 
-[dir="rtl"] .prose ul > li,
-[dir="rtl"] .prose ol > li {
+[dir='rtl'] .prose ul > li,
+[dir='rtl'] .prose ol > li {
   @apply pl-0 pr-7;
 }
 
-[dir="rtl"] .prose ul > li:before,
-[dir="rtl"] .prose ol > li:before {
+[dir='rtl'] .prose ul > li:before,
+[dir='rtl'] .prose ol > li:before {
   @apply left-auto right-0;
 }
 
-[dir="rtl"] .prose blockquote {
-  @apply pl-0 pr-2 border-l-0;
+[dir='rtl'] .prose blockquote {
+  @apply border-l-0 pl-0 pr-2;
   border-right-width: 0.25rem;
   border-right-color: #e5e7eb;
 }
@@ -280,7 +234,7 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-#FA__QP__BODYWRAPPERDIV input[type="checkbox"] {
+#FA__QP__BODYWRAPPERDIV input[type='checkbox'] {
   appearance: auto;
   -webkit-appearance: auto;
   -moz-appearance: auto;

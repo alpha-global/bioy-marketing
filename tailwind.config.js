@@ -13,7 +13,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ['"AvantGardeGothicITC"', "Helvetica", "Arial", "sans-serif"],
+      sans: ["itc-avant-garde-gothic-pro", "Helvetica", "Arial", "sans-serif"],
       commentary: ['"Work Sans"', "Helvetica", "Arial", "sans-serif"],
       scripture: ['"Merriweather"', "serif"],
     },
