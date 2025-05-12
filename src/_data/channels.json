@@ -13,7 +13,7 @@
         "description": "Registriere dich jetzt, um \"Bibel in Einem Jahr\" jeden Morgen in deinem Posteingang zu haben. Du bekommst jeden Tag eine E-Mail.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>\n"
+          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>\n"
         }
       },
       {
@@ -47,7 +47,7 @@
         "description": "Sign up now to receive The Bible with Nicky and Pippa Gumbel in your inbox each morning. You’ll get one email each day.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>"
+          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>"
         }
       },
       {
@@ -77,7 +77,7 @@
         "description": "Subscribe now to receive The Bible with Nicky and Pippa Gumbel in your inbox each morning. You’ll get one email each day.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>"
+          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>"
         }
       },
       {
@@ -117,7 +117,7 @@
         "description": "Iscriviti ora per ricevere Bibbia in un anno nella tua casella di posta ogni mattina. Riceverai un'email al giorno.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>"
+          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>"
         }
       },
       {
@@ -151,7 +151,7 @@
         "description": "Inscrivez-vous maintenant pour recevoir la Bible en 1 an dans votre boîte de réception chaque matin. Vous recevrez un e-mail par jour.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>\n"
+          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>\n"
         }
       },
       {
@@ -179,7 +179,7 @@
         "description": "Receive a daily email with a fresh devotion straight in your inbox.",
         "image": "/assets/img/medium_app.jpg",
         "cta": {
-          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>"
+          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>"
         }
       },
       {
@@ -210,7 +210,7 @@
         "description": "Sign up now to receive The Bible with Nicky and Pippa Gumbel in your inbox each morning. You’ll get one email each day.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>"
+          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>"
         }
       },
       {
@@ -234,7 +234,7 @@
         "description": "سجل الآن لتحصل على الكتاب المقدس في عام واحد على بريدك الإلكتروني كل صباح. ستتلقى بريدًا إلكترونيًا واحدًا كل يوم.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "<button @click=\"toggleZohoForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>\n<iframe x-ref=\"zohoFormIframe\" frameborder=\"0\" class=\"w-full h-full fixed hidden inset-0 z-20\" src='https://forms.zohopublic.eu/bioy/form/BibleinOneYear/formperma/F0X_3v_TN2OCNlM9zoo4nxtZUlrE0G6dUWxm1gMQOrA'></iframe>\n<button x-ref=\"zohoFormCloseButton\" @click=\"toggleZohoForm\" class=\"bg-red fixed hidden p-3 right-4 rounded-full top-2 z-30 lg:right-1/3\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"h-6 w-6 text-white\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\" />\n    </svg>\n</button>"
+          "code": "<button @click=\"toggleZohoForm\" class=\"inline-block bg-white rounded p-2 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>\n<iframe x-ref=\"zohoFormIframe\" frameborder=\"0\" class=\"w-full h-full fixed hidden inset-0 z-20\" src='https://forms.zohopublic.eu/bioy/form/BibleinOneYear/formperma/F0X_3v_TN2OCNlM9zoo4nxtZUlrE0G6dUWxm1gMQOrA'></iframe>\n<button x-ref=\"zohoFormCloseButton\" @click=\"toggleZohoForm\" class=\"bg-red fixed hidden p-3 right-4 rounded-full top-2 z-30 lg:right-1/3\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"h-6 w-6 text-white\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\" />\n    </svg>\n</button>"
         }
       },
       {
@@ -273,7 +273,7 @@
         "description": "Đăng ký ngay bây giờ để nhận Kinh thánh trong một năm trong hộp thư đến của bạn mỗi sáng. Bạn sẽ nhận được một email mỗi ngày.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>"
+          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>"
         }
       },
       {
@@ -307,7 +307,7 @@
         "description": "Sign up now to receive The Bible with Nicky and Pippa Gumbel in your inbox each morning. You’ll get one email each day.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>"
+          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>"
         }
       },
       {
@@ -332,7 +332,7 @@
         "description": "Subscribe now to receive The Bible with Nicky and Pippa Gumbel in your inbox each morning. You’ll get one email each day.",
         "image": "/assets/img/medium_email.jpg",
         "cta": {
-          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 pb-1.5 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>"
+          "code": "<button @click=\"openMCForm\" class=\"inline-block bg-white rounded p-2 text-red hover:bg-red hover:text-white transition-colors\">Sign up now</button>"
         }
       },
       {
