@@ -24,7 +24,7 @@
           <div class="absolute flex mt-6 lg:mt-9 gap-x-11 md:gap-x-6">
             <div class="relative">
               <button @click="showEditions = !showEditions"
-                      class="flex items-center justify-center rounded-[2px] border border-red bg-transparent px-2 text-xs uppercase text-black md:px-3 md:text-lg pt-1 md:font-semibold">
+                      class="flex items-center justify-center rounded-[2px] border border-red bg-transparent px-2 text-xs uppercase text-black md:px-3 md:text-lg py-1 md:font-semibold">
                 <span>{{ devotion.variant }}</span>
               </button>
               <div x-cloak
@@ -57,7 +57,7 @@
             </div>
             <div class="relative">
               <button @click="showLanguages = !showLanguages"
-                      class="flex items-center justify-center rounded-[2px] border border-red bg-transparent px-2 text-xs uppercase text-black md:px-3 md:text-lg pt-1 md:font-semibold">
+                      class="flex items-center justify-center rounded-[2px] border border-red bg-transparent px-2 text-xs uppercase text-black md:px-3 md:text-lg py-1 md:font-semibold">
                 {{ locale }}
               </button>
               <div x-cloak
@@ -180,7 +180,7 @@
         <a href="/{{ locale }}/donate">{{ navigation[locale].donate }}</a>
       </div>
       <a :href="deviceUrl('{{ locale }}', '{{ globals.stores.android }}', '{{ globals.stores.ios }}')"
-         class="inline-block rounded border border-red bg-red p-2 pb-1.5 text-white transition-colors hover:bg-white hover:text-red"> {{ navigation[locale].download }} </a>
+         class="inline-block p-2 text-white transition-colors border rounded border-red bg-red hover:bg-white hover:text-red"> {{ navigation[locale].download }} </a>
     </div>
   </nav>
 </div>
