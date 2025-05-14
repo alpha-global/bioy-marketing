@@ -8,7 +8,7 @@ imageBanner: true
     <div class="flex flex-col gap-y-[88px] divide-y divide-red lg:flex-row lg:divide-x lg:divide-y-0 ltr:lg:divide-x-reverse">
       <section class="grid grid-cols-1 gap-y-8 lg:py-[34px] lg:w-1/2 lg:order-last">
         <div class="max-w-[412px] mx-auto">
-          <h2 class="text-center text-[18px] font-medium leading-[22px] tracking-[1%] lg:text-2xl lg:leading-[26px]">
+          <h2 class="text-center text-[18px] font-semibold leading-[22px] tracking-[1%] lg:text-2xl lg:leading-[26px]">
             {{ promote[locale].promote.title | highlightFirstWord | safe }}
           </h2>
         </div>
@@ -59,7 +59,7 @@ imageBanner: true
       </section>
       <section class="grid grid-cols-1 pt-[87px] lg:py-[34px] lg:w-1/2">
         <div class="max-w-[412px] mx-auto">
-          <h2 class="text-center text-[18px] font-medium leading-[22px] tracking-[1%] lg:text-2xl lg:leading-[26px]">
+          <h2 class="text-center text-[18px] font-semibold leading-[22px] tracking-[1%] lg:text-2xl lg:leading-[26px]">
             {{ promote[locale].promote.subTitle |  highlightFirstWord | safe }}
           </h2>
         </div>
@@ -69,7 +69,7 @@ imageBanner: true
         </div>
         <div class="mx-auto">
           <a href="/{{ locale }}/promote/"
-             class=" max-w-max rounded border border-red bg-red px-3 py-5 text-[16px] font-medium leading-5 text-white transition-colors hover:bg-white hover:text-red lg:px-6">
+             class=" max-w-max rounded border border-red bg-red px-3 py-5 text-[16px] font-semibold leading-5 text-white transition-colors hover:bg-white hover:text-red lg:px-6">
             {{ promote[locale].promote.howToShare | highlightLastWord | safe }}
           </a>
         </div>

@@ -3,27 +3,24 @@ layout: page
 locale: en
 ---
 
-<div class="p-4 lg:container mx-auto">
+<div class="p-4 mx-auto lg:container">
   <section class="max-w-md mb-4 md:md-8">
-    <h1 class="text-2xl md:text-4xl mb-2 font-medium">The Bible with Nicky and Pippa Gumbel</h1>
-
-    <p>is an easy and accessible way to read and understand the Bible written by Nicky and Pippa Gumbel from HTB Church, London.</p>
+    <h1 class="mb-2 text-2xl font-semibold md:text-4xl">The Bible with Nicky and Pippa Gumbel</h1>
+    <p>
+      is an easy and accessible way to read and understand the Bible written by Nicky and Pippa Gumbel from HTB Church, London.
+    </p>
   </section>
-
   <section>
-    <h2 class="text-xl md:text-2xl mb-2">Pick your language:</h2>
-
+    <h2 class="mb-2 text-xl md:text-2xl">Pick your language:</h2>
     <div>
       {% for lang in globals.languages %}
         <div class="mr-4">
-          <a href="/{{ lang.locale }}" class="underline text-red hover:text-red-dark">{{ lang.language }}</a>
+          <a href="/{{ lang.locale }}"
+             class="underline text-red hover:text-red-dark">{{ lang.language }}</a>
         </div>
       {% endfor %}
     </div>
   </section>
 </div>
-
-<script
-  type="text/javascript"
-  src="https://identity.netlify.com/v1/netlify-identity-widget.js"
-></script>
+<script type="text/javascript"
+        src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
