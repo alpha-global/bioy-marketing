@@ -474,12 +474,6 @@
         "detailedAnswer": "Yes. Tap any of the sections presented under ‘Today’s Reading’ at the start of the devotion to quickly jump to that section. We have also built a navigation menu that is located above the play button. Tap on the book icon above the play button to open a pop-up menu with the option to navigate to any section of the devotion."
       },
       {
-        "title": "Help, my app is ‘locking’ and ‘bouncing’ in certain screens and pieces of content.",
-        "category": "App",
-        "shortAnswer": "The latest version of the app has improvements to help users distinguish between sections and reflect on what they have been reading. To continue reading, swipe up to read the next section.",
-        "detailedAnswer": "The latest version of the app has improvements to help users distinguish between sections and reflect on what they have been reading. To continue reading, swipe up to read the next section."
-      },
-      {
         "title": "How can I manage audio?",
         "category": "Audio",
         "shortAnswer": "The app allows users to download audio in two different ways, manual and automatic.\n\nManual - audio can be downloaded by swiping left on a day and tapping the download icon. This provides a high level of control as to what is on your device at any time and it is recommended that you manually delete the audio from your device once you have finished listening to it.\n\nAutomatic - controlled by a section within Settings, the app is able to automatically download a number of audio days for you, up to a limit that you set. It will delete the audio from your device if you listen to it all the way through. The app will stop automatically downloading new audio when it reaches the limit. This happens when you have lots of automatically downloaded audio that you have only partially listened to. To resolve this, clear out your audio downloads: navigate to Menu > Settings > Manage Audio and select the audio you wish to delete.\n\n\n\n",
@@ -496,18 +490,6 @@
         "category": "App",
         "shortAnswer": "When installing the app for the first time you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both access the same devotion on the same day, reset your app. Tap on Menu > Settings > Reset App.",
         "detailedAnswer": "When installing the app for the first time you are able to choose any day to start from (for example: Day 256 or Day 1). This means that not everyone will be reading the same devotion as you are today. To synchronise your app with your friend’s app, and both access the same devotion on the same day, reset the app. Tap on Menu > Settings > Reset App. Follow the prompts indicating that you are familiar with the Bible and then select the edition you wish to use and the day number that your friend completed yesterday. You will then find the app opens to the list view with the following day number marked Today and all the previous devotions marked complete."
-      },
-      {
-        "title": "I can't access app content, my app shows a white screen instead",
-        "category": "Content",
-        "shortAnswer": " This bug is known to us and we are working hard to fix it. In the meantime, please use this interim solution:\n\nLong press on the app icon (whether on the home screen shortcut of your device, or from the menu/list of apps within google play)\n• Tap ‘App Info’\n• Tap ‘Force stop’\n• Try opening the app again\n",
-        "detailedAnswer": "This issue where the app brings up a white screen rather than any content seems to be affecting a small number of Android users. Please use this interim fix while we work on a better solution.\n\n• Long press on the app icon (whether on the home screen shortcut of your device, or from the menu/list of apps within google play)\n• Tap ‘App Info’\n• Tap ‘Force stop’\n• Try opening the app again\n\nYou can also read the devotions online on our website https://bibleinoneyear.org or by subscribing to the daily email. If you prefer the audio, you can listen to the devotions as podcasts (Spotify, Apple, Google podcasts).\n\nWe do apologise and ask for your patience whilst we prioritise fixing this."
-      },
-      {
-        "title": "How can I access 2024 content?",
-        "category": "Content",
-        "shortAnswer": "If your app is still showing last year's content, you can go to Menu > Settings > Reset app. This will take you through the onboarding process again, allowing you to select your start day and give you access to the most recent content.",
-        "detailedAnswer": "The app logic is built to ask users if they would like to restart the year only once they have completed 255 days of readings, including Dec 31st. If you would like to restart the readings from the beginning before this point, you can do so by going to Menu > Settings > Reset app. \n\nThis will take you through the onboarding process again, allowing you to select your start day and giving you access to the latest content. Please check your app is up to date (version 8.4.1 or later) if you can’t see the ‘reset’ button."
       },
       {
         "title": "Has The Bible with Nicky and Pippa Gumbel commentary been updated?",
