@@ -1,0 +1,26 @@
+---
+layout: landing
+pagination:
+  data: globals.locales
+  size: 1
+  alias: locale
+permalink: "{{ locale }}/30days/index.html"
+---
+
+{% include "./blocks/hero.njk" %}
+<section class="container flex justify-center pb-10 mx-auto">
+  <iframe class="w-full h-[315px] md:h-[560px] max-w-[1200px]"
+          src="https://www.youtube.com/embed/d5oqfztzXB0?si=nx3ajicfuAe4vTZN&amp;controls=0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+</section>
+{% include "./blocks/blurb.njk" %}
+<section class="container flex justify-center mx-auto">
+  {% blockImage '/assets/img/30daysoverview.jpg', "overview" , "(min-width: 640px) 60vw,
+  100vw", "w-auto max-w-[1200px] overflow-hidden object-center " %}
+</section>
+{% include "./blocks/links.njk" %}
+{% include "./blocks/promote.njk" %}
