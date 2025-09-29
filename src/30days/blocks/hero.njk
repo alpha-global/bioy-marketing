@@ -1,14 +1,12 @@
-<section class="bg-red h-32 w-full sm:bg-[green] md:bg-[yellow] lg:bg-[purple] xl:bg-[pink]">
-</section>
 <section class="lg:container lg:mx-auto grid gap-[75px] grid-cols-1 lg:grid-cols-2 pt-[42px] lg:pb-[190px] ">
     <div class="lg:relative lg:justify-end lg:h-full lg:flex-col lg:flex">
         <div class="lg:absolute lg:-bottom-[100px]">
             {% blockImage '/assets/img/30days-hero.jpg', "hero" , "(min-width: 640px) 60vw,
-            100vw", "w-auto overflow-hidden object-center " %}
+            100vw", " w-full lg:w-auto overflow-hidden object-center " %}
         </div>
     </div>
     <div class="row-start-1 lg:row-start-auto">
-        <div>
+        <div class="flex justify-end items-end">
             {% blockImage '/assets/img/hero-right.jpg', "hero" , "(min-width: 640px) 60vw,
             100vw", "w-auto overflow-hidden object-center " %}
         </div>
