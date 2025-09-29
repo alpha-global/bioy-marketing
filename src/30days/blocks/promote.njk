@@ -1,0 +1,25 @@
+{% set images = ["/assets/img/30promo1.jpg", "/assets/img/30promo2.jpg", "/assets/img/30promo3.jpg"] %}
+<div class="container px-4 mx-auto py-[38px] lg:py-[204px]">
+    <div class="grid grid-cols-1">
+        <section class="grid grid-cols-1 md:mx-auto md:max-w-[774px]">
+            <h2 class="text-center text-[32px] font-bold leading-[44px] text-[#333333] md:text-[53px] md:font-semibold md:leading-[64px]">
+                Share with your church, friends or anyone you know.
+            </h2>
+            <p class="mt-2 text-center text-[18px] leading-9 tracking-[1%] md:mt-8">
+                This promotional pack includes images and videos for you to share on social media or at church, Alpha, Christian events and elsewhere.
+            </p>
+            <a href=""
+               class="mx-auto mt-8 inline-block max-w-max rounded border border-red bg-red px-3 py-5 text-[16px] font-semibold leading-5 text-white transition-colors hover:bg-white hover:text-red md:row-start-2 md:px-6">Download Promotional Pack</a>
+        </section>
+        <section class="mt-[54px] grid grid-cols-1 place-items-center gap-y-4 lg:grid-cols-3 lg:gap-x-11 lg:mt-[88px]">
+            {% for image in images %}
+                {% blockImage image, "share image" , "(min-width: 640px) 60vw,
+                100vw", "w-auto overflow-hidden object-center aspect-square" %}
+            {% endfor %}
+        </section>
+        <a href=""
+           class="mx-auto mt-[88px] inline-block max-w-max rounded border border-red bg-red px-3 py-5 text-[16px] font-semibold leading-5 text-white transition-colors hover:bg-white hover:text-red md:px-6">
+            Download Promotional Pack
+        </a>
+    </div>
+</div>

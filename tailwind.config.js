@@ -16,6 +16,7 @@ module.exports = {
       sans: ["itc-avant-garde-gothic-pro", "Helvetica", "Arial", "sans-serif"],
       commentary: ['"Work Sans"', "Helvetica", "Arial", "sans-serif"],
       scripture: ['"Merriweather"', "serif"],
+      jakarta: ['"Plus Jakarta Sans"', "sans-serif"],
     },
     boxShadow: {
       none: "0 0 #000",
