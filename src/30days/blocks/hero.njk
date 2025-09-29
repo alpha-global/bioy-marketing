@@ -1,0 +1,50 @@
+<section class="bg-red h-32 w-full sm:bg-[green] md:bg-[yellow] lg:bg-[purple] xl:bg-[pink]">
+</section>
+<section class="lg:container lg:mx-auto grid gap-[75px] grid-cols-1 lg:grid-cols-2 pt-[42px] lg:pb-[190px] ">
+    <div class="lg:relative lg:justify-end lg:h-full lg:flex-col lg:flex">
+        <div class="lg:absolute lg:-bottom-[100px]">
+            {% blockImage '/assets/img/30days-hero.jpg', "hero" , "(min-width: 640px) 60vw,
+            100vw", "w-auto overflow-hidden object-center " %}
+        </div>
+    </div>
+    <div class="row-start-1 lg:row-start-auto">
+        <div>
+            {% blockImage '/assets/img/hero-right.jpg', "hero" , "(min-width: 640px) 60vw,
+            100vw", "w-auto overflow-hidden object-center " %}
+        </div>
+        <div class="flex gap-y-[26px] flex-col max-w-[418px] font-jakarta px-4 lg:px-0 ">
+            <h2 class="text-5xl font-bold">
+                Try 30 Days
+                <br />
+                an introduction to Bible reading
+            </h2>
+            <p class="text-2xl font-light leading-[130%]">
+                If you're new to the Bible, looking for something simpler, or want a shorter introduction to Scripture, then 30 Days is the perfect place to start.
+            </p>
+            <div class="flex flex-col lg:flex-row gap-[26px] font-semibold text-[26px] leading-3">
+                <a href="https://www.bible.com/organizations/452aa645-ff2c-4a22-81e1-1e51718c5663?utm_source=bnapweb&utm_medium=page&utm_campaign=30days"
+                   class="flex gap-x-2 items-center text-red">YouVersion
+                    <svg width="19"
+                         height="19"
+                         viewBox="0 0 19 19"
+                         fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.45197 9.10538H15.0749" stroke="black" stroke-width="1.51756" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M9.76343 3.79395L15.0749 9.1054L9.76343 14.4168" stroke="black" stroke-width="1.51756" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+                <a href="https://www.youtube.com/@alpha_bnap?utm_source=bnapweb&utm_medium=page&utm_campaign=30days"
+                   class="flex gap-x-2 items-center text-red">YouTube
+                    <svg width="19"
+                         height="19"
+                         viewBox="0 0 19 19"
+                         fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.45197 9.10538H15.0749" stroke="black" stroke-width="1.51756" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M9.76343 3.79395L15.0749 9.1054L9.76343 14.4168" stroke="black" stroke-width="1.51756" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
