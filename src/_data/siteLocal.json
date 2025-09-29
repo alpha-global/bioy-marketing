@@ -107,18 +107,18 @@
       "goHomeButton": "Go Home"
     },
     "promo": {
-      "img": "/assets/img/pop-up3.jpg",
-      "endDate": "2024-04-14",
-      "promoID": "lc-2024-3",
-      "youTubeURL": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
-      "text": "The Leadership Conference is just around the corner on the 6-7 May 2024. LC24 is a unique opportunity for leaders in every sphere to gather as one, encounter Jesus, and be filled with the Holy Spirit. This year we will welcome the following contributors: Danielle Strickland, Lecrae, Carey Nieuwhof, Dr Johannes Hartl, Jennie Allen, Fr Hayden Williams, Tom Holland, Mark Varughese, Pete Greig, and more.",
-      "startDate": "2024-04-12",
-      "youTubeVideoLink": "https://www.youtube.com/watch?v=hsdKJnJv9zU",
-      "acceptText": "Register today",
-      "dismissText": "No Thanks",
-      "title": "It's nearly here!",
+      "img": "/assets/img/30days-modal-promo.jpg",
+      "endDate": "2025-10-09",
+      "promoID": "30days-2025",
+      "youTubeURL": "",
+      "text": "An overview of the Bible in just 30 days with this accessible and engaging video Bible plan featuring 30 key messages from Nicky Gumbel. Available on YouTube.",
+      "startDate": "2025-09-29",
+      "youTubeVideoLink": "",
+      "acceptText": "Check out the 30 Days plan",
+      "dismissText": "Remind me later",
+      "title": "Introducing 30 Days",
       "type": "modal",
-      "ctaUrl": "https://www.leadershipconference.org.uk/lc24?utm_source=bnap&utm_medium=popup&utm_campaign=lc24.3"
+      "ctaUrl": "https://www.youtube.com/@alpha_bnap?utm_source=bnapweb&utm_medium=popup&utm_campaign=30days"
     },
     "ticket": {
       "title": "Ask a question about The Bible with Nicky and Pippa Gumbel",
