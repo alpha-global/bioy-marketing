@@ -10,6 +10,12 @@ export default () => {
     redirectRoot() {
       const relativeUrl = window.location.pathname;
       if (relativeUrl !== "/") return;
+      
+      const hash = window.location.hash;
+      if (hash.includes('recovery_token=') || hash.includes('confirmation_token=')) {
+        return; 
+      }
+      
       const browserLanguage = navigator.language || 'en';
       const supportedLanguages = ['en', 'ar', 'de', 'fr', 'hi', 'id', 'it', 'es', 'th', 'vi', 'zh'];
       let locale;
