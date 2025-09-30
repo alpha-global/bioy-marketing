@@ -8,7 +8,7 @@
         {{ footer[locale].headline }}
         <div class="mt-4 mb-4">
           {{ footer[locale].cta }}
-          <div class="grid max-w-sm grid-cols-2 gap-4 mx-auto md:flex md:mx-0">
+          <div class="grid grid-cols-2 gap-4 mx-auto max-w-sm md:flex md:mx-0">
             <a href="{{ globals.stores.ios }}"
                class="block"
                target="_blank"
@@ -25,12 +25,12 @@
             </a>
           </div>
         </div>
-        <div class="inline-flex items-center justify-center gap-2 md:justify-start">
+        <div class="inline-flex gap-2 justify-center items-center md:justify-start">
           {% if footer[locale].social.instagram %}
             <a href="https://instagram.com/{{ footer[locale].social.instagram }}"
                rel="noopener"
                target="_blank"
-               class="flex items-center justify-center w-10 h-10 text-white rounded-full fill-current bg-red hover:bg-red-dark">
+               class="flex justify-center items-center w-10 h-10 text-white rounded-full fill-current bg-red hover:bg-red-dark">
               {% svgSprite name="instagram", class="w-6 h-6 fill-current" %}
               <span class="visually-hidden">Instagram</span>
             </a>
@@ -39,7 +39,7 @@
             <a href="https://facebook.com/{{ footer[locale].social.facebook }}"
                rel="noopener"
                target="_blank"
-               class="flex items-center justify-center w-10 h-10 text-white rounded-full fill-current bg-red hover:bg-red-dark">
+               class="flex justify-center items-center w-10 h-10 text-white rounded-full fill-current bg-red hover:bg-red-dark">
               {% svgSprite name="facebook", class="w-6 h-6 fill-current" %}
               <span class="visually-hidden">Facebook</span>
             </a>
@@ -48,7 +48,7 @@
             <a href="https://twitter.com/{{ footer[locale].social.twitter }}"
                rel="noopener"
                target="_blank"
-               class="flex items-center justify-center w-10 h-10 text-white rounded-full fill-current bg-red hover:bg-red-dark">
+               class="flex justify-center items-center w-10 h-10 text-white rounded-full fill-current bg-red hover:bg-red-dark">
               {% svgSprite name="twitter", class="w-6 h-6 fill-current" %}
               <span class="visually-hidden">Twitter</span>
             </a>
@@ -57,9 +57,18 @@
             <a href="{{ footer[locale].social.contact }}"
                rel="noopener"
                target="_blank"
-               class="flex items-center justify-center w-10 h-10 text-white rounded-full fill-current bg-red hover:bg-red-dark">
+               class="flex justify-center items-center w-10 h-10 text-white rounded-full fill-current bg-red hover:bg-red-dark">
               {% svgSprite name="contact", class="w-6 h-6 fill-current" %}
               <span class="visually-hidden">Contact</span>
+            </a>
+          {% endif %}
+          {% if footer[locale].social.youtube %}
+            <a href="https://youtube.com/{{ footer[locale].social.youtube }}"
+               rel="noopener"
+               target="_blank"
+               class="flex justify-center items-center w-10 h-10 text-white rounded-full fill-current bg-red hover:bg-red-dark">
+              {% svgSprite name="youtube", class="w-6 h-6 fill-current" %}
+              <span class="visually-hidden">YouTube</span>
             </a>
           {% endif %}
         </div>

@@ -683,6 +683,14 @@ collections:
                         hint: 'URL part after instagram.com',
                       },
                       {
+                        name: youtube,
+                        label: YouTube,
+                        widget: string,
+                        i18n: true,
+                        required: false,
+                        hint: 'URL part after youtube.com',
+                      },
+                      {
                         name: contact,
                         label: Contact,
                         widget: string,
