@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: sco-424-add-youtube-to-website-footer
+  branch: main
 
 i18n:
   structure: single_file
@@ -688,7 +688,7 @@ collections:
                         widget: string,
                         i18n: true,
                         required: false,
-                        hint: 'YouTube URL',
+                        hint: 'URL part after youtube.com',
                       },
                       {
                         name: contact,
