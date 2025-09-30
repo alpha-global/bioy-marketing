@@ -124,6 +124,11 @@
     "cta": "Download the app today",
     "nav": [
       {
+        "href": "/en/30days/",
+        "label": "30 Days",
+        "external": false
+      },
+      {
         "href": "https://www.alpha.org/",
         "label": "Alpha",
         "external": true
