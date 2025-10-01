@@ -12,7 +12,7 @@ export default () => {
       if (relativeUrl !== "/") return;
       
       const hash = window.location.hash;
-      if (hash.includes('recovery_token=') || hash.includes('confirmation_token=')) {
+      if (hash.includes('recovery_token=') || hash.includes('confirmation_token=') || hash.includes('invite_token=')) {
         return; 
       }
       
