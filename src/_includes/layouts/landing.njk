@@ -4,7 +4,8 @@ imageBanner: true
 ---
 
 {% if page.fileSlug === "home" %}
-  <div class="container px-4 pt-32 mx-auto pb-14 lg:pt-36 lg:pb-20">
+  {% include '../partials/video-hero.njk' %}
+  <div class="container px-4 pt-32 pb-14 mx-auto lg:pt-36 lg:pb-20">
     <div class="flex flex-col gap-y-[88px] divide-y divide-red lg:flex-row lg:divide-x lg:divide-y-0 ltr:lg:divide-x-reverse">
       <section class="grid grid-cols-1 gap-y-8 lg:py-[34px] lg:w-1/2 lg:order-last">
         <div class="max-w-[412px] mx-auto">
@@ -78,7 +79,7 @@ imageBanner: true
   </div>
 {% else %}
   <header class="text-center md:flex md:text-right md:rtl:text-left">
-    <div class="w-full mb-8 md:w-3/5">
+    <div class="mb-8 w-full md:w-3/5">
       {% if lang.header.img.src %}
         {% blockImage lang.header.img.src, lang.header.img.desc , "(min-width: 640px) 60vw, 100vw", "u-bannerImage mb-4 md:mb-8" %}
         <svg height="0" width="0">
@@ -99,13 +100,13 @@ imageBanner: true
         </svg>
       {% endif %}
     </div>
-    <div class="w-10/12 mx-auto mb-4 md:w-2/5 md:flex md:flex-col md:justify-center md:p-4">
-      <h1 class="mb-4 title ">{{ lang.header.title | protectRunts | safe }}</h1>
+    <div class="mx-auto mb-4 w-10/12 md:w-2/5 md:flex md:flex-col md:justify-center md:p-4">
+      <h1 class="mb-4 title">{{ lang.header.title | protectRunts | safe }}</h1>
       <h2 class="mb-4 subtitle">{{ lang.header.strapline | protectRunts | safe }}</h2>
       {% if lang.header.cta %}
         <div>
           <a {% if page.fileSlug === 'about' %} href="#cta" {% else %} id="today"  href="/{{ locale }}/{{ variant }}/{{ globals.today }}" {% endif %}
-             class="inline-block bg-red border border-red rounded p-2 pb-1.5 text-white hover:bg-white hover:text-red transition-colors">
+             class="inline-block p-2 pb-1.5 text-white rounded border transition-colors bg-red border-red hover:bg-white hover:text-red">
             {{ lang.header.cta }}
           </a>
         </div>
