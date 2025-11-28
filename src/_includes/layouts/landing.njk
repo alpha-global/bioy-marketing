@@ -13,7 +13,7 @@ imageBanner: true
             {{ promote[locale].promote.title | highlightFirstWord | safe }}
           </h2>
         </div>
-        <div class="flex flex-col justify-center items-center">
+        <div class="flex flex-col gap-y-6 justify-center items-center">
           <div class="hidden lg:block lg:mx-auto lg:mt-9">
             {% blockImage promote[locale].promote.qrCode.image, "QR Code" , "(min-width: 640px) 60vw,
             100vw", "w-auto overflow-hidden object-center aspect-square h-[315px]" %}
