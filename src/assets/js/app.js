@@ -7,6 +7,7 @@ import faqsView from './faqsViewModel.js';
 import mediumView from './mediumViewModel.js';
 import promo from './promo.js';
 import testimonialsSlider from './testimonialsSliderModel.js';
+import videoHero from './videoHeroModel.js';
 
 import langSwitcher from './langSwitcher.js';
 
@@ -18,5 +19,6 @@ Alpine.data('mediumView', mediumView);
 Alpine.data('promo', promo);
 Alpine.data('langSwitcher', langSwitcher);
 Alpine.data('testimonialsSlider', testimonialsSlider);
+Alpine.data('videoHero', videoHero);
 Alpine.plugin(intersect)
 Alpine.start();
