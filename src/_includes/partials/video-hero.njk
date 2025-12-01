@@ -26,6 +26,7 @@
   </div>
   <video x-ref="player"
          :controls="isPlaying ? true : null"
+         x-init="$el.poster = window.innerWidth < 1024 ? 'https://storage.googleapis.com/bnap-website/uploads/bnap-video-landscape-thumbnail.jpg' : ''"
          playsinline="playsinline"
          class="w-full aspect-video">
     <source src="https://storage.googleapis.com/bnap-website/uploads/bnap-video-landscape.webm"
