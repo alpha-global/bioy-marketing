@@ -5,6 +5,12 @@ imageBanner: true
 
 {% if page.fileSlug === "home" %}
   {% include '../partials/video-hero.njk' %}
+  <div class="container px-4 mx-auto pt-[30px] flex items-center justify-center">
+    <a href="/{{ locale }}/promote/"
+       class=" max-w-max rounded border border-red bg-red px-3 py-5 text-[16px] font-semibold leading-5 text-white transition-colors hover:bg-white hover:text-red lg:px-6">
+      {{ promote[locale].promote.howToShare | highlightLastWord | safe }}
+    </a>
+  </div>
   <div class="container px-4 pt-32 pb-14 mx-auto lg:pb-20">
     <div class="flex flex-col gap-y-[88px] ">
       <section class="grid grid-cols-1 gap-y-8 lg:py-[34px] lg:grid-cols-2 lg:place-items-center">
@@ -54,7 +60,7 @@ imageBanner: true
             </a>
           </div>
           <a href="/{{ locale }}/classic/{{ globals.today }}"
-             class="text-center text-[18px] font-normal leading-4 tracking-[1%] text-black flex items-center justify-center gap-x-[15px]">
+             class="text-center text-[18px] font-normal leading-4 tracking-[1%] text-red flex items-center justify-center gap-x-[15px]">
             <span>{{ promote[locale].promote.ctaText }}</span>
             {% svgSprite name="arrow-right", class="size-6 text-black-scrim rtl:rotate-180" %}
           </a>
