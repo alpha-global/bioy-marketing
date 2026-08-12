@@ -76,9 +76,7 @@
     <main class="grow">
       {{ layoutContent | safe }}
     </main>
-    {% if page.fileSlug !== 'donate' %}
-      {% include "partials/footer.njk" %}
-    {% endif %}
+    {% include "partials/footer.njk" %}
     <div x-show="isCookieBoxOpen"
          class="fixed z-10 flex flex-col p-4 bg-white bottom-20 bg-opacity-90 drop-shadow-lg filter right-4 left-4 sm:bottom-24 md:bottom-4 md:max-w-md md:right-auto">
       <p class="text-sm">
