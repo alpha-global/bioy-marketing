@@ -235,3 +235,117 @@
 .webkit-tap-highlight-color {
   -webkit-tap-highlight-color: transparent;
 }
+
+/*
+ * FormAssembly injects the donation form and its own stylesheet into the page.
+ * Restore browser defaults first so Tailwind's preflight, form styles and
+ * utility classes do not change how the same form looks on FormAssembly.
+ *
+ * `:where(#BNAP)` keeps the extra selector specificity at zero. This lets the
+ * FormAssembly stylesheet, which is injected later, win the cascade normally.
+ */
+#BNAP {
+  font: initial;
+  line-height: normal;
+  text-align: initial;
+}
+
+:where(#BNAP)
+  :is(
+    a,
+    b,
+    blockquote,
+    button,
+    dd,
+    div,
+    dl,
+    dt,
+    fieldset,
+    figcaption,
+    figure,
+    form,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    hr,
+    img,
+    input,
+    label,
+    legend,
+    li,
+    ol,
+    optgroup,
+    option,
+    p,
+    select,
+    small,
+    span,
+    strong,
+    table,
+    tbody,
+    td,
+    textarea,
+    tfoot,
+    th,
+    thead,
+    tr,
+    ul
+  ) {
+  all: revert;
+}
+
+/* Match the specificity of Tailwind Forms' attribute-based selectors. */
+:where(#BNAP)
+  :is(
+    [multiple],
+    [type='checkbox'],
+    [type='date'],
+    [type='datetime-local'],
+    [type='email'],
+    [type='month'],
+    [type='number'],
+    [type='password'],
+    [type='radio'],
+    [type='search'],
+    [type='tel'],
+    [type='text'],
+    [type='time'],
+    [type='url'],
+    [type='week'],
+    input:not([type]),
+    select,
+    textarea
+  ) {
+  all: revert;
+}
+
+:where(#BNAP) :is(input, textarea)::placeholder {
+  all: revert;
+}
+
+/*
+ * Tailwind Preflight also applies border-box to every pseudo-element. The
+ * giving-frequency controls build their radio rings with a bordered
+ * label::before and FormAssembly sizes that ring as content-box.
+ */
+:where(#BNAP) ::before,
+:where(#BNAP) ::after {
+  box-sizing: content-box;
+}
+
+:where(#BNAP)
+  :is([type='checkbox'], [type='radio']):is(:checked, :focus, :indeterminate) {
+  all: revert;
+}
+
+:where(#BNAP) :is([type='checkbox'], [type='radio']):checked:is(:focus, :hover) {
+  all: revert;
+}
+
+/* FormAssembly uses `inline` to describe a field layout, not display:inline. */
+:where(#BNAP) :is(.block, .flex, .hidden, .inline, .inline-block, .inline-flex) {
+  all: revert;
+}
