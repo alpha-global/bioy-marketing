@@ -15,20 +15,22 @@ activePage: donate
 <section class="container mx-auto">
   {# FA CSP allows framing from https origins only (not local http). #}
   <iframe id="donate-form"
-          src="https://alphagiving.tfaforms.net/90?faIframeUniqueId=bnap-donate"
           title="Donate"
           class="w-full border-0"
-          style="min-height: 1100px"
-          loading="lazy"
-          scrolling="no"></iframe>
+          height="800"></iframe>
 </section>
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
+  (function () {
     const iframe = document.getElementById('donate-form');
     if (!iframe) return;
 
     const FA_ORIGIN = 'https://alphagiving.tfaforms.net';
     const IFRAME_ID = 'bnap-donate';
+    const params = new URLSearchParams({
+      faIframeUniqueId: IFRAME_ID,
+      hostURL: window.location.href,
+    });
+    iframe.src = FA_ORIGIN + '/90?' + params.toString();
 
     window.addEventListener('message', function (event) {
       if (event.origin !== FA_ORIGIN) return;
@@ -42,13 +44,18 @@ activePage: donate
 
       const height = parseInt(command, 10);
       if (!Number.isNaN(height) && height > 0) {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        iframe.height = height;
         iframe.style.height = height + 'px';
+        setTimeout(function () {
+          document.documentElement.scrollTop = document.body.scrollTop = scrollTop;
+        }, 0);
         return;
       }
 
-      if (command === 'pagechange' || command.indexOf('pagechangeIOS_') === 0) {
+      if (command === 'pagechange' || command.indexOf('pagechangeIOS_') === 0 || command === 'submitted') {
         iframe.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
     });
-  });
+  })();
 </script>
