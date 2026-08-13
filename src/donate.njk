@@ -13,8 +13,66 @@ activePage: donate
   {% if lang.intro %}{{ lang.intro|markdown|safe }}{% endif %}
 </section>
 <section class="container mx-auto">
-  <div id="BNAP"></div>
+  <div class="relative">
+    <div id="donation-form-loading"
+         class="flex flex-col gap-3 justify-center items-center min-h-40"
+         role="status">
+      <span class="w-10 h-10 rounded-full border-4 animate-spin border-grey-light border-t-red"
+            aria-hidden="true"></span>
+      <span class="text-grey"></span>
+    </div>
+    <div id="donation-form-error"
+         class="justify-center items-center text-center min-h-40"
+         role="alert"
+         hidden>
+      <p>
+        <a class="underline text-red"
+           href="https://alphagiving.tfaforms.net/90"
+           target="_blank"
+           rel="noopener">Open the donation form</a>
+      </p>
+    </div>
+    <div id="BNAP" aria-busy="true"></div>
+  </div>
+  <script>
+    (function () {
+      const formTarget = document.getElementById('BNAP');
+      const loadingState = document.getElementById('donation-form-loading');
+      const errorState = document.getElementById('donation-form-error');
+      let loadTimeout;
+
+      function formHasLoaded() {
+        return formTarget.querySelector('.wFormContainer, .wForm, form');
+      }
+
+      function hideLoadingState() {
+        loadingState.hidden = true;
+        loadingState.classList.remove('flex');
+      }
+
+      function showForm() {
+        clearTimeout(loadTimeout);
+        hideLoadingState();
+        errorState.hidden = true;
+        errorState.classList.remove('flex');
+        formTarget.setAttribute('aria-busy', 'false');
+        document.removeEventListener('FA__DOMContentLoaded', showForm);
+      }
+
+      window.bnapDonationFormFailed = function () {
+        if (formHasLoaded()) return;
+        hideLoadingState();
+        errorState.hidden = false;
+        errorState.classList.add('flex');
+        formTarget.setAttribute('aria-busy', 'false');
+      };
+
+      document.addEventListener('FA__DOMContentLoaded', showForm);
+      loadTimeout = setTimeout(window.bnapDonationFormFailed, 20000);
+    })();
+  </script>
   <script src="https://alphagiving.tfaforms.net/publish/wf/wfY7LNx"
           data-qp-target-id="BNAP"
+          onerror="window.bnapDonationFormFailed()"
           defer></script>
 </section>
